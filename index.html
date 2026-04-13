@@ -66,6 +66,71 @@
       transform: translateY(0);
     }
 
+    /* HubSpot form overrides */
+    #hubspot-form .hs-custom-form .hs-form-field { margin-bottom: 16px; }
+    #hubspot-form .hs-custom-form label {
+      display: block;
+      text-align: left;
+      color: rgba(255,255,255,0.8);
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 6px;
+      font-family: 'Lato', sans-serif;
+    }
+    #hubspot-form .hs-custom-form .hs-input {
+      width: 100% !important;
+      padding: 12px 16px;
+      background: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      color: #1a1a18;
+      font-family: 'Lato', sans-serif;
+      outline: none;
+      transition: box-shadow 0.15s;
+    }
+    #hubspot-form .hs-custom-form .hs-input:focus {
+      box-shadow: 0 0 0 2px #639922;
+    }
+    #hubspot-form .hs-custom-form .hs-error-msgs {
+      list-style: none;
+      padding: 0;
+      margin: 4px 0 0;
+    }
+    #hubspot-form .hs-custom-form .hs-error-msgs li label {
+      color: #fca5a5 !important;
+      font-size: 12px !important;
+    }
+    #hubspot-form .hs-custom-form .hs-submit { margin-top: 8px; }
+    #hubspot-form .hs-custom-form .hs-button {
+      width: 100%;
+      padding: 14px 24px;
+      background: #639922;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      font-family: 'Lato', sans-serif;
+      border: none;
+      border-radius: 9999px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+    }
+    #hubspot-form .hs-custom-form .hs-button:hover { background: #3B6D11; }
+    #hubspot-form .hs-custom-form .submitted-message {
+      color: white;
+      font-size: 18px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      text-align: center;
+      padding: 16px 0;
+    }
+    /* Make first/last name side by side */
+    #hubspot-form .hs-custom-form fieldset { max-width: 100% !important; }
+    #hubspot-form .hs-custom-form fieldset .hs-form-field { display: inline-block; vertical-align: top; }
+    #hubspot-form .hs-custom-form fieldset.form-columns-2 .hs-form-field { width: 48% !important; }
+    #hubspot-form .hs-custom-form fieldset.form-columns-2 .hs-form-field:first-child { margin-right: 4%; }
+
     /* Nav transition */
     #main-nav {
       transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -657,107 +722,23 @@
           </p>
         </div>
 
-        <!-- HubSpot Form Container -->
-        <!--
-          ============================================================
-          HUBSPOT FORM INTEGRATION
-          ============================================================
-          To enable the HubSpot form:
-          1. Replace YOUR_PORTAL_ID and YOUR_FORM_ID below
-          2. Uncomment the script tags
-          3. Optionally hide the fallback form by adding class "hidden"
-             to the div with id="fallback-form"
-          ============================================================
-        -->
-        <div id="signup-form" class="max-w-md mx-auto fade-in">
-          <form id="waitlist-form" class="bg-white/10 backdrop-blur-sm rounded-card p-8 border border-white/20">
-            <div class="space-y-4">
-              <div class="grid grid-cols-2 gap-4">
-                <div>
-                  <label for="firstname" class="block text-left text-white/80 text-sm font-medium mb-1.5">First Name</label>
-                  <input type="text" id="firstname" name="firstname" required
-                    class="w-full px-4 py-3 bg-white rounded-lg text-farm-text placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-farm-mid border-0">
-                </div>
-                <div>
-                  <label for="lastname" class="block text-left text-white/80 text-sm font-medium mb-1.5">Last Name</label>
-                  <input type="text" id="lastname" name="lastname" required
-                    class="w-full px-4 py-3 bg-white rounded-lg text-farm-text placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-farm-mid border-0">
-                </div>
-              </div>
-              <div>
-                <label for="email" class="block text-left text-white/80 text-sm font-medium mb-1.5">Email</label>
-                <input type="email" id="email" name="email" required
-                  class="w-full px-4 py-3 bg-white rounded-lg text-farm-text placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-farm-mid border-0">
-              </div>
-              <button type="submit" id="submit-btn"
-                class="w-full px-6 py-3.5 bg-farm-mid text-white font-semibold rounded-full hover:bg-farm-green transition-colors shadow-lg text-lg mt-2">
-                Join the Waitlist
-              </button>
-            </div>
-            <p class="text-white/50 text-xs mt-4">No spam. Just updates on the launch and early access.</p>
-          </form>
-
-          <!-- Success message (hidden by default) -->
-          <div id="form-success" class="hidden bg-white/10 backdrop-blur-sm rounded-card p-8 border border-white/20 text-center">
-            <svg class="w-16 h-16 text-farm-light mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-            </svg>
-            <h3 class="font-heading text-2xl font-semibold text-white mb-2">You're on the list!</h3>
-            <p class="text-white/80">We'll be in touch soon with next steps.</p>
-          </div>
-
-          <!-- Error message (hidden by default) -->
-          <div id="form-error" class="hidden mt-4 bg-red-500/20 text-white text-sm rounded-lg p-3 text-center">
-            Something went wrong. Please try again or email us directly.
+        <!-- HubSpot Embedded Form (styled to match landing page) -->
+        <div id="hubspot-form-wrapper" class="max-w-md mx-auto fade-in">
+          <div class="bg-white/10 backdrop-blur-sm rounded-card p-8 border border-white/20">
+            <div id="hubspot-form"></div>
+            <p class="text-white/50 text-xs mt-4 hs-footer-note">No spam. Just updates on the launch and early access.</p>
           </div>
         </div>
 
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
         <script>
-          document.getElementById('waitlist-form').addEventListener('submit', async function(e) {
-            e.preventDefault();
-            const btn = document.getElementById('submit-btn');
-            const errorEl = document.getElementById('form-error');
-            errorEl.classList.add('hidden');
-            btn.textContent = 'Submitting...';
-            btn.disabled = true;
-
-            const data = {
-              fields: [
-                { name: 'firstname', value: document.getElementById('firstname').value },
-                { name: 'lastname', value: document.getElementById('lastname').value },
-                { name: 'email', value: document.getElementById('email').value }
-              ],
-              context: {
-                pageUri: window.location.href,
-                pageName: document.title
-              }
-            };
-
-            // Include HubSpot tracking cookie if available
-            const hutk = document.cookie.match(/hubspotutk=([^;]*)/);
-            if (hutk) data.context.hutk = hutk[1];
-
-            try {
-              const res = await fetch(
-                'https://api.hsforms.com/submissions/v3/integration/submit/5156324/036c50fb-2650-48ba-a1af-eb12a8f1074e',
-                {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/json' },
-                  body: JSON.stringify(data)
-                }
-              );
-
-              if (res.ok) {
-                document.getElementById('waitlist-form').classList.add('hidden');
-                document.getElementById('form-success').classList.remove('hidden');
-              } else {
-                throw new Error('Submission failed');
-              }
-            } catch (err) {
-              errorEl.classList.remove('hidden');
-              btn.textContent = 'Join the Waitlist';
-              btn.disabled = false;
-            }
+          hbspt.forms.create({
+            region: "na1",
+            portalId: "5156324",
+            formId: "036c50fb-2650-48ba-a1af-eb12a8f1074e",
+            target: "#hubspot-form",
+            css: "",
+            cssClass: "hs-custom-form"
           });
         </script>
       </div>

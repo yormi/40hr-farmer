@@ -657,7 +657,7 @@
           </p>
         </div>
 
-        <!-- Custom styled form -->
+        <!-- Waitlist signup form -->
         <div id="signup-form" class="max-w-md mx-auto fade-in">
           <form id="waitlist-form" class="bg-white/10 backdrop-blur-sm rounded-card p-8 border border-white/20">
             <div class="space-y-4">
@@ -699,23 +699,8 @@
           </div>
         </div>
 
-        <!-- Hidden HubSpot form for analytics tracking (view count, submission count) -->
-        <div id="hs-form-hidden" style="position:absolute;left:-9999px;height:0;overflow:hidden;"></div>
-
-        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
         <script>
-          // Load hidden HubSpot form for tracking — it registers a "view" on load
-          var hsFormReady = false;
-          hbspt.forms.create({
-            region: "na1",
-            portalId: "5156324",
-            formId: "036c50fb-2650-48ba-a1af-eb12a8f1074e",
-            target: "#hs-form-hidden",
-            onFormReady: function($form) { hsFormReady = $form; }
-          });
-
-          // Custom form submits to both: HubSpot API (creates contact) + hidden embed (tracks submission)
-          document.getElementById('waitlist-form').addEventListener('submit', async function(e) {
+          document.getElementById('waitlist-form').addEventListener('submit', function(e) {
             e.preventDefault();
             var btn = document.getElementById('submit-btn');
             var errorEl = document.getElementById('form-error');
@@ -723,49 +708,37 @@
             btn.textContent = 'Submitting...';
             btn.disabled = true;
 
-            var firstname = document.getElementById('firstname').value;
-            var lastname = document.getElementById('lastname').value;
-            var email = document.getElementById('email').value;
-
-            // 1) Submit to HubSpot Forms API (creates contact)
-            var data = {
+            var data = JSON.stringify({
               fields: [
-                { name: 'firstname', value: firstname },
-                { name: 'lastname', value: lastname },
-                { name: 'email', value: email }
+                { name: 'firstname', value: document.getElementById('firstname').value },
+                { name: 'lastname', value: document.getElementById('lastname').value },
+                { name: 'email', value: document.getElementById('email').value }
               ],
               context: {
                 pageUri: window.location.href,
                 pageName: document.title
               }
-            };
-            var hutk = document.cookie.match(/hubspotutk=([^;]*)/);
-            if (hutk) data.context.hutk = hutk[1];
+            });
 
-            try {
-              var res = await fetch(
-                'https://api.hsforms.com/submissions/v3/integration/submit/5156324/036c50fb-2650-48ba-a1af-eb12a8f1074e',
-                { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }
-              );
-              if (!res.ok) throw new Error('API failed');
-
-              // 2) Also submit the hidden HubSpot embed form for analytics tracking
-              if (hsFormReady) {
-                try {
-                  hsFormReady.find('input[name="firstname"]').val(firstname);
-                  hsFormReady.find('input[name="lastname"]').val(lastname);
-                  hsFormReady.find('input[name="email"]').val(email).change();
-                  hsFormReady.submit();
-                } catch(e) { /* silent — analytics is best-effort */ }
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://api.hsforms.com/submissions/v3/integration/submit/5156324/036c50fb-2650-48ba-a1af-eb12a8f1074e');
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.onload = function() {
+              if (xhr.status === 200) {
+                document.getElementById('waitlist-form').classList.add('hidden');
+                document.getElementById('form-success').classList.remove('hidden');
+              } else {
+                errorEl.classList.remove('hidden');
+                btn.textContent = 'Join the Waitlist';
+                btn.disabled = false;
               }
-
-              document.getElementById('waitlist-form').classList.add('hidden');
-              document.getElementById('form-success').classList.remove('hidden');
-            } catch (err) {
+            };
+            xhr.onerror = function() {
               errorEl.classList.remove('hidden');
               btn.textContent = 'Join the Waitlist';
               btn.disabled = false;
-            }
+            };
+            xhr.send(data);
           });
         </script>
       </div>

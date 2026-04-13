@@ -14,8 +14,14 @@
   <!-- Favicon: inline SVG leaf -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M8 28C8 28 6 18 16 10C26 2 28 4 28 4C28 4 30 6 22 16C14 26 4 24 4 24' fill='%233B6D11'/><path d='M8 28C8 28 10 20 16 14' stroke='%2327500A' stroke-width='1.5' fill='none'/></svg>">
 
-  <!-- HubSpot Tracking Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5156324.js"></script>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQYKVYCWYN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PQYKVYCWYN');
+  </script>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -725,6 +731,11 @@
             xhr.setRequestHeader('Content-Type', 'application/json');
             xhr.onload = function() {
               if (xhr.status === 200) {
+                // Track conversion in GA4
+                gtag('event', 'waitlist_signup', {
+                  event_category: 'conversion',
+                  event_label: 'waitlist_form'
+                });
                 document.getElementById('waitlist-form').classList.add('hidden');
                 document.getElementById('form-success').classList.remove('hidden');
               } else {

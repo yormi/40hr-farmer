@@ -1,0 +1,124 @@
+<!--
+  FAQ section, ready to paste into index.html.
+
+  Recommended placement: between <section id="pricing"> and <section id="testimonials">.
+  Rationale: pricing raises practical questions, FAQ answers them, testimonials then
+  provide social proof. Background color (farm-light) distinguishes it from the
+  farm-bg pricing section above and the white testimonials section below.
+
+  Uses native <details>/<summary> for accordion behavior. No JS required.
+  Matches the calm journal aesthetic (soft borders, generous spacing, farm palette).
+
+  If Guillaume prefers always-expanded instead of an accordion, just add the `open`
+  attribute to each <details> tag, or remove <details>/<summary> and render as plain
+  <h3> + <p>.
+-->
+
+<!-- ========== FAQ ========== -->
+<section id="faq" class="py-20 md:py-28 bg-farm-light">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14 fade-in">
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark mb-4">
+        Questions farmers usually ask
+      </h2>
+      <p class="text-lg text-farm-muted leading-relaxed">
+        Short answers. If something's still unclear, <a href="mailto:louis-bernard@orisha.io" class="text-farm-green font-medium underline underline-offset-2 hover:text-farm-dark">write to us</a> and we'll tell you straight.
+      </p>
+    </div>
+
+    <div class="fade-in space-y-3">
+
+      <!-- Q1 -->
+      <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+          <h3 class="font-heading font-semibold text-lg text-farm-dark">How much time per week does this take?</h3>
+          <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </summary>
+        <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+          About 2 to 3 hours a week. Some of that is short videos and community time. A good chunk of it is doing the thing on your own farm, so it counts as real work, not extra homework on top of your day.
+        </div>
+      </details>
+
+      <!-- Q2 -->
+      <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+          <h3 class="font-heading font-semibold text-lg text-farm-dark">Is the program in English?</h3>
+          <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </summary>
+        <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+          Yes, English only. All the content, the coaching sessions, and the community run in English.
+        </div>
+      </details>
+
+      <!-- Q3 -->
+      <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+          <h3 class="font-heading font-semibold text-lg text-farm-dark">What if I join in the middle of a cohort?</h3>
+          <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </summary>
+        <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+          You can join any time without feeling lost. The content for the current monthly goal explains what it is, why it matters, and how to tackle it, so you can jump in from there. Coaching sessions and the community forum are there for your questions.
+        </div>
+      </details>
+
+      <!-- Q4 -->
+      <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+          <h3 class="font-heading font-semibold text-lg text-farm-dark">What happens right after I sign up?</h3>
+          <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </summary>
+        <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+          You'll get a short welcome email right away, and a few more over the next couple of weeks that give you context on why we built this, how the greenhouse piece fits, and what the program looks like in practice. You can read them when you have time.
+        </div>
+      </details>
+
+      <!-- Q5 -->
+      <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+          <h3 class="font-heading font-semibold text-lg text-farm-dark">Can I leave anytime?</h3>
+          <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </summary>
+        <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+          Yes. It's month to month, so you can drop any time if it's not bringing you value. You can also miss a week and pick it up the next one, no penalty.
+        </div>
+      </details>
+
+      <!-- Q6 -->
+      <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+          <h3 class="font-heading font-semibold text-lg text-farm-dark">Do I need to grow tomatoes already, or am I planning to?</h3>
+          <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </summary>
+        <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+          The program is built for farmers already growing greenhouse indeterminate tomatoes, because everything centers on improving that crop in the greenhouse you already have. If you're planning to grow them but haven't yet, this is probably a stretch. Better to wait until you have a season under your belt.
+        </div>
+      </details>
+
+      <!-- Q7 -->
+      <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+          <h3 class="font-heading font-semibold text-lg text-farm-dark">What makes this different from a course?</h3>
+          <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </summary>
+        <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+          A course hands you information. This is a group of farmers working on the same monthly goal at the same time, with live coaching when you get stuck. The videos are short, five minutes, and the playbook grows from what farmers surface in their own fields. Less watching, more doing, and you're not alone with it.
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>

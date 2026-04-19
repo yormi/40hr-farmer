@@ -1,3 +1,4 @@
 .secrets/
 .venv/
+.cache/
 assets/clients/ferme-decembre/previews/

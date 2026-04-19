@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 40hr Farmer: Cut Workload Without Cutting Sales</title>
+  <meta name="description" content="A small coaching program for market gardeners growing greenhouse tomatoes. Learning to cut workload without cutting sales.">
+  <meta property="og:title" content="The 40hr Farmer: Cut Workload Without Cutting Sales">
+  <meta property="og:description" content="A small coaching program for market gardeners growing greenhouse tomatoes. Learning to cut workload without cutting sales.">
+  <meta property="og:image" content="https://the40hrfarmer.com/og-image.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon: inline SVG leaf -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M8 28C8 28 6 18 16 10C26 2 28 4 28 4C28 4 30 6 22 16C14 26 4 24 4 24' fill='%233B6D11'/><path d='M8 28C8 28 10 20 16 14' stroke='%2327500A' stroke-width='1.5' fill='none'/></svg>">
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZKPZM4LJEE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZKPZM4LJEE');
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@500;600;700&family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'farm-green': '#3B6D11',
+            'farm-mid': '#639922',
+            'farm-dark': '#27500A',
+            'farm-light': '#EAF3DE',
+            'farm-bg': '#f7f7f5',
+            'farm-text': '#1a1a18',
+            'farm-muted': '#5f5e5a',
+          },
+          fontFamily: {
+            heading: ['Poppins', 'sans-serif'],
+            body: ['Lato', 'sans-serif'],
+            accent: ['Rubik', 'sans-serif'],
+          },
+          borderRadius: {
+            'card': '12px',
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body { font-family: 'Lato', sans-serif; color: #1a1a18; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
+    .font-accent { font-family: 'Rubik', sans-serif; }
+
+    /* Fade-in animation */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Nav transition */
+    #main-nav {
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Step connector line */
+    .step-connector {
+      position: absolute;
+      top: 24px;
+      left: 48px;
+      right: 48px;
+      height: 3px;
+      background: linear-gradient(90deg, #3B6D11 0%, #639922 50%, #3B6D11 100%);
+      z-index: 0;
+    }
+
+    @media (max-width: 768px) {
+      .step-connector {
+        display: none;
+      }
+    }
+
+    /* Brand photo treatment: warm editorial feel */
+    .brand-photo {
+      filter: saturate(0.92) contrast(1.03) brightness(0.98);
+      border-radius: 12px;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body class="bg-white antialiased">
+
+  <!-- ========== STICKY NAV ========== -->
+  <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-2 group">
+          <svg class="w-7 h-7" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 28C8 28 6 18 16 10C26 2 28 4 28 4C28 4 30 6 22 16C14 26 4 24 4 24" fill="#3B6D11"/>
+            <path d="M8 28C8 28 10 20 16 14" stroke="#27500A" stroke-width="1.5" fill="none"/>
+          </svg>
+          <span class="font-heading font-semibold text-lg text-farm-dark">The 40hr Farmer</span>
+        </a>
+
+        <!-- Desktop nav links -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#how-it-works" class="text-sm font-medium text-farm-text hover:text-farm-green transition-colors">How It Works</a>
+          <a href="#pricing" class="text-sm font-medium text-farm-text hover:text-farm-green transition-colors">Pricing</a>
+          <a href="#join" class="text-sm font-medium text-farm-text hover:text-farm-green transition-colors">Join</a>
+          <a href="#join" class="inline-flex items-center px-5 py-2.5 bg-farm-green text-white text-sm font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm">
+            Join the Program
+          </a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-farm-text" aria-label="Open menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg">
+      <div class="px-4 py-4 space-y-3">
+        <a href="#how-it-works" class="block text-sm font-medium text-farm-text hover:text-farm-green py-2">How It Works</a>
+        <a href="#pricing" class="block text-sm font-medium text-farm-text hover:text-farm-green py-2">Pricing</a>
+        <a href="#join" class="block text-sm font-medium text-farm-text hover:text-farm-green py-2">Join</a>
+        <a href="#join" class="block text-center px-5 py-2.5 bg-farm-green text-white text-sm font-semibold rounded-full hover:bg-farm-dark transition-colors">
+          Join the Program
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="relative pt-28 pb-16 md:pt-40 md:pb-24 overflow-hidden">
+      <!-- Background gradient -->
+      <div class="absolute inset-0 bg-gradient-to-br from-farm-light via-white to-farm-bg -z-10"></div>
+      <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-farm-light/40 to-transparent -z-10"></div>
+
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <!-- Left: Copy -->
+          <div class="fade-in">
+            <span class="inline-flex items-center px-4 py-1.5 bg-farm-green/10 text-farm-green text-sm font-medium rounded-full mb-6">
+              <svg class="w-4 h-4 mr-1.5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v-2h2v2zm0-4H9V5h2v4z"/></svg>
+              For market gardeners growing greenhouse tomatoes
+            </span>
+
+            <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-farm-dark leading-tight mb-4">
+              Farming is beautiful.
+            </h1>
+            <p class="text-xl sm:text-2xl text-farm-muted font-light leading-relaxed mb-4">
+              But life is richer when you still have energy for the people in it.
+            </p>
+            <p class="text-lg text-farm-muted leading-relaxed mb-8 max-w-lg">
+              A small coaching program for market gardeners growing greenhouse tomatoes. Learning to cut workload without cutting sales.
+            </p>
+            <a href="#join" class="inline-flex items-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+              Join the Program
+              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+          </div>
+
+          <!-- Right: Hero image -->
+          <div class="fade-in">
+            <div class="relative">
+              <div class="rounded-card aspect-[4/3] overflow-hidden shadow-lg">
+                <img src="assets/clients/ferme-decembre/drive-0416.jpg"
+                     alt="Market gardener planting young tomato seedlings in a greenhouse"
+                     class="brand-photo">
+              </div>
+              <!-- Decorative floating element -->
+              <div class="absolute -bottom-4 -left-4 bg-white rounded-card shadow-md px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 bg-farm-green/10 rounded-full flex items-center justify-center">
+                    <svg class="w-5 h-5 text-farm-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                  </div>
+                  <div>
+                    <p class="font-accent font-bold text-farm-dark text-lg leading-tight">40hrs</p>
+                    <p class="text-farm-muted text-xs">That's the goal</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WHERE WE ARE ========== -->
+    <section id="where-we-are" class="py-20 md:py-28 bg-white">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark mb-10">
+            Where we are
+          </h2>
+          <div class="space-y-6 text-farm-text text-lg leading-relaxed">
+            <p>
+              In 2024, Drew at Ghost House Farm installed Orisha to run the climate and irrigation in his greenhouse. By the end of that season he had harvested around 2,000 pounds of tomatoes. Roughly 250% of his 2023 yield. Doubled.
+            </p>
+            <p>
+              The moment that reframed everything for us came later, when Drew mentioned that his wife Allison had quit her job to work full-time on the farm. That was the real story. The yield was a means. The life behind the yield was the point.
+            </p>
+            <p>
+              Every farmer we talk to loves what they do, and is quietly crushed by the pressure of it. Too much to do, all at once. So we stopped thinking about yield for its own sake and started thinking about pressure relief through yield. Getting paid enough that you can actually live the life you chose. Greenhouse tomatoes turned out to be the best place to start: highest revenue per bed, by a wide margin. One tomato bed can do the work of twenty or thirty beds of beets or peas.
+            </p>
+            <p>
+              In 2025 we started consulting. Drew was our first remote client. Gordon at Ten Mothers Farm joined in late spring. Within a week of working together, Gordon wrote to us:
+            </p>
+            <blockquote class="border-l-4 border-farm-green pl-6 italic text-farm-muted">
+              Pollination has definitely improved, the tapping works. We've doubled fruit load in 2 weeks.
+            </blockquote>
+            <p>
+              Then heat and bacterial spot erased the win. We hadn't yet learned that he pauses sales in August, so we could have pruned fruit to carry the plants strong into fall. That lesson went into the playbook.
+            </p>
+            <p>
+              Drew's 2025 season started rough. Wilted seedlings, a month behind in May. We fixed pollination in week two and fruit load went up four times in fourteen days. By July 1, he had beaten his entire 2023 season, before the point on the calendar when he had even started harvesting cherry tomatoes in 2023.
+            </p>
+            <blockquote class="border-l-4 border-farm-green pl-6 italic text-farm-muted">
+              I just looked over our 2023 numbers. In the next week or two we will have harvested more pounds of cherry tomatoes than we did in all of 2023. And we will have done so before we even started harvesting cherry tomatoes that year.
+              <footer class="text-sm not-italic mt-3 text-farm-muted">Drew, mid-July 2025</footer>
+            </blockquote>
+            <p>
+              Even this season, with a 327 pound single-week record, Drew carried about half the fruit load a plant can actually support. Our best current result is half of what is possible.
+            </p>
+            <p>
+              The program opens in May/June 2026, and stays open after that. The first monthly goal is straightforward: maximize fruit load without exhausting the plant. The playbook is not finished. We are starting with a small group on purpose, so we can listen closely, adapt the coaching format to what we did not foresee, and make sure every farmer gets their questions answered. Going faster would break what we are trying to build.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROBLEM ========== -->
+    <section id="problem" class="py-20 md:py-28 bg-farm-bg">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14 fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark mb-4">
+            You love what you do.<br>But the hours are breaking you.
+          </h2>
+        </div>
+
+        <!-- Section photo -->
+        <div class="fade-in mb-14 lg:mb-16">
+          <div class="rounded-card overflow-hidden aspect-[16/9] shadow-sm">
+            <img src="assets/clients/ferme-decembre/drive-0241.jpg"
+                 alt="Market gardener in a red toque tending rows of greens inside a greenhouse"
+                 loading="lazy"
+                 class="brand-photo">
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
+          <!-- Card 1 -->
+          <div class="fade-in bg-white rounded-card p-8 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-5">
+              <svg class="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-xl text-farm-dark mb-3">The grind is invisible</h3>
+            <p class="text-farm-muted leading-relaxed">
+              Vegetables sell cheap. Margins are thin. To make ends meet, most growers subsidize their farm with the only thing that's free: their own labor. The culture of "just grind harder" makes the problem invisible, until burnout hits.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="fade-in bg-white rounded-card p-8 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center mb-5">
+              <svg class="w-6 h-6 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-xl text-farm-dark mb-3">Labor grows faster than sales</h3>
+            <p class="text-farm-muted leading-relaxed">
+              The work multiplies as the farm scales. Revenue doesn't keep up. Most growers end up working 80 hours a week just to stay afloat. You love farming. But the pressure never switches off.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="fade-in bg-white rounded-card p-8 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
+              <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-xl text-farm-dark mb-3">Knowledge is scattered</h3>
+            <p class="text-farm-muted leading-relaxed">
+              You know something needs to change. The problem isn't motivation. It's that the knowledge to make it happen lives in the heads of a handful of experts, scattered across research papers and hard-won trial and error.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOLUTION ========== -->
+    <section id="solution" class="py-20 md:py-28 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-6 fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark mb-4">
+            Cut labor without cutting sales.
+          </h2>
+          <p class="text-lg text-farm-muted leading-relaxed">
+            We start where the biggest gains are hiding: your greenhouse. The technical challenges are real, but the upside is massive.
+          </p>
+        </div>
+
+        <!-- Section photo -->
+        <div class="fade-in mt-14">
+          <div class="rounded-card overflow-hidden aspect-[21/9] shadow-sm">
+            <img src="assets/clients/ferme-decembre/greenhouse-interior-lush-peppers.jpg"
+                 alt="Market gardener tending staked tomato rows deep inside a lush greenhouse"
+                 loading="lazy"
+                 class="brand-photo">
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 lg:gap-8 mt-14">
+          <!-- Card 1 -->
+          <div class="fade-in bg-white rounded-card p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-1 h-full bg-farm-green rounded-l-card"></div>
+            <div class="w-12 h-12 bg-farm-light rounded-xl flex items-center justify-center mb-5">
+              <svg class="w-6 h-6 text-farm-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-xl text-farm-dark mb-3">Your most valuable crop</h3>
+            <p class="text-farm-muted leading-relaxed">
+              Most field beds bring in low hundreds of dollars. A well-run greenhouse bed brings in thousands. Improving your radish crop won't move the needle. Improving your tomatoes changes everything.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="fade-in bg-white rounded-card p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-1 h-full bg-farm-mid rounded-l-card"></div>
+            <div class="w-12 h-12 bg-farm-light rounded-xl flex items-center justify-center mb-5">
+              <svg class="w-6 h-6 text-farm-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-xl text-farm-dark mb-3">Automate the daily grind</h3>
+            <p class="text-farm-muted leading-relaxed">
+              Rolling up sides at sunrise. Irrigating multiple times a day. Running back to protect crops from cold. In a greenhouse, you can automate most of this. Better results, less worry, no lost sales.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="fade-in bg-white rounded-card p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-1 h-full bg-farm-green rounded-l-card"></div>
+            <div class="w-12 h-12 bg-farm-light rounded-xl flex items-center justify-center mb-5">
+              <svg class="w-6 h-6 text-farm-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-xl text-farm-dark mb-3">Unlock untapped potential</h3>
+            <p class="text-farm-muted leading-relaxed">
+              The best market gardeners get 5x more tomatoes than the average. Most growers never tap the real potential of their greenhouse because the techniques are highly technical. We're changing that.
+            </p>
+          </div>
+        </div>
+
+        <!-- Bottom callout -->
+        <div class="fade-in mt-12 bg-farm-dark rounded-card p-6 md:p-8 text-center">
+          <p class="text-white text-xl md:text-2xl font-heading font-semibold">
+            Same sales. A lot less labor.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS ========== -->
+    <section id="how-it-works" class="py-20 md:py-28 bg-farm-bg">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-6 fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark mb-4">How it works</h2>
+          <p class="text-lg text-farm-muted leading-relaxed italic">
+            It's about not doing it alone for once.
+          </p>
+          <p class="text-farm-muted leading-relaxed mt-3">
+            The plan works on paper. But farms are messy, seasons are unpredictable, and motivation fades. That's where the community comes in.
+          </p>
+        </div>
+
+        <!-- Section photo -->
+        <div class="fade-in mt-14">
+          <div class="rounded-card overflow-hidden aspect-[16/9] shadow-sm">
+            <img src="assets/clients/ferme-decembre/drive-0032.jpg"
+                 alt="Two market gardeners working a greenhouse bed together with hand tools"
+                 loading="lazy"
+                 class="brand-photo"
+                 style="object-position: center 25%;">
+          </div>
+        </div>
+
+        <!-- Steps -->
+        <div class="relative mt-16">
+          <!-- Connector line (desktop only) -->
+          <div class="step-connector hidden md:block"></div>
+
+          <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+            <!-- Step 1 -->
+            <div class="fade-in text-center relative z-10">
+              <div class="w-12 h-12 bg-farm-green text-white rounded-full flex items-center justify-center mx-auto mb-6 font-accent font-bold text-lg shadow-md">1</div>
+              <h3 class="font-heading font-semibold text-xl text-farm-dark mb-2">Monthly Challenge</h3>
+              <p class="text-farm-mid font-medium text-sm mb-3">One shared goal, everyone moves together.</p>
+              <p class="text-farm-muted leading-relaxed">
+                Every month the community rallies around the same concrete target. You take action on your farm and share what happens. The results shape the playbook for everyone.
+              </p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="fade-in text-center relative z-10">
+              <div class="w-12 h-12 bg-farm-green text-white rounded-full flex items-center justify-center mx-auto mb-6 font-accent font-bold text-lg shadow-md">2</div>
+              <h3 class="font-heading font-semibold text-xl text-farm-dark mb-2">Weekly Guidance</h3>
+              <p class="text-farm-mid font-medium text-sm mb-3">5-minute videos + real obstacle surfacing.</p>
+              <p class="text-farm-muted leading-relaxed">
+                Short, focused content gives you the knowledge to act. When the community hits real obstacles, we tackle them together.
+              </p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="fade-in text-center relative z-10">
+              <div class="w-12 h-12 bg-farm-green text-white rounded-full flex items-center justify-center mx-auto mb-6 font-accent font-bold text-lg shadow-md">3</div>
+              <h3 class="font-heading font-semibold text-xl text-farm-dark mb-2">Coaching & Support</h3>
+              <p class="text-farm-mid font-medium text-sm mb-3">You're never stuck alone.</p>
+              <ul class="text-farm-muted text-left space-y-2 mt-4 max-w-xs mx-auto">
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-farm-green flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  <span>2-minute check-in with a virtual consultant to track progress</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-farm-green flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  <span>Monthly live coaching session tailored to your situation</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-farm-green flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  <span>Community forum, questions answered within the week</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-farm-green flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  <span>Bonus content based on what the community surfaces</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WHO IT'S FOR ========== -->
+    <section id="who" class="py-20 md:py-28 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-6 fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark mb-4">
+            Built for growers ready to take action.
+          </h2>
+          <p class="text-lg text-farm-muted leading-relaxed">
+            If you grow greenhouse tomatoes and feel like the farm takes more than it gives, this was built for you.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12 mt-14">
+          <!-- Left column -->
+          <div class="fade-in bg-farm-bg rounded-card overflow-hidden">
+            <div class="aspect-[16/10] overflow-hidden">
+              <img src="assets/clients/ferme-decembre/drive-0672.jpg"
+                   alt="Market gardener with glasses working spinach beds with a hoe in a greenhouse"
+                   loading="lazy"
+                   class="brand-photo"
+                   style="border-radius: 0; object-position: center top;">
+            </div>
+            <div class="p-8 lg:p-10">
+            <h3 class="font-heading font-semibold text-lg text-farm-dark mb-6">You'll recognize yourself if...</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-3">
+                <div class="w-6 h-6 bg-farm-green rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-farm-text leading-relaxed">You grow tomatoes in a greenhouse as part of a diversified market garden</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="w-6 h-6 bg-farm-green rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-farm-text leading-relaxed">The hours are long and the margin for improvement feels invisible</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="w-6 h-6 bg-farm-green rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-farm-text leading-relaxed">You've tried to change things but got lost or ran out of steam</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="w-6 h-6 bg-farm-green rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-farm-text leading-relaxed">You want to act, not just learn</span>
+              </li>
+            </ul>
+            </div>
+          </div>
+
+          <!-- Right column -->
+          <div class="fade-in bg-farm-light rounded-card overflow-hidden">
+            <div class="aspect-[16/10] overflow-hidden">
+              <img src="assets/clients/ferme-decembre/farm-tour-group-overlooking.jpg"
+                   alt="Farmers looking out over fields"
+                   loading="lazy"
+                   class="brand-photo"
+                   style="border-radius: 0;">
+            </div>
+            <div class="p-8 lg:p-10">
+            <h3 class="font-heading font-semibold text-lg text-farm-dark mb-6">The grower you'll become</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-3">
+                <svg class="w-6 h-6 text-farm-green flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
+                </svg>
+                <span class="text-farm-text leading-relaxed">Someone who runs a farm with intention, not just endurance</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-6 h-6 text-farm-green flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                </svg>
+                <span class="text-farm-text leading-relaxed">Part of a community that moves together and shares what works</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-6 h-6 text-farm-green flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                <span class="text-farm-text leading-relaxed">A grower whose farm is finally working for them</span>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom quote -->
+        <div class="fade-in mt-12 text-center max-w-2xl mx-auto">
+          <blockquote class="relative">
+            <svg class="absolute -top-4 -left-2 w-10 h-10 text-farm-green/10" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H0z"/>
+            </svg>
+            <p class="text-xl text-farm-text italic leading-relaxed px-6">
+              No silver bullet. Small, consistent changes that compound. Until the farm running you becomes the farm you run.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MID-PAGE CTA BAND ========== -->
+    <section id="mid-cta" class="py-10 md:py-12 bg-farm-green">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="fade-in flex flex-col md:flex-row items-center justify-center gap-6 text-center md:text-left">
+          <p class="text-white text-lg md:text-xl font-heading font-medium">
+            Already see yourself in this? The program opens May/June 2026.
+          </p>
+          <a href="#join" class="inline-flex items-center px-6 py-3 bg-white text-farm-green font-semibold rounded-full hover:bg-farm-light transition-colors shadow-sm">
+            Join the Program
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRICING ========== -->
+    <section id="pricing" class="py-20 md:py-28 bg-farm-bg">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-6 fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark mb-4">
+            The payback isn't financial.<br>It's the life you get back.
+          </h2>
+          <p class="text-lg text-farm-muted leading-relaxed">
+            Less scrambling for market. Less firefighting. The space to make small improvements that actually stick. Maybe even turning your brain off on Saturdays.
+          </p>
+        </div>
+
+        <!-- Section photo -->
+        <div class="fade-in mt-14">
+          <div class="rounded-card overflow-hidden aspect-[16/9] shadow-sm">
+            <img src="assets/clients/ferme-decembre/drive-0553.jpg"
+                 alt="Market gardener checking on young spinach inside a quiet greenhouse"
+                 loading="lazy"
+                 class="brand-photo">
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-3xl mx-auto mt-14">
+          <!-- Free with GFM -->
+          <div class="fade-in bg-white rounded-card p-8 shadow-sm border-2 border-farm-green relative">
+            <div class="absolute -top-3 left-1/2 -translate-x-1/2">
+              <span class="bg-farm-green text-white text-xs font-semibold px-3 py-1 rounded-full">Most farmers join this way</span>
+            </div>
+            <div class="text-center mb-6 pt-2">
+              <h3 class="font-heading font-semibold text-lg text-farm-dark mb-2">Free with Growing for Market</h3>
+              <div class="flex items-baseline justify-center gap-1">
+                <span class="font-accent font-bold text-5xl text-farm-dark">$0</span>
+                <span class="text-farm-muted">/month</span>
+              </div>
+            </div>
+            <p class="text-farm-muted text-center leading-relaxed mb-8">
+              <a href="https://growingformarket.com" target="_blank" rel="noopener" class="text-farm-green font-medium underline underline-offset-2 hover:text-farm-dark">Growing for Market</a> subscribers and <a href="https://orisha.io" target="_blank" rel="noopener" class="text-farm-green font-medium underline underline-offset-2 hover:text-farm-dark">Orisha</a> users get full access. $80 a year for the magazine, and the program comes with it.
+            </p>
+            <a href="#join" class="block w-full text-center px-6 py-3.5 bg-farm-green text-white font-semibold rounded-full hover:bg-farm-dark transition-colors">
+              Join the Program
+            </a>
+          </div>
+
+          <!-- Standard -->
+          <div class="fade-in bg-white rounded-card p-8 shadow-sm border border-gray-200">
+            <div class="text-center mb-6 pt-2">
+              <h3 class="font-heading font-semibold text-lg text-farm-dark mb-2">Standard</h3>
+              <div class="flex items-baseline justify-center gap-1">
+                <span class="font-accent font-bold text-5xl text-farm-dark">$40</span>
+                <span class="text-farm-muted">/month</span>
+              </div>
+            </div>
+            <p class="text-farm-muted text-center leading-relaxed mb-8">
+              Full access to the community, weekly content, live coaching sessions, and the evolving playbook.
+            </p>
+            <a href="#join" class="block w-full text-center px-6 py-3.5 bg-farm-bg text-farm-dark font-semibold rounded-full hover:bg-farm-light transition-colors border border-gray-200">
+              Join the Program
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section id="faq" class="py-20 md:py-28 bg-farm-light">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14 fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark mb-4">
+            Questions farmers usually ask
+          </h2>
+          <p class="text-lg text-farm-muted leading-relaxed">
+            Short answers. If something's still unclear, <a href="mailto:louis-bernard@orisha.io" class="text-farm-green font-medium underline underline-offset-2 hover:text-farm-dark">write to us</a> and we'll tell you straight.
+          </p>
+        </div>
+
+        <div class="fade-in space-y-3">
+
+          <!-- Q1 -->
+          <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+            <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+              <h3 class="font-heading font-semibold text-lg text-farm-dark">How much time per week does this take?</h3>
+              <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+              About 2 to 3 hours a week. Some of that is short videos and community time. A good chunk of it is doing the thing on your own farm, so it counts as real work, not extra homework on top of your day.
+            </div>
+          </details>
+
+          <!-- Q2 -->
+          <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+            <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+              <h3 class="font-heading font-semibold text-lg text-farm-dark">Is the program in English?</h3>
+              <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+              Yes, English only. All the content, the coaching sessions, and the community run in English.
+            </div>
+          </details>
+
+          <!-- Q3 -->
+          <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+            <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+              <h3 class="font-heading font-semibold text-lg text-farm-dark">What if I join after the program has started?</h3>
+              <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+              You can join any time without feeling lost. The content for the current monthly goal explains what it is, why it matters, and how to tackle it, so you can jump in from there. Coaching sessions and the community forum are there for your questions.
+            </div>
+          </details>
+
+          <!-- Q4 -->
+          <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+            <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+              <h3 class="font-heading font-semibold text-lg text-farm-dark">What happens right after I sign up?</h3>
+              <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+              You'll get a short welcome email right away, and a few more over the next couple of weeks that give you context on why we built this, how the greenhouse piece fits, and what the program looks like in practice. You can read them when you have time.
+            </div>
+          </details>
+
+          <!-- Q5 -->
+          <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+            <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+              <h3 class="font-heading font-semibold text-lg text-farm-dark">Can I leave anytime?</h3>
+              <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+              Yes. It's month to month, so you can drop any time if it's not bringing you value. You can also miss a week and pick it up the next one, no penalty.
+            </div>
+          </details>
+
+          <!-- Q6 -->
+          <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+            <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+              <h3 class="font-heading font-semibold text-lg text-farm-dark">Do I need to grow tomatoes already, or am I planning to?</h3>
+              <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+              The program is built for farmers already growing greenhouse indeterminate tomatoes, because everything centers on improving that crop in the greenhouse you already have. If you're planning to grow them but haven't yet, this is probably a stretch. Better to wait until you have a season under your belt.
+            </div>
+          </details>
+
+          <!-- Q7 -->
+          <details class="group bg-white rounded-card border border-farm-green/10 shadow-sm overflow-hidden">
+            <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-5 list-none">
+              <h3 class="font-heading font-semibold text-lg text-farm-dark">What makes this different from a course?</h3>
+              <svg class="w-5 h-5 text-farm-green flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-6 text-farm-muted leading-relaxed">
+              A course hands you information. This is a group of farmers working on the same monthly goal at the same time, with live coaching when you get stuck. The videos are short, five minutes, and the playbook grows from what farmers surface in their own fields. Less watching, more doing, and you're not alone with it.
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section id="testimonials" class="py-20 md:py-28 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14 fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark">
+            Real farmers. Real results.
+          </h2>
+        </div>
+
+        <!-- Drew, single centered testimonial -->
+        <div class="fade-in max-w-2xl mx-auto bg-farm-bg rounded-card p-8 lg:p-10">
+          <div class="flex items-center gap-4 mb-5">
+            <div class="w-16 h-16 rounded-full overflow-hidden flex-shrink-0 shadow-sm">
+              <img src="assets/clients/drew/Drew%20-%20Ghost%20House%20Farm/IMG_1517%20(1).JPG"
+                   alt="Drew from Ghost House Farm"
+                   loading="lazy"
+                   class="brand-photo"
+                   style="border-radius: 9999px;">
+            </div>
+            <div>
+              <p class="font-heading font-semibold text-farm-dark">Drew, Ghost House Farm</p>
+              <p class="text-farm-muted text-sm mt-0.5">
+                <a href="drew-season/" class="text-farm-green font-medium underline underline-offset-2 hover:text-farm-dark">Read his season</a>
+              </p>
+            </div>
+          </div>
+          <blockquote class="text-farm-text text-lg leading-relaxed italic">
+            "Better greenhouse yields didn't just save me time. My wife was able to quit her job and join me full-time on the farm."
+          </blockquote>
+        </div>
+
+        <!-- Credibility strip -->
+        <div class="fade-in mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-10 text-farm-muted text-sm">
+          <a href="https://growingformarket.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 hover:text-farm-dark transition-colors">
+            <svg class="w-4 h-4 text-farm-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            <span>Backed by <span class="font-medium text-farm-dark">Growing for Market</span></span>
+          </a>
+          <a href="https://orisha.io" target="_blank" rel="noopener" class="inline-flex items-center gap-2 hover:text-farm-dark transition-colors">
+            <svg class="w-4 h-4 text-farm-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            <span>Built with <span class="font-medium text-farm-dark">Orisha</span> users</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TEAM ========== -->
+    <section id="team" class="py-20 md:py-28 bg-farm-bg">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14 fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-farm-dark">
+            Who's behind this.
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8">
+          <!-- Guillaume -->
+          <div class="fade-in text-center">
+            <div class="w-24 h-24 bg-farm-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span class="text-farm-green font-heading font-bold text-2xl">G</span>
+            </div>
+            <h3 class="font-heading font-semibold text-farm-dark">Guillaume</h3>
+            <p class="text-farm-muted text-sm mt-1 leading-relaxed">Content, coaching, tool design, orchestration</p>
+          </div>
+
+          <!-- Antoine -->
+          <div class="fade-in text-center">
+            <div class="w-24 h-24 bg-farm-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span class="text-farm-green font-heading font-bold text-2xl">A</span>
+            </div>
+            <h3 class="font-heading font-semibold text-farm-dark">Antoine</h3>
+            <p class="text-farm-muted text-sm mt-1 leading-relaxed">Coaching, copywriting, knowledge support, tool design</p>
+          </div>
+
+          <!-- Andrew -->
+          <div class="fade-in text-center">
+            <div class="w-24 h-24 bg-farm-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span class="text-farm-green font-heading font-bold text-2xl">A</span>
+            </div>
+            <h3 class="font-heading font-semibold text-farm-dark">Andrew</h3>
+            <p class="text-farm-muted text-sm mt-1 leading-relaxed">Content, GFM promotion, coaching</p>
+          </div>
+
+          <!-- LB -->
+          <div class="fade-in text-center">
+            <div class="w-24 h-24 bg-farm-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span class="text-farm-green font-heading font-bold text-2xl">LB</span>
+            </div>
+            <h3 class="font-heading font-semibold text-farm-dark">LB</h3>
+            <p class="text-farm-muted text-sm mt-1 leading-relaxed">Community host, video editing, content, social media</p>
+          </div>
+        </div>
+
+        <div class="fade-in text-center mt-10">
+          <p class="text-farm-muted italic">
+            Backed by the <a href="https://orisha.io" target="_blank" rel="noopener" class="text-farm-green font-medium underline underline-offset-2 hover:text-farm-dark">Orisha</a> team, building the tools and platform behind the scenes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FINAL CTA ========== -->
+    <section id="join" class="py-20 md:py-28 bg-farm-dark relative overflow-hidden">
+      <!-- Background photo -->
+      <img src="assets/clients/ferme-decembre/farmer-sunset-digging.jpg"
+           alt="Farmer working beside a greenhouse at golden hour"
+           loading="lazy"
+           class="brand-photo absolute inset-0 w-full h-full opacity-30"
+           style="border-radius: 0;">
+      <!-- Dark gradient overlay to maintain form contrast -->
+      <div class="absolute inset-0 bg-gradient-to-br from-farm-dark/85 via-farm-green/75 to-farm-dark/90"></div>
+      <!-- Decorative background pattern -->
+      <div class="absolute inset-0 opacity-5">
+        <svg width="100%" height="100%"><defs><pattern id="leaf-pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M30 5C30 5 25 15 30 25C35 15 30 5 30 5Z" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#leaf-pattern)"/></svg>
+      </div>
+
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div class="fade-in">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white mb-4">
+            Farming is beautiful.<br>Let's make sure it stays that way.
+          </h2>
+          <p class="text-white/80 text-lg mb-6 leading-relaxed">
+            The program opens May/June 2026. Anyone can join anytime after that. We are starting with a small group on purpose, so we can battle-test the coaching format, adapt it to what we did not foresee, and make sure every farmer gets their questions answered.
+          </p>
+          <p class="text-white/80 text-lg mb-10 leading-relaxed">
+            Going faster would break what we are trying to build. If greenhouse tomatoes are in your season and this is the year you want to rework how your farm runs, we'd love to hear from you.
+          </p>
+        </div>
+
+        <!-- Waitlist signup form -->
+        <div id="signup-form" class="max-w-md mx-auto fade-in">
+          <form id="waitlist-form" class="bg-white/10 backdrop-blur-sm rounded-card p-8 border border-white/20">
+            <div class="space-y-4">
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <label for="firstname" class="block text-left text-white/80 text-sm font-medium mb-1.5">First Name</label>
+                  <input type="text" id="firstname" name="firstname" required
+                    class="w-full px-4 py-3 bg-white rounded-lg text-farm-text placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-farm-mid border-0">
+                </div>
+                <div>
+                  <label for="lastname" class="block text-left text-white/80 text-sm font-medium mb-1.5">Last Name</label>
+                  <input type="text" id="lastname" name="lastname" required
+                    class="w-full px-4 py-3 bg-white rounded-lg text-farm-text placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-farm-mid border-0">
+                </div>
+              </div>
+              <div>
+                <label for="email" class="block text-left text-white/80 text-sm font-medium mb-1.5">Email</label>
+                <input type="email" id="email" name="email" required
+                  class="w-full px-4 py-3 bg-white rounded-lg text-farm-text placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-farm-mid border-0">
+              </div>
+              <button type="submit" id="submit-btn"
+                class="w-full px-6 py-3.5 bg-farm-mid text-white font-semibold rounded-full hover:bg-farm-green transition-colors shadow-lg text-lg mt-2">
+                Join the Program
+              </button>
+            </div>
+            <p class="text-white/50 text-xs mt-4">No spam. Just updates on the launch and early access.</p>
+          </form>
+
+          <div id="form-success" class="hidden bg-white/10 backdrop-blur-sm rounded-card p-8 border border-white/20 text-center">
+            <svg class="w-16 h-16 text-farm-light mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <h3 class="font-heading text-2xl font-semibold text-white mb-2">You're on the list!</h3>
+            <p class="text-white/80">We'll be in touch soon with next steps.</p>
+          </div>
+
+          <div id="form-error" class="hidden mt-4 bg-red-500/20 text-white text-sm rounded-lg p-3 text-center">
+            Something went wrong. Please try again or email us directly.
+          </div>
+        </div>
+
+        <script>
+          document.getElementById('waitlist-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var btn = document.getElementById('submit-btn');
+            var errorEl = document.getElementById('form-error');
+            errorEl.classList.add('hidden');
+            btn.textContent = 'Submitting...';
+            btn.disabled = true;
+
+            var data = JSON.stringify({
+              fields: [
+                { name: 'firstname', value: document.getElementById('firstname').value },
+                { name: 'lastname', value: document.getElementById('lastname').value },
+                { name: 'email', value: document.getElementById('email').value }
+              ],
+              context: {
+                pageUri: window.location.href,
+                pageName: document.title
+              }
+            });
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://api.hsforms.com/submissions/v3/integration/submit/5156324/036c50fb-2650-48ba-a1af-eb12a8f1074e');
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.onload = function() {
+              if (xhr.status === 200) {
+                // Track conversion in GA4
+                gtag('event', 'waitlist_signup', {
+                  event_category: 'conversion',
+                  event_label: 'waitlist_form'
+                });
+                document.getElementById('waitlist-form').classList.add('hidden');
+                document.getElementById('form-success').classList.remove('hidden');
+              } else {
+                errorEl.classList.remove('hidden');
+                btn.textContent = 'Join the Program';
+                btn.disabled = false;
+              }
+            };
+            xhr.onerror = function() {
+              errorEl.classList.remove('hidden');
+              btn.textContent = 'Join the Program';
+              btn.disabled = false;
+            };
+            xhr.send(data);
+          });
+        </script>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-farm-dark py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-2">
+          <svg class="w-6 h-6" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 28C8 28 6 18 16 10C26 2 28 4 28 4C28 4 30 6 22 16C14 26 4 24 4 24" fill="#639922"/>
+            <path d="M8 28C8 28 10 20 16 14" stroke="#3B6D11" stroke-width="1.5" fill="none"/>
+          </svg>
+          <span class="font-heading font-semibold text-white">The 40hr Farmer</span>
+        </div>
+
+        <p class="text-white/60 text-sm text-center">
+          A project by
+          <a href="https://orisha.io" target="_blank" rel="noopener" class="text-white/80 underline underline-offset-2 hover:text-white transition-colors">Orisha</a>
+          &amp;
+          <a href="https://growingformarket.com" target="_blank" rel="noopener" class="text-white/80 underline underline-offset-2 hover:text-white transition-colors">Growing for Market</a>
+        </p>
+
+        <p class="text-white/40 text-sm">&copy; 2026 The 40hr Farmer</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script>
+    // --- Nav scroll behavior ---
+    const nav = document.getElementById('main-nav');
+    function updateNav() {
+      if (window.scrollY > 40) {
+        nav.classList.add('bg-white', 'shadow-sm');
+        nav.classList.remove('bg-transparent');
+      } else {
+        nav.classList.remove('bg-white', 'shadow-sm');
+        nav.classList.add('bg-transparent');
+      }
+    }
+    window.addEventListener('scroll', updateNav, { passive: true });
+    updateNav();
+
+    // --- Mobile menu toggle ---
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    // Close mobile menu on link click
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // --- Fade-in on scroll (Intersection Observer) ---
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -40px 0px'
+    });
+    fadeEls.forEach(el => observer.observe(el));
+
+    // --- Track CTA button clicks in GA4 ---
+    document.querySelectorAll('a[href="#join"], a[href="#how-it-works"], a[href="#pricing"]').forEach(function(link) {
+      link.addEventListener('click', function() {
+        var section = this.closest('section, nav, footer');
+        var location = section ? (section.id || section.tagName.toLowerCase()) : 'unknown';
+        gtag('event', 'cta_click', {
+          event_category: 'engagement',
+          link_text: this.textContent.trim(),
+          click_location: location
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

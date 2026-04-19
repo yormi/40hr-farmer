@@ -6,15 +6,17 @@ Landing page, HubSpot funnel, and email automation for the 40hr Farmer coaching 
 
 These are the shared brand foundations. Always consult them before producing copy, imagery choices, or funnel changes.
 
-- [`docs/brand/purpose.md`](docs/brand/purpose.md) — Orisha mission, the Playbook, and the strategic path.
-- [`docs/brand/positioning.md`](docs/brand/positioning.md) — Pressure-relief-through-yield thesis and why greenhouse tomatoes are the lever.
-- [`docs/brand/products.md`](docs/brand/products.md) — Program pricing, GFM partnership, Helper and Chief Grower details.
-- [`docs/brand/ideal-farmer.md`](docs/brand/ideal-farmer.md) — Who the program is for and who it is not for.
-- [`docs/brand/voice-and-values.md`](docs/brand/voice-and-values.md) — Voice, style rules, positioning, scarcity, testimonials, red lines.
-- [`docs/brand/visual-design.md`](docs/brand/visual-design.md) — Quiet farm journal aesthetic.
-- [`docs/story-and-origin.md`](docs/story-and-origin.md) — Canonical 2024/2025 timeline, Drew, Gordon, consulting facts.
-- [`docs/drew-raw-notes.md`](docs/drew-raw-notes.md) — Drew's raw 2025 season field notes (archival source).
-- [`docs/gordon-raw-notes.md`](docs/gordon-raw-notes.md) — Gordon's raw 2025 weekly check-ins from Ten Mothers Farm (archival source).
+Brand foundations live in the `brand/` submodule. Public site: https://brand.orisha.io/. If the submodule is missing, run `git submodule update --init`.
+
+- [`brand/docs/brand/purpose.md`](brand/docs/brand/purpose.md) — Orisha mission, the Playbook, and the strategic path.
+- [`brand/docs/brand/positioning.md`](brand/docs/brand/positioning.md) — Pressure-relief-through-yield thesis and why greenhouse tomatoes are the lever.
+- [`brand/docs/brand/products.md`](brand/docs/brand/products.md) — Program pricing, GFM partnership, Helper and Chief Grower details.
+- [`brand/docs/brand/ideal-farmer.md`](brand/docs/brand/ideal-farmer.md) — Who the program is for and who it is not for.
+- [`brand/docs/brand/voice-and-values.md`](brand/docs/brand/voice-and-values.md) — Voice, style rules, positioning, scarcity, testimonials, red lines.
+- [`brand/docs/brand/visual-design.md`](brand/docs/brand/visual-design.md) — Quiet farm journal aesthetic.
+- [`brand/docs/internal/story-and-origin.md`](brand/docs/internal/story-and-origin.md) — Canonical 2024/2025 timeline, Drew, Gordon, consulting facts. Not published.
+- [`brand/docs/internal/drew-raw-notes.md`](brand/docs/internal/drew-raw-notes.md) — Drew's raw 2025 season field notes (archival source). Not published.
+- [`brand/docs/internal/gordon-raw-notes.md`](brand/docs/internal/gordon-raw-notes.md) — Gordon's raw 2025 weekly check-ins from Ten Mothers Farm (archival source). Not published.
 
 ## Non-negotiables (inline, because they are easy to forget)
 

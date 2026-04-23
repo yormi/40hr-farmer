@@ -52,7 +52,8 @@ Serves the repo root on `http://localhost:8765` with file-watching auto-refresh.
 - `index.html` — landing page (deployed at https://yormi.github.io/40hr-farmer/)
 - `email/*.html` — 5 welcome email templates
 - `email/HUBSPOT-PROCEDURE.md` — HubSpot API setup docs
+- `docs/landing/` — landing page rework (process, outline + locked copy, sources). See `docs/landing/README.md`.
 - `docs/user-experience-flow.md` — email sequence flow diagram
-- `docs/brand/` — brand foundations (read these)
+- `brand/` — brand foundations submodule (read these, see top of file)
 - `assets/clients/ferme-decembre/` — farm photography
 - `scripts/` — utilities (Google Photos picker, etc.)

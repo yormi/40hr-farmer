@@ -7,7 +7,7 @@ Working outline **and** canonical home for locked copy. Each section describes w
 - **Status** — locked / draft / pending.
 - **Locked copy** — verbatim prose (only when status is locked). This is what ships on the page.
 
-CTAs everywhere read "Join the waiting list": the program is pre-launch and signups feed a waiting list until May 2026.
+CTAs everywhere read "Join the waiting list": the program is pre-launch and signups feed a waiting list until June 2026.
 
 Whenever a subsection locks, the prose goes straight into this file. No separate copy deck.
 
@@ -34,6 +34,80 @@ Aspiration-first hero ("Farming is beautiful…"). Mefferd quiet-journal voice t
 
 **Implication for the 5-email sequence:**
 The page now carries more of the conviction work. Emails shift from *keep warm until May* toward *deepen the relationship and pull toward the Helper / Chief Grower sales call.*
+
+---
+
+## Layout patterns (locked 2026-04-27)
+
+Canonical class strings for this page. **Apply to every section.** Deviation requires explicit reasoning in the section's beats.
+
+Drift in this page (multiple H2 scales, three different alignments) was caught and corrected on 2026-04-27. The lock below prevents recurrence.
+
+### Section structure
+- **Section outer:** `<section id="..." class="bg-white">` (or `bg-farm-bg`, alternating). Padding `py-16 md:py-24` (standard) or `py-20 md:py-28` (heavier sections like `#story`, `#who`, `#program`, `#how-to-join`).
+- **Section container:** `<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">` then `<div class="fade-in">`.
+- **H2 wrapper:** `<div class="max-w-3xl mx-auto">` — centered reading column inside the max-w-5xl section. Subtitle (when present) sits in the same wrapper.
+
+### H2 (every section)
+```
+font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance
+```
+No terminal period. No exceptions on scale.
+
+### Subtitle (italic muted intro line, optional)
+```
+font-body italic text-lg md:text-xl text-farm-muted leading-relaxed mt-6
+```
+Same wrapper as H2.
+
+### Body prose
+```
+text-lg md:text-xl text-farm-text leading-relaxed
+```
+Inside `<div class="max-w-3xl mx-auto">` for prose-only sections.
+
+### Centered anchor lines (post-grid takeaway)
+```
+fade-in font-heading text-2xl md:text-3xl text-farm-dark text-center mt-14 md:mt-20 max-w-3xl mx-auto leading-snug text-balance
+```
+Upright Fraunces (italic Fraunces hard to read at this scale, replaced 2026-04-27).
+
+### Callout panels
+- Small (admission/anchor): `bg-farm-bg rounded-card px-6 py-5 md:px-8 md:py-6 text-center`
+- Large (first-goal): `bg-farm-bg rounded-card px-8 py-8 md:px-10 md:py-10 text-center`
+- Bonus container: `mt-12 md:mt-16 bg-farm-bg p-8 md:p-10 rounded-lg`
+
+### Card grid (2-up)
+```
+grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mt-12 md:mt-16
+```
+
+### Card 3-up (bonus)
+```
+grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mt-6
+```
+
+### Card internals
+- Sketch (top, optional): `w-32 h-32 md:w-36 md:h-36 object-contain mb-4`
+- Title: `font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight`
+- Body: `text-base md:text-lg text-farm-text leading-relaxed mt-3`
+
+### Pull-quote
+```
+pl-5 md:pl-6 border-l-2 border-farm-green/60 font-body italic text-xl md:text-2xl text-farm-dark leading-snug
+```
+With footer: `font-sans not-italic text-sm md:text-base text-farm-muted mt-3 tracking-wide`. Smaller variants drop one scale step (`text-base md:text-lg`, `pl-4`).
+
+### Eyebrow (uppercase)
+```
+font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs
+```
+
+### Italic display register
+**Use Lato italic** (`font-body italic`), not Fraunces italic. Fraunces italic at display scale is mannered and hard to read; this was swept page-wide on 2026-04-27.
+
+### Ground alternation
+Alternate `bg-white` and `bg-farm-bg` to create visual rhythm. Avoid back-to-back same-ground unless the sections function as one unit (e.g., consecutive Practical subsections).
 
 ---
 
@@ -245,6 +319,8 @@ Two stacked blocks, photo-first editorial. Mirror and named-container are distin
 
 **Locked copy:**
 
+> *"We've been farming about a half an acre and then just a single 30 by 80 greenhouse with an attached propagation house slash wash pack."* — Drew
+>
 > **2023**
 >
 > Drew grows 30-plus vegetables at Ghost House Farm. Allison worked off the farm. The farm wasn't yet enough to make a living from.
@@ -377,14 +453,24 @@ Two stacked blocks, photo-first editorial. Mirror and named-container are distin
 - **Reader-type:** Analytical, sub 3.
 - **Subsection intent:** Let the reader decide that the real problem on their farm isn't missing information, it's the weekly judgment calls only they can see.
 - **Owns:** Andrew + Orisha *6 Steps* as "the information is out there" authority; pivot showing the content-only path isn't enough (evidenced by the questions farmers keep sending us); the weekly-calls language; the four faces of the problem in reader terms (week-to-week unknowns, *am I doing it right?*, stuck alone, every farm is specific).
-- **Status:** **locked** 2026-04-22 (prose below). No conversion CTA here; bridges into Sub 4. Visual layout is outline-only.
+- **Status:** **locked** 2026-04-22 (prose below). No conversion CTA here; bridges into Sub 4. **Visual structure (step 5) locked 2026-04-27.**
 
-**Beats (visual layout):**
+**Beats (visual layout) — shape B (prose with question-list breakout):**
 
-- Opening: the information is out there. Andrew's book. The Orisha course, made as concise as possible, free.
-- Pivot: it's not enough; farmers keep sending us questions.
-- Reader-facing list of the weekly calls (which move to prioritize, how to adapt to this month's weather, pruning enough vs. too much, *am I doing it right?*).
-- Closer: "No theory can answer those for you. Every greenhouse is specific, every week is new." → bridges into Sub 4.
+- max-w-3xl prose column, **bg-white** ground (continuous Analytical run; Practical 1 will break to bg-farm-bg).
+- **H2:** "Why information isn't enough" (no terminal period). Matches the declarative-thesis register of "The techniques are known" in the section above.
+- **No eyebrow** (continuous with techniques-known register).
+- **Closer treatment:** centered italic Fraunces, larger than body, on the same bg-white ground. Two sentences: "No theory can answer those for you. Every greenhouse is specific, every week is new." Internal period between sentences stays; no terminal period on the H2 itself.
+- **Drift note:** the visual list lightly tightens "your weather this month" → "this month's weather" for cleaner parallel structure across the four lines. Locked prose stays as-is in this outline; the tightening lives only in the visual breakout.
+- Para 1 (authority): the information is out there. Andrew's book. The Orisha course, free.
+- Para 2 (pivot): "But it's not enough. Folks send us questions all the time."
+- Lead-in: "What's hard is the calls you have to make on the farm, week after week."
+- **Question-list breakout (shape A — centered italic poem):** four weekly-call questions, each on its own line, Fraunces italic, centered, generous vertical spacing. Climactic *Am I doing it right?* slightly larger and weighted as the final line. Lightly tightened/parallelized from the locked prose so they read as a clean visual list (exact wording in step-6 render). Lines as drafted:
+  - *Which move to prioritize.*
+  - *How to adapt a principle to your varieties, your tunnel, this month's weather.*
+  - *Whether you're pruning enough, or pruning too much.*
+  - *Am I doing it right?* (climactic, slightly larger)
+- Closer (centered italic): "No theory can answer those for you. Every greenhouse is specific, every week is new." → bridges into Sub 4.
 
 **Locked copy:**
 
@@ -403,16 +489,22 @@ Two stacked blocks, photo-first editorial. Mirror and named-container are distin
 - **Reader-type:** Analytical, sub 4.
 - **Subsection intent:** Let the reader decide if they want to be in a room where they work on their farm's weekly calls with others, instead of making them alone.
 - **Owns:** Drew + Gordon as honest range of outcomes; honest admission (no miracles, we don't know everything, Playbook is as good as the seasons we've gathered); program-as-place positioning (pool what we know, work on your obstacles, build tools for the next season, for you and every farmer after); reader-desire mirror ("cut the workload without cutting your income"; "lean on what others have figured out than do it alone"). **Section fit-decision beat lands here** (the moment the Analytical reader sees the program isn't repackaged content — it's a place to do the work books can't do).
-- **Status:** **locked** 2026-04-22 (prose below). Thesis-aware CTA at end. Visual layout is outline-only.
+- **Status:** **locked** 2026-04-22 (prose below). Thesis-aware CTA at end. **Visual structure (step 5) locked 2026-04-27.**
 
-**Beats (visual layout):**
+**Beats (visual layout) — shape C (two-act structure):**
 
-- Lead: we work with growers on those calls. Not every season ends the same way.
-- Drew + Gordon paired: Drew worked across two seasons, revenue more than doubled. Gordon doubled fruit load in two weeks, then a heat wave took his fall, we couldn't save it.
-- Honest admission: every farm is different, every climate is different. Our Playbook is as good as the seasons we've gathered. We can't promise miracles, and we don't know everything.
-- Program-as-place: build a place where we pool what we know, work on the obstacles you're facing, and learn together what tools make the next season easier, for you and every farmer who comes after.
-- Reader-desire mirror: cut the workload without cutting your income; lean on what others have figured out rather than do it alone.
-- Thesis-aware CTA: "Put your name on the list."
+- max-w-3xl prose column for Act 1 prose; Act 2 mirror line widens slightly for visual elevation.
+- bg-white ground (continuous Analytical run; Practical 1 will break to bg-farm-bg).
+- **Act 1 — our record:**
+  - Lead-in (prose): "We work with growers on those calls. Not every season ends the same way."
+  - **Drew + Gordon paired breakout (locked: editorial alternation, quiet photos):** Drew block has text-left / photo-right; Gordon block mirrors photo-left / text-right. 12-col grid, 3/9 split (photo 25%, text 75%). Photos capped at `max-w-[220px]`, `aspect-[4/5]`, `rounded-card`, aligned to outer edge. Each block has a Rubik accent label above the italic narration: `Drew · Ghost House Farm` / `Gordon · Ten Mothers Farm`. Reframed copy (the names are pulled into the labels; narration is "Worked with us across two seasons. His greenhouse revenue more than doubled." / "Worked with us one season. One protocol doubled his fruit load in two weeks, then a heat wave took his fall, and we couldn't save it.").
+  - Gordon photo: `assets/clients/gordon/Gordon - Ten Mothers Farm.jpg` (Gordon with his young child in tomato rows). Drew photo: `IMG_1517 (1).JPG` reused from the Drew arc climax.
+  - Honest-admission paragraph (prose): "Every farm is different. Every climate is different. Our Playbook is as good as the seasons we've gathered. We can't promise miracles, and we don't know everything."
+- **Act 2 — what we offer:** visually elevated. Generous space separates it from Act 1.
+  - Program-as-place paragraph (prose): "What we can do is build a place where we pool what we know, work on the obstacles you're facing, and learn together what tools make the next season easier. For you, and for every farmer who comes after."
+  - Reader-desire mirror (centered italic, larger): "You want to cut the workload without cutting your income. You'd rather lean on what others have figured out than do it alone."
+  - **CTA pill:** "Put your name on the list." (kept as the locked-copy italic line *immediately above* the green pill, then the pill itself: green pill linking to `#join` reading "Join the waiting list →").
+- **Section fit-decision beat lands at the CTA.** This is the conversion moment for the Analytical arc.
 
 **Locked copy:**
 
@@ -430,7 +522,7 @@ Two stacked blocks, photo-first editorial. Mirror and named-container are distin
 
 ## Mid-page CTA band (green)
 
-- "Already see yourself in this? The program opens May 2026."
+- "Already see yourself in this? The program opens June 2026."
 - Button: "Join the waiting list"
 
 ---
@@ -438,8 +530,23 @@ Two stacked blocks, photo-first editorial. Mirror and named-container are distin
 ## The Program
 
 - **Reader-type:** Practical, sub 3 (a month, pictured).
+- **Page placement:** sits **immediately after Not doing it alone** (Analytical sub 4). Breaks the strict Analytical→Practical bucketing. Argument: Not doing it alone tells the reader "you'd rather not do this alone, here's the room"; The Program shows what the room actually looks like (monthly goal, weekly call, applied work). Bridges Analytical conviction to felt mechanics before the Practical fit/cost gates land. Order locked 2026-04-27.
 - **Subsection intent:** Let the reader decide if this program fits the life they already have.
-- **Status:** **locked** (prose below). Visual layout is outline-only.
+- **Status:** **locked** (prose below). **Visual structure (step 5) locked 2026-04-27 — variant A (4-step accordion), lean treatment.**
+
+**Beats (visual layout) — variant A, lean:**
+
+- bg-white ground (continues from `#not-alone`).
+- Section ID: `id="program"`. Slots immediately after `#not-alone`.
+- **H2:** "The program" (no period). No subhead — the accordion is self-explanatory.
+- **4-step accordion (`<details>`)**, all closed by default, native `<summary>` styled to hide the disclosure triangle and use a custom rotating caret. Each summary shows: small Rubik step number (01/02/03/04) · Fraunces title · small muted one-line teaser. Expanded body holds the longer detail.
+  - **Step 1 — One goal, one month** · *Picked to match what your greenhouse needs.* (Expanded: group-momentum content folded in.)
+  - **Step 2 — Short video** · *Five minutes. Frames the goal. Rewatchable.* (Expanded: phone-watchable + what to look for.)
+  - **Step 3 — Weekly live call** · *60 min with Guillaume, Antoine, and Andrew.* (Expanded: bring photos/numbers/questions; recorded, no put-on-spot.)
+  - **Step 4 — Applied on your farm** · *Pruning, scouting, harvesting, sharpened by the goal.* (Expanded: integrated into existing work; community forum we answer once a week.)
+- **Support strip dropped.** Support content (recordings, forum, no-put-on-spot, group momentum) folded into the accordion bodies of step 1, 3, 4.
+- **First-goal callout** (centered, on `bg-farm-bg` rounded panel): two-line italic stack — small italic lead-in *"The first goal,"* + larger Fraunces italic *"Build fruit load without exhausting the plants."* No Rubik uppercase eyebrow.
+- **Closer + CTA:** centered italic *"If that slots into your week, put your name on the list."* directly above the green pill *"Join the waiting list →"*.
 
 **Beats (visual layout):**
 
@@ -447,12 +554,12 @@ Two stacked blocks, photo-first editorial. Mirror and named-container are distin
 - Sub: built around the translation problem. Each month, one goal small growers can act on in their own greenhouse, from their own starting point.
 - Flow accordion (native `<details>`, 4 steps, all closed by default, multiple can open). Summary shows step number + title + one-line descriptor; expanded detail below.
     - Month, one goal.
-    - Short video, frames the goal.
+    - Short video, frames the goal. (Phone-watchable between rows — fold this lifestyle detail into the locked copy when the section is rendered; pulled from How-to-join 2026-04-27.)
     - Weekly live coaching, your farm's reality.
     - Applied, on your farm.
 - Focus: greenhouse. This year: tomatoes. Cucumbers next, then lettuce.
-- What a week looks like: about 2 to 3 hours.
 - First goal callout: "Build fruit load up without exhausting plants."
+- **Workload anchor** (centered, big Fraunces numeral + small uppercase Rubik caption, sits between the first-goal callout and the closer so the closer's "if that slots into your week" pays it off): "2 to 3 hrs a week" / *Mostly work on your own plants*. Moved here from How-to-join 2026-04-27 (workload is a Program-section question, not a how-to-join question; the closer wraps it cleanly).
 - Closer (italic): "The Playbook is a living thing. It grows every season from what farmers surface in their own fields, and the tools get better as we go."
 
 **Locked copy:**
@@ -510,7 +617,7 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 - **Layer 1 — Headline:** H2 *"Who this is for"*. Scan-level orientation.
 - **Layer 2 — One-line hook:** Two column headers side-by-side: *"A good fit"* / *"Not designed for you"* in accent-font uppercase (farm-mid color). Binary self-sort at a glance, before any criteria are read.
 - **Layer 3 — Optional detail:** Short criterion lines beneath each header (one line per criterion, scannable). The uncertain reader reads; the gut-sold reader skips.
-- **Layer 4 — Resolution:** Italic closer below both columns, full-width centered, farm-muted color: *"We'd rather tell you up front than have you waste a season on the wrong thing."* Voice stepping back from the binary.
+- **Layer 4 — Resolution (removed 2026-04-27):** the italic closer *"We'd rather tell you up front than have you waste a season on the wrong thing."* was pruned. The two columns + criteria do the fit-sort on their own; the closer was preachy filler.
 
 **Fit-decision beat:** lands in Layer 3 — the moment the reader reads their situation in one of the two columns. Must be above the section's fold. No scrolling required to make the fit decision.
 
@@ -532,10 +639,8 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 > - You don't grow greenhouse tomatoes yet
 > - You run an industrial-scale greenhouse
 > - You're looking for academic theory, not practice
->
-> *We'd rather tell you up front than have you waste a season on the wrong thing.*
 
-**Drift note:** original locked copy ran criteria together as sentences ("A good fit if: you're a market gardener, usually a few years in. You already grow greenhouse indeterminate tomatoes..."). Step 5.1 broke the lead-ins out to column headers and made each criterion its own line. "Usually" dropped (quieter, same meaning). Closing italic preserved verbatim.
+**Drift note:** original locked copy ran criteria together as sentences ("A good fit if: you're a market gardener, usually a few years in. You already grow greenhouse indeterminate tomatoes..."). Step 5.1 broke the lead-ins out to column headers and made each criterion its own line. "Usually" dropped (quieter, same meaning). The closing italic resolution line was pruned 2026-04-27 (preachy filler; the columns sort the reader on their own).
 
 ---
 
@@ -543,22 +648,25 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 
 - **Reader-type:** Practical, sub 2 (time, cost, rhythm) + admission callout.
 - **Subsection intent:** Let the reader decide if the commitment (time, money, cadence) fits their week.
-- **Status:** **locked** (prose below). Visual card layout is outline-only.
+- **Status:** **locked** (prose below). **Visual structure (step 5) locked 2026-04-27.**
 
-**Beats (visual layout):**
+**Beats (visual layout) — stats-first, two-card pricing, no prose paragraphs:**
 
-- Admission callout, center: "Program opens May 2026. Rolling admission after that. Month to month, join or leave anytime."
-- Right now, joining means getting on the waiting list.
-- Two pricing cards:
-    - Free with Growing for Market or Orisha ($0/month): GFM subscribers and Orisha users get the program included.
-    - Standard ($40/month): month to month, join or leave anytime.
-- Both card CTAs: "Join the waiting list."
+- bg-white ground (alternation with `#who` farm-bg above; cards sit on white).
+- **H2:** "How to join" (no period).
+- **Admission callout band** (centered, on a quiet `bg-farm-bg` rounded panel, prose-column width): "Opens June 2026."
+- **Two pricing cards side-by-side** (border-card frame, the conviction beat) — **Standalone first, Special offer second** (default offer is the baseline; the deal sits as a bonus on the right, not the headline):
+  - Card 1: eyebrow "Standalone", big numeral "$40 /month", caption "Month to month. Leave anytime." (carries the commitment terms now that the redundant strip is gone), green CTA pill "Join the waiting list →".
+  - Card 2 (Free path): eyebrow **"Special offer"**, big numeral "$0 /month", **two-line scannable path list** (each path named once, brand name in bold/dark): "Growing for Market subscribers" / "Orisha users", **time-bound disclosure** (small italic muted): "For 2026 only. We'll see after that.", **GFM disclosure** (small italic muted, separate paragraph): "Subscribing to **Growing for Market** magazine is the cheapest way to join the program. $39/yr." with link to growingformarket.com/pricing/, green CTA pill "Join the waiting list →". (Each brand name appears exactly once.)
+- Section ID: `id="how-to-join"`.
+
+**Pruned 2026-04-27 (Option B):** the original layout repeated "rolling / monthly / leave anytime" four times across the admission band, stats strip, and Card 2 caption. Now: timing → admission band, workload → single anchor, commitment → Card 2 caption (each fact lands once). The "Short videos are phone-watchable between rows" note moved to The Program section.
 
 **Locked copy:**
 
 > About 2 to 3 hours a week. Most of it is work on your own plants that you were going to do anyway. Short videos are phone-watchable between rows.
 >
-> Free if you already subscribe to Growing for Market or use Orisha. Otherwise, the cheapest way in is a GFM subscription: $80 a year, magazine plus program.
+> Free if you already subscribe to Growing for Market or use Orisha. Otherwise, the cheapest way in is a GFM subscription: $39 a year, magazine plus program.
 >
 > Standalone is $40 a month.
 >
@@ -583,11 +691,24 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 
 - **Reader-type:** Committer, sub 1 (who's behind this).
 - **Subsection intent:** Let the reader decide if these are the right people to learn from.
-- **Status:** **locked** 2026-04-23.
+- **Status:** **locked** 2026-04-23. **Visual structure (step 5) locked 2026-04-27 — variant C (per-bio expand).**
     - **Andrew Mefferd** — locked (prose below).
     - **Guillaume** — locked 2026-04-22 (prose below).
     - **Antoine** — locked 2026-04-22 (prose below).
     - **Framing + closer** — locked 2026-04-23 (prose below).
+
+**Beats (visual layout) — variant C, photo-led with per-bio expand:**
+
+- bg-white ground. Section ID `id="team"`. Slots after `#how-to-join` (between Practical and the future Committer sub 2 "Why add your name now").
+- **H2:** "Team behind this" (no period).
+- **Framing line** (italic Fraunces below H2): "Three people show up on the calls. Different paths in, different angles on the same work."
+- **3 bios stacked** with generous space between. Each bio block: 12-col grid, photo `md:col-span-4`, text `md:col-span-8`. Photo `aspect-square object-cover rounded-card`, max-w-[280px]. Stacks on mobile.
+- Each bio: Photo · Fraunces name (h3) · Rubik tagline (1-line) · first paragraph (always visible) · `<details>` "Read more" expand for middle paragraphs · italic *"On calls, he…"* closer (always visible, pulled from the locked prose's last paragraph).
+  - **Andrew:** photo `assets/team/Andrew/andrew-industrial-greenhouse.jpg` (reused from `#techniques-known`). Tagline: "Author. Growing for Market editor."
+  - **Guillaume:** photo `assets/clients/ferme-decembre/IMG_3865.jpg`. Tagline: "Founder, Orisha. Co-grower, Ferme Décembre."
+  - **Antoine:** photo `assets/clients/jardin-inverness/Antoine.jpeg`. Tagline: "Grower, Jardin Inverness."
+- **Antoine asymmetry:** the *"One more year like this, and I'll sell the farm."* italic pull-quote sits in his para 2 — it's the load-bearing emotional beat. So Antoine's always-visible content includes paragraphs 1 AND 2; expand reveals paras 3–4. Andrew and Guillaume show only para 1 by default (Antoine's variance is intentional).
+- **Closer (after the three bios):** "Louis-Bernard keeps the community forum going between calls. The rest of us at Orisha turn what we learn into tools that make the work easier." Renders as quiet farm-muted prose, not a CTA. No CTA in this section — Committer sub 2 carries the final form.
 
 **Beats (visual layout):**
 

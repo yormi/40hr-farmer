@@ -44,3 +44,17 @@ Between steps: if the next step exposes a weakness in the previous one, go back 
 | 6 | Rendered HTML | `index.html` |
 
 Write the lock before proposing or drafting the next thing. If it's not written down, it's not locked.
+
+## Layout coherence discipline
+
+When the first step-6 render lands, lock the page's canonical layout patterns into a **Layout patterns** block in `outline.md`: H2 scale + class string, alignment wrapper, subtitle treatment, container widths, ground colors, card grid structures, pull-quote treatment, callout panels, eyebrow style, italic register. The exact class strings, not just "use farm-green for headings."
+
+**Reference that block before every subsequent step-6 render.** Don't recall from memory; copy from the lock.
+
+**Need a different pattern for a new section?** Either update the locked block (and back-port to prior sections) or note the deviation explicitly in the section's beats with a reason. Silent drift is what creates a step-7 rework pass.
+
+**After every step-6 render, scan the prior sections.** Two minutes scrolling is cheaper than catching three sections of drift later. Different H2 scale or alignment between sections is the most common drift; check those first.
+
+**Why this matters.** Rendering one section at a time, against its prose, accumulates inconsistency across passes. Each render makes locally-good choices that don't add up globally. The locked layout block flips the discipline from *remember every prior decision* (which compaction breaks) to *look it up before rendering* (which survives).
+
+A step-7 coherence pass at the end is reactive — by the time the drift is visible, it has already shipped eight times. Lock first, scan continuously, sweep at the end only as a safety net.

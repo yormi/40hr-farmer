@@ -123,29 +123,45 @@ This source overlaps with `drew-quotes.md` (the Drew & Allison video) on the 250
 
 ## Recommended pulls for landing / email
 
-### For the production-numbers section, the per-square-foot upgrade
+### For the production-numbers section, the per-square-foot upgrade — **TAKEN**
 
 **[1163] "Up to almost five pounds per square foot. We were at just around a pound per square foot with slicers in 2023. And that was still, we were one of the better tomato producers in the area."**
 
 Why: Concrete units the reader can compare their own farm against. "One of the better producers in the area" pre-Orisha is the credibility hinge, it tells the reader Drew's starting point wasn't a basket case.
 
-### For the "more output, not less work" honesty beat
+Status: locked into the *Starting with the bed that'll free you the most* section in `docs/landing/outline.md` (between "That's the lever." and the labor-intensive paragraph) on 2026-04-27. Substantiates the "yield doubles" hinge in a peer-verifiable unit (lb/ft²) before the section pivots to the choice.
+
+### For the "more output, not less work" honesty beat — **NOT TAKEN**
 
 **[259] "We more than doubled our yields per square foot, but we did not double our yields per hour of labor. There's no such thing as a free lunch. If you want to grow more food, you've got to do more something."**
 
 Why: Cuts against the lazy "automation = less work" promise that competitors lean on. Pairs with the existing video pull about "focus on more nuance, variety selection, getting better at pruning and trellising." Reinforces 40hr Farmer's actual thesis: more output per hour, not fewer hours.
 
-### For the disease / climate-control beat
+Status: passed over 2026-04-27. Drew arc + Section 4 lb/ft² quote already carry his weight on the page; adding this would tip Drew from peer-anchor toward billboard. Holding for an email-sequence beat where the "more output, not less work" framing has more room to breathe.
+
+### For the disease / climate-control beat — **NOT TAKEN (held for emails)**
 
 **[459] "I look at my graphs occasionally and I see that my sides have gone up and down hundreds of times, and my temperature has stayed between 70 and 75 this whole time. Whereas before, I get an alert, it's 95 in the greenhouse, let me go open the sides, and then a half hour later it's 60, let me go close the sides. Tempered plants do not like a 30 40 degree temperature swing."**
 
 Why: Translates the abstract "automation" into a felt picture (running back and forth, alerts on the phone) and a number a farmer can verify (70 to 75). Strong candidate for an objection-handler section or pull-quote.
 
-### For the "why a heated greenhouse" / pricing-justification beat
+Status: held for emails 3 to 5 (where Helper / Chief Grower come into view). Reads as Orisha-product copy, which fits funnel emails better than landing.
+
+### For the "why a heated greenhouse" / pricing-justification beat — **NOT TAKEN**
 
 **[823] "Tomatoes and hothouse crops were the most value-dense thing we could grow. The question is, I want to make a living farming, I want to feed my community. I couldn't do that without a heated greenhouse initially with the design parameters of my space."**
 
 Why: Drew making the economic case in his own words is more durable than us making it. Useful when the page needs to defend the upfront propane / system cost against a reader who's not yet sold.
+
+Status: passed over 2026-04-27. Section 4's lever logic plus the revenue triptych already carry the economic case. Adding this risks the page sounding like it's defending the propane bill instead of the program.
+
+### For the outcomes section, the quality side of the lift — **PARKED for Section 10 lock**
+
+**[1050] "We don't have many problems with splitting. We have very few problems with blossom end rot. Almost everything that comes out of the greenhouse goes to market."**
+
+Why: "Almost everything goes to market" is the felt translation of the *"harvest that matches the market"* card in the *What it starts to feel like* section. No #2 pile, no waste, no second-grade pricing.
+
+Status: parked in the Section 10 beats list in `outline.md` 2026-04-27, to be pulled in when that section moves from pending to locked.
 
 ---
 

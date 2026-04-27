@@ -187,25 +187,29 @@ Each block below is one section on the page. Reader-type, subsection intent, sta
 
 - **Reader-type:** Gut.
 - **Subsection intent:** Let the reader decide in ten seconds whether this page's worldview fits what they want from farming life.
-- **Status:** **locked** 2026-04-22 (prose below). Visual layout notes preserved as step-5 reference. Body draws on the brand elevator pitch's proof-of-logic beat (cut field beds without cutting revenue).
+- **Status:** **locked** 2026-04-22 (copy). **Step 5 locked 2026-04-23** (visual structure, from scratch — earlier preserved notes discarded).
 
-**Beats (visual layout):**
+**Beats (visual layout):** *Step 5 locked 2026-04-23.*
 
-- Block 1, inspirational: full-bleed photo with left-to-right white scrim, 85vh. Copy overlaid left-aligned, only two treatments.
-    - H1 (hero).
-    - Italic subhead, muted.
-- Block 2, descriptive: warm farm-bg band immediately below the photo, max-w-3xl, single column.
-    - Eyebrow (small uppercase accent).
-    - Body (single paragraph).
-    - CTA: quiet underlined inline link. Anchors to `#join`.
+Two stacked blocks, photo-first editorial. Mirror and named-container are distinct step-2 beats and stay visually separate; no overlay wall.
+
+- **Block 1 — mirror.** Only two treatments: H1 + italic subhead. No eyebrow, body, or CTA in this block.
+  - *Desktop (md+):* full-bleed photo absolute-positioned with right-dense white scrim; text overlays on the right. `min-h-[85vh]`.
+  - *Mobile:* photo is a 55vh full-bleed band on top; text stacks below on clean white ground — no overlay, no scrim needed. Text left-aligned naturally on mobile, right-aligned on desktop.
+- **Block 2 — named container.** Flat reading band on `bg-farm-bg`, directly below the photo, no divider. Single column, `max-w-3xl`, left-aligned. Order: eyebrow (uppercase accent) → body paragraph → whisper CTA. Generous vertical padding.
+- **Fit-decision beat:** closing sentence of the body paragraph ("Same sales, fewer hours."). The moment the aspiration gets a mechanism.
+- **Above the fold at 85vh:** H1 + italic subhead fully visible. Eyebrow + body peek as a scroll cue; full container beat lands on a short scroll.
+- **Transition into Drew:** no ornament, no divider. Drew opens with its own ground color.
+- **CTA treatment:** underlined inline link in `farm-green`. Not a button. The clear-door CTA lives in the persistent sticky nav, so Hero's CTA can stay a whisper.
+- **Open sub-decision (deferred):** final photo pick + which side of the frame text sits on. Current `drive-0416.jpg` is placeholder; iterate after first pass.
 
 **Locked copy:**
 
-> **Eyebrow:** A coaching program for market gardeners.
+> **Eyebrow:** A coaching program for market gardeners
 >
-> **H1:** Farming is beautiful.
+> **H1:** Farming is beautiful
 >
-> **Italic subhead:** But life's richer with energy left for the people in it.
+> **Italic subhead:** But life's richer with energy left for the people in it
 >
 > **Body:** More revenue out of the greenhouse, so you can cut field beds without cutting income. Same sales, fewer hours.
 >
@@ -215,38 +219,49 @@ Each block below is one section on the page. Reader-type, subsection intent, sta
 
 ---
 
-## Drew didn't add a single bed. His greenhouse doubled. Allison quit her day job.
+## Same beds, bigger harvests
+
+*Typographic split:* H2 renders *"Same beds, bigger harvests"* at display size; subhead beneath in italic medium *"Allison's off-farm paycheck became optional"*. Two-beat title without the two-sentence text wall.
 
 - **Reader-type:** Peer, sub 1 (Drew arc).
 - **Subsection intent:** Let the reader decide if a farmer like them has actually made this work.
 - **Status:** **locked** (prose below). Visual layout below is outline-only; prose is the words.
 
-**Beats (visual layout):**
+**Beats (visual layout):** *Step 5 in progress 2026-04-23, from scratch (earlier reference notes discarded). Locked decisions listed below as they land.*
 
-- Arc: before (pressure) → climb (numbers) → payoff (Allison home) → thesis.
-- Before beat: Drew's verbatim quote on the 2023 season, followed by two grounded facts (Allison worked off the farm, greenhouse revenue).
-- Timeline, zigzag, 3 production milestones with stat as visual anchor:
-    - Spring 2024: Automates the tunnel. Quote "Frees up time automating work to focus on better production techniques." (IG C6O7kEZOsdY)
-    - August 2024: big stat "2,000 lbs", "Double 2023, same beds." Verbatim "As of today, we have DOUBLED tomato production compared to last year." (IG C_UBRhWuXdg)
-    - July 1, 2025: big stat "All of 2023. By July." Verbatim "We have now harvested as many tomatoes so far in 2025 as we did in the entire 2023 growing season."
-- Climax, centered full-width, visually the biggest block: eyebrow "Early 2025", H3 "Allison comes home to the farm." Photo of Drew and Allison (from `assets/clients/drew/Drew - Ghost House Farm/`). Display-size verbatim quote from video transcript: "Allison quit her day job and we're both farming full time now. Having this functional of a greenhouse with how small of a footprint we have to farm on is enough to make a living farming." Attribution "Drew, after the 2024 season." Supporting line: "2024 was their first profitable year. The off-farm paycheck finally became optional."
-- Closing CTA link: "Read Drew's 2025, week by week →" to `drew-season/`.
+- **Q1 — shape: headline-first.** The two-sentence H2 ("Same beds, bigger harvests. Allison's off-farm paycheck became optional") sits as a big heading at the top of the section. Reader orients to the outcome, then reads the story for the *how*.
+- **Q2 — photo placement: photo + flip-quote pair at the climax.** At the section's emotional peak, a photo of Drew and Allison (from `assets/clients/drew/Drew - Ghost House Farm/`) sits side-by-side with the flip quote — *"My wife was able to quit her job and join me full-time on the farm"* — in big italic pull-quote typography. Two-column visual pair at desktop; stacks on mobile.
+- **Q3 — revenue numbers: triptych of illustrated scales.** Three hand-drawn botanical-style illustrations in seed-catalog register (single-weight line in farm-green ink on cream). Same modern commercial kitchen scale in each panel (per Guillaume's reference — rectangular digital scale with flat stainless platform, LCD display, buttons on right); only the pile of tomatoes + cucumbers grows — roughly 1x / 2.5x / 4x to echo $10k → $25k → $43k. Year + dollar amount captioned below each panel in small accent type. Replaces the single prose line at the end of the body. Production: generate with `openai-gpt-image` in three iterated passes (style sketch → first panel → match the other two).
+- **Q4 — primary CTA + depth-ramp.** Primary CTA uses the page-default wording *"Join the waiting list →"* (consistent with nav + Hero) so the CTA muscle memory stays coherent across the page. Directly below, a quieter depth-ramp link: *"Read Drew's 2025, week by week →"* → `/drew-season/`. Rendered in a muted underline register so it doesn't compete with the primary CTA.
+- **Closing order (from locked copy):** photo + flip-quote pair → thesis bridge ("Two incomes from the same production.") → illustrated revenue triptych → primary CTA → depth-ramp link.
+- **Q5 — ground color: white.** Drew opens on crisp white, reading as a new chapter after Hero's warm farm-bg. Gives the photo and illustrations maximum contrast; differentiates Drew's journalistic register from Hero's editorial warmth.
+- **Q6 — reading width: `max-w-3xl`** (~768px) for the body prose. Photo + flip-quote pair and illustration triptych break out to wider layouts (`max-w-5xl` territory).
+- **Illustration production notes:** PNG with **transparent background** (no rectangle, no paper fill — the ink sits directly on the page's ground color). Style must feel **hand-made** — visible line wobble, variable stroke weight, occasional overshoots at line joins, hand-inked character. Not CAD-clean, not vector-perfect. Reference: naturalist's sketchbook + seed-catalog plates with human hand visible.
+- **Q7 — Drew naming: eyebrow above the H2.** Eyebrow text: *"Drew & Allison Story"* (was *"Drew · Ghost House Farm"*, updated to center the couple — the flip is Allison's return, so the eyebrow names both). Small accent-font uppercase, muted color. Scan-level peer identification.
+- **Before/climb rhythm:** single flowing `max-w-3xl` prose column. Small year markers (*"2023"*, *"2024"*, *"2025"*) in accent-font uppercase as quiet rhythm labels where the narrative shifts year. No typographic dramatization of individual lines — structure work is carried by the eyebrow, H2, photo+quote pair, and illustration triptych.
+- **2023 misery quote:** pulled out of prose as a small photo + italic blockquote pair inside the `max-w-3xl` column. Uses `IMG_1552 (1).JPG` as the companion photo, small square format. Quieter than the 2024 flip climax.
+- **2024 flip climax:** photo + flip pull-quote pair, breakout to `max-w-5xl`. Photo: `IMG_1517 (1).JPG`. Big italic pull-quote right of the photo.
+- **Thesis bridge:** italic centered *"Two incomes from the same production."* line between the 2024 flip climax and the triptych. Voice-shift from narrative to thesis, short breathing space before the evidence.
 
 **Locked copy:**
 
+> **2023**
+>
 > Drew grows 30-plus vegetables at Ghost House Farm. Allison worked off the farm. The farm wasn't yet enough to make a living from.
 >
-> 2023, Drew: *"Our first spring in the hoop house was awful. It was miserable. Our tomatoes and peppers were sitting with cold feet, underwater for the first month of their lives."*
+> *"Our first spring in the hoop house was awful. It was miserable."* — Drew (quote paired with a small 2023 photo of the farm)
 >
-> In 2024, Drew automated a lot of the greenhouse work. The sunrise roll-ups, the mid-day irrigation, the cold-snap scrambles. His attention moved to the plant: variety selection, multiple leaders, pruning, water timing.
+> **2024**
 >
-> The tomatoes picked up. The market overflowed. Overshot projections and made a profit for the first time. $15k more than the year before, with the same work.
+> Drew automated the sunrise roll-ups, the mid-day irrigation, the cold-snap scrambles. His attention moved to the plant: variety selection, multiple leaders, pruning, water timing.
 >
-> Drew, after the season: *"My wife was able to quit her job and join me full-time on the farm."*
+> Tomatoes picked up. The market overflowed. Overshot projections and made a profit for the first time.
 >
-> Two incomes from the same production.
+> *"My wife was able to quit her job and join me full-time on the farm."* — Drew, after the 2024 season (paired with the flip-climax photo)
 >
-> Greenhouse revenue: $10k in 2023, $25k in 2024, $43k in 2025.
+> *Two incomes from the same production.* *(Thesis bridge: italic centered, between the 2024 flip climax and the triptych.)*
+>
+> *(Triptych follows: greenhouse contribution $10k in 2023, $25k in 2024, $43k in 2025.)*
 
 **Drift note:** the outline timeline beats ("2,000 lbs", "July 1 2025 matches all of 2023") are not in the locked prose. Decide whether the visual timeline survives alongside the prose or whether the prose replaces it.
 
@@ -256,20 +271,31 @@ Each block below is one section on the page. Reader-type, subsection intent, sta
 
 - **Reader-type:** Peer, sub 2 (generalization of the Drew lever).
 - **Subsection intent:** Let the reader decide if the same lever reshapes their own life.
-- **Status:** **locked** (prose below). Visual 4-card layout is outline-only.
+- **Status:** step-4 prose **locked**; step-5 structure **locked** 2026-04-23 (below). Step-6 HTML render dispatched to background agent.
 
-**Beats (visual layout):**
+**Step-5 locked structure:**
 
-- Heading: "The more you grow per bed, the more room your life gets back."
-- Italic callout: "The bed is already paid for. The hours are mostly spent. What grows on top is mostly margin."
-- Four cards (icon + short heading + one line each). Short-form below; locked prose is full-form. Use the short cards when vertical space is tight; full-form lines fit better when the section gets more room.
-    - Fewer beds on the plan. Less walking, less weeding, fewer problems to chase.
-    - Money to hire out what drains you. Your Sundays come back.
-    - Farm income that carries the household. The off-farm paycheck becomes optional.
-    - Staff you can pay what good people are worth. Better candidates, longer stays.
-- Closer: "Every one of these ends in the same place: time with the people you started farming for."
+1. **H2 heading** (no terminal period):
+   > The more you grow per bed, the more room your life gets back
 
-**Locked copy (full-form):**
+2. **Italic intro callout** (muted, one line above the cards):
+   > *The bed is already paid for. The hours are spent. What grows on top is mostly margin.*
+
+3. **4-card grid** (2×2 desktop, 1-col mobile). Each card: bold title (no terminal period) + prose body. Card 4 runs one sentence longer than the others — accepted imbalance, card carries the HR-relief beat.
+
+   | # | Title | Body |
+   |---|---|---|
+   | 1 | Fewer beds on the plan | Less walking, less weeding, fewer problems to chase. The farm gets quieter. |
+   | 2 | Money to hire out what drains you | The accounting gets done by someone who actually likes doing it. Your Sundays come back. |
+   | 3 | Farm income that carries the household | The off-farm paycheck, the partner's second job, the winter gig. Optional again. |
+   | 4 | Staff you can pay what good people are worth | Better candidates walk in. The ones you hire stay longer. Experienced hands mean more done, faster, and less HR work. |
+
+4. **Closer line** (muted italic, centered below cards):
+   > *Every one of these ends in the same place: time with the people you started farming for.*
+
+5. **No CTA in this subsection** — per step-2 Peer ownership, the section's CTA lives at the end of sub 1 (Drew arc). Sub 2 closes on the emotional bridge and readers flow into Analytical.
+
+**Locked copy (step-4, verbatim — source of truth for the render):**
 
 > *The bed is already paid for. The hours are spent. What grows on top is mostly margin.*
 >
@@ -279,7 +305,7 @@ Each block below is one section on the page. Reader-type, subsection intent, sta
 >
 > **Farm income that carries the household.** The off-farm paycheck, the partner's second job, the winter gig. Optional again.
 >
-> **Staff you can pay what good people are worth.** Better candidates walk in. The ones you hire stay longer. Experienced hands mean more done, faster, and less HR work pulling you away from your customers.
+> **Staff you can pay what good people are worth.** Better candidates walk in. The ones you hire stay longer. Experienced hands mean more done, faster, and less HR work.
 >
 > Every one of these ends in the same place: time with the people you started farming for.
 
@@ -296,6 +322,7 @@ Each block below is one section on the page. Reader-type, subsection intent, sta
 - Intro line (muted, under heading): "Not every bed gives you this lift. One does, by a lot."
 - Left paragraph: tomatoes sit on most market gardens already, ceiling higher than any other crop.
 - Center: big "20 to 30x" pull number. Caption: "One tomato bed versus one bed of beets, kale, or onions."
+- Drew lb/ft² pull-quote callout substantiates "yield doubles" before the labor-intensive paragraph.
 - Right paragraph: tomatoes are the most labor-intensive beds; when yield doubles, cut half the beds or keep them and automate.
 - Dan pull-quote callout.
 
@@ -307,11 +334,15 @@ Each block below is one section on the page. Reader-type, subsection intent, sta
 >
 > That's the lever.
 >
+> Drew, Ghost House Farm: *"We were at just around a pound per square foot with slicers in 2023, and we were one of the better tomato producers in the area. We're up to almost five pounds per square foot. We're trying to hit six this year."*
+>
 > Greenhouse tomatoes are also the single most labor-intensive bed on a market garden. When yield doubles and your market already takes every tomato you grow, you get a choice: cut half the beds and keep the same sales, or keep the beds and automate the minute-by-minute climate work.
 >
 > Dan, Broadfork Farm: *"Automation helps us continue to run the farm when we're not there. We get better quality and better yield with the tunnel totally automated without us than if we were there managing it. The tunnel will do a better job by itself."*
 >
 > Either path, hours come back, and your most productive ground is yours again, to plant with something higher-margin.
+
+**Drift note:** The Drew lb/ft² quote (sourced from `docs/landing/sources/drew-gfm-podcast-quotes.md`) was added to substantiate the "yield doubles" hinge before the section pivots to the choice. Anchors the doubling claim in a peer-verifiable unit (lb/ft²) and establishes that Drew's pre-Orisha starting point was already "one of the better producers in the area," not a turnaround story from rock bottom.
 
 ---
 
@@ -320,21 +351,24 @@ Each block below is one section on the page. Reader-type, subsection intent, sta
 - **Reader-type:** Analytical, sub 2.
 - **Subsection intent:** Let the reader decide if the techniques themselves are real and proven.
 - **Owns:** "not secret, not new" framing; Mefferd book; Mefferd's yields doubling on his own farm; Quebec 4x small-grower figure. External authority only.
-- **Status:** **locked** 2026-04-22 (prose below). Orisha *6 Steps to $15,000* moved to Sub 3 to set up the open-problem pivot. Visual layout is outline-only.
+- **Status:** step-4 prose **locked** 2026-04-22. Step-5 structure in iteration (not locked). Orisha *6 Steps to $15,000* moved to Sub 3. The current render in `index.html` uses a photo + paragraph editorial layout with a 4× stat block below; this is one iteration, not a lock.
 
-**Beats (visual layout):**
+**Beats (visual layout, in-progress):**
 
 - Lead: big greenhouses have used these techniques for years.
-- Source card: [The Greenhouse and Hoophouse Grower's Handbook](https://www.johnnyseeds.com/tools-supplies/books/the-greenhouse-and-hoophouse-growers-handbook-andrew-mefferd-7683.html), Andrew Mefferd.
-- Numbers that show the techniques work: Andrew doubled his yields on his own farm; Quebec small growers working with consultants regularly hit four times the average.
+- Editorial layout: Andrew's industrial-greenhouse photo (`assets/team/Andrew/andrew-industrial-greenhouse.jpg`) paired with the Mefferd paragraph, book title linked inline to Johnny's.
+- 4× stat block: sketch (`assets/sketches/techniques-are-known/one-tunnel-equals-four.png`) paired with the Quebec sentence, "4×" visually emphasized inline.
+- No CTA (Analytical section's CTA lives at end of Sub 4).
 
-**Locked copy:**
+**Locked copy (step-4):**
 
 > The techniques are known. They're not secret, and they're not new.
 >
 > Andrew Mefferd wrote *The Greenhouse and Hoophouse Grower's Handbook* to carry techniques from industrial greenhouses into market gardens. The first year he applied what he'd learned on his own farm, his yields doubled. Same greenhouse, twice the harvest.
 >
 > Quebec small growers working with consultants regularly hit four times the average, same square footage.
+
+**Iteration log (2026-04-23):** A 3-card variant (photo | pull-quote | book cover) was rendered and reviewed, then rolled back because the 3 distinct visual registers produced noise rather than rhythm. Assets generated during that iteration are still on disk and may be reused: Andrew's photo, the 1-tunnel-equals-4 sketch, the Mefferd book cover at `assets/books/mefferd-greenhouse-handbook.jpg`.
 
 ---
 
@@ -459,27 +493,49 @@ Each block below is one section on the page. Reader-type, subsection intent, sta
     - Ahead of the plant, not behind it. Acting before the problem shows up in the fruit. Less second-guessing, less catching up.
     - A greenhouse staff can actually run. Clear enough decisions that you don't have to stand over every one.
 
+**Quote candidate when section locks:** Drew on the quality side of the lift, for the "harvest matches the market" card. *"We don't have many problems with splitting. We have very few problems with blossom end rot. Almost everything that comes out of the greenhouse goes to market."* (Source: `docs/landing/sources/drew-gfm-podcast-quotes.md`.) "Almost everything goes to market" is the felt translation of "matches the market" — no #2 pile, no waste, no second-grade pricing.
+
 ---
 
 ## Who this is for
 
 - **Reader-type:** Practical, sub 1 (fit gate).
 - **Subsection intent:** Let the reader decide if the program is designed for their specific situation before they invest another minute reading.
-- **Status:** **locked** (prose below).
+- **Status:** Copy locked 2026-04-22. **Step 5 locked 2026-04-23** (step 5.1 prose refinement applied below).
 
-**Beats:**
+**Beats (visual layout):** *Step 5 locked 2026-04-23.*
 
-- Fit: market gardener a few years in, already growing greenhouse indeterminate tomatoes, at least one tomato season in, open to trying things on the plant you haven't tried.
-- Not fit: not growing greenhouse tomatoes yet, industrial-scale greenhouse, looking for academic theory not practice.
-- Closer: "We'd rather tell you up front than have you waste a season on the wrong thing."
+Layered shape the eye walks (headline → hook → detail → resolution):
 
-**Locked copy:**
+- **Layer 1 — Headline:** H2 *"Who this is for"*. Scan-level orientation.
+- **Layer 2 — One-line hook:** Two column headers side-by-side: *"A good fit"* / *"Not designed for you"* in accent-font uppercase (farm-mid color). Binary self-sort at a glance, before any criteria are read.
+- **Layer 3 — Optional detail:** Short criterion lines beneath each header (one line per criterion, scannable). The uncertain reader reads; the gut-sold reader skips.
+- **Layer 4 — Resolution:** Italic closer below both columns, full-width centered, farm-muted color: *"We'd rather tell you up front than have you waste a season on the wrong thing."* Voice stepping back from the binary.
 
-> A good fit if: you're a market gardener, usually a few years in. You already grow greenhouse indeterminate tomatoes. You have at least one tomato season under your belt. You're open to trying things on the plant you haven't tried.
+**Fit-decision beat:** lands in Layer 3 — the moment the reader reads their situation in one of the two columns. Must be above the section's fold. No scrolling required to make the fit decision.
+
+**Progressive disclosure:** by scan-register, not by `<details>` expand. Scanner who sees themselves in a header can leave; uncertain reader reads the criteria; nothing is hidden.
+
+**Ground color:** `bg-farm-bg` (warm cream). Editorial register; not clinical white.
+
+**Layout:** `max-w-5xl` outer container; two columns at `md:grid-cols-2` with `gap-12 md:gap-16`; stack on mobile (fit column above not-fit). No divider between columns — just the gap.
+
+**Locked copy (step 5.1 refinement — criterion lines replace run-together sentences):**
+
+> **A good fit**
+> - You're a market gardener, a few years in
+> - You already grow greenhouse indeterminate tomatoes
+> - At least one tomato season under your belt
+> - Open to trying new things
 >
-> Not designed for you if: you're not growing greenhouse tomatoes yet, you run an industrial-scale greenhouse, or you're looking for academic theory not practice.
+> **Not designed for you**
+> - You don't grow greenhouse tomatoes yet
+> - You run an industrial-scale greenhouse
+> - You're looking for academic theory, not practice
 >
-> We'd rather tell you up front than have you waste a season on the wrong thing.
+> *We'd rather tell you up front than have you waste a season on the wrong thing.*
+
+**Drift note:** original locked copy ran criteria together as sentences ("A good fit if: you're a market gardener, usually a few years in. You already grow greenhouse indeterminate tomatoes..."). Step 5.1 broke the lead-ins out to column headers and made each criterion its own line. "Usually" dropped (quieter, same meaning). Closing italic preserved verbatim.
 
 ---
 

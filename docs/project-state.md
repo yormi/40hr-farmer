@@ -8,7 +8,7 @@ Landing page, HubSpot form + automation, and 5-email welcome sequence for the 40
 
 ## Why
 
-Waitlist and email funnel live before the May 2026 cohort launch.
+Waitlist and email funnel live before the June 2026 cohort launch.
 
 ## Current state (as of 2026-04-23)
 
@@ -55,7 +55,7 @@ The reason: most sections are prose-locked; further waiting for the last few unl
 
 ## Cohort 1 plan (set 2026-04-17)
 
-- **Start:** May 2026.
+- **Start:** June 2026.
 - **Size:** Small on purpose. The frame is **capacity, not scarcity**. Quote: "Starting smaller with coaching sessions to learn to serve as many farmers as possible as much as possible. Going too fast could ruin that." Drop any "first 50" or "first in" FOMO language in copy.
 - **Month 1 teaching goal:** Maximize fruit load without exhausting the plant. Anchored in two real cases: Drew still only reached about half of his plants' carrying capacity in 2025, and Gordon had significant flower abortion. The pattern is widespread across the farmers we have talked to. See [`brand/docs/internal/story-and-origin.md`](../brand/docs/internal/story-and-origin.md).
 - **Posture:** The playbook is **not finished**. Cohort 1 is where we build it together with the farmers. That is a feature, communicate it honestly.

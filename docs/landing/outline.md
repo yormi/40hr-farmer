@@ -257,25 +257,31 @@ Each block below is one section on the page. Reader-type, subsection intent, sta
 
 ---
 
-## Hero (two-block editorial layout)
+## Hero (one-block merged layout)
 
 - **Reader-type:** Gut.
 - **Subsection intent:** Let the reader decide in ten seconds whether this page's worldview fits what they want from farming life.
-- **Status:** **locked** 2026-04-22 (copy). **Step 5 locked 2026-04-23** (visual structure, from scratch — earlier preserved notes discarded).
+- **Status:** **locked** 2026-04-22 (copy). **Step 5 re-locked 2026-04-27** (merged structure, replaces the earlier two-block split).
 
-**Beats (visual layout):** *Step 5 locked 2026-04-23.*
+**Beats (visual layout):** *Step 5 re-locked 2026-04-27.*
 
-Two stacked blocks, photo-first editorial. Mirror and named-container are distinct step-2 beats and stay visually separate; no overlay wall.
+Single block, photo-first editorial. All five elements (eyebrow → H1 → italic subhead → body → CTA) live in one stack on the right of the photo (desktop) or below it (mobile). The two-block split was abandoned because mobile readers landed on the emotional couplet without seeing what the page is — "coaching program for market gardeners" needed to land in the same breath.
 
-- **Block 1 — mirror.** Only two treatments: H1 + italic subhead. No eyebrow, body, or CTA in this block.
-  - *Desktop (md+):* full-bleed photo absolute-positioned with right-dense white scrim; text overlays on the right. `min-h-[85vh]`.
-  - *Mobile:* photo is a 55vh full-bleed band on top; text stacks below on clean white ground — no overlay, no scrim needed. Text left-aligned naturally on mobile, right-aligned on desktop.
-- **Block 2 — named container.** Flat reading band on `bg-farm-bg`, directly below the photo, no divider. Single column, `max-w-3xl`, left-aligned. Order: eyebrow (uppercase accent) → body paragraph → whisper CTA. Generous vertical padding.
-- **Fit-decision beat:** closing sentence of the body paragraph ("Same sales, fewer hours."). The moment the aspiration gets a mechanism.
-- **Above the fold at 85vh:** H1 + italic subhead fully visible. Eyebrow + body peek as a scroll cue; full container beat lands on a short scroll.
-- **Transition into Drew:** no ornament, no divider. Drew opens with its own ground color.
-- **CTA treatment:** underlined inline link in `farm-green`. Not a button. The clear-door CTA lives in the persistent sticky nav, so Hero's CTA can stay a whisper.
-- **Open sub-decision (deferred):** final photo pick + which side of the frame text sits on. Current `drive-0416.jpg` is placeholder; iterate after first pass.
+- **Section structure:** `<section id="hero" class="bg-farm-bg ...">` — `bg-farm-bg` shows on mobile under the photo; on desktop the full-bleed photo covers the section background.
+  - *Desktop (md+):* full-bleed photo absolute-positioned with right-dense `from-farm-bg via-farm-bg/90` scrim; text overlays on the right. `min-h-[85vh]`. Right-aligned column (`max-w-xl md:text-right`).
+  - *Mobile:* photo is a 55vh full-bleed band on top; text stacks below on `bg-farm-bg` warm cream — gives the opening section its own register before Drew arc shifts to bg-white.
+- **Stack order (top to bottom):**
+  1. Eyebrow (uppercase accent, `text-xs`): "A coaching program for market gardeners" — category anchor, lands what this is before the emotional pitch.
+  2. H1 (Fraunces, `text-4xl→6xl`): "Farming is beautiful"
+  3. Italic subhead (Lato italic, `text-2xl→4xl`): "But life's richer with energy left for the people in it"
+  4. *(visual gap, `mt-8 md:mt-10`)* — separates the poetic couplet from the descriptive chunk
+  5. Body (`text-lg md:text-xl`): "Sharpen your greenhouse. Harvest more from fewer beds. Earn more in fewer hours."
+  6. CTA (whisper underline link): "Join the waiting list →"
+- **Fit-decision beat:** closing sentence of the body paragraph ("Earn more in fewer hours."). The moment the aspiration gets a mechanism.
+- **Above the fold at 85vh:** eyebrow + H1 + subhead fully visible. Body + CTA peek as a scroll cue; full beat lands on a short scroll.
+- **Transition into Drew:** no ornament, no divider. Drew opens on bg-white as a register shift from hero's farm-bg warmth.
+- **CTA treatment:** underlined inline link in `farm-green`, right-aligned in the column. Not a button. The clear-door CTA lives in the persistent sticky nav, so Hero's CTA can stay a whisper.
+- **Open sub-decision (deferred):** final photo pick. Current `drive-0416.jpg` is placeholder.
 
 **Locked copy:**
 
@@ -285,11 +291,13 @@ Two stacked blocks, photo-first editorial. Mirror and named-container are distin
 >
 > **Italic subhead:** But life's richer with energy left for the people in it
 >
-> **Body:** More revenue out of the greenhouse, so you can cut field beds without cutting income. Same sales, fewer hours.
+> **Body:** Sharpen your greenhouse. Harvest more from fewer beds. Earn more in fewer hours.
 >
 > **CTA:** Join the waiting list →
 
-**Drift note:** previous live body was "Small moves to get more out of every bed, so 40 hours is enough to run the farm. Same income, less grind." The locked version drops the "40" anchor (carried by the program name/header instead) and swaps the vague "every bed" mechanism for the elevator pitch's concrete "greenhouse → cut field beds" logic.
+**Drift notes:**
+- Previous live body was "Small moves to get more out of every bed, so 40 hours is enough to run the farm. Same income, less grind." Then "More revenue out of the greenhouse, so you can cut field beds without cutting income. Same sales, fewer hours." Current 2026-04-27 lock: "Sharpen your greenhouse. Harvest more from fewer beds. Earn more in fewer hours." Three short sentences. Notable claim shift: from protective ("same income / without cutting income") to outcome-promising ("earn more"). Decision logged as deliberate hero-claim escalation by Guillaume; brand's "no claims, no promises on the course" rule pinches but is read as broad/aspirational rather than quantified-promise. Re-evaluate if cohort-1 outcomes don't substantiate the "earn more" framing.
+- Previous structure (2026-04-23 lock) split the hero into two visually separate blocks: a photo+H1+subhead "mirror" block on top of a `bg-farm-bg` "named container" band below. The split fragmented the reading experience — mobile users landed on the poetic couplet but had to scroll to learn the page was a coaching program. Merged 2026-04-27 into a single stack with the eyebrow leading the column, so category identification lands above the fold.
 
 ---
 
@@ -520,10 +528,12 @@ Two stacked blocks, photo-first editorial. Mirror and named-container are distin
 
 ---
 
-## Mid-page CTA band (green)
+## Mid-page CTA band (green) — **DROPPED 2026-04-27**
 
-- "Already see yourself in this? The program opens June 2026."
-- Button: "Join the waiting list"
+- **Status: dropped.** Not doing it alone (Analytical sub 4) and The Program (Practical sub 3) each carry a green pill at their close. A third "Mid-page CTA band" between or after them reads as redundant pill-stacking and breaks the quiet-journal voice.
+- Original draft kept here for reference only:
+    - "Already see yourself in this? The program opens June 2026."
+    - Button: "Join the waiting list"
 
 ---
 
@@ -586,9 +596,18 @@ Two stacked blocks, photo-first editorial. Mirror and named-container are distin
 
 ## What it starts to feel like (`#outcomes`)
 
-- **Reader-type:** not yet placed in the reader-type map. Candidate homes: folded into Gut (felt-texture hook near top), folded into Practical sub 3 (after pictured month), or kept as its own beat near the end. Decide before drafting copy.
-- **Subsection intent:** pending until home is decided.
-- **Status:** pending.
+- **Reader-type:** Practical sub 4 (the imagined future). Slots between `#how-to-join` and `#team` when picked back up.
+- **Subsection intent:** Let the reader feel what the greenhouse becomes a season in, after the work has compounded.
+- **Status:** **parked 2026-04-27.** Step 4 partially drafted in conversation (4 cards tightened, Drew quote candidate vetted at three lengths: full transcript / 3-sentence curated / 1-sentence punch) but not locked. Page ships fine without it; revisit when there's appetite to round out the Practical arc.
+
+**Conversation drafts (not yet locked):**
+
+- H2: *"What it starts to feel like"*
+- Subhead: *"A season in, the greenhouse feels different. Not louder. Quieter."*
+- Card 1: *Plants carrying more fruit.* / "More to pick each week, on the same beds you already planted."
+- Card 2: *A harvest that matches the market.* / "Fewer gluts, fewer gaps. What you grow tends to sell at full price." + Drew quote (length TBD).
+- Card 3: *Ahead of the plant, not behind it.* / "Acting before the problem shows up in the fruit. Less second-guessing, less catching up."
+- Card 4: *A greenhouse staff can actually run.* / "Clear enough decisions that you don't have to stand over every one."
 
 **Beats (visual layout):**
 
@@ -676,14 +695,36 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 
 ---
 
-## FAQ
+## FAQ — **DROPPED 2026-04-27**
 
+- **Status: dropped** after rendering. Each of the 5 candidate Q&As turned out redundant with content already on the page (How to join's stat strip + pricing cards, Who this is for's fit gate, Why information isn't enough, Why add your name now's eyebrow blocks). A separate FAQ section repeated material the reader has already seen, so it was removed.
+- Locked Q&A copy below kept as reference; do not re-introduce as a section without first identifying questions that aren't answered elsewhere.
 - **Reader-type:** residual objections, reads across Practical + Committer.
-- **Status:** live on `index.html` between `#pricing` and `#testimonials`. Not yet re-drafted under the reader-type-first method.
 
 **Beats:**
 
-- Time per week, English-only, joining mid-program, what happens right after signup, leaving anytime, already-growing-tomatoes requirement, course-vs-program.
+- Trimmed from 7 candidate topics to 5 essential. Two dropped as redundant with content already on the page: "what happens right after signup" (covered in Why add your name now's *You'll get program updates* eyebrow block) and "can I leave anytime" (covered in How to join's *Monthly cycles* stat + Standalone pricing card's *Month to month. Leave anytime.*).
+
+**Locked copy — 5 Q&A pairs in order:**
+
+1. **How much time does the program take per week?**
+    > About 2 to 3 hours: a 5-minute video, a 60-minute live call (recorded if you miss it), and the rest happens inside the work you'd be doing on your plants anyway.
+2. **Do I have to be growing greenhouse tomatoes already?**
+    > Yes. The program is built for current greenhouse tomato growers. Cucumber and lettuce paths may come later, but tomatoes are the focus this year.
+3. **Can I join mid-program?**
+    > Yes. Each month is its own goal, so you can start any month without catching up.
+4. **Is the program in English only?**
+    > Yes, English only for now. We may translate later as the program grows.
+5. **What's the difference between the Orisha course, Andrew's book, and the 40hr Farmer program?**
+    > The course and the book are content. The program is a place: live coaching on the calls you're making in your own greenhouse this week.
+
+**Visual structure (step 5):**
+
+- Section ID `id="faq"`. Slots between `#how-to-join` and `#team` (residual objections cleanup before the Committer arc).
+- bg-farm-bg ground (alternates from `#how-to-join` white; restores rhythm before `#team` white).
+- Standard section padding `py-16 md:py-24`.
+- **H2:** "Common questions" (no period). Quieter than "FAQ" jargon, simpler than "Frequently asked questions". Sits in `max-w-3xl` wrapper.
+- **Accordion:** 5 items in the `max-w-3xl` prose column, same `<details>` pattern as `#program` but without step numbers. Each summary: question as Fraunces title + rotating caret on right. Expanded body: answer in body prose styling.
 
 ---
 
@@ -704,7 +745,7 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 - **Framing line** (italic Fraunces below H2): "Three people show up on the calls. Different paths in, different angles on the same work."
 - **3 bios stacked** with generous space between. Each bio block: 12-col grid, photo `md:col-span-4`, text `md:col-span-8`. Photo `aspect-square object-cover rounded-card`, max-w-[280px]. Stacks on mobile.
 - Each bio: Photo · Fraunces name (h3) · Rubik tagline (1-line) · first paragraph (always visible) · `<details>` "Read more" expand for middle paragraphs · italic *"On calls, he…"* closer (always visible, pulled from the locked prose's last paragraph).
-  - **Andrew:** photo `assets/team/Andrew/andrew-industrial-greenhouse.jpg` (reused from `#techniques-known`). Tagline: "Author. Growing for Market editor."
+  - **Andrew:** photo `assets/team/Andrew/IMG_0968.JPG`. Tagline: "Author. Growing for Market editor."
   - **Guillaume:** photo `assets/clients/ferme-decembre/IMG_3865.jpg`. Tagline: "Founder, Orisha. Co-grower, Ferme Décembre."
   - **Antoine:** photo `assets/clients/jardin-inverness/Antoine.jpeg`. Tagline: "Grower, Jardin Inverness."
 - **Antoine asymmetry:** the *"One more year like this, and I'll sell the farm."* italic pull-quote sits in his para 2 — it's the load-bearing emotional beat. So Antoine's always-visible content includes paragraphs 1 AND 2; expand reveals paras 3–4. Andrew and Guillaume show only para 1 by default (Antoine's variance is intentional).
@@ -772,10 +813,10 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 |---|---|
 | 1. Why today | Priority-queue honesty: rolling admission + real live-call capacity = a genuine reason to add your name today, not hype. **Fit-decision beat lives here.** |
 | 2. What happens when you sign up | Mechanical reassurance: what clicking the button means (waitlist), what lands in the reader's inbox, when the program opens. Low-stakes, reversible. |
-| 3. The form | Minimal fields, submit button carries the page's accumulated weight. |
-| 4. Disclosures next to form | Residual logistics (mid-program join, leave anytime, language, what arrives after signup). Answers without re-arguing. |
+| 3. The form | Minimal fields (first name, farm name, email, subscription status), submit button carries the page's accumulated weight. |
+| ~~4. Disclosures next to form~~ | **DROPPED 2026-04-27.** Disclosures (mid-program join, leave anytime, language, privacy) were judged either redundant with How to join's pricing cards / cadence stat or non-essential at this beat. Form stands alone after Beat 3. |
 
-Ordering: 1 → 2 → 3 → 4. Reassurance before the form. Disclosures sit next to the form so they're available but don't slow the decision.
+Ordering: 1 → 2 → 3. Reassurance before the form. No disclosures.
 
 **Guardrails:**
 
@@ -784,11 +825,50 @@ Ordering: 1 → 2 → 3 → 4. Reassurance before the form. Disclosures sit next
 - Any urgency beyond the honest math breaks the brand.
 - Any potential starting limit is a one-time launch posture ("starting smaller so we can learn how to serve everyone well"), not an ongoing monthly cap.
 
-**Locked copy, Beat 1 (Why today):**
+**Visual structure (step 5) locked 2026-04-27 — variant B (two-column desktop, prose + form).** Lean refinement 2026-04-27: left column converted from 3 prose paragraphs to 3 eyebrow-led blocks; H2 changed from "Why add your name now" to "Join us" (more welcoming).
 
-> We're still figuring out the format of the group coaching. We want to serve as many farmers as possible, as much as possible. If that means starting smaller so we can learn how, we'll open first in, first seat.
+- Section ID `id="join"`. bg-farm-bg ground (alternates from `#team` white per locked layout patterns).
+- **H2:** "Join us" (no period). Welcoming register, less transactional than "Why add your name now". Spans the prose column at the top (max-w-3xl wrapper).
+- **Stacked single-column layout (relocked 2026-04-27):** prose lead-in above, centered form below. The earlier two-column grid (prose left / form right) was retired — eyebrow-led blocks compressed into a single short paragraph that does the same persuasive work without the visual weight of two columns. Form floats centered with `max-w-md mx-auto`.
+- **Prose lead-in:** centered reading column (`max-w-3xl mx-auto mt-10 md:mt-14`), single paragraph at canonical body scale (`text-lg md:text-xl text-farm-text leading-relaxed`). Replaces the two eyebrow-led blocks.
+- **Form panel:** white panel `bg-white rounded-card p-8 md:p-10 border border-farm-mid/15` inside `max-w-md mx-auto mt-12 md:mt-16`, containing:
+  - Lead-in (italic, top of panel): *"Three fields and a quick question."*
+  - First name (text input)
+  - Farm name (text input)
+  - Email (email input)
+  - Subscription status (radio group, label "Are you already a..."): *Orisha user* / *Growing for Market subscriber* / *None of the above*
+  - Submit button: green pill *"Join the waiting list →"*, full width inside panel.
+- HubSpot post handler **pending** — render with `action=""` placeholder and a comment marker for the funnel work.
+
+**Locked copy (re-locked 2026-04-27, single prose paragraph):**
+
+> Interested? Join the list so we can figure out the best format to support y'all.
 >
-> Putting your name down today costs nothing. It moves you up the queue, and helps us figure out how many farmers to plan for.
+> *(quiet muted warning, smaller scale below the lead)*
+> *If we have to limit seats, first on the list, first in.*
+
+**Drift note (2026-04-27 lean):** went through three lock revisions in one day. Initial: three paragraphs ("We're still figuring out the format..." + "Putting your name down today costs nothing..." + "Your name goes on the waiting list..."). First prune: three eyebrow-led prefixes (Tell us / Save your seat / Get Program updates). Second prune (same day): "Get Program updates / over email" deleted. Final lock (same day): collapsed the remaining two eyebrow blocks + retired the two-column grid for a single prose paragraph above a centered form. Each prune lost the same idea (what-happens-after-signup is implicit; the eyebrow scaffolding added visual weight without adding meaning). The "first on the list, first in" framing replaces "first in, first seat" — softer, more conditional, removes the implicit cohort scarcity.
+
+**Locked copy, Beat 3 (The form) — locked 2026-04-27:**
+
+- Lead-in: ~~"Three fields and a quick question."~~ **Removed 2026-04-27** — form opens directly with the first field, no preamble.
+- Form fields:
+    - First name (text)
+    - Farm name (text)
+    - Email (email)
+    - Subscription status (single-select, 3 options): *Orisha user* / *Growing for Market subscriber* / *None of the above*
+        - Field label candidate: *"Are you already…"* or *"Where you stand"* — exact wording in step 5.
+- Submit button label: *"Join the waiting list"*
+- Posts to HubSpot.
+
+**Why the 4th field:** segments the welcome sequence and tracks how many incoming signups already qualify for the free path. Surfaces the subscription dimension to the reader at signup, which lightly nudges *"oh, GFM gets me free access"* awareness without re-pitching it on the page.
+
+**Note (HubSpot integration):** existing form captures first name + last name + email. New form needs:
+1. Drop *Last name* field.
+2. Add *Farm name* (text) — likely a new custom contact property.
+3. Add *Subscription status* (enumeration / single-select with values: Orisha user, GFM subscriber, None) — new custom contact property, used as the segmentation key for the welcome sequence.
+
+Out-of-scope for the landing page render; flag for the funnel work before signup launches.
 
 ---
 

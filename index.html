@@ -124,9 +124,11 @@
   <main>
 
     <!-- ========== HERO ========== -->
-    <!-- Block 1 — mirror.
-         Desktop: full-bleed photo with right-dense scrim, H1 + italic subhead overlay on the right.
-         Mobile: photo stacks as a full-bleed band above a clean white text block (no overlay, no scrim needed). -->
+    <!-- All-in-one: photo + eyebrow (category anchor) + H1 + italic subhead + body + whisper CTA.
+         Desktop: full-bleed photo with right-dense scrim, full content stack overlaid on the right.
+         Mobile: photo stacks as a full-bleed band above the same content stack on bg-farm-bg.
+         bg-farm-bg gives mobile a soft warm ground that registers as the "opening" before the
+         Drew arc (bg-white) below; on desktop the photo covers the section background. -->
     <section id="hero" class="relative overflow-hidden md:min-h-[85vh] md:flex md:items-center">
       <img src="assets/clients/ferme-decembre/drive-0416.jpg"
            alt="Market gardener at work in a greenhouse"
@@ -135,27 +137,21 @@
 
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 md:pt-32 md:pb-28 md:flex md:justify-end">
         <div class="fade-in max-w-xl md:text-right">
+          <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-5">
+            A coaching program for market gardeners
+          </p>
           <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-medium text-farm-dark leading-[1.05] tracking-tight md:whitespace-nowrap">
             Farming is beautiful
           </h1>
           <p class="font-body italic text-2xl sm:text-3xl md:text-4xl font-semibold text-farm-text leading-snug tracking-tight text-balance mt-4">
             But life's richer with energy left for the people in it
           </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Block 2 — named container: reading band on farm-bg, eyebrow → body → whisper CTA. -->
-    <section class="bg-farm-bg">
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20">
-        <div class="fade-in">
-          <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-5">
-            A coaching program for market gardeners
+          <p class="text-lg md:text-xl text-farm-text leading-relaxed mt-8 md:mt-10">
+            Sharpen your greenhouse.<br>
+            Harvest more from fewer beds.<br>
+            Earn more in fewer hours.
           </p>
-          <p class="text-lg md:text-xl text-farm-text leading-relaxed mb-7">
-            More revenue out of the greenhouse, so you can cut field beds without cutting income. Same sales, fewer hours.
-          </p>
-          <a href="#join" class="text-farm-green font-medium underline underline-offset-4 hover:text-farm-dark">
+          <a href="#join" class="inline-block text-farm-green font-medium underline underline-offset-4 hover:text-farm-dark mt-6">
             Join the waiting list &rarr;
           </a>
         </div>
@@ -955,7 +951,7 @@
             <!-- Andrew Mefferd -->
             <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 md:items-start">
               <div class="md:col-span-4">
-                <img src="assets/team/Andrew/andrew-industrial-greenhouse.jpg"
+                <img src="assets/team/Andrew/IMG_0968.JPG"
                      alt="Andrew Mefferd"
                      class="w-full max-w-[280px] mx-auto md:mx-0 aspect-square object-cover rounded-card">
               </div>
@@ -1064,6 +1060,103 @@
               Louis-Bernard keeps the community forum going between calls. The rest of us at Orisha turn what we learn into tools that make the work easier.
             </p>
           </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WHY ADD YOUR NAME NOW (Committer sub 2) — final form ==========
+         Variant B (two-column desktop): H2 spans top → 2-col grid below where left
+         (col-span-7) carries Beat 1 (2 paragraphs of priority-queue honesty) + Beat 2
+         (1 paragraph of mechanical reassurance), and right (col-span-5) carries the
+         form panel (lead-in + 4 fields + green pill). Stacks mobile (prose above form).
+         Section ground: bg-farm-bg (alternates from #team white).
+         HubSpot post handler PENDING — action="" placeholder; new "farm name" and
+         "subscription status" custom properties need wiring before signup launches. -->
+    <section id="join" class="bg-farm-bg py-20 md:py-28">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="fade-in">
+
+          <!-- H2 (prose column width) -->
+          <div class="max-w-3xl mx-auto">
+            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
+              Join us
+            </h2>
+          </div>
+
+          <!-- Prose lead-in (centered reading column) -->
+          <div class="max-w-3xl mx-auto mt-10 md:mt-14">
+            <p class="text-lg md:text-xl text-farm-text leading-relaxed">
+              Interested? Join the list so we can figure out the best format to support y'all.
+            </p>
+            <p class="text-sm md:text-base text-farm-muted italic leading-snug mt-4">
+              If we have to limit seats, first on the list, first in.
+            </p>
+          </div>
+
+          <!-- Form panel, centered -->
+          <div class="max-w-md mx-auto mt-12 md:mt-16">
+            <div class="bg-white rounded-card p-8 md:p-10 border border-farm-mid/15">
+              <!-- TODO: wire up to HubSpot. Needs: drop "last name" property,
+                   add "farm name" (text custom property), add "subscription status"
+                   (enum: orisha / gfm / none) — see outline.md HubSpot note. -->
+              <form action="" method="POST" class="space-y-5">
+
+                  <div>
+                    <label for="firstName" class="block font-accent uppercase tracking-wider text-xs text-farm-mid font-semibold mb-2">
+                      First name
+                    </label>
+                    <input type="text" id="firstName" name="firstName" required
+                           class="w-full px-4 py-3 border border-farm-mid/30 rounded-md bg-white text-farm-text focus:outline-none focus:border-farm-green focus:ring-1 focus:ring-farm-green">
+                  </div>
+
+                  <div>
+                    <label for="farmName" class="block font-accent uppercase tracking-wider text-xs text-farm-mid font-semibold mb-2">
+                      Farm name
+                    </label>
+                    <input type="text" id="farmName" name="farmName" required
+                           class="w-full px-4 py-3 border border-farm-mid/30 rounded-md bg-white text-farm-text focus:outline-none focus:border-farm-green focus:ring-1 focus:ring-farm-green">
+                  </div>
+
+                  <div>
+                    <label for="email" class="block font-accent uppercase tracking-wider text-xs text-farm-mid font-semibold mb-2">
+                      Email
+                    </label>
+                    <input type="email" id="email" name="email" required
+                           class="w-full px-4 py-3 border border-farm-mid/30 rounded-md bg-white text-farm-text focus:outline-none focus:border-farm-green focus:ring-1 focus:ring-farm-green">
+                  </div>
+
+                  <fieldset>
+                    <legend class="block font-accent uppercase tracking-wider text-xs text-farm-mid font-semibold mb-3">
+                      Are you already a&hellip;
+                    </legend>
+                    <div class="space-y-2.5">
+                      <label class="flex items-center gap-3 cursor-pointer">
+                        <input type="radio" name="subscriptionStatus" value="orisha" required
+                               class="text-farm-green focus:ring-farm-green">
+                        <span class="text-base text-farm-text">Orisha user</span>
+                      </label>
+                      <label class="flex items-center gap-3 cursor-pointer">
+                        <input type="radio" name="subscriptionStatus" value="gfm" required
+                               class="text-farm-green focus:ring-farm-green">
+                        <span class="text-base text-farm-text">Growing for Market subscriber</span>
+                      </label>
+                      <label class="flex items-center gap-3 cursor-pointer">
+                        <input type="radio" name="subscriptionStatus" value="none" required
+                               class="text-farm-green focus:ring-farm-green">
+                        <span class="text-base text-farm-text">None of the above</span>
+                      </label>
+                    </div>
+                  </fieldset>
+
+                  <button type="submit"
+                          class="w-full inline-flex items-center justify-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm mt-2">
+                    Join the waiting list &rarr;
+                  </button>
+
+                </form>
+              </div>
+            </div>
 
         </div>
       </div>

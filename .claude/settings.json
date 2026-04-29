@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR/scripts/build-doc-map.sh\" >&2 && printf '%s\\n' 'Doc map refreshed at .claude/doc-map.md. Read it before responding to orient on what is in which file.'"
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR/scripts/build-doc-map.sh\" >&2 && printf '%s\\n' 'Doc map refreshed at .claude/doc-map.md. Read it before responding to orient on what is in which file.'"
+          }
+        ]
+      }
+    ]
+  }
+}

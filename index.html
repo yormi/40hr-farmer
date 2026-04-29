@@ -135,9 +135,10 @@
          bg-farm-bg gives mobile a soft warm ground that registers as the "opening" before the
          Drew arc (bg-white) below; on desktop the photo covers the section background. -->
     <section id="hero" class="relative overflow-hidden md:min-h-[85vh] md:flex md:items-center">
-      <img src="assets/clients/ferme-decembre/drive-0416.jpg"
-           alt="Market gardener at work in a greenhouse"
-           class="w-full h-[55vh] object-cover md:absolute md:inset-0 md:w-full md:h-full md:-z-20">
+      <img src="assets/clients/ferme-decembre/6073DAB7-095E-4744-8045-67F8166BA650.jpg"
+           alt="Market gardener tending tomato plants in a greenhouse, hands raised among the foliage"
+           class="w-full h-[55vh] object-cover md:absolute md:inset-0 md:w-full md:h-full md:-z-20"
+           style="object-position: center 30%;">
       <div class="hidden md:block absolute inset-0 bg-gradient-to-l from-white via-white/90 to-transparent -z-10"></div>
 
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 md:pt-32 md:pb-28 md:flex md:justify-end">
@@ -161,6 +162,17 @@
       </div>
     </section>
 
+    <!-- ========== COLLAB BANNER ========== -->
+    <!-- Quiet attribution band between Hero and Drew arc. Names the program's
+         partnership without competing with either Hero or Drew arc visually. -->
+    <section class="bg-farm-bg border-y border-farm-mid/15">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5 md:py-6">
+        <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs text-center">
+          A collaboration between Orisha and <a href="https://growingformarket.com" target="_blank" rel="noopener noreferrer" class="text-farm-green underline underline-offset-2 hover:text-farm-dark">Growing for Market</a>
+        </p>
+      </div>
+    </section>
+
     <!-- ========== DREW ARC (Peer sub 1) ==========
          Eyebrow → two-line H2 → max-w-3xl prose with year rhythm labels →
          breakout: photo + flip pull-quote pair (climax) →
@@ -171,13 +183,13 @@
         <div class="fade-in">
 
           <!-- Header block (prose column width) -->
-          <div class="max-w-3xl mx-auto">
-            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance mb-3">
+          <div class="max-w-3xl mx-auto mb-12 md:mb-16">
+            <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
+              The story that inspired the program
+            </p>
+            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
               Allison's off-farm paycheck became optional
             </h2>
-            <p class="font-body italic text-lg md:text-xl text-farm-muted leading-relaxed mb-12 md:mb-16">
-              The story that inspired the program.
-            </p>
           </div>
 
           <!-- Body prose with year rhythm labels (prose column width) -->
@@ -322,6 +334,9 @@
     <section id="leverage" class="bg-farm-bg">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div class="fade-in max-w-3xl mx-auto">
+          <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
+            The angle
+          </p>
           <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
             Making our beds pay for the life we want
           </h2>
@@ -394,76 +409,104 @@
     <section id="why-tomatoes" class="bg-white">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div class="fade-in max-w-3xl mx-auto">
+          <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
+            The focus
+          </p>
           <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
-            Why we focus on greenhouse tomatoes
+            Greenhouse tomatoes
           </h2>
           <p class="font-body italic text-lg md:text-xl text-farm-muted leading-relaxed mt-6">
             A farm has more work than hands. Focus where it earns the most back.
           </p>
         </div>
 
-        <div class="fade-in grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mt-12 md:mt-16">
+        <!-- 4 cards stacked vertically, each with horizontal internal layout (sketch left, headline right).
+             Each card is a <details> accordion: summary = sketch + headline + caret;
+             body = supporting quote/claim, reveals on click. -->
+        <div class="fade-in max-w-3xl mx-auto mt-12 md:mt-16">
           <article>
-            <img src="assets/sketches/why-tomatoes/04-unexploited-opportunity.png"
-                 alt="Hand-drawn sketch of a tomato plant with a few solid fruits and many dashed ghost fruits showing unrealized potential"
-                 class="w-32 h-32 md:w-36 md:h-36 object-contain mb-4">
-            <h3 class="font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight">
-              Biggest unexploited opportunity
-            </h3>
-            <blockquote class="pl-5 md:pl-6 border-l-2 border-farm-green/60 font-body italic text-base md:text-lg text-farm-dark leading-snug mt-3">
-              &ldquo;We were at just around 1 lb/ft² with slicers in 2023, and we were one of the better tomato producers in the area. We're up to almost 5 lb/ft². We're trying to hit 6 this year.&rdquo;
-              <footer class="font-sans not-italic text-sm text-farm-muted mt-3 tracking-wide">
-                Drew, Ghost House Farm
-              </footer>
-            </blockquote>
+            <details class="group border-t border-farm-mid/15 py-5">
+              <summary class="cursor-pointer flex items-center gap-4 md:gap-5">
+                <img src="assets/sketches/why-tomatoes/04-unexploited-opportunity.png"
+                     alt="Hand-drawn sketch of a tomato plant with a few solid fruits and many dashed ghost fruits showing unrealized potential"
+                     class="w-16 h-16 md:w-20 md:h-20 object-contain flex-shrink-0">
+                <h3 class="font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight flex-1">
+                  Biggest unexploited opportunity
+                </h3>
+                <span class="caret font-accent text-farm-mid text-xl flex-shrink-0">&rsaquo;</span>
+              </summary>
+              <blockquote class="pl-5 md:pl-6 border-l-2 border-farm-green/60 font-body italic text-base md:text-lg text-farm-dark leading-snug mt-4">
+                &ldquo;We were at just around 1 lb/ft² with slicers in 2023, and we were one of the better tomato producers in the area. We're up to almost 5 lb/ft². We're trying to hit 6 this year.&rdquo;
+                <footer class="font-sans not-italic text-sm text-farm-muted mt-3 tracking-wide">
+                  Drew, Ghost House Farm
+                </footer>
+              </blockquote>
+            </details>
           </article>
 
           <article>
-            <img src="assets/sketches/why-tomatoes/01-pay-per-bed.png"
-                 alt="Hand-drawn sketch of a garden bed with dollar bills and coins sprouting from it"
-                 class="w-32 h-32 md:w-36 md:h-36 object-contain mb-4">
-            <h3 class="font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight">
-              Highest pay per bed
-            </h3>
-            <p class="text-base md:text-lg text-farm-text leading-relaxed mt-3">
-              A well-run greenhouse tomato bed earns what 25 beds of beets, kale, or onions earn.
-            </p>
-            <p class="font-sans text-sm text-farm-muted mt-2 italic">
-              FQT Farm's numbers.
-            </p>
+            <details class="group border-t border-farm-mid/15 py-5">
+              <summary class="cursor-pointer flex items-center gap-4 md:gap-5">
+                <img src="assets/sketches/why-tomatoes/01-pay-per-bed.png"
+                     alt="Hand-drawn sketch of a garden bed with dollar bills and coins sprouting from it"
+                     class="w-16 h-16 md:w-20 md:h-20 object-contain flex-shrink-0">
+                <h3 class="font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight flex-1">
+                  Highest pay per bed
+                </h3>
+                <span class="caret font-accent text-farm-mid text-xl flex-shrink-0">&rsaquo;</span>
+              </summary>
+              <p class="text-base md:text-lg text-farm-text leading-relaxed mt-4">
+                A well-run greenhouse tomato bed earns what 25 beds of beets, kale, or onions earn.
+              </p>
+              <p class="font-sans text-sm text-farm-muted mt-2 italic">
+                FQT Farm's numbers.
+              </p>
+            </details>
           </article>
 
           <article>
-            <img src="assets/sketches/why-tomatoes/02-revenue-share.png"
-                 alt="Hand-drawn sketch of three large full baskets clustered next to a row of small empty baskets"
-                 class="w-32 h-32 md:w-36 md:h-36 object-contain mb-4">
-            <h3 class="font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight">
-              Biggest share of revenue
-            </h3>
-            <p class="text-base md:text-lg text-farm-text leading-relaxed mt-3">
-              Tomatoes, cukes and lettuce carry 70% of Drew's farm revenue. The other 30 vegetables carry the rest.
-            </p>
+            <details class="group border-t border-farm-mid/15 py-5">
+              <summary class="cursor-pointer flex items-center gap-4 md:gap-5">
+                <img src="assets/sketches/why-tomatoes/02-revenue-share.png"
+                     alt="Hand-drawn sketch of three large full baskets clustered next to a row of small empty baskets"
+                     class="w-16 h-16 md:w-20 md:h-20 object-contain flex-shrink-0">
+                <h3 class="font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight flex-1">
+                  Biggest share of revenue
+                </h3>
+                <span class="caret font-accent text-farm-mid text-xl flex-shrink-0">&rsaquo;</span>
+              </summary>
+              <p class="text-base md:text-lg text-farm-text leading-relaxed mt-4">
+                Tomatoes, cukes and lettuce carry 70% of Drew's farm revenue. The other 30 vegetables carry the rest.
+              </p>
+            </details>
           </article>
 
           <article>
-            <img src="assets/sketches/why-tomatoes/03-labor-per-bed.png"
-                 alt="Hand-drawn sketch of a tomato plant overlapped by a clock face"
-                 class="w-32 h-32 md:w-36 md:h-36 object-contain mb-4">
-            <h3 class="font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight">
-              Most labor per bed
-            </h3>
-            <p class="text-base md:text-lg text-farm-text leading-relaxed mt-3">
-              About 3 hours per bed per week, season-long average. More than any other crop you run.
-            </p>
+            <details class="group border-t border-b border-farm-mid/15 py-5">
+              <summary class="cursor-pointer flex items-center gap-4 md:gap-5">
+                <img src="assets/sketches/why-tomatoes/03-labor-per-bed.png"
+                     alt="Hand-drawn sketch of a tomato plant overlapped by a clock face"
+                     class="w-16 h-16 md:w-20 md:h-20 object-contain flex-shrink-0">
+                <h3 class="font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight flex-1">
+                  Most labor per bed
+                </h3>
+                <span class="caret font-accent text-farm-mid text-xl flex-shrink-0">&rsaquo;</span>
+              </summary>
+              <p class="text-base md:text-lg text-farm-text leading-relaxed mt-4">
+                About 3 hours per bed per week, season-long average. More than any other crop you run.
+              </p>
+            </details>
           </article>
         </div>
 
-        <p class="fade-in font-heading text-2xl md:text-3xl text-farm-dark text-center mt-14 md:mt-20 max-w-3xl mx-auto leading-snug text-balance">
-          On most diversified farms, no lever pays back like tomatoes.
-        </p>
-
-        <div class="fade-in mt-12 md:mt-16 bg-farm-bg p-8 md:p-10 rounded-lg">
-          <p class="font-sans text-xs uppercase tracking-widest text-farm-green font-semibold">Bonus</p>
+        <!-- Bonus block: collapsed by default. Reveals 3 supporting cards on click. -->
+        <details class="group fade-in mt-12 md:mt-16 bg-farm-bg p-6 md:p-8 rounded-lg">
+          <summary class="cursor-pointer flex items-center justify-between gap-4">
+            <p class="font-sans text-xs uppercase tracking-widest text-farm-green font-semibold">
+              Bonus &middot; More reasons tomatoes are our lever
+            </p>
+            <span class="caret font-accent text-farm-green text-xl flex-shrink-0">&rsaquo;</span>
+          </summary>
 
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mt-6">
             <article>
@@ -502,7 +545,12 @@
               </p>
             </article>
           </div>
-        </div>
+        </details>
+
+        <!-- Section closer: thesis line lands after both evidence layers -->
+        <p class="fade-in font-heading text-2xl md:text-3xl text-farm-dark text-center mt-14 md:mt-20 max-w-3xl mx-auto leading-snug text-balance">
+          On most diversified farms, tomatoes are the low-hanging fruits.
+        </p>
       </div>
     </section>
 
@@ -518,12 +566,12 @@
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
 
         <div class="fade-in max-w-3xl mx-auto">
+          <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
+            Nothing's new
+          </p>
           <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
             The techniques are known
           </h2>
-          <p class="font-body italic text-lg md:text-xl text-farm-muted leading-relaxed mt-6">
-            They're not secret, and they're not new.
-          </p>
         </div>
 
         <!-- Row 1 — Andrew: photo left, quote + book line right -->
@@ -580,9 +628,12 @@
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="fade-in">
 
-          <!-- H2 (prose column width) -->
+          <!-- Eyebrow + H2 (prose column width) -->
           <div class="max-w-3xl mx-auto">
-            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">Why we need more support</h2>
+            <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
+              So why a program?
+            </p>
+            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">Translating the techniques on our farm is hard</h2>
           </div>
 
           <!-- Two-column grid: photo left, text right (eyebrow blocks + pull-quote) -->
@@ -611,15 +662,15 @@
                     It's not enough
                   </p>
                   <p class="text-lg md:text-xl text-farm-text leading-relaxed">
-                    Folks send us questions all the time.
+                    Every farm is different. Folks send us questions all the time.
                   </p>
                 </div>
                 <div>
                   <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-3">
-                    Every farm is different
+                    The devil's in the details
                   </p>
                   <p class="text-lg md:text-xl text-farm-text leading-relaxed">
-                    Week after week, there are loads of calls to make on the farm and so little time to figure out.
+                    Changing how we grow comes with a lot of calls to make and so little time to figure out.
                   </p>
                 </div>
               </div>
@@ -655,75 +706,55 @@
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="fade-in">
 
-          <!-- H2 (prose column width) -->
-          <div class="max-w-3xl mx-auto">
-            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
-              Not doing it alone
-            </h2>
-          </div>
+          <!-- Two-column section: all text content (eyebrow → H2 → subtitle →
+               disclaimer → bullet list) lives in the left column. The photo in the
+               right column stretches to match the left column's full height via
+               grid items-stretch + img h-full. Stacks on mobile (text on top,
+               photo below at aspect-[4/3]). -->
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 md:items-stretch">
 
-          <!-- Act 1 lead-in (prose column width) -->
-          <div class="max-w-3xl mx-auto text-lg md:text-xl text-farm-text leading-relaxed mt-10 md:mt-14">
-            <p>We work with growers on those calls. Not every season ends the same way.</p>
-          </div>
-
-          <!-- Drew block: text left, photo right (quiet) -->
-          <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-14 md:items-center mt-14 md:mt-20">
-            <div class="md:col-span-9 md:order-1">
+            <!-- Left col: all section text -->
+            <div class="md:col-span-7">
               <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
-                Drew &middot; Ghost House Farm
+                What it's about
               </p>
-              <p class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance">
-                Worked with us across two seasons. His greenhouse revenue more than doubled.
+              <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
+                Not doing it alone
+              </h2>
+              <p class="font-body italic text-lg md:text-xl text-farm-muted leading-relaxed mt-6">
+                Having everything relying on our shoulders is heavy.
               </p>
-            </div>
-            <div class="md:col-span-3 md:order-2">
-              <img src="assets/clients/drew/Drew%20-%20Ghost%20House%20Farm/IMG_1517%20%281%29.JPG"
-                   alt="Drew at Ghost House Farm"
-                   class="w-full max-w-[220px] mx-auto md:ml-auto md:mr-0 aspect-[4/5] object-cover rounded-card">
-            </div>
-          </div>
 
-          <!-- Gordon block: photo left, text right (mirrored, quiet) -->
-          <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-14 md:items-center mt-12 md:mt-16">
-            <div class="md:col-span-3 md:order-1">
-              <img src="assets/clients/gordon/Gordon%20-%20Ten%20Mothers%20Farm.jpg"
-                   alt="Gordon at Ten Mothers Farm with his young child"
-                   class="w-full max-w-[220px] mx-auto md:mr-auto md:ml-0 aspect-[4/5] object-cover rounded-card">
+              <div class="text-lg md:text-xl text-farm-text leading-relaxed mt-10 md:mt-14 space-y-6">
+                <p>This program is not a proven silver bullet. It couldn't. Every farm is different.</p>
+                <p>This program's a structure to help us transform our farm:</p>
+              </div>
+
+              <ul class="mt-6 md:mt-8 space-y-3 text-lg md:text-xl text-farm-text leading-relaxed">
+                <li class="flex gap-3">
+                  <span class="text-farm-mid font-bold mt-px">&middot;</span>
+                  <span>To follow concrete actions that work on many farms.</span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="text-farm-mid font-bold mt-px">&middot;</span>
+                  <span>To pool our experience to overcome roadblocks.</span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="text-farm-mid font-bold mt-px">&middot;</span>
+                  <span>To ride the momentum of everybody working on the same goal.</span>
+                </li>
+              </ul>
             </div>
-            <div class="md:col-span-9 md:order-2">
-              <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
-                Gordon &middot; Ten Mothers Farm
-              </p>
-              <p class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance">
-                Worked with us one season. One protocol doubled his fruit load in two weeks, then a heat wave took his fall, and we couldn't save it.
-              </p>
-            </div>
-          </div>
 
-          <!-- Honest admission (prose column width) -->
-          <div class="max-w-3xl mx-auto text-lg md:text-xl text-farm-text leading-relaxed mt-14 md:mt-20">
-            <p>Every farm is different. Every climate is different. Our Playbook is as good as the seasons we've gathered. We can't promise miracles, and we don't know everything.</p>
-          </div>
+            <!-- Right col: photo, full section height (grid items-stretch).
+                 Mobile: aspect-[4/3] for sane size. Desktop: aspect-auto + h-full
+                 so the figure stretches to match the left column. -->
+            <figure class="md:col-span-5 aspect-[4/3] md:aspect-auto md:h-full">
+              <img src="assets/clients/ferme-decembre/drive-0416.jpg"
+                   alt="A farmer kneeling to tend tomato seedlings inside a hoop house, a coworker tending plants in the background"
+                   class="w-full h-full object-cover rounded-card">
+            </figure>
 
-          <!-- Act 2: program-as-place + reader-desire mirror + CTA -->
-          <div class="max-w-3xl mx-auto mt-20 md:mt-28">
-            <p class="text-lg md:text-xl text-farm-text leading-relaxed mb-14 md:mb-20">
-              What we can do is build a place where we pool what we know, work on the obstacles you're facing, and learn together what tools make the next season easier. For you, and for every farmer who comes after.
-            </p>
-
-            <p class="font-body italic text-2xl md:text-3xl text-farm-dark leading-snug text-balance text-center mb-14 md:mb-20">
-              You want to cut the workload without cutting your income. You'd rather lean on what others have figured out than do it alone.
-            </p>
-
-            <div class="text-center">
-              <p class="font-body italic text-xl md:text-2xl text-farm-text mb-6">
-                Put your name on the list.
-              </p>
-              <a href="#join" class="inline-flex items-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm">
-                Join the waiting list &rarr;
-              </a>
-            </div>
           </div>
 
         </div>
@@ -738,88 +769,125 @@
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="fade-in">
 
-          <!-- H2 (prose column width) -->
+          <!-- Eyebrow + H2 + subhead (prose column width) -->
           <div class="max-w-3xl mx-auto">
+            <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
+              The rhythm
+            </p>
             <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
-              2 hours a week to transform our farm
+              How a week actually looks
             </h2>
+            <p class="font-body italic text-lg md:text-xl text-farm-muted leading-relaxed mt-6">
+              One visible goal at a time. So we can focus, quickly see results, be motivated.
+            </p>
           </div>
 
-          <!-- 4-step accordion -->
-          <div class="max-w-3xl mx-auto mt-12 md:mt-16">
+          <!-- 2-col layout: weekly timeline left, "the whole ask" callout right.
+               Each day-anchored beat is a <details> accordion: summary = day + 1-line description,
+               click reveals deeper content (merged from prior 4-step accordion). -->
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-14 mt-12 md:mt-16">
 
-            <details class="group border-t border-farm-mid/20 py-5">
-              <summary class="flex items-baseline gap-5">
-                <span class="font-accent text-farm-mid text-xs font-semibold tracking-wider">01</span>
-                <span class="flex-1 flex items-center justify-between gap-4">
-                  <span>
-                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">One visible goal at a time</span>
-                    <span class="text-farm-muted text-sm md:text-base block mt-1">So we can focus, quickly see results, be motivated.</span>
-                  </span>
-                  <span class="caret font-accent text-farm-mid text-xl">&rsaquo;</span>
-                </span>
-              </summary>
-              <div class="mt-5 pl-10 text-base md:text-lg text-farm-text leading-relaxed">
-                <p>Each month, one goal for everyone in the program. Everyone works the same topic at the same time. That's where the group gets its momentum: questions pile up on the same thing from different farms, and the exchange gets specific fast.</p>
-              </div>
-            </details>
+            <!-- Weekly timeline (Monday / Wednesday / Friday / Anytime) -->
+            <ol class="md:col-span-7">
+              <li class="flex gap-5">
+                <div class="flex flex-col items-center flex-shrink-0 pt-2">
+                  <span class="block w-3 h-3 rounded-full border-2 border-farm-green bg-white"></span>
+                  <span class="block flex-grow w-px bg-farm-green/40 mt-2"></span>
+                </div>
+                <details class="group flex-1 pb-8 md:pb-10">
+                  <summary class="cursor-pointer flex items-start gap-3">
+                    <div class="flex-1">
+                      <p class="font-heading text-xl md:text-2xl text-farm-dark font-semibold">Monday</p>
+                      <p class="text-base md:text-lg text-farm-text leading-relaxed mt-2">New 5-minute video drops. Phone-watchable between rows.</p>
+                    </div>
+                    <span class="caret font-accent text-farm-mid text-xl flex-shrink-0 mt-1">&rsaquo;</span>
+                  </summary>
+                  <div class="mt-4 text-base text-farm-muted leading-relaxed space-y-3">
+                    <p>What to look for in our plants, the specific moves to try.</p>
+                    <p>To keep information from piling up, videos stay short, focused on the current goal, and spread across the seasons.</p>
+                  </div>
+                </details>
+              </li>
+              <li class="flex gap-5">
+                <div class="flex flex-col items-center flex-shrink-0 pt-2">
+                  <span class="block w-3 h-3 rounded-full border-2 border-farm-green bg-white"></span>
+                  <span class="block flex-grow w-px bg-farm-green/40 mt-2"></span>
+                </div>
+                <details class="group flex-1 pb-8 md:pb-10">
+                  <summary class="cursor-pointer flex items-start gap-3">
+                    <div class="flex-1">
+                      <p class="font-heading text-xl md:text-2xl text-farm-dark font-semibold">Wednesday</p>
+                      <p class="text-base md:text-lg text-farm-text leading-relaxed mt-2">2-minute check-in. Logs our progress. Surfaces what's stuck.</p>
+                    </div>
+                    <span class="caret font-accent text-farm-mid text-xl flex-shrink-0 mt-1">&rsaquo;</span>
+                  </summary>
+                  <div class="mt-4 text-base text-farm-muted leading-relaxed">
+                    <p><em>Pending verification — this beat was added from a reference design and isn't yet documented as part of the program. Confirm or replace before launch.</em></p>
+                  </div>
+                </details>
+              </li>
+              <li class="flex gap-5">
+                <div class="flex flex-col items-center flex-shrink-0 pt-2">
+                  <span class="block w-3 h-3 rounded-full border-2 border-farm-green bg-white"></span>
+                  <span class="block flex-grow w-px bg-farm-green/40 mt-2"></span>
+                </div>
+                <details class="group flex-1 pb-8 md:pb-10">
+                  <summary class="cursor-pointer flex items-start gap-3">
+                    <div class="flex-1">
+                      <p class="font-heading text-xl md:text-2xl text-farm-dark font-semibold">Friday</p>
+                      <p class="text-base md:text-lg text-farm-text leading-relaxed mt-2">Optional 60-minute live call with Andrew, Antoine, Guillaume, and other farmers. Recorded if we miss it.</p>
+                    </div>
+                    <span class="caret font-accent text-farm-mid text-xl flex-shrink-0 mt-1">&rsaquo;</span>
+                  </summary>
+                  <div class="mt-4 text-base text-farm-muted leading-relaxed">
+                    <p>On these calls, we tackle what theory cannot. Watching others' roadblocks often helps us move faster.</p>
+                  </div>
+                </details>
+              </li>
+              <li class="flex gap-5">
+                <div class="flex flex-col items-center flex-shrink-0 pt-2">
+                  <span class="block w-3 h-3 rounded-full border-2 border-farm-green bg-white"></span>
+                </div>
+                <details class="group flex-1">
+                  <summary class="cursor-pointer flex items-start gap-3">
+                    <div class="flex-1">
+                      <p class="font-heading text-xl md:text-2xl text-farm-dark font-semibold">Anytime</p>
+                      <p class="text-base md:text-lg text-farm-text leading-relaxed mt-2">The forum is open. Ask, answer, share what worked.</p>
+                    </div>
+                    <span class="caret font-accent text-farm-mid text-xl flex-shrink-0 mt-1">&rsaquo;</span>
+                  </summary>
+                  <div class="mt-4 text-base text-farm-muted leading-relaxed">
+                    <p>We answer once a week. The rest happens inside the work we already plan: pruning, scouting, harvesting, sharpened by the goal.</p>
+                  </div>
+                </details>
+              </li>
+            </ol>
 
-            <details class="group border-t border-farm-mid/20 py-5">
-              <summary class="flex items-baseline gap-5">
-                <span class="font-accent text-farm-mid text-xs font-semibold tracking-wider">02</span>
-                <span class="flex-1 flex items-center justify-between gap-4">
-                  <span>
-                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">5-min videos</span>
-                    <span class="text-farm-muted text-sm md:text-base block mt-1">Guide us toward the goal. Dripped weekly. Rewatchable.</span>
-                  </span>
-                  <span class="caret font-accent text-farm-mid text-xl">&rsaquo;</span>
-                </span>
-              </summary>
-              <div class="mt-5 pl-10 text-base md:text-lg text-farm-text leading-relaxed space-y-3">
-                <p>What to look for in our plants, the specific moves to try. Phone-watchable between rows.</p>
-                <p>To keep information from piling up, videos stay short, focused on the current goal, and spread across the seasons.</p>
-              </div>
-            </details>
-
-            <details class="group border-t border-farm-mid/20 py-5">
-              <summary class="flex items-baseline gap-5">
-                <span class="font-accent text-farm-mid text-xs font-semibold tracking-wider">03</span>
-                <span class="flex-1 flex items-center justify-between gap-4">
-                  <span>
-                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">On your farm</span>
-                    <span class="text-farm-muted text-sm md:text-base block mt-1">Pruning, scouting, harvesting, sharpened by the goal.</span>
-                  </span>
-                  <span class="caret font-accent text-farm-mid text-xl">&rsaquo;</span>
-                </span>
-              </summary>
-              <div class="mt-5 pl-10 text-base md:text-lg text-farm-text leading-relaxed">
-                <p>Everything happens inside the work we already plan. A community forum runs alongside: we answer once a week.</p>
-              </div>
-            </details>
-
-            <details class="group border-t border-b border-farm-mid/20 py-5">
-              <summary class="flex items-baseline gap-5">
-                <span class="font-accent text-farm-mid text-xs font-semibold tracking-wider">04</span>
-                <span class="flex-1 flex items-center justify-between gap-4">
-                  <span>
-                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">Weekly live call</span>
-                    <span class="text-farm-muted text-sm md:text-base block mt-1">60 min with Andrew, Antoine and Guillaume to overcome obstacles we face.</span>
-                  </span>
-                  <span class="caret font-accent text-farm-mid text-xl">&rsaquo;</span>
-                </span>
-              </summary>
-              <div class="mt-5 pl-10 text-base md:text-lg text-farm-text leading-relaxed space-y-3">
-                <p>5-min videos guide us forward and uproot obstacles. On these calls, we tackle what theory cannot.</p>
-                <p>Watching others' roadblocks often helps us move faster.</p>
-              </div>
-            </details>
+            <!-- "The whole ask" callout (dark green) -->
+            <aside class="md:col-span-5 bg-farm-dark text-white rounded-card p-8 md:p-10 self-start">
+              <p class="font-accent text-white/70 font-semibold uppercase tracking-wider text-xs mb-4">
+                The whole ask
+              </p>
+              <p class="font-heading text-6xl md:text-7xl text-white font-medium leading-none">
+                2h
+              </p>
+              <p class="font-heading italic text-lg md:text-xl text-white/80 mt-2">
+                a week
+              </p>
+              <p class="text-base md:text-lg text-white/80 leading-relaxed mt-6">
+                That's it. The rest of our time stays where it belongs: in the soil, with our family, or simply at rest.
+              </p>
+            </aside>
 
           </div>
 
           <!-- Closer + CTA (first goal folded in) -->
           <div class="max-w-3xl mx-auto mt-16 md:mt-24 text-center">
+            <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-3">
+              Starting this June
+            </p>
             <p class="font-heading italic text-xl md:text-2xl text-farm-text leading-snug text-balance mb-6">
-              First goal: get plants to bear more tomatoes, consistently. Wanna join us?
+              Our first goal: more fruit per plant, consistently.
             </p>
             <a href="#join" class="inline-flex items-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm">
               Join the waiting list &rarr;
@@ -855,9 +923,6 @@
                 </li>
                 <li class="relative pl-6 text-lg leading-relaxed text-farm-text mb-3 before:content-[''] before:absolute before:left-0 before:top-[0.7em] before:w-1.5 before:h-1.5 before:rounded-full before:bg-farm-green">
                   You already grow greenhouse indeterminate tomatoes
-                </li>
-                <li class="relative pl-6 text-lg leading-relaxed text-farm-text mb-3 before:content-[''] before:absolute before:left-0 before:top-[0.7em] before:w-1.5 before:h-1.5 before:rounded-full before:bg-farm-green">
-                  At least one tomato season under your belt
                 </li>
                 <li class="relative pl-6 text-lg leading-relaxed text-farm-text mb-3 before:content-[''] before:absolute before:left-0 before:top-[0.7em] before:w-1.5 before:h-1.5 before:rounded-full before:bg-farm-green">
                   Open to trying new things
@@ -971,14 +1036,15 @@
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="fade-in">
 
-          <!-- H2 + framing line (prose column width) -->
+          <!-- Eyebrow + H2 (prose column width) -->
           <div class="max-w-3xl mx-auto">
-            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
+            <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-5">
               Team behind this
-            </h2>
-            <p class="font-heading italic text-lg md:text-xl text-farm-muted mt-6 md:mt-8 leading-snug text-balance">
-              Three people show up on the calls. Different paths in, different angles on the same work.
             </p>
+            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight">
+              Different paths in,<br>
+              Different angles
+            </h2>
           </div>
 
           <!-- 3 bios stacked -->
@@ -1088,13 +1154,26 @@
               </div>
             </div>
 
-          </div>
+            <!-- The Orisha team — promoted to bio-equal weight 2026-04-29 -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 md:items-start">
+              <div class="md:col-span-4">
+                <img src="assets/team/TeamOrisha.jpg"
+                     alt="The Orisha team"
+                     class="w-full max-w-[280px] mx-auto md:mx-0 aspect-square object-cover rounded-card">
+              </div>
+              <div class="md:col-span-8">
+                <h3 class="font-heading text-2xl md:text-3xl text-farm-dark font-medium leading-tight">
+                  The Orisha team
+                </h3>
+                <p class="font-accent text-farm-mid text-xs uppercase tracking-wider font-semibold mt-2">
+                  Behind the program, alongside Growing for Market.
+                </p>
+                <p class="text-base md:text-lg text-farm-text leading-relaxed mt-5">
+                  The rest of the team at Orisha handles logistics and builds tools, so we can focus on farm stuff.
+                </p>
+              </div>
+            </div>
 
-          <!-- Closer (Louis-Bernard + Orisha) -->
-          <div class="max-w-3xl mx-auto mt-16 md:mt-24">
-            <p class="text-base md:text-lg text-farm-muted italic leading-relaxed">
-              Louis-Bernard keeps the community forum going between calls. The rest of us at Orisha turn what we learn into tools that make the work easier.
-            </p>
           </div>
 
         </div>
@@ -1109,24 +1188,25 @@
          HubSpot post handler PENDING — action="" placeholder; new "farm name" and
          "subscription status" custom properties need wiring before signup launches. -->
     <section id="join" class="relative bg-farm-dark bg-cover bg-center py-20 md:py-28"
-             style="background-image: linear-gradient(rgba(39, 80, 10, 0.88), rgba(39, 80, 10, 0.88)), url('assets/clients/ferme-decembre/drive-0416.jpg');">
+             style="background-image: linear-gradient(rgba(39, 80, 10, 0.88), rgba(39, 80, 10, 0.88)), url('assets/clients/ferme-decembre/6073DAB7-095E-4744-8045-67F8166BA650.jpg');">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="fade-in">
 
-          <!-- H2 (prose column width) -->
+          <!-- Eyebrow + 2-line H2 (prose column width) -->
           <div class="max-w-3xl mx-auto">
-            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-white leading-[1.1] tracking-tight text-balance">
-              Join growers working toward a 40-hour farm
+            <p class="font-accent text-white/80 font-semibold uppercase tracking-wider text-xs">
+              Join us
+            </p>
+            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-white leading-[1.1] tracking-tight text-balance mt-4">
+              Farming is beautiful.<br>
+              Let's make sure it stays that way
             </h2>
           </div>
 
           <!-- Prose lead-in (centered reading column) -->
           <div class="max-w-3xl mx-auto mt-10 md:mt-14">
-            <p class="text-lg md:text-xl text-white leading-relaxed">
-              Interested? Join the list so we can figure out the best format to support y'all.
-            </p>
-            <p class="text-sm md:text-base text-white/70 italic leading-snug mt-4">
-              If we have to limit seats, first on the list, first in. The program opens June 2026.
+            <p class="text-sm md:text-base text-white/70 italic leading-snug">
+              If we have to limit seats: First on the list, first in.
             </p>
           </div>
 

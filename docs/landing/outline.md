@@ -696,7 +696,9 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 
 **Ground color:** `bg-farm-bg` (warm cream). Editorial register; not clinical white.
 
-**Layout:** `max-w-5xl` outer container; two columns at `md:grid-cols-2` with `gap-12 md:gap-16`; stack on mobile (fit column above not-fit). No divider between columns — just the gap.
+**Layout:** `max-w-5xl` outer container.
+- **Header row (added 2026-04-29):** 12-col grid `md:grid-cols-12 gap-8 md:gap-12 md:items-center mb-12 md:mb-16`. H2 left at `md:col-span-8`; portrait photo right at `md:col-span-4` (`assets/clients/ferme-decembre/IMG_7680.jpg` — market gardener smiling with a giant heirloom tomato held over one eye, tomato plants in the frame). Photo class: `w-full max-w-xs mx-auto md:max-w-none aspect-[3/4] object-cover rounded-card`. Reads as a visual mirror for the fit-decision beat — "this section is for people like her."
+- **Criteria row:** two columns at `md:grid-cols-2` with `gap-12 md:gap-16`; stack on mobile (fit column above not-fit). No divider between columns — just the gap.
 
 **Locked copy (step 5.1 refinement — criterion lines replace run-together sentences):**
 
@@ -795,6 +797,7 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 - bg-white ground. Section ID `id="team"`. Slots after `#how-to-join` (between Practical and the future Committer sub 2 "Why add your name now").
 - **Eyebrow:** "Team behind this" (uppercase Rubik accent, farm-mid). Demoted from H2 2026-04-29.
 - **H2:** *"Different paths in,"* / *"Different angles"* (Fraunces upright, two lines forced via `<br>`, locked H2 scale). Promoted from italic-subtitle slot 2026-04-29; the previous lead sentence *"Three people show up on the calls."* was dropped at the same time as redundant with the section's three visible bios. Trimmed *"on the same work"* tail same evening — the parallel anaphora *"Different... Different..."* lands punchier without the modifying clause.
+- **Collaboration banner (added 2026-04-29 late evening):** sits between the H2 and the bios. Small uppercase eyebrow *"A program by"* (Rubik accent, farm-mid, centered) above two logos centered side by side. Orisha logo (`assets/logos/logo.png`, h-10 md:h-12 — text + icon, wider format) on the left; Growing for Market badge (`assets/logos/gfm-logo.png`, h-14 md:h-16 — circular, sized slightly larger to balance Orisha's wider format) on the right. Visualizes the partnership the page surfaces verbally elsewhere (Orisha-team tagline *"Behind the program, alongside Growing for Market."*, the GFM-as-cheapest-on-ramp pricing card disclosure).
 - **3 bios stacked** with generous space between. Each bio block: 12-col grid, photo `md:col-span-4`, text `md:col-span-8`. Photo `aspect-square object-cover rounded-card`, max-w-[280px]. Stacks on mobile.
 - Each bio: Photo · Fraunces name (h3) · Rubik tagline (1-line) · first paragraph (always visible) · `<details>` **one-way expand** ("Read more" → revealed forever, no "Read less") carrying the middle paragraphs **and** the italic *"On calls, he…"* closer as its final beat.
   - **One-way expand pattern (locked 2026-04-28):** once opened, the `<summary>` hides via `#team details[open] > summary { display: none; }` in the page `<style>` block. No mid-content collapse toggle, no JS. To re-collapse, reload. Reason: native `<details>` always anchors the toggle at the top of the expanded region, which placed "Read less" awkwardly between visible and revealed content. Atlantic / Substack pattern. Trade-off: keyboard users can't collapse without reload, judged acceptable for a 3-bio landing-page section.
@@ -803,7 +806,7 @@ Layered shape the eye walks (headline → hook → detail → resolution):
   - **Guillaume:** photo `assets/clients/ferme-decembre/IMG_3865.jpg`. Tagline: "Founder, Orisha. Co-grower, Ferme Décembre."
   - **Antoine:** photo `assets/clients/jardin-inverness/Antoine.jpeg`. Tagline: "Grower, Jardin Inverness."
 - **Antoine asymmetry:** the *"One more year like this, and I'll sell the farm."* italic pull-quote sits in his para 2 — it's the load-bearing emotional beat. So Antoine's always-visible content includes paragraphs 1 AND 2; expand reveals paras 3–4. Andrew and Guillaume show only para 1 by default (Antoine's variance is intentional).
-- **Orisha team block (4th bio-equal slot, promoted 2026-04-29 late evening):** sits inside the `space-y-16 md:space-y-20` bios container as a fourth entry with full structural parity to the three individual bios. 12-col grid, photo `md:col-span-4` (max-w-[280px], aspect-square cropped from the 1800×1200 source), text `md:col-span-8` with h3 *"The Orisha team"* + Rubik tagline *"Behind the program, alongside Growing for Market."* (refined 2026-04-29 late evening from *"The company behind the program."* — surfaces the GFM partnership) + body paragraph *"The rest of the team at Orisha handles logistics and builds tools, so we can focus on farm stuff."* Earlier states (same day): line was a small italic muted closer in `max-w-3xl` (5/7 grid, aspect-[3/2] photo); before that, the closer was *"Louis-Bernard keeps the community forum going between calls. The rest of us at Orisha turn what we learn into tools that make the work easier."* (LB-named version). LB now drops off the page entirely. No CTA in this section — Committer sub 2 carries the final form.
+- **Orisha team block (4th bio-equal slot, promoted 2026-04-29 late evening):** sits inside the `space-y-16 md:space-y-20` bios container as a fourth entry with full structural parity to the three individual bios. 12-col grid, photo `md:col-span-4` (max-w-[280px], aspect-square cropped from the 1800×1200 source), text `md:col-span-8` with h3 *"The Orisha team"* + Rubik tagline *"Behind the program, alongside Growing for Market."* (refined 2026-04-29 late evening from *"The company behind the program."* — surfaces the GFM partnership) + body paragraph (refined 2026-04-29 late evening to articulate three responsibilities): *"The rest of the team at Orisha produces the videos and handles platform logistics, so we can focus on farm stuff. They build the virtual consultant that supports the program. And they learn from the program to build tools that make greenhouse production easier."* Earlier 2026-04-29 lock was the leaner *"The rest of the team at Orisha handles logistics and builds tools, so we can focus on farm stuff."* Earlier states (same day): line was a small italic muted closer in `max-w-3xl` (5/7 grid, aspect-[3/2] photo); before that, the closer was *"Louis-Bernard keeps the community forum going between calls. The rest of us at Orisha turn what we learn into tools that make the work easier."* (LB-named version). LB now drops off the page entirely. No CTA in this section — Committer sub 2 carries the final form.
 
 **Beats (visual layout):**
 
@@ -851,7 +854,7 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 
 **Locked closer (below the three bios):**
 
-> The rest of the team at Orisha handles logistics and builds tools, so we can focus on farm stuff.
+> The rest of the team at Orisha produces the videos and handles platform logistics, so we can focus on farm stuff. They build the virtual consultant that supports the program. And they learn from the program to build tools that make greenhouse production easier.
 
 ---
 

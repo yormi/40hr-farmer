@@ -273,7 +273,7 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
   - **Wider lesson logged:** when the hero photo is portrait, `object-position` tuning is the cheapest fix; restructure to a column only if the crop can't be made to work.
 - **Stack order (top to bottom; epigraph-first re-lock 2026-04-29):**
   1. Epigraph (Lato italic, `text-lg md:text-xl text-farm-muted`, with curly quotes): "Farming is beautiful, but life's richer with energy left for the people in it." — philosophy-book register, sets the emotional tone before the categorical announcement.
-  2. H1 (Fraunces, `text-3xl sm:text-4xl md:text-5xl`): "A coaching program for market gardeners" — promoted from eyebrow to page H1; semantic + visual headline.
+  2. H1 (Fraunces, `text-5xl sm:text-6xl md:text-7xl leading-[1.05]`): "A coaching program for market gardeners" — promoted from eyebrow to page H1; semantic + visual headline. Scale bumped 2026-04-29 night from H2-matching `text-3xl/4xl/5xl` to display `text-5xl/6xl/7xl`. Establishes proper hierarchy (H1 > H2) and gives the hero its anchor weight; previously the H1 sat at H2 scale and read as just another section heading. `leading-[1.05]` (tighter than H2's `leading-[1.1]`) keeps the multi-line H1 from breathing too loose at display size.
   3. *(visual gap, `mt-8 md:mt-10`)* — separates the announcement from the descriptive chunk.
   4. Body (`text-lg md:text-xl`): "Sharpen your greenhouse. Harvest more from fewer beds. Earn more in fewer hours."
   5. CTA (whisper underline link): "Join the waiting list →"
@@ -502,7 +502,7 @@ Assets used: Andrew photo, Antoine drone photo, both inline link to the Mefferd 
 - **Drift note:** the visual list lightly tightens "your weather this month" → "this month's weather" for cleaner parallel structure across the four lines. Locked prose stays as-is in this outline; the tightening lives only in the visual breakout.
 - **Three eyebrow-led blocks** (final form, locked 2026-04-27 after iteration). Mirrors `#join` pattern. Each block: Rubik accent eyebrow + body line at canonical body size `text-lg md:text-xl`. `space-y-8 md:space-y-10` between blocks.
   - **The information is out there** → "Andrew wrote the book. We made a free online course with Orisha."
-  - **It's not enough** → "Every farm is different. Folks send us questions all the time."
+  - **It's not enough** → "Folks send us questions all the time." (Trimmed *"Every farm is different."* lead 2026-04-29 — that idea is carried by the disclaimer paragraph in `#not-doing-alone` instead.)
   - **The devil's in the details** → "Changing how we grow comes with a lot of calls to make and so little time to figure out." (Body relocked 2026-04-29; "Every farm is different" moved upstream into the "It's not enough" body. New body names the change-effort directly: changing practice produces decisions; decisions outpace time to think.)
 - **Pull-quote with left-border** (replaces the centered italic poem). Reuses the Mefferd-quote visual pattern (`pl-5 md:pl-6 border-l-2 border-farm-green/60 font-body italic text-lg md:text-xl text-farm-dark leading-snug space-y-3 mt-10 md:mt-14`). Five questions stacked one per line, the climactic *Am I doing it right?* slightly weighted (`font-medium`). Reads as the farmer's inner voice. Questions converted from statement-fragments to proper question form so the italics feel earned. Locked questions:
   - *Which move do I prioritize?*
@@ -539,11 +539,13 @@ Assets used: Andrew photo, Antoine drone photo, both inline link to the Mefferd 
 - **Section photo as full-height right column (re-relocked 2026-04-29 night):** `assets/clients/ferme-decembre/drive-0416.jpg` — repurposed from the prior hero. Two-column section: ALL text (eyebrow → H2 → subtitle → disclaimer paragraphs → "To" bullet list) lives in `md:col-span-7` on the left; photo lives in `md:col-span-5` on the right and stretches to match the full section height via grid `md:items-stretch` + `md:h-full` on the figure + `h-full` on the img. Mobile: figure carries `aspect-[4/3]` so it has a sensible height; desktop overrides with `md:aspect-auto md:h-full` to release the aspect lock and let the figure stretch. Img: `w-full h-full object-cover rounded-card`. *Iteration history same day:* (1) cinematic full-width banner `aspect-[2/1]` above the prose — pulled emotional weight forward of the H2, dropped; (2) right column matched only to the eyebrow+H2+subtitle row — disclaimer + bullet list dangling below at prose-column width, photo too short to feel anchored, dropped; (3) current — text stack on left, photo full section-height on right.
 - Eyebrow *"What it's about"* + H2 *"Not doing it alone"* + italic muted subtitle *"Having everything relying on our shoulders is heavy."* (subtitle added 2026-04-29 — names the felt weight that the "To" list below offers to lift).
 - **Disclaimer paragraph (body prose):** *"This program is not a proven silver bullet. It couldn't. Every farm is different."*
-- **Lead-in to the list (body prose, with colon):** *"This program's a structure to help us transform our farm:"*
-- **"To" infinitive list (3 items, bulleted with quiet middle-dot markers, body prose register):**
-  - To follow concrete actions that work on many farms.
-  - To pool our experience to overcome roadblocks.
-  - To ride the momentum of everybody working on the same goal.
+- **Lead-in to the list (body prose, statement form):** *"It's a structure to help transform our farm."* (was *"This program's a structure to help us transform our farm:"* — tightened 2026-04-29 fourth pass; "It's" pronoun avoids repeating "program", "us" dropped, colon → period since the bullets are now standalone statements rather than continuations.)
+- **3-item list with brand-leaf SVG bullets (body prose register):**
+  - Follow concrete actions that work on many farms.
+  - Pool our experience to overcome roadblocks.
+  - Ride the momentum of everybody working on the same goal.
+  - "To" prefix removed from each line so they read as imperative-style actions, not infinitive-clause continuations.
+  - Bullet markers: brand leaf SVG (same path as favicon), `w-6 h-6 md:w-7 md:h-7`, farm-green fill. Placeholder for unique hand-drawn per-bullet illustrations when generated; same leaf for all three for now.
 - **No CTA in this section.** Bridges into `#program` which carries the next CTA.
 
 **Retired 2026-04-29 (preserved here as reference):**
@@ -557,11 +559,11 @@ Assets used: Andrew photo, Antoine drone photo, both inline link to the Mefferd 
 
 > This program is not a proven silver bullet. It couldn't. Every farm is different.
 >
-> This program's a structure to help us transform our farm:
+> It's a structure to help transform our farm.
 >
-> - To follow concrete actions that work on many farms.
-> - To pool our experience to overcome roadblocks.
-> - To ride the momentum of everybody working on the same goal.
+> - Follow concrete actions that work on many farms.
+> - Pool our experience to overcome roadblocks.
+> - Ride the momentum of everybody working on the same goal.
 
 ---
 
@@ -592,8 +594,8 @@ Assets used: Andrew photo, Antoine drone photo, both inline link to the Mefferd 
     - **Wednesday** — 2-minute check-in. Logs our progress. Surfaces what's stuck. *(NEW beat — added 2026-04-29.)*
     - **Friday** — Optional 60-minute live call with Andrew, Antoine, Guillaume, and other farmers. Recorded if we miss it.
     - **Anytime** — The forum is open. Ask, answer, share what worked.
-  - **Right column (col-span-5) — "The whole ask" callout** on `bg-farm-dark` with white text. Eyebrow *"The whole ask"*, big numeral *"2h"*, italic *"a week"*, body *"That's it. The rest of our time stays where it belongs: in the soil, with our family, or simply at rest."* Acts as the time-commitment anchor that previously lived in the H2.
-- **Subhead added 2026-04-29 (third pass):** italic muted line under the H2: *"One visible goal at a time. So we can focus, quickly see results, be motivated."* Brings back the goal-focus framing that the retired step 1 carried.
+  - **Right column (col-span-5) — time-commitment callout** on `bg-farm-dark` with white text. Big numeral *"2h"*, italic *"a week"*, body *"Learning, tweaking what we already do on the farm, observing the impact on our plants."* Acts as the time-commitment anchor that previously lived in the H2. Eyebrow *"The whole ask"* and prior body *"That's it. The rest of our time stays where it belongs..."* both retired 2026-04-29 — body now describes the activity (learn / tweak / observe) rather than reassuring about how little is left over.
+- **Goal callout with progressive disclosure (relocked 2026-04-29 fifth pass):** between the H2 and the 2-col timeline grid sits a `bg-farm-bg rounded-card` `<details>` accordion. Summary (always visible) = Fraunces headline *"One visible goal at a time"* + italic muted *"So we can focus, quickly see results, be motivated."* + caret. Body (reveals on click) = group-momentum context: *"Each month, one goal for everyone in the program. Everyone works the same topic at the same time. That's where the group gets its momentum: questions pile up on the same thing from different farms, and the exchange gets specific fast."* Wording journey: italic subhead → always-visible callout panel → accordion-style callout (current). The accordion form keeps the headline + subtitle as the primary message, hides the cohort-momentum reasoning behind a click.
 - **Progressive disclosure added 2026-04-29 (third pass):** each timeline item is now a `<details>` accordion. Summary = day label + 1-line description (visible by default). Body reveals on click — content merged from the prior 4-step accordion's expanded prose:
   - **Monday expand** = step 2's expanded body: *"What to look for in our plants, the specific moves to try."* + *"To keep information from piling up, videos stay short, focused on the current goal, and spread across the seasons."*
   - **Wednesday expand** = pending-verification placeholder.
@@ -685,8 +687,8 @@ Assets used: Andrew photo, Antoine drone photo, both inline link to the Mefferd 
 
 Layered shape the eye walks (headline → hook → detail → resolution):
 
-- **Layer 1 — Headline:** H2 *"Who this is for"*. Scan-level orientation.
-- **Layer 2 — One-line hook:** Two column headers side-by-side: *"A good fit"* / *"Not designed for you"* in accent-font uppercase (farm-mid color). Binary self-sort at a glance, before any criteria are read.
+- **Layer 1 — Eyebrow + Headline (relocked 2026-04-29 night, fifth iteration):** uppercase eyebrow *"Who this is for"* + H2 *"For growers who want their week back"*. Iteration trail: (a) H2-only *"Who this is for"* (label, no thesis); (b) eyebrow + photo-right + H2 *"For market gardeners who want their week back"*; (c) photo-left, leaner H2 *"For growers who want their week back"*; (d) eyebrow + H2 full-width above the body, photo flanks only the lists; (e) **current: eyebrow + H2 sit at the top of the right column, above the lists, alongside the photo on the left**. Reason: full-width title pulled the eye away from the photo's "is this you?" mirror; nesting eyebrow + H2 + lists into the right column lets the photo carry one continuous visual block (eyebrow → headline → criteria) so the photo and the entire fit-decision content are paired as a unit.
+- **Layer 2 — One-line hook (removed 2026-04-29 night):** the column eyebrows *"A good fit"* / *"Not designed for you"* were dropped. Reason: the green checkmarks vs red X icons (added earlier same evening) carry the binary self-sort on their own; the eyebrows were redundant labeling on top of an already-semantic icon system. Without the eyebrows, the lists also stack vertically (green checks above red X) instead of side-by-side, which gives the photo room to anchor the body height.
 - **Layer 3 — Optional detail:** Short criterion lines beneath each header (one line per criterion, scannable). The uncertain reader reads; the gut-sold reader skips.
 - **Layer 4 — Resolution (removed 2026-04-27):** the italic closer *"We'd rather tell you up front than have you waste a season on the wrong thing."* was pruned. The two columns + criteria do the fit-sort on their own; the closer was preachy filler.
 
@@ -697,22 +699,26 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 **Ground color:** `bg-farm-bg` (warm cream). Editorial register; not clinical white.
 
 **Layout:** `max-w-5xl` outer container.
-- **Header row (added 2026-04-29):** 12-col grid `md:grid-cols-12 gap-8 md:gap-12 md:items-center mb-12 md:mb-16`. H2 left at `md:col-span-8`; portrait photo right at `md:col-span-4` (`assets/clients/ferme-decembre/IMG_7680.jpg` — market gardener smiling with a giant heirloom tomato held over one eye, tomato plants in the frame). Photo class: `w-full max-w-xs mx-auto md:max-w-none aspect-[3/4] object-cover rounded-card`. Reads as a visual mirror for the fit-decision beat — "this section is for people like her."
-- **Criteria row:** two columns at `md:grid-cols-2` with `gap-12 md:gap-16`; stack on mobile (fit column above not-fit). No divider between columns — just the gap.
+- **Single grid row (re-relocked 2026-04-29 night, fifth iteration):** 12-col grid `md:grid-cols-12 gap-8 md:gap-12 md:items-stretch` containing the full section content (no separate title row above).
+  - **Photo left** at `md:col-span-5` (`assets/clients/ferme-decembre/IMG_7680.jpg` — market gardener smiling with a giant heirloom tomato held over one eye, tomato plants in the frame). Stretches to match the full right-column height: figure carries `aspect-[3/4]` for mobile fallback + `md:aspect-auto md:h-full`; img carries `w-full h-full object-cover rounded-card`. Mobile: photo stacks on top.
+  - **Right column** at `md:col-span-7` carries: eyebrow → H2 (`mb-10 md:mb-12` to space it from the lists) → inner `<div class="space-y-8 md:space-y-10">` wrapping two `<ul>`s. Top list (good fits): green checkmarks. Bottom list (not designed for you): red X. No column eyebrows — icon shift carries the fit-sort.
+- **Icons:** Heroicons inline SVG via `flex gap-3 items-start` on each `<li>`:
+  - Checkmark path `M4.5 12.75l6 6 9-13.5` at `w-5 h-5 text-farm-green` with `stroke-width="2.5"`.
+  - X path `M6 18L18 6M6 6l12 12` at `w-5 h-5 text-red-600` with `stroke-width="2.5"`.
+  - Red note: `text-red-600` is the only place on the page using a red. Trade-off accepted because the X is doing diagnostic work (clear "not for you" signal). If it reads too alarming, fall back to `text-red-700` (more muted) or `text-farm-muted` (X shape carries meaning, color stays in-palette).
 
 **Locked copy (step 5.1 refinement — criterion lines replace run-together sentences):**
 
-> **A good fit**
+> **A good fit** *(eyebrow removed — checkmarks alone now signal "good fit")*
 > - You're a market gardener, a few years in
-> - You already grow greenhouse indeterminate tomatoes
+> - You grow greenhouse indeterminate tomatoes
 > - Open to trying new things
 >
-> **Not designed for you**
-> - You don't grow greenhouse tomatoes yet
+> **Not designed for you** *(eyebrow removed — red X icons signal "not for you")*
 > - You run an industrial-scale greenhouse
-> - You're looking for academic theory, not practice
+> - You're looking for theory, not practice
 
-**Drift note:** original locked copy ran criteria together as sentences ("A good fit if: you're a market gardener, usually a few years in. You already grow greenhouse indeterminate tomatoes..."). Step 5.1 broke the lead-ins out to column headers and made each criterion its own line. "Usually" dropped (quieter, same meaning). The closing italic resolution line was pruned 2026-04-27 (preachy filler; the columns sort the reader on their own). *"At least one tomato season under your belt"* removed 2026-04-29 — redundant with "you already grow greenhouse indeterminate tomatoes" (anyone growing them has a season under their belt by definition).
+**Drift note:** original locked copy ran criteria together as sentences ("A good fit if: you're a market gardener, usually a few years in. You already grow greenhouse indeterminate tomatoes..."). Step 5.1 broke the lead-ins out to column headers and made each criterion its own line. "Usually" dropped (quieter, same meaning). The closing italic resolution line was pruned 2026-04-27 (preachy filler; the columns sort the reader on their own). *"At least one tomato season under your belt"* removed 2026-04-29 — redundant with "you already grow greenhouse indeterminate tomatoes" (anyone growing them has a season under their belt by definition). *"You don't grow greenhouse tomatoes yet"* removed 2026-04-29 night — also redundant with the inverse (good-fit list already requires growing them, so its absence in not-fits says the same thing). *"Academic"* dropped from "academic theory, not practice" same evening — the word read as adversarial; "theory, not practice" lands the contrast cleaner.
 
 ---
 
@@ -725,7 +731,7 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 **Beats (visual layout) — stats-first, two-card pricing, no prose paragraphs:**
 
 - bg-white ground (alternation with `#who` farm-bg above; cards sit on white).
-- **H2:** "Pricing" (no period). Locked 2026-04-27 — earlier "How to join" framed the section as logistics/admission; "Pricing" frames it as money, which is what the section actually delivers (two pricing cards). The admission band + workload anchor moved to Program section, leaving this section pricing-focused.
+- **Eyebrow + 2-line H2 (relocked 2026-04-29 night):** uppercase eyebrow *"Pricing"* + 2-line H2 *"Try it out. / Leave anytime"* (no terminal period; internal period after "out" forced as `<br>`). Eyebrow names the section topic; H2 names the *commitment posture* — low-stakes invitation, reversible. Iteration: (a) "How to join" (logistics framing, replaced 2026-04-27); (b) "Pricing" alone (label, no posture, replaced 2026-04-29 night); (c) **current**: eyebrow "Pricing" + H2 "Try it out. Leave anytime" — moves the section from a price tag to an invitation. The "Leave anytime" line lightly echoes Card 1's "Month to month. Leave anytime." caption; accepted as reinforcement, not redundancy (H2 = posture, card = commitment terms).
 - **Admission callout band — REMOVED 2026-04-27.** The "Opens June 2026" date was relocated to the `#join` section (Why add your name now) where it earns the priority-queue line. Pricing now jumps directly from H2 to the two cards.
 - **Two pricing cards side-by-side** (border-card frame, the conviction beat) — **Standalone first, Special offer second** (default offer is the baseline; the deal sits as a bonus on the right, not the headline):
   - Card 1: eyebrow "Standalone", big numeral "$40 /month", caption "Month to month. Leave anytime." (carries the commitment terms now that the redundant strip is gone), green CTA pill "Join the waiting list →".

@@ -270,26 +270,23 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
 - **Section structure:** `<section id="hero" class="bg-farm-bg ...">` — `bg-farm-bg` shows on mobile under the photo; on desktop the full-bleed photo covers the section background.
   - *Desktop (md+):* full-bleed photo absolute-positioned with right-dense `from-farm-bg via-farm-bg/90` scrim; text overlays on the right. `min-h-[85vh]`. Right-aligned column (`max-w-xl md:text-right`).
   - *Mobile:* photo is a 55vh full-bleed band on top; text stacks below on `bg-farm-bg` warm cream — gives the opening section its own register before Drew arc shifts to bg-white.
-- **Stack order (top to bottom):**
-  1. Eyebrow (uppercase accent, `text-xs`): "A coaching program for market gardeners" — category anchor, lands what this is before the emotional pitch.
-  2. H1 (Fraunces, `text-4xl→6xl`): "Farming is beautiful"
-  3. Italic subhead (Lato italic, `text-2xl→4xl`): "But life's richer with energy left for the people in it"
-  4. *(visual gap, `mt-8 md:mt-10`)* — separates the poetic couplet from the descriptive chunk
-  5. Body (`text-lg md:text-xl`): "Sharpen your greenhouse. Harvest more from fewer beds. Earn more in fewer hours."
-  6. CTA (whisper underline link): "Join the waiting list →"
+- **Stack order (top to bottom; epigraph-first re-lock 2026-04-29):**
+  1. Epigraph (Lato italic, `text-lg md:text-xl text-farm-muted`, with curly quotes): "Farming is beautiful, but life's richer with energy left for the people in it." — philosophy-book register, sets the emotional tone before the categorical announcement.
+  2. H1 (Fraunces, `text-3xl sm:text-4xl md:text-5xl`): "A coaching program for market gardeners" — promoted from eyebrow to page H1; semantic + visual headline.
+  3. *(visual gap, `mt-8 md:mt-10`)* — separates the announcement from the descriptive chunk.
+  4. Body (`text-lg md:text-xl`): "Sharpen your greenhouse. Harvest more from fewer beds. Earn more in fewer hours."
+  5. CTA (whisper underline link): "Join the waiting list →"
 - **Fit-decision beat:** closing sentence of the body paragraph ("Earn more in fewer hours."). The moment the aspiration gets a mechanism.
-- **Above the fold at 85vh:** eyebrow + H1 + subhead fully visible. Body + CTA peek as a scroll cue; full beat lands on a short scroll.
+- **Above the fold at 85vh:** epigraph + H1 fully visible. Body + CTA peek as a scroll cue; full beat lands on a short scroll.
 - **Transition into Drew:** no ornament, no divider. Drew opens on bg-white as a register shift from hero's farm-bg warmth.
 - **CTA treatment:** underlined inline link in `farm-green`, right-aligned in the column. Not a button. The clear-door CTA lives in the persistent sticky nav, so Hero's CTA can stay a whisper.
 - **Open sub-decision (deferred):** final photo pick. Current `drive-0416.jpg` is placeholder.
 
 **Locked copy:**
 
-> **Eyebrow:** A coaching program for market gardeners
+> **Epigraph:** "Farming is beautiful, but life's richer with energy left for the people in it."
 >
-> **H1:** Farming is beautiful
->
-> **Italic subhead:** But life's richer with energy left for the people in it
+> **H1:** A coaching program for market gardeners
 >
 > **Body:** Sharpen your greenhouse. Harvest more from fewer beds. Earn more in fewer hours.
 >
@@ -298,12 +295,13 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
 **Drift notes:**
 - Previous live body was "Small moves to get more out of every bed, so 40 hours is enough to run the farm. Same income, less grind." Then "More revenue out of the greenhouse, so you can cut field beds without cutting income. Same sales, fewer hours." Current 2026-04-27 lock: "Sharpen your greenhouse. Harvest more from fewer beds. Earn more in fewer hours." Three short sentences. Notable claim shift: from protective ("same income / without cutting income") to outcome-promising ("earn more"). Decision logged as deliberate hero-claim escalation by Guillaume; brand's "no claims, no promises on the course" rule pinches but is read as broad/aspirational rather than quantified-promise. Re-evaluate if cohort-1 outcomes don't substantiate the "earn more" framing.
 - Previous structure (2026-04-23 lock) split the hero into two visually separate blocks: a photo+H1+subhead "mirror" block on top of a `bg-farm-bg` "named container" band below. The split fragmented the reading experience — mobile users landed on the poetic couplet but had to scroll to learn the page was a coaching program. Merged 2026-04-27 into a single stack with the eyebrow leading the column, so category identification lands above the fold.
+- **Hierarchy inversion (2026-04-29):** previously the hero led emotional-first — *"Farming is beautiful"* was the H1, the program label was a small uppercase eyebrow. Inverted to category-first: *"A coaching program for market gardeners"* is now the H1, and the *"Farming is beautiful…"* couplet is demoted to an italic philosophy-book epigraph at the top. Strategic shift acknowledged: the page now leads with what-it-is and uses the poetic line as emotional prelude rather than headline. Trade-off: gut-sold readers may feel the emotional hook is muted; uncertain readers immediately learn the page's category.
 
 ---
 
-## Same beds, bigger harvests
+## Allison's off-farm paycheck became optional
 
-*Typographic split:* H2 renders *"Same beds, bigger harvests"* at display size; subhead beneath in italic medium *"Allison's off-farm paycheck became optional"*. Two-beat title without the two-sentence text wall.
+*Typographic split (updated 2026-04-29):* H2 renders *"Allison's off-farm paycheck became optional"* at display size; subhead beneath in small italic muted *"The story that inspired the program."* Earlier draft used a two-beat split (*"Same beds, bigger harvests"* H2 + *"Allison's off-farm paycheck became optional"* subhead) — promoted the lifestyle outcome to the H2 slot and replaced the subhead with a meta-pointer to the program (the Drew arc *is* the inspiration story for the page itself).
 
 - **Reader-type:** Peer, sub 1 (Drew arc).
 - **Subsection intent:** Let the reader decide if a farmer like them has actually made this work.
@@ -314,40 +312,55 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
 - **Q1 — shape: headline-first.** The two-sentence H2 ("Same beds, bigger harvests. Allison's off-farm paycheck became optional") sits as a big heading at the top of the section. Reader orients to the outcome, then reads the story for the *how*.
 - **Q2 — photo placement: photo + flip-quote pair at the climax.** At the section's emotional peak, a photo of Drew and Allison (from `assets/clients/drew/Drew - Ghost House Farm/`) sits side-by-side with the flip quote — *"My wife was able to quit her job and join me full-time on the farm"* — in big italic pull-quote typography. Two-column visual pair at desktop; stacks on mobile.
 - **Q3 — revenue numbers: triptych of illustrated scales.** Three hand-drawn botanical-style illustrations in seed-catalog register (single-weight line in farm-green ink on cream). Same modern commercial kitchen scale in each panel (per Guillaume's reference — rectangular digital scale with flat stainless platform, LCD display, buttons on right); only the pile of tomatoes + cucumbers grows — roughly 1x / 2.5x / 4x to echo $10k → $25k → $43k. Year + dollar amount captioned below each panel in small accent type. Replaces the single prose line at the end of the body. Production: generate with `openai-gpt-image` in three iterated passes (style sketch → first panel → match the other two).
-- **Q4 — primary CTA + depth-ramp.** Primary CTA uses the page-default wording *"Join the waiting list →"* (consistent with nav + Hero) so the CTA muscle memory stays coherent across the page. Directly below, a quieter depth-ramp link: *"Read Drew's 2025, week by week →"* → `/drew-season/`. Rendered in a muted underline register so it doesn't compete with the primary CTA.
+- **Q4 — primary CTA + depth-ramp.** Primary CTA uses the page-default wording *"Join the waiting list →"* (consistent with nav + Hero) so the CTA muscle memory stays coherent across the page. Directly below, a quieter depth-ramp link: *"Read their 2025, week by week →"* → `/drew-season/`. Rendered in a muted underline register so it doesn't compete with the primary CTA. (Wording journey 2026-04-29: was *"Read Drew's 2025, week by week"* → *"Read what drove the change"* → back to the seasonal-walk framing as *"Read their 2025, week by week"*. The "their" applies the we-equals-farmers voice rule.)
 - **Closing order (from locked copy):** photo + flip-quote pair → thesis bridge ("Two incomes from the same production.") → illustrated revenue triptych → primary CTA → depth-ramp link.
 - **Q5 — ground color: white.** Drew opens on crisp white, reading as a new chapter after Hero's warm farm-bg. Gives the photo and illustrations maximum contrast; differentiates Drew's journalistic register from Hero's editorial warmth.
 - **Q6 — reading width: `max-w-3xl`** (~768px) for the body prose. Photo + flip-quote pair and illustration triptych break out to wider layouts (`max-w-5xl` territory).
 - **Illustration production notes:** PNG with **transparent background** (no rectangle, no paper fill — the ink sits directly on the page's ground color). Style must feel **hand-made** — visible line wobble, variable stroke weight, occasional overshoots at line joins, hand-inked character. Not CAD-clean, not vector-perfect. Reference: naturalist's sketchbook + seed-catalog plates with human hand visible.
 - **Q7 — Drew naming: eyebrow above the H2.** Eyebrow text: *"Drew & Allison Story"* (was *"Drew · Ghost House Farm"*, updated to center the couple — the flip is Allison's return, so the eyebrow names both). Small accent-font uppercase, muted color. Scan-level peer identification.
 - **Before/climb rhythm:** single flowing `max-w-3xl` prose column. Small year markers (*"2023"*, *"2024"*, *"2025"*) in accent-font uppercase as quiet rhythm labels where the narrative shifts year. No typographic dramatization of individual lines — structure work is carried by the eyebrow, H2, photo+quote pair, and illustration triptych.
-- **2023 misery quote:** pulled out of prose as a small photo + italic blockquote pair inside the `max-w-3xl` column. Uses `IMG_1552 (1).JPG` as the companion photo, small square format. Quieter than the 2024 flip climax.
-- **2024 flip climax:** photo + flip pull-quote pair, breakout to `max-w-5xl`. Photo: `IMG_1517 (1).JPG`. Big italic pull-quote right of the photo.
+- **Year blocks (2023 / 2024 / 2025): full-height photo beside whole year text.** Each year is now a 2-col grid where one column holds the entire year text (eyebrow + prose + quote + closing prose) and the other column holds a portrait photo that stretches to the full height of the text column (`sm:h-full object-cover`, no fixed aspect ratio on desktop). Photo width: `sm:w-56 md:w-64`. Sides alternate: 2023 photo right, 2024 photo left, 2025 photo right. Mobile stacks (image keeps `aspect-[4/5]` portrait crop). Photos:
+  - **2023 (right):** `drew-season/images/2025-06-18-17.27.22-6b64bc70.jpg` — hand cradling a young tomato flower.
+  - **2024 (left):** `drew-season/images/2025-06-04-17.57.02-305f5b43.jpg` — hand cupping a green tomato cluster.
+  - **2025 (right):** `drew-season/images/2025-07-11-16.38.35-c4e9f5e9.jpg` — row of fruit-loaded tomato plants.
+- **Layout updated 2026-04-29.** Replaced the prior small inline photo+quote pair pattern (where the photo only sat beside the quote, ~160px square) with the whole-year-beside-photo pattern. Visual rhythm: photo R / photo L / photo R alternation across the year-cluster.
+- **Mobile reading order:** every year reads text-first on mobile (eyebrow → prose → quote → photo below). 2024 uses `sm:order-1`/`sm:order-2` classes to keep source order text-first while still rendering photo-left on desktop. 2023 and 2025 don't need reordering — their natural source order (text first, photo second) renders text-left / photo-right on desktop.
+- **2025 flip climax:** photo + flip pull-quote pair, breakout to `max-w-5xl`. Photo: `IMG_1517 (1).JPG`. Big italic pull-quote right of the photo. Caption: *Drew, on Allison's first full season.* (Was *"Drew, after the 2024 season"* — moved to 2025 segment 2026-04-27 when the year-rhythm prose grew a 2025 beat.)
 - **Thesis bridge:** italic centered *"Two incomes from the same production."* line between the 2024 flip climax and the triptych. Voice-shift from narrative to thesis, short breathing space before the evidence.
 
 **Locked copy:**
 
-> *"We've been farming about a half an acre and then just a single 30 by 80 greenhouse with an attached propagation house slash wash pack."* — Drew
+> **Ghost House Farm** *(eyebrow, centered)*
+>
+> *(3-up illustrated stat grid: ½ acre · 30 × 80 ft greenhouse · 30+ vegetables. Each tile = small rough-scribble sketch + label. Replaces the opening quote 2026-04-29.)*
 >
 > **2023**
 >
-> Drew grows 30-plus vegetables at Ghost House Farm. Allison worked off the farm. The farm wasn't yet enough to make a living from.
+> Drew runs Ghost House Farm full-time. Allison works off the farm to complete the family income. They are one of the better tomato producers in the area. The greenhouse contributes $10,000 that year.
 >
 > *"Our first spring in the hoop house was awful. It was miserable."* — Drew (quote paired with a small 2023 photo of the farm)
 >
 > **2024**
 >
-> Drew automated the sunrise roll-ups, the mid-day irrigation, the cold-snap scrambles. His attention moved to the plant: variety selection, multiple leaders, pruning, water timing.
+> Drew and Allison stabilize the greenhouse climate and dehumidify to steer away from the diseases that ruined 2023. They focus on improving their tomato techniques: variety selection, multiple leaders, pruning, water timing. In August, Drew shares on Instagram:
 >
-> Tomatoes picked up. The market overflowed. Overshot projections and made a profit for the first time.
+> *"As of today, we have DOUBLED tomato production compared to last year."* — [Instagram, August 2024](https://www.instagram.com/p/C_UBRhWuXdg/). Paired with `drew-season/images/2025-07-11-16.38.33--1--59e7f4bd.jpg` (small ripe-red-cluster photo, mirrored grid with quote-left/photo-right to alternate from the 2023 and 2025 small pairs).
 >
-> *"My wife was able to quit her job and join me full-time on the farm."* — Drew, after the 2024 season (paired with the flip-climax photo)
+> They overshoot market projections and make a profit for the first time. The greenhouse contributes $25,000.
 >
-> *Two incomes from the same production.* *(Thesis bridge: italic centered, between the 2024 flip climax and the triptych.)*
+> **2025**
 >
-> *(Triptych follows: greenhouse contribution $10k in 2023, $25k in 2024, $43k in 2025.)*
+> Allison joins Drew full-time on the farm. Drew starts consulting with Antoine to steer tomatoes and improve fruit setting. In early July, they write Antoine:
+>
+> *"We've harvested more cherry tomatoes than all of 2023, before we'd even started picking that year."* — Drew (email to Antoine, early July 2025; paired with `drew-season/images/2025-07-11-16.38.35-c4e9f5e9.jpg` small fruit-loaded plant-row photo)
+>
+> Greenhouse contribution: $43,000.
+>
+> *"My wife was able to quit her job and join me full-time on the farm."* — Drew, on Allison's first full season (paired with the flip-climax photo)
+>
+> *Two incomes from the same production.* *(Thesis bridge: italic centered, between the 2025 flip climax and the CTA.)*
 
-**Drift note:** the outline timeline beats ("2,000 lbs", "July 1 2025 matches all of 2023") are not in the locked prose. Decide whether the visual timeline survives alongside the prose or whether the prose replaces it.
+**Drift note:** revenue triptych ($10k/$25k/$43k) absorbed into the year-rhythm prose 2026-04-27. Each year's body now ends with the greenhouse-contribution figure, so the standalone triptych in #techniques-known is no longer needed (and was removed). Allison-joining flip moved from "after 2024 season" to the 2025 segment to give 2025 a felt climax beat (yields had jumped in 2024; lifestyle change consolidated in 2025).
 
 ---
 
@@ -359,43 +372,45 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
 
 **Step-5 locked structure:**
 
-1. **H2 heading** (no terminal period):
-   > The more you grow per bed, the more room your life gets back
+1. **H2 heading** (no terminal period; updated 2026-04-29):
+   > Making our beds pay for the life we want
+
+   Earlier wordings: *"The more you grow per bed, the more room your life gets back"* (initial step-5 lock) → *"Harvest more per bed to build the life you want"* (rendered, mid-iteration) → current. Final version applies the we-equals-farmers voice rule and uses "making" as honest farmer agency rather than aspirational hype.
 
 2. **Italic intro callout** (muted, one line above the cards):
-   > *The bed is already paid for. The hours are spent. What grows on top is mostly margin.*
+   > *The bed is already paid for. The hours are spent. What grows on top is yours.*
 
 3. **4-card grid** (2×2 desktop, 1-col mobile). Each card: bold title (no terminal period) + prose body. Card 4 runs one sentence longer than the others — accepted imbalance, card carries the HR-relief beat.
 
    | # | Title | Body |
    |---|---|---|
-   | 1 | Fewer beds on the plan | Less walking, less weeding, fewer problems to chase. The farm gets quieter. |
+   | 1 | Fewer beds to hit your sales | Less walking, less weeding, fewer problems to chase. The farm gets quieter. |
    | 2 | Money to hire out what drains you | The accounting gets done by someone who actually likes doing it. Your Sundays come back. |
-   | 3 | Farm income that carries the household | The off-farm paycheck, the partner's second job, the winter gig. Optional again. |
-   | 4 | Staff you can pay what good people are worth | Better candidates walk in. The ones you hire stay longer. Experienced hands mean more done, faster, and less HR work. |
+   | 3 | Farm income that carries the household | The off-farm paycheck, the partner's second job, the winter gig. Optional again. And the hours, back to your family. |
+   | 4 | Staff you can pay what good people are worth | Better candidates walk in. They stay longer. Experienced hands mean more done, faster. Less hiring, less training, less HR headaches. More energy left in the tank. |
 
 4. **Closer line** (muted italic, centered below cards):
-   > *Every one of these ends in the same place: time with the people you started farming for.*
+   > *Behind every one: time with the people you started farming for.*
 
 5. **No CTA in this subsection** — per step-2 Peer ownership, the section's CTA lives at the end of sub 1 (Drew arc). Sub 2 closes on the emotional bridge and readers flow into Analytical.
 
 **Locked copy (step-4, verbatim — source of truth for the render):**
 
-> *The bed is already paid for. The hours are spent. What grows on top is mostly margin.*
+> *The bed is already paid for. The hours are spent. What grows on top is yours.*
 >
-> **Fewer beds on the plan.** Less walking, less weeding, fewer problems to chase. The farm gets quieter.
+> **Fewer beds to hit your sales.** Less walking, less weeding, fewer problems to chase. The farm gets quieter.
 >
 > **Money to hire out what drains you.** The accounting gets done by someone who actually likes doing it. Your Sundays come back.
 >
-> **Farm income that carries the household.** The off-farm paycheck, the partner's second job, the winter gig. Optional again.
+> **Farm income that carries the household.** The off-farm paycheck, the partner's second job, the winter gig. Optional again. And the hours, back to your family.
 >
-> **Staff you can pay what good people are worth.** Better candidates walk in. The ones you hire stay longer. Experienced hands mean more done, faster, and less HR work.
+> **Staff you can pay what good people are worth.** Better candidates walk in. They stay longer. Experienced hands mean more done, faster. Less hiring, less training, less HR headaches. More energy left in the tank.
 >
-> Every one of these ends in the same place: time with the people you started farming for.
+> Behind every one: time with the people you started farming for.
 
 ---
 
-## Starting with the bed that'll free you the most
+## Why we focus on greenhouse tomatoes
 
 - **Reader-type:** Analytical, sub 1 (the lever).
 - **Subsection intent:** Let the reader decide if the thesis applies to their farm.
@@ -435,13 +450,19 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
 - **Reader-type:** Analytical, sub 2.
 - **Subsection intent:** Let the reader decide if the techniques themselves are real and proven.
 - **Owns:** "not secret, not new" framing; Mefferd book; Mefferd's yields doubling on his own farm; Quebec 4x small-grower figure. External authority only.
-- **Status:** step-4 prose **locked** 2026-04-22. Step-5 structure in iteration (not locked). Orisha *6 Steps to $15,000* moved to Sub 3. The current render in `index.html` uses a photo + paragraph editorial layout with a 4× stat block below; this is one iteration, not a lock.
+- **Status:** step-4 prose **locked** 2026-04-22. **Step-5 structure (Direction B) locked 2026-04-27.**
 
-**Beats (visual layout, in-progress):**
+**Beats (visual layout, locked 2026-04-27 — Direction B):**
 
-- Lead: big greenhouses have used these techniques for years.
-- Editorial layout: Andrew's industrial-greenhouse photo (`assets/team/Andrew/andrew-industrial-greenhouse.jpg`) paired with the Mefferd paragraph, book title linked inline to Johnny's.
-- 4× stat block: sketch (`assets/sketches/techniques-are-known/one-tunnel-equals-four.png`) paired with the Quebec sentence, "4×" visually emphasized inline.
+Two uniform rows, alternating photo sides. Each argument gets the same template (photo + claim/quote text), each gets equal weight. Replaces a longer in-iteration render that had a separate 4× stat block + a Drew triptych below — Drew triptych removed (one-farmer arc duplicates `#story`'s narrative; the cohort 4× claim does the analytical-numbers work).
+
+- **H2 + italic muted subhead** (max-w-3xl, centered): *"The techniques are known."* / *"They're not secret, and they're not new."*
+- **Row 1 — Andrew (photo left, quote + book line right):**
+  - Photo: `assets/team/Andrew/andrew-industrial-greenhouse.jpg` (`md:col-span-2`, aspect-square, rounded-card). Caption: *Andrew learning industrial greenhouse techniques.*
+  - Right column (`md:col-span-3`): pull-quote *"First year I applied big greenhouse techniques, my yields doubled."* — Andrew Mefferd. Below the quote, muted body line: *Andrew wrote* [The Greenhouse and Hoophouse Grower's Handbook](https://www.johnnyseeds.com/...)* to share these techniques with small growers.* (No bg-farm-bg aside panel; the book mention inlines as a quiet sentence.)
+- **Row 2 — Antoine (claim + 2-sentence body left, drone photo right; alternating side):**
+  - Photo: `assets/clients/jardin-inverness/ferme antoine.jpg` (`md:col-span-3`, aspect-[16/9], rounded-card, `md:order-2`). Bumped from `col-span-2` and `aspect-[16/10]` to give the aerial drone shot real horizontal sweep + matching height. Caption: *Les Jardins d'Inverness, Antoine's farm.*
+  - Left column (`md:col-span-2`, `md:order-1`): heading-scale claim *"And they work at small-farm scale."* Below it, muted 2-sentence body: *Quebec consultants have adapted big greenhouse techniques to small farms.* *[Antoine](#antoine) and other growers learned from them to regularly hit 4× the average yield in their 30x100 greenhouse.* The "Antoine" word links to his bio anchor `#antoine`. The 4× number is emphasized inline at `text-2xl md:text-3xl` (one step up from body, not display-loud).
 - No CTA (Analytical section's CTA lives at end of Sub 4).
 
 **Locked copy (step-4):**
@@ -450,13 +471,18 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
 >
 > Andrew Mefferd wrote *The Greenhouse and Hoophouse Grower's Handbook* to carry techniques from industrial greenhouses into market gardens. The first year he applied what he'd learned on his own farm, his yields doubled. Same greenhouse, twice the harvest.
 >
-> Quebec small growers working with consultants regularly hit four times the average, same square footage.
+> Quebec consultants have adapted big greenhouse techniques to small farms. [Antoine](#antoine) and other growers learned from them to regularly hit 4× the average yield in their 30x100 greenhouse.
 
-**Iteration log (2026-04-23):** A 3-card variant (photo | pull-quote | book cover) was rendered and reviewed, then rolled back because the 3 distinct visual registers produced noise rather than rhythm. Assets generated during that iteration are still on disk and may be reused: Andrew's photo, the 1-tunnel-equals-4 sketch, the Mefferd book cover at `assets/books/mefferd-greenhouse-handbook.jpg`.
+**Iteration log:**
+
+- 2026-04-23: A 3-card variant (photo | pull-quote | book cover) was rendered and reviewed, then rolled back because the 3 distinct visual registers produced noise rather than rhythm.
+- 2026-04-27: Three structural variants rendered into `techniques-known-options.html` for comparison: Option 1 (3-up card grid), Option 2 (uniform 3-row stack), Option 3 (hero quote + stats strip). Option 3 iterated several times. After Drew's block was removed (one-farmer arc duplicating `#story` narrative), the section dropped from 3 arguments to 2 (Andrew = source, Antoine = small-farm proof). Direction B (uniform 2-row narrative, alternating photo sides) chosen as the cleanest fit for parallel-content structure. Andrew's quote refined to *"First year I applied what I'd learned from the big greenhouse growers, my own yields doubled."* Andrew's book aside panel removed; book mention inlined as muted sentence. Antoine drone photo (`ferme antoine.jpg`) replaces the `one-tunnel-equals-four` sketch — the cohort claim now anchored on a real small-farm photo with caption *Antoine's farm.* The big "4×" display stays inline within the body sentence.
+
+Assets used: Andrew photo, Antoine drone photo, both inline link to the Mefferd book on Johnny's. The `one-tunnel-equals-four.png` sketch and the `drew-scale-test-02.png` placeholder are no longer used in this section but remain on disk.
 
 ---
 
-## Why information isn't enough (Analytical sub 3)
+## Why we need more support (Analytical sub 3)
 
 - **Reader-type:** Analytical, sub 3.
 - **Subsection intent:** Let the reader decide that the real problem on their farm isn't missing information, it's the weekly judgment calls only they can see.
@@ -466,19 +492,23 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
 **Beats (visual layout) — shape B (prose with question-list breakout):**
 
 - max-w-3xl prose column, **bg-white** ground (continuous Analytical run; Practical 1 will break to bg-farm-bg).
-- **H2:** "Why information isn't enough" (no terminal period). Matches the declarative-thesis register of "The techniques are known" in the section above.
+- **H2:** "Why we need more support" (no terminal period). Renamed from "Why information isn't enough" 2026-04-27 — flips the framing from negative (what's missing) to positive (what's needed). Section body still argues the information-isn't-enough thesis through the eyebrow blocks and pull-quote; the new H2 names the conclusion the reader is meant to reach.
 - **No eyebrow** (continuous with techniques-known register).
 - **Closer treatment:** centered italic Fraunces, larger than body, on the same bg-white ground. Two sentences: "No theory can answer those for you. Every greenhouse is specific, every week is new." Internal period between sentences stays; no terminal period on the H2 itself.
 - **Drift note:** the visual list lightly tightens "your weather this month" → "this month's weather" for cleaner parallel structure across the four lines. Locked prose stays as-is in this outline; the tightening lives only in the visual breakout.
-- Para 1 (authority): the information is out there. Andrew's book. The Orisha course, free.
-- Para 2 (pivot): "But it's not enough. Folks send us questions all the time."
-- Lead-in: "What's hard is the calls you have to make on the farm, week after week."
-- **Question-list breakout (shape A — centered italic poem):** four weekly-call questions, each on its own line, Fraunces italic, centered, generous vertical spacing. Climactic *Am I doing it right?* slightly larger and weighted as the final line. Lightly tightened/parallelized from the locked prose so they read as a clean visual list (exact wording in step-6 render). Lines as drafted:
-  - *Which move to prioritize.*
-  - *How to adapt a principle to your varieties, your tunnel, this month's weather.*
-  - *Whether you're pruning enough, or pruning too much.*
-  - *Am I doing it right?* (climactic, slightly larger)
-- Closer (centered italic): "No theory can answer those for you. Every greenhouse is specific, every week is new." → bridges into Sub 4.
+- **Three eyebrow-led blocks** (final form, locked 2026-04-27 after iteration). Mirrors `#join` pattern. Each block: Rubik accent eyebrow + body line at canonical body size `text-lg md:text-xl`. `space-y-8 md:space-y-10` between blocks.
+  - **The information is out there** → "Andrew wrote the book. We made a free online course with Orisha."
+  - **It's not enough** → "Folks send us questions all the time."
+  - **Every farm is different** → "Week after week, there are loads of calls to make on the farm and so little time to figure out."
+- **Pull-quote with left-border** (replaces the centered italic poem). Reuses the Mefferd-quote visual pattern (`pl-5 md:pl-6 border-l-2 border-farm-green/60 font-body italic text-lg md:text-xl text-farm-dark leading-snug space-y-3 mt-10 md:mt-14`). Five questions stacked one per line, the climactic *Am I doing it right?* slightly weighted (`font-medium`). Reads as the farmer's inner voice. Questions converted from statement-fragments to proper question form so the italics feel earned. Locked questions:
+  - *Which move do I prioritize?*
+  - *How do I adapt to that variety?*
+  - *I irrigate many times a day. Why do I still see blossom-end rot?*
+  - *Am I pruning enough, or pruning too much?*
+  - ***Am I doing it right?*** (climactic, weighted)
+- **Closer (shortened):** *"No theory can answer those for you."* The contextual reason ("Every greenhouse is specific, every week is new.") was dropped — its theme now lives in the third eyebrow block ("Every farm is different"). Centered italic muted (`font-body italic text-lg md:text-xl text-farm-muted text-center`).
+- **Iteration log:** centered italic poem treatment was tried, then replaced. The stacked centered italic was reading as decorative-poetry rather than lived-experience inner voice; pull-quote treatment with left-border lands as overheard farmer thoughts, matches an existing visual pattern on the page, doesn't compete with the prose register above.
+- **Photo added 2026-04-27:** two-column layout, photo `assets/clients/ferme-decembre/IMG_3719.jpg` on `md:col-span-5` (left), text on `md:col-span-7` (right). Photo is `aspect-[4/5] object-cover rounded-card` with `md:sticky md:top-24` so it stays visible while the reader scrolls through the eyebrow blocks + pull-quote. Subject: a farmer training a young tomato plant onto a string trellis, focused expression, working hand visible — directly anchors the section's *weekly judgment calls* register. H2 stays full-width above the grid (max-w-3xl wrapper). Closer stays full-width below the grid (max-w-3xl wrapper, centered italic muted). Stacks on mobile (photo above text).
 
 **Locked copy:**
 
@@ -548,15 +578,15 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
 
 - bg-white ground (continues from `#not-alone`).
 - Section ID: `id="program"`. Slots immediately after `#not-alone`.
-- **H2:** "The program" (no period). No subhead — the accordion is self-explanatory.
+- **H2:** "2 hours a week to transform our farm" (no period). Renamed 2026-04-29 — names the felt promise (small weekly time → meaningful farm change) instead of labelling the mechanism. The "our" framing positions the program as a shared room where farmer + Orisha work together, not a service Orisha delivers to the farmer. Section body still walks the 4-step rhythm of how a month flows; the new H2 frames why the reader would commit those 2 hours.
 - **4-step accordion (`<details>`)**, all closed by default, native `<summary>` styled to hide the disclosure triangle and use a custom rotating caret. Each summary shows: small Rubik step number (01/02/03/04) · Fraunces title · small muted one-line teaser. Expanded body holds the longer detail.
-  - **Step 1 — One goal, one month** · *Picked to match what your greenhouse needs.* (Expanded: group-momentum content folded in.)
-  - **Step 2 — Short video** · *Five minutes. Frames the goal. Rewatchable.* (Expanded: phone-watchable + what to look for.)
-  - **Step 3 — Weekly live call** · *60 min with Guillaume, Antoine, and Andrew.* (Expanded: bring photos/numbers/questions; recorded, no put-on-spot.)
-  - **Step 4 — Applied on your farm** · *Pruning, scouting, harvesting, sharpened by the goal.* (Expanded: integrated into existing work; community forum we answer once a week.)
+  - **Step 1 — One visible goal at a time** · *So we can focus, quickly see results, be motivated.* (Expanded: group-momentum content folded in.)
+  - **Step 2 — 5-min videos** · *Guide us toward the goal. Dripped weekly. Rewatchable.* (Expanded: "What to look for in our plants, the specific moves to try. Phone-watchable between rows. / To keep information from piling up, videos stay short, focused on the current goal, and spread across the seasons.")
+  - **Step 3 — On your farm** · *Pruning, scouting, harvesting, sharpened by the goal.* (Expanded: "Everything happens inside the work we already plan. A community forum runs alongside: we answer once a week.") Title refined 2026-04-29 from "Applied on your farm" — "Applied" was a participle that didn't sit as a noun-phrase title alongside the other accordion steps.
+  - **Step 4 — Weekly live call** · *60 min with Andrew, Antoine and Guillaume to overcome obstacles we face.* (Expanded: "5-min videos guide us forward and uproot obstacles. On these calls, we tackle what theory cannot. / Watching others' roadblocks often helps us move faster.")
+  - **Reorder 2026-04-29:** Weekly live call moved from step 3 to step 4 (last). New flow: goal → videos → applied work → live call. The call now lands as the *backstop* for what the videos and applied work haven't resolved, rather than as a mid-flow event. Pairs with the new subtext that frames the call as obstacle-overcoming, not generic coaching.
 - **Support strip dropped.** Support content (recordings, forum, no-put-on-spot, group momentum) folded into the accordion bodies of step 1, 3, 4.
-- **First-goal callout** (centered, on `bg-farm-bg` rounded panel): two-line italic stack — small italic lead-in *"The first goal,"* + larger Fraunces italic *"Build fruit load without exhausting the plants."* No Rubik uppercase eyebrow.
-- **Closer + CTA:** centered italic *"If that slots into your week, put your name on the list."* directly above the green pill *"Join the waiting list →"*.
+- **Closer + CTA (first goal folded in, refined 2026-04-29):** single italic block before the green pill: *"First goal: get plants to bear more tomatoes, consistently. Wanna join us?"* Earlier 2026-04-29 lock used technical phrasing *"Our first goal: build fruit load without exhausting the plants. If that slots into your week, put your name on the list."* Refined same day to plain language ("more tomatoes, consistently" replaces "build fruit load without exhausting") and casual close ("Wanna join us?" replaces the workload-fit-check sentence). The casual register matches the page's existing y'all moment in `#join`, and the workload anchor sitting right above already carries the fit-check work. No separate first-goal callout panel, no standalone workload-anchor stat — both folded away.
 
 **Beats (visual layout):**
 
@@ -566,7 +596,7 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
     - Month, one goal.
     - Short video, frames the goal. (Phone-watchable between rows — fold this lifestyle detail into the locked copy when the section is rendered; pulled from How-to-join 2026-04-27.)
     - Weekly live coaching, your farm's reality.
-    - Applied, on your farm.
+    - On your farm.
 - Focus: greenhouse. This year: tomatoes. Cucumbers next, then lettuce.
 - First goal callout: "Build fruit load up without exhausting plants."
 - **Workload anchor** (centered, big Fraunces numeral + small uppercase Rubik caption, sits between the first-goal callout and the closer so the closer's "if that slots into your week" pays it off): "2 to 3 hrs a week" / *Mostly work on your own plants*. Moved here from How-to-join 2026-04-27 (workload is a Program-section question, not a how-to-join question; the closer wraps it cleanly).
@@ -672,11 +702,12 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 **Beats (visual layout) — stats-first, two-card pricing, no prose paragraphs:**
 
 - bg-white ground (alternation with `#who` farm-bg above; cards sit on white).
-- **H2:** "How to join" (no period).
-- **Admission callout band** (centered, on a quiet `bg-farm-bg` rounded panel, prose-column width): "Opens June 2026."
+- **H2:** "Pricing" (no period). Locked 2026-04-27 — earlier "How to join" framed the section as logistics/admission; "Pricing" frames it as money, which is what the section actually delivers (two pricing cards). The admission band + workload anchor moved to Program section, leaving this section pricing-focused.
+- **Admission callout band — REMOVED 2026-04-27.** The "Opens June 2026" date was relocated to the `#join` section (Why add your name now) where it earns the priority-queue line. Pricing now jumps directly from H2 to the two cards.
 - **Two pricing cards side-by-side** (border-card frame, the conviction beat) — **Standalone first, Special offer second** (default offer is the baseline; the deal sits as a bonus on the right, not the headline):
   - Card 1: eyebrow "Standalone", big numeral "$40 /month", caption "Month to month. Leave anytime." (carries the commitment terms now that the redundant strip is gone), green CTA pill "Join the waiting list →".
-  - Card 2 (Free path): eyebrow **"Special offer"**, big numeral "$0 /month", **two-line scannable path list** (each path named once, brand name in bold/dark): "Growing for Market subscribers" / "Orisha users", **time-bound disclosure** (small italic muted): "For 2026 only. We'll see after that.", **GFM disclosure** (small italic muted, separate paragraph): "Subscribing to **Growing for Market** magazine is the cheapest way to join the program. $39/yr." with link to growingformarket.com/pricing/, green CTA pill "Join the waiting list →". (Each brand name appears exactly once.)
+  - Card 2 (Free path): eyebrow **"Special offer"**, big numeral "$0 /month", **two-line scannable path list** (each path named once, brand name in bold/dark): "Growing for Market subscribers" / "Orisha users", **time-bound disclosure** (small italic muted): "For 2026 only. We'll see after that.", green CTA pill "Join the waiting list →". (Each brand name appears exactly once.)
+- **Cheapest-path footnote, below both cards** (small italic muted, centered, `max-w-2xl mx-auto`): "Subscribing to **Growing for Market** magazine is the cheapest way to join the program. $39/yr." with link to growingformarket.com/pricing/. Lifted out of Card 2 on 2026-04-27 — sits under both cards as a shared footnote, since the GFM path is the cheapest *across the whole pricing comparison*, not a Card-2 internal disclosure.
 - Section ID: `id="how-to-join"`.
 
 **Pruned 2026-04-27 (Option B):** the original layout repeated "rolling / monthly / leave anytime" four times across the admission band, stats strip, and Card 2 caption. Now: timing → admission band, workload → single anchor, commitment → Card 2 caption (each fact lands once). The "Short videos are phone-watchable between rows" note moved to The Program section.
@@ -744,7 +775,9 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 - **H2:** "Team behind this" (no period).
 - **Framing line** (italic Fraunces below H2): "Three people show up on the calls. Different paths in, different angles on the same work."
 - **3 bios stacked** with generous space between. Each bio block: 12-col grid, photo `md:col-span-4`, text `md:col-span-8`. Photo `aspect-square object-cover rounded-card`, max-w-[280px]. Stacks on mobile.
-- Each bio: Photo · Fraunces name (h3) · Rubik tagline (1-line) · first paragraph (always visible) · `<details>` "Read more" expand for middle paragraphs · italic *"On calls, he…"* closer (always visible, pulled from the locked prose's last paragraph).
+- Each bio: Photo · Fraunces name (h3) · Rubik tagline (1-line) · first paragraph (always visible) · `<details>` **one-way expand** ("Read more" → revealed forever, no "Read less") carrying the middle paragraphs **and** the italic *"On calls, he…"* closer as its final beat.
+  - **One-way expand pattern (locked 2026-04-28):** once opened, the `<summary>` hides via `#team details[open] > summary { display: none; }` in the page `<style>` block. No mid-content collapse toggle, no JS. To re-collapse, reload. Reason: native `<details>` always anchors the toggle at the top of the expanded region, which placed "Read less" awkwardly between visible and revealed content. Atlantic / Substack pattern. Trade-off: keyboard users can't collapse without reload, judged acceptable for a 3-bio landing-page section.
+  - **Closer moved inside the expand 2026-04-27** — previously always visible after `</details>`. Reason: the closer is a payoff line, more powerful as the punch at the bottom of the expanded read than as a competing always-on signal next to the "Read more" affordance.
   - **Andrew:** photo `assets/team/Andrew/IMG_0968.JPG`. Tagline: "Author. Growing for Market editor."
   - **Guillaume:** photo `assets/clients/ferme-decembre/IMG_3865.jpg`. Tagline: "Founder, Orisha. Co-grower, Ferme Décembre."
   - **Antoine:** photo `assets/clients/jardin-inverness/Antoine.jpeg`. Tagline: "Grower, Jardin Inverness."
@@ -793,7 +826,7 @@ Layered shape the eye walks (headline → hook → detail → resolution):
 >
 > On calls, he'll show you which lean moves held up when his farm was breaking, and which greenhouse techniques pushed his tomatoes to 4x.
 
-**Consistency note:** Analytical Sub 2's locked copy says "Quebec small growers working with consultants regularly hit four times the average, same square footage." Antoine's bio concretizes that claim — he's one of those growers, now named on the team.
+**Consistency note:** Analytical Sub 2's locked copy names Antoine directly. Current 2026-04-27 form: *"Quebec consultants have adapted big greenhouse techniques to small farms. Antoine and other growers learned from them to regularly hit 4× the average yield in their 30x100 greenhouse."* The "Antoine" word links to `#antoine` (his bio later in the page). The first sentence threads the section: techniques (Andrew's row, big-greenhouse origin) → adapted by consultants → applied by small growers (Antoine).
 
 **Locked closer (below the three bios):**
 
@@ -827,8 +860,8 @@ Ordering: 1 → 2 → 3. Reassurance before the form. No disclosures.
 
 **Visual structure (step 5) locked 2026-04-27 — variant B (two-column desktop, prose + form).** Lean refinement 2026-04-27: left column converted from 3 prose paragraphs to 3 eyebrow-led blocks; H2 changed from "Why add your name now" to "Join us" (more welcoming).
 
-- Section ID `id="join"`. bg-farm-bg ground (alternates from `#team` white per locked layout patterns).
-- **H2:** "Join us" (no period). Welcoming register, less transactional than "Why add your name now". Spans the prose column at the top (max-w-3xl wrapper).
+- Section ID `id="join"`. **Ground: farm photo with deep farm-dark tint** (orisha.io bottom-CTA pattern), set via inline `linear-gradient(rgba(39,80,10,0.88), rgba(39,80,10,0.88)), url('assets/clients/ferme-decembre/drive-0416.jpg')`. The hero photo reused as a visual bookend (page opens with this photo, closes with same photo darkened). All text on dark switches to white (H2, prose); muted disclaimer becomes `text-white/70`. Form panel stays `bg-white` — pops as a contrast island against the dark background. Locked 2026-04-27 (replaces earlier bg-farm-bg ground).
+- **H2:** "Join growers working toward a 40-hour farm" (no period). Locked 2026-04-28. Names the cohort and the shared work; "working toward" matches the brand's not-finished / honest posture; "a 40-hour farm" with indefinite article keeps each farm's version of 40 hours its own. Spans the prose column at the top (max-w-3xl wrapper). Earlier locks: *"Why add your name now"* (transactional, replaced 2026-04-27) → *"Join us"* (welcoming but generic, replaced 2026-04-28).
 - **Stacked single-column layout (relocked 2026-04-27):** prose lead-in above, centered form below. The earlier two-column grid (prose left / form right) was retired — eyebrow-led blocks compressed into a single short paragraph that does the same persuasive work without the visual weight of two columns. Form floats centered with `max-w-md mx-auto`.
 - **Prose lead-in:** centered reading column (`max-w-3xl mx-auto mt-10 md:mt-14`), single paragraph at canonical body scale (`text-lg md:text-xl text-farm-text leading-relaxed`). Replaces the two eyebrow-led blocks.
 - **Form panel:** white panel `bg-white rounded-card p-8 md:p-10 border border-farm-mid/15` inside `max-w-md mx-auto mt-12 md:mt-16`, containing:
@@ -845,7 +878,9 @@ Ordering: 1 → 2 → 3. Reassurance before the form. No disclosures.
 > Interested? Join the list so we can figure out the best format to support y'all.
 >
 > *(quiet muted warning, smaller scale below the lead)*
-> *If we have to limit seats, first on the list, first in.*
+> *If we have to limit seats, first on the list, first in. The program opens June 2026.*
+
+**Drift note (2026-04-27, "Opens June 2026" relocation):** the date moved here from the Pricing section's admission callout band. Pricing carried it timelessly; this section is the one whose intent ("Why today beats later") is structurally load-bearing on the date — without it, "first in line" is toothless. Folded into the priority-queue line as one sentence rather than its own callout, to keep the quiet-journal register.
 
 **Drift note (2026-04-27 lean):** went through three lock revisions in one day. Initial: three paragraphs ("We're still figuring out the format..." + "Putting your name down today costs nothing..." + "Your name goes on the waiting list..."). First prune: three eyebrow-led prefixes (Tell us / Save your seat / Get Program updates). Second prune (same day): "Get Program updates / over email" deleted. Final lock (same day): collapsed the remaining two eyebrow blocks + retired the two-column grid for a single prose paragraph above a centered form. Each prune lost the same idea (what-happens-after-signup is implicit; the eyebrow scaffolding added visual weight without adding meaning). The "first on the list, first in" framing replaces "first in, first seat" — softer, more conditional, removes the implicit cohort scarcity.
 

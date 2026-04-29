@@ -83,6 +83,11 @@
     details > summary::-webkit-details-marker { display: none; }
     details .caret { transition: transform 0.2s ease; display: inline-block; }
     details[open] .caret { transform: rotate(90deg); }
+
+    /* Team bios use one-way expand: once opened, the toggle disappears so it
+       doesn't sit awkwardly between visible and revealed content. To collapse,
+       reload. Scoped to #team so #program's accordion stays two-way. */
+    #team details[open] > summary { display: none; }
   </style>
 </head>
 
@@ -137,15 +142,13 @@
 
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 md:pt-32 md:pb-28 md:flex md:justify-end">
         <div class="fade-in max-w-xl md:text-right">
-          <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-5">
+          <p class="font-body italic text-lg md:text-xl text-farm-muted leading-snug text-balance">
+            &ldquo;Farming is beautiful, but life's richer with energy left for the people in it.&rdquo;
+          </p>
+          <hr class="border-farm-muted/30 w-16 mt-8 md:mt-10 mb-8 md:mb-10 md:ml-auto">
+          <h1 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
             A coaching program for market gardeners
-          </p>
-          <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-medium text-farm-dark leading-[1.05] tracking-tight md:whitespace-nowrap">
-            Farming is beautiful
           </h1>
-          <p class="font-body italic text-2xl sm:text-3xl md:text-4xl font-semibold text-farm-text leading-snug tracking-tight text-balance mt-4">
-            But life's richer with energy left for the people in it
-          </p>
           <p class="text-lg md:text-xl text-farm-text leading-relaxed mt-8 md:mt-10">
             Sharpen your greenhouse.<br>
             Harvest more from fewer beds.<br>
@@ -169,55 +172,111 @@
 
           <!-- Header block (prose column width) -->
           <div class="max-w-3xl mx-auto">
-            <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-5">
-              Drew &amp; Allison Story
-            </p>
             <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance mb-3">
-              Same beds, bigger harvests
-            </h2>
-            <p class="font-body italic text-xl sm:text-2xl md:text-3xl font-medium text-farm-text leading-snug tracking-tight text-balance mb-12 md:mb-16">
               Allison's off-farm paycheck became optional
+            </h2>
+            <p class="font-body italic text-lg md:text-xl text-farm-muted leading-relaxed mb-12 md:mb-16">
+              The story that inspired the program.
             </p>
           </div>
 
           <!-- Body prose with year rhythm labels (prose column width) -->
           <div class="max-w-3xl mx-auto text-lg md:text-xl text-farm-text leading-relaxed">
 
-            <blockquote class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance mb-12 md:mb-14">
-              "We've been farming about a half an acre and then just a single 30 by 80 greenhouse with an attached propagation house slash wash pack."
-            </blockquote>
-
-            <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4 mt-0">
-              2023
-            </p>
-            <p class="mb-6">
-              Drew grows 30-plus vegetables at Ghost House Farm. Allison worked off the farm. The farm wasn't yet enough to make a living from.
-            </p>
-            <div class="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-5 sm:gap-7 items-center my-8 md:my-10">
-              <img src="assets/clients/drew/Drew%20-%20Ghost%20House%20Farm/IMG_1552%20%281%29.JPG"
-                   alt="Ghost House Farm, 2023"
-                   class="w-32 sm:w-36 md:w-40 aspect-square object-cover rounded-card">
-              <blockquote class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance">
-                "Our first spring in the hoop house was awful. It was miserable."
-              </blockquote>
+            <!-- Ghost House Farm scale tiles: 3-up illustrated stat grid that replaces
+                 the long opening quote. Eyebrow names the farm; tiles communicate scale. -->
+            <div class="mb-12 md:mb-14">
+              <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-6 text-center">
+                Ghost House Farm
+              </p>
+              <div class="grid grid-cols-3 gap-6 md:gap-10 text-center">
+                <div>
+                  <img src="assets/sketches/drew-ghosthouse-scale/01-half-acre.png"
+                       alt="Hand-drawn sketch of a small half-acre farm plot with rows of beds"
+                       class="w-24 h-24 md:w-32 md:h-32 object-contain mx-auto">
+                  <p class="font-heading text-lg md:text-xl text-farm-dark mt-3 leading-snug">½ acre</p>
+                </div>
+                <div>
+                  <img src="assets/sketches/drew-ghosthouse-scale/02-greenhouse.png"
+                       alt="Hand-drawn sketch of a single 30 by 80 ft high tunnel greenhouse"
+                       class="w-24 h-24 md:w-32 md:h-32 object-contain mx-auto">
+                  <p class="font-heading text-lg md:text-xl text-farm-dark mt-3 leading-snug">30 &times; 80 ft greenhouse</p>
+                </div>
+                <div>
+                  <img src="assets/sketches/drew-ghosthouse-scale/03-vegetables.png"
+                       alt="Hand-drawn sketch of an assortment of vegetables clustered together"
+                       class="w-24 h-24 md:w-32 md:h-32 object-contain mx-auto">
+                  <p class="font-heading text-lg md:text-xl text-farm-dark mt-3 leading-snug">30+ vegetables</p>
+                </div>
+              </div>
             </div>
 
-            <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4 mt-10">
-              2024
-            </p>
-            <p class="mb-6">
-              Drew automated the sunrise roll-ups, the mid-day irrigation, the cold-snap scrambles. His attention moved to the plant: variety selection, multiple leaders, pruning, water timing.
-            </p>
-            <p class="mb-6">
-              Tomatoes picked up. The market overflowed. Overshot projections and made a profit for the first time.
-            </p>
+            <!-- 2023 year block: text left, photo (full-height) right. -->
+            <div class="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-5 sm:gap-7 my-8 md:my-12">
+              <div>
+                <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
+                  2023
+                </p>
+                <p class="mb-6">
+                  Drew runs Ghost House Farm full-time. Allison works off the farm to complete the family income. They are one of the better tomato producers in the area. The greenhouse contributes $10,000 that year.
+                </p>
+                <blockquote class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance">
+                  "Our first spring in the hoop house was awful. It was miserable."
+                </blockquote>
+              </div>
+              <img src="drew-season/images/2025-06-18-17.27.22-6b64bc70.jpg"
+                   alt="A farmer's hand cradling a young tomato flower in the greenhouse"
+                   class="w-full sm:w-56 md:w-64 aspect-[4/5] sm:aspect-auto sm:h-full object-cover rounded-card">
+            </div>
+
+            <!-- 2024 year block: photo (full-height) left on desktop, text first on mobile. -->
+            <div class="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-5 sm:gap-7 my-12 md:my-16">
+              <div class="sm:order-2">
+                <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
+                  2024
+                </p>
+                <p class="mb-6">
+                  Drew and Allison stabilize the greenhouse climate and dehumidify to steer away from the diseases that ruined 2023. They focus on improving their tomato techniques: variety selection, multiple leaders, pruning, water timing. In August, Drew shares on Instagram:
+                </p>
+                <blockquote class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance mb-6">
+                  "As of today, we have DOUBLED tomato production compared to last year."
+                </blockquote>
+                <p>
+                  They overshoot market projections and make a profit for the first time. The greenhouse contributes $25,000.
+                </p>
+              </div>
+              <img src="drew-season/images/2025-06-04-17.57.02-305f5b43.jpg"
+                   alt="A farmer's hand cupping a cluster of green tomatoes in the greenhouse"
+                   class="sm:order-1 w-full sm:w-56 md:w-64 aspect-[4/5] sm:aspect-auto sm:h-full object-cover rounded-card">
+            </div>
+
+            <!-- 2025 year block: text left, photo (full-height) right. -->
+            <div class="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-5 sm:gap-7 my-12 md:my-16">
+              <div>
+                <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
+                  2025
+                </p>
+                <p class="mb-6">
+                  Allison joins Drew full-time on the farm. Drew starts consulting with Antoine to steer tomatoes and improve fruit setting. In early July, they write Antoine:
+                </p>
+                <blockquote class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance mb-6">
+                  "We've harvested more cherry tomatoes than all of 2023, before we'd even started picking that year."
+                </blockquote>
+                <p>
+                  Greenhouse contribution: $43,000.
+                </p>
+              </div>
+              <img src="drew-season/images/2025-07-11-16.38.35-c4e9f5e9.jpg"
+                   alt="A row of fruit-loaded tomato plants at Ghost House Farm, July 2025"
+                   class="w-full sm:w-56 md:w-64 aspect-[4/5] sm:aspect-auto sm:h-full object-cover rounded-card">
+            </div>
           </div>
 
-          <!-- Breakout: photo + flip pull-quote pair (the climax) -->
+          <!-- Breakout: photo + flip pull-quote pair (the climax — Allison's first full season). -->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:items-center mt-14 md:mt-20">
             <div>
               <img src="assets/clients/drew/Drew%20-%20Ghost%20House%20Farm/IMG_1517%20%281%29.JPG"
-                   alt="Drew and Allison at Ghost House Farm, 2024"
+                   alt="Drew and Allison at Ghost House Farm, 2025"
                    class="w-full aspect-[4/5] object-cover rounded-card">
             </div>
             <figure>
@@ -225,7 +284,7 @@
                 "My wife was able to quit her job and join me full-time on the farm."
               </blockquote>
               <figcaption class="text-farm-muted text-sm mt-5">
-                Drew, after the 2024 season.
+                Drew, on Allison's first full season.
               </figcaption>
             </figure>
           </div>
@@ -239,15 +298,16 @@
 
           <!-- Primary CTA + depth-ramp link (prose column width, centered).
                Depth-ramp asks the question that surfaces after the Drew arc:
-               "what drove the change?" → in-page jump to the techniques section
-               (Drew triptych anchor #drew-numbers). -->
+               "what drove the change?" → links to the 15-episode Drew season
+               at /drew-season/. Previously pointed to #drew-numbers (a triptych
+               in #techniques-known), removed 2026-04-27 along with the triptych. -->
           <div class="max-w-3xl mx-auto text-center mt-12 md:mt-16">
             <a href="#join" class="inline-flex items-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm">
               Join the waiting list &rarr;
             </a>
             <div class="mt-6">
-              <a href="#drew-numbers" class="text-farm-muted underline underline-offset-4 hover:text-farm-dark text-base">
-                Read what drove the change &rarr;
+              <a href="drew-season/" class="text-farm-muted underline underline-offset-4 hover:text-farm-dark text-base">
+                Read their 2025, week by week &rarr;
               </a>
             </div>
           </div>
@@ -263,10 +323,10 @@
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div class="fade-in max-w-3xl mx-auto">
           <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
-            Harvest more per bed to build the life you want
+            Making our beds pay for the life we want
           </h2>
           <p class="font-body italic text-lg md:text-xl text-farm-muted leading-relaxed mt-6">
-            The bed is already paid for. The hours are spent. What grows on top is mostly margin.
+            The bed is already paid for. The hours are spent. What grows on top is yours.
           </p>
         </div>
 
@@ -276,10 +336,10 @@
                  alt="Hand-drawn sketch of four garden beds, two with crops and two drawn with dashed lines as if being removed"
                  class="w-32 h-32 md:w-36 md:h-36 object-contain mb-4">
             <h3 class="font-heading text-xl md:text-2xl font-semibold text-farm-dark leading-snug tracking-tight">
-              Fewer beds on the plan
+              Fewer beds to hit your sales
             </h3>
             <p class="text-base md:text-lg text-farm-text leading-relaxed mt-3">
-              Same sales, fewer beds. Less walking, less weeding, fewer problems to chase. The farm gets quieter.
+              Less walking, less weeding, fewer problems to chase. The farm gets quieter.
             </p>
           </article>
 
@@ -303,7 +363,7 @@
               Farm income that carries the household
             </h3>
             <p class="text-base md:text-lg text-farm-text leading-relaxed mt-3">
-              The off-farm paycheck, the partner's second job, the winter gig. Optional again.
+              The off-farm paycheck, the partner's second job, the winter gig. Optional again. And the hours, back to your family.
             </p>
           </article>
 
@@ -315,13 +375,13 @@
               Staff you can pay what good people are worth
             </h3>
             <p class="text-base md:text-lg text-farm-text leading-relaxed mt-3">
-              Better candidates walk in. The ones you hire stay longer. Experienced hands mean more done, faster, and less HR work.
+              Better candidates walk in. They stay longer. Experienced hands mean more done, faster. Less hiring, less training, less HR headaches. More energy left in the tank.
             </p>
           </article>
         </div>
 
         <p class="fade-in font-body italic text-lg md:text-xl text-farm-muted leading-relaxed text-center max-w-2xl mx-auto mt-14 md:mt-20">
-          Every one of these ends in the same place: time with the people you started farming for.
+          Behind every one: time with the people you started farming for.
         </p>
       </div>
     </section>
@@ -335,7 +395,7 @@
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div class="fade-in max-w-3xl mx-auto">
           <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
-            Why we focus on tomatoes
+            Why we focus on greenhouse tomatoes
           </h2>
           <p class="font-body italic text-lg md:text-xl text-farm-muted leading-relaxed mt-6">
             A farm has more work than hands. Focus where it earns the most back.
@@ -447,10 +507,13 @@
     </section>
 
     <!-- ========== TECHNIQUES ARE KNOWN (Analytical sub 2) ==========
-         H2 (no terminal period) + italic muted subhead →
-         3-card horizontal band (photo · pull-quote · book cover+link), stacks on mobile →
-         stat block: sketch (left) + "4×" stat sentence (right), stacks on mobile.
-         No CTA in this subsection. Ground: bg-white to signal the register shift into Analytical. -->
+         Direction B (locked 2026-04-27): H2 + italic muted subhead →
+         two uniform rows with alternating photo sides.
+         Row 1 — Andrew: photo left, quote + book line right.
+         Row 2 — Antoine: claim + 4× sentence left, drone photo right.
+         Book aside panel removed (inlined as muted sentence). Drew triptych removed
+         (one-farmer arc duplicates the #story narrative; cohort 4× claim carries the
+         analytical-numbers work). No CTA. Ground: bg-white. -->
     <section id="techniques-known" class="bg-white">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
 
@@ -463,7 +526,7 @@
           </p>
         </div>
 
-        <!-- Andrew photo + Mefferd paragraph -->
+        <!-- Row 1 — Andrew: photo left, quote + book line right -->
         <div class="fade-in grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-12 mt-14 md:mt-20 md:items-center">
           <figure class="md:col-span-2">
             <img src="assets/team/Andrew/andrew-industrial-greenhouse.jpg"
@@ -473,115 +536,109 @@
               Andrew learning industrial greenhouse techniques.
             </figcaption>
           </figure>
-          <div class="md:col-span-3 text-lg md:text-xl text-farm-text leading-relaxed">
+          <div class="md:col-span-3">
             <blockquote class="pl-5 md:pl-6 border-l-2 border-farm-green/60 font-body italic text-xl md:text-2xl text-farm-dark leading-snug">
-              &ldquo;The first year I applied what I'd learned on my own farm, my yields doubled.&rdquo;
+              &ldquo;First year I applied big greenhouse techniques, my yields doubled.&rdquo;
               <footer class="font-sans not-italic text-sm md:text-base text-farm-muted mt-3 tracking-wide">
                 Andrew Mefferd
               </footer>
             </blockquote>
-            <aside class="mt-6 md:mt-8 p-4 md:p-5 bg-farm-bg rounded-card flex gap-4 md:gap-5 items-start">
-              <a href="https://www.johnnyseeds.com/tools-supplies/books/the-greenhouse-and-hoophouse-growers-handbook-andrew-mefferd-7683.html" target="_blank" rel="noopener noreferrer" class="flex-shrink-0">
-                <img src="assets/books/mefferd-greenhouse-handbook.jpg"
-                     alt="Cover of The Greenhouse and Hoophouse Grower's Handbook by Andrew Mefferd"
-                     class="w-20 md:w-24 aspect-square object-cover rounded-md">
-              </a>
-              <p class="text-base md:text-lg text-farm-muted leading-relaxed">
-                Andrew wrote <a href="https://www.johnnyseeds.com/tools-supplies/books/the-greenhouse-and-hoophouse-growers-handbook-andrew-mefferd-7683.html" target="_blank" rel="noopener noreferrer" class="text-farm-green underline underline-offset-4 hover:text-farm-dark italic">The Greenhouse and Hoophouse Grower's Handbook</a> to share these techniques with small growers.
-              </p>
-            </aside>
-          </div>
-        </div>
-
-        <!-- 4× stat block: sketch (left) + stat sentence (right) -->
-        <div class="fade-in grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-14 mt-20 md:mt-28 md:items-center">
-          <div class="md:col-span-3">
-            <img src="assets/sketches/techniques-are-known/one-tunnel-equals-four.png"
-                 alt="Hand-drawn sketch showing one well-run tunnel standing in for four average tunnels"
-                 class="w-full object-contain">
-          </div>
-          <div class="md:col-span-2">
-            <p class="text-xl md:text-2xl text-farm-text leading-snug text-balance">
-              Quebec small growers working with consultants regularly hit <span class="font-heading font-semibold text-5xl md:text-6xl text-farm-dark align-baseline">4&times;</span> the average, same square footage.
+            <p class="text-base md:text-lg text-farm-muted leading-relaxed mt-6 md:mt-8">
+              Andrew wrote <a href="https://www.johnnyseeds.com/tools-supplies/books/the-greenhouse-and-hoophouse-growers-handbook-andrew-mefferd-7683.html" target="_blank" rel="noopener noreferrer" class="text-farm-green underline underline-offset-4 hover:text-farm-dark italic">The Greenhouse and Hoophouse Grower's Handbook</a> to share these techniques with small growers.
             </p>
           </div>
         </div>
 
-        <!-- Drew's greenhouse triptych: 2023/2024/2025 scale progression.
-             Anchors the 4× claim with one concrete grower's three-year arc.
-             Anchor target #drew-numbers for the "Read what drove the change" link in the Drew arc.
-             Placeholder: all three panels use drew-scale-test-02.png. To be swapped for
-             individual 1x / 2.5x / 4x panels when final illustrations are approved. -->
-        <div id="drew-numbers" class="fade-in mt-20 md:mt-28 scroll-mt-24">
-          <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs text-center mb-6">
-            Greenhouse tomato &amp; cucumbers contribution
-          </p>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-            <figure class="text-center">
-              <img src="assets/illustrations/drew-scale-test-02.png"
-                   alt="Illustration of a scale with a small pile of tomatoes and cucumbers, representing 2023 greenhouse revenue"
-                   class="w-full max-w-xs mx-auto">
-              <figcaption class="mt-4">
-                <span class="block font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs">2023</span>
-                <span class="block font-heading text-2xl md:text-3xl text-farm-dark mt-1">$10,000</span>
-              </figcaption>
-            </figure>
-            <figure class="text-center">
-              <img src="assets/illustrations/drew-scale-test-02.png"
-                   alt="Illustration of a scale with a medium pile of tomatoes and cucumbers, representing 2024 greenhouse revenue"
-                   class="w-full max-w-xs mx-auto">
-              <figcaption class="mt-4">
-                <span class="block font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs">2024</span>
-                <span class="block font-heading text-2xl md:text-3xl text-farm-dark mt-1">$25,000</span>
-              </figcaption>
-            </figure>
-            <figure class="text-center">
-              <img src="assets/illustrations/drew-scale-test-02.png"
-                   alt="Illustration of a scale with a large pile of tomatoes and cucumbers, representing 2025 greenhouse revenue"
-                   class="w-full max-w-xs mx-auto">
-              <figcaption class="mt-4">
-                <span class="block font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs">2025</span>
-                <span class="block font-heading text-2xl md:text-3xl text-farm-dark mt-1">$43,000</span>
-              </figcaption>
-            </figure>
-          </div>
-          <p class="font-body italic text-sm md:text-base text-farm-muted text-center mt-8">
-            Drew, Ghost House Farm.
-          </p>
-          <div class="text-center mt-6">
-            <a href="drew-season/" class="text-farm-muted underline underline-offset-4 hover:text-farm-dark text-base">
-              Read Drew's 2025, week by week &rarr;
-            </a>
+        <!-- Row 2 — Antoine: claim + 4× sentence left, drone photo right (alternating side) -->
+        <div class="fade-in grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-12 mt-20 md:mt-28 md:items-center">
+          <figure class="md:col-span-3 md:order-2">
+            <img src="assets/clients/jardin-inverness/ferme%20antoine.jpg"
+                 alt="Aerial drone view of Antoine's 2-acre market garden at Jardin Inverness"
+                 class="w-full aspect-[16/9] object-cover rounded-card">
+            <figcaption class="font-body italic text-sm text-farm-muted mt-3">
+              Les Jardins d'Inverness, Antoine's farm.
+            </figcaption>
+          </figure>
+          <div class="md:col-span-2 md:order-1">
+            <p class="font-heading text-2xl md:text-3xl text-farm-dark leading-snug text-balance">
+              And they work at small-farm scale.
+            </p>
+            <p class="text-lg md:text-xl text-farm-muted leading-relaxed mt-6 md:mt-8">
+              Quebec consultants have adapted big greenhouse techniques to small farms. <a href="#antoine" class="text-farm-green underline underline-offset-4 hover:text-farm-dark">Antoine</a> and other growers learned from them to regularly hit <span class="font-heading font-semibold text-2xl md:text-3xl text-farm-dark align-baseline">4&times;</span> the average yield in their 30x100 greenhouse.
+            </p>
           </div>
         </div>
 
       </div>
     </section>
 
-    <!-- ========== WHY INFORMATION ISN'T ENOUGH (bridge into Practical) ==========
+    <!-- ========== WHY WE NEED MORE SUPPORT (Analytical sub 3, bridge into Practical) ==========
          H2 (no terminal period) → three short prose paragraphs → centered italic
          question-list breakout (climactic last line larger + darker) → centered
          italic closer. No CTA in this section; bridges into "Not doing it alone". -->
     <section id="information" class="bg-white py-20 md:py-28">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto fade-in">
+        <div class="fade-in">
 
-          <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">Why information isn't enough</h2>
-
-          <div class="mt-10 md:mt-14">
-            <p class="text-lg md:text-xl text-farm-text leading-relaxed mb-6">Andrew wrote the book. We made the most concise course we could with Orisha. For free. The information is out there.</p>
-            <p class="text-lg md:text-xl text-farm-text leading-relaxed mb-6">But it's not enough. Folks send us questions all the time.</p>
-            <p class="text-lg md:text-xl text-farm-text leading-relaxed mb-6">What's hard is the calls you have to make on the farm, week after week.</p>
+          <!-- H2 (prose column width) -->
+          <div class="max-w-3xl mx-auto">
+            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">Why we need more support</h2>
           </div>
 
-          <div class="my-14 md:my-20">
-            <p class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance text-center my-6 md:my-8">Which move to prioritize.</p>
-            <p class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance text-center my-6 md:my-8">How to adapt a principle to your varieties, your tunnel, this month's weather.</p>
-            <p class="font-body italic text-xl md:text-2xl text-farm-text leading-snug text-balance text-center my-6 md:my-8">Whether you're pruning enough, or pruning too much.</p>
-            <p class="font-body italic text-2xl md:text-3xl text-farm-dark font-medium leading-snug text-balance text-center my-6 md:my-8">Am I doing it right?</p>
+          <!-- Two-column grid: photo left, text right (eyebrow blocks + pull-quote) -->
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 mt-10 md:mt-14">
+
+            <!-- Photo column -->
+            <div class="md:col-span-5">
+              <img src="assets/clients/ferme-decembre/IMG_3719.jpg"
+                   alt="A farmer training a young tomato plant onto a string trellis in the greenhouse"
+                   class="w-full aspect-[4/5] md:aspect-auto md:h-full object-cover rounded-card">
+            </div>
+
+            <!-- Text column: 3 eyebrow blocks + pull-quote -->
+            <div class="md:col-span-7">
+              <div class="space-y-8 md:space-y-10">
+                <div>
+                  <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-3">
+                    The information is out there
+                  </p>
+                  <p class="text-lg md:text-xl text-farm-text leading-relaxed">
+                    Andrew wrote the book. We made a free online course with Orisha.
+                  </p>
+                </div>
+                <div>
+                  <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-3">
+                    It's not enough
+                  </p>
+                  <p class="text-lg md:text-xl text-farm-text leading-relaxed">
+                    Folks send us questions all the time.
+                  </p>
+                </div>
+                <div>
+                  <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-3">
+                    Every farm is different
+                  </p>
+                  <p class="text-lg md:text-xl text-farm-text leading-relaxed">
+                    Week after week, there are loads of calls to make on the farm and so little time to figure out.
+                  </p>
+                </div>
+              </div>
+
+              <blockquote class="pl-5 md:pl-6 border-l-2 border-farm-green/60 font-body italic text-lg md:text-xl text-farm-dark leading-snug space-y-3 mt-10 md:mt-14">
+                <p>Which move do I prioritize?</p>
+                <p>How do I adapt to that variety?</p>
+                <p>I irrigate many times a day. Why do I still see blossom-end rot?</p>
+                <p>Am I pruning enough, or pruning too much?</p>
+                <p class="font-medium">Am I doing it right?</p>
+              </blockquote>
+            </div>
+
           </div>
 
-          <p class="font-body italic text-xl md:text-2xl text-farm-text text-center text-balance leading-snug mt-14 md:mt-20">No theory can answer those for you. Every greenhouse is specific, every week is new.</p>
+          <!-- Closer (full width below grid, centered in prose column) -->
+          <div class="max-w-3xl mx-auto">
+            <p class="font-body italic text-lg md:text-xl text-farm-muted text-center text-balance leading-snug mt-14 md:mt-20">No theory can answer those for you.</p>
+          </div>
 
         </div>
       </div>
@@ -684,7 +741,7 @@
           <!-- H2 (prose column width) -->
           <div class="max-w-3xl mx-auto">
             <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
-              The program
+              2 hours a week to transform our farm
             </h2>
           </div>
 
@@ -696,8 +753,8 @@
                 <span class="font-accent text-farm-mid text-xs font-semibold tracking-wider">01</span>
                 <span class="flex-1 flex items-center justify-between gap-4">
                   <span>
-                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">One goal, one month</span>
-                    <span class="text-farm-muted text-sm md:text-base block mt-1">Picked to match what your greenhouse needs.</span>
+                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">One visible goal at a time</span>
+                    <span class="text-farm-muted text-sm md:text-base block mt-1">So we can focus, quickly see results, be motivated.</span>
                   </span>
                   <span class="caret font-accent text-farm-mid text-xl">&rsaquo;</span>
                 </span>
@@ -712,14 +769,15 @@
                 <span class="font-accent text-farm-mid text-xs font-semibold tracking-wider">02</span>
                 <span class="flex-1 flex items-center justify-between gap-4">
                   <span>
-                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">Short video</span>
-                    <span class="text-farm-muted text-sm md:text-base block mt-1">Five minutes. Frames the goal. Rewatchable.</span>
+                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">5-min videos</span>
+                    <span class="text-farm-muted text-sm md:text-base block mt-1">Guide us toward the goal. Dripped weekly. Rewatchable.</span>
                   </span>
                   <span class="caret font-accent text-farm-mid text-xl">&rsaquo;</span>
                 </span>
               </summary>
-              <div class="mt-5 pl-10 text-base md:text-lg text-farm-text leading-relaxed">
-                <p>What to look for in your own greenhouse, the specific moves to try. Phone-watchable between rows.</p>
+              <div class="mt-5 pl-10 text-base md:text-lg text-farm-text leading-relaxed space-y-3">
+                <p>What to look for in our plants, the specific moves to try. Phone-watchable between rows.</p>
+                <p>To keep information from piling up, videos stay short, focused on the current goal, and spread across the seasons.</p>
               </div>
             </details>
 
@@ -728,15 +786,14 @@
                 <span class="font-accent text-farm-mid text-xs font-semibold tracking-wider">03</span>
                 <span class="flex-1 flex items-center justify-between gap-4">
                   <span>
-                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">Weekly live call</span>
-                    <span class="text-farm-muted text-sm md:text-base block mt-1">60 min with Guillaume, Antoine, and Andrew.</span>
+                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">On your farm</span>
+                    <span class="text-farm-muted text-sm md:text-base block mt-1">Pruning, scouting, harvesting, sharpened by the goal.</span>
                   </span>
                   <span class="caret font-accent text-farm-mid text-xl">&rsaquo;</span>
                 </span>
               </summary>
               <div class="mt-5 pl-10 text-base md:text-lg text-farm-text leading-relaxed">
-                <p>You bring the obstacles and uncertainties from your week: photos, numbers, questions. We work out your next action.</p>
-                <p class="mt-3">Recorded, so missing one is fine. You won't be put on the spot.</p>
+                <p>Everything happens inside the work we already plan. A community forum runs alongside: we answer once a week.</p>
               </div>
             </details>
 
@@ -745,43 +802,24 @@
                 <span class="font-accent text-farm-mid text-xs font-semibold tracking-wider">04</span>
                 <span class="flex-1 flex items-center justify-between gap-4">
                   <span>
-                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">Applied on your farm</span>
-                    <span class="text-farm-muted text-sm md:text-base block mt-1">Pruning, scouting, harvesting, sharpened by the goal.</span>
+                    <span class="font-heading text-xl md:text-2xl text-farm-dark block">Weekly live call</span>
+                    <span class="text-farm-muted text-sm md:text-base block mt-1">60 min with Andrew, Antoine and Guillaume to overcome obstacles we face.</span>
                   </span>
                   <span class="caret font-accent text-farm-mid text-xl">&rsaquo;</span>
                 </span>
               </summary>
-              <div class="mt-5 pl-10 text-base md:text-lg text-farm-text leading-relaxed">
-                <p>Everything happens inside the work you already planned. Between calls, a community forum: we answer once a week.</p>
+              <div class="mt-5 pl-10 text-base md:text-lg text-farm-text leading-relaxed space-y-3">
+                <p>5-min videos guide us forward and uproot obstacles. On these calls, we tackle what theory cannot.</p>
+                <p>Watching others' roadblocks often helps us move faster.</p>
               </div>
             </details>
 
           </div>
 
-          <!-- First-goal callout (lean: no Rubik eyebrow, two-line italic stack on warm panel) -->
-          <div class="max-w-3xl mx-auto mt-16 md:mt-24 bg-farm-bg rounded-card px-8 py-8 md:px-10 md:py-10 text-center">
-            <p class="font-heading italic text-base md:text-lg text-farm-muted mb-3">
-              The first goal,
-            </p>
-            <p class="font-heading italic text-2xl md:text-3xl text-farm-dark leading-snug text-balance">
-              Build fruit load without exhausting the plants.
-            </p>
-          </div>
-
-          <!-- Workload anchor -->
-          <div class="max-w-3xl mx-auto mt-14 md:mt-20 text-center">
-            <p class="font-heading text-3xl md:text-4xl text-farm-dark font-medium leading-tight">
-              2 to 3 hrs a week
-            </p>
-            <p class="font-accent text-farm-mid uppercase tracking-wider text-xs mt-3">
-              Mostly work on your own plants
-            </p>
-          </div>
-
-          <!-- Closer + CTA -->
-          <div class="max-w-3xl mx-auto mt-14 md:mt-20 text-center">
-            <p class="font-heading italic text-xl md:text-2xl text-farm-text mb-6">
-              If that slots into your week, put your name on the list.
+          <!-- Closer + CTA (first goal folded in) -->
+          <div class="max-w-3xl mx-auto mt-16 md:mt-24 text-center">
+            <p class="font-heading italic text-xl md:text-2xl text-farm-text leading-snug text-balance mb-6">
+              First goal: get plants to bear more tomatoes, consistently. Wanna join us?
             </p>
             <a href="#join" class="inline-flex items-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm">
               Join the waiting list &rarr;
@@ -860,19 +898,12 @@
           <!-- H2 (prose column width) -->
           <div class="max-w-3xl mx-auto">
             <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
-              How to join
+              Pricing
             </h2>
           </div>
 
-          <!-- Admission callout band -->
-          <div class="max-w-3xl mx-auto mt-10 md:mt-14 bg-farm-bg rounded-card px-6 py-5 md:px-8 md:py-6 text-center">
-            <p class="font-body italic text-base md:text-lg text-farm-text leading-snug">
-              Opens June 2026.
-            </p>
-          </div>
-
           <!-- Two pricing cards -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mt-16 md:mt-24">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mt-12 md:mt-16">
             <!-- Card 1: Standalone -->
             <div class="border border-farm-mid/25 rounded-card p-8 md:p-10 flex flex-col bg-white">
               <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs">
@@ -912,25 +943,30 @@
               <p class="text-sm text-farm-muted italic mt-5 leading-snug">
                 For 2026 only. We'll see after that.
               </p>
-              <p class="text-sm text-farm-muted italic mt-2 leading-snug">
-                Subscribing to <a href="https://growingformarket.com/pricing/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:text-farm-dark not-italic font-medium">Growing for Market</a> magazine is the cheapest way to join the program. $39/yr.
-              </p>
               <a href="#join" class="inline-flex items-center justify-center px-6 py-3 bg-farm-green text-white text-base font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm mt-8 self-start">
                 Join the waiting list &rarr;
               </a>
             </div>
           </div>
 
+          <!-- Cheapest-path footnote, below both cards -->
+          <p class="max-w-2xl mx-auto mt-10 md:mt-12 text-sm text-farm-muted italic leading-snug text-center">
+            Subscribing to <a href="https://growingformarket.com/pricing/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:text-farm-dark not-italic font-medium">Growing for Market</a> magazine is the cheapest way to join the program. $39/yr.
+          </p>
+
         </div>
       </div>
     </section>
 
     <!-- ========== TEAM BEHIND THIS (Committer sub 1) ==========
-         Variant C: photo-led with per-bio expand. Each bio = photo (col-span-4) +
-         name + tagline + first paragraph (always visible) + <details> "Read more"
-         expand for middle paragraphs + italic "On calls, he…" closer (always visible).
-         Antoine asymmetric: paras 1-2 visible (preserves the "one more year like this"
-         pull-quote); paras 3-4 hidden. Section ground: bg-white. -->
+         Variant C: photo-led with per-bio one-way expand. Each bio = photo
+         (col-span-4) + name + tagline + first paragraph (always visible) +
+         <details> "Read more" expand for middle paragraphs and the italic
+         "On calls, he…" closer. **Once expanded, the summary hides** so there's
+         no mid-content "Read less" toggle (CSS rule on #team in <style>). To
+         collapse, reload. Antoine asymmetric: paras 1-2 visible (preserves the
+         "one more year like this" pull-quote); paras 3-4 + closer hidden until
+         expand. Section ground: bg-white. -->
     <section id="team" class="bg-white py-20 md:py-28">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="fade-in">
@@ -973,11 +1009,11 @@
                   </summary>
                   <div class="mt-4 text-base md:text-lg text-farm-text leading-relaxed space-y-4">
                     <p>He wrote <em>The Greenhouse and Hoophouse Grower's Handbook</em> to carry those techniques back to the market-garden community. Later he took over Growing for Market and set commercial farming aside. He's spent the years since editing articles and running the GFM Podcast, which has kept him in close conversation with the best of the small-grower world.</p>
+                    <p class="font-heading italic text-lg md:text-xl text-farm-dark leading-snug text-balance">
+                      On calls, he brings the combined view: his own hands, plus the hundreds of farms he's edited and interviewed. When you describe something in your greenhouse, he's usually seen it before somewhere else.
+                    </p>
                   </div>
                 </details>
-                <p class="font-heading italic text-lg md:text-xl text-farm-dark leading-snug mt-6 text-balance">
-                  On calls, he brings the combined view: his own hands, plus the hundreds of farms he's edited and interviewed. When you describe something in your greenhouse, he's usually seen it before somewhere else.
-                </p>
               </div>
             </div>
 
@@ -1007,16 +1043,16 @@
                   <div class="mt-4 text-base md:text-lg text-farm-text leading-relaxed space-y-4">
                     <p>One challenge kept coming back. There's never enough time to get everything done. He made that Orisha's focus. From the failures and success stories he kept hearing, he built a 40hr farm playbook.</p>
                     <p>To test it out, he started Ferme D&eacute;cembre with his partner last year. The target this year is $500k in revenue with 4 employees. Many things yet to figure out, but it seems to be working out so far.</p>
+                    <p class="font-heading italic text-lg md:text-xl text-farm-dark leading-snug text-balance">
+                      On calls, he can help you spot what's holding your plants back, and where your week is leaking time.
+                    </p>
                   </div>
                 </details>
-                <p class="font-heading italic text-lg md:text-xl text-farm-dark leading-snug mt-6 text-balance">
-                  On calls, he can help you spot what's holding your plants back, and where your week is leaking time.
-                </p>
               </div>
             </div>
 
             <!-- Antoine -->
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 md:items-start">
+            <div id="antoine" class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 md:items-start scroll-mt-24">
               <div class="md:col-span-4">
                 <img src="assets/clients/jardin-inverness/Antoine.jpeg"
                      alt="Antoine at Jardin Inverness"
@@ -1044,11 +1080,11 @@
                   <div class="mt-4 text-base md:text-lg text-farm-text leading-relaxed space-y-4">
                     <p>Instead, he went hard on lean farming. He started the next season with half the staff. The farm finished the year with 15% more sales. Learning from Quebec greenhouse consultants, he pushed his tomato yields to 4&times; the small-grower average on the same square footage.</p>
                     <p>He now works with Orisha to share what he learned, while his employees run the farm.</p>
+                    <p class="font-heading italic text-lg md:text-xl text-farm-dark leading-snug text-balance">
+                      On calls, he'll show you which lean moves held up when his farm was breaking, and which greenhouse techniques pushed his tomatoes to 4&times;.
+                    </p>
                   </div>
                 </details>
-                <p class="font-heading italic text-lg md:text-xl text-farm-dark leading-snug mt-6 text-balance">
-                  On calls, he'll show you which lean moves held up when his farm was breaking, and which greenhouse techniques pushed his tomatoes to 4&times;.
-                </p>
               </div>
             </div>
 
@@ -1066,31 +1102,31 @@
     </section>
 
     <!-- ========== WHY ADD YOUR NAME NOW (Committer sub 2) — final form ==========
-         Variant B (two-column desktop): H2 spans top → 2-col grid below where left
-         (col-span-7) carries Beat 1 (2 paragraphs of priority-queue honesty) + Beat 2
-         (1 paragraph of mechanical reassurance), and right (col-span-5) carries the
-         form panel (lead-in + 4 fields + green pill). Stacks mobile (prose above form).
-         Section ground: bg-farm-bg (alternates from #team white).
+         Stacked single-column: H2 → centered prose lead-in → centered form panel.
+         Background: farm photo with deep farm-dark tint (orisha.io bottom-CTA pattern,
+         linear-gradient stack over the hero photo as a visual bookend). Text on dark
+         goes white; form panel stays bg-white as a contrast island.
          HubSpot post handler PENDING — action="" placeholder; new "farm name" and
          "subscription status" custom properties need wiring before signup launches. -->
-    <section id="join" class="bg-farm-bg py-20 md:py-28">
+    <section id="join" class="relative bg-farm-dark bg-cover bg-center py-20 md:py-28"
+             style="background-image: linear-gradient(rgba(39, 80, 10, 0.88), rgba(39, 80, 10, 0.88)), url('assets/clients/ferme-decembre/drive-0416.jpg');">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="fade-in">
 
           <!-- H2 (prose column width) -->
           <div class="max-w-3xl mx-auto">
-            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
-              Join us
+            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-white leading-[1.1] tracking-tight text-balance">
+              Join growers working toward a 40-hour farm
             </h2>
           </div>
 
           <!-- Prose lead-in (centered reading column) -->
           <div class="max-w-3xl mx-auto mt-10 md:mt-14">
-            <p class="text-lg md:text-xl text-farm-text leading-relaxed">
+            <p class="text-lg md:text-xl text-white leading-relaxed">
               Interested? Join the list so we can figure out the best format to support y'all.
             </p>
-            <p class="text-sm md:text-base text-farm-muted italic leading-snug mt-4">
-              If we have to limit seats, first on the list, first in.
+            <p class="text-sm md:text-base text-white/70 italic leading-snug mt-4">
+              If we have to limit seats, first on the list, first in. The program opens June 2026.
             </p>
           </div>
 

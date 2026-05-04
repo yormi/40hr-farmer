@@ -1,10 +1,10 @@
-# HubSpot Email & Workflow Setup via API
+# HubSpot Email, Form & Workflow Setup via API
 
-How we got the welcome email sequence into HubSpot. Browser automation didn't work (the email editor renders in an iframe that blocks drag-and-drop). The API works, but has quirks.
+How we got the welcome email sequence, the waitlist form, and the enrollment workflow into HubSpot. Browser automation didn't work (the email editor renders in an iframe that blocks drag-and-drop). The API works, but has quirks. The general pattern: **create an empty shell, then PATCH content into it.**
 
 ## Prerequisites
 
-- HubSpot Private App API key with scopes: `content`, `automation`, `forms`
+- HubSpot Private App API key with scopes: `content`, `automation`, `forms`, `crm.schemas.contacts.read`, `crm.schemas.contacts.write`, `crm.objects.contacts.read`, `crm.objects.contacts.write` (last one is needed to delete smoke-test contacts).
 - Portal ID: `5156324`
 - API base: `https://api.hubapi.com`
 - Auth header: `Authorization: Bearer <API_KEY>`
@@ -171,7 +171,184 @@ Each action needs a `connection` object pointing to the next action — except t
 
 `isEnabled` and `flowType` are required or the API returns a 400. Create with `isEnabled: false`, then enable manually in the UI when ready.
 
-## Current IDs (April 2026)
+### Enabling is UI-only (verified 2026-05-04)
+
+There is no public API endpoint that flips a v4 workflow from disabled to enabled. `PUT /automation/v4/flows/{id}` with `isEnabled: true` on a previously-disabled flow returns a generic `FLOW_UPDATE_BAD_REQUEST` 400 with no field-level detail. No `/publish`, `/activate`, `/enable`, or `/start` sub-endpoints exist (POST/PUT/PATCH all 404). v3 `/automation/v3/workflows/{id}` is read-only (mutations return 405). **Practical implication:** sequence edits on an already-enabled workflow (adding emails, editing delays, swapping IDs) work fine via PUT, but creating-and-enabling, or re-enabling after a disable, must go through the HubSpot UI.
+
+### Editing delays in flight (per HubSpot docs, not yet portal-verified)
+
+| Maneuver | Effect on contacts already parked in the delay |
+|---|---|
+| Edit "set amount of time" delay longer | Rescheduled: wait `new_duration − already_elapsed` |
+| Edit "set amount of time" delay shorter than elapsed | Fires immediately |
+| Edit "until day or time" delay | Recalculated to new future date; in-flight contacts wait until then |
+| Delete the delay step | Contacts immediately advance to the next action |
+
+These are the build-as-you-go primitives for extending a live sequence. Confirmed in HubSpot's official knowledge base (`knowledge.hubspot.com/workflows/use-delays`); not yet smoke-tested in this portal due to the UI-only enablement constraint above.
+
+### v4 ↔ v3 workflow ID mapping
+
+The same workflow has different IDs in `automation/v4/flows/{id}` and `automation/v3/workflows/{id}`. Mutations and current shape live on v4; enrollment and contact-counts (`contactCounts.active`) live on v3. The mapping appears in the v3 GET as `migrationStatus.flowId`.
+
+## Forms (added 2026-05-04)
+
+The waitlist form lives at `POST /marketing/v3/forms` + `PATCH /marketing/v3/forms/{id}`. Same shell-then-PATCH pattern as emails. Hard-won quirks:
+
+### V4 forms are read-only via the public API
+
+A form created in the HubSpot UI is born with `configuration.embedType: "V4"`. PATCH against a V4 form returns:
+
+```
+HTTP 403 — "The client is not allowlisted to perform an operation to v4 forms"
+```
+
+There is no public v4 forms write endpoint, and DELETE is also blocked (so V4 forms cannot be archived via API either — only via the UI). **If you need to mutate a form via API, create it via API.** Forms created via `POST /marketing/v3/forms` are born `V3` and remain mutable. We hit this wall on 2026-05-04 trying to add `farm_name` + `forty_hour_farmer_deal` to the original UI-created form. Solution: created a new V3 form, swapped the workflow trigger and the JS form GUID over. The retired V4 form `036c50fb-…` should be archived manually in Marketing → Forms.
+
+### Step 1: Create empty form shell
+
+```bash
+NOW=$(date -u +%Y-%m-%dT%H:%M:%S.%3NZ)
+curl -X POST "https://api.hubapi.com/marketing/v3/forms" \
+  -H "Authorization: Bearer $HUBSPOT_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d "{
+    \"name\": \"<form name>\",
+    \"formType\": \"hubspot\",
+    \"createdAt\": \"$NOW\",
+    \"updatedAt\": \"$NOW\",
+    \"archived\": false,
+    \"fieldGroups\": [{
+      \"groupType\": \"default_group\",
+      \"richTextType\": \"text\",
+      \"fields\": [{
+        \"objectTypeId\": \"0-1\",
+        \"name\": \"email\",
+        \"label\": \"Email\",
+        \"fieldType\": \"email\",
+        \"required\": true,
+        \"hidden\": false,
+        \"validation\": {\"blockedEmailDomains\": [], \"useDefaultBlockList\": false}
+      }]
+    }],
+    \"configuration\": {
+      \"language\": \"en\", \"cloneable\": true, \"editable\": true, \"archivable\": true,
+      \"recaptchaEnabled\": false, \"notifyContactOwner\": false, \"notifyRecipients\": [],
+      \"createNewContactForNewEmail\": false, \"prePopulateKnownValues\": true,
+      \"allowLinkToResetKnownValues\": false,
+      \"postSubmitAction\": {\"type\": \"thank_you\", \"value\": \"\"}
+    },
+    \"displayOptions\": {\"renderRawHtml\": false, \"theme\": \"default_style\", \"submitButtonText\": \"<button label>\", \"style\": {}},
+    \"legalConsentOptions\": {\"type\": \"none\"}
+  }"
+```
+
+Quirks:
+- `createdAt` and `updatedAt` are required on POST even though they're server-managed. Send any ISO timestamp; HubSpot overwrites with its own.
+- The response confirms `embedType: "V3"` — that's the marker that the API can write to it later.
+
+### Step 2: PATCH fields into the shell
+
+```bash
+curl -X PATCH "https://api.hubapi.com/marketing/v3/forms/<FORM_ID>" \
+  -H "Authorization: Bearer $HUBSPOT_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{ "fieldGroups": [<groups>] }'
+```
+
+Quirks:
+- **Each field needs a `validation` block**, even non-email fields. Send `{"blockedEmailDomains": [], "useDefaultBlockList": false}` to satisfy the schema.
+- **Max 3 fields per group.** A group with 4 returns `FormFieldError.FIELD_GROUP_TOO_MANY_FIELDS`. Split into multiple `fieldGroups`.
+- For multi-checkbox enumeration properties, `fieldType` is `multiple_checkboxes`. The HubSpot property must already exist (see Custom Contact Properties below) or the PATCH succeeds but the field has no options.
+
+### Custom contact properties (for new form fields)
+
+Properties live on the contact schema, separate from the form. Create them before patching them onto a form.
+
+```bash
+# Single-line text
+curl -X POST "https://api.hubapi.com/crm/v3/properties/contacts" \
+  -H "Authorization: Bearer $HUBSPOT_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "farm_name",
+    "label": "Farm name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "contactinformation"
+  }'
+
+# Multiple-checkbox enumeration
+curl -X POST "https://api.hubapi.com/crm/v3/properties/contacts" \
+  -H "Authorization: Bearer $HUBSPOT_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "forty_hour_farmer_deal",
+    "label": "40-hour farmer deal",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "contactinformation",
+    "options": [
+      {"label": "Orisha user", "value": "orisha", "displayOrder": 1, "hidden": false},
+      {"label": "Growing for Market subscriber", "value": "gfm", "displayOrder": 2, "hidden": false}
+    ]
+  }'
+```
+
+Quirks:
+- **Internal name cannot start with a digit.** `40_hour_farmer_deal` is rejected. Use `forty_hour_farmer_deal` (or any letter prefix).
+- Multi-checkbox values are stored as a **`;`-joined string** when they arrive via the Forms Submissions API: a contact with both options checked has `forty_hour_farmer_deal: "orisha;gfm"`.
+- **Boolean property shape:** `type: "bool"`, `fieldType: "booleancheckbox"`, with `options: [{"label":"Yes","value":"true","displayOrder":0},{"label":"No","value":"false","displayOrder":1}]`.
+- **Deletion blocked while a workflow references the property.** `DELETE /crm/v3/properties/contacts/{name}` returns 400 `PROPERTY_USAGE` until every referencing workflow is deleted (no caching delay once they are).
+
+### Submitting from the page (Forms Submissions API)
+
+Browser-side, no API key required:
+
+```js
+fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${PORTAL_ID}/${FORM_ID}`, {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({
+    fields: [
+      {objectTypeId: '0-1', name: 'firstname', value: '...'},
+      {objectTypeId: '0-1', name: 'farm_name', value: '...'},
+      {objectTypeId: '0-1', name: 'email', value: '...'},
+      {objectTypeId: '0-1', name: 'forty_hour_farmer_deal', value: 'orisha;gfm'}
+    ],
+    context: {pageUri: location.href, pageName: document.title}
+  })
+});
+```
+
+A field that is not listed on the form is silently rejected (the contact gets created but only with the recognized fields). So the form mapping is the contract.
+
+### Updating the workflow trigger after a form swap
+
+If you replaced a form, point the workflow at the new GUID. The endpoint is `PUT` (not `PATCH`):
+
+```bash
+# 1. GET the workflow first
+curl -H "Authorization: Bearer $HUBSPOT_API_KEY" \
+  "https://api.hubapi.com/automation/v4/flows/<FLOW_ID>" > wf.json
+
+# 2. Edit wf.json: swap formId in enrollmentCriteria.listFilterBranch.filterBranches[*].filters[*]
+#    where filterType == "FORM_SUBMISSION". Strip server-managed fields:
+#    createdAt, updatedAt, crmObjectCreationStatus, id.
+
+# 3. PUT the whole document back
+curl -X PUT "https://api.hubapi.com/automation/v4/flows/<FLOW_ID>" \
+  -H "Authorization: Bearer $HUBSPOT_API_KEY" \
+  -H "Content-Type: application/json" \
+  --data @wf.json
+```
+
+Quirks:
+- `PATCH` returns 405. The endpoint requires `PUT`.
+- `PUT` requires the **full document**, not a partial. Missing `type`, `isEnabled`, `flowType`, etc. → 400.
+- Server-managed fields (`createdAt`, `updatedAt`, `crmObjectCreationStatus`, `id`) must be stripped before PUT or the request fails validation.
+- `revisionId` increments on each successful PUT.
+
+## Current IDs (May 2026)
 
 | Email | HubSpot ID | Subject |
 |---|---|---|
@@ -181,8 +358,9 @@ Each action needs a `connection` object pointing to the next action — except t
 | 04 Drew | 210995615304 | How Drew got his wife back on the farm |
 | 05 How It Works | 210993395308 | Here's how it works, simply |
 
-Workflow ID: `1804689064`
-Form ID: `036c50fb-2650-48ba-a1af-eb12a8f1074e`
+Workflow ID: `1804689064` (still disabled — enable in UI when ready)
+Form ID: `7f28cb26-8aea-432e-bf7f-c50a1484d0a3` (V3, API-managed; replaces V4 form `036c50fb-…` retired 2026-05-04)
+Custom contact properties: `farm_name` (text), `forty_hour_farmer_deal` (multi-checkbox: `orisha`, `gfm`)
 
 ## Sequence timing
 

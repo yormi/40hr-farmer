@@ -105,7 +105,25 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 ## Protagonist and voice
 
-Not yet locked.
+**Protagonist:** Guillaume. Builder, observer.
+
+**Arc shape (observer-builder):** Guillaume saw a pattern across farmers: beautiful work eating their lives. He wasn't farming himself yet; he built Orisha because farmers needed it. Drew's farm in 2024 was the first real proof. Now he's building the Playbook so any market gardener can take the same path. Ferme Décembre (2026) is recent and stays peripheral; the wall belongs to farmers Guillaume worked with, not to his own farm pain.
+
+**Voice:** First-person Guillaume. Quiet, observational, honest, warm. Farmer-adjacent in tone, but the credibility comes from how carefully he tells what he saw, not from his own farm scars.
+
+**Brunson beats mapped to Guillaume's arc:**
+
+| Beat | What it carries |
+|---|---|
+| Stage | Welcome. Who Guillaume is, where he's writing from, why he's building this. |
+| Wall | The pattern Guillaume saw across farmers. Beautiful work eating people's lives. Empathy + mission. |
+| Epiphany | The reframe: yield as pressure relief. The moment Guillaume realized greenhouse climate was the lever. |
+| Hidden benefits | Drew's chapter. Ghost House 2024. Yield doubled. Allison joining full-time. What the yield actually bought back. |
+| Invitation | Where Guillaume is taking it. The Playbook. June 2026 open. They're early, here's what that means. |
+
+**Supporting voices:** Gordon (Ten Mothers) may appear as a quoted aside if a beat needs a second proof point. Dan and Scott reserved for future sequences.
+
+**Why not the reader-farmer as protagonist:** SOS needs a single character the reader maps onto. Making the reader the protagonist forces second-person prose that drifts into instruction-mode, breaking the empathy → trust → action arc. Guillaume's story gives them someone to follow.
 
 ## Skeleton
 

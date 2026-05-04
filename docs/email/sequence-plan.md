@@ -45,7 +45,7 @@ Working state for the welcome funnel triggered on landing-page form submit. Sequ
 
 ## Sequence intent
 
-Turn a fresh 40hr Farmer signup into a believer who's ready and eager for the program's **June 2026 open**.
+Turn a fresh 40hr Farmer signup into a believer who's ready and eager for the program to open. **Working target: June 2026; exact date confirmed when known.**
 
 ## Goal cascade
 
@@ -54,24 +54,24 @@ Each step only happens if the previous one did:
 1. Trust + understand what this is.
 2. Believe the greenhouse-yield transformation is real (Drew's story does the heavy lifting).
 3. Want it for their own farm.
-4. **Excited and waiting eagerly for the June 2026 program open.** Primary state-change.
+4. **Excited and waiting eagerly for the program open (target: June 2026).** Primary state-change.
 5. *(Optional)* Engage in the meantime: use the virtual consultant, send feedback, book a call.
 6. Convert when the program opens.
 
-**Primary state-change for the sequence:** "I signed up, what now?" → "I trust this, I see the transformation is real, I want it for my farm, I'm eager for June."
+**Primary state-change for the sequence:** "I signed up, what now?" → "I trust this, I see the transformation is real, I want it for my farm, I'm eager for the open."
 
 **Goal mappings:**
 
 | Goal | Where it rides |
 |---|---|
-| Trust + understand what this is | Email 1 frame; reinforced through honest tone across the sequence. |
-| Believe the transformation is real | Story emails (wall, epiphany, hidden benefits). Drew's arc carries this. |
-| Want it for their own farm | Sub-text of the story emails, made explicit late in the sequence. |
-| Excited for the June 2026 program open | Stated explicitly in Email 1 (anchor) and the invitation send. |
-| Set expectations (June launch, still being built, free now / may change) | Load-bearing. Email 1 frames it; a dedicated honest-framing send goes deep. |
-| Use the virtual consultant in the meantime | Soft option in Email 1 P.S. and a later send. Never the headline. |
-| Book a call (free up time) | Soft conviction beat on the invitation send. |
-| Send feedback | Late-sequence ask after they've engaged. |
+| Trust + understand what this is | Email 1 origin story. Drew's farm appears as the spark that became the Playbook. Reinforced by honest tone across the sequence. |
+| Believe the transformation is real | Email 1 (Drew's story, told briefly as origin). Re-anchored in Email 3 when the "what about market?" objection lands. |
+| Want it for their own farm | Sub-text of Emails 1–4, made explicit in Emails 5–6. |
+| Excited for the program open (target: June 2026) | Email 1 frames the target. Email 5 holds the honest "we'll confirm when we know." Email 6 closes with the same. |
+| Set expectations (working target June, still being built, free now / may change) | Load-bearing. Email 1 frames it lightly; Email 5 goes deep (Gordon failure, building as we go, pricing TBD). |
+| Use the virtual consultant in the meantime | Email 4 introduces it with access. Soft mention earlier and later. Never the sequence headline. |
+| Book a call (free up time) | Email 6, paired with Dan's automation story. |
+| Send feedback | Email 5, after engagement. Address: `feedback@orisha.io`. |
 
 **Terminology:** "the course" = "the program." Same thing in our copy.
 
@@ -81,14 +81,14 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 ### Primary (must all pass)
 
-- **REQ-P1.** By the final email, does the reader feel eager about the June 2026 program open?
+- **REQ-P1.** By the final email, does the reader feel eager about the program open (target: June 2026)?
 - **REQ-P2.** By the final email, does the reader trust where Orisha and the 40hr Farmer Playbook are going?
 - **REQ-P3.** Has the reader encountered at least one concrete farmer story (real name, real scenes) they could recall?
 - **REQ-P4.** By the final email, could the reader articulate "this is for my farm"?
 
 ### Secondary (coverage, must appear somewhere)
 
-- **REQ-S1.** Does the sequence state the program launches in June 2026?
+- **REQ-S1.** Does the sequence frame June 2026 as the working target, with the honest note that the exact date will be confirmed when known?
 - **REQ-S2.** Does the sequence frame the program as still being built (early-stage)?
 - **REQ-S3.** Does the sequence set expectations around free-for-now and access may change later?
 - **REQ-S4.** Does the sequence offer the virtual consultant as a meantime option, without making it the headline?
@@ -111,15 +111,15 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 **Voice:** First-person Guillaume. Quiet, observational, honest, warm. Farmer-adjacent in tone, but the credibility comes from how carefully he tells what he saw, not from his own farm scars.
 
-**Brunson beats mapped to Guillaume's arc:**
+**Brunson beats mapped to Guillaume's arc (this sequence distributes them across 6 emails; the SOS arc is a default, not a cage):**
 
-| Beat | What it carries |
-|---|---|
-| Stage | Welcome. Who Guillaume is, where he's writing from, why he's building this. |
-| Wall | The pattern Guillaume saw across farmers. Beautiful work eating people's lives. Empathy + mission. |
-| Epiphany | The reframe: yield as pressure relief. The moment Guillaume realized greenhouse climate was the lever. |
-| Hidden benefits | Drew's chapter. Ghost House 2024. Yield doubled. Allison joining full-time. What the yield actually bought back. |
-| Invitation | Where Guillaume is taking it. The Playbook. June 2026 open. They're early, here's what that means. |
+| Beat | What it carries | Lands in |
+|---|---|---|
+| Stage / origin | Who Guillaume is. Why he started Orisha. Drew's farm in 2024 as the spark that became the Playbook. | Email 1 |
+| Wall | The pattern of farmers stuck (beautiful work, no life left). Plus the analytical farmer's "what about market?" objection. | Emails 2, 3 |
+| Epiphany | Yield as pressure relief, not volume. Greenhouse climate as the lever. | Email 3 |
+| Hidden benefits | What the yield actually bought back: Drew's life, Allison rejoining the farm. Dan's automation story echoes the beat at the call CTA. | Emails 1, 6 |
+| Invitation | Where the Playbook is heading. Working target: June. Early-stage frame. Soft consultant + book-a-call asks. | Emails 5, 6 |
 
 **Supporting voices:** Gordon (Ten Mothers) may appear as a quoted aside if a beat needs a second proof point. Dan and Scott reserved for future sequences.
 
@@ -127,7 +127,23 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 ## Skeleton
 
-Not yet locked. Length is flexible (5+ emails); we'll size to the work.
+6 emails over 17 days. Cadence Day 0 / 3 / 6 / 9 / 13 / 17. Voice is first-person Guillaume throughout.
+
+| # | Day | Beat | One-line job | Open loop into next |
+|---|---|---|---|---|
+| 1 | 0 | Origin (stage + first proof) | Who Guillaume is. Why he started Orisha. Drew's farm in 2024 and what happened (yield doubled, Allison back full-time). That moment became the seed of the 40hr Farmer Playbook. Working target to open: June 2026. | "Next: how the test of putting all this into practice on my own farm is going." |
+| 2 | 3 | Vision (Ferme Décembre) | Building a 40hr farm at Ferme Décembre alongside the reader. What it means in practice. Where things stand right now. Adjacency, not spectacle. | "Next: why this matters even if you can't sell more tomatoes." |
+| 3 | 6 | Reframe / objection | "What if the market won't take double the yield?" Yield as pressure relief, not volume. Re-anchor in Drew's chapter (the doubled yield bought back his life, not just income). | "Next: there's something we made that you can start using right now, even before launch." |
+| 4 | 9 | How you can engage now | Origin of Orisha. The greenhouse-climate problem (rules of thumb existed, but how to apply them all at once?). Why we built the virtual consultant. It's free. Here's your access. | "Next: an honest look at where the program actually is and what that means for you." |
+| 5 | 13 | Honest framing | We're building as we go: program content, format, consultant, pricing. Why we started consulting last year. Where we got it wrong with Gordon and what we learned. We progress with you. Send feedback to `feedback@orisha.io`. | "Next: if you'd rather get hands-on help today, not in June, there's a way." |
+| 6 | 17 | Invitation | Dan's story (automation as pressure relief, focus protected so the work pays off). If you want help freeing up time on your farm now, book a call. We'll be in touch the moment we know the launch date. | (sequence ends) |
+
+**Notes:**
+
+- **Drew lives in Email 1** as the spark of the Playbook's origin, not as a separate hero email. Email 3 references back to Drew's story when answering the "what about market?" objection.
+- **Email 1 will be denser than the others** (origin + Drew + target). That's fine; first email of an SOS earns the extra weight.
+- **Cliffhangers above are sketches.** They'll be sharpened during the per-email plan + draft steps.
+- **Pre-launch only.** Once the program opens, signups arrive into a different reality. Emails 5 and 6 will need a small pass at that point ("doors are open, here's how to step in").
 
 ## Per-email plan
 

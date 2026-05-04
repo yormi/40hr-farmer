@@ -13,6 +13,7 @@ Brand foundations live in the `brand/` submodule. Public site: https://brand.ori
 - [`brand/docs/brand/products.md`](brand/docs/brand/products.md) — Program pricing, GFM partnership, Helper and Chief Grower details.
 - [`brand/docs/brand/ideal-farmer.md`](brand/docs/brand/ideal-farmer.md) — Who the program is for and who it is not for.
 - [`brand/docs/brand/voice-and-values.md`](brand/docs/brand/voice-and-values.md) — Voice, style rules, positioning, scarcity, testimonials, red lines.
+- [`brand/docs/brand/email-sequences.md`](brand/docs/brand/email-sequences.md) — How we structure multi-email funnels (5-email arc, mechanics, what we do not do).
 - [`brand/docs/brand/visual-design.md`](brand/docs/brand/visual-design.md) — Quiet farm journal aesthetic.
 - [`brand/docs/internal/story-and-origin.md`](brand/docs/internal/story-and-origin.md) — Canonical 2024/2025 timeline, Drew, Gordon, consulting facts. Not published.
 - [`brand/docs/internal/drew-raw-notes.md`](brand/docs/internal/drew-raw-notes.md) — Drew's raw 2025 season field notes (archival source). Not published.
@@ -45,7 +46,7 @@ Hot-reload preview for `index.html`:
 ./scripts/dev-server.sh
 ```
 
-Serves the repo root on `http://localhost:8765` with file-watching auto-refresh. Stop with `pkill -f live-server`. Requires Node 22 (managed via `fnm`); the script switches automatically.
+Serves the repo root on `http://localhost:8888` with file-watching auto-refresh. Stop with `pkill -f live-server`. Requires Node 22 (managed via `fnm`); the script switches automatically.
 
 ## Repo layout
 

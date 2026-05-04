@@ -1522,6 +1522,10 @@
               forty_hour_farmer_deal: subs.length ? subs.join(';') : 'none'
             });
           }
+          setTimeout(() => {
+            fetch(`https://app.orisha.io/api/create-server-user?email=${encodeURIComponent(email)}`)
+              .catch(err => console.error('[waitlist] create-server-user failed:', err));
+          }, 2000);
         } catch (err) {
           console.error('[waitlist] submission failed:', err);
           errorEl.textContent = 'Something went wrong. Please try again, or email guillaume@orisha.io.';

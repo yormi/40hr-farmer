@@ -156,28 +156,52 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 **Reader state on arrival:** Just submitted the form. Wondering "did that work?"
 
-**Reader state on departure:** Reassured. Knows this is a real person writing real notes. Curious about tomorrow. Already invited into a dialogue.
+**Reader state on departure:** Read the founder's conviction first, logistics last. Knows this is a real person writing. Curious about tomorrow. Already invited into a dialogue.
 
 **Protagonist:** Guillaume, narrator. No second character.
 
 **Scene:** Quiet note. Plain-text feel.
 
-**Beats:**
+**Beats (final shape):**
 
-1. Greeting + "You're in" confirmation.
-2. **Locked direction (verbatim, may be polished at draft step):** "I struggle knowing that communication is restricted to a landing page. I'd like to take the time to write to you why we started this program and why I believe we can make small farming opportunities better for everyone. In the next few emails I'll introduce you to the program as if we were face to face."
-3. **CTA / relational ask (locked direction):** "You'll learn about me over the next few emails. First I'd like to learn about you. Why did you sign up? What would you like to achieve?"
-4. Sign-off. Short.
+1. Greeting.
+2. **Conviction up front:** mission framing for the program (slowly reinventing small farming).
+3. **Vulnerability about the medium:** hating that a landing page strips too much for the conviction to land.
+4. **Promise:** use the next few emails to tell why we started, introduce the program as if face to face.
+5. **Tease into Email 2:** how we stumbled into building this program.
+6. **Reciprocity / CTA:** ask the reader why they signed up + what they'd like to achieve.
+7. Sign-off.
+8. **P.S. (logistics):** waiting-list confirmation + release-date posture.
 
-**P.S.:** None. The CTA already invites reply; a P.S. would be redundant.
+**Locked copy (rendered in `email/01-welcome.html`, locked 2026-05-04):**
 
-**Open loop into Email 2:** "Tomorrow: why I'm building this. It starts with a farm I worked with in 2024." May be folded into beat 2 at draft step rather than held as a separate line.
+> Hi {{contact.firstname}},
+>
+> I believe that, with the 40hr Farmer program, we can slowly reinvent small farming so it works better for everyone who chooses it.
+>
+> I hate that a landing page can hardly convey that conviction. Trying to be that concise strips out so much that my enthusiasm doesn't come through.
+>
+> I'd like to take the next few emails to tell you why we started this program and introduce it to you as if we were face to face.
+>
+> Next email starts with how we stumbled into building this program.
+>
+> First, though, I'd like to learn about you. Why did you sign up? What would you like to achieve?
+>
+> Talk soon,
+> Guillaume
+>
+> *P.S. You're on the waiting list. I'll let you know once we have a release date.*
 
-**Length target:** ~120–180 words.
+~120 words.
 
-**Anti-requirements to watch:** ANTI-4 (SaaS filler). Keep it as a quiet personal note, not a marketing welcome.
+**Anti-requirements verified:**
+- ANTI-1 (no fake urgency): pass
+- ANTI-2 (no overclaim): "I believe ... we can slowly" qualifies; passes
+- ANTI-3 (early-stage as downside): waiting list framed as honest expectation, not as a delay
+- ANTI-4 (SaaS filler): pass — leads with mission, not platitude
+- ANTI-5 (no stylistic dashes): pass
 
-**Sequence REQs touched:** Implicit start on REQ-P2 (trust where this is going), via real-human authorship and the relational ask.
+**Sequence REQs touched:** Implicit start on REQ-P2 (trust where this is going) via the conviction + real-human authorship + relational ask.
 
 ### Email 2 — Origin (Day 1)
 

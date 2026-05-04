@@ -45,30 +45,63 @@ Working state for the welcome funnel triggered on landing-page form submit. Sequ
 
 ## Sequence intent
 
-Not yet locked. Working on this next.
+Turn a fresh 40hr Farmer signup into a believer who's ready and eager for the program's **June 2026 open**.
 
 ## Goal cascade
 
 Each step only happens if the previous one did:
 
 1. Trust + understand what this is.
-2. Engage with the Playbook / virtual consultant. **Primary state-change for this email window.**
-3. Send feedback (because they're now using it).
-4. Book a call when stuck or ready for hands-on help.
-5. Convert to paid when access tightens.
+2. Believe the greenhouse-yield transformation is real (Drew's story does the heavy lifting).
+3. Want it for their own farm.
+4. **Excited and waiting eagerly for the June 2026 program open.** Primary state-change.
+5. *(Optional)* Engage in the meantime: use the virtual consultant, send feedback, book a call.
+6. Convert when the program opens.
 
-**Primary state-change for the sequence:** "I signed up, what now?" → "I'm using the virtual consultant, I see the Playbook taking shape, I trust where this is going."
+**Primary state-change for the sequence:** "I signed up, what now?" → "I trust this, I see the transformation is real, I want it for my farm, I'm eager for June."
 
-**Secondary goal mappings:**
+**Goal mappings:**
 
 | Goal | Where it rides |
 |---|---|
-| Prioritize the program (engage with it) | Primary CTA in Email 1. Reinforced where the story lends itself. |
-| Set expectations (new, evolving, free now, may change later) | Subtle threads across all sends. Strongest on a dedicated honest-framing send and on the invitation send. |
-| Book a call (free up time on the farm) | Conviction beat on the invitation send. Soft CTA, not the headline. |
-| Use virtual consultant + send feedback | Use is the Email 1 CTA. Feedback ask lands once they've used it, late in the sequence. |
+| Trust + understand what this is | Email 1 frame; reinforced through honest tone across the sequence. |
+| Believe the transformation is real | Story emails (wall, epiphany, hidden benefits). Drew's arc carries this. |
+| Want it for their own farm | Sub-text of the story emails, made explicit late in the sequence. |
+| Excited for the June 2026 program open | Stated explicitly in Email 1 (anchor) and the invitation send. |
+| Set expectations (June launch, still being built, free now / may change) | Load-bearing. Email 1 frames it; a dedicated honest-framing send goes deep. |
+| Use the virtual consultant in the meantime | Soft option in Email 1 P.S. and a later send. Never the headline. |
+| Book a call (free up time) | Soft conviction beat on the invitation send. |
+| Send feedback | Late-sequence ask after they've engaged. |
 
 **Terminology:** "the course" = "the program." Same thing in our copy.
+
+## Requirements
+
+Each requirement is a yes/no question we can apply to a draft. "No" or "unclear" means the draft fails and gets revised. Tests apply two ways: per-email (does this email satisfy the requirements it's responsible for?) and sequence-wide (is every requirement satisfied somewhere across the full sequence?).
+
+### Primary (must all pass)
+
+- **REQ-P1.** By the final email, does the reader feel eager about the June 2026 program open?
+- **REQ-P2.** By the final email, does the reader trust where Orisha and the 40hr Farmer Playbook are going?
+- **REQ-P3.** Has the reader encountered at least one concrete farmer story (real name, real scenes) they could recall?
+- **REQ-P4.** By the final email, could the reader articulate "this is for my farm"?
+
+### Secondary (coverage, must appear somewhere)
+
+- **REQ-S1.** Does the sequence state the program launches in June 2026?
+- **REQ-S2.** Does the sequence frame the program as still being built (early-stage)?
+- **REQ-S3.** Does the sequence set expectations around free-for-now and access may change later?
+- **REQ-S4.** Does the sequence offer the virtual consultant as a meantime option, without making it the headline?
+- **REQ-S5.** Does the sequence offer a soft book-a-call option?
+- **REQ-S6.** Does the sequence invite feedback, only after engagement?
+
+### Anti-requirements (must NOT happen)
+
+- **ANTI-1.** No fake urgency, scarcity, or "act now" framing.
+- **ANTI-2.** No overclaim or hype on results.
+- **ANTI-3.** The evolving / early-stage nature must never read as a downside.
+- **ANTI-4.** Nothing that could ship from a generic SaaS or lifestyle newsletter.
+- **ANTI-5.** Zero stylistic dashes (em-dash, hyphen-dash as punctuation).
 
 ## Protagonist and voice
 

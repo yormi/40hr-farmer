@@ -3,6 +3,10 @@
 .cache/
 assets/clients/ferme-decembre/previews/
 
+# La Gauloise hi-res shoot: kept locally, not deployed.
+# Only family-cherry-harvest.jpg (in la-gauloise/) is used on the site.
+assets/clients/la-gauloise/La Gauloise/
+
 # Personal Claude Code overrides for this project (not team-wide).
 .claude/settings.local.json
 

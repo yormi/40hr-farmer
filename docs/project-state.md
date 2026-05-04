@@ -110,7 +110,7 @@ Log of decisions already made, so we do not re-litigate them. Does not cover pen
 ## Key IDs
 
 - HubSpot Portal: `5156324`
-- HubSpot Form: `036c50fb-2650-48ba-a1af-eb12a8f1074e`
+- HubSpot Form: `7f28cb26-8aea-432e-bf7f-c50a1484d0a3` (V3, API-managed, replaces V4 form `036c50fb-…` retired 2026-05-04)
 - HubSpot Workflow: `1804689064` (disabled)
 - Email IDs: `01=210995615298`, `02=210995615301`, `03=210993395305`, `04=210995615304`, `05=210993395308`
 

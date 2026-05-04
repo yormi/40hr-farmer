@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Local hot-reload dev server for the 40hr Farmer landing page.
 #
-# Serves the repo root on http://localhost:8765 with live-reload on file
+# Serves the repo root on http://localhost:8888 with live-reload on file
 # changes. Edits to index.html, CSS, or assets auto-refresh the browser.
 #
 # Usage:
@@ -14,7 +14,7 @@
 
 set -euo pipefail
 
-PORT=8765
+PORT=8888
 
 # Node 22 is required. live-server's dependency graph doesn't resolve on Node 16.
 eval "$(fnm env)"

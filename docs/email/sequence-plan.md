@@ -132,7 +132,7 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 | # | Day | Beat | One-line job | Open loop into next |
 |---|---|---|---|---|
-| 1 | 0 | Stage | Confirm signup. Brief preview of what's coming over the next weeks. Why I'm sending these. Set up tomorrow's origin story. | "Tomorrow: why I'm building this. It starts with a farm I worked with in 2024." |
+| 1 | 0 | Stage | Confirm signup. Frame the sequence as a personal note from Guillaume, not a marketing funnel. Invite the reader to share why they signed up. Set up tomorrow's origin. | "Tomorrow: why I'm building this. It starts with a farm I worked with in 2024." |
 | 2 | 1 | Origin (first proof) | Who Guillaume is. Why he started Orisha. Drew's farm in 2024 and what happened (yield doubled, Allison back full-time). That moment became the seed of the 40hr Farmer Playbook. Working target to open: June 2026. | "Next: how the test of putting all this into practice on my own farm is going." |
 | 3 | 4 | Vision (Ferme Décembre) | Building a 40hr farm at Ferme Décembre alongside the reader. What it means in practice. Where things stand right now. Adjacency, not spectacle. | "Next: why this matters even if you can't sell more tomatoes." |
 | 4 | 7 | Reframe / objection | "What if the market won't take double the yield?" Yield as pressure relief, not volume. Re-anchor in Drew's chapter (the doubled yield bought back his life, not just income). | "Next: there's something we made that you can start using right now, even before launch." |
@@ -149,5 +149,56 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 - **Pre-launch only.** Once the program opens, signups arrive into a different reality. Emails 6 and 7 will need a small pass at that point ("doors are open, here's how to step in").
 
 ## Per-email plan
+
+### Email 1 — Stage (Day 0)
+
+**Subject:** "you're in, here's what's coming"
+
+**Reader state on arrival:** Just submitted the form. Wondering "did that work?"
+
+**Reader state on departure:** Reassured. Knows this is a real person writing real notes. Curious about tomorrow. Already invited into a dialogue.
+
+**Protagonist:** Guillaume, narrator. No second character.
+
+**Scene:** Quiet note. Plain-text feel.
+
+**Beats:**
+
+1. Greeting + "You're in" confirmation.
+2. **Locked direction (verbatim, may be polished at draft step):** "I struggle knowing that communication is restricted to a landing page. I'd like to take the time to write to you why we started this program and why I believe we can make small farming opportunities better for everyone. In the next few emails I'll introduce you to the program as if we were face to face."
+3. **CTA / relational ask (locked direction):** "You'll learn about me over the next few emails. First I'd like to learn about you. Why did you sign up? What would you like to achieve?"
+4. Sign-off. Short.
+
+**P.S.:** None. The CTA already invites reply; a P.S. would be redundant.
+
+**Open loop into Email 2:** "Tomorrow: why I'm building this. It starts with a farm I worked with in 2024." May be folded into beat 2 at draft step rather than held as a separate line.
+
+**Length target:** ~120–180 words.
+
+**Anti-requirements to watch:** ANTI-4 (SaaS filler). Keep it as a quiet personal note, not a marketing welcome.
+
+**Sequence REQs touched:** Implicit start on REQ-P2 (trust where this is going), via real-human authorship and the relational ask.
+
+### Email 2 — Origin (Day 1)
+
+Not yet locked.
+
+### Email 3 — Vision / Ferme Décembre (Day 4)
+
+Not yet locked.
+
+### Email 4 — Reframe / objection (Day 7)
+
+Not yet locked.
+
+### Email 5 — How you can engage now (Day 10)
+
+Not yet locked.
+
+### Email 6 — Honest framing (Day 14)
+
+Not yet locked.
+
+### Email 7 — Invitation (Day 18)
 
 Not yet locked.

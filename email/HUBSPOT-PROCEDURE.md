@@ -2,6 +2,11 @@
 
 How we got the welcome email sequence, the waitlist form, and the enrollment workflow into HubSpot. Browser automation didn't work (the email editor renders in an iframe that blocks drag-and-drop). The API works, but has quirks. The general pattern: **create an empty shell, then PATCH content into it.**
 
+**Critical caveat (verified 2026-05-04):** This procedure produces emails of type `BATCH_EMAIL`, which **cannot be used in workflows**. Workflows require `AUTOMATED_EMAIL`, and HubSpot silently forces all API-created emails to `BATCH_EMAIL` unless the private app has the `marketing-email` granular scope. That scope is plan-tier-gated and often unavailable (Guillaume's portal blocks it). Setting `type: "AUTOMATED_EMAIL"` on POST is silently ignored; PATCH to convert is rejected with `Cannot perform subcategory updates for this email type`.
+
+- **For workflow emails (the welcome sequence):** create the shell in the HubSpot UI as **Automated** (Marketing → Email → Create email → choose "Automated"). Set name, subject, preview text, from/reply-to, and paste body HTML in the rich-text module. Click **Save for automation**. The body of this procedure can still be used to PATCH content into UI-created automated emails by ID.
+- **For one-off marketing blasts (not in a workflow):** the API-only procedure below works fine.
+
 ## Prerequisites
 
 - HubSpot Private App API key with scopes: `content`, `automation`, `forms`, `crm.schemas.contacts.read`, `crm.schemas.contacts.write`, `crm.objects.contacts.read`, `crm.objects.contacts.write` (last one is needed to delete smoke-test contacts).
@@ -86,6 +91,21 @@ Key details:
 - Don't set `emailTemplateMode: "CUSTOM"` — it crashes the editor
 - Don't specify widgets during email creation (Step 1) — only during PATCH (Step 2)
 
+### Publishing emails (added 2026-05-04)
+
+The v3 publish endpoint `POST /marketing/v3/emails/{id}/publish` requires the `marketing-email` granular scope (plan-tier-gated, often unavailable on lower-tier portals).
+
+**Workaround that works on `content` scope:**
+
+```bash
+curl -X PUT "https://api.hubapi.com/content/api/v2/emails/<EMAIL_ID>" \
+  -H "Authorization: Bearer $HUBSPOT_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"state": "PUBLISHED"}'
+```
+
+The legacy v2 PUT bypasses the v3-side scope gate. Verified 2026-05-04: works for `BATCH_EMAIL`. Untested on `AUTOMATED_EMAIL` (those use UI-only "Save for automation" anyway).
+
 ## Step 3: Create the workflow
 
 ```bash
@@ -152,16 +172,19 @@ curl -X POST "https://api.hubapi.com/automation/v4/flows" \
 | actionTypeId | Purpose | Fields |
 |---|---|---|
 | `"0-4"` | Send email | `content_id` (the email ID as string) |
-| `"0-1"` | Delay | `delta` (minutes as string), `time_unit: "MINUTES"` |
+| `"0-1"` | Delay | `delta` (string), `time_unit: "MINUTES"` or `"DAYS"` (verified 2026-05-04) |
 
 ### Delay math
 
-| Desired delay | delta (minutes) |
+| Desired delay | delta + time_unit |
 |---|---|
-| 2 days | `"2880"` |
-| 3 days | `"4320"` |
-| 4 days | `"5760"` |
-| 7 days | `"10080"` |
+| 2 days | `"2880"` MINUTES, or `"2"` DAYS |
+| 3 days | `"4320"` MINUTES, or `"3"` DAYS |
+| 4 days | `"5760"` MINUTES, or `"4"` DAYS |
+| 7 days | `"10080"` MINUTES, or `"7"` DAYS |
+| 365 days | `"365"` DAYS (avoids overflow risk in MINUTES) |
+
+`DAYS` is preferred for human-readable workflow JSON. Both are accepted by the API.
 
 ### Chaining actions
 
@@ -321,6 +344,18 @@ fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${PORTAL_ID}/${
 ```
 
 A field that is not listed on the form is silently rejected (the contact gets created but only with the recognized fields). So the form mapping is the contract.
+
+### Auto-marking form contacts as marketing (added 2026-05-04)
+
+By default, contacts created via form submission are NOT marked as marketing contacts and **cannot receive workflow emails**. HubSpot's workflow editor surfaces this as: *"Only marketing contacts can receive this email."*
+
+The fix is **per-form, in the form editor UI** (not exposed via the public API):
+
+Marketing → Forms → open the waitlist form → form settings panel → enable **"Set newly created contacts as marketing contacts"** (exact label varies by portal version, sometimes under an "Options" or "What happens after a visitor submits" tab).
+
+**No public API exposure for this.** The `marketableContactStatus` field is not on `marketing/v3/forms/{id}`. The workflow-side alternative (action type `0-31` "Set marketing contact status") is also v4-API-blocked: every PUT that adds a `0-31` action returns the opaque `FLOW_UPDATE_BAD_REQUEST` 400. UI-only.
+
+**Backfill non-marketing contacts** (e.g., test signups created before the toggle was on): contacts list → select rows → Actions → Set as marketing contacts.
 
 ### Updating the workflow trigger after a form swap
 

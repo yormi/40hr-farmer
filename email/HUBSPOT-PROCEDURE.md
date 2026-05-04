@@ -397,6 +397,18 @@ Workflow ID: `1804689064` (still disabled — enable in UI when ready)
 Form ID: `7f28cb26-8aea-432e-bf7f-c50a1484d0a3` (V3, API-managed; replaces V4 form `036c50fb-…` retired 2026-05-04)
 Custom contact properties: `farm_name` (text), `forty_hour_farmer_deal` (multi-checkbox: `orisha`, `gfm`)
 
+## End-to-end smoke test (added 2026-05-04)
+
+Before pushing changes that touch `email/` or the workflow, run:
+
+```bash
+./scripts/test-welcome-funnel.sh
+```
+
+Submits a tagged contact (`guillaume+e2e+<timestamp>@orisha.io`) via the public Forms Submissions endpoint, polls for contact creation, verifies firstname / farm_name / forty_hour_farmer_deal / `hs_marketable_status=true`, polls `email/public/v1/events` for a `DELIVERED` event on Email 01, then deletes the test contact. Pass/fail per step. Total runtime ≤60s.
+
+The script auto-loads `HUBSPOT_API_KEY` from `.secrets/hubspot.env`.
+
 ## Sequence timing
 
 1. Form submit -> Email 01 (immediate)

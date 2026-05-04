@@ -19,13 +19,15 @@ NOT for: drafting the email copy, rendering the HTML, or creating the email shel
 ## Pre-flight
 
 1. **API key.** The script auto-reads `.secrets/hubspot.env` from the project root. No sourcing needed. (Falls back to `$HUBSPOT_API_KEY` if set.)
-2. **Confirm the new email's HubSpot ID exists.** The email shell + content must be PATCHed in already (per `email/HUBSPOT-PROCEDURE.md` Steps 1–2). Verify:
+2. **Confirm the new email's HubSpot ID exists AND it's an AUTOMATED_EMAIL.** Workflows reject `BATCH_EMAIL` as "selected email is invalid." Per the critical caveat at the top of `email/HUBSPOT-PROCEDURE.md`, automated emails cannot be created via API on plans without the `marketing-email` granular scope (verified 2026-05-04 — Guillaume's portal blocks it). They must be built in the HubSpot UI: **Marketing → Email → Create email → Automated → paste body HTML, set subject + preview text + from/reply-to → Save for automation**. Verify the type:
    ```bash
    curl -s -H "Authorization: Bearer $HUBSPOT_API_KEY" \
-     "https://api.hubapi.com/marketing/v3/emails/<EMAIL_ID>" | jq '.id, .name, .subject'
+     "https://api.hubapi.com/marketing/v3/emails/<EMAIL_ID>" | jq '.id, .name, .subject, .type'
    ```
+   `.type` must be `AUTOMATED_EMAIL`. If it's `BATCH_EMAIL`, the workflow PUT will succeed but the workflow editor will flag the email as invalid and the email won't send.
 3. **Note the workflow's enabled state.** If currently enabled, the edit goes live the moment you PUT — in-flight contacts will pick up the change per the delay primitives in the procedure doc. If currently disabled, the edit stages cleanly but you'll need to re-enable in the HubSpot UI (no API for that — see `HUBSPOT-PROCEDURE.md` "Enabling is UI-only").
 4. **Show the current sequence first.** Always run `--show` and surface it to the user before mutating.
+5. **After applying, run the E2E smoke test.** `./scripts/test-welcome-funnel.sh` from the repo root submits a tagged contact, verifies all properties + marketing flag + Email 01 delivery, then cleans up. Confirms the change didn't break the live pipeline.
 
 ## Recipe
 

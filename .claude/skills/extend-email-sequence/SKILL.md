@@ -50,7 +50,18 @@ python3 .claude/skills/extend-email-sequence/scripts/extend_sequence.py \
 
 Always start with `--dry-run`. It prints the current chain, the proposed new chain, and the diff. Drop `--dry-run` to apply (PUT). Reports the new `revisionId` on success.
 
-### Remove the tail (last email + the delay before it)
+**Default behavior parks contacts at the tail** for build-as-you-go. Every `--append-email` adds three actions: a cadence delay (your `--delay-days`), the new email, and a 365-day parking delay marked `[PARKING]` in `--show`. Contacts who finish the new email then sit in the parking delay — they don't exit the workflow. When you append the *next* email, the script auto-strips the existing parking delay first, so the chain stays clean across many extensions.
+
+If you're appending the genuinely-final email of a sequence (no more emails ever coming), pass `--final` to skip the parking delay:
+
+```bash
+python3 .claude/skills/extend-email-sequence/scripts/extend_sequence.py \
+  --append-email --email-id <ID> --delay-days 3 --final
+```
+
+You can also strip a parking delay later by appending the next email (auto), or by `--remove-tail`-ing it (which removes the last `delay + email + parking` triple).
+
+### Remove the tail
 
 ```bash
 python3 .claude/skills/extend-email-sequence/scripts/extend_sequence.py \
@@ -59,7 +70,7 @@ python3 .claude/skills/extend-email-sequence/scripts/extend_sequence.py \
   --dry-run
 ```
 
-Useful for rollback or roundtrip testing.
+Drops the last email plus its preceding cadence delay, plus any trailing parking delay if present. Useful for rollback or roundtrip testing. Errors out if the chain is too short to remove safely (need ≥3 actions, or ≥4 if there's parking).
 
 ### Insert in the middle, edit a delay, swap an email ID
 

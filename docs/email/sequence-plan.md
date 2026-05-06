@@ -293,7 +293,7 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 ### Email 3 — Vision / Ferme Décembre (Day 4)
 
-**Point** *(Schwartzberg, locked 2026-05-06)*: I believe a greenhouse bed bringing what 20 field beds bring changes the possibilities for small farms. It gives us the power to reinvent our farms in a healthier way.
+**Point** *(Schwartzberg, locked 2026-05-06)*: I believe greenhouse leverage gives market gardeners many ways to reinvent their farm.
 
 The Décembre story is the lived demonstration of this Point. Guillaume's farm is built around the greenhouse as the central leverage; the email shows what the leverage looks like in practice (and where the plan met messy reality).
 

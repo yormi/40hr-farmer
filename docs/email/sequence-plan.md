@@ -207,7 +207,7 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 **Subject:** "5 steps every farmer falls into"
 
-**Preview text:** *(proposed: "And the playbook the few who escaped used."; awaiting Guillaume's confirmation)*
+**Preview text:** "And the playbook the few who escaped used."
 
 **Reader state on arrival:** Read Email 1 yesterday. Maybe replied to "why did you sign up?". Curious about the origin story Guillaume teased.
 

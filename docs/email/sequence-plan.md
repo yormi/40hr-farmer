@@ -152,6 +152,8 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 ### Email 1 — Stage (Day 0)
 
+**Point** *(Schwartzberg, locked 2026-05-06)*: I believe a real conversation will serve you better than a landing page can.
+
 **Subject:** "you're in, here's what's coming"
 
 **Reader state on arrival:** Just submitted the form. Wondering "did that work?"
@@ -204,6 +206,8 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 **Sequence REQs touched:** Implicit start on REQ-P2 (trust where this is going) via the conviction + real-human authorship + relational ask.
 
 ### Email 2 — Origin (Day 1)
+
+**Point** *(Schwartzberg, locked 2026-05-06)*: I believe running a small farm profitably can be done on a 40hr week.
 
 **Subject:** "5 steps every farmer falls into"
 
@@ -289,7 +293,11 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 ### Email 3 — Vision / Ferme Décembre (Day 4)
 
-Not yet locked.
+**Point** *(Schwartzberg, locked 2026-05-06)*: I believe a greenhouse bed bringing what 20 field beds bring changes the possibilities for small farms. It gives us the power to reinvent our farms in a healthier way.
+
+The Décembre story is the lived demonstration of this Point. Guillaume's farm is built around the greenhouse as the central leverage; the email shows what the leverage looks like in practice (and where the plan met messy reality).
+
+Prose not yet drafted.
 
 ### Email 4 — Orisha origin + Drew + virtual consultant (Day 7)
 

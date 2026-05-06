@@ -133,7 +133,7 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 | # | Day | Beat | One-line job | Open loop into next |
 |---|---|---|---|---|
 | 1 | 0 | Stage | Confirm signup. Frame the sequence as a personal note from Guillaume, not a marketing funnel. Invite the reader to share why they signed up. Set up tomorrow's origin. | "Tomorrow: why I'm building this. It starts with a farm I worked with in 2024." |
-| 2 | 1 | Origin (first proof) | Who Guillaume is. Why he started Orisha. Drew's farm in 2024 and what happened (yield doubled, Allison back full-time). That moment became the seed of the 40hr Farmer Playbook. Working target to open: June 2026. | "Next: how the test of putting all this into practice on my own farm is going." |
+| 2 | 1 | Origin | Guillaume's 10-year pattern. The 5-step trap every farmer falls into. The "do more with less" reframe. Greenhouse leverage angle. Andrew Mefferd partnership. Program birth. Cliffhanger into Ferme Décembre. | "One year in, the picture is messier than the plan. Next email: what's actually happening." |
 | 3 | 4 | Vision (Ferme Décembre) | Building a 40hr farm at Ferme Décembre alongside the reader. What it means in practice. Where things stand right now. Adjacency, not spectacle. | "Next: why this matters even if you can't sell more tomatoes." |
 | 4 | 7 | Reframe / objection | "What if the market won't take double the yield?" Yield as pressure relief, not volume. Re-anchor in Drew's chapter (the doubled yield bought back his life, not just income). | "Next: there's something we made that you can start using right now, even before launch." |
 | 5 | 10 | How you can engage now | Origin of Orisha. The greenhouse-climate problem (rules of thumb existed, but how to apply them all at once?). Why we built the virtual consultant. It's free. Here's your access. | "Next: an honest look at where the program actually is and what that means for you." |
@@ -205,7 +205,85 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 ### Email 2 — Origin (Day 1)
 
-Not yet locked.
+**Subject:** *(working: "how this got started"; not yet locked)*
+
+**Reader state on arrival:** Read Email 1 yesterday. Maybe replied to "why did you sign up?". Curious about the origin story Guillaume teased.
+
+**Reader state on departure:** Recognizes the 5-step trap as their own story. Sees the "do more with less" reframe. Understands why a Program (mix of content, tools, coaching) exists rather than just a tool. Curious how Ferme Décembre is going.
+
+**Protagonist:** Guillaume. Drew is no longer in this email; Andrew Mefferd enters as the catalyst for the partnership.
+
+**Scene:** Guillaume reflecting on 10 years of patterns across market gardeners.
+
+**Beats (final shape):**
+
+1. **Conviction up front:** running a small farm profitably can be done on a 40hr week.
+2. **The 5-step trap:** the recurring story Guillaume hears from farmers.
+3. **The reframe:** the few who got out used the same rough playbook — do more with less.
+4. **The click:** the greenhouse leverage angle is the greatest "do more with less" opportunity available now.
+5. **The leverage:** one greenhouse bed brings what 20 field beds bring; reinvent the farm in a healthier way.
+6. **The gap:** consultants help, but most farmers will never have one.
+7. **Andrew Mefferd partnership:** the catalyst. Videos + tools + coaching, none alone are enough; a mix might work.
+8. **Program birth:** that's how The 40hr Farmer Program was born. Honest "we don't have it figured out, starts with greenhouse tomatoes" frame.
+9. **Décembre cliffhanger:** Last year I started a farm to test the ideas. Plan: $700K with 2 employees. Greenhouse at the center. *"One year in, the picture is messier than the plan. Next email: what's actually happening."*
+
+**Locked copy (rendered in `email/02-origin.html`, locked 2026-05-06):**
+
+> Hi {{contact.firstname}},
+>
+> I believe running a small farm profitably can be done on a 40hr week.
+>
+> There are a lot of challenges and tough calls to make to get there.
+>
+> I've worked alongside market gardeners for almost 10 years now and keep hearing the same story from every farmer:
+>
+> 1. Start a farm to build a better future for the planet, the community and ourselves
+> 2. Face financial pressure, scale the farm to increase sales
+> 3. Expenses hike faster than sales
+> 4. Bridge the gap with our own free labor
+> 5. The hours crush us
+>
+> Yet, very few farmers continue the story with how they got out of that trap.
+>
+> Those who did all used the same rough playbook: hunt every opportunity to do more with less.
+>
+> Easier said than done, right?
+>
+> Well, recently, something clicked! What we've been working on for years is probably the greatest opportunity to do more with less.
+>
+> The gap between the best small-scale greenhouse growers and the average grower is huge. And everything leads me to believe we can bridge that gap.
+>
+> A greenhouse bed that brings what 20 field beds bring changes the possibilities for small farms. It gives us so much more power to reinvent our farm in a healthier way.
+>
+> Greenhouse consultants help small growers in Quebec get there. But doing it without their experience is quite an ask.
+>
+> I was wondering how Orisha could best support farmers to do it, when Andrew Mefferd offered to partner on a video course. Talking it through, we landed somewhere bigger: videos alone aren't enough, better tools alone aren't either, and we don't have the capacity to coach everyone. Maybe a mix would work?
+>
+> That's how The 40hr Farmer Program was born.
+>
+> We don't have it all figured out, but it has to start somewhere, and it'll get better as we go! Slowly but surely paving the way to doing more with less. Starting with greenhouse tomatoes.
+>
+> Last year, I started a farm to test the do-more-with-less ideas I've gathered over the years. The initial plan: $700,000 with 2 employees. The greenhouse is at the center of it.
+>
+> One year in, the picture is messier than the plan. Next email: what's actually happening.
+>
+> Guillaume
+
+~380 words. Page-turner length explicitly accepted.
+
+**Anti-requirements verified:**
+- ANTI-1 (no fake urgency): pass
+- ANTI-2 (no overclaim): "probably the greatest opportunity," "everything leads me to believe" — qualifiers in place; passes
+- ANTI-3 (early-stage as downside): "we don't have it all figured out, but it has to start somewhere" frames evolving as honest, not weakness; passes
+- ANTI-4 (SaaS filler): pass — 5-step trap is specific to market gardeners, no generic newsletter language
+- ANTI-5 (no stylistic dashes): pass
+
+**Sequence REQs touched:**
+- **REQ-S1** (June 2026 working target): NOT here. Held for later (Email 6 honest framing).
+- **REQ-S2** (still being built): partial — "we don't have it all figured out... gets better as we go."
+- **REQ-P2** (trust where this is going): major — Guillaume's 10-year observation + Andrew partnership + honest frame.
+
+**Open question:** Drew is now out of this email and the locked sequence carries no concrete farmer story (REQ-P3) until we decide. Candidate placements: Email 4 (reframe / what if you can't sell more), Email 6 (honest framing / Gordon failure), or a new dedicated email. TBD.
 
 ### Email 3 — Vision / Ferme Décembre (Day 4)
 

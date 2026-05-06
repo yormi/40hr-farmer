@@ -135,7 +135,7 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 | 1 | 0 | Stage | Confirm signup. Frame the sequence as a personal note from Guillaume, not a marketing funnel. Invite the reader to share why they signed up. Set up tomorrow's origin. | "Tomorrow: why I'm building this. It starts with a farm I worked with in 2024." |
 | 2 | 1 | Origin | Guillaume's 10-year pattern. The 5-step trap every farmer falls into. The "do more with less" reframe. Greenhouse leverage angle. Andrew Mefferd partnership. Program birth. Cliffhanger into Ferme Décembre. | "One year in, the picture is messier than the plan. Next email: what's actually happening." |
 | 3 | 4 | Vision (Ferme Décembre) | Building a 40hr farm at Ferme Décembre alongside the reader. What it means in practice. Where things stand right now. Adjacency, not spectacle. | "Next: why this matters even if you can't sell more tomatoes." |
-| 4 | 7 | Reframe / objection | "What if the market won't take double the yield?" Yield as pressure relief, not volume. Re-anchor in Drew's chapter (the doubled yield bought back his life, not just income). | "Next: there's something we made that you can start using right now, even before launch." |
+| 4 | 7 | Orisha origin + Drew + consultant *(combined; may split later)* | Story of starting Orisha. Conversation with Climax. Climate / irrigation rule-of-thumb subtleties → why we built the virtual consultant. Drew's farm in 2024 as proof the approach works (REQ-P3 lands here). Consultant access. | TBD (depends on whether Email 4 splits into two emails or stays combined). |
 | 5 | 10 | How you can engage now | Origin of Orisha. The greenhouse-climate problem (rules of thumb existed, but how to apply them all at once?). Why we built the virtual consultant. It's free. Here's your access. | "Next: an honest look at where the program actually is and what that means for you." |
 | 6 | 14 | Honest framing | We're building as we go: program content, format, consultant, pricing. Why we started consulting last year. Where we got it wrong with Gordon and what we learned. We progress with you. Send feedback to `feedback@orisha.io`. | "Next: if you'd rather get hands-on help today, not in June, there's a way." |
 | 7 | 18 | Invitation | Dan's story (automation as pressure relief, focus protected so the work pays off). If you want help freeing up time on your farm now, book a call. We'll be in touch the moment we know the launch date. | (sequence ends) |
@@ -205,7 +205,9 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 ### Email 2 — Origin (Day 1)
 
-**Subject:** *(working: "how this got started"; not yet locked)*
+**Subject:** "5 steps every farmer falls into"
+
+**Preview text:** *(proposed: "And the playbook the few who escaped used."; awaiting Guillaume's confirmation)*
 
 **Reader state on arrival:** Read Email 1 yesterday. Maybe replied to "why did you sign up?". Curious about the origin story Guillaume teased.
 
@@ -289,9 +291,29 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 Not yet locked.
 
-### Email 4 — Reframe / objection (Day 7)
+### Email 4 — Orisha origin + Drew + virtual consultant (Day 7)
 
-Not yet locked.
+Combined beat absorbing what was previously Email 4 (Drew's reframe) and Email 5 (consultant intro). May split into two emails later.
+
+**Direction (per Guillaume, 2026-05-06):** "Story of when I started Orisha. Talking to Climax. Bunch of subtleties and rule of thumb to reconcile → Consultant access."
+
+**Sketch of beats:**
+
+1. Story of starting Orisha. Why a tool company, what gap I was trying to close.
+2. **Climax** — early conversation / collaborator (need Guillaume to fill in: who, when, what was said).
+3. The technical reality: greenhouse climate + irrigation have rules of thumb, but applying them all simultaneously is hard. Most farmers can't.
+4. That's what Orisha automated.
+5. Drew's farm in 2024: the proof. Yield doubled, Allison rejoined the farm full-time. (REQ-P3 lands here — concrete farmer story with real names + scenes.)
+6. But Orisha-the-tool wasn't enough on its own — too many subtleties beyond climate that farmers still had to navigate.
+7. So we built the virtual consultant: a way to put years of accumulated subtleties into a place farmers can ask. It's free, here's your access.
+
+**Open questions before drafting:**
+- Who is Climax? (name, context, what conversation Guillaume is referring to)
+- Should Drew get a few sentences or a full paragraph?
+- Length target — if combined Email 4 runs >500 words, split into 4a (Orisha origin + Drew) and 4b (consultant access).
+- New cliffhanger into Email 5 (honest framing) — TBD.
+
+**Status:** beats outlined, prose not yet drafted. Decide split-or-stay after first draft hits ~word count.
 
 ### Email 5 — How you can engage now (Day 10)
 

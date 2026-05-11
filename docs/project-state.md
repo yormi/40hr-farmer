@@ -16,7 +16,7 @@ Waitlist and email funnel live before the June 2026 cohort launch.
 
 - Phase 1: content extraction and copy refinement.
 - Phase 2: landing page built (`index.html` deployed).
-- Phase 3: GitHub Pages deploy at https://yormi.github.io/40hr-farmer/
+- Phase 3: GitHub Pages deploy at https://the40hourfarmer.orisha.io/ (custom domain on the `yormi/40hr-farmer` repo; `yormi.github.io/40hr-farmer/` redirects here, preserving query params).
 - Phase 4: HubSpot form integration.
 - Phase 5: 5 welcome emails written and uploaded to HubSpot.
 - Phase 6: HubSpot automation workflow built (disabled, enable when ready).

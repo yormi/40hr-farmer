@@ -12,14 +12,14 @@ Operational reference. Any link to the landing page from a controlled surface (n
 
 ## Canonical tagged URLs
 
-Base URL: `https://yormi.github.io/40hr-farmer/`
+Base URL: `https://the40hourfarmer.orisha.io/` (custom domain; `https://yormi.github.io/40hr-farmer/` also redirects here while preserving query params, but link to the custom domain directly to skip the redirect).
 
 - **GFM:**
-  `https://yormi.github.io/40hr-farmer/?utm_source=gfm&utm_medium=referral&utm_campaign=40-hr-farmer-waitlist-2026`
+  `https://the40hourfarmer.orisha.io/?utm_source=gfm&utm_medium=referral&utm_campaign=40-hr-farmer-waitlist-2026`
 - **Instagram:**
-  `https://yormi.github.io/40hr-farmer/?utm_source=orisha-instagram&utm_medium=social&utm_campaign=40-hr-farmer-waitlist-2026`
+  `https://the40hourfarmer.orisha.io/?utm_source=orisha-instagram&utm_medium=social&utm_campaign=40-hr-farmer-waitlist-2026`
 - **Email sends:**
-  `https://yormi.github.io/40hr-farmer/?utm_source=orisha-email&utm_medium=email&utm_campaign=40-hr-farmer-waitlist-2026`
+  `https://the40hourfarmer.orisha.io/?utm_source=orisha-email&utm_medium=email&utm_campaign=40-hr-farmer-waitlist-2026`
 
 ## How to read results
 

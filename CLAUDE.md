@@ -64,7 +64,7 @@ Push the current branch to staging with:
 
 ## Repo layout
 
-- `index.html` — landing page (deployed at https://yormi.github.io/40hr-farmer/)
+- `index.html` — landing page (deployed at https://the40hourfarmer.orisha.io/; `yormi.github.io/40hr-farmer/` redirects there)
 - `email/*.html` — 5 welcome email templates
 - `email/HUBSPOT-PROCEDURE.md` — HubSpot API setup docs
 - `docs/landing/` — landing page rework (process, outline + locked copy, sources). See `docs/landing/README.md`.

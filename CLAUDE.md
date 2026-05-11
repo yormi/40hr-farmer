@@ -48,6 +48,20 @@ Hot-reload preview for `index.html`:
 
 Serves the repo root on `http://localhost:8888` with file-watching auto-refresh. Stop with `pkill -f live-server`. Requires Node 22 (managed via `fnm`); the script switches automatically.
 
+**Localhost caveat:** HubSpot Forms Submissions API silently strips field values when the Origin is `localhost`, so contacts created from local-dev submits land with only `email` populated. The form **works fine from the GitHub Pages URLs** (production and staging). Use the staging URL below for full end-to-end browser submit testing.
+
+## Staging preview
+
+Sister repo `yormi/40hr-farmer-staging` deploys to `https://yormi.github.io/40hr-farmer-staging/` via GitHub Pages.
+
+Push the current branch to staging with:
+
+```bash
+./scripts/deploy-staging.sh
+```
+
+(Force-pushes current HEAD to the staging repo's `main`. Deploys in 30-90s.) Use this to preview any landing-page change in a real GitHub Pages environment before pushing to the production repo.
+
 ## Repo layout
 
 - `index.html` — landing page (deployed at https://yormi.github.io/40hr-farmer/)

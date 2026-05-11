@@ -23,6 +23,36 @@
     gtag('config', 'G-ZKPZM4LJEE');
   </script>
 
+  <!-- UTM attribution capture (30-day last-touch) -->
+  <script>
+    (function() {
+      var TTL_MS = 30 * 24 * 60 * 60 * 1000;
+      var params = new URLSearchParams(window.location.search);
+      var hasUtm = ['utm_source','utm_medium','utm_campaign'].some(function(key){ return params.has(key); });
+      if (hasUtm) {
+        var record = {
+          utm_source: params.get('utm_source') || '',
+          utm_medium: params.get('utm_medium') || '',
+          utm_campaign: params.get('utm_campaign') || '',
+          saved_at: Date.now()
+        };
+        try { localStorage.setItem('orisha_utm', JSON.stringify(record)); } catch(error) {}
+      }
+      window.__getStoredUtm = function() {
+        try {
+          var raw = localStorage.getItem('orisha_utm');
+          if (!raw) return null;
+          var record = JSON.parse(raw);
+          if (Date.now() - record.saved_at > TTL_MS) {
+            localStorage.removeItem('orisha_utm');
+            return null;
+          }
+          return record;
+        } catch(error) { return null; }
+      };
+    })();
+  </script>
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1487,13 +1517,26 @@
         submitBtn.disabled = true;
         submitBtn.textContent = 'Submitting…';
 
+        // Pull stored UTM attribution (last-touch, 30-day TTL). Always send all
+        // three keys to HubSpot — empty string for un-attributed sessions keeps
+        // the contract clean.
+        const storedUtm = (typeof window.__getStoredUtm === 'function')
+          ? window.__getStoredUtm()
+          : null;
+        const utmSource = storedUtm ? (storedUtm.utm_source || '') : '';
+        const utmMedium = storedUtm ? (storedUtm.utm_medium || '') : '';
+        const utmCampaign = storedUtm ? (storedUtm.utm_campaign || '') : '';
+
         const payload = {
           fields: [
             { objectTypeId: '0-1', name: 'firstname', value: firstName },
             { objectTypeId: '0-1', name: 'farm_name', value: farmName },
             { objectTypeId: '0-1', name: 'email', value: email },
             // HubSpot multi-checkbox properties accept ';'-joined values.
-            { objectTypeId: '0-1', name: 'forty_hour_farmer_deal', value: subs.join(';') }
+            { objectTypeId: '0-1', name: 'forty_hour_farmer_deal', value: subs.join(';') },
+            { objectTypeId: '0-1', name: 'utm_source', value: utmSource },
+            { objectTypeId: '0-1', name: 'utm_medium', value: utmMedium },
+            { objectTypeId: '0-1', name: 'utm_campaign', value: utmCampaign }
           ],
           context: {
             pageUri: window.location.href,
@@ -1519,7 +1562,10 @@
           if (typeof gtag === 'function') {
             gtag('event', 'waitlist_signup', {
               event_category: 'engagement',
-              forty_hour_farmer_deal: subs.length ? subs.join(';') : 'none'
+              forty_hour_farmer_deal: subs.length ? subs.join(';') : 'none',
+              utm_source: utmSource,
+              utm_medium: utmMedium,
+              utm_campaign: utmCampaign
             });
           }
           setTimeout(() => {

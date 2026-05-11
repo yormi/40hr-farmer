@@ -16,6 +16,9 @@ TEST_EMAIL="guillaume+e2e+${TIMESTAMP}@orisha.io"
 TEST_FIRSTNAME="E2E"
 TEST_FARM="Smoke Test Farm"
 TEST_DEAL="orisha;gfm"
+TEST_UTM_SOURCE="gfm"
+TEST_UTM_MEDIUM="referral"
+TEST_UTM_CAMPAIGN="40-hr-farmer-waitlist-2026"
 
 # Load API token
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -56,7 +59,10 @@ CODE=$(curl -s -o /tmp/e2e-submit.json -w "%{http_code}" -X POST \
       {\"objectTypeId\":\"0-1\",\"name\":\"firstname\",\"value\":\"${TEST_FIRSTNAME}\"},
       {\"objectTypeId\":\"0-1\",\"name\":\"farm_name\",\"value\":\"${TEST_FARM}\"},
       {\"objectTypeId\":\"0-1\",\"name\":\"email\",\"value\":\"${TEST_EMAIL}\"},
-      {\"objectTypeId\":\"0-1\",\"name\":\"forty_hour_farmer_deal\",\"value\":\"${TEST_DEAL}\"}
+      {\"objectTypeId\":\"0-1\",\"name\":\"forty_hour_farmer_deal\",\"value\":\"${TEST_DEAL}\"},
+      {\"objectTypeId\":\"0-1\",\"name\":\"utm_source\",\"value\":\"${TEST_UTM_SOURCE}\"},
+      {\"objectTypeId\":\"0-1\",\"name\":\"utm_medium\",\"value\":\"${TEST_UTM_MEDIUM}\"},
+      {\"objectTypeId\":\"0-1\",\"name\":\"utm_campaign\",\"value\":\"${TEST_UTM_CAMPAIGN}\"}
     ],
     \"context\":{\"pageUri\":\"${LANDING_URL}\",\"pageName\":\"40hr Farmer\"}
   }")
@@ -74,7 +80,7 @@ for _ in $(seq 1 15); do
   sleep 2
   CODE=$(curl -s -o /tmp/e2e-contact.json -w "%{http_code}" \
     -H "Authorization: Bearer $HUBSPOT_API_KEY" \
-    "https://api.hubapi.com/crm/v3/objects/contacts/${EMAIL_ENC}?idProperty=email&properties=firstname,email,farm_name,forty_hour_farmer_deal,hs_marketable_status")
+    "https://api.hubapi.com/crm/v3/objects/contacts/${EMAIL_ENC}?idProperty=email&properties=firstname,email,farm_name,forty_hour_farmer_deal,hs_marketable_status,utm_source,utm_medium,utm_campaign")
   [ "$CODE" = "200" ] && break
 done
 if [ "$CODE" != "200" ]; then
@@ -87,14 +93,20 @@ FIRSTNAME=$(jq -r '.properties.firstname' /tmp/e2e-contact.json)
 FARM=$(jq -r '.properties.farm_name' /tmp/e2e-contact.json)
 DEAL=$(jq -r '.properties.forty_hour_farmer_deal' /tmp/e2e-contact.json)
 MARKETABLE=$(jq -r '.properties.hs_marketable_status' /tmp/e2e-contact.json)
+UTM_SOURCE=$(jq -r '.properties.utm_source' /tmp/e2e-contact.json)
+UTM_MEDIUM=$(jq -r '.properties.utm_medium' /tmp/e2e-contact.json)
+UTM_CAMPAIGN=$(jq -r '.properties.utm_campaign' /tmp/e2e-contact.json)
 
 FAILED=0
 [ "$FIRSTNAME" = "$TEST_FIRSTNAME" ] || { echo "  FAIL: firstname=$FIRSTNAME"; FAILED=1; }
 [ "$FARM" = "$TEST_FARM" ] || { echo "  FAIL: farm_name=$FARM"; FAILED=1; }
 [ "$DEAL" = "$TEST_DEAL" ] || { echo "  FAIL: forty_hour_farmer_deal=$DEAL"; FAILED=1; }
 [ "$MARKETABLE" = "true" ] || { echo "  FAIL: hs_marketable_status=$MARKETABLE (must be true)"; FAILED=1; }
+[ "$UTM_SOURCE" = "$TEST_UTM_SOURCE" ] || { echo "  FAIL: utm_source=$UTM_SOURCE"; FAILED=1; }
+[ "$UTM_MEDIUM" = "$TEST_UTM_MEDIUM" ] || { echo "  FAIL: utm_medium=$UTM_MEDIUM"; FAILED=1; }
+[ "$UTM_CAMPAIGN" = "$TEST_UTM_CAMPAIGN" ] || { echo "  FAIL: utm_campaign=$UTM_CAMPAIGN"; FAILED=1; }
 [ "$FAILED" = "0" ] || exit 1
-echo "  OK: contact $CONTACT_ID with all 4 properties + marketing flag"
+echo "  OK: contact $CONTACT_ID with all 4 properties + UTM trio + marketing flag"
 
 # 3. Poll for Email 01 DELIVERED event (max 30s)
 echo "3. Email delivery..."

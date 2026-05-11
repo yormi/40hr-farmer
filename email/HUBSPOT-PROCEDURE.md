@@ -395,7 +395,7 @@ Quirks:
 
 Workflow ID: `1804689064` (still disabled — enable in UI when ready)
 Form ID: `7f28cb26-8aea-432e-bf7f-c50a1484d0a3` (V3, API-managed; replaces V4 form `036c50fb-…` retired 2026-05-04)
-Custom contact properties: `farm_name` (text), `forty_hour_farmer_deal` (multi-checkbox: `orisha`, `gfm`)
+Custom contact properties: `farm_name` (text), `forty_hour_farmer_deal` (multi-checkbox: `orisha`, `gfm`), `utm_source` (text), `utm_medium` (text), `utm_campaign` (text)
 
 ## End-to-end smoke test (added 2026-05-04)
 

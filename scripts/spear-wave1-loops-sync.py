@@ -52,6 +52,10 @@ def post_contact(api_key: str, payload: dict) -> tuple[int, dict]:
     request = urllib.request.Request(LOOPS_ENDPOINT, data=data, method="POST")
     request.add_header("Authorization", f"Bearer {api_key}")
     request.add_header("Content-Type", "application/json")
+    request.add_header(
+        "User-Agent",
+        "Mozilla/5.0 (compatible; orisha-spear-sync/1.0; +https://orisha.io)",
+    )
     try:
         with urllib.request.urlopen(request) as response:
             raw = response.read().decode()

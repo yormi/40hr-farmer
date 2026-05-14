@@ -46,7 +46,7 @@
 >
 > Do more with less, they say... But how?
 >
-> We're launching a program to guide farmers do that. Starting with the most unnapreciated opportunity on the farm.
+> We're launching a program to guide farmers do that. Starting with the most underappreciated opportunity on the farm.
 >
 > Worth a look? [Check how it works!](https://the40hourfarmer.orisha.io/#leverage)
 >
@@ -60,11 +60,11 @@
 >
 > Struggling to imagine how the farm could run without putting in all these hours?
 >
-> Drew & Allison from Ghosthouse Farm made the farm replace their off-farm paycheck.
+> Drew & Allison from Ghost House Farm made the farm replace their off-farm paycheck.
 >
 > [Check how they did it!](https://the40hourfarmer.orisha.io/#leverage)
 >
-> You'll find their story, and the the program we're launching to help other diversified farmers adopt the same techniques.
+> You'll find their story, and the program we're launching to help other diversified farmers adopt the same techniques.
 >
 > Guillaume
 >

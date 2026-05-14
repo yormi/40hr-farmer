@@ -62,7 +62,7 @@
 >
 > Drew & Allison from Ghost House Farm made the farm replace their off-farm paycheck.
 >
-> [Check how they did it!](https://the40hourfarmer.orisha.io/#leverage)
+> [Check how they did it!](https://the40hourfarmer.orisha.io/#story)
 >
 > You'll find their story, and the program we're launching to help other diversified farmers adopt the same techniques.
 >
@@ -70,10 +70,10 @@
 >
 > PS: The program's free this year for Orisha users
 
-**CTA:** the bracketed sentence in each body is the link. Target: `https://the40hourfarmer.orisha.io/#leverage` for both, with SPEAR UTM params per [`spear-wave-plan.md`](spear-wave-plan.md). `utm_content` differs:
+**CTA:** the bracketed sentence in each body is the link, with SPEAR UTM params per [`spear-wave-plan.md`](spear-wave-plan.md). Anchor + `utm_content` differ per body:
 
-- Body A: `wave1-howto`
-- Body B: `wave1-flip`
+- Body A: `https://the40hourfarmer.orisha.io/#leverage`, `utm_content=wave1-howto`
+- Body B: `https://the40hourfarmer.orisha.io/#story`, `utm_content=wave1-flip`
 
 **Sending platform:** Loops.so. Contact list built dynamically in HubSpot (engaged remainder minus Wave 0 recipients), exported to Loops. 852-contact audience splits 50/50 between Body A and Body B.
 

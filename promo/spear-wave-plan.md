@@ -1,6 +1,6 @@
 # 40hr Farmer SPEAR — send wave plan
 
-**Status:** Wave 0 sent 2026-05-12. Wave 1 locked 2026-05-13, on Loops.so.
+**Status:** Wave 0 sent 2026-05-12. Wave 1 locked 2026-05-14 (subject + 2-body A/B), on Loops.so.
 **Source list:** HubSpot list `1722` — "The 40 Hour Farmer SPEAR" (size 4955 as of 2026-05-13).
 **SPEAR copy:** [`promo/orisha-list-spear.md`](orisha-list-spear.md).
 **Framework:** Dan Martell single-email SPEAR. CTA = link to landing page (`#leverage` anchor).
@@ -43,19 +43,21 @@ Body identical across variants. Sender, reply-to, send time identical across var
 
 **Read:** Subject B leads on opens. B and C tied on click; no clear 1.5× click winner per decision gate. Click rates (0 to 6%) signal the **body** is the bottleneck (it was identical across A/B/C). Subject was off-axis from body (subjects promised hours/income/energy; body opened on energy-for-people only). Decision: lock subject B for Wave 1; ship a new body aligned to the subject's promise.
 
-### Wave 1 — engaged remainder (locked 2026-05-13)
+### Wave 1 — engaged remainder (locked 2026-05-14)
 
 | Field | Value |
 |---|---|
 | Source | Engaged sub-segment minus Wave 0 contacts |
 | Audience size | **852** (built via `scripts/spear-wave1-build.py`; HubSpot static list `1732` for parity) |
-| Subject | Cutting farm hours without cutting income (Wave 0 Variant B) |
-| Body | Yield (see [`orisha-list-spear.md`](orisha-list-spear.md)) |
-| Platform | Loops.so (audience pushed via `scripts/spear-wave1-loops-sync.py`, tagged `spearWave1 = yield`) |
+| Subject | Making the farm pay for the life you want |
+| Bodies (A/B) | A: Mechanism / How. B: Flip / Drew & Allison. Both locked in [`orisha-list-spear.md`](orisha-list-spear.md). |
+| Platform | Loops.so (audience pushed via `scripts/spear-wave1-loops-sync.py`, tagged `spearWave1 = yield`; tag will be re-split into `wave1-howto` / `wave1-flip` before send) |
 | Read window | 48h |
 | Metrics | Same as Wave 0, plus baseline numbers for Wave 2 expectations |
 
-A second body variant is planned for the A/B split (see [`orisha-list-spear.md`](orisha-list-spear.md) "A/B partner body: pending"). Once locked, split the 852 audience 50/50 between the two bodies and adjust UTM `utm_content` per body.
+**Subject change note (2026-05-14):** Wave 0 winner subject ("Cutting farm hours without cutting income") was dropped in favor of "Making the farm pay for the life you want" alongside the body refresh. Wave 2+ subject will be re-decided after Wave 1 results.
+
+Split the 852 audience 50/50 between Body A and Body B; `utm_content` differs per body (`wave1-howto` vs `wave1-flip`).
 
 ### Wave 2+ — cold remainder (~3939 contacts)
 
@@ -85,15 +87,16 @@ Landing link UTM scheme:
 | `utm_source` | `orisha-email` |
 | `utm_medium` | `email` |
 | `utm_campaign` | `spear-2026-05` |
-| `utm_content` | Wave 0: `subject-a` / `subject-b` / `subject-c`. Wave 1: `wave1-yield` (and `wave1-<theme>` for the second body once locked). |
+| `utm_content` | Wave 0: `subject-a` / `subject-b` / `subject-c`. Wave 1: `wave1-howto` (Body A) / `wave1-flip` (Body B). |
 
 Wave 0 URLs:
 - Variant A: `https://the40hourfarmer.orisha.io/?utm_source=orisha-email&utm_medium=email&utm_campaign=spear-2026-05&utm_content=subject-a`
 - Variant B: `https://the40hourfarmer.orisha.io/?utm_source=orisha-email&utm_medium=email&utm_campaign=spear-2026-05&utm_content=subject-b`
 - Variant C: `https://the40hourfarmer.orisha.io/?utm_source=orisha-email&utm_medium=email&utm_campaign=spear-2026-05&utm_content=subject-c`
 
-Wave 1 URL (Yield body):
-- `https://the40hourfarmer.orisha.io/?utm_source=orisha-email&utm_medium=email&utm_campaign=spear-2026-05&utm_content=wave1-yield#leverage`
+Wave 1 URLs:
+- Body A (Mechanism / How): `https://the40hourfarmer.orisha.io/?utm_source=orisha-email&utm_medium=email&utm_campaign=spear-2026-05&utm_content=wave1-howto#leverage`
+- Body B (Flip / Drew & Allison): `https://the40hourfarmer.orisha.io/?utm_source=orisha-email&utm_medium=email&utm_campaign=spear-2026-05&utm_content=wave1-flip#leverage`
 
 Downstream conversion = waitlist form submit (already tracked, triggers the welcome workflow).
 
@@ -121,12 +124,12 @@ Hard-bounce-history exclusion is optional; not currently in list 1722. HubSpot a
 
 ## Loops.so campaign setup (Wave 1)
 
-Audience is pre-tagged in Loops with custom field `spearWave1 = "yield"` (852 contacts as of 2026-05-13). For the smoke test and bulk send, in the Loops dashboard:
+Audience is pre-tagged in Loops with custom field `spearWave1 = "yield"` (852 contacts as of 2026-05-13). Before the smoke test, re-split that tag 50/50 into `wave1-howto` and `wave1-flip` so each body has its own audience filter. Then, for each body in the Loops dashboard:
 
-1. **Campaigns → New campaign.** Name: "SPEAR Wave 1 — Yield".
-2. **Audience filter:** `spearWave1` equals `yield`. (Should resolve to 852 contacts.)
-3. **Subject:** `Cutting farm hours without cutting income`.
+1. **Campaigns → New campaign.** Name: "SPEAR Wave 1 — Mechanism (A)" / "SPEAR Wave 1 — Flip (B)".
+2. **Audience filter:** `spearWave1` equals `wave1-howto` (A) or `wave1-flip` (B). Each should resolve to ~426 contacts.
+3. **Subject (both):** `Making the farm pay for the life you want`.
 4. **From name:** `Guillaume Lambert`. **Reply-to:** `guillaume@orisha.io`.
-5. **Body:** paste from [`orisha-list-spear.md`](orisha-list-spear.md) Wave 1 section. First-name token: `{{firstName | default: "there"}}` (Loops Liquid). CTA href: the Wave 1 URL above.
-6. **Send test** to `guillaume@orisha.io` from the campaign editor. Verify: subject, token resolution, link with UTM, landing page loads, downstream form submit triggers the welcome workflow.
-7. After test passes and second body is locked, split 852 audience 50/50 between bodies (use a second custom field value, e.g. `spearWave1 = "yield"` vs `spearWave1 = "<theme>"`) and send both campaigns simultaneously.
+5. **Body:** paste the matching body from [`orisha-list-spear.md`](orisha-list-spear.md) Wave 1 section. First-name token: `{{firstName | default: "there"}}` (Loops Liquid). CTA href: the matching Wave 1 URL above (Body A → `wave1-howto`, Body B → `wave1-flip`).
+6. **Send test** of each campaign to `guillaume@orisha.io` from the campaign editor. Verify: subject, token resolution, link with UTM, landing page loads, downstream form submit triggers the welcome workflow.
+7. After both tests pass, send both campaigns simultaneously.

@@ -34,11 +34,54 @@
 
 ---
 
-## Wave 1 — locked 2026-05-13
+## Wave 1 — locked 2026-05-14
 
-**Subject:** Cutting farm hours without cutting income (Wave 0 Variant B)
+**Subject:** Making the farm pay for the life you want
 
-**Body (Yield, locked):**
+**Body A (Mechanism / How, locked 2026-05-14):**
+
+> Hey {{firstName | default: "there"}},
+>
+> Would you like to cut the hours necessary to run your farm?
+>
+> Do more with less, they say... But how?
+>
+> We're launching a program to guide farmers do that. Starting with the most unnapreciated opportunity on the farm.
+>
+> Worth a look? [Check how it works!](https://the40hourfarmer.orisha.io/#leverage)
+>
+> Guillaume
+>
+> PS: The program's free this year for Orisha users
+
+**Body B (Flip / Drew & Allison, locked 2026-05-14):**
+
+> Hey {{firstName | default: "there"}},
+>
+> Struggling to imagine how the farm could run without putting in all these hours?
+>
+> Drew & Allison from Ghosthouse Farm made the farm replace their off-farm paycheck.
+>
+> [Check how they did it!](https://the40hourfarmer.orisha.io/#leverage)
+>
+> You'll find their story, and the the program we're launching to help other diversified farmers adopt the same techniques.
+>
+> Guillaume
+>
+> PS: The program's free this year for Orisha users
+
+**CTA:** the bracketed sentence in each body is the link. Target: `https://the40hourfarmer.orisha.io/#leverage` for both, with SPEAR UTM params per [`spear-wave-plan.md`](spear-wave-plan.md). `utm_content` differs:
+
+- Body A: `wave1-howto`
+- Body B: `wave1-flip`
+
+**Sending platform:** Loops.so. Contact list built dynamically in HubSpot (engaged remainder minus Wave 0 recipients), exported to Loops. 852-contact audience splits 50/50 between Body A and Body B.
+
+### Retired (locked 2026-05-13, replaced 2026-05-14)
+
+Replaced 2026-05-14 by the two bodies above, alongside a subject change ("Cutting farm hours without cutting income" → "Making the farm pay for the life you want"). Never sent.
+
+**Body (Yield, retired):**
 
 > Hey FIRST_NAME,
 >
@@ -52,12 +95,6 @@
 > Guillaume
 >
 > PS: Andrew Mefferd, Antoine and I are launching a program to help other diversified farmers leverage their yield to pay for the life we're after. Worth a look, check the link above :)
-
-**CTA:** the bracketed sentence is the link. Target: `https://the40hourfarmer.orisha.io/#leverage` (+ SPEAR UTM params per [`spear-wave-plan.md`](spear-wave-plan.md)).
-
-**Sending platform:** Loops.so. Contact list built dynamically in HubSpot (engaged remainder minus Wave 0 recipients), exported to Loops.
-
-**A/B partner body:** pending. If a second body is locked, it goes here as "Body (X, locked)" and Wave 1 splits 50/50 between the two.
 
 ---
 

@@ -1,0 +1,36 @@
+name: Sync Resend unsubscribes → HubSpot
+
+# Mirrors Resend's per-audience `unsubscribed: true` flag into HubSpot via the
+# v1 subscriptions endpoint (global opt-out). Closes the CASL gap where a
+# recipient unsubscribes via Resend but HubSpot's welcome workflow keeps
+# emailing them.
+#
+# Requires two repo secrets:
+#   - RESEND_API_KEY  (Settings → Secrets and variables → Actions)
+#   - HUBSPOT_API_KEY (private app token, marketing email scope)
+#
+# Schedule chosen to spread load off the top of the hour. Free GitHub Actions
+# cron can be delayed up to ~15 min on quiet repos — acceptable for an
+# unsubscribe-propagation window.
+
+on:
+  schedule:
+    - cron: "17 * * * *"  # every hour at :17
+  workflow_dispatch: {}    # manual trigger from the Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync unsubscribes
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          HUBSPOT_API_KEY: ${{ secrets.HUBSPOT_API_KEY }}
+        run: python3 scripts/sync-resend-unsubscribes-to-hubspot.py --push

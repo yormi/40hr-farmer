@@ -132,8 +132,14 @@ Domain `orisha.io` is verified in Resend (DKIM + SPF + tracking CNAME on `learn.
 
 ### Audience prep
 
-1. Import `promo/spear-wave1-audience.csv` (852 rows: `email,firstname,contactId`) as a new Resend Audience named **"SPEAR Wave 1 — Engaged remainder"**.
-2. Split 50/50 into two sub-audiences (or use Resend Segments) so each variant addresses ~426 contacts. Tag each sub-audience with `wave1-howto` (A) and `wave1-flip` (B) for reporting parity.
+Run `python scripts/spear-wave1-resend-import.py --push` (idempotent). It:
+
+1. Reads `promo/spear-wave1-audience.csv` (852 rows: `email,firstname,contactId`).
+2. Deterministically shuffles with seed `42` and splits 50/50 (426 / 426).
+3. Creates or finds two audiences in Resend: `SPEAR Wave 1 — A (Mechanism)` and `SPEAR Wave 1 — B (Flip)`. Two audiences instead of one with a Segment because Segments are paid-plan-only; pre-split audiences keep the broadcast config simple on any tier.
+4. Writes the sync log + audience IDs to `promo/spear-wave1-resend-sync.log.json`.
+
+**Plan-tier note:** Resend free tier caps at 3 audiences total. The "General" default + A + B uses all three; any new audience needs one deleted first.
 
 ### Per-broadcast config (do this twice — once for A, once for B)
 
@@ -161,6 +167,13 @@ Domain `orisha.io` is verified in Resend (DKIM + SPF + tracking CNAME on `learn.
 3. After both tests pass, `POST /broadcasts/{id}` with `{"send": true}` (or click Send in the dashboard) for both, simultaneously.
 4. Monitor open/click events via `GET /emails/{id}` or webhooks; aggregate stats appear on the broadcast detail page.
 
-### Cross-system unsubscribe (open item)
+### Cross-system unsubscribe sync
 
-Resend recipients who click Unsubscribe opt out of Resend only. **HubSpot doesn't know**, so they keep getting welcome workflow emails — CASL exposure. Before Wave 1 sends, set up a Resend → HubSpot webhook bridge (Resend `email.unsubscribed` event → HubSpot `PATCH /crm/v3/objects/contacts/{id}` setting marketing-contact = false or unsubscribed = true). ~30 min of work; not yet built.
+Closed by `scripts/sync-resend-unsubscribes-to-hubspot.py` + the GitHub Action at `.github/workflows/sync-unsubscribes.yml`. The action runs hourly: iterates every Resend audience, finds contacts with `unsubscribed: true`, calls HubSpot's v1 `PUT /email/public/v1/subscriptions/{email}` with `{"unsubscribeFromAll": true}`. Idempotent — re-running is safe.
+
+**One-time setup** (the action won't run until both are set):
+
+1. In the GitHub repo, add two Actions secrets: `RESEND_API_KEY` and `HUBSPOT_API_KEY` (Settings → Secrets and variables → Actions).
+2. Confirm the HubSpot private app token has the `marketing-email` (or equivalent) scope for the v1 subscriptions endpoint.
+
+Lag: up to ~1 hour between a Resend unsubscribe and HubSpot reflection. Acceptable for the CASL window because the welcome workflow sends at most a few emails/day. If the lag becomes a real problem, swap the cron for a Resend webhook bridge (Cloudflare Worker, ~30 min).

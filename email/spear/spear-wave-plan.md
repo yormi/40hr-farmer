@@ -2,9 +2,9 @@
 
 **Status:** Wave 0 sent 2026-05-12. Wave 1 locked 2026-05-14, sending platform switched from Loops.so → Sequenzy → Resend on 2026-05-15.
 **Source list:** HubSpot list `1722` — "The 40 Hour Farmer SPEAR" (size 4955 as of 2026-05-13).
-**SPEAR copy:** [`promo/orisha-list-spear.md`](orisha-list-spear.md).
+**SPEAR copy:** [`orisha-list-spear.md`](orisha-list-spear.md).
 **Framework:** Dan Martell single-email SPEAR. CTA = link to landing page (anchor varies per body).
-**Sending platform:** Resend. See [Resend broadcast setup](#resend-broadcast-setup-wave-1) below. Compliance footer at [`email/compliance-footer.html`](../email/compliance-footer.html).
+**Sending platform:** Resend. See [Resend broadcast setup](#resend-broadcast-setup-wave-1) below. Compliance footer at [`email/compliance-footer.html`](../compliance-footer.html).
 
 ## Hero metric
 
@@ -49,7 +49,7 @@ Body identical across variants. Sender, reply-to, send time identical across var
 | Field | Value |
 |---|---|
 | Source | Engaged sub-segment minus Wave 0 contacts |
-| Audience size | **852** (built via `scripts/spear-wave1-build.py`; HubSpot static list `1732` for parity; CSV at `promo/spear-wave1-audience.csv`) |
+| Audience size | **852** (built via `email/spear/scripts/spear-wave1-build.py`; HubSpot static list `1732` for parity; CSV at `email/spear/spear-wave1-audience.csv`) |
 | Variant A | **Subject:** "Cutting farm hours without cutting income". **Body:** Mechanism / How. CTA → `#leverage`, `utm_content=wave1-howto`. |
 | Variant B | **Subject:** "Making the farm pay for the life you want". **Body:** Flip / Drew & Allison. CTA → `#story`, `utm_content=wave1-flip`. |
 | Both locked in | [`orisha-list-spear.md`](orisha-list-spear.md) |
@@ -59,7 +59,7 @@ Body identical across variants. Sender, reply-to, send time identical across var
 
 **Subject design:** A/B run two distinct subject lines paired with two distinct bodies (subject A ↔ body A, subject B ↔ body B), splitting the 852-contact audience 50/50. Wave 2+ subject will be re-decided after Wave 1 results.
 
-**Platform-switch audit trail (2026-05-15):** Wave 1 was originally set up on Loops.so (audience pushed via the now-defunct `scripts/spear-wave1-loops-sync.py`, tagged `spearWave1 = yield`). Migrated to Sequenzy briefly, then off Sequenzy to Resend the same day — full reasoning in memory note `project-email-platform-resend`. The Loops sync script is dead; Sequenzy sequences are abandoned drafts in the Sequenzy dashboard.
+**Platform-switch audit trail (2026-05-15):** Wave 1 was originally set up on Loops.so (audience pushed via a sync script, tagged `spearWave1 = yield`). Migrated to Sequenzy briefly, then off Sequenzy to Resend the same day — full reasoning in memory note `project-email-platform-resend`. The Loops sync script and Sequenzy drafts have been deleted from the repo.
 
 ### Wave 2+ — cold remainder (~3939 contacts)
 
@@ -128,16 +128,16 @@ Hard-bounce-history exclusion is optional; not currently in list 1722. HubSpot a
 
 ## Resend broadcast setup (Wave 1)
 
-Domain `orisha.io` is verified in Resend (DKIM + SPF + tracking CNAME on `learn.orisha.io`, all set 2026-05-15). Compliance footer lives at [`email/compliance-footer.html`](../email/compliance-footer.html) and is included verbatim at the bottom of each body.
+Domain `orisha.io` is verified in Resend (DKIM + SPF + tracking CNAME on `learn.orisha.io`, all set 2026-05-15). Compliance footer lives at [`email/compliance-footer.html`](../compliance-footer.html) and is included verbatim at the bottom of each body.
 
 ### Audience prep
 
-Run `python scripts/spear-wave1-resend-import.py --push` (idempotent). It:
+Run `python email/spear/scripts/spear-wave1-resend-import.py --push` (idempotent). It:
 
-1. Reads `promo/spear-wave1-audience.csv` (852 rows: `email,firstname,contactId`).
+1. Reads `email/spear/spear-wave1-audience.csv` (852 rows: `email,firstname,contactId`).
 2. Deterministically shuffles with seed `42` and splits 50/50 (426 / 426).
 3. Creates or finds two audiences in Resend: `SPEAR Wave 1 — A (Mechanism)` and `SPEAR Wave 1 — B (Flip)`. Two audiences instead of one with a Segment because Segments are paid-plan-only; pre-split audiences keep the broadcast config simple on any tier.
-4. Writes the sync log + audience IDs to `promo/spear-wave1-resend-sync.log.json`.
+4. Writes the sync log + audience IDs to `email/spear/spear-wave1-resend-sync.log.json`.
 
 **Plan-tier note:** Resend free tier caps at 3 audiences total. The "General" default + A + B uses all three; any new audience needs one deleted first.
 
@@ -169,7 +169,7 @@ Run `python scripts/spear-wave1-resend-import.py --push` (idempotent). It:
 
 ### Cross-system unsubscribe sync
 
-Closed by `scripts/sync-resend-unsubscribes-to-hubspot.py` + the GitHub Action at `.github/workflows/sync-unsubscribes.yml`. The action runs hourly: iterates every Resend audience, finds contacts with `unsubscribed: true`, calls HubSpot's v1 `PUT /email/public/v1/subscriptions/{email}` with `{"unsubscribeFromAll": true}`. Idempotent — re-running is safe.
+Closed by `scripts/sync-resend-unsubscribes-to-hubspot.py` (repo root) + the GitHub Action at `.github/workflows/sync-unsubscribes.yml`. The action runs hourly: iterates every Resend audience, finds contacts with `unsubscribed: true`, calls HubSpot's v1 `PUT /email/public/v1/subscriptions/{email}` with `{"unsubscribeFromAll": true}`. Idempotent — re-running is safe.
 
 **One-time setup** (the action won't run until both are set):
 

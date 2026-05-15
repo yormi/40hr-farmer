@@ -15,14 +15,14 @@ Waitlist and email funnel live before the June 2026 cohort launch.
 ### Done
 
 - Phase 1: content extraction and copy refinement.
-- Phase 2: landing page built (`index.html` deployed).
+- Phase 2: landing page built (`landing/index.html` deployed).
 - Phase 3: GitHub Pages deploy at https://the40hourfarmer.orisha.io/ (custom domain on the `yormi/40hr-farmer` repo; `yormi.github.io/40hr-farmer/` redirects here, preserving query params).
 - Phase 4: HubSpot form integration.
 - Phase 5: 5 welcome emails written and uploaded to HubSpot.
 - Phase 6: HubSpot automation workflow built (disabled, enable when ready).
 - GA4 analytics: form conversion + CTA click tracking.
 - Photo collection: 14 photos from Ferme Décembre shared album + 66 curated photos from personal library (Aug 2025+) in `assets/clients/ferme-decembre/`.
-- **Landing page rework under reader-type-first method** — step-1 page intent + step-2 section intents + step-3 decompositions all locked in `docs/landing/outline.md`. Step-4 locked copy now covers: Hero (Gut), Drew arc (Peer Sub 1), What a bed can buy back (Peer Sub 2), Analytical Subs 1–4, Practical Subs 1–3, Team section (Committer Sub 1 including all three bios + framing + closer), and Committer Sub 2 Beat 1 (why today).
+- **Landing page rework under reader-type-first method** — step-1 page intent + step-2 section intents + step-3 decompositions all locked in `landing/docs/outline.md`. Step-4 locked copy now covers: Hero (Gut), Drew arc (Peer Sub 1), What a bed can buy back (Peer Sub 2), Analytical Subs 1–4, Practical Subs 1–3, Team section (Committer Sub 1 including all three bios + framing + closer), and Committer Sub 2 Beat 1 (why today).
 
 ### Pending
 
@@ -70,7 +70,7 @@ Three people show up on the live coaching calls:
 
 **Louis-Bernard (LB)** hosts the community forum between calls — **not on the live calls**. Orisha is the backing company.
 
-Canonical bios, framing, and closer are locked in `docs/landing/outline.md` (Team section). Brand-level story context in [`brand/docs/internal/story-and-origin.md`](../brand/docs/internal/story-and-origin.md).
+Canonical bios, framing, and closer are locked in `landing/docs/outline.md` (Team section). Brand-level story context in [`brand/docs/internal/story-and-origin.md`](../brand/docs/internal/story-and-origin.md).
 
 ## Ferme Décembre (Guillaume's farm project)
 
@@ -83,12 +83,12 @@ Canonical bios, framing, and closer are locked in `docs/landing/outline.md` (Tea
 
 Log of decisions already made, so we do not re-litigate them. Does not cover pending drafts.
 
-- **FAQ section shipped** in `index.html` between `#pricing` and `#testimonials` (roughly lines 610 to 717). Intro mailto points to `louis-bernard@orisha.io`. Q4 is written generically so it does not rot when the email sequence changes. Q6 wording ("probably a stretch") is intentionally firm; Guillaume may revisit if the tone feels wrong over time.
+- **FAQ section shipped** in `landing/index.html` between `#pricing` and `#testimonials` (roughly lines 610 to 717). Intro mailto points to `louis-bernard@orisha.io`. Q4 is written generically so it does not rot when the email sequence changes. Q6 wording ("probably a stretch") is intentionally firm; Guillaume may revisit if the tone feels wrong over time.
 - **Drew testimonial updated:** pull quote unchanged, "Read his season" link added pointing to `/drew-season/`. **Do not mention the yield number** (4x, 250%, or 2000 lbs) in the testimonial itself. The lifestyle angle (Allison quitting) is the chosen hook.
-- **Drew 15-episode season published** at `drew-season/`. Build script: `scripts/build-drew-season.py`. Cached HubSpot responses: `.cache/drew-emails/` (gitignored).
+- **Drew 15-episode season published** at `drew-season/`. (Build script `scripts/build-drew-season.py` was deleted 2026-05-15 when HubSpot sending code was retired; the published site stays.)
 - **HubSpot API credentials** at `.secrets/hubspot.env` as `HUBSPOT_API_KEY`. `.secrets/` is gitignored.
 - **Photo diversity pass done:** Jordane visible in 2 of 8 hero-region slots (down from 4). `drive-0241.jpg` and `drive-0672.jpg` added.
-- **Landing rework in progress** in `docs/landing/` (process.md, outline.md, sources/). The older reframe-drafts.md and option1-landing-draft.md have been retired; their best material flowed into the current outline. Working doc for the reader-type-first rework is `docs/landing/outline.md`, which holds both the page structure and all locked copy.
+- **Landing rework in progress** in `landing/docs/` (process.md, outline.md, sources/). The older reframe-drafts.md and option1-landing-draft.md have been retired; their best material flowed into the current outline. Working doc for the reader-type-first rework is `landing/docs/outline.md`, which holds both the page structure and all locked copy.
 - **Upstream promotion plan** shortened from 11 pages to 4. Final version at `docs/upstream-promotion-plan.md`, treat as frozen.
 - **Factual corrections resolved in conversation:**
   - Drop "flooding" from Drew's story. He had **wilted** transplants, not flooding.
@@ -98,7 +98,7 @@ Log of decisions already made, so we do not re-litigate them. Does not cover pen
 ## Open items (TBD, do not invent)
 
 - **GFM editorial deadline** for the upstream promotion piece. Need from Andrew at GFM.
-- **Pending landing-copy work in `docs/landing/outline.md`:** see the Status markers per section. Remaining: Committer Sub 2 Beats 2–4 (what-happens-after-signup, form, disclosures), "What it starts to feel like" placement decision, FAQ re-draft under the reader-type-first method.
+- **Pending landing-copy work in `landing/docs/outline.md`:** see the Status markers per section. Remaining: Committer Sub 2 Beats 2–4 (what-happens-after-signup, form, disclosures), "What it starts to feel like" placement decision, FAQ re-draft under the reader-type-first method.
 - **HubSpot API token rotation.** Guillaume pasted the token into chat, so treat it as slightly exposed. Low urgency, but worth rotating when convenient.
 
 ## Funnel conversions to optimize
@@ -116,10 +116,15 @@ Log of decisions already made, so we do not re-litigate them. Does not cover pen
 
 ## Key files
 
-- `index.html` — landing page (deployed)
-- `email/*.html` — 5 welcome email templates
-- `email/HUBSPOT-PROCEDURE.md` — HubSpot API setup docs
+- `landing/index.html` — landing page (deployed)
+- `landing/40hr_farmer_pitch_deck.html` — pitch deck
+- `landing/docs/` — landing rework process, outline + locked copy, sources
+- `email/welcome-sequence/` — 5 welcome email templates + `docs/sequence-plan.md`
+- `email/spear/` — SPEAR broadcast project (plan, audience CSVs, samples, scripts)
+- `email/compliance-footer.html` — CASL footer for Resend sends
+- `docs/resend-welcome-migration-plan.md` — plan for moving welcome sequence off HubSpot
 - `docs/user-experience-flow.md` — email sequence flow diagram
-- `docs/brand/` — brand foundations
+- `brand/docs/` — brand foundations (submodule)
 - `assets/clients/ferme-decembre/` — farm photos
-- `scripts/gphotos_picker.py` + `.secrets/gphotos-oauth-client.json` — Google Photos Picker API (OAuth). `.secrets/` is gitignored.
+- `scripts/sync-resend-unsubscribes-to-hubspot.py` — Resend → HubSpot unsubscribe sync (cron via `.github/workflows/sync-unsubscribes.yml`)
+- `scripts/dev-server.sh` + `scripts/deploy-staging.sh` — landing-page local dev + staging deploy

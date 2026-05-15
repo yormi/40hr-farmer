@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Import the SPEAR Wave 1 audience into Resend, split 50/50 for A/B.
 
-Reads promo/spear-wave1-audience.csv and pushes each row into ONE OF TWO
+Reads email/spear/spear-wave1-audience.csv and pushes each row into ONE OF TWO
 Resend audiences using a deterministic random shuffle (seed 42):
 
   Audience A — "SPEAR Wave 1 — A (Mechanism)"   ← Body A recipients
@@ -16,9 +16,9 @@ paid plans; pre-split audiences work on every tier and keep the broadcast
 config simple (each broadcast targets exactly one audience).
 
 Usage:
-  python scripts/spear-wave1-resend-import.py            # dry run, prints split summary
-  python scripts/spear-wave1-resend-import.py --push     # actually create audiences + push contacts
-  python scripts/spear-wave1-resend-import.py --push --limit 5  # smoke push first 5 per side
+  python email/spear/scripts/spear-wave1-resend-import.py            # dry run, prints split summary
+  python email/spear/scripts/spear-wave1-resend-import.py --push     # actually create audiences + push contacts
+  python email/spear/scripts/spear-wave1-resend-import.py --push --limit 5  # smoke push first 5 per side
 """
 
 import argparse
@@ -31,10 +31,10 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parents[3]
 SECRETS_PATH = REPO_ROOT / ".secrets" / "resend.env"
-AUDIENCE_CSV_PATH = REPO_ROOT / "promo" / "spear-wave1-audience.csv"
-SYNC_LOG_PATH = REPO_ROOT / "promo" / "spear-wave1-resend-sync.log.json"
+AUDIENCE_CSV_PATH = REPO_ROOT / "email" / "spear" / "spear-wave1-audience.csv"
+SYNC_LOG_PATH = REPO_ROOT / "email" / "spear" / "spear-wave1-resend-sync.log.json"
 
 RESEND_BASE = "https://api.resend.com"
 AUDIENCE_A_NAME = "SPEAR Wave 1 — A (Mechanism)"

@@ -1,6 +1,6 @@
 # Drew on Growing for Market podcast, curated quotes
 
-**Source:** `docs/landing/sources/drew-gfm-podcast-transcript.txt` (~2hr interview, Andrew Mefferd × Drew Cramer, Ghost House Farm)
+**Source:** `landing/docs/sources/drew-gfm-podcast-transcript.txt` (~2hr interview, Andrew Mefferd × Drew Cramer, Ghost House Farm)
 **Recorded:** April 2025, releases May 2025
 
 All quotes verbatim from Drew. Minor transcription artifacts (Orisha → "Aresha/Arisha", filler "like"s, restart stutters) lightly cleaned where the meaning would otherwise be lost; nothing else paraphrased. Line numbers reference the raw transcript.
@@ -129,7 +129,7 @@ This source overlaps with `drew-quotes.md` (the Drew & Allison video) on the 250
 
 Why: Concrete units the reader can compare their own farm against. "One of the better producers in the area" pre-Orisha is the credibility hinge, it tells the reader Drew's starting point wasn't a basket case.
 
-Status: locked into the *Starting with the bed that'll free you the most* section in `docs/landing/outline.md` (between "That's the lever." and the labor-intensive paragraph) on 2026-04-27. Substantiates the "yield doubles" hinge in a peer-verifiable unit (lb/ft²) before the section pivots to the choice.
+Status: locked into the *Starting with the bed that'll free you the most* section in `landing/docs/outline.md` (between "That's the lever." and the labor-intensive paragraph) on 2026-04-27. Substantiates the "yield doubles" hinge in a peer-verifiable unit (lb/ft²) before the section pivots to the choice.
 
 ### For the "more output, not less work" honesty beat — **NOT TAKEN**
 

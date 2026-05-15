@@ -34,10 +34,11 @@ See [`docs/project-state.md`](docs/project-state.md) for current phases, key IDs
 
 ## Email infrastructure
 
-- **Broadcasts / marketing sends:** Resend (verified domain `orisha.io`). CASL-compliant footer snippet at [`email/compliance-footer.html`](email/compliance-footer.html) — drop into every marketing send verbatim. SPEAR-specific procedure in [`promo/spear-wave-plan.md`](promo/spear-wave-plan.md).
-- **Welcome workflow + CRM:** HubSpot. Resend → HubSpot unsubscribe sync runs hourly via [`.github/workflows/sync-unsubscribes.yml`](.github/workflows/sync-unsubscribes.yml) — needs `RESEND_API_KEY` + `HUBSPOT_API_KEY` repo secrets.
-- **API keys:** `.secrets/*.env` files locally (`resend.env`, `hubspot.env`); env vars in CI. Scripts in `scripts/` follow this pattern.
-- Loops and Sequenzy were tried and dropped 2026-05-15 — do not suggest as ESP options. The script `scripts/spear-wave1-loops-sync.py` is dead.
+- **Broadcasts / marketing sends:** Resend (verified domain `orisha.io`). CASL-compliant footer snippet at [`email/compliance-footer.html`](email/compliance-footer.html) — drop into every marketing send verbatim. SPEAR-specific procedure in [`email/spear/spear-wave-plan.md`](email/spear/spear-wave-plan.md).
+- **Welcome sequence:** templates in [`email/welcome-sequence/`](email/welcome-sequence/). Sending is being migrated off HubSpot (see [`docs/resend-welcome-migration-plan.md`](docs/resend-welcome-migration-plan.md)).
+- **CRM:** HubSpot only. Landing page form submits create contacts via HubSpot Forms API. Resend → HubSpot unsubscribe sync runs hourly via [`.github/workflows/sync-unsubscribes.yml`](.github/workflows/sync-unsubscribes.yml) — needs `RESEND_API_KEY` + `HUBSPOT_API_KEY` repo secrets.
+- **API keys:** `.secrets/*.env` files locally (`resend.env`, `hubspot.env`); env vars in CI. Scripts follow this pattern.
+- Loops and Sequenzy were tried and dropped 2026-05-15 — do not suggest as ESP options.
 
 ## Funnel conversions to optimize
 
@@ -47,13 +48,13 @@ See [`docs/project-state.md`](docs/project-state.md) for current phases, key IDs
 
 ## Local dev server
 
-Hot-reload preview for `index.html`:
+Hot-reload preview for `landing/index.html`:
 
 ```bash
 ./scripts/dev-server.sh
 ```
 
-Serves the repo root on `http://localhost:8888` with file-watching auto-refresh. Stop with `pkill -f live-server`. Requires Node 22 (managed via `fnm`); the script switches automatically.
+Serves `landing/` on `http://localhost:8888` with `/assets` and `/drew-season` mounted from their sibling directories — same path layout as deployed GH Pages. File-watching auto-refresh. Stop with `pkill -f live-server`. Requires Node 22 (managed via `fnm`); the script switches automatically.
 
 **Localhost caveat:** HubSpot Forms Submissions API silently strips field values when the Origin is `localhost`, so contacts created from local-dev submits land with only `email` populated. The form **works fine from the GitHub Pages URLs** (production and staging). Use the staging URL below for full end-to-end browser submit testing.
 
@@ -71,12 +72,15 @@ Push the current branch to staging with:
 
 ## Repo layout
 
-- `index.html` — landing page (deployed at https://the40hourfarmer.orisha.io/; `yormi.github.io/40hr-farmer/` redirects there)
-- `email/*.html` — 5 welcome email templates
-- `email/HUBSPOT-PROCEDURE.md` — HubSpot API setup docs
-- `docs/landing/` — landing page rework (process, outline + locked copy, sources). See `docs/landing/README.md`.
-- `docs/email/sequence-plan.md` — email sequence planning process + locked working state for the welcome sequence
+- `landing/` — landing page source (deployed at https://the40hourfarmer.orisha.io/; `yormi.github.io/40hr-farmer/` redirects there)
+  - `landing/index.html` — landing page
+  - `landing/40hr_farmer_pitch_deck.html` — pitch deck
+  - `landing/docs/` — landing rework process, outline + locked copy, sources. See `landing/docs/README.md`.
+- `email/welcome-sequence/` — 5 welcome email templates + sequence planning docs (`docs/sequence-plan.md`)
+- `email/spear/` — SPEAR broadcast project: plan, audience CSVs, samples, scripts (`scripts/`)
+- `email/compliance-footer.html` — CASL footer for all Resend marketing sends
+- `docs/resend-welcome-migration-plan.md` — plan for moving welcome sequence off HubSpot onto Resend
 - `docs/user-experience-flow.md` — email sequence flow diagram
 - `brand/` — brand foundations submodule (read these, see top of file)
 - `assets/clients/ferme-decembre/` — farm photography
-- `scripts/` — utilities (Google Photos picker, etc.)
+- `scripts/` — repo-wide utilities (dev server, doc map, staging deploy, Resend↔HubSpot unsubscribe sync)

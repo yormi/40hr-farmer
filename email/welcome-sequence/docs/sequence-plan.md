@@ -15,8 +15,8 @@ The voice and conversion logic for these sequences live in [`brand/docs/brand/em
 5. **Per-email plan.** For each email: protagonist, scene, story arc, takeaway, CTA, open loop into the next, P.S. Outline only, no prose.
 6. **Subject lines.** Lowercase, conversational, like a text from a friend. Each one promises something the email pays off.
 7. **Draft.** Prose that delivers each email's plan. Read aloud. Cut anything that sounds like marketing.
-8. **Render HTML.** In `email/NN-name.html`. Style against `brand/docs/brand/visual-design.md`. Verify the no-dashes rule. Verify links and merge tags (`{{contact.firstname}}`, `{{unsubscribe_link}}`).
-9. **Approval and ship.** Surface to Guillaume. On approval, install via [`email/HUBSPOT-PROCEDURE.md`](../../email/HUBSPOT-PROCEDURE.md).
+8. **Render HTML.** In `email/welcome-sequence/NN-name.html`. Style against `brand/docs/brand/visual-design.md`. Verify the no-dashes rule. Verify links and merge tags (`{{contact.firstname}}`, `{{unsubscribe_link}}`).
+9. **Approval and ship.** Surface to Guillaume. On approval, install per the welcome sequence delivery plan ([`docs/resend-welcome-migration-plan.md`](../../../docs/resend-welcome-migration-plan.md)).
 
 Between steps: if a later step exposes a weakness in an earlier one, go back and fix it before moving on. Cheaper than fixing it after render.
 
@@ -175,7 +175,7 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 7. Sign-off.
 8. **P.S. (logistics):** waiting-list confirmation + release-date posture.
 
-**Locked copy (rendered in `email/01-welcome.html`, locked 2026-05-04):**
+**Locked copy (rendered in `email/welcome-sequence/01-welcome.html`, locked 2026-05-04):**
 
 > Hi {{contact.firstname}},
 >
@@ -233,7 +233,7 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 8. **Program birth:** that's how The 40hr Farmer Program was born. Honest "we don't have it figured out, starts with greenhouse tomatoes" frame.
 9. **Décembre cliffhanger:** Last year I started a farm to test the ideas. Plan: $700K with 2 employees. Greenhouse at the center. *"One year in, the picture is messier than the plan. Next email: what's actually happening."*
 
-**Locked copy (rendered in `email/02-origin.html`, locked 2026-05-06):**
+**Locked copy (rendered in `email/welcome-sequence/02-origin.html`, locked 2026-05-06):**
 
 > Hi {{contact.firstname}},
 >

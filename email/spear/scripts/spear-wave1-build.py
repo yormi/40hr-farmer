@@ -6,15 +6,15 @@ Pipeline:
   2. Batch-read hs_email_last_open_date, email, firstname for each member.
   3. Filter to contacts whose last open is within the last 61 days (engaged).
   4. Subtract the 150 contact IDs already sent in Wave 0
-     (variantA + variantB + variantC from promo/spear-wave0-sample.json).
-  5. Write the full Wave 1 audience to promo/spear-wave1-sample.json and
-     promo/spear-wave1-audience.csv (email, firstname) for Loops import.
+     (variantA + variantB + variantC from email/spear/spear-wave0-sample.json).
+  5. Write the full Wave 1 audience to email/spear/spear-wave1-sample.json and
+     email/spear/spear-wave1-audience.csv (email, firstname) for ESP import.
   6. With --create-list, also create a HubSpot MANUAL list and add members
      (kept in HubSpot so the same audience can be re-used across platforms).
 
 Usage:
-  python scripts/spear-wave1-build.py                # dry run, prints summary + writes outputs
-  python scripts/spear-wave1-build.py --create-list  # also creates the HubSpot list
+  python email/spear/scripts/spear-wave1-build.py                # dry run, prints summary + writes outputs
+  python email/spear/scripts/spear-wave1-build.py --create-list  # also creates the HubSpot list
 """
 
 import argparse
@@ -27,11 +27,11 @@ from pathlib import Path
 import urllib.request
 import urllib.error
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parents[3]
 SECRETS_PATH = REPO_ROOT / ".secrets" / "hubspot.env"
-WAVE0_SAMPLE_PATH = REPO_ROOT / "promo" / "spear-wave0-sample.json"
-OUTPUT_JSON_PATH = REPO_ROOT / "promo" / "spear-wave1-sample.json"
-OUTPUT_CSV_PATH = REPO_ROOT / "promo" / "spear-wave1-audience.csv"
+WAVE0_SAMPLE_PATH = REPO_ROOT / "email" / "spear" / "spear-wave0-sample.json"
+OUTPUT_JSON_PATH = REPO_ROOT / "email" / "spear" / "spear-wave1-sample.json"
+OUTPUT_CSV_PATH = REPO_ROOT / "email" / "spear" / "spear-wave1-audience.csv"
 
 SOURCE_LIST_ID = "1722"
 ENGAGEMENT_DAYS = 61

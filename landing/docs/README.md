@@ -1,4 +1,4 @@
-# docs/landing/
+# landing/docs/
 
 Everything for the 40hr Farmer landing page rework.
 
@@ -19,4 +19,4 @@ Everything for the 40hr Farmer landing page rework.
 
 ## Future pages
 
-If we rework a different asset (email sequence, sales page), mirror this structure: `docs/<asset>/process.md` + `outline.md` + `sources/`. Same three-concern split, same save-on-lock discipline.
+If we rework a different asset (email sequence, sales page), mirror this structure: a `docs/` subdir with `process.md` + `outline.md` + `sources/`. Same three-concern split, same save-on-lock discipline.

@@ -451,7 +451,7 @@ Single block, photo-first editorial. All five elements (eyebrow → H1 → itali
 >
 > Either path, hours come back, and your most productive ground is yours again, to plant with something higher-margin.
 
-**Drift note:** The Drew lb/ft² quote (sourced from `docs/landing/sources/drew-gfm-podcast-quotes.md`) was added to substantiate the "yield doubles" hinge before the section pivots to the choice. Anchors the doubling claim in a peer-verifiable unit (lb/ft²) and establishes that Drew's pre-Orisha starting point was already "one of the better producers in the area," not a turnaround story from rock bottom.
+**Drift note:** The Drew lb/ft² quote (sourced from `landing/docs/sources/drew-gfm-podcast-quotes.md`) was added to substantiate the "yield doubles" hinge before the section pivots to the choice. Anchors the doubling claim in a peer-verifiable unit (lb/ft²) and establishes that Drew's pre-Orisha starting point was already "one of the better producers in the area," not a turnaround story from rock bottom.
 
 **Drift note (2026-05-01):** Card 1 ("Biggest unexploited opportunity") body restructured. The Drew lb/ft² quote alone was failing the felt-translation rule — most market gardeners don't measure tomato beds in lb/ft², so the 1 → 5 jump read as numbers rather than as a lift. Added a felt-translation headline ABOVE the quote: *"5× the harvest off the same beds"* (font-heading, 2xl/3xl, semibold, no terminal period). Drew's quote stays underneath as the proof, in the existing italic blockquote register. Three-layer card body: title (categorical claim) → felt headline (translated proof) → quote (raw proof). No structural change to the other three cards — their numbers (25 beds, 70%, 3 hours) are felt natively.
 
@@ -700,7 +700,7 @@ Assets used: Andrew photo, Antoine drone photo, both inline link to the Mefferd 
     - Ahead of the plant, not behind it. Acting before the problem shows up in the fruit. Less second-guessing, less catching up.
     - A greenhouse staff can actually run. Clear enough decisions that you don't have to stand over every one.
 
-**Quote candidate when section locks:** Drew on the quality side of the lift, for the "harvest matches the market" card. *"We don't have many problems with splitting. We have very few problems with blossom end rot. Almost everything that comes out of the greenhouse goes to market."* (Source: `docs/landing/sources/drew-gfm-podcast-quotes.md`.) "Almost everything goes to market" is the felt translation of "matches the market" — no #2 pile, no waste, no second-grade pricing.
+**Quote candidate when section locks:** Drew on the quality side of the lift, for the "harvest matches the market" card. *"We don't have many problems with splitting. We have very few problems with blossom end rot. Almost everything that comes out of the greenhouse goes to market."* (Source: `landing/docs/sources/drew-gfm-podcast-quotes.md`.) "Almost everything goes to market" is the felt translation of "matches the market" — no #2 pile, no waste, no second-grade pricing.
 
 ---
 
@@ -962,7 +962,7 @@ Ordering: 1 → 2 → 3. Reassurance before the form. No disclosures.
 1. Drop *Last name* field. **Done in HTML.** Confirm the form mapping in HubSpot drops it too.
 2. Add *Farm name* — single-line text custom contact property, internal name **`farm_name`**.
 3. Add *40-hour farmer deal* — **multiple checkboxes** enumeration custom contact property, internal name **`forty_hour_farmer_deal`** (HubSpot internal names cannot start with a digit, so `40_…` is invalid). Options with internal values `orisha` ("Orisha user") and `gfm` ("Growing for Market subscriber"). Multi-checkbox values arrive as a `;`-joined string (`"orisha;gfm"`).
-4. Form `7f28cb26-8aea-432e-bf7f-c50a1484d0a3` exposes all four fields (`firstname`, `email`, `farm_name`, `forty_hour_farmer_deal`). Original V4 form `036c50fb-…` was unwriteable via the public API ("client is not allowlisted to perform an operation to v4 forms"); we created a fresh V3 form via `POST /marketing/v3/forms` and PATCHed it with the field set. Workflow `1804689064` enrollment trigger updated to fire on the new form. Lessons captured in `email/HUBSPOT-PROCEDURE.md`.
+4. Form `7f28cb26-8aea-432e-bf7f-c50a1484d0a3` exposes all four fields (`firstname`, `email`, `farm_name`, `forty_hour_farmer_deal`). Original V4 form `036c50fb-…` was unwriteable via the public API ("client is not allowlisted to perform an operation to v4 forms"); we created a fresh V3 form via `POST /marketing/v3/forms` and PATCHed it with the field set. Workflow `1804689064` enrollment trigger updated to fire on the new form.
 
 Submission path: client-side `fetch` POST to `https://api.hsforms.com/submissions/v3/integration/submit/5156324/7f28cb26-…` with `Content-Type: application/json` and a `{fields: [...], context: {...}}` body. On success the form panel is replaced with a thank-you message and a GA4 `waitlist_signup` event fires.
 

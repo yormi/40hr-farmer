@@ -36,39 +36,34 @@
 
 ## Wave 1 — locked 2026-05-14
 
-**Subject:** Making the farm pay for the life you want
+**Subject A:** Cutting farm hours without cutting income
 
 **Body A (Mechanism / How, locked 2026-05-14):**
 
 > Hey {{firstName | default: "there"}},
 >
-> Would you like to cut the hours necessary to run your farm?
+> Are you looking to do more with less, but aren't sure how ?
 >
-> Do more with less, they say... But how?
->
-> We're launching a program to guide farmers do that. Starting with the most underappreciated opportunity on the farm.
+> We're launching a program to guide farmers to do that. Starting with the most underappreciated opportunity on the farm.
 >
 > Worth a look? [Check how it works!](https://the40hourfarmer.orisha.io/#leverage)
 >
 > Guillaume
->
-> PS: The program's free this year for Orisha users
+
+**Subject B:** Making the farm pay for the life you want
 
 **Body B (Flip / Drew & Allison, locked 2026-05-14):**
 
 > Hey {{firstName | default: "there"}},
 >
-> Struggling to imagine how the farm could run without putting in all these hours?
+> A balanced life for a farmer? Possible? Some make it.
 >
-> Drew & Allison from Ghost House Farm made the farm replace their off-farm paycheck.
+> Drew & Allison at Ghost House Farm made the farm pay to replace Allison's off-farm paycheck.
 >
-> [Check how they did it!](https://the40hourfarmer.orisha.io/#story)
->
-> You'll find their story, and the program we're launching to help other diversified farmers adopt the same techniques.
+> [Check how they did it and what the techniques they used can do for you!](https://the40hourfarmer.orisha.io/#story)
 >
 > Guillaume
 >
-> PS: The program's free this year for Orisha users
 
 **CTA:** the bracketed sentence in each body is the link, with SPEAR UTM params per [`spear-wave-plan.md`](spear-wave-plan.md). Anchor + `utm_content` differ per body:
 

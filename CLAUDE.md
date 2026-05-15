@@ -32,6 +32,13 @@ Brand foundations live in the `brand/` submodule. Public site: https://brand.ori
 
 See [`docs/project-state.md`](docs/project-state.md) for current phases, key IDs (HubSpot portal, form, workflow, email IDs), and file map.
 
+## Email infrastructure
+
+- **Broadcasts / marketing sends:** Resend (verified domain `orisha.io`). CASL-compliant footer snippet at [`email/compliance-footer.html`](email/compliance-footer.html) — drop into every marketing send verbatim. SPEAR-specific procedure in [`promo/spear-wave-plan.md`](promo/spear-wave-plan.md).
+- **Welcome workflow + CRM:** HubSpot. Resend → HubSpot unsubscribe sync runs hourly via [`.github/workflows/sync-unsubscribes.yml`](.github/workflows/sync-unsubscribes.yml) — needs `RESEND_API_KEY` + `HUBSPOT_API_KEY` repo secrets.
+- **API keys:** `.secrets/*.env` files locally (`resend.env`, `hubspot.env`); env vars in CI. Scripts in `scripts/` follow this pattern.
+- Loops and Sequenzy were tried and dropped 2026-05-15 — do not suggest as ESP options. The script `scripts/spear-wave1-loops-sync.py` is dead.
+
 ## Funnel conversions to optimize
 
 1. Program signup (form submit on landing page).

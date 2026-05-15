@@ -32,10 +32,20 @@ Brand foundations live in the `brand/` submodule. Public site: https://brand.ori
 
 See [`docs/project-state.md`](docs/project-state.md) for current phases, key IDs (HubSpot portal, form, workflow, email IDs), and file map.
 
+## Plans + drafts go in `<project>/in-progress/`
+
+Any new plan or draft for a project belongs in that project's own `in-progress/` directory, not in repo-root `docs/`. Examples:
+
+- Welcome-sequence migration plan → `email/welcome-sequence/in-progress/`
+- SPEAR copy drafts → `email/spear/in-progress/`
+- Landing-page rework drafts → `landing/in-progress/`
+
+When a plan or draft finishes, move the locked content to its canonical home (template file, locked-copy section of `outline.md`, etc.) and delete the in-progress version. `docs/` is reserved for stable repo-wide references (project state, UTM scheme, etc.) — not a graveyard for finished plans.
+
 ## Email infrastructure
 
 - **Broadcasts / marketing sends:** Resend (verified domain `orisha.io`). CASL-compliant footer snippet at [`email/compliance-footer.html`](email/compliance-footer.html) — drop into every marketing send verbatim. SPEAR-specific procedure in [`email/spear/spear-wave-plan.md`](email/spear/spear-wave-plan.md).
-- **Welcome sequence:** templates in [`email/welcome-sequence/`](email/welcome-sequence/). Sending is being migrated off HubSpot (see [`docs/resend-welcome-migration-plan.md`](docs/resend-welcome-migration-plan.md)).
+- **Welcome sequence:** templates in [`email/welcome-sequence/`](email/welcome-sequence/). Sending is being migrated off HubSpot (see [`email/welcome-sequence/in-progress/resend-welcome-migration-plan.md`](email/welcome-sequence/in-progress/resend-welcome-migration-plan.md)).
 - **CRM:** HubSpot only. Landing page form submits create contacts via HubSpot Forms API. Resend → HubSpot unsubscribe sync runs hourly via [`.github/workflows/sync-unsubscribes.yml`](.github/workflows/sync-unsubscribes.yml) — needs `RESEND_API_KEY` + `HUBSPOT_API_KEY` repo secrets.
 - **API keys:** `.secrets/*.env` files locally (`resend.env`, `hubspot.env`); env vars in CI. Scripts follow this pattern.
 - Loops and Sequenzy were tried and dropped 2026-05-15 — do not suggest as ESP options.
@@ -79,7 +89,6 @@ Push the current branch to staging with:
 - `email/welcome-sequence/` — 5 welcome email templates + sequence planning docs (`docs/sequence-plan.md`)
 - `email/spear/` — SPEAR broadcast project: plan, audience CSVs, samples, scripts (`scripts/`)
 - `email/compliance-footer.html` — CASL footer for all Resend marketing sends
-- `docs/resend-welcome-migration-plan.md` — plan for moving welcome sequence off HubSpot onto Resend
 - `docs/utm-links.md` — UTM scheme + canonical tagged URLs for the waitlist
 - `brand/` — brand foundations submodule (read these, see top of file)
 - `assets/clients/ferme-decembre/` — farm photography

@@ -121,7 +121,7 @@ Log of decisions already made, so we do not re-litigate them. Does not cover pen
 - `email/welcome-sequence/` — 5 welcome email templates + `docs/sequence-plan.md`
 - `email/spear/` — SPEAR broadcast project (plan, audience CSVs, samples, scripts)
 - `email/compliance-footer.html` — CASL footer for Resend sends
-- `docs/resend-welcome-migration-plan.md` — plan for moving welcome sequence off HubSpot
+- `email/welcome-sequence/in-progress/resend-welcome-migration-plan.md` — plan for moving welcome sequence off HubSpot
 - `docs/utm-links.md` — UTM scheme + canonical tagged URLs for the waitlist
 - `brand/docs/` — brand foundations (submodule)
 - `assets/clients/ferme-decembre/` — farm photos

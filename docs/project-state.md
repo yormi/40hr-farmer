@@ -89,7 +89,6 @@ Log of decisions already made, so we do not re-litigate them. Does not cover pen
 - **HubSpot API credentials** at `.secrets/hubspot.env` as `HUBSPOT_API_KEY`. `.secrets/` is gitignored.
 - **Photo diversity pass done:** Jordane visible in 2 of 8 hero-region slots (down from 4). `drive-0241.jpg` and `drive-0672.jpg` added.
 - **Landing rework in progress** in `landing/docs/` (process.md, outline.md, sources/). The older reframe-drafts.md and option1-landing-draft.md have been retired; their best material flowed into the current outline. Working doc for the reader-type-first rework is `landing/docs/outline.md`, which holds both the page structure and all locked copy.
-- **Upstream promotion plan** shortened from 11 pages to 4. Final version at `docs/upstream-promotion-plan.md`, treat as frozen.
 - **Factual corrections resolved in conversation:**
   - Drop "flooding" from Drew's story. He had **wilted** transplants, not flooding.
   - The "too many tomatoes" line is the **"more cherry tomatoes than all of 2023"** quote from his raw notes.
@@ -123,7 +122,7 @@ Log of decisions already made, so we do not re-litigate them. Does not cover pen
 - `email/spear/` — SPEAR broadcast project (plan, audience CSVs, samples, scripts)
 - `email/compliance-footer.html` — CASL footer for Resend sends
 - `docs/resend-welcome-migration-plan.md` — plan for moving welcome sequence off HubSpot
-- `docs/user-experience-flow.md` — email sequence flow diagram
+- `docs/utm-links.md` — UTM scheme + canonical tagged URLs for the waitlist
 - `brand/docs/` — brand foundations (submodule)
 - `assets/clients/ferme-decembre/` — farm photos
 - `scripts/sync-resend-unsubscribes-to-hubspot.py` — Resend → HubSpot unsubscribe sync (cron via `.github/workflows/sync-unsubscribes.yml`)

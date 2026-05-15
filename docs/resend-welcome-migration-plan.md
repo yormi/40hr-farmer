@@ -52,21 +52,49 @@ HubSpot Forms API  ───►  HubSpot Contact created
                   (existing hourly unsubscribe sync brings unsubs back to HubSpot)
 ```
 
-## The one open architectural choice — form-submit bridge
+## Architectural constraint discovered 2026-05-15 (empirical test)
 
-How does a HubSpot form submit reach Resend? Three options:
+Resend **ignores delay-edits for in-flight contacts**. Confirmed by live
+test (`scripts/test-resend-delay-edit.py`, run 20:10 UTC 2026-05-15): shortened
+a 3-minute delay to 30 seconds after 90s elapsed; the parked contact still
+fired at +182.6s (the original schedule). Edits apply only to new enrollments.
 
-| # | Mechanism | Latency to Email 01 | New infra | Risk |
-|---|---|---|---|---|
-| A | **GitHub Action cron (every 5–10 min)** poll HubSpot for new contacts → fire Resend event. Mirrors existing unsubscribe-sync pattern. | 5–10 min | None (reuses Actions) | Low |
-| B | **HubSpot workflow webhook action** → tiny Cloudflare Worker / Vercel function → Resend `/events/send`. | Seconds | One hosted endpoint | Medium (one more thing to keep alive) |
-| C | **Browser dual-fire**: page submits to HubSpot AND directly to Resend `/events/send`. | Seconds | None | High — Resend API key in browser, spam/abuse vector |
+Combined with the documented 30-day max delay, this means the build-as-you-go
+pattern Guillaume sketched — *park 1y → splice new email → shorten delay to
+2d → 48h+ fires immediately* — **does not work on pure Resend Automations**.
 
-**Recommendation: A.** Reuses the pattern Guillaume already validated for
-unsubscribe sync. 5-min delay on the first email is invisible to users (and
-arguably nicer — they get their thank-you state in the browser, then the email
-a few minutes later). No new hosted endpoint to monitor. Idempotency lives on
-a single HubSpot contact property (`resend_welcome_fired_at`).
+This forces an architecture choice: who owns scheduling?
+
+| | A. HubSpot owns scheduling, Resend owns sending (**recommended**) | B. Resend owns everything, no in-flight extensions |
+|---|---|---|
+| Drip engine | HubSpot workflow, webhook actions only (no HubSpot email sends) | Resend Automation, multi-step |
+| Sending | Resend (via one-step automation per email, triggered by webhook event) | Resend |
+| Long delays | ✅ Unlimited | ❌ 30d max per step |
+| Build-as-you-go (splice + shorten releases parked contacts) | ✅ Documented in `email/HUBSPOT-PROCEDURE.md` | ❌ Empirically confirmed not supported |
+| Real-time bridge | The workflow IS the trigger — webhook fires on contact enrollment in ms | Needs cron/worker, since HubSpot still has the form |
+| For future emails after sequence ends | Edit the workflow live (HubSpot supports this on enabled workflows) | Run Broadcasts to past-completers (SPEAR-style manual send) |
+| New infrastructure | Zero (if HubSpot webhook supports custom Auth header) — else a 30-line Cloudflare Worker proxy | One bridge script + GitHub Action |
+
+**Recommendation: A.** Guillaume's build-as-you-go pattern is literally how
+HubSpot delay edits work (documented in the procedure doc). We still get
+every other Resend win we wanted — sending from orisha.io via Resend's
+infrastructure, consistency with broadcasts, no HubSpot email-editor pain.
+We just delegate scheduling to HubSpot (which is what it's good at anyway).
+
+If picking A, the migration becomes: each email gets a one-step Resend
+Automation (trigger event = `welcome_01`, `welcome_02`, ...). HubSpot
+workflow keeps its `delay → action → delay → action` shape, but every
+action is now a webhook to Resend's `/events/send` endpoint, no HubSpot
+email send actions.
+
+## Open question if Option A picked
+
+Does HubSpot's workflow webhook action on Guillaume's plan tier support
+custom Authorization headers + custom JSON body templating? If yes: zero
+new infrastructure. If no: a 30-line Cloudflare Worker as relay
+(`webhook.orisha.io` → forwards to Resend with auth header).
+
+Need to verify in the HubSpot portal before locking the architecture.
 
 ## Phases
 

@@ -80,7 +80,7 @@ Push the current branch to staging with:
 - `email/spear/` — SPEAR broadcast project: plan, audience CSVs, samples, scripts (`scripts/`)
 - `email/compliance-footer.html` — CASL footer for all Resend marketing sends
 - `docs/resend-welcome-migration-plan.md` — plan for moving welcome sequence off HubSpot onto Resend
-- `docs/user-experience-flow.md` — email sequence flow diagram
+- `docs/utm-links.md` — UTM scheme + canonical tagged URLs for the waitlist
 - `brand/` — brand foundations submodule (read these, see top of file)
 - `assets/clients/ferme-decembre/` — farm photography
 - `scripts/` — repo-wide utilities (dev server, doc map, staging deploy, Resend↔HubSpot unsubscribe sync)

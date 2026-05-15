@@ -2,9 +2,10 @@
 # Local hot-reload dev server for the 40hr Farmer landing page.
 #
 # Serves landing/ as the document root on http://localhost:8888, with
-# /assets and /drew-season mounted from their sibling directories so
-# absolute paths in landing/index.html resolve the same way they do
-# on the deployed GitHub Pages site.
+# /assets mounted from the repo-root sibling so absolute /assets/ paths
+# in landing/index.html resolve the same way they do on the deployed
+# GitHub Pages site. drew-season/ lives inside landing/ and is served
+# natively at /drew-season/.
 #
 # Usage:
 #   ./scripts/dev-server.sh
@@ -38,5 +39,4 @@ exec npx --yes live-server landing \
   --port="${PORT}" \
   --no-browser \
   --quiet \
-  --mount=/assets:./assets \
-  --mount=/drew-season:./drew-season
+  --mount=/assets:./assets

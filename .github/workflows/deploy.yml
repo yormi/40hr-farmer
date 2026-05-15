@@ -30,7 +30,6 @@ jobs:
           mkdir -p _site
           cp -r landing/. _site/
           cp -r assets _site/assets
-          cp -r drew-season _site/drew-season
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

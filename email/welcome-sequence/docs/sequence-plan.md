@@ -291,6 +291,133 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 **Open question:** Drew is now out of this email and the locked sequence carries no concrete farmer story (REQ-P3) until we decide. Candidate placements: Email 4 (reframe / what if you can't sell more), Email 6 (honest framing / Gordon failure), or a new dedicated email. TBD.
 
+### Email 2.1 — Origin (Day 1) — Alternate: John + Antoine *(draft 2026-05-19, not locked)*
+
+**Status:** Alternate to the locked Email 2. Pending Path A (polish locked) vs Path B (re-lock around this variant). See Open questions below before sending.
+
+**Point** *(working, not yet Schwartzberg-locked)*: I believe a small farm can be turned around by working smarter, not harder.
+
+**Subject (recommended):** "the trap, and one way out"
+
+**Preview text:** "And the farmer who turned it around."
+
+**Reader state on arrival:** Same as locked Email 2 — read Email 1 yesterday, curious about the origin Guillaume teased.
+
+**Reader state on departure:** Sees themselves in John's arc. Recognizes "work smarter, not harder" as the reframe. Knows Antoine as the farmer-proof voice. Curious about Décembre.
+
+**Protagonist:** Guillaume (narrator) + John (composite trap character) + Antoine (named turnaround proof). Mefferd absent in this variant.
+
+**Scene:** Guillaume narrating 10 years of farmer conversations; John's composite arc; Antoine's turnaround at his farm + move to coach at Orisha.
+
+**Beats (draft):**
+
+1. **Origin frame:** 10 years listening, same story repeating.
+2. **John's trap:** vision → management drift → financial pressure → doubling hours → exhaustion → powerlessness.
+3. **Recognition prompt:** "Familiar?"
+4. **The reframe:** the few who escaped used "work smarter, not harder."
+5. **Antoine intro:** named proof; depression + near-sell decision; cut workload, +15% sales with half the team in a year; now drives 2h to coach at Orisha.
+6. **Mission:** level the playing field by sharing greenhouse leverage technique.
+7. **Antoine's numbers:** $10K profit per tomato bed; precision over time.
+8. **Program birth (lite):** "That's where we'll start the program."
+9. **Soft leverage link:** to `the40hourfarmer.orisha.io/#leverage`.
+10. **Encouragement beat:** "we need to be crazy enough to dream…"
+11. **Décembre cliffhanger:** $700,000 plan with 2 employees; messier than expected. *"Next email: what to expect in a year."*
+
+**Draft copy (mechanical fixes from 2026-05-19 critique applied; stylistic choices preserved):**
+
+> Hello there,
+>
+> Me again.
+>
+> I started Orisha almost 10 years ago with no knowledge of market gardening whatsoever.
+>
+> To fix that, I took every opportunity I had to talk to farmers. And over the years, the same story came over and over again.
+>
+> John starts a farm with a vision. To connect with nature, steward the land, support their community.
+>
+> As he gets the farm off the ground, John takes on more and more responsibilities: building everything the farm needs, hiring help, delivering for customers...
+>
+> He gets pushed more and more toward management stuff, aka not why he started farming.
+>
+> Meanwhile the financial pressure builds.
+>
+> To fix this John doubles the hours to make ends meet: growing more beds, adding products, adding drop-off points, going to more markets, a transformation kitchen maybe?
+>
+> At a point, he reaches his limits and realizes that even if he's working 12h a day, 7 days a week. And there's no more money coming in.
+>
+> Exhaustion catches up. Tensions rise on the farm. Everything feels heavy. The fun isn't there anymore. And the worst part: if working more doesn't help, John feels powerless.
+>
+> Familiar?
+>
+> Over the years, I met a few farmers who managed to get out of that trap.
+>
+> And they all came up with a variation of the same solution: "work smarter, not harder".
+>
+> Antoine, who'll be with us on the program, is one of them.
+>
+> I met him when I installed Orisha on his farm in our humble beginning. Since then, Antoine went through the exact same pattern as I described. He fell into depression. Told himself that if he went through another season like the one he'd just had, he'd sell the farm.
+>
+> And that's when he turned around his farm. He aggressively cut in the workload and ended up increasing his sales 15% with half the team size. All that within a year.
+>
+> Now, he's freed himself so much that he decided to drive 2 hours a day, 3 days a week to work with us at Orisha to help others build farms that work for them.
+>
+> If we want small-scale farming to thrive, we need to find techniques to make it easier to run profitable farms. To do more with less.
+>
+> That's what the program is about.
+>
+> We see so many ways to support small farms but realistically, to have a real impact, we have to tackle them one at a time.
+>
+> And the first way we'll do that is to level the playing field. Antoine had the unfair advantage of being coached to grow in greenhouses. He makes $10,000 PROFIT on a single tomato bed after paying for time, propane and input. Those results require precision but not more time. In fact, probably less time, since being proactive saves a lot of problems.
+>
+> That's where we'll start the program.
+>
+> And if you think growing more won't help you reduce the hours on the farm, [here's how to use higher yields to work your way toward a 40hr farm](https://the40hourfarmer.orisha.io/#leverage).
+>
+> I hope this makes you excited about your dream farm. We need to be crazy enough to dream to gather the courage to make changes on top of the already infinite todo list.
+>
+> All these do-more-with-less ideas made me cocky enough to start a farm last year. The plan was $700,000 sales with 2 employees. It convinced the bank. One year in, though, and... well, it's messier than expected. Next email: what to expect in a year.
+>
+> Take care,
+>
+> Guillaume
+
+~520 words. Longer than the locked Email 2 (~380) — driven by the John narrative and Antoine's intro.
+
+**Mechanical fixes applied (from 2026-05-19 critique):**
+
+| Original | Corrected |
+|---|---|
+| "knowledge on market gardening" | "of market gardening" |
+| "takes more and more responsibilities" | "takes on more and more responsibilities" |
+| "the farm need" | "the farm needs" |
+| "for Customers" | "for customers" |
+| "he reach his limits and realize" | "he reaches his limits and realizes" |
+| "there's not more money" | "there's no more money" |
+| "Familiar ?" | "Familiar?" |
+| "same solution :" | "same solution:" |
+| "2hours a day" | "2 hours a day" |
+| "if it'd go through another season like he'd just had" | "if he went through another season like the one he'd just had" |
+| "he had free himself" | "he's freed himself" |
+| "to strive" | "to thrive" |
+| "That kind of results require" | "Those results require" |
+| "won't lower help you reduce" | "won't help you reduce" |
+| "$700k" | "$700,000" |
+
+**Stylistic choices preserved (flagged but not auto-fixed):**
+
+- "Hello there, / Me again." opener loses the `{{contact.firstname}}` continuity from Email 1.
+- "$10,000 PROFIT" all-caps emphasis runs against the quiet-voice norm.
+
+**Open questions / decisions needed before this variant can ship:**
+
+1. **Path A vs Path B.** Re-locking around this variant means redoing the Schwartzberg arc across Emails 1-2-3, finding a new home (or cut) for the Mefferd partnership beat, and dropping the load-bearing "1 greenhouse bed = 20 field beds" image from Email 2's body.
+2. **Antoine consent.** Public-naming-consent list per memory currently covers Drew, Gordon, Ten Mothers Farm. Antoine needs explicit sign-off for: (a) named appearance in welcome-sequence broadcast, (b) the depression reference, (c) the 15% / half team / $10K-per-bed numbers.
+3. **Number verification.** Per "never extrapolate farmer's story," the three quantitative claims about Antoine need to be his words, not inferred.
+4. **Schwartzberg lock.** Working Point above is not yet locked. If Path B chosen, lock formally and re-check Email 1 and Email 3 Points for chain coherence.
+5. **Mefferd beat fate.** Currently absent. Decide: re-introduce later, or remove from program narrative entirely.
+6. **Voice flags.** Two lines drift preachy — "I hope this makes you excited about your dream farm. We need to be crazy enough to dream…" and "If we want small-scale farming to thrive…". Tighten before send.
+7. **Cliffhanger phrasing.** "what to expect in a year" (forecast) vs locked "what's actually happening" (present-tense Décembre scene). Email 3's deliverable depends on this choice.
+
 ### Email 3 — Vision / Ferme Décembre (Day 4)
 
 **Point** *(Schwartzberg, locked 2026-05-06)*: I believe greenhouse leverage gives market gardeners many ways to reinvent their farm.

@@ -120,10 +120,9 @@ Log of decisions already made, so we do not re-litigate them. Does not cover pen
 - `landing/docs/` — landing rework process, outline + locked copy, sources
 - `email/welcome-sequence/` — 5 welcome email templates + `docs/sequence-plan.md`
 - `email/spear/` — SPEAR broadcast project (plan, audience CSVs, samples, scripts)
-- `email/compliance-footer.html` — CASL footer for Resend sends
-- `email/welcome-sequence/in-progress/resend-welcome-migration-plan.md` — plan for moving welcome sequence off HubSpot
+- `email/compliance-footer.html` — generic CASL footer scaffold for marketing sends (ESP TBD)
 - `docs/utm-links.md` — UTM scheme + canonical tagged URLs for the waitlist
 - `brand/docs/` — brand foundations (submodule)
 - `assets/clients/ferme-decembre/` — farm photos
-- `scripts/sync-resend-unsubscribes-to-hubspot.py` — Resend → HubSpot unsubscribe sync (cron via `.github/workflows/sync-unsubscribes.yml`)
+- `scripts/sync-esp-unsubscribes-to-hubspot.py` — ESP → HubSpot unsubscribe sync scaffold, ESP wiring TBD (cron via `.github/workflows/sync-unsubscribes.yml`)
 - `scripts/dev-server.sh` + `scripts/deploy-staging.sh` — landing-page local dev + staging deploy

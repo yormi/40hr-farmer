@@ -16,7 +16,7 @@ The voice and conversion logic for these sequences live in [`brand/docs/brand/em
 6. **Subject lines.** Lowercase, conversational, like a text from a friend. Each one promises something the email pays off.
 7. **Draft.** Prose that delivers each email's plan. Read aloud. Cut anything that sounds like marketing.
 8. **Render HTML.** In `email/welcome-sequence/NN-name.html`. Style against `brand/docs/brand/visual-design.md`. Verify the no-dashes rule. Verify links and merge tags (`{{contact.firstname}}`, `{{unsubscribe_link}}`).
-9. **Approval and ship.** Surface to Guillaume. On approval, install per the welcome sequence delivery plan ([`in-progress/resend-welcome-migration-plan.md`](../in-progress/resend-welcome-migration-plan.md)).
+9. **Approval and ship.** Surface to Guillaume. On approval, install in HubSpot's welcome workflow (current sending channel). Migration off HubSpot is paused until an ESP is picked.
 
 Between steps: if a later step exposes a weakness in an earlier one, go back and fix it before moving on. Cheaper than fixing it after render.
 

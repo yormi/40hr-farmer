@@ -70,7 +70,7 @@
 - Body A: `https://the40hourfarmer.orisha.io/#leverage`, `utm_content=wave1-howto`
 - Body B: `https://the40hourfarmer.orisha.io/#story`, `utm_content=wave1-flip`
 
-**Sending platform:** Resend (switched from Loops.so → Sequenzy → Resend on 2026-05-15; see `spear-wave-plan.md`). Contact list built dynamically in HubSpot (engaged remainder minus Wave 0 recipients), pushed into Resend audiences. 852-contact audience splits 50/50 between Body A and Body B.
+**Sending platform:** TBD (Loops → Sequenzy → Resend all dropped; evaluating Postmark as of 2026-05-22; see `spear-wave-plan.md`). Wave 1 send is paused until an ESP is locked. Contact list still built in HubSpot (engaged remainder minus Wave 0 recipients); 852-contact audience splits 50/50 between Body A and Body B.
 
 ### Retired (locked 2026-05-13, replaced 2026-05-14)
 

@@ -1,23 +1,22 @@
 #!/usr/bin/env python3
-"""Sync Resend audience unsubscribes back to HubSpot.
+"""Sync ESP unsubscribes back to HubSpot.
 
-Iterates every Resend audience, collects contacts with `unsubscribed: true`,
-and calls HubSpot's v1 subscriptions endpoint to globally opt each one out of
-marketing email. Idempotent: HubSpot's PUT is a no-op if the contact is
-already unsubscribed.
+SCAFFOLD ONLY — ESP not yet chosen as of 2026-05-22 (Loops, Sequenzy, and
+Resend all dropped; evaluating Postmark). The HubSpot-side opt-out call is
+ready; the ESP-side "list everyone who unsubscribed" call must be wired up
+once an ESP is locked. Search for `TODO(esp-pick)` below.
 
-Why this exists: Resend handles the actual unsubscribe link (CASL-compliant,
-{{{RESEND_UNSUBSCRIBE_URL}}} token in every broadcast). But HubSpot owns the
-welcome workflow and other lifecycle sends. Without this sync, a contact who
-unsubscribes via a Resend broadcast keeps receiving HubSpot emails — CASL
-violation. This script closes the loop.
+Why this exists: whichever ESP we use handles the actual unsubscribe link
+(CASL-compliant). HubSpot owns the welcome workflow + other lifecycle sends.
+Without this sync, a contact who unsubscribes via the ESP keeps receiving
+HubSpot emails — CASL violation. This script closes the loop.
 
 Runs hourly via `.github/workflows/sync-unsubscribes.yml`. Can also run locally:
 
-  python scripts/sync-resend-unsubscribes-to-hubspot.py            # dry run
-  python scripts/sync-resend-unsubscribes-to-hubspot.py --push     # actually sync
+  python scripts/sync-esp-unsubscribes-to-hubspot.py            # dry run
+  python scripts/sync-esp-unsubscribes-to-hubspot.py --push     # actually sync
 
-Auth: reads RESEND_API_KEY / HUBSPOT_API_KEY from env vars first (GitHub
+Auth: reads ESP_API_KEY / HUBSPOT_API_KEY from env vars first (GitHub
 Actions path), then from .secrets/*.env files (local path).
 """
 
@@ -32,11 +31,10 @@ import urllib.request
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-RESEND_SECRETS_PATH = REPO_ROOT / ".secrets" / "resend.env"
+ESP_SECRETS_PATH = REPO_ROOT / ".secrets" / "esp.env"  # TODO(esp-pick): rename to chosen ESP
 HUBSPOT_SECRETS_PATH = REPO_ROOT / ".secrets" / "hubspot.env"
-SYNC_LOG_PATH = REPO_ROOT / "promo" / "resend-hubspot-unsub-sync.log.json"
+SYNC_LOG_PATH = REPO_ROOT / "promo" / "esp-hubspot-unsub-sync.log.json"
 
-RESEND_BASE = "https://api.resend.com"
 HUBSPOT_BASE = "https://api.hubapi.com"
 USER_AGENT = "orisha-mailer/1.0 (+https://orisha.io)"
 RATE_LIMIT_SLEEP_SECONDS = 0.1
@@ -53,15 +51,17 @@ def load_key(path: Path, name: str) -> str:
     sys.exit(f"{name} not found in {path} (and env var {name} not set)")
 
 
-def call_resend(api_key: str, path: str) -> tuple[int, dict]:
-    request = urllib.request.Request(f"{RESEND_BASE}{path}")
-    request.add_header("Authorization", f"Bearer {api_key}")
-    request.add_header("User-Agent", USER_AGENT)
-    try:
-        with urllib.request.urlopen(request) as response:
-            return response.status, json.loads(response.read().decode() or "{}")
-    except urllib.error.HTTPError as error:
-        return error.code, json.loads(error.read().decode() or "{}")
+def fetch_esp_unsubscribes(esp_api_key: str) -> list[dict]:
+    """Return list of dicts: [{"email": "...", "source": "...", ...}, ...].
+
+    TODO(esp-pick): wire to the chosen ESP's unsubscribe-list endpoint.
+    Each returned dict must include at least `email`. Other keys (source,
+    list/audience name, contact id) are passed through to the sync log.
+    """
+    raise NotImplementedError(
+        "ESP not chosen yet — wire this once Postmark (or other) is locked. "
+        "See scripts/sync-esp-unsubscribes-to-hubspot.py."
+    )
 
 
 def hubspot_unsubscribe(api_key: str, email: str) -> tuple[int, dict]:
@@ -92,41 +92,18 @@ def main() -> None:
     parser.add_argument("--push", action="store_true", help="actually sync to HubSpot")
     args = parser.parse_args()
 
-    resend_key = load_key(RESEND_SECRETS_PATH, "RESEND_API_KEY")
+    esp_key = load_key(ESP_SECRETS_PATH, "ESP_API_KEY")
     hubspot_key = load_key(HUBSPOT_SECRETS_PATH, "HUBSPOT_API_KEY")
 
-    # Collect unsubscribed emails across all Resend audiences
-    status, body = call_resend(resend_key, "/audiences")
-    if status != 200:
-        sys.exit(f"GET /audiences failed: {status} {body}")
-
-    unsubscribed: list[dict] = []
-    for audience in body.get("data", []):
-        audience_id = audience["id"]
-        audience_name = audience["name"]
-        status, contacts_body = call_resend(resend_key, f"/audiences/{audience_id}/contacts")
-        if status != 200:
-            print(f"  WARN: GET /audiences/{audience_id}/contacts failed: {status}")
-            continue
-        for contact in contacts_body.get("data", []):
-            if contact.get("unsubscribed"):
-                unsubscribed.append(
-                    {
-                        "email": contact["email"],
-                        "audience_id": audience_id,
-                        "audience_name": audience_name,
-                        "resend_contact_id": contact.get("id"),
-                    }
-                )
-
-    print(f"Found {len(unsubscribed)} unsubscribed contact(s) across all Resend audiences")
+    unsubscribed = fetch_esp_unsubscribes(esp_key)
+    print(f"Found {len(unsubscribed)} unsubscribed contact(s) from ESP")
 
     if not args.push:
         for entry in unsubscribed[:20]:
-            print(f"  {entry['email']}  (audience: {entry['audience_name']})")
+            print(f"  {entry['email']}  (source: {entry.get('source', '?')})")
         if len(unsubscribed) > 20:
             print(f"  ...and {len(unsubscribed) - 20} more")
-        print(f"\nRe-run with --push to mark them all unsubscribed in HubSpot.")
+        print("\nRe-run with --push to mark them all unsubscribed in HubSpot.")
         return
 
     synced = 0

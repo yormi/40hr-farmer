@@ -1,12 +1,15 @@
-name: Sync Resend unsubscribes → HubSpot
+name: Sync ESP unsubscribes → HubSpot
 
-# Mirrors Resend's per-audience `unsubscribed: true` flag into HubSpot via the
-# v1 subscriptions endpoint (global opt-out). Closes the CASL gap where a
-# recipient unsubscribes via Resend but HubSpot's welcome workflow keeps
-# emailing them.
+# Scaffold only as of 2026-05-22 — ESP not yet chosen (Loops, Sequenzy, and
+# Resend all dropped; evaluating Postmark). Once an ESP is locked, wire
+# `fetch_esp_unsubscribes()` in the script and add the matching repo secret.
 #
-# Requires two repo secrets:
-#   - RESEND_API_KEY  (Settings → Secrets and variables → Actions)
+# Purpose: mirror ESP-side unsubscribes into HubSpot via the v1 subscriptions
+# endpoint (global opt-out). Closes the CASL gap where a recipient unsubscribes
+# via the ESP but HubSpot's welcome workflow keeps emailing them.
+#
+# Repo secrets required once ESP is picked:
+#   - ESP_API_KEY    (Settings → Secrets and variables → Actions)
 #   - HUBSPOT_API_KEY (private app token, marketing email scope)
 #
 # Schedule chosen to spread load off the top of the hour. Free GitHub Actions
@@ -14,8 +17,11 @@ name: Sync Resend unsubscribes → HubSpot
 # unsubscribe-propagation window.
 
 on:
-  schedule:
-    - cron: "17 * * * *"  # every hour at :17
+  # TODO(esp-pick): re-enable the hourly schedule once ESP is wired up. Until
+  # then the script raises NotImplementedError, so the cron would just spam
+  # failures. Manual dispatch only for now.
+  # schedule:
+  #   - cron: "17 * * * *"  # every hour at :17
   workflow_dispatch: {}    # manual trigger from the Actions tab
 
 jobs:
@@ -31,6 +37,6 @@ jobs:
 
       - name: Sync unsubscribes
         env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ESP_API_KEY: ${{ secrets.ESP_API_KEY }}
           HUBSPOT_API_KEY: ${{ secrets.HUBSPOT_API_KEY }}
-        run: python3 scripts/sync-resend-unsubscribes-to-hubspot.py --push
+        run: python3 scripts/sync-esp-unsubscribes-to-hubspot.py --push

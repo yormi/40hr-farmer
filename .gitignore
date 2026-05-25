@@ -14,6 +14,12 @@ assets/clients/la-gauloise/La Gauloise/
 .claude/doc-map.md
 
 # SPEAR audience artifacts (contain contact IDs + emails; kept local).
+# Legacy promo/ paths kept for safety; current artifacts live in email/spear/.
 promo/spear-wave*-sample.json
 promo/spear-wave*-audience.csv
 promo/spear-wave*-sync.log.json
+email/spear/spear-wave*-sample.json
+email/spear/spear-wave*-audience.csv
+email/spear/spear-wave*-day*-body*.csv
+email/spear/spear-wave*-sync.log.json
+email/spear/spear-wave*-resend-sync.log.json

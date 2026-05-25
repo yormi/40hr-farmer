@@ -101,6 +101,93 @@ def fetch_stats(token: str, tag: str) -> dict:
     }
 
 
+def fetch_engagement_events(token: str, tag: str, kind: str) -> list[dict]:
+    """Paginate through /messages/outbound/{opens|clicks}?tag=... for one tag."""
+    out: list[dict] = []
+    offset = 0
+    count = 500
+    while True:
+        url = f"{POSTMARK_BASE}/messages/outbound/{kind}?tag={tag}&count={count}&offset={offset}"
+        payload = get_json(token, url)
+        if "_error" in payload:
+            break
+        key = "Opens" if kind == "opens" else "Clicks"
+        events = payload.get(key, [])
+        out.extend(events)
+        total = payload.get("TotalCount", len(out))
+        if len(out) >= total or not events:
+            break
+        offset += count
+    return out
+
+
+def build_engagement_by_recipient(opens: list[dict], clicks: list[dict]) -> dict[str, dict]:
+    """Aggregate per-recipient open + click stats from raw event lists."""
+    recipients: dict[str, dict] = {}
+    for event in opens:
+        email = (event.get("Recipient") or "").lower()
+        if not email:
+            continue
+        recipients.setdefault(email, {"opens": 0, "clicks": 0, "first_open": None, "clicked_urls": set()})
+        recipients[email]["opens"] += 1
+        received = event.get("ReceivedAt")
+        if received and (not recipients[email]["first_open"] or received < recipients[email]["first_open"]):
+            recipients[email]["first_open"] = received
+    for event in clicks:
+        email = (event.get("Recipient") or "").lower()
+        if not email:
+            continue
+        recipients.setdefault(email, {"opens": 0, "clicks": 0, "first_open": None, "clicked_urls": set()})
+        recipients[email]["clicks"] += 1
+        url = event.get("OriginalLink") or event.get("ClickLocation") or ""
+        if url:
+            recipients[email]["clicked_urls"].add(url)
+    return recipients
+
+
+def build_engagement_table_html(engagement_by_tag: dict[str, dict[str, dict]]) -> str:
+    """Render a per-recipient engagement table grouped by tag, only listing
+    recipients who opened or clicked at least once."""
+    if not any(engagement_by_tag.values()):
+        return "<p style=\"color:#6b7280;font-size:13px;\">No open or click events yet for the checked tags.</p>"
+    sections: list[str] = []
+    for tag, recipients in engagement_by_tag.items():
+        if not recipients:
+            sections.append(f"<h3 style=\"margin:24px 0 4px 0;\">{tag}</h3><p style=\"color:#6b7280;font-size:13px;\">no engagement events yet</p>")
+            continue
+        rows = []
+        sorted_recipients = sorted(
+            recipients.items(),
+            key=lambda kv: (kv[1]["clicks"], kv[1]["opens"]),
+            reverse=True,
+        )
+        for email, stats in sorted_recipients:
+            clicked = "✓" if stats["clicks"] > 0 else ""
+            urls_preview = ""
+            if stats["clicked_urls"]:
+                first_url = sorted(stats["clicked_urls"])[0]
+                urls_preview = first_url[:80] + ("…" if len(first_url) > 80 else "")
+            rows.append(
+                "<tr>"
+                f"<td>{email}</td>"
+                f"<td style=\"text-align:right;\">{stats['opens']}</td>"
+                f"<td style=\"text-align:center;color:{'#15803d' if clicked else '#9ca3af'};font-weight:600;\">{clicked}</td>"
+                f"<td style=\"text-align:right;\">{stats['clicks']}</td>"
+                f"<td style=\"color:#6b7280;font-size:12px;\">{urls_preview}</td>"
+                "</tr>"
+            )
+        sections.append(
+            f"<h3 style=\"margin:24px 0 4px 0;\">{tag} <span style=\"color:#6b7280;font-weight:400;font-size:14px;\">({len(recipients)} engaged)</span></h3>"
+            "<table cellpadding=\"6\" cellspacing=\"0\" style=\"border-collapse:collapse;font-size:13px;width:100%;\">"
+            "<thead><tr style=\"background:#f3f4f6;text-align:left;\">"
+            "<th>recipient</th><th>opens</th><th>clicked</th><th>clicks</th><th>URL</th>"
+            "</tr></thead>"
+            f"<tbody>{''.join(rows)}</tbody>"
+            "</table>"
+        )
+    return "<h2 style=\"margin:32px 0 8px 0;\">Per-recipient engagement</h2>" + "".join(sections)
+
+
 def fetch_unsubscribes_for_stream(token: str, stream: str = "broadcast") -> list[dict]:
     payload = get_json(token, f"{POSTMARK_BASE}/message-streams/{stream}/suppressions/dump")
     if "_error" in payload:
@@ -254,6 +341,7 @@ def main() -> None:
     group.add_argument("--tags", help="comma-separated explicit tags")
     parser.add_argument("--email", help="also email the report to this address via Postmark (e.g. guillaume@orisha.io)")
     parser.add_argument("--subject-prefix", default="SPEAR Wave 2 check", help="prefix for the email subject line")
+    parser.add_argument("--per-recipient", action="store_true", help="include per-recipient engagement table (opens + clicks per email address)")
     args = parser.parse_args()
 
     token = load_key(POSTMARK_SECRETS_PATH, "POSTMARK_SERVER_TOKEN")
@@ -304,9 +392,32 @@ def main() -> None:
     overall = "RED" if any_red else "GREEN"
     print("OVERALL:", "RED — kill-switch tripped, do NOT continue" if any_red else "GREEN — safe to continue")
 
+    engagement_by_tag: dict[str, dict[str, dict]] = {}
+    if args.per_recipient:
+        print("\nFetching per-recipient open + click events...")
+        for tag in tags:
+            opens = fetch_engagement_events(token, tag, "opens")
+            clicks = fetch_engagement_events(token, tag, "clicks")
+            engagement_by_tag[tag] = build_engagement_by_recipient(opens, clicks)
+            print(f"  {tag}: {len(opens)} opens, {len(clicks)} clicks, {len(engagement_by_tag[tag])} unique engaged recipients")
+
+        # Print per-recipient table to stdout too
+        print()
+        for tag, recipients in engagement_by_tag.items():
+            print(f"\n=== {tag} ({len(recipients)} engaged) ===")
+            if not recipients:
+                print("  (no engagement events yet)")
+                continue
+            sorted_recipients = sorted(recipients.items(), key=lambda kv: (kv[1]["clicks"], kv[1]["opens"]), reverse=True)
+            for email, stats in sorted_recipients:
+                clicked = "✓" if stats["clicks"] > 0 else " "
+                print(f"  {clicked}  opens={stats['opens']:<3}  clicks={stats['clicks']:<3}  {email}")
+
     if args.email:
         subject = f"{args.subject_prefix}: {overall}"
         html_body = build_report_html(tags, stats_list, unsubs_by_tag, overall, total_unsubs)
+        if args.per_recipient:
+            html_body += build_engagement_table_html(engagement_by_tag)
         text_body = (
             f"SPEAR Wave 2 check — {overall}\n\n"
             + ("Kill-switch tripped, do NOT continue.\n\n" if any_red else "Safe to continue.\n\n")
@@ -318,6 +429,18 @@ def main() -> None:
             )
             + f"\n\nTotal customer-origin unsubs on broadcast stream (all-time): {total_unsubs}"
             + f"\nKill-switch thresholds: bounce > {BOUNCE_KILL}% · spam > {SPAM_KILL}% · unsubscribe > {UNSUB_KILL}%"
+            + (
+                "\n\nPer-recipient engagement (only those who opened or clicked):\n"
+                + "\n".join(
+                    f"\n  [{tag}] {len(recipients)} engaged"
+                    + "".join(
+                        f"\n    {'✓' if r['clicks']>0 else ' '}  opens={r['opens']:<3} clicks={r['clicks']:<3} {email}"
+                        for email, r in sorted(recipients.items(), key=lambda kv: (kv[1]['clicks'], kv[1]['opens']), reverse=True)
+                    )
+                    for tag, recipients in engagement_by_tag.items()
+                )
+                if args.per_recipient else ""
+            )
         )
         status, body = send_report_email(token, args.email, subject, html_body, text_body)
         if status == 200 and body.get("ErrorCode") == 0:

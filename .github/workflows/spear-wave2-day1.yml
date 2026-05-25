@@ -1,0 +1,77 @@
+name: SPEAR Wave 2 — Day 1 (Tue 2026-05-26)
+
+# Fires once, Tue 2026-05-26 at 10:00 UTC (6:00 AM EDT).
+# GitHub Actions cron can drift up to ~15 min on quiet repos.
+# Sends Body A then Body B, ~645 contacts each, via Postmark broadcast stream.
+#
+# Idempotent: the send script keeps a sent-log under .cache/ so re-runs skip
+# already-successful sends. Safe to re-run if the job fails partway.
+#
+# DISABLE this workflow before merge if you do NOT want it to fire.
+# To disable: change the `on.schedule` cron to a year in the past, or delete
+# the file, or disable the workflow in the Actions tab.
+
+on:
+  schedule:
+    - cron: "0 10 26 5 *"  # 10:00 UTC on May 26, any year
+  workflow_dispatch: {}
+
+concurrency:
+  group: spear-wave2-day1
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # Belt-and-suspenders: only fire in 2026 (in case the cron rolls into next May)
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.schedule == '0 10 26 5 *') }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore sent-log cache (Body A + B)
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache/spear-wave2-sent-2026-05-26-spear-wave2-day1-bodyA.log.json
+            .cache/spear-wave2-sent-2026-05-26-spear-wave2-day1-bodyB.log.json
+          key: spear-wave2-day1-sent-v1
+
+      - name: Verify it is 2026-05-26 (year guard)
+        run: |
+          today=$(date -u +%Y-%m-%d)
+          if [ "$today" != "2026-05-26" ]; then
+            echo "::error::Today is $today, not 2026-05-26. Refusing to fire."
+            exit 1
+          fi
+
+      - name: Rebuild audience CSVs (to pick up latest waitlist exclusions)
+        env:
+          HUBSPOT_API_KEY: ${{ secrets.HUBSPOT_API_KEY }}
+        run: python3 email/spear/scripts/spear-wave2-build.py --days 3
+
+      - name: Send Body A
+        env:
+          POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
+          POSTMARK_FROM: guillaume@orisha.io
+          POSTMARK_MESSAGE_STREAM: broadcast
+        run: |
+          python3 email/spear/scripts/spear-wave2-send.py \
+            --csv email/spear/spear-wave2-day1-bodyA.csv \
+            --body A \
+            --tag 2026-05-26-spear-wave2-day1-bodyA
+
+      - name: Send Body B
+        env:
+          POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
+          POSTMARK_FROM: guillaume@orisha.io
+          POSTMARK_MESSAGE_STREAM: broadcast
+        run: |
+          python3 email/spear/scripts/spear-wave2-send.py \
+            --csv email/spear/spear-wave2-day1-bodyB.csv \
+            --body B \
+            --tag 2026-05-26-spear-wave2-day1-bodyB

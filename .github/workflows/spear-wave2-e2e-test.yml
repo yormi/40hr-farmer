@@ -1,0 +1,100 @@
+name: SPEAR Wave 2 — end-to-end test (manual)
+
+# Smoke test for the production send pipeline. Manually triggered from the
+# Actions tab. Sends ONE email to guillaume@orisha.io via the production
+# spear-wave2-send.py script. Verifies that:
+#   - POSTMARK_SERVER_TOKEN is set as a repo secret and valid
+#   - HUBSPOT_API_KEY is set as a repo secret and valid
+#   - The actions/checkout + setup-python pipeline works
+#   - The send script + tag flow works end-to-end on Actions infra
+#
+# Safe to re-run: each run uses a unique tag suffixed with the workflow run id,
+# so the sent-log doesn't dedupe across runs.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify secrets are set
+        env:
+          POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
+          HUBSPOT_API_KEY: ${{ secrets.HUBSPOT_API_KEY }}
+        run: |
+          if [ -z "$POSTMARK_SERVER_TOKEN" ]; then
+            echo "::error::POSTMARK_SERVER_TOKEN is not set"; exit 1
+          fi
+          if [ -z "$HUBSPOT_API_KEY" ]; then
+            echo "::error::HUBSPOT_API_KEY is not set"; exit 1
+          fi
+          echo "✓ Both secrets are present"
+
+      - name: Verify HubSpot API key works (GET list 1722 metadata)
+        env:
+          HUBSPOT_API_KEY: ${{ secrets.HUBSPOT_API_KEY }}
+        run: |
+          status=$(curl -sS -o /tmp/hubspot.json -w "%{http_code}" \
+            "https://api.hubapi.com/crm/v3/lists/1722" \
+            -H "Authorization: Bearer ${HUBSPOT_API_KEY}")
+          if [ "$status" != "200" ]; then
+            echo "::error::HubSpot returned HTTP $status"
+            cat /tmp/hubspot.json
+            exit 1
+          fi
+          echo "✓ HubSpot API key works — list 1722 name: $(jq -r '.list.name' /tmp/hubspot.json)"
+
+      - name: Verify Postmark API key works (GET server info)
+        env:
+          POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
+        run: |
+          status=$(curl -sS -o /tmp/postmark.json -w "%{http_code}" \
+            "https://api.postmarkapp.com/server" \
+            -H "X-Postmark-Server-Token: ${POSTMARK_SERVER_TOKEN}")
+          if [ "$status" != "200" ]; then
+            echo "::error::Postmark returned HTTP $status"
+            cat /tmp/postmark.json
+            exit 1
+          fi
+          echo "✓ Postmark API key works — server: $(jq -r '.Name' /tmp/postmark.json)"
+
+      - name: Build test CSV (single recipient)
+        run: |
+          mkdir -p .cache
+          cat > .cache/e2e-test.csv <<'CSV'
+          email,firstname,contactId,body,day
+          guillaume@orisha.io,Guillaume,e2e-test,A,0
+          CSV
+          echo "✓ Test CSV ready"
+
+      - name: Clear suppression for guillaume@orisha.io
+        env:
+          POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
+        run: |
+          curl -sS -X POST "https://api.postmarkapp.com/message-streams/broadcast/suppressions/delete" \
+            -H "X-Postmark-Server-Token: ${POSTMARK_SERVER_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d '{"Suppressions":[{"EmailAddress":"guillaume@orisha.io"}]}' > /dev/null
+          echo "✓ Suppression cleared (if any)"
+
+      - name: Send via spear-wave2-send.py (Body A)
+        env:
+          POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
+          POSTMARK_FROM: guillaume@orisha.io
+          POSTMARK_MESSAGE_STREAM: broadcast
+        run: |
+          python3 email/spear/scripts/spear-wave2-send.py \
+            --csv .cache/e2e-test.csv \
+            --body A \
+            --tag e2e-test-run-${{ github.run_id }}
+
+      - name: Show sent-log
+        run: cat .cache/spear-wave2-sent-e2e-test-run-${{ github.run_id }}.log.json

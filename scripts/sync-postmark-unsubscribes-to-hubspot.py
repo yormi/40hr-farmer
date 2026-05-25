@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
-"""Sync ESP unsubscribes back to HubSpot.
+"""Sync Postmark unsubscribes back to HubSpot.
 
-SCAFFOLD ONLY — ESP not yet chosen as of 2026-05-22 (Loops, Sequenzy, and
-Resend all dropped; evaluating Postmark). The HubSpot-side opt-out call is
-ready; the ESP-side "list everyone who unsubscribed" call must be wired up
-once an ESP is locked. Search for `TODO(esp-pick)` below.
+Postmark hosts the CASL-compliant unsubscribe link (via {{{ pm:unsubscribe }}}).
+When a recipient clicks it, Postmark adds them to the broadcast stream's
+suppression list and silently drops future sends. HubSpot owns the welcome
+workflow + other lifecycle sends, so without this sync a Postmark-side
+unsubscribe wouldn't reach HubSpot — and HubSpot would keep emailing them.
+CASL violation. This script closes the loop.
 
-Why this exists: whichever ESP we use handles the actual unsubscribe link
-(CASL-compliant). HubSpot owns the welcome workflow + other lifecycle sends.
-Without this sync, a contact who unsubscribes via the ESP keeps receiving
-HubSpot emails — CASL violation. This script closes the loop.
+Runs every 20 minutes via `.github/workflows/sync-unsubscribes.yml`. Also
+runnable locally:
 
-Runs hourly via `.github/workflows/sync-unsubscribes.yml`. Can also run locally:
+  python scripts/sync-postmark-unsubscribes-to-hubspot.py            # dry run
+  python scripts/sync-postmark-unsubscribes-to-hubspot.py --push     # actually sync
 
-  python scripts/sync-esp-unsubscribes-to-hubspot.py            # dry run
-  python scripts/sync-esp-unsubscribes-to-hubspot.py --push     # actually sync
+Auth: reads POSTMARK_SERVER_TOKEN / HUBSPOT_API_KEY from env vars first
+(GitHub Actions path), then from .secrets/*.env files (local path).
 
-Auth: reads ESP_API_KEY / HUBSPOT_API_KEY from env vars first (GitHub
-Actions path), then from .secrets/*.env files (local path).
+Scope: syncs only `Origin == "Customer"` suppressions — i.e. recipient-initiated
+unsubscribes. Hard bounces and spam complaints are handled by HubSpot's own
+bounce/complaint processing for HubSpot-sent mail; not mirrored here.
 """
 
 import argparse
@@ -31,10 +33,12 @@ import urllib.request
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-ESP_SECRETS_PATH = REPO_ROOT / ".secrets" / "esp.env"  # TODO(esp-pick): rename to chosen ESP
+POSTMARK_SECRETS_PATH = REPO_ROOT / ".secrets" / "postmark.env"
 HUBSPOT_SECRETS_PATH = REPO_ROOT / ".secrets" / "hubspot.env"
-SYNC_LOG_PATH = REPO_ROOT / "promo" / "esp-hubspot-unsub-sync.log.json"
+SYNC_LOG_PATH = REPO_ROOT / ".cache" / "postmark-hubspot-unsub-sync.log.json"
 
+POSTMARK_BASE = "https://api.postmarkapp.com"
+POSTMARK_STREAM = os.environ.get("POSTMARK_MESSAGE_STREAM", "broadcast")
 HUBSPOT_BASE = "https://api.hubapi.com"
 USER_AGENT = "orisha-mailer/1.0 (+https://orisha.io)"
 RATE_LIMIT_SLEEP_SECONDS = 0.1
@@ -51,17 +55,30 @@ def load_key(path: Path, name: str) -> str:
     sys.exit(f"{name} not found in {path} (and env var {name} not set)")
 
 
-def fetch_esp_unsubscribes(esp_api_key: str) -> list[dict]:
-    """Return list of dicts: [{"email": "...", "source": "...", ...}, ...].
+def fetch_postmark_unsubscribes(server_token: str, stream: str) -> list[dict]:
+    """Fetch recipient-initiated unsubscribes from Postmark's suppression list.
 
-    TODO(esp-pick): wire to the chosen ESP's unsubscribe-list endpoint.
-    Each returned dict must include at least `email`. Other keys (source,
-    list/audience name, contact id) are passed through to the sync log.
+    Filters to `Origin == "Customer"` (the recipient clicked unsubscribe).
     """
-    raise NotImplementedError(
-        "ESP not chosen yet — wire this once Postmark (or other) is locked. "
-        "See scripts/sync-esp-unsubscribes-to-hubspot.py."
-    )
+    url = f"{POSTMARK_BASE}/message-streams/{stream}/suppressions/dump"
+    request = urllib.request.Request(url, method="GET")
+    request.add_header("Accept", "application/json")
+    request.add_header("X-Postmark-Server-Token", server_token)
+    request.add_header("User-Agent", USER_AGENT)
+    with urllib.request.urlopen(request) as response:
+        payload = json.loads(response.read().decode())
+
+    suppressions = payload.get("Suppressions", [])
+    return [
+        {
+            "email": entry["EmailAddress"],
+            "reason": entry.get("SuppressionReason", ""),
+            "origin": entry.get("Origin", ""),
+            "createdAt": entry.get("CreatedAt", ""),
+        }
+        for entry in suppressions
+        if entry.get("Origin") == "Customer"
+    ]
 
 
 def hubspot_unsubscribe(api_key: str, email: str) -> tuple[int, dict]:
@@ -92,15 +109,15 @@ def main() -> None:
     parser.add_argument("--push", action="store_true", help="actually sync to HubSpot")
     args = parser.parse_args()
 
-    esp_key = load_key(ESP_SECRETS_PATH, "ESP_API_KEY")
+    postmark_token = load_key(POSTMARK_SECRETS_PATH, "POSTMARK_SERVER_TOKEN")
     hubspot_key = load_key(HUBSPOT_SECRETS_PATH, "HUBSPOT_API_KEY")
 
-    unsubscribed = fetch_esp_unsubscribes(esp_key)
-    print(f"Found {len(unsubscribed)} unsubscribed contact(s) from ESP")
+    unsubscribed = fetch_postmark_unsubscribes(postmark_token, POSTMARK_STREAM)
+    print(f"Found {len(unsubscribed)} customer-initiated unsubscribe(s) on Postmark stream '{POSTMARK_STREAM}'")
 
     if not args.push:
         for entry in unsubscribed[:20]:
-            print(f"  {entry['email']}  (source: {entry.get('source', '?')})")
+            print(f"  {entry['email']}  ({entry['reason']}, {entry['createdAt']})")
         if len(unsubscribed) > 20:
             print(f"  ...and {len(unsubscribed) - 20} more")
         print("\nRe-run with --push to mark them all unsubscribed in HubSpot.")
@@ -125,6 +142,7 @@ def main() -> None:
         json.dumps(
             {
                 "syncedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                "stream": POSTMARK_STREAM,
                 "unsubscribedCount": len(unsubscribed),
                 "synced": synced,
                 "failures": failures,

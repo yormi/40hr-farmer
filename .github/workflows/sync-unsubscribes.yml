@@ -1,28 +1,22 @@
-name: Sync ESP unsubscribes → HubSpot
+name: Sync Postmark unsubscribes → HubSpot
 
-# Scaffold only as of 2026-05-22 — ESP not yet chosen (Loops, Sequenzy, and
-# Resend all dropped; evaluating Postmark). Once an ESP is locked, wire
-# `fetch_esp_unsubscribes()` in the script and add the matching repo secret.
+# Purpose: mirror Postmark broadcast-stream unsubscribes into HubSpot via the
+# v1 subscriptions endpoint (global opt-out). Closes the CASL gap where a
+# recipient unsubscribes via Postmark but HubSpot's welcome workflow keeps
+# emailing them.
 #
-# Purpose: mirror ESP-side unsubscribes into HubSpot via the v1 subscriptions
-# endpoint (global opt-out). Closes the CASL gap where a recipient unsubscribes
-# via the ESP but HubSpot's welcome workflow keeps emailing them.
+# Repo secrets required (Settings → Secrets and variables → Actions):
+#   - POSTMARK_SERVER_TOKEN  (server-level token; broadcast stream access)
+#   - HUBSPOT_API_KEY        (private app token, marketing email scope)
 #
-# Repo secrets required once ESP is picked:
-#   - ESP_API_KEY    (Settings → Secrets and variables → Actions)
-#   - HUBSPOT_API_KEY (private app token, marketing email scope)
-#
-# Schedule chosen to spread load off the top of the hour. Free GitHub Actions
-# cron can be delayed up to ~15 min on quiet repos — acceptable for an
-# unsubscribe-propagation window.
+# Cron at every 20 minutes. Free GitHub Actions cron can be delayed up to
+# ~15 min on quiet repos, so worst-case lag is ~35 min — still tight enough
+# that the suppression gap between Postmark and HubSpot is rarely user-visible.
 
 on:
-  # TODO(esp-pick): re-enable the hourly schedule once ESP is wired up. Until
-  # then the script raises NotImplementedError, so the cron would just spam
-  # failures. Manual dispatch only for now.
-  # schedule:
-  #   - cron: "17 * * * *"  # every hour at :17
-  workflow_dispatch: {}    # manual trigger from the Actions tab
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch: {}
 
 jobs:
   sync:
@@ -37,6 +31,6 @@ jobs:
 
       - name: Sync unsubscribes
         env:
-          ESP_API_KEY: ${{ secrets.ESP_API_KEY }}
+          POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
           HUBSPOT_API_KEY: ${{ secrets.HUBSPOT_API_KEY }}
-        run: python3 scripts/sync-esp-unsubscribes-to-hubspot.py --push
+        run: python3 scripts/sync-postmark-unsubscribes-to-hubspot.py --push

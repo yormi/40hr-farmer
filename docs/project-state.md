@@ -23,6 +23,8 @@ Waitlist and email funnel live before the June 2026 cohort launch.
 - GA4 analytics: form conversion + CTA click tracking.
 - Photo collection: 14 photos from Ferme Décembre shared album + 66 curated photos from personal library (Aug 2025+) in `assets/clients/ferme-decembre/`.
 - **Landing page rework under reader-type-first method** — step-1 page intent + step-2 section intents + step-3 decompositions all locked in `landing/docs/outline.md`. Step-4 locked copy now covers: Hero (Gut), Drew arc (Peer Sub 1), What a bed can buy back (Peer Sub 2), Analytical Subs 1–4, Practical Subs 1–3, Team section (Committer Sub 1 including all three bios + framing + closer), and Committer Sub 2 Beat 1 (why today).
+- **SPEAR Wave 0 sent 2026-05-12** (150 contacts, 3 subject lines, via HubSpot). Wave 1 sent via **Resend** to the full 852-contact engaged-remainder audience (50/50 Body A / Body B) between 2026-05-15 and 2026-05-22 before Resend was dropped. Results recap pending; do not re-send.
+- **ESP locked: Postmark (2026-05-25).** Token in `.secrets/postmark.env`, default broadcast stream id `broadcast`, From `guillaume@orisha.io`. Footer (`email/compliance-footer.html`) wired to `{{{ pm:unsubscribe }}}`. Eval test send: MessageID `a82b6f61-c2dd-4d25-9b2d-776b8b5ab2e9` to `guillaume@orisha.io`. Welcome-sequence migration off HubSpot onto Postmark not yet scheduled. Postmark→HubSpot unsubscribe sync still needs wiring in `scripts/sync-esp-unsubscribes-to-hubspot.py`.
 
 ### Pending
 
@@ -99,6 +101,8 @@ Log of decisions already made, so we do not re-litigate them. Does not cover pen
 - **GFM editorial deadline** for the upstream promotion piece. Need from Andrew at GFM.
 - **Pending landing-copy work in `landing/docs/outline.md`:** see the Status markers per section. Remaining: Committer Sub 2 Beats 2–4 (what-happens-after-signup, form, disclosures), "What it starts to feel like" placement decision, FAQ re-draft under the reader-type-first method.
 - **HubSpot API token rotation.** Guillaume pasted the token into chat, so treat it as slightly exposed. Low urgency, but worth rotating when convenient.
+- **Postmark server token rotation.** Token `d5c52570-…` was pasted into chat 2026-05-25; same treatment as HubSpot. Rotate when convenient via Postmark → Server → API Tokens.
+- **Wave 1 send date + results.** Recorded as a range (2026-05-15 to 2026-05-22) and audience size (852 split 50/50). Fill in exact send timestamp(s), open/click counts per body, and bounce/complaint totals once Guillaume retrieves them from Resend's archive.
 
 ## Funnel conversions to optimize
 

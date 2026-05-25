@@ -70,7 +70,7 @@
 - Body A: `https://the40hourfarmer.orisha.io/#leverage`, `utm_content=wave1-howto`
 - Body B: `https://the40hourfarmer.orisha.io/#story`, `utm_content=wave1-flip`
 
-**Sending platform:** TBD (Loops → Sequenzy → Resend all dropped; evaluating Postmark as of 2026-05-22; see `spear-wave-plan.md`). Wave 1 send is paused until an ESP is locked. Contact list still built in HubSpot (engaged remainder minus Wave 0 recipients); 852-contact audience splits 50/50 between Body A and Body B.
+**Sending platform:** Wave 1 was **sent via Resend** between 2026-05-15 and 2026-05-22 (exact date TBD) to the full 852-contact audience, 50/50 split between Body A and Body B. ESP now locked: Postmark (2026-05-25). Future SPEAR waves go through Postmark broadcast streams; see `spear-wave-plan.md`.
 
 ### Retired (locked 2026-05-13, replaced 2026-05-14)
 

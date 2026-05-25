@@ -44,11 +44,11 @@ When a plan or draft finishes, move the locked content to its canonical home (te
 
 ## Email infrastructure
 
-- **Broadcasts / marketing sends:** ESP not chosen. Evaluating Postmark (2026-05-22). No marketing sends until an ESP is locked. Generic CASL-compliant footer scaffold at [`email/compliance-footer.html`](email/compliance-footer.html) — re-wire the merge token (`{{ unsubscribe_url }}`) once the ESP is picked.
-- **Welcome sequence:** templates in [`email/welcome-sequence/`](email/welcome-sequence/). Currently sent via HubSpot workflow. Migration off HubSpot paused until ESP pick.
-- **CRM:** HubSpot only. Landing page form submits create contacts via HubSpot Forms API. ESP → HubSpot unsubscribe sync runs hourly via [`.github/workflows/sync-unsubscribes.yml`](.github/workflows/sync-unsubscribes.yml) — currently a scaffold awaiting ESP wiring; needs `HUBSPOT_API_KEY` + `ESP_API_KEY` repo secrets once ESP is picked.
+- **Broadcasts / marketing sends:** **Postmark** (locked 2026-05-25 after eval test send to `guillaume@orisha.io`). Server token in `.secrets/postmark.env`. Default broadcast stream id `broadcast`. Footer unsubscribe token = `{{{ pm:unsubscribe }}}` ([`email/compliance-footer.html`](email/compliance-footer.html)).
+- **Welcome sequence:** templates in [`email/welcome-sequence/`](email/welcome-sequence/). Currently sent via HubSpot workflow. Migration off HubSpot onto Postmark not yet scheduled.
+- **CRM:** HubSpot only. Landing page form submits create contacts via HubSpot Forms API. Postmark → HubSpot unsubscribe sync runs hourly via [`.github/workflows/sync-unsubscribes.yml`](.github/workflows/sync-unsubscribes.yml) — scaffold; needs Postmark suppression-list wiring in `scripts/sync-esp-unsubscribes-to-hubspot.py` + `POSTMARK_SERVER_TOKEN` repo secret.
 - **API keys:** `.secrets/*.env` files locally (`hubspot.env`); env vars in CI. Scripts follow this pattern.
-- Loops, Sequenzy, and Resend were tried and dropped (Loops + Sequenzy 2026-05-15, Resend 2026-05-22) — do not suggest these three as ESP options.
+- Loops, Sequenzy, and Resend were tried and dropped (Loops + Sequenzy 2026-05-15, Resend 2026-05-22). Postmark locked 2026-05-25. Don't reopen ESP-shopping.
 
 ## Funnel conversions to optimize
 
@@ -88,7 +88,7 @@ Push the current branch to staging with:
   - `landing/docs/` — landing rework process, outline + locked copy, sources. See `landing/docs/README.md`.
 - `email/welcome-sequence/` — 5 welcome email templates + sequence planning docs (`docs/sequence-plan.md`)
 - `email/spear/` — SPEAR broadcast project: plan, audience CSVs, samples, scripts (`scripts/`)
-- `email/compliance-footer.html` — generic CASL footer scaffold for marketing sends (ESP TBD)
+- `email/compliance-footer.html` — CASL footer for marketing sends (Postmark unsubscribe token wired)
 - `outline/` — video outlines for the program (3-5 min). See `outline/CLAUDE.md`.
 - `docs/utm-links.md` — UTM scheme + canonical tagged URLs for the waitlist
 - `brand/` — brand foundations submodule (read these, see top of file)

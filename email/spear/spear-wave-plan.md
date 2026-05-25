@@ -1,10 +1,10 @@
 # 40hr Farmer SPEAR — send wave plan
 
-**Status:** Wave 0 sent 2026-05-12. Wave 1 locked 2026-05-14 but **send is paused** — ESP not chosen (Loops → Sequenzy → Resend all dropped between 2026-05-15 and 2026-05-22; evaluating Postmark next).
+**Status:** Wave 0 sent 2026-05-12 (HubSpot). Wave 1 sent via **Resend** to the full 852-contact engaged-remainder audience (50/50 Body A / Body B) between 2026-05-15 and 2026-05-22, before Resend was dropped. Exact send date + results recap TBD. ESP now locked: **Postmark** (2026-05-25). Future SPEAR waves go through Postmark broadcast streams.
 **Source list:** HubSpot list `1722` — "The 40 Hour Farmer SPEAR" (size 4955 as of 2026-05-13).
 **SPEAR copy:** [`orisha-list-spear.md`](orisha-list-spear.md).
 **Framework:** Dan Martell single-email SPEAR. CTA = link to landing page (anchor varies per body).
-**Sending platform:** TBD pending ESP pick. See [ESP broadcast setup](#esp-broadcast-setup-wave-1) below. Compliance footer scaffold at [`email/compliance-footer.html`](../compliance-footer.html).
+**Sending platform:** Postmark (broadcast stream `broadcast`). Compliance footer at [`email/compliance-footer.html`](../compliance-footer.html) with `{{{ pm:unsubscribe }}}` wired.
 
 ## Hero metric
 
@@ -53,13 +53,13 @@ Body identical across variants. Sender, reply-to, send time identical across var
 | Variant A | **Subject:** "Cutting farm hours without cutting income". **Body:** Mechanism / How. CTA → `#leverage`, `utm_content=wave1-howto`. |
 | Variant B | **Subject:** "Making the farm pay for the life you want". **Body:** Flip / Drew & Allison. CTA → `#story`, `utm_content=wave1-flip`. |
 | Both locked in | [`orisha-list-spear.md`](orisha-list-spear.md) |
-| Platform | TBD pending ESP pick. See [ESP broadcast setup](#esp-broadcast-setup-wave-1) below. |
+| Platform | **Sent via Resend** between 2026-05-15 and 2026-05-22 (exact date TBD). |
 | Read window | 48h |
-| Metrics | Same as Wave 0 (open + click via ESP tracking on `learn.orisha.io`), plus baseline numbers for Wave 2 expectations |
+| Metrics | Open + click via Resend tracking. Results recap TBD — retrieve from Resend archive before Resend account is closed. |
 
 **Subject design:** A/B run two distinct subject lines paired with two distinct bodies (subject A ↔ body A, subject B ↔ body B), splitting the 852-contact audience 50/50. Wave 2+ subject will be re-decided after Wave 1 results.
 
-**Platform-switch audit trail (2026-05-15 → 2026-05-22):** Wave 1 was originally set up on Loops.so (audience pushed via a sync script, tagged `spearWave1 = yield`). Migrated to Sequenzy briefly, then off Sequenzy to Resend on 2026-05-15, then Resend dropped on 2026-05-22. Evaluating Postmark next. Loops sync script, Sequenzy drafts, and Resend scripts have all been deleted from the repo.
+**Platform history (2026-05-15 → 2026-05-25):** Originally set up on Loops.so (audience pushed via sync script, tagged `spearWave1 = yield`). Migrated to Sequenzy briefly, then off Sequenzy to Resend on 2026-05-15. **Wave 1 sent on Resend** before Resend itself was dropped 2026-05-22. ESP locked on Postmark 2026-05-25 after eval test send. Loops sync script, Sequenzy drafts, and Resend scripts have all been deleted from the repo.
 
 ### Wave 2+ — cold remainder (~3939 contacts)
 
@@ -119,24 +119,24 @@ Downstream conversion = waitlist form submit (already tracked, triggers the welc
 ## Send config
 
 - **Wave 0 send time:** Tuesday 6:00 AM ET (sent 2026-05-12).
-- **Wave 1 send time:** TBD pending second body lock and smoke test.
+- **Wave 1 send time:** Sent via Resend between 2026-05-15 and 2026-05-22 (exact timestamp TBD).
 - **Sender name:** Guillaume Lambert.
 - **Reply-to:** `guillaume@orisha.io`.
 - **Engagement filter (Wave 0 + Wave 1 source pool):** Marketing email last open date < 61 days ago. On 2026-05-13 the pool was 999 contacts (150 sent in Wave 0, 852 remain for Wave 1).
 
 Hard-bounce-history exclusion is optional; not currently in list 1722. HubSpot auto-suppresses at send time. ESP auto-suppression behavior to be re-verified once ESP is picked.
 
-## ESP broadcast setup (Wave 1)
+## Postmark setup (for Wave 2+ and future SPEAR sends)
 
-**Status (2026-05-22):** ESP not chosen. Loops, Sequenzy, and Resend all dropped. Evaluating Postmark next. This section is a checklist of what must be re-locked before Wave 1 can send:
+**Status (2026-05-25):** Postmark locked. Wave 1 already sent via Resend; this section is the template for Wave 2 onward.
 
-- ESP picked + `orisha.io` domain verified (DKIM + SPF + tracking CNAME on `learn.orisha.io`).
-- Audience split: 426/426 from `email/spear/spear-wave1-audience.csv` (852 rows, seed 42, idempotent).
-- Per-broadcast config (twice — once per variant):
-  - Variant A: `SPEAR Wave 1 — Body A (Mechanism)`, subject `Cutting farm hours without cutting income`, body from [`orisha-list-spear.md`](orisha-list-spear.md), CTA → `#leverage` + `utm_content=wave1-howto`.
-  - Variant B: `SPEAR Wave 1 — Body B (Flip)`, subject `Making the farm pay for the life you want`, body from [`orisha-list-spear.md`](orisha-list-spear.md), CTA → `#story` + `utm_content=wave1-flip`.
+- Postmark account verified for `orisha.io` (DKIM + Return-Path + tracking CNAME on `learn.orisha.io`).
+- Server token in `.secrets/postmark.env` (`POSTMARK_SERVER_TOKEN`). Default broadcast stream id: `broadcast`.
+- Audience split (per wave): pull from the relevant audience CSV in `email/spear/`, seed-42 split for reproducibility.
+- Per-broadcast config:
+  - Variant config (subject + body + UTM) sourced from [`orisha-list-spear.md`](orisha-list-spear.md).
   - From: `Guillaume <guillaume@orisha.io>`; reply-to: `guillaume@orisha.io`.
-  - Compliance footer: drop in `email/compliance-footer.html` verbatim; re-bind the unsubscribe merge token to the ESP's syntax (currently a generic `{{ unsubscribe_url }}` placeholder).
-- First-name token: re-lock the ESP-specific syntax with a `there` fallback.
-- Test send to `guillaume@orisha.io`: verify subject, first-name token resolved, link wrapping, footer rendering, landing page load, and downstream HubSpot waitlist-form trigger.
-- Cross-system unsubscribe sync: re-point `scripts/sync-esp-unsubscribes-to-hubspot.py` at the new ESP's unsubscribe-list endpoint. Workflow `.github/workflows/sync-unsubscribes.yml` runs hourly and is currently a scaffold awaiting ESP wiring.
+  - Compliance footer: drop in `email/compliance-footer.html` verbatim. Footer's `{{{ pm:unsubscribe }}}` resolves automatically on the broadcast stream.
+- First-name token: Postmark Mustache syntax `{{name "there"}}` with `there` fallback (template-driven sends) or render server-side per recipient (API sends).
+- Test send to `guillaume@orisha.io`: verify subject, first-name token resolved, Postmark link wrapping, footer rendering, landing page load, downstream HubSpot waitlist-form trigger.
+- Cross-system unsubscribe sync: wire `scripts/sync-esp-unsubscribes-to-hubspot.py` against Postmark suppression list (`GET /message-streams/{stream}/suppressions/dump`). Workflow `.github/workflows/sync-unsubscribes.yml` cron still commented out.

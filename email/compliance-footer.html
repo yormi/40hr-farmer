@@ -1,16 +1,15 @@
 <!--
-  Canonical CASL-compliant footer scaffold for marketing broadcasts.
+  Canonical CASL-compliant footer for Postmark broadcasts.
 
   Drop this snippet at the bottom of any broadcast/email body for the
   40hr Farmer or Orisha. It satisfies CASL + CAN-SPAM in one line:
 
     - Sender identification: "Orisha" + valid mailing address
-    - Functional unsubscribe via {{ unsubscribe_url }}
-      (Generic placeholder, awaiting ESP pick. Once the ESP is chosen,
-      replace `{{ unsubscribe_url }}` with that ESP's merge-tag syntax
-      for the per-recipient unsubscribe link.)
-    - Custom tracking domain learn.orisha.io is configured at the org
-      level; once the ESP is picked, links here get wrapped at send time.
+    - Functional unsubscribe via Postmark's {{{ pm:unsubscribe }}} merge tag
+      (resolves to a per-recipient hosted Postmark unsubscribe URL; only
+      works on a broadcast message stream, not transactional).
+    - Custom tracking domain learn.orisha.io configured at the Postmark
+      server level; links here get wrapped at send time.
 
   Renders as a single grey line, ~11px, left-aligned, no border:
 
@@ -20,5 +19,5 @@
   here first, then audit other places (about pages, contracts, HubSpot footer).
 -->
 <div style="font-size:11px;color:#9ca3af;margin-top:32px;line-height:1.4;">
-Orisha, 1535 ch. Ste-Foy, Qu&eacute;bec, QC G1S 2P1, Canada &middot; <a href="https://orisha.io" style="color:#9ca3af;text-decoration:underline;">orisha.io</a> &middot; <a href="{{ unsubscribe_url }}" style="color:#9ca3af;text-decoration:underline;">Unsubscribe</a>
+Orisha, 1535 ch. Ste-Foy, Qu&eacute;bec, QC G1S 2P1, Canada &middot; <a href="https://orisha.io" style="color:#9ca3af;text-decoration:underline;">orisha.io</a> &middot; <a href="{{{ pm:unsubscribe }}}" style="color:#9ca3af;text-decoration:underline;">Unsubscribe</a>
 </div>

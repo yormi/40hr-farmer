@@ -25,6 +25,7 @@ import argparse
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -33,6 +34,8 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 POSTMARK_SECRETS_PATH = REPO_ROOT / ".secrets" / "postmark.env"
 POSTMARK_BASE = "https://api.postmarkapp.com"
 USER_AGENT = "orisha-mailer/1.0 (+https://orisha.io)"
+POSTMARK_FROM = os.environ.get("POSTMARK_FROM", "guillaume@orisha.io")
+REPORT_STREAM = os.environ.get("POSTMARK_REPORT_STREAM", "outbound")
 
 # Day → date map. Update if the schedule shifts.
 DAY_DATES = {
@@ -154,6 +157,85 @@ def print_table(stats_list: list[dict], unsubs_by_tag: dict[str, int]) -> None:
                 print(f"    ⚠ {t}")
 
 
+def build_report_html(tags: list[str], stats_list: list[dict], unsubs_by_tag: dict[str, int], overall: str, total_unsubs_stream: int) -> str:
+    rows_html = []
+    for stats in stats_list:
+        if "error" in stats:
+            rows_html.append(
+                f"<tr><td colspan=\"12\" style=\"color:#b91c1c;\">{stats['tag']} — ERROR: {stats['error']}</td></tr>"
+            )
+            continue
+        unsubs = unsubs_by_tag.get(stats["tag"], 0)
+        v, tripped = verdict(stats, unsubs)
+        color = {"GREEN": "#15803d", "RED": "#b91c1c", "PENDING": "#a16207"}.get(v, "#111")
+        rows_html.append(
+            "<tr>"
+            f"<td>{stats['tag']}</td>"
+            f"<td style=\"text-align:right;\">{stats['sent']}</td>"
+            f"<td style=\"text-align:right;\">{stats['unique_opens']}</td>"
+            f"<td style=\"text-align:right;\">{stats['open_rate']:.1f}%</td>"
+            f"<td style=\"text-align:right;\">{stats['unique_clicks']}</td>"
+            f"<td style=\"text-align:right;\">{stats['click_rate']:.1f}%</td>"
+            f"<td style=\"text-align:right;\">{stats['bounced']}</td>"
+            f"<td style=\"text-align:right;\">{stats['bounce_rate']:.2f}%</td>"
+            f"<td style=\"text-align:right;\">{stats['spam_complaints']}</td>"
+            f"<td style=\"text-align:right;\">{stats['spam_rate']:.3f}%</td>"
+            f"<td style=\"text-align:right;\">{unsubs}</td>"
+            f"<td style=\"color:{color};font-weight:600;\">{v}</td>"
+            "</tr>"
+        )
+        if tripped:
+            rows_html.append(
+                f"<tr><td colspan=\"12\" style=\"color:#b91c1c;font-size:13px;padding-left:12px;\">⚠ tripped: {'; '.join(tripped)}</td></tr>"
+            )
+
+    overall_color = "#b91c1c" if overall == "RED" else "#15803d"
+    overall_blurb = (
+        "RED — kill-switch tripped, do NOT continue. Investigate before next send."
+        if overall == "RED"
+        else "GREEN — safe to continue. Next day's send will proceed on schedule."
+    )
+
+    return (
+        "<div style=\"font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.5;color:#111;max-width:760px;\">"
+        f"<h2 style=\"margin:0 0 8px 0;color:{overall_color};\">SPEAR Wave 2 check — {overall}</h2>"
+        f"<p style=\"margin:0 0 16px 0;color:#374151;\">{overall_blurb}</p>"
+        "<table cellpadding=\"6\" cellspacing=\"0\" style=\"border-collapse:collapse;font-size:13px;width:100%;\">"
+        "<thead><tr style=\"background:#f3f4f6;text-align:left;\">"
+        "<th>tag</th><th>sent</th><th>opens</th><th>open%</th><th>clicks</th><th>click%</th>"
+        "<th>bounces</th><th>bounce%</th><th>spam</th><th>spam%</th><th>unsubs</th><th>verdict</th>"
+        "</tr></thead>"
+        f"<tbody>{''.join(rows_html)}</tbody>"
+        "</table>"
+        f"<p style=\"margin-top:16px;color:#6b7280;font-size:12px;\">Total customer-origin unsubscribes on broadcast stream (all-time): {total_unsubs_stream}. Per-tag unsub counts are best-effort (matched by date prefix in tag name).</p>"
+        f"<p style=\"margin-top:8px;color:#6b7280;font-size:12px;\">Kill-switch thresholds: bounce &gt; {BOUNCE_KILL}% · spam &gt; {SPAM_KILL}% · unsubscribe &gt; {UNSUB_KILL}%.</p>"
+        "</div>"
+    )
+
+
+def send_report_email(token: str, to_address: str, subject: str, html_body: str, text_body: str) -> tuple[int, dict]:
+    payload = {
+        "From": f"Guillaume at Orisha <{POSTMARK_FROM}>",
+        "To": to_address,
+        "Subject": subject,
+        "HtmlBody": html_body,
+        "TextBody": text_body,
+        "MessageStream": REPORT_STREAM,
+        "Tag": "spear-wave2-check-report",
+    }
+    data = json.dumps(payload).encode()
+    request = urllib.request.Request(f"{POSTMARK_BASE}/email", data=data, method="POST")
+    request.add_header("Accept", "application/json")
+    request.add_header("Content-Type", "application/json")
+    request.add_header("X-Postmark-Server-Token", token)
+    request.add_header("User-Agent", USER_AGENT)
+    try:
+        with urllib.request.urlopen(request) as response:
+            return response.status, json.loads(response.read().decode())
+    except urllib.error.HTTPError as error:
+        return error.code, {"raw": error.read().decode()[:300]}
+
+
 def tags_for_day(day: int) -> list[str]:
     date = DAY_DATES.get(day)
     if not date:
@@ -170,6 +252,8 @@ def main() -> None:
     group.add_argument("--day", type=int, choices=[1, 2, 3], help="check one day's tags")
     group.add_argument("--all", action="store_true", help="check all 3 days")
     group.add_argument("--tags", help="comma-separated explicit tags")
+    parser.add_argument("--email", help="also email the report to this address via Postmark (e.g. guillaume@orisha.io)")
+    parser.add_argument("--subject-prefix", default="SPEAR Wave 2 check", help="prefix for the email subject line")
     args = parser.parse_args()
 
     token = load_key(POSTMARK_SECRETS_PATH, "POSTMARK_SERVER_TOKEN")
@@ -217,7 +301,30 @@ def main() -> None:
         v, _ = verdict(stats, unsubs_by_tag.get(stats["tag"], 0))
         if v == "RED":
             any_red = True
+    overall = "RED" if any_red else "GREEN"
     print("OVERALL:", "RED — kill-switch tripped, do NOT continue" if any_red else "GREEN — safe to continue")
+
+    if args.email:
+        subject = f"{args.subject_prefix}: {overall}"
+        html_body = build_report_html(tags, stats_list, unsubs_by_tag, overall, total_unsubs)
+        text_body = (
+            f"SPEAR Wave 2 check — {overall}\n\n"
+            + ("Kill-switch tripped, do NOT continue.\n\n" if any_red else "Safe to continue.\n\n")
+            + "\n".join(
+                f"{stats.get('tag','?')}: sent={stats.get('sent','?')} opens={stats.get('unique_opens','?')} "
+                f"clicks={stats.get('unique_clicks','?')} bounces={stats.get('bounced','?')} "
+                f"spam={stats.get('spam_complaints','?')} unsubs={unsubs_by_tag.get(stats.get('tag',''), 0)}"
+                for stats in stats_list
+            )
+            + f"\n\nTotal customer-origin unsubs on broadcast stream (all-time): {total_unsubs}"
+            + f"\nKill-switch thresholds: bounce > {BOUNCE_KILL}% · spam > {SPAM_KILL}% · unsubscribe > {UNSUB_KILL}%"
+        )
+        status, body = send_report_email(token, args.email, subject, html_body, text_body)
+        if status == 200 and body.get("ErrorCode") == 0:
+            print(f"\n✓ Report emailed to {args.email} (MessageID: {body.get('MessageID')})")
+        else:
+            print(f"\n✗ Failed to email report: status={status} body={json.dumps(body)[:200]}")
+            sys.exit(1)
 
 
 if __name__ == "__main__":

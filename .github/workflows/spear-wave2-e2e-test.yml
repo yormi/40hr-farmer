@@ -98,3 +98,13 @@ jobs:
 
       - name: Show sent-log
         run: cat .cache/spear-wave2-sent-e2e-test-run-${{ github.run_id }}.log.json
+
+      - name: Test check script + email report
+        env:
+          POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
+          POSTMARK_FROM: guillaume@orisha.io
+        run: |
+          python3 email/spear/scripts/spear-wave2-check.py \
+            --tags e2e-test-run-${{ github.run_id }} \
+            --email guillaume@orisha.io \
+            --subject-prefix "SPEAR Wave 2 e2e check (run ${{ github.run_id }})"

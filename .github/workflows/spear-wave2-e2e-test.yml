@@ -1,18 +1,24 @@
 name: SPEAR Wave 2 — end-to-end test (manual)
 
 # Smoke test for the production send pipeline. Manually triggered from the
-# Actions tab. Sends ONE email to guillaume@orisha.io via the production
-# spear-wave2-send.py script. Verifies that:
+# Actions tab. Verifies that:
 #   - POSTMARK_SERVER_TOKEN is set as a repo secret and valid
 #   - HUBSPOT_API_KEY is set as a repo secret and valid
 #   - The actions/checkout + setup-python pipeline works
 #   - The send script + tag flow works end-to-end on Actions infra
+#   - The check script + email-report path works
 #
-# Safe to re-run: each run uses a unique tag suffixed with the workflow run id,
-# so the sent-log doesn't dedupe across runs.
+# Idempotent across re-runs: uses fixed tag `e2e-test` and caches the
+# sent-log via actions/cache. First run sends one email; subsequent runs
+# verify auth + report path but DON'T send (the recipient is already in the
+# sent-log). To force a fresh send: clear the cache entry from Actions →
+# Caches, or change the tag in this file.
 
 on:
   workflow_dispatch: {}
+
+env:
+  E2E_TAG: e2e-test
 
 jobs:
   e2e:
@@ -24,6 +30,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Restore sent-log cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/spear-wave2-sent-${{ env.E2E_TAG }}.log.json
+          key: spear-wave2-sent-${{ env.E2E_TAG }}-v1
 
       - name: Verify secrets are set
         env:
@@ -85,7 +97,7 @@ jobs:
             -d '{"Suppressions":[{"EmailAddress":"guillaume@orisha.io"}]}' > /dev/null
           echo "✓ Suppression cleared (if any)"
 
-      - name: Send via spear-wave2-send.py (Body A)
+      - name: Send via spear-wave2-send.py (Body A; skips if cached)
         env:
           POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
           POSTMARK_FROM: guillaume@orisha.io
@@ -94,10 +106,10 @@ jobs:
           python3 email/spear/scripts/spear-wave2-send.py \
             --csv .cache/e2e-test.csv \
             --body A \
-            --tag e2e-test-run-${{ github.run_id }}
+            --tag ${{ env.E2E_TAG }}
 
       - name: Show sent-log
-        run: cat .cache/spear-wave2-sent-e2e-test-run-${{ github.run_id }}.log.json
+        run: cat .cache/spear-wave2-sent-${{ env.E2E_TAG }}.log.json || echo "(no sent-log; cache may have been cleared)"
 
       - name: Test check script + email report
         env:
@@ -105,6 +117,6 @@ jobs:
           POSTMARK_FROM: guillaume@orisha.io
         run: |
           python3 email/spear/scripts/spear-wave2-check.py \
-            --tags e2e-test-run-${{ github.run_id }} \
+            --tags ${{ env.E2E_TAG }} \
             --email guillaume@orisha.io \
             --subject-prefix "SPEAR Wave 2 e2e check (run ${{ github.run_id }})"

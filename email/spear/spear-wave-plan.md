@@ -126,6 +126,16 @@ Downstream conversion = waitlist form submit (already tracked, triggers the welc
 
 Hard-bounce-history exclusion is optional; not currently in list 1722. HubSpot auto-suppresses at send time. ESP auto-suppression behavior to be re-verified once ESP is picked.
 
+## Tag convention (Postmark)
+
+Every Postmark send (broadcast or transactional) gets a `Tag` so Statistics → Tags rolls up cleanly. Format:
+
+```
+YYYY-MM-DD-<campaign>-<wave>-<variant>
+```
+
+Date-first so the Tags list sorts chronologically. Examples: `2026-06-15-spear-wave2-bodyA`, `2026-06-20-welcome-01`, `2026-05-25-spear-bodyA-test`. For one-offs without a campaign: `YYYY-MM-DD-<descriptor>`.
+
 ## Postmark setup (for Wave 2+ and future SPEAR sends)
 
 **Status (2026-05-25):** Postmark locked. Wave 1 already sent via Resend; this section is the template for Wave 2 onward.

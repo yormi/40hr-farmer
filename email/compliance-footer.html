@@ -9,7 +9,13 @@
       (resolves to a per-recipient hosted Postmark unsubscribe URL; only
       works on a broadcast message stream, not transactional).
     - Custom tracking domain learn.orisha.io configured at the Postmark
-      server level; links here get wrapped at send time.
+      server level; CTA links in the body get wrapped at send time.
+    - The two links in this footer (orisha.io homepage + Unsubscribe)
+      carry `data-pm-no-track` so Postmark skips link-wrapping on them.
+      Reason: we only care about CTA clicks for conversion tracking;
+      footer-link clicks are noise. Unsubscribes are tracked separately
+      via the Suppressions list on the broadcast stream (Postmark adds
+      anyone who clicks {{{ pm:unsubscribe }}} to that list automatically).
 
   Renders as a single grey line, ~11px, left-aligned, no border:
 
@@ -19,5 +25,5 @@
   here first, then audit other places (about pages, contracts, HubSpot footer).
 -->
 <div style="font-size:11px;color:#9ca3af;margin-top:32px;line-height:1.4;">
-Orisha, 1535 ch. Ste-Foy, Qu&eacute;bec, QC G1S 2P1, Canada &middot; <a href="https://orisha.io" style="color:#9ca3af;text-decoration:underline;">orisha.io</a> &middot; <a href="{{{ pm:unsubscribe }}}" style="color:#9ca3af;text-decoration:underline;">Unsubscribe</a>
+Orisha, 1535 ch. Ste-Foy, Qu&eacute;bec, QC G1S 2P1, Canada &middot; <a data-pm-no-track href="https://orisha.io" style="color:#9ca3af;text-decoration:underline;">orisha.io</a> &middot; <a data-pm-no-track href="{{{ pm:unsubscribe }}}" style="color:#9ca3af;text-decoration:underline;">Unsubscribe</a>
 </div>

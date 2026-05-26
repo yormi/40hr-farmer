@@ -389,8 +389,19 @@ def main() -> None:
         v, _ = verdict(stats, unsubs_by_tag.get(stats["tag"], 0))
         if v == "RED":
             any_red = True
-    overall = "RED" if any_red else "GREEN"
-    print("OVERALL:", "RED — kill-switch tripped, do NOT continue" if any_red else "GREEN — safe to continue")
+    all_pending = all(
+        ("error" in stats) or (stats.get("sent", 0) == 0)
+        for stats in stats_list
+    )
+    if any_red:
+        overall = "RED"
+        print("OVERALL: RED — kill-switch tripped, do NOT continue")
+    elif all_pending:
+        overall = "PENDING"
+        print("OVERALL: PENDING — no sends recorded yet for these tag(s); check if the workflow fired")
+    else:
+        overall = "GREEN"
+        print("OVERALL: GREEN — safe to continue")
 
     engagement_by_tag: dict[str, dict[str, dict]] = {}
     if args.per_recipient:

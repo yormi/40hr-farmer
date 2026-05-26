@@ -36,14 +36,25 @@ SECRETS_PATH = REPO_ROOT / ".secrets" / "hubspot.env"
 OUTPUT_DIR = REPO_ROOT / "email" / "spear"
 OUTPUT_PUBLISH_LOG = OUTPUT_DIR / "spear-wave2-hubspot-lists.json"
 
-LIST_PLAN = [
-    {"day": 1, "body": "A", "label": "Mechanism", "csv": "spear-wave2-day1-bodyA.csv"},
-    {"day": 1, "body": "B", "label": "Flip",      "csv": "spear-wave2-day1-bodyB.csv"},
-    {"day": 2, "body": "A", "label": "Mechanism", "csv": "spear-wave2-day2-bodyA.csv"},
-    {"day": 2, "body": "B", "label": "Flip",      "csv": "spear-wave2-day2-bodyB.csv"},
-    {"day": 3, "body": "A", "label": "Mechanism", "csv": "spear-wave2-day3-bodyA.csv"},
-    {"day": 3, "body": "B", "label": "Flip",      "csv": "spear-wave2-day3-bodyB.csv"},
+PER_DAY_PLAN = [
+    {"day": 1, "body": "A", "label": "Mechanism", "csvs": ["spear-wave2-day1-bodyA.csv"]},
+    {"day": 1, "body": "B", "label": "Flip",      "csvs": ["spear-wave2-day1-bodyB.csv"]},
+    {"day": 2, "body": "A", "label": "Mechanism", "csvs": ["spear-wave2-day2-bodyA.csv"]},
+    {"day": 2, "body": "B", "label": "Flip",      "csvs": ["spear-wave2-day2-bodyB.csv"]},
+    {"day": 3, "body": "A", "label": "Mechanism", "csvs": ["spear-wave2-day3-bodyA.csv"]},
+    {"day": 3, "body": "B", "label": "Flip",      "csvs": ["spear-wave2-day3-bodyB.csv"]},
 ]
+
+BY_BODY_PLAN = [
+    {"day": None, "body": "A", "label": "Mechanism", "csvs": ["spear-wave2-day1-bodyA.csv", "spear-wave2-day2-bodyA.csv", "spear-wave2-day3-bodyA.csv"]},
+    {"day": None, "body": "B", "label": "Flip",      "csvs": ["spear-wave2-day1-bodyB.csv", "spear-wave2-day2-bodyB.csv", "spear-wave2-day3-bodyB.csv"]},
+]
+
+
+def list_name_for(entry: dict) -> str:
+    if entry["day"] is None:
+        return f"SPEAR Wave 2 - Body {entry['body']} ({entry['label']})"
+    return f"SPEAR Wave 2 - Day {entry['day']} - Body {entry['body']} ({entry['label']})"
 
 
 def load_api_key() -> str:
@@ -105,33 +116,41 @@ def add_members(api_key: str, list_id: str, contact_ids: list[str]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--create", action="store_true", help="actually create the lists in HubSpot")
+    parser.add_argument("--mode", choices=["by-body", "per-day"], default="by-body",
+                        help="by-body: 2 lists, 3 days each merged (default). per-day: 6 lists, one per day per body.")
     args = parser.parse_args()
 
     api_key = load_api_key()
 
+    plan = BY_BODY_PLAN if args.mode == "by-body" else PER_DAY_PLAN
+
     plan_with_counts: list[dict] = []
     total = 0
-    for entry in LIST_PLAN:
-        csv_path = OUTPUT_DIR / entry["csv"]
-        if not csv_path.exists():
-            sys.exit(
-                f"Missing audience CSV: {csv_path}\n"
-                f"Run `python email/spear/scripts/spear-wave2-build.py --days 3` first."
-            )
-        contact_ids = read_csv_contact_ids(csv_path)
-        list_name = f"SPEAR Wave 2 - Day {entry['day']} - Body {entry['body']} ({entry['label']})"
+    for entry in plan:
+        contact_ids: list[str] = []
+        csv_paths: list[str] = []
+        for csv_filename in entry["csvs"]:
+            csv_path = OUTPUT_DIR / csv_filename
+            if not csv_path.exists():
+                sys.exit(
+                    f"Missing audience CSV: {csv_path}\n"
+                    f"Run `python email/spear/scripts/spear-wave2-build.py --days 3` first."
+                )
+            contact_ids.extend(read_csv_contact_ids(csv_path))
+            csv_paths.append(str(csv_path.relative_to(REPO_ROOT)))
+        list_name = list_name_for(entry)
         plan_with_counts.append({
             **entry,
-            "csv_path": str(csv_path.relative_to(REPO_ROOT)),
+            "csv_paths": csv_paths,
             "list_name": list_name,
             "contact_count": len(contact_ids),
             "contact_ids": contact_ids,
         })
         total += len(contact_ids)
 
-    print(f"Plan: {len(plan_with_counts)} HubSpot static lists, {total} total memberships\n")
+    print(f"Plan ({args.mode}): {len(plan_with_counts)} HubSpot static lists, {total} total memberships\n")
     for entry in plan_with_counts:
-        print(f"  {entry['list_name']:<50}  {entry['contact_count']:>5} contacts  ←  {entry['csv_path']}")
+        print(f"  {entry['list_name']:<50}  {entry['contact_count']:>5} contacts  ←  {' + '.join(entry['csv_paths'])}")
 
     if not args.create:
         print("\nDry run. Re-run with --create to create these lists in HubSpot.")
@@ -146,7 +165,7 @@ def main() -> None:
             "day": entry["day"],
             "body": entry["body"],
             "label": entry["label"],
-            "csv": entry["csv"],
+            "csvs": entry["csv_paths"],
             "listName": entry["list_name"],
             "listId": list_id,
             "memberCount": entry["contact_count"],

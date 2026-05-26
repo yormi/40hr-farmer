@@ -5,8 +5,7 @@ name: SPEAR Wave 2 — Day 3 (Thu 2026-05-28)
 # tripped the kill-switch, Day 3 aborts.
 
 on:
-  schedule:
-    - cron: "0 10 28 5 *"
+  # Cron disabled 2026-05-26 — Wave 2 going through HubSpot instead.
   workflow_dispatch: {}
 
 concurrency:

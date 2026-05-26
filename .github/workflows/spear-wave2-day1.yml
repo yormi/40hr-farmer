@@ -12,8 +12,10 @@ name: SPEAR Wave 2 — Day 1 (Tue 2026-05-26)
 # the file, or disable the workflow in the Actions tab.
 
 on:
-  schedule:
-    - cron: "0 10 26 5 *"  # 10:00 UTC on May 26, any year
+  # Cron disabled 2026-05-26 — Guillaume pivoted to sending Wave 2 through
+  # HubSpot via the static lists built by spear-wave2-publish-to-hubspot.py.
+  # workflow_dispatch retained so this can still be triggered manually if the
+  # HubSpot path falls through.
   workflow_dispatch: {}
 
 concurrency:

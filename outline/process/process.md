@@ -40,19 +40,11 @@ outlines.
 * **[Claude]** Name the deadline in the email → 3 business days later.
 * **[Claude, scheduled +3 business days]** On the deadline → read the marked-up Doc, do the next step from the inline input, Postmark Guillaume a review reminder. Set up with `/schedule` at send time.
 
-**Caveats**
-* Comment threads aren't API-readable; inline text is.
-* Claude can't change Doc sharing (off-limits, no connector tool). Manual Drive-UI step; without it recipients can't open the Doc.
-* `/schedule` needs the concrete deadline date.
-
 ## Working files
 * Create `outline/<Month>-<Topic>/` for created files.
 * Drive folder for Google Docs: https://drive.google.com/drive/folders/1Mb9Sro3XQJXcUq3FwUTkj0dOs6LjvQ_E
-* Per stage → one write-once Doc in subfolder `<Month>-<Topic>` (e.g. `Jul-Vigor`), named `<Month>-<Topic> — <Stage>` (e.g. `Jul-Vigor — Brainstorm`).
-* Fold input back in → read the marked-up Doc, create the next stage's Doc fresh. Pipeline "tab" → "the stage's Doc".
-
-**Caveats**
-* Drive MCP (tested 2026-06-02): API creates a Doc and reads its body, can't edit an existing Doc or write tabs. Google's Docs API can't create tabs either (manual-UI only). Hence one Doc per stage, not tabs.
+* **One Doc per month with three tabs** (Brainstorm / Outline Skeletons / Outline), not a separate Doc per stage. Real Google Doc tabs hold each stage; populate later tabs in place. Supersedes the earlier per-stage-Doc scheme.
+* **Formatting + generation standard:** [`gdoc-formatting.md`](gdoc-formatting.md). Built via the `gdocs-uploader` MCP with `blank_between_paragraphs=True`, native styles, default line spacing.
 
 ## Pipeline
 

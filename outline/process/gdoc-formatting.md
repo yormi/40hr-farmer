@@ -19,6 +19,28 @@ via the local `gdocs-uploader` MCP (see
 
 ## How to generate
 
+**Invocation:** `create_tabbed_gdoc` is exposed by the `gdocs-uploader` MCP,
+but that server is registered mid-session and its tools are usually NOT
+callable as MCP tools in a fresh session. Run the same function directly
+via the server's own venv instead:
+
+```bash
+~/.local/share/mcp-servers/gdocs-uploader/venv/bin/python - <<'PY'
+import server
+md = open("<path-to-brainstorm>.md").read()
+md = "\n".join(l for l in md.splitlines() if not l.startswith("Status:"))
+print(server.create_tabbed_gdoc(
+    tabs=[{"title": "Brainstorm", "markdown": md},
+          {"title": "Outline Skeletons", "markdown": ""},
+          {"title": "Outline", "markdown": ""}],
+    title="<Month> - <Topic>",
+    folder_id="1Mb9Sro3XQJXcUq3FwUTkj0dOs6LjvQ_E",
+    blank_between_paragraphs=True))
+PY
+```
+
+Equivalent call signature:
+
 ```python
 create_tabbed_gdoc(
     tabs=[{"title": "Brainstorm", "markdown": md},

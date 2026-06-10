@@ -108,6 +108,27 @@
       transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
 
+    /* Nav links: underline that grows from the left on hover, and stays
+       extended while the link's section is the one in view (scroll-spy).
+       Active state mirrors hover exactly: farm-dark text + full underline. */
+    .nav-link { position: relative; }
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 100%;
+      height: 2px;
+      background-color: currentColor;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.2s ease;
+    }
+    .nav-link:hover::after,
+    .nav-link.is-active::after { transform: scaleX(1); }
+    .nav-link:hover,
+    .nav-link.is-active { color: #27500A; }
+
     /* Accordion (used in #program): hide native marker, custom caret rotation */
     details > summary { list-style: none; cursor: pointer; }
     details > summary::-webkit-details-marker { display: none; }
@@ -125,7 +146,10 @@
 
   <!-- ========== STICKY NAV ========== -->
   <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Thin white gradient: fully white at the very top fading to transparent,
+         just tall enough to keep "The 40hr Farmer" legible over the hero photo. -->
+    <div class="pointer-events-none absolute inset-x-0 top-0 h-24 md:h-28 bg-gradient-to-b from-white via-white/60 to-transparent"></div>
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 md:h-20">
         <a href="#" class="flex items-center gap-2 group">
           <svg class="w-7 h-7" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -136,11 +160,11 @@
         </a>
 
         <div class="hidden md:flex items-center gap-8">
-          <a href="#program" class="text-sm text-farm-text hover:text-farm-dark transition-colors">The program</a>
-          <a href="#who" class="text-sm text-farm-text hover:text-farm-dark transition-colors">Who it's for</a>
-          <a href="#pricing" class="text-sm text-farm-text hover:text-farm-dark transition-colors">Pricing</a>
+          <a href="#program" class="nav-link text-sm text-farm-text transition-colors">The program</a>
+          <a href="#who" class="nav-link text-sm text-farm-text transition-colors">Who it's for</a>
+          <a href="#join" class="nav-link text-sm text-farm-text transition-colors">Pricing</a>
           <a href="#join" class="inline-flex items-center px-5 py-2.5 bg-farm-green text-white text-sm font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm">
-            Join the waiting list
+            Join the program
           </a>
         </div>
 
@@ -152,11 +176,11 @@
 
     <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg">
       <div class="px-4 py-4 space-y-3">
-        <a href="#program" class="block text-base text-farm-text hover:text-farm-dark py-2">The program</a>
-        <a href="#who" class="block text-base text-farm-text hover:text-farm-dark py-2">Who it's for</a>
-        <a href="#pricing" class="block text-base text-farm-text hover:text-farm-dark py-2">Pricing</a>
+        <a href="#program" class="nav-link block text-base text-farm-text py-2">The program</a>
+        <a href="#who" class="nav-link block text-base text-farm-text py-2">Who it's for</a>
+        <a href="#join" class="nav-link block text-base text-farm-text py-2">Pricing</a>
         <a href="#join" class="block text-center px-5 py-2.5 bg-farm-green text-white text-sm font-semibold rounded-full hover:bg-farm-dark transition-colors">
-          Join the waiting list
+          Join the program
         </a>
       </div>
     </div>
@@ -192,7 +216,7 @@
             Let your greenhouse do the heavy lifting.
           </p>
           <a href="#join" class="inline-block text-farm-green font-medium underline underline-offset-4 hover:text-farm-dark mt-6">
-            Join the waiting list &rarr;
+            Join the program &rarr;
           </a>
         </div>
       </div>
@@ -210,7 +234,7 @@
           <a href="https://orisha.io" target="_blank" rel="noopener noreferrer">
             <img src="/assets/logos/logo.png"
                  alt="Orisha"
-                 class="h-10 md:h-12 w-auto">
+                 class="h-[6rem] w-auto">
           </a>
           <a href="https://growingformarket.com" target="_blank" rel="noopener noreferrer">
             <img src="/assets/logos/gfm-logo.png"
@@ -366,7 +390,7 @@
                in #techniques-known), removed 2026-04-27 along with the triptych. -->
           <div class="max-w-3xl mx-auto text-center mt-12 md:mt-16">
             <a href="#join" class="inline-flex items-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm">
-              Join the waiting list &rarr;
+              Join the program &rarr;
             </a>
             <div class="mt-6">
               <a href="/drew-season/" class="text-farm-muted underline underline-offset-4 hover:text-farm-dark text-base">
@@ -992,7 +1016,7 @@
           More fruit per plant, consistently.
         </p>
         <a href="#join" class="inline-flex items-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-lg">
-          Join the waiting list &rarr;
+          Join the program &rarr;
         </a>
       </div>
     </section>
@@ -1070,81 +1094,6 @@
             </div>
 
           </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ========== HOW TO JOIN (Practical sub 2) ==========
-         Stats-first, fully visual: H2 → admission callout band → 2-stat strip
-         (time + cadence) → two pricing cards side-by-side → tiny phone-watchable note.
-         No prose paragraphs. Each locked fact lives in a visual container. -->
-    <section id="pricing" class="bg-white py-20 md:py-28">
-      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="fade-in">
-
-          <!-- Eyebrow + 2-line H2 (prose column width) -->
-          <div class="max-w-3xl mx-auto">
-            <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mb-4">
-              Pricing
-            </p>
-            <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-farm-dark leading-[1.1] tracking-tight text-balance">
-              Try it out.<br>
-              Leave anytime
-            </h2>
-          </div>
-
-          <!-- Two pricing cards -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mt-12 md:mt-16">
-            <!-- Card 1: Standalone -->
-            <div class="border border-farm-mid/25 rounded-card p-8 md:p-10 flex flex-col bg-white">
-              <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs">
-                Standalone
-              </p>
-              <div class="mt-6 flex items-baseline gap-2">
-                <span class="font-heading text-6xl md:text-7xl text-farm-dark font-medium leading-none">$40</span>
-                <span class="font-accent text-farm-muted uppercase tracking-wider text-xs">/month</span>
-              </div>
-              <p class="text-base md:text-lg text-farm-text leading-relaxed mt-6 flex-grow">
-                Month to month. Leave anytime.
-              </p>
-              <a href="#join" class="inline-flex items-center justify-center px-6 py-3 bg-farm-green text-white text-base font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm mt-8 self-start">
-                Join the waiting list &rarr;
-              </a>
-            </div>
-
-            <!-- Card 2: Free with subscription (GFM or Orisha) -->
-            <div class="border border-farm-mid/25 rounded-card p-8 md:p-10 flex flex-col bg-white">
-              <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs">
-                Special offer
-              </p>
-              <div class="mt-6 flex items-baseline gap-2">
-                <span class="font-heading text-6xl md:text-7xl text-farm-dark font-medium leading-none">$0</span>
-                <span class="font-accent text-farm-muted uppercase tracking-wider text-xs">/month</span>
-              </div>
-              <ul class="mt-6 space-y-2 text-base md:text-lg text-farm-text leading-relaxed flex-grow">
-                <li class="flex gap-3">
-                  <span class="text-farm-mid font-bold mt-px">&middot;</span>
-                  <span><span class="font-medium text-farm-dark">Growing for Market</span> subscribers</span>
-                </li>
-                <li class="flex gap-3">
-                  <span class="text-farm-mid font-bold mt-px">&middot;</span>
-                  <span><span class="font-medium text-farm-dark">Orisha</span> users</span>
-                </li>
-              </ul>
-              <p class="text-sm text-farm-muted italic mt-5 leading-snug">
-                For 2026 only. To be determined after that.
-              </p>
-              <a href="#join" class="inline-flex items-center justify-center px-6 py-3 bg-farm-green text-white text-base font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm mt-8 self-start">
-                Join the waiting list &rarr;
-              </a>
-            </div>
-          </div>
-
-          <!-- Cheapest-path footnote, below both cards -->
-          <p class="max-w-2xl mx-auto mt-10 md:mt-12 text-sm text-farm-muted italic leading-snug text-center">
-            Subscribing to <a href="https://growingformarket.com/pricing/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:text-farm-dark not-italic font-medium">Growing for Market</a> magazine is the cheapest way to join the program. $39/yr.
-          </p>
 
         </div>
       </div>
@@ -1307,13 +1256,13 @@
       </div>
     </section>
 
-    <!-- ========== WHY ADD YOUR NAME NOW (Committer sub 2) — final form ==========
-         Stacked single-column: H2 → centered prose lead-in → centered form panel.
-         Background: farm photo with deep farm-dark tint (orisha.io bottom-CTA pattern,
-         linear-gradient stack over the hero photo as a visual bookend). Text on dark
-         goes white; form panel stays bg-white as a contrast island.
-         HubSpot post handler PENDING — action="" placeholder; new "farm name" and
-         "subscription status" custom properties need wiring before signup launches. -->
+    <!-- ========== JOIN THE PROGRAM (Committer sub 2) — subscribe card ==========
+         Stacked single-column: H2 → centered subscribe card. The card carries the
+         price ($40/month), what the program includes, and the Subscribe button that
+         links straight to the Stripe payment link. Below the button, two promo-code
+         paths for existing Growing for Market members and Orisha customers.
+         Background: farm photo with deep farm-dark tint (orisha.io bottom-CTA pattern),
+         the same visual bookend as the hero. Card stays bg-white as a contrast island. -->
     <section id="join" class="relative bg-farm-dark bg-cover bg-center py-20 md:py-28"
              style="background-image: linear-gradient(rgba(39, 80, 10, 0.88), rgba(39, 80, 10, 0.88)), url('/assets/clients/ferme-decembre/6073DAB7-095E-4744-8045-67F8166BA650.jpg');">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1322,7 +1271,7 @@
           <!-- Eyebrow + 2-line H2 (prose column width) -->
           <div class="max-w-3xl mx-auto">
             <p class="font-accent text-white/80 font-semibold uppercase tracking-wider text-xs mb-4">
-              Join the cohort
+              Join the program
             </p>
             <h2 class="font-heading text-3xl sm:text-4xl md:text-5xl font-medium text-white leading-[1.1] tracking-tight text-balance">
               Farming is beautiful.<br>
@@ -1330,75 +1279,109 @@
             </h2>
           </div>
 
-          <!-- Prose lead-in (centered reading column) -->
-          <div class="max-w-3xl mx-auto mt-10 md:mt-14">
-            <p class="text-sm md:text-base text-white/70 italic leading-snug">
-              Seats may be limited. First on the list, first in.
-            </p>
-          </div>
-
-          <!-- Form panel, centered -->
-          <div class="max-w-md mx-auto mt-12 md:mt-16">
+          <!-- Subscribe card, centered -->
+          <div class="max-w-lg mx-auto mt-12 md:mt-16">
             <div class="bg-white rounded-card p-8 md:p-10 border border-farm-mid/15">
-              <form id="waitlistForm" class="space-y-5" novalidate>
 
-                  <div>
-                    <label for="firstName" class="block font-accent uppercase tracking-wider text-xs text-farm-mid font-semibold mb-2">
-                      First name
-                    </label>
-                    <input type="text" id="firstName" name="firstName" required
-                           class="w-full px-4 py-3 border border-farm-mid/30 rounded-md bg-white text-farm-text focus:outline-none focus:border-farm-green focus:ring-1 focus:ring-farm-green">
-                  </div>
+              <!-- Default view: price, what you get, subscribe button, promo paths -->
+              <div id="subscribe-main">
 
-                  <div>
-                    <label for="farmName" class="block font-accent uppercase tracking-wider text-xs text-farm-mid font-semibold mb-2">
-                      Farm name
-                    </label>
-                    <input type="text" id="farmName" name="farmName" required
-                           class="w-full px-4 py-3 border border-farm-mid/30 rounded-md bg-white text-farm-text focus:outline-none focus:border-farm-green focus:ring-1 focus:ring-farm-green">
-                  </div>
-
-                  <div>
-                    <label for="email" class="block font-accent uppercase tracking-wider text-xs text-farm-mid font-semibold mb-2">
-                      Email
-                    </label>
-                    <input type="email" id="email" name="email" required
-                           class="w-full px-4 py-3 border border-farm-mid/30 rounded-md bg-white text-farm-text focus:outline-none focus:border-farm-green focus:ring-1 focus:ring-farm-green">
-                  </div>
-
-                  <fieldset>
-                    <legend class="block font-accent uppercase tracking-wider text-xs text-farm-mid font-semibold mb-1">
-                      Are you already a&hellip;
-                    </legend>
-                    <p class="text-xs text-farm-mid/70 italic mb-3">Check any that apply.</p>
-                    <div class="space-y-2.5">
-                      <label class="flex items-center gap-3 cursor-pointer">
-                        <input type="checkbox" name="fortyHourFarmerDeal" value="orisha"
-                               class="w-4 h-4 text-farm-green focus:ring-farm-green rounded border-farm-mid/40">
-                        <span class="text-base text-farm-text">Orisha user</span>
-                      </label>
-                      <label class="flex items-center gap-3 cursor-pointer">
-                        <input type="checkbox" name="fortyHourFarmerDeal" value="gfm"
-                               class="w-4 h-4 text-farm-green focus:ring-farm-green rounded border-farm-mid/40">
-                        <span class="text-base text-farm-text">Growing for Market subscriber</span>
-                      </label>
-                    </div>
-                  </fieldset>
-
-                  <button type="submit"
-                          class="w-full inline-flex items-center justify-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm mt-2 disabled:opacity-60 disabled:cursor-not-allowed">
-                    Join the waiting list &rarr;
-                  </button>
-
-                  <p id="waitlistFormError" class="hidden text-sm text-red-700 mt-2" role="alert"></p>
-
-                </form>
-                <div id="waitlistFormThanks" class="hidden text-center">
-                  <p class="font-heading text-2xl text-farm-dark mb-3">You&rsquo;re on the list.</p>
-                  <p class="text-base text-farm-text">A welcome email is on its way. If it doesn&rsquo;t land in your inbox, check spam.</p>
-                </div>
+              <!-- Price -->
+              <div class="flex items-baseline gap-2">
+                <span class="font-heading text-6xl md:text-7xl text-farm-dark font-medium leading-none">$40</span>
+                <span class="font-accent text-farm-muted uppercase tracking-wider text-xs">USD / month</span>
               </div>
+              <p class="text-base md:text-lg text-farm-text leading-relaxed mt-4">
+                Month to month. Leave anytime.
+              </p>
+
+              <!-- What the program includes -->
+              <p class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs mt-8 mb-4">
+                What you get
+              </p>
+              <ul class="list-none p-0 m-0 space-y-3">
+                <li class="flex gap-3 items-start text-base md:text-lg leading-relaxed text-farm-text">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5 text-farm-green flex-shrink-0 mt-1.5" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                  </svg>
+                  <span>A clear weekly goal for your tomatoes, with the <span class="font-semibold">specific recipe</span></span>
+                </li>
+                <li class="flex gap-3 items-start text-base md:text-lg leading-relaxed text-farm-text">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5 text-farm-green flex-shrink-0 mt-1.5" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                  </svg>
+                  <span>A <span class="font-semibold">weekly group</span> call with Andrew, Antoine, and Guillaume, recorded if you miss it</span>
+                </li>
+                <li class="flex gap-3 items-start text-base md:text-lg leading-relaxed text-farm-text">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5 text-farm-green flex-shrink-0 mt-1.5" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                  </svg>
+                  <span>New <span class="font-semibold">short videos</span> each week, made to watch between the rows</span>
+                </li>
+                <li class="flex gap-3 items-start text-base md:text-lg leading-relaxed text-farm-text">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5 text-farm-green flex-shrink-0 mt-1.5" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                  </svg>
+                  <span>An <span class="font-semibold">open forum</span> to ask questions and share what worked</span>
+                </li>
+                <li class="flex gap-3 items-start text-base md:text-lg leading-relaxed text-farm-text">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5 text-farm-green flex-shrink-0 mt-1.5" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                  </svg>
+                  <span>The <span class="font-semibold">Orisha app</span> to steer your plants and track your yield</span>
+                </li>
+              </ul>
+
+              <!-- Consent: a single checkbox. The "terms and conditions" link
+                   opens the full text in a modal (#terms-modal, near the end of
+                   the page). The link sits OUTSIDE the <label> on purpose, so
+                   clicking it opens the modal without toggling the checkbox. -->
+              <div class="mt-8">
+                <div class="flex gap-3 items-start">
+                  <input type="checkbox" id="agree-terms"
+                         class="w-5 h-5 flex-shrink-0 mt-0.5 accent-farm-green cursor-pointer">
+                  <p class="text-sm md:text-base text-farm-text leading-relaxed">
+                    <label for="agree-terms" class="cursor-pointer">I have read and agree to the</label>
+                    <button type="button" id="terms-open"
+                            class="font-semibold text-farm-green underline underline-offset-2 hover:text-farm-dark">terms and conditions</button><span class="text-red-600" aria-hidden="true">*</span>
+                  </p>
+                </div>
+
+                <!-- Error shown if Subscribe is clicked while the box is unchecked -->
+                <p id="agree-error" class="hidden mt-3 text-sm text-red-600 font-semibold" role="alert">
+                  Please check this box to continue.
+                </p>
+              </div>
+
+              <!-- Subscribe button: requires consent, then redirects to Stripe -->
+              <button type="button" id="subscribe-submit"
+                 class="w-full inline-flex items-center justify-center px-8 py-4 bg-farm-green text-white text-lg font-semibold rounded-full hover:bg-farm-dark transition-colors shadow-sm mt-8">
+                Subscribe &rarr;
+              </button>
+
+              <!-- Promo-code paths for existing members — HIDDEN from clients
+                   (commented out on request). Restore by removing the wrapping
+                   comment markers below.
+              <div class="mt-8 p-6 md:p-7 rounded-2xl bg-farm-green/10 border-2 border-farm-green/40 shadow-sm space-y-5 text-lg text-farm-text leading-relaxed">
+                <p class="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-farm-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 flex-shrink-0" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.25 2.25a3 3 0 0 0-3 3v4.318a3 3 0 0 0 .879 2.121l9.58 9.581c.92.92 2.39.92 3.31 0l4.319-4.319c.92-.92.92-2.39 0-3.31l-9.581-9.58a3 3 0 0 0-2.121-.879H5.25ZM6.375 7.5a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" clip-rule="evenodd" />
+                  </svg>
+                  Already a member? Claim your discount
+                </p>
+                <p>
+                  Already a <span class="font-semibold text-farm-dark">Growing for Market</span> member? <a href="https://growingformarket.com/contact-us/" target="_blank" rel="noopener noreferrer" class="font-bold text-farm-green underline underline-offset-2 decoration-2 hover:text-farm-dark">Ask for your promo code for 12 months free</a>.
+                </p>
+                <p>
+                  Already an <span class="font-semibold text-farm-dark">Orisha</span> customer? <a href="https://www.orisha.io/contact" target="_blank" rel="noopener noreferrer" class="font-bold text-farm-green underline underline-offset-2 decoration-2 hover:text-farm-dark">Ask for your promo code to sign up for free</a>.
+                </p>
+              </div>
+              -->
+
+              </div><!-- /#subscribe-main -->
+
             </div>
+          </div>
 
         </div>
       </div>
@@ -1418,7 +1401,7 @@
         <a href="https://orisha.io" target="_blank" rel="noopener noreferrer">
           <img src="/assets/logos/logo.png"
                alt="Orisha"
-               class="h-10 md:h-12 w-auto">
+               class="h-[6rem] w-auto">
         </a>
         <a href="https://growingformarket.com" target="_blank" rel="noopener noreferrer">
           <img src="/assets/logos/gfm-logo.png"
@@ -1428,6 +1411,39 @@
       </div>
     </div>
   </footer>
+
+  <!-- ========== TERMS & CONDITIONS MODAL ==========
+       Opened from the consent checkbox link (#terms-open) in the Join card.
+       Holds the legal text that used to sit inline under the checkbox.
+       Sits above the sticky nav (z-50) at z-[60]. Hidden by default. -->
+  <div id="terms-modal" class="hidden fixed inset-0 z-[60] flex items-center justify-center p-4">
+    <div id="terms-overlay" class="absolute inset-0 bg-farm-dark/70"></div>
+    <div role="dialog" aria-modal="true" aria-labelledby="terms-modal-title"
+         class="relative bg-white rounded-card max-w-lg w-full max-h-[85vh] overflow-y-auto p-8 md:p-10 shadow-xl">
+      <div class="flex items-start justify-between gap-4">
+        <h3 id="terms-modal-title" class="font-heading text-2xl md:text-3xl font-medium text-farm-dark">
+          Terms and conditions
+        </h3>
+        <button type="button" id="terms-close" aria-label="Close"
+                class="flex-shrink-0 p-1 text-farm-muted hover:text-farm-dark transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="space-y-4 text-base text-farm-text leading-relaxed mt-5">
+        <p>
+          When we say "we," we mean both Orisha and Growing for Market. Everything here covers both of us.
+        </p>
+        <p>
+          What works on one farm may not work on yours. Before you try any idea from the program, it's on you to make sure it fits your farm, your climate, and your local rules. You join at your own risk.
+        </p>
+        <p>
+          If something goes wrong and we're held responsible, even if it's our fault, the most you can get back is what you paid us.
+        </p>
+      </div>
+    </div>
+  </div>
 
   <!-- ========== SCRIPTS ========== -->
   <script>
@@ -1442,8 +1458,35 @@
         nav.classList.add('bg-transparent');
       }
     }
-    window.addEventListener('scroll', updateNav, { passive: true });
+    // --- Scroll-spy: highlight the nav link for the section in view ---
+    // Only 3 sections have nav links, so the page is split into zones by their
+    // anchors. No link is active until #program is reached; then "The program"
+    // stays active down to #who, "Who it's for" from #who to #join (covering
+    // #team), "Pricing" from #join to the bottom. A link activates once its
+    // section's top reaches just under the nav.
+    const navAnchorIds = ['program', 'who', 'join'];
+    const navLinks = document.querySelectorAll('.nav-link');
+    function updateActiveLink() {
+      const line = 90; // px below viewport top, roughly under the sticky nav
+      let active = null; // nothing active above #program (hero, story, etc.)
+      for (const id of navAnchorIds) {
+        const el = document.getElementById(id);
+        if (el && el.getBoundingClientRect().top <= line) {
+          active = id;
+        }
+      }
+      navLinks.forEach(function(link) {
+        const target = link.getAttribute('href').slice(1);
+        link.classList.toggle('is-active', target === active);
+      });
+    }
+
+    window.addEventListener('scroll', function() {
+      updateNav();
+      updateActiveLink();
+    }, { passive: true });
     updateNav();
+    updateActiveLink();
 
     // --- Mobile menu toggle ---
     const menuBtn = document.getElementById('mobile-menu-btn');
@@ -1485,102 +1528,66 @@
       });
     });
 
-    // --- Waitlist form submission ---
-    // Posts to HubSpot Forms Submissions API.
-    // Property internal names must match HubSpot exactly: firstname, email,
-    // farm_name (custom, single-line text), forty_hour_farmer_deal (custom, multi-checkbox).
-    const HUBSPOT_PORTAL_ID = '5156324';
-    const HUBSPOT_FORM_ID = '7f28cb26-8aea-432e-bf7f-c50a1484d0a3';
+    // --- Subscribe flow: require terms consent, then redirect to Stripe ---
+    (function() {
+      var STRIPE_URL = 'https://buy.stripe.com/8x24gz0kJ6Au0Rb4GV4Ja0u';
+      var submit   = document.getElementById('subscribe-submit');
+      var checkbox = document.getElementById('agree-terms');
+      var error    = document.getElementById('agree-error');
 
-    const waitlistForm = document.getElementById('waitlistForm');
-    if (waitlistForm) {
-      waitlistForm.addEventListener('submit', async function(e) {
-        e.preventDefault();
-        const submitBtn = waitlistForm.querySelector('button[type="submit"]');
-        const errorEl = document.getElementById('waitlistFormError');
-        const thanksEl = document.getElementById('waitlistFormThanks');
-
-        const firstName = waitlistForm.firstName.value.trim();
-        const farmName = waitlistForm.farmName.value.trim();
-        const email = waitlistForm.email.value.trim();
-        const subs = Array.from(
-          waitlistForm.querySelectorAll('input[name="fortyHourFarmerDeal"]:checked')
-        ).map(el => el.value);
-
-        if (!firstName || !farmName || !email) {
-          errorEl.textContent = 'Please fill in your first name, farm name, and email.';
-          errorEl.classList.remove('hidden');
-          return;
-        }
-
-        errorEl.classList.add('hidden');
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Submitting…';
-
-        // Pull stored UTM attribution (last-touch, 30-day TTL). Always send all
-        // three keys to HubSpot — empty string for un-attributed sessions keeps
-        // the contract clean.
-        const storedUtm = (typeof window.__getStoredUtm === 'function')
-          ? window.__getStoredUtm()
-          : null;
-        const utmSource = storedUtm ? (storedUtm.utm_source || '') : '';
-        const utmMedium = storedUtm ? (storedUtm.utm_medium || '') : '';
-        const utmCampaign = storedUtm ? (storedUtm.utm_campaign || '') : '';
-
-        const payload = {
-          fields: [
-            { objectTypeId: '0-1', name: 'firstname', value: firstName },
-            { objectTypeId: '0-1', name: 'farm_name', value: farmName },
-            { objectTypeId: '0-1', name: 'email', value: email },
-            // HubSpot multi-checkbox properties accept ';'-joined values.
-            { objectTypeId: '0-1', name: 'forty_hour_farmer_deal', value: subs.join(';') },
-            { objectTypeId: '0-1', name: 'utm_source', value: utmSource },
-            { objectTypeId: '0-1', name: 'utm_medium', value: utmMedium },
-            { objectTypeId: '0-1', name: 'utm_campaign', value: utmCampaign }
-          ],
-          context: {
-            pageUri: window.location.href,
-            pageName: document.title
+      if (submit) {
+        submit.addEventListener('click', function() {
+          gtag('event', 'subscribe_click', {
+            event_category: 'engagement',
+            link_text: this.textContent.trim()
+          });
+          // Block checkout until the terms box is checked; surface the error.
+          if (!checkbox || !checkbox.checked) {
+            if (error) error.classList.remove('hidden');
+            if (checkbox) checkbox.focus();
+            return;
           }
-        };
+          if (error) error.classList.add('hidden');
+          gtag('event', 'subscribe_agree', {
+            event_category: 'engagement'
+          });
+          window.open(STRIPE_URL, '_blank', 'noopener,noreferrer');
+        });
+      }
 
-        try {
-          const res = await fetch(
-            `https://api.hsforms.com/submissions/v3/integration/submit/${HUBSPOT_PORTAL_ID}/${HUBSPOT_FORM_ID}`,
-            {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(payload)
-            }
-          );
-          if (!res.ok) {
-            const errBody = await res.json().catch(() => ({}));
-            throw new Error(errBody.message || ('HTTP ' + res.status));
-          }
-          waitlistForm.classList.add('hidden');
-          thanksEl.classList.remove('hidden');
-          if (typeof gtag === 'function') {
-            gtag('event', 'waitlist_signup', {
-              event_category: 'engagement',
-              forty_hour_farmer_deal: subs.length ? subs.join(';') : 'none',
-              utm_source: utmSource,
-              utm_medium: utmMedium,
-              utm_campaign: utmCampaign
-            });
-          }
-          setTimeout(() => {
-            fetch(`https://app.orisha.io/api/create-server-user?email=${encodeURIComponent(email)}`)
-              .catch(err => console.error('[waitlist] create-server-user failed:', err));
-          }, 2000);
-        } catch (err) {
-          console.error('[waitlist] submission failed:', err);
-          errorEl.textContent = 'Something went wrong. Please try again, or email guillaume@orisha.io.';
-          errorEl.classList.remove('hidden');
-          submitBtn.disabled = false;
-          submitBtn.innerHTML = 'Join the waiting list &rarr;';
-        }
+      // Clear the error the moment they check the box.
+      if (checkbox) {
+        checkbox.addEventListener('change', function() {
+          if (this.checked && error) error.classList.add('hidden');
+        });
+      }
+    })();
+
+    // --- Terms & conditions modal: open from the consent link, close on the
+    //     X, on the backdrop, or with Escape ---
+    (function() {
+      var modal   = document.getElementById('terms-modal');
+      var openBtn = document.getElementById('terms-open');
+      var closeBtn = document.getElementById('terms-close');
+      var overlay = document.getElementById('terms-overlay');
+      if (!modal || !openBtn) return;
+
+      function open() {
+        modal.classList.remove('hidden');
+        document.body.classList.add('overflow-hidden');
+      }
+      function close() {
+        modal.classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+      }
+
+      openBtn.addEventListener('click', open);
+      if (closeBtn) closeBtn.addEventListener('click', close);
+      if (overlay) overlay.addEventListener('click', close);
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !modal.classList.contains('hidden')) close();
       });
-    }
+    })();
   </script>
 
 </body>

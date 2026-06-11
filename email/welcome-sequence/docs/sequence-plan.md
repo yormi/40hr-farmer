@@ -424,40 +424,241 @@ Each requirement is a yes/no question we can apply to a draft. "No" or "unclear"
 
 The Décembre story is the lived demonstration of this Point. Guillaume's farm is built around the greenhouse as the central leverage; the email shows what the leverage looks like in practice (and where the plan met messy reality).
 
-Prose not yet drafted.
+**Subject + preview text:** not yet locked.
 
-### Email 4 — Orisha origin + Drew + virtual consultant (Day 7)
+**Reader state on arrival:** Read Email 2. Curious about what's actually happening at Décembre after the "messier than the plan" cliffhanger.
 
-Combined beat absorbing what was previously Email 4 (Drew's reframe) and Email 5 (consultant intro). May split into two emails later.
+**Reader state on departure:** Sees Décembre's first greenhouse season as honest-mess-with-strong-numbers. Trusts the program because the techniques are being tested by Guillaume in real conditions. Curious about the first tool.
 
-**Direction (per Guillaume, 2026-05-06):** "Story of when I started Orisha. Talking to Climax. Bunch of subtleties and rule of thumb to reconcile → Consultant access."
+**Protagonist:** Guillaume (narrator) + Catherine (named partner). First-person Décembre scene.
 
-**Sketch of beats:**
+**Scene:** Year-one at Ferme Décembre. Greenhouse just completed last fall. Tomato beds present-tense; soil issues present-tense.
 
-1. Story of starting Orisha. Why a tool company, what gap I was trying to close.
-2. **Climax** — early conversation / collaborator (need Guillaume to fill in: who, when, what was said).
-3. The technical reality: greenhouse climate + irrigation have rules of thumb, but applying them all simultaneously is hard. Most farmers can't.
-4. That's what Orisha automated.
-5. Drew's farm in 2024: the proof. Yield doubled, Allison rejoined the farm full-time. (REQ-P3 lands here — concrete farmer story with real names + scenes.)
-6. But Orisha-the-tool wasn't enough on its own — too many subtleties beyond climate that farmers still had to navigate.
-7. So we built the virtual consultant: a way to put years of accumulated subtleties into a place farmers can ask. It's free, here's your access.
+**Locked copy (rendered in `email/welcome-sequence/03-greenhouse.html`, locked 2026-05-22):**
 
-**Open questions before drafting:**
-- Who is Climax? (name, context, what conversation Guillaume is referring to)
-- Should Drew get a few sentences or a full paragraph?
-- Length target — if combined Email 4 runs >500 words, split into 4a (Orisha origin + Drew) and 4b (consultant access).
-- New cliffhanger into Email 5 (honest framing) — TBD.
+> Hey {{contact.firstname}},
+>
+> In the last email, I said I'd share how messy our first greenhouse season has been. That way you can judge what to expect from the techniques we cover in the program.
+>
+> First, a little context.
+>
+> Running a 40-hour farm isn't something we can wing.
+>
+> We need precise farm systems. Systems to empower our teams. Systems to get everything done in 40 hours.
+>
+> Unfortunately, the current small-farm systems rely on farmers being superheroes.
+>
+> Plenty of great ideas float in the market gardening community but they're hard to adopt without the systems behind them.
+>
+> That's why Catherine and I started our farm, Ferme Décembre. To work out those ideas into a new small-farm model.
+>
+> The initial plan was to get the farm to $700,000 in sales with 2 employees and 40% net profit. The goal: get there in 5 years... we don't have much choice with the debt we took to buy the farm land.
+>
+> We bought the land in December 2024. There was an old barn but nothing else. We rushed to build everything as we needed it. Not the best for our mental health but hey! We only have to do it once. We sold for $215,000 in 2025.
+>
+> With the greenhouse completed last fall, the ambitious target is $550,000 this year. We're not on track. Still, the sales let us hire a delivery person and another farmhand. Not in the original plan, but we wanted the time to focus on building the farm systems.
+>
+> The greenhouse techniques of the program are at the heart of the farm. We haven't dialed in everything yet. The current focus is to overcome our nutrient locked-out compacted soil. Right now, our plants are weak and they're sensitive to grey mold. Surprisingly, we still maintain 60% of the ideal fruit-load while we rarely see growers above 50%.
+>
+> Even with our soil issues, last week, we harvested $5,700 (1,300 lb) out of seven 100-foot tomato beds. To put in perspective, our payroll is $3,200/week. And this is just tomatoes.
+>
+> If we keep that weekly yield, that would give us 5x the average grower's yield. I expect to see yields drop with our soil issues taxing the plants. Still. Not bad for our first season!
+>
+> Our goal with the program is to get you there too. Hopefully, without the soil issue.
+>
+> The program today distills what you need to know so it's simple to apply on your farm. As we build Décembre, we keep improving the tools so a small farm crew can grow effectively without having to master the biology, chemistry, physics, and engineering behind it.
+>
+> In the next email, you'll get access to the first version of these tools.
+>
+> See you next time,
+>
+> Guillaume
+>
+> *P.S. You'll see our less-than-ideal plants in the June video lessons since we shot them in Ferme Décembre greenhouse. Hopefully, you'll see plants improve in the July video lessons :P*
 
-**Status:** beats outlined, prose not yet drafted. Decide split-or-stay after first draft hits ~word count.
+~485 words.
 
-### Email 5 — How you can engage now (Day 10)
+**Anti-requirements verified:**
+- ANTI-1 (no fake urgency): pass
+- ANTI-2 (no overclaim): hedges in place ("If we keep that weekly yield...", "I expect to see yields drop", "Hopefully, without the soil issue"); passes
+- ANTI-3 (early-stage as downside): "we haven't dialed in everything yet" + "first version of these tools" frame evolution as honest progress; passes
+- ANTI-4 (SaaS filler): pass — Décembre numbers and scenes are specific
+- ANTI-5 (no stylistic dashes): pass — only hyphenated compounds (40-hour, small-farm, 100-foot, less-than-ideal, nutrient locked-out, fruit-load)
 
-Not yet locked.
+**Sequence REQs touched:**
+- **REQ-P3** (concrete farmer story with real names + scenes): lands here. Décembre + Catherine + first-person greenhouse scene. Drew/Gordon now optional rather than required by sequence-wide REQ-P3 coverage.
+- **REQ-P2** (trust where this is going): strong — honest "we're not on track" + soil issues paired with strong yields.
+- **REQ-S2** (still being built): strong — "first version of these tools" + "we keep improving."
+- **REQ-S1** (June 2026 working target): not addressed.
+- **REQ-S3** (free-for-now / access may change): not addressed.
 
-### Email 6 — Honest framing (Day 14)
+**Skeleton drift to resolve before drafting Email 4:**
 
-Not yet locked.
+This locked Email 3 closes with "In the next email, you'll get access to the first version of these tools," replacing the previously planned open loop ("why this matters even if you can't sell more tomatoes") from the Skeleton table. Two paths:
 
-### Email 7 — Invitation (Day 18)
+1. **Re-lock the Skeleton.** Drop the market-objection beat (it lives on the landing page at `/#leverage`); let Email 4 become the consultant / first-tool access email.
+2. **Rewrite the Email 3 closing.** Keep the planned market-objection beat for Email 4.
+
+Path 1 is the natural consequence of the locked prose. Decide before Email 4 drafts.
+
+### Email 4 — The virtual consultant (Day 7)
+
+**Sequence restructured to 6 emails (locked 2026-05-29, grill session).** Old Email 4 (Orisha origin + Drew + consultant) and old Email 5 ("how you can engage now") were near-duplicates — both re-told Orisha origin and introduced the consultant. Collapsed into this single consultant-access email. Old Email 6 (honest framing) → Email 5; old Email 7 (invitation) → Email 6. Cadence re-spaced (see Skeleton; update pending).
+
+**Open loop paid off:** Email 3 closes with "In the next email, you'll get access to the first version of these tools." This email IS that payoff. The "tool" = the virtual consultant.
+
+**Decisions locked (grill session 2026-05-29):**
+- **Consultant = the tool** Email 3 promised. One email, not two.
+- **Drew cut.** REQ-P3 (concrete farmer story) already landed via Ferme Décembre + Catherine in Email 3. Email 4 stays consultant-focused; the full Drew/Allison flip lives on the landing page, not here.
+- **Climax = respected source of the insight**, not competitor. Real greenhouse-consultant group for small-scale Québec farms. Framed as: great consultants get growers there, but too few to sit beside every farm. The app extends their kind of help. No bashing (voice red line).
+- **Orisha origin = light.** No re-telling the founding (Email 2 did that). Origin appears only to set up the *challenge*: knowing what to do and *when*, where every expert's honest answer is "it depends."
+- **Free, future uncertain.** Framed: free right now, no promise it stays free forever. Covers REQ-S3 without overclaiming.
+
+**What the consultant actually is (per Guillaume):** a weekly check-in app. ~2 min. Farmer answers a few questions (type a number, or pick symptoms from a list). Returns: a season-yield forecast, comparison to average and best growers, and specific tweaks to climate / irrigation / pruning / pollination / fruit load. Tracks progress via metrics like fruit load (fruits on the plant now vs. what it should carry) and season yield. Point: the farmer doesn't need to master the rules of thumb; they get the right action at the right time. Access: Orisha customers → in the Orisha app menu; non-customers → a link.
+
+**Point** *(Schwartzberg, locked 2026-05-29)*: I believe the hardest part of greenhouse growing is knowing what to do and when, and you shouldn't have to figure it all out yourself.
+
+**Beats (locked):**
+
+1. **Callback / payoff:** last email I promised the first tool. Here it is.
+2. **The challenge (felt):** greenhouse tomatoes reward precision. Dozens of rules of thumb — climate, irrigation, pruning, fruit load, pollination. The hard part isn't the rules; it's knowing what to watch and when to act.
+3. **The "it depends" wall:** every time I asked an expert what to do, the honest answer was "it depends." True, but useless when you're in the greenhouse needing a decision today.
+4. **Climax:** talking with Climax (greenhouse consultants for small Québec farms) showed how much judgment sits behind every "it depends." Great consultants get growers there. But too few to sit beside every farm.
+5. **The build:** so we built a way to turn "it depends" into "here's what to do this week," from your plants' actual state.
+6. **What it does (concrete):** weekly 2-min check-in. A few questions; answer with a number or pick symptoms. Back: season-yield forecast, comparison to average and best growers, the specific tweaks to make. Track fruit load (have vs. should-have now) and yield.
+7. **The reframe:** you don't master every rule of thumb. You get the right move at the right time, and watch the plant steer toward its most productive direction.
+8. **Honest + free:** first version, free for now (no forever promise), improving as we go. (ANTI-3, REQ-S3.)
+9. **CTA / access:** Orisha customers → app menu; everyone else → [LINK — pending from Guillaume].
+10. **Open loop into Email 5 (honest framing):** "Next, an honest look at where the program actually is, and what that means for you."
+
+**REQs this email carries:** REQ-S4 (consultant as meantime option — but now it IS this email's headline; acceptable since it's a single dedicated email mid-sequence, not the sequence headline), REQ-S3 (free-for-now / may change), partial REQ-S2 (first version, improving).
+
+**Subject:** A 'consultant' for your greenhouse
+**Preview:** Ever wanted a clear answer and gotten 'it depends'?
+
+**Locked copy (rendered in `email/welcome-sequence/04-consultant.html`, locked 2026-06-01):**
+
+> Hey {{contact.firstname}},
+>
+> When we started Orisha, I was asking greenhouse consultants what temperature the greenhouse should hold. When to irrigate. For how long. How to dehumidify to control disease. The answer was always "it depends".
+>
+> Very few people knew how to answer these questions. Even fewer adapted the knowledge for small farms.
+>
+> I think we were lucky those folks saw us as a way to help their customers. They were generous with their time. But I have to admit, it's frustrating when you need a clear answer and you get "it depends" followed by a complex explanation.
+>
+> Fair enough. Greenhouses are productive because we give plants the exact conditions they need... and living things tend to be complicated.
+>
+> Those consultants built their intuition over decades. They made miracles for hundreds of market gardeners in Quebec. The problem is there just aren't enough of them to sit beside every farm... and few growers can afford $150+/hour without subsidies.
+>
+> Over the years, they helped us systematize their intuition, so a lot of the complicated climate and irrigation stuff could be automated.
+>
+> But even with Orisha, farmers still face too many "it depends". So we built a way to turn "it depends" into "here's what to do this week".
+>
+> It's a virtual consultant you check in with weekly. In two minutes, you answer questions about your tomatoes, and you get:
+>
+> - A sense of whether you're on the right track
+> - How you compare to the average and the best growers
+> - Tweaks to make this week to move your yield toward the best growers
+>
+> This June, for example, the goal we'll tackle with the program is to build the fruit load. With the check-in you'll see how far you are from the ideal fruit load.
+>
+> No. It's not as good as a real consultant in your greenhouse. But it's probably the next best thing. You get the right moves at the right time, steering the plant toward its most productive season. And as we keep improving it, it'll take you further.
+>
+> We're also looking to use your check-ins to reach out when we see you struggling. Still figuring out how to offer that to the dozens of growers who've already signed up.
+>
+> It's a first version, so feedback is welcome. It's free for now. I can't promise it stays free forever, but for the moment it's yours to use.
+>
+> If you grow with Orisha, you'll find the "Weekly Check-In" in your app menu. Down the road, your answers will adjust the greenhouse automatically, without you touching the controls.
+>
+> If you don't use Orisha, we created an account for you. Install the app on your phone using the instructions in the attached PDF. Here are your credentials:
+>
+> - Username:
+> - Password:
+>
+> Give it a try. If you have questions, just reply to this email.
+>
+> Next email, I want to give you an honest look at where the program actually stands, and what that means for you.
+>
+> Talk soon,
+> Guillaume
+
+**Per-recipient merge fields at send (pending):** Username / Password for non-Orisha contacts + attached install PDF. Orisha customers get the in-app "Weekly Check-In" path instead.
+
+**Status:** locked + rendered 2026-06-01. Old `04-drew.html` removed. Cadence re-spacing in Skeleton for 6 emails still pending.
+
+### Email 5 — Launch runup (one-time broadcast, locked 2026-06-08 grill session)
+
+**Reframed from "evergreen honest-framing drip" to a one-time launch-runup broadcast.** Program launches **Thursday 2026-06-11**. This email is a one-time Postmark broadcast to the current waiting list (who already received Emails 1–4), NOT the permanent evergreen Email 5 slot.
+
+**Decisions locked (grill 2026-06-08):**
+- **One-time, not evergreen.** "On track to launch Thursday" is true only for this week's batch. The permanent evergreen Email 5/6 slots are deferred to a later cleanup.
+- **Channel:** Postmark broadcast → needs compliance footer + `{{{ pm:unsubscribe }}}`. Confirm Postmark first-name merge syntax at send (HubSpot `{{contact.firstname}}` won't apply).
+- **Send:** Tue 2026-06-09, 06:00, full waiting list.
+- **No price.** Join link (price on the page) ships in a separate Thursday launch-day email. This runup carries no join link.
+- **CTA mechanic:** runup points toward Thursday ("watch your inbox"). Only clickable path is the P.S.
+- **Gordon = compounding engine (frame B).** Tell the failure straight, land the weight on the turn: his lost season is why the Playbook now has prune-for-fall-vigor + heat-resistant variety selection. Join now = shape the next version.
+- **Feedback line dropped** (REQ-S6 not carried here).
+
+**Required follow-on piece:** separate Thursday launch-day email carrying the self-serve join link.
+
+**Subject:** 40hr Farmer Program launch Thursday. What to expect.
+
+**Beats (locked):**
+
+1. Greeting + the news: we open Thursday.
+2. Honest expectation: it won't be perfect, said now rather than discovered later.
+3. Gordon told straight: tapping doubled fruit load in 2 weeks → heat + bacterial spot erased it → later learned he pauses sales in August, would have run it differently.
+4. The turn: that loss is why the Playbook now has prune-for-fall-vigor + heat-resistant variety selection. Sharper every season.
+5. Join = shape it: launching imperfect on purpose; farmers who come in now shape what it becomes.
+6. On track for Thursday: watch your inbox, I'll send the door.
+7. Sign-off (Guillaume).
+8. P.S. (demoted book-a-call): can't take the program on now? Bottleneck is usually time. Reply and we'll set up a call about automation to free some hours first.
+
+**Subject:** First 40hr Farmer videos this Thursday
+**Preview text:** It won't be perfect. Here's why that's the plan.
+
+**Locked copy (rendered in `email/welcome-sequence/05-launch-runup.html`, locked 2026-06-08):**
+
+> Hey {{firstName | default: "there"}},
+>
+> This Thursday, the 40hr Farmer program opens.
+>
+> Last spring, Gordon at Ten Mothers Farm consulted with us. Within a week, he saw his fruit set improve and his plants get stronger. A great start.
+>
+> Then the heat came. Warmer than what we get around Montreal, but not by much. Even so, the impact on their crops surprised us. The plants got so weak we couldn't keep them going any longer than his normal season.
+>
+> Later, we learned something that would have changed how we ran his whole season: Gordon pauses his CSA in August. Had we known, we'd have pruned clusters back in June to help the plants stay strong through the heat. That would probably have been enough to keep them productive through summer and into fall.
+>
+> We couldn't save Gordon's season. But we didn't waste it either.
+>
+> Everything that worked went into the playbook. Every problem, like the heat, led to research, and what we found made the playbook better.
+>
+> I'm telling you this because we don't expect to be perfect. And neither should you.
+>
+> The program is new. We don't have everything figured out yet. Our main challenge: how to get as close as possible to a consultant standing in your greenhouse... for you and 1000 other farmers at once.
+>
+> But hey! The best way I've found to build something useful is to start, get feedback, and improve quickly.
+>
+> So, expect the program to evolve: playbook we teach, coaching call format, tools, maybe even the platform. Your feedback will be the main driver.
+>
+> And the same is true for your tomato production. Start ASAP, face obstacles with the community and get better.
+>
+> Psyched to get started? Watch your inbox Thursday to officially sign up and get access.
+>
+> Talk soon,
+>
+> Guillaume
+>
+> *P.S. If your season already feels too full to take on one more thing, consider automating some of your workload away. AND, it'll make everything we cover in the program easier to apply. Interested? [Book a time with Phil](https://www.orisha.io/book-a-meeting). He'll help you automate as much of your load as quickly as possible :)*
+
+**Send mechanics:** Postmark broadcast stream `broadcast`, merge `{{firstName | default: "there"}}`, compliance footer with `{{{ pm:unsubscribe }}}`. Phil link → `https://www.orisha.io/book-a-meeting`. Send Tue 2026-06-09 06:00, full waiting list.
+
+**Anti-requirements verified:** ANTI-1 (no fake urgency): pass. ANTI-2 (no overclaim): pass — Gordon told as a loss, not a win. ANTI-3 (early-stage as downside): pass — imperfect framed as the deliberate plan. ANTI-4 (SaaS filler): "start, get feedback, improve quickly" borderline, accepted by Guillaume. ANTI-5 (no dashes): pass.
+
+### Email 6 — Invitation (Day ~14, was Email 7)
+
+Not yet locked. Pending evergreen-slot cleanup (see Email 5 reframe).
+
+### Email 6 — Invitation (Day ~14, was Email 7)
 
 Not yet locked.

@@ -1,0 +1,31 @@
+{
+  "publishedAt": "2026-05-26T19:08:44.110109+00:00",
+  "lists": [
+    {
+      "day": null,
+      "body": "A",
+      "label": "Mechanism",
+      "csvs": [
+        "email/spear/spear-wave2-day1-bodyA.csv",
+        "email/spear/spear-wave2-day2-bodyA.csv",
+        "email/spear/spear-wave2-day3-bodyA.csv"
+      ],
+      "listName": "SPEAR Wave 2 - Body A (Mechanism)",
+      "listId": "1756",
+      "memberCount": 1934
+    },
+    {
+      "day": null,
+      "body": "B",
+      "label": "Flip",
+      "csvs": [
+        "email/spear/spear-wave2-day1-bodyB.csv",
+        "email/spear/spear-wave2-day2-bodyB.csv",
+        "email/spear/spear-wave2-day3-bodyB.csv"
+      ],
+      "listName": "SPEAR Wave 2 - Body B (Flip)",
+      "listId": "1757",
+      "memberCount": 1933
+    }
+  ]
+}

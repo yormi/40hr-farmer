@@ -47,13 +47,19 @@ stays necessary. Vigor going wrong drains yield four ways.
 - **Vegetative vs generative balance** is one of the levers to keep vigor
   right, not vigor itself. The other levers: climate, irrigation, pruning,
   feeding, fruit load.
+- **Rule of thumb:** stress pushes generative; comfort pushes vegetative.
 - **The look:** vegetative = long dark leaves, trusses straight up;
   generative = thinner head, short arching trusses, flowers near the tip.
 
 ### Climate steering
 
+- **Go into the hot season with maximum vigor:** heat will spend it.
 - **Temperature average** Instant temperature = no big deal. Important = average. How to calculate.
+  Sensor in the wrong place overstates temperature. Show where to install it.
 - **Day vs night temperature:** flat profile = vegetative; wide day-to-night gap = fruit.
+- **Night floor:** lower nights offset hot days, only to a point (~60F floor).
+- **Pre-night treatment:** rapid end-of-day temperature drop = more generative.
+  Orisha automates it. Skip on cloudy days, not enough energy.
 - **Temperature vs fruit load:** more clusters = run cooler. Show how Orisha does it.
 - **Cloudy days:** drop toward 63F; warmth without light grows weak stems.
 
@@ -70,6 +76,8 @@ stays necessary. Vigor going wrong drains yield four ways.
 - **Heat wave:** +30% water on a 95F day, revert when it breaks (else split
   fruit, feed disease).
 - **Single vs 2 leaders:** 2 leaders require stronger roots
+- **Last irrigation:** hours before sunset.
+- **Over-irrigation tell:** growth difference between middle-of-bed and end-of-bed plants.
 
 ### Pruning
 
@@ -80,11 +88,15 @@ stays necessary. Vigor going wrong drains yield four ways.
 - **Generative trick:** pull the leaf opposite a young flower cluster.
 - **Suckers:** snap on time by hand; a late sucker grows as big as the main
   stem and steals energy. Once a week. Don't skip it!
+- **Flag leaves:** keep them when the plant runs short on leaves.
+- **Too many leaves can cause wilting.** Antoine's cucumbers.
+- **Cut without stubs:** blade or clean snap.
 
 ### Fruit load
 
 - **Fruit per cluster:** thin to 3 fruit/cluster 8 weeks before heat-wave
   season; too much fruit exhausts the plant.
+- **Kept too much fruit into July:** recovery moves.
 
 ### Feeding
 
@@ -109,3 +121,6 @@ stays necessary. Vigor going wrong drains yield four ways.
   rebalanced.
 - **Drew, every cloudy week the slicers refuse to set.** Cluster after
   cluster aborts until sun and warmth return.
+- **Gordon, doesn't sell in August.** Known earlier, his plants' vigor
+  could have been saved and resilience against bacterial spot increased.
+- **Antoine, rosemary.** EC too high: drought symptoms in soaked soil.

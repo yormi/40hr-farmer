@@ -33,12 +33,22 @@ outlines.
 * LB: louis-bernard@orisha.io 
 
 ## Asking for input
-* **[Claude]** Send the email via Postmark, transactional stream, Reply-To guillaume@orisha.io.
-* **[Claude]** Include the stage's Google Doc link.
-* **[Claude]** Ask for input **inline, in a different colour**.
+* **[Claude]** Send via `send-input-email.py` (Postmark transactional stream,
+  Reply-To guillaume@orisha.io). It fills `brainstorm-input-email.md`, renders
+  the lists + gray Next Steps, and links the Doc as "Brainstorm doc". Run order:
+  `test-send-input-email.py` → `--dry-run` → `--send` (default with no `--send`
+  is a `[TEST]` send to guillaume@orisha.io).
+* **[Claude]** Ask for input **inline, in a different colour** (in the template).
 * **[Guillaume]** Set the Doc's link sharing → anyone with the link can comment.
-* **[Claude]** Name the deadline in the email → 3 business days later.
-* **[Claude, scheduled +3 business days]** On the deadline → read the marked-up Doc, do the next step from the inline input, Postmark Guillaume a review reminder. Set up with `/schedule` at send time.
+* **[Claude]** Name the deadline → 3 business days later (`--deadline`).
+* **[Claude]** Generate a Google Calendar add-event link to continue the work
+  at **9:30 AM the next business day after the deadline** (Claude can't write
+  the calendar directly; Drive is the only connected Google tool). Guillaume
+  clicks it to add. Convert the local time (America/Toronto) to UTC in the
+  link's `dates`.
+* **[Guillaume]** On that calendar nudge → start a session. Claude reads the
+  marked-up Doc, folds the inline input into the source markdown, and Postmarks
+  Guillaume a review reminder before the next stage.
 
 ## Working files
 * Create `outline/<Month>-<Topic>/` for created files.
@@ -54,17 +64,17 @@ outlines.
 
 1. **[Guillaume]** Approve
 
-1. **[Claude]** Create the `Brainstorm` Doc from `01-brainstorm.md`.
+1. **[Claude]** Create the month Doc with 3 tabs via `create_tabbed_gdoc` (per `gdoc-formatting.md`); populate the `Brainstorm` tab from `01-brainstorm.md`, leave the other tabs empty.
 
-1. **[Guillaume]** Set the `Brainstorm` Doc's link sharing to public (anyone with the link can comment).
+1. **[Guillaume]** Set the Doc's link sharing to public (anyone with the link can comment).
 
 1. **[Claude]** Ask for input (per `## Asking for input`, using `brainstorm-input-email.md`)
-    * `Brainstorm` Doc
+    * `Brainstorm` tab
     * To Andrew and Antoine
     * Ask for thoughts, additions, related stories, visual ideas
 
 1. **[Claude, scheduled +3 business days]** Read the marked-up
-   `Brainstorm` Doc, merge inline input into `01-brainstorm.md`, and
+   `Brainstorm` tab, merge inline input into `01-brainstorm.md`, and
    Postmark Guillaume a reminder to review the merge before Stage 2.
 
 ### Stage 2 — Organize
@@ -82,17 +92,17 @@ outlines.
     * Use `02-video-cuts.md`
     * Make the asks concrete
     * per video, story prompts (where a hook is needed) and open gaps (number to verify, fuzzy step)
-    * Write to the `Outline Skeletons` Doc
+    * Populate the `Outline Skeletons` tab in place
 
 1. **[Guillaume]** Approve the Skeletons.
 
 1. **[Claude]** Ask for input (per `## Asking for input`)
-    * `Outline Skeletons` Doc
+    * `Outline Skeletons` tab
     * To Andrew and Antoine
     * Asking to fill the gaps
 
 1. **[Claude, scheduled +3 business days]** Read the marked-up
-   `Outline Skeletons` Doc, fold the gap answers into the skeletons, and
+   `Outline Skeletons` tab, fold the gap answers into the skeletons, and
    Postmark Guillaume a reminder to review before Stage 4.
 
 ### Stage 4 — Finalize
@@ -100,14 +110,14 @@ outlines.
 1. **[Claude]** Fill `outline/template.md` per video
     * Hook, body beats with speaker tags, one-action close, next hook + b-roll + casting shot plan
     * Use the input-enriched skeletons
-    * Write to the `Outline` Doc
+    * Populate the `Outline` tab in place
     * Every video = one page
 
 1. **[Guillaume]** Approve
 
 1. **[Claude]** Notify that the outline is ready (Postmark)
     * Send to Andrew, LB and Antoine
-    * Share the link of the `Outline` Doc
+    * Share the link of the `Outline` tab
     * Add that everyone is responsible to arrive to the next shooting session with a good idea of the outline
 
 ## Non-negotiables

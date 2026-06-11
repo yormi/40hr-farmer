@@ -1,0 +1,812 @@
+                                             CHAPTER NINE
+
+
+                                         Tomatoes
+
+
+
+T      he tomato has been studied more than any other
+       greenhouse crop, and the complexity of keeping
+it productive over a long greenhouse season has given
+                                                              mixed-vegetable farms. So the importance of the crop
+                                                              cuts across many sizes and types of farms. The enor-
+                                                              mous size of the fresh tomato market means there will
+many a horticulturalist job security. The tomato is also      always be many growers of all different sizes competing
+the most, or one of the most, profitable crops on many        in the market.
+
+
+
+
+Figure 9.1. Tomatoes being grown aquaponically with coir as the medium (see appendix A for more about aquaponics).
+142                              The Greenhouse and Hoophouse Grower’s Handbook
+
+
+
+
+                                                 Ideal Tomato Climate
+      O p t i m a l T wen ty-Fo u r - H o u r                                    during the day and 64 to 67°F (17–19°C) at night.
+      Av e r age T e mp er atu r e                                               Pre-night temperatures down to 61°F (16°C) can be
+      66°F (19°C)                                                                used to steer the plants in a more generative direction.
+                                                                                     Keeping temperatures below 86°F (30°C) can
+      M i n/ M a x T e mp er atu r e                                             be a challenge in the summertime. I can say from
+      Try to prevent temperatures over 86°F (30°C), or                           experience that under many circumstances, tomatoes
+      below 60°F (15°C). Temperatures lower than this                            can withstand temperatures hotter than that without
+      range may cause flowers to develop abnormally,                             compromising pollination and without major damage
+      while temperatures below 48°F (9°C) will cause seri-                       to the crop. However, flowers may be damaged by
+      ous setbacks in growth. This may lead to catfacing,                        temperatures over 86°F (30°C). Under adverse condi-
+      fused fruit (see below), zippering, and other abnor-                       tions in heat waves I have seen greenhouses go into the
+      malities, especially in heirlooms or other varieties                       triple digits F (over 37°C) for a few days without major
+      prone to misshapen fruit. Pollen may fail to develop                       adverse effects. On the other hand, at temperatures
+      in flowers exposed to below-ideal temperatures,                            above 96°F (36°C), respiration outpaces photosynthe-
+      which causes blossoms to drop without setting fruit.                       sis. This means that the plant is using energy faster than
+      Temperatures above the ideal may cause pollen                              it can produce it, so periods above this temperature
+      sterilization, which will also cause blossoms to drop.                     need to be minimized (see “Respiration” in chapter 5).
+                                                                                     If you know you’re in for adverse weather con-
+      C l i m at e                                                               ditions, keeping the structure cool for at least the
+      For the week after transplanting tomatoes to the                           morning can help keep flowers from aborting. If the
+      production greenhouse, maintain a flat temperature                         temperature goes above the mid-90s F (low 30s C)
+      profile of 73 to 77°F (23–25°C) both day and night                         before noon, you run the risk of sterilizing flowers
+      to encourage rapid rooting in and vegetative growth.                       that opened that morning. If you live in a hot
+          After the first week in the production house, toma-                    climate and plan on producing tomatoes through
+      toes can be grown from 75 to 76°F (24°C) during the                        the summer, using a vigorous variety or grafting
+      day and 64 to 66°F (18–19°C) at night. When fully                          to a vigorous rootstock can help. Since prolonged
+      loaded with fruit, grow from 75 to 80°F (23–27°C)                          excessively hot weather has the effect of weakening
+
+                84                                              69                                                 80
+                82                                              67
+                                                                                                                   75
+                80                                              65
+  Temperature
+
+
+
+
+                                                  Temperature
+
+
+
+
+                                                                                                     Temperature
+
+
+
+
+                78                                              63                                                 70
+                76                                              61                                                 65
+                74                                              59
+                                                                                                                   60
+                72                                              57
+                70                                              55                                                 55
+                     Day                 Night                       Day                     Night                      Day                 Night
+                           Time of Day                                     Time of Day                                        Time of Day
+
+    Figure 9.2. Tomato germination                  Figure 9.3. Tomato seedling growth                 Figure 9.4. Tomato temperature for
+    temperature.                                    temperature.                                       the week after transplant.
+                                                          Tomatoes                                                          143
+
+
+
+              80
+
+
+              75
+
+
+              70
+Temperature
+
+
+
+
+              65
+
+
+              60
+
+
+              55
+                Night   Night   Pre-Day   Sunrise   Day          Day      Day      Pre-Night   Pre-Night   Night    Night
+                                                            Time of Day
+
+ Figure 9.5. Tomato temperature at the beginning of harvest.
+
+              85
+
+
+              80
+
+
+              75
+Temperature
+
+
+
+
+              70
+
+
+              65
+
+
+              60
+
+
+              55
+                Night   Night   Pre-Day   Sunrise   Day          Day      Day      Pre-Night   Pre-Night   Night    Night
+                                                            Time of Day
+
+ Figure 9.6. Tomato temperature at fully loaded harvest.
+
+
+ tomato plants, starting with a strong variety can                  Low root-zone temperature can be a problem,
+ help mitigate the effects of heat on the crop.                  especially for soil growers in cold climates. When
+                                                                 a piece of plastic or glass is all that separates your
+ M e d i u m T emp er atu r e                                    greenhouse from freezing weather outside, that cold
+ The temperature of the roots is an important consid-            may infiltrate through the soil under the wall of the
+ eration in a tomato crop. The ideal is from 64 to 70° F         greenhouse into the root zone. If the root-zone tem-
+ (18–21°C). Root temperature is a limiting factor for            perature goes below 61°F (16°C), serious reductions
+ in-ground heat; this is the reason you can’t crank radi-        in growth may become apparent. This is why some
+ ant heating up higher than the above temperature.               growers install frost walls.
+144                     The Greenhouse and Hoophouse Grower’s Handbook
+
+
+                                                              a long season, as well as plant openness to maximize
+      Varieties                                               airflow in densely planted situations.
+                                                                  At this point, almost all of the breeding for greenhouse
+There is more specialized breeding for tomatoes than for      tomatoes is focused on indeterminates, because most of
+any other protected crop. The importance of tomatoes          the market is for greenhouses that want a very long har-
+to greenhouse producers and the specialized adaptations       vest season. Since most determinates do not bear for as
+that separate them from field tomatoes have led to thou-      long as indeterminates can, they would require multiple
+sands of varieties bred specifically for protected culture.   plantings a year and increase the amount of establishment
+   One of the most fundamental ways in which green-           time. Also, the flavor of determinate tomatoes tends not
+house tomatoes differ from field varieties is in the          to be quite as good as indeterminates, partially because
+disease-resistance packages. Many greenhouse tomatoes         indeterminate tomato varieties have three leaves between
+have the basic resistances that field tomatoes have. Resis-   each fruiting cluster and determinates have only two.
+tance to fusarium, verticillium, and tomato mosaic virus      Determinates have a lower ratio of leaves to fruit—in
+can be useful in both field and greenhouse growing. But       other words, fewer solar panels for the sugar factory.
+there is a group of diseases that are rarely found in field       A lot of growers like determinate tomatoes, however,
+growing, which are much more common in protected              because they require less labor, so they compromise and
+culture. Resistance to diseases such as leaf mold, fusar-     use semi-determinate tomatoes to combine that benefit
+ium crown and root rot, and powdery mildew are the            with the ability to still stretch the season longer than true
+hallmarks of greenhouse tomato disease packages.              determinates. Some of these varieties can get quite tall in
+   When choosing tomato varieties, it’s important to          protected culture. They grow taller than they typically
+know which diseases are likely to affect you. Unfortu-        would in the field under the lower-light conditions inside
+nately this knowledge usually comes the hard way, from        a structure.
+experiencing disease pressure. If you have never done             Shorter-season determinates can be attractive to
+protected growing in your area before, ask your neigh-        some growers, especially in hot areas. They may sneak
+bors what diseases they have to deal with.                    in a quick crop of determinate tomatoes before or after
+   Though simply being grown under cover may elim-            the field tomato season, and then leave the hoophouse
+inate or alleviate the pressure from certain diseases, it’s   unplanted during the heat of the summer when it’s really
+usually a trade-off for other diseases more common in         too hot inside.
+protected culture. Leaf mold, botrytis, and powdery               The downside of all this breeding is that good shelf
+mildew are particularly common on tomatoes in poorly          life and high production tend to be prioritized, while fla-
+ventilated houses, because they thrive in warm, high-­        vor takes a backseat. These breeding goals have yielded
+humidity environments. This is where the increased            many varieties that direct-market growers find less than
+climate control of a greenhouse plays a part in reducing      inspiring. Since market farmers have a shorter supply
+disease. Keeping the temperature and humidity in the          chain, shelf life is not as important as for the big grow-
+ideal range will reduce the incidence of these pathogens.     ers. And since more often than not, their farm’s name is
+And scourges of field tomato production, like early and       associated directly with their produce, they make their
+late blight, are usually not even included in greenhouse      reputation (and draw repeat customers) by having the
+tomato breeding programs. Greenhouse varieties are at a       tastiest tomato at the market.
+much lower risk for these diseases, since the plants don’t        It’s not that yield and shelf life don’t matter for smaller
+get rained on, and soil splash and moisture on the leaves     growers, it’s just that the priority ranking of these traits
+are the factors that predispose plants to early and late      differs from growers who have to ship longer distances
+blight infection.                                             (and the emphasis on everything except flavor is not
+   Other features of greenhouse tomato breeding may           unique to greenhouse tomato breeding; it’s the same for
+include a high level of vigor to keep plants strong over      most field crops as well).
+                                                     Tomatoes                                                       145
+
+
+    In the past these breeding priorities resulted in very   smaller-fruited varieties will be lower yielding, more or
+hard tomatoes, because a firmer tomato is going to han-      less in proportion to their size (the smaller the fruit, the
+dle better and have a longer shelf life than a softer one.   lower the yield).
+Lately, though, it seems like more attention is being paid
+to flavor in greenhouse tomato breeding. I believe this
+                                                             Grape Tomatoes
+is because the main advantage that greenhouse tomatoes
+can claim in the grocery store over field tomatoes is bet-   True grape tomatoes are not just oval-shaped cherry
+ter quality. The produce has to live up to that promise if   tomatoes. Grape tomatoes have a flavor and texture
+it’s going to keep its market share.                         profile all their own due to being firmer and having less
+    I can affirm that the quality of greenhouse tomatoes     gel and seeds than cherry tomatoes. They are also usually
+is higher now than when I first started doing trials and     less prone to cracking than cherry tomatoes. Even people
+looking at a lot of varieties. New varieties are being       who do not appreciate firm tomatoes may like grape
+developed that incorporate better flavor along with the      tomatoes as long as they are firm without being hard.
+durability improvements of contemporary breeding.            Good grape tomatoes are one of my personal favorites
+This makes it more likely that growers will be able to       for eating out of hand.
+find varieties that meet both their production and their        Grape tomatoes tend to have a very open, wispy-
+flavor goals.                                                leaved plant habit that is conducive to airflow. They
+                                                             are usually less affected by leaf mold than other types,
+                                                             though leaf mold resistance can still be useful where
+           Tomato Variety Types                              disease pressure is high.
+The huge importance of tomatoes to greenhouse veg-
+etable growing has resulted in an amazing diversity of
+                                                             Cherry Tomatoes and Truss Cherries
+cultivars with specific greenhouse adaptations. There
+are varieties of almost any type you might want to grow      Like grape tomatoes, protected culture cherries have
+available for protected growing. There are even a couple     open plant types, along with low fruit loads and yields
+of types—the cluster tomato and truss cherry—that are        when compared with larger tomatoes. They tend to be
+specific to greenhouse culture.                              sweeter and have better flavor than the larger types.
+    Jointless varieties, for example, represent a modern        One subtype of the cherry tomato is known as the
+innovation for cluster tomatoes. Jointless tomatoes lack     truss cherry. Instead of harvesting individual fruits, you
+the abscission layer where an individual tomato can be       harvest the entire truss of tomatoes by clipping it off
+removed from the truss. This means that they do not fall     the plant. Truss cherries are pretty much exclusive to
+off the cluster as easily when being handled. This trait     protected cultivation due to the difficulty of producing
+is also sometimes used in field tomatoes so the picked       a perfectly ripened truss of cherry tomatoes in the field.
+tomatoes do not retain their calyxes, which can puncture     There is usually a target number of fruit on the truss,
+other tomatoes during harvest.                               depending on how many can be fully filled out. If there
+    Though the beefsteak was the mainstay of the green-      are more fruits set on the truss than the plant can fill,
+house tomato industry for a long time, smaller varieties     you may need to nip the last few fruits off the tip off
+have evolved alongside demand for snacking vegetables.       the truss so every fruit is perfectly filled out. The main
+If you told growers twenty years ago that grape, cocktail,   feature that differentiates a cherry variety developed
+and cluster tomatoes would be important categories in        for truss harvest from one for loose harvest is that most
+the near future, they probably wouldn’t have believed        truss cherries are jointless.
+you—if they even knew what those types were.                    Important traits for truss cherry tomatoes include fast
+    I will run through the different greenhouse tomato       ripening and good shelf life, so the first fruit to ripen is
+types from smallest to largest. Keep in mind that            not mush by the time the last fruit is ripe. These types
+146                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+are usually marketed in boxes to protect the delicate            the tomatoes ripening as quickly as possible is almost
+truss and fruit. This variety depends a lot on presenta-         essential to getting the last one to ripen before the first
+tion, since the fact that it is on the truss shows that it was   one gets overripe.
+greenhouse-grown.                                                    Unfortunately, TOVs represent yet another example
+                                                                 of produce whose best qualities—freshness and flavor—
+                                                                 have been bred out. Many of the most commonly grown
+Cocktail Tomatoes
+                                                                 tomatoes in the industry recently have been varieties
+Cocktail tomatoes occupy a size class larger than cherry         that prioritize production over flavor.
+tomatoes and smaller than cluster tomatoes. There are                Still, some TOV varieties are much better than others,
+varieties for loose harvest and jointless varieties for          and have the potential to be quite good. Most varieties are
+cluster harvest. This class of tomatoes is more popular          bred to produce a cluster of four or five medium-sized or
+in Europe than it is in North America. My impression             six smaller tomatoes. The technique is to grow the entire
+is that North Americans like their tomatoes big or small         cluster until the all the tomatoes are ripening, and the
+but not in between, and this is an in-between variety.           one at the end (the last one to ripen) is at least starting to
+    Nonetheless, there is some market for this type of           show some color.
+tomato, which can have very good flavor. It was origi-               Growers with a longer supply chain may pick the clus-
+nally popularized by a single variety, Campari, which            ter with the end tomato still quite green, whereas growers
+is branded and sold under that name. It is sometimes             with a shorter supply chain may be able to let the end
+marketed as a salad tomato, one that you can make two            tomato get riper. At that point the cluster is clipped off
+quick cuts to and throw on a salad.                              the plant and usually placed into the cardboard flat they
+                                                                 will be shipped in, to minimize the amount of handling.
+                                                                     Some of the newer TOV varieties are jointless to
+Tomatoes on the Vine
+                                                                 minimize the amount of tomatoes that fall off the clus-
+Cluster tomatoes, known in the industry as tomatoes              ter. Many wholesalers have very stringent standards and
+on the vine (TOVs), were bred specifically for the               will only buy clusters with a certain number of tomatoes.
+greenhouse industry. They have risen to take their               Shelf life and “green parts” (calyx and stem) that stay
+place as one of the main greenhouse tomato variety               green for an extended period of time are important
+types, along with beefsteaks. In a crowded produce               development criteria for this type.
+marketplace, the greenhouse tomato industry was try-                 As someone who has visited greenhouses with Dump-
+ing to differentiate itself from all the other tomatoes          sters full of tomatoes outside, I have seen firsthand that
+on the shelf, especially field tomatoes. The big idea            length of shelf life is not just academic. If shelf life is a
+was that if you saw these beautiful ripe tomatoes still          concern for you, you can do one of the most basic tests
+attached to a perfectly clean vine that might even still         of shelf life yourself. Take several varieties at the same
+have a whiff of tomato plant smell, the presentation             level of maturity, place them into boxes, hold them in
+would be so impressive it would set the tomatoes apart           conditions similar to what they will be stored at, and see
+from others in the store.                                        which ones rot faster.
+    And indeed it’s very difficult to grow a perfect cluster
+of tomatoes in the field. The possibility of disease causing
+                                                                 Beefsteaks
+spots on a tomato, or rain causing split tomatoes, makes
+it much less likely that an entire cluster of tomatoes will      Beefsteak tomatoes used to be the main greenhouse type,
+make it out of the field in perfect condition. The other         originally produced to compete with out-of-season field
+difficulty of producing cluster tomatoes in the field is get-    production. The limitations of growing field varieties in
+ting them all to ripen close to one another. Even though         greenhouses quickly led to the development of dedicated
+TOVs are selected for fast ripening, having heat to keep         greenhouse varieties.
+                                                        Tomatoes                                                        147
+
+
+   For people who are not familiar with the produce             producing a particular fruit size or with a particular
+industry, I’m sure it sounds strange to say that one of the     stress tolerance, such as tolerance of soil with a high level
+last things considered in the development of many new           of salinity.
+tomato varieties is flavor. But when you consider how
+many other breeding goals there are, you can understand
+how this has come to be, however unfortunate it is. Beef-              Tomatoes from
+steak varieties are now subject to the same rigors as other            Seed to Sale
+tomato varieties, namely to meet the highest standards
+of appearance, yield, and shelf life.                           Once you’ve chosen your varieties, it’s time to think about
+   One way that shelf life is increased is by breeding          how to make the most of them. Below are tomato-specific
+firmer tomatoes, to the point where some of them are            recommendations to take you from seed to sale.
+pretty hard even when completely ripe. There are a lot
+of beautiful greenhouse beefsteak tomatoes out there.
+Many of them look much better than they taste. Taste
+                                                                                    Propagation
+new varieties to make sure they are up to your flavor and       Deposit one seed per cell or plug in your desired medium.
+texture standards before planting a lot of them.                The ideal temperature for germinating tomato seeds is
+   One way that protected culture growers seek to differ-       80 to 82°F (27–28°C). Maintain this temperature as con-
+entiate their produce from field beefsteaks is to harvest       sistently as possible until germination. After emergence,
+with the calyxes on. Since most field tomatoes are harvested    maintain a flat day and night temperature of 66 to 68°F
+loose into bins, the calyxes are removed by the pickers         (19–20°C) for the next two to three weeks, until seedlings
+so the stems don’t puncture the other fruit. The fact that      need to be transplanted into larger blocks or containers.
+greenhouse tomatoes are usually harvested in a single layer
+straight into the flats they are shipped in means the calyxes
+can be left on without risk of puncturing other fruit.
+                                                                                       Grafting
+   If your harvest methods involve piling tomatoes, it’s        See “Solanaceous Grafting” in chapter 8.
+possible for pickers to clip the stems off and leave the
+calyx as they are harvesting. Even if consumers don’t
+know what a calyx is, it does make for nice presentation
+                                                                                       Spacing
+to leave it on. Curved shears are useful for cutting the        There are a lot of different ways to space an indetermi-
+stem off flush with the top of the tomato.                      nate tomato crop. The basic principle is that smaller
+                                                                fruited varieties are spaced more closely, while larger
+              Choosing Tomato                                   tomatoes need more space. This is due in part to the fact
+                                                                that larger-fruited cultivars have larger leaves, which
+              Rootstock Varieties                               cast more shadow and take up more space. Smaller-­
+The two main considerations that go into choosing a             fruited varieties have smaller leaves and more open
+tomato rootstock are disease resistance and vigor. Dis-         plants, with grape tomatoes tending to have very sparse,
+ease resistance is fairly straightforward: Choose based         open plants. With their relatively low yields, small-
+on diseases you know are active in your soil. Even if you       fruited varieties need to be packed in tighter to improve
+don’t currently have active root diseases, I view grafting      yields per square meter.
+to a rootstock with a broad disease package as cheap               The other principle for greenhouse tomato spacing is
+insurance, because the way you find out if you have a           that if you start very early in the year when light levels
+pathogen in your crop is the bad way.                           are low, you may want to start with a lower density and
+   In the future, there may be more options for tomato          increase density by developing extra suckers into new
+rootstocks, including varieties developed especially for        plants as the light increases. For example, growers in the
+148                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+northern tier of the United States or southern Canada
+                                                                                 Transplanting
+might transplant grape tomatoes in January or February
+at a spacing of 2.8 plants per square meter. A few weeks       In field growing, it’s usually best to transplant tomato
+after transplanting to the greenhouse, when light levels       plants before the first flower cluster is open, because the
+are better, they might use a sucker to develop a second        plant is still very vegetative and will develop a large root
+head on every grape tomato plant, giving them a final          system quickly. When a large transplant is produced,
+density of 5.6 heads/m2. They might only develop a             as is often the case in protected growing, often flowers
+sucker into a new head on every other cherry tomato            will be open by the time of transplanting. When heat is
+plant, for a final density of 4.2 heads/m2. Only every         used, the flat temperature profile in the week after trans-
+eighth beefsteak plant might get a second head, for a          planting will help the plant to be very vegetative and
+final density of 3.15 heads/m2. Each head is spaced out        quickly develop a large root system, even though some
+evenly along the wire as the plants are moved weekly for       of its energy is starting to go to flower production. Even
+lowering and leaning. In this manner all of the heads can      in hoophouses, the improved climate will help the plant
+receive equal spacing even though not every plant has          establish quickly even if it’s starting to set fruit.
+the same number of heads.                                          Otherwise, see chapter 6 for how to transplant toma-
+   Density is calculated by the number of vines rather         toes. Grafted tomato transplants should never be planted
+than per plant, since there may be more than one vine          deeper than the original soil line. If the top variety con-
+per plant. And densities may change throughout the             tacts the soil, diseases can get into the nonresistant scion
+season as growers add and remove heads; see above. So          through ground contact.
+density refers to the number of heads, not the number
+of plants.
+                                                               Adventitious Roots
+   For determinate tomatoes, a double-row basket weave
+can be used to achieve similar or slightly lower densities     Tomatoes will easily form adventitious roots, or roots
+than those listed above for the corresponding type of          originating from the stem, where the stem comes in
+indeterminate tomatoes. Instead of referring to density        contact with the soil. Formation of adventitious roots in
+by number of vines, the spacing for determinate toma-          random areas where the stem is not in contact with the
+toes refers to actual planting density, since they aren’t      soil can be a sign of stress. It is common to take advantage
+usually pruned to individual leaders. If a long season         of adventitious root formation in tomatoes to develop a
+is desired from determinate tomatoes, you can use a            larger root system at planting time. You can do this if
+semi-determinate variety like BHN-589, which may get           your plants are not grafted. Bury the tomato seedling
+quite tall, especially under lower light levels in protected   deeper than the soil line of the cell it is planted in, and
+culture. So use taller stakes than you would in the field.     roots will form where the stem is buried.
+A starting recommendation for determinates would be a             Be sure to plant grafted tomato plants with the graft
+double row of tomatoes 2 feet (60 cm) apart, with a plant      union 1 inch (2.5 cm) or more above the soil line so
+every 2 feet along each row.                                   adventitious rooting does not occur. If the top variety
+                                                               roots into the ground, diseases can get into the non­
+                                                               resistant scion through its roots. High humidity or debris
+                         Labor                                 around the base of the stem can cause rooting out as well.
+Under the maintenance regime described in this chapter,
+it is estimated that indeterminate greenhouse tomatoes
+will require a minimum of 140 hours of labor to maintain
+                                                                                    Flowering
+per week per acre. This is with an efficient, experienced      Flower initiation in tomato plants can begin shortly after
+crew. Determinate tomatoes will require less labor since       the cotyledon stage. The cells that become the flowers
+they don’t require suckering or individual stem trellising.    start forming in the growing point long before they are
+                                                        Tomatoes                                                         149
+
+
+visible. So stress at the seedling stage, especially low tem-
+peratures, can have a negative impact on the first fruit.
+    Temperatures below 60°F (15°C) interfere with nor-
+mal blossom and fruit development and cause a variety
+of fruit deformities, such as catfacing, zippering, and an
+increased number of fused fruits. Catfacing is the pres-
+ence of scarring and puckering at the blossom end of a
+tomato. Zippering is scarring that runs the length of a
+fruit and has a characteristic zipper-like pattern. Fused
+fruits occur when two fruits that would otherwise sepa-
+rate develop as one. This is most likely to happen in the
+fruit closest to the plant, known as the king fruit. Fused
+fruits are also sometimes called boat-shaped fruit, due to
+their characteristic long and curved shape.
+    All of these deformities can be due to stress early
+in flower development. One way you can tell a fruit is
+made from multiple fused flowers is because a single
+tomato flower or fruit usually has five sepals. If you see
+large irregularly shaped fruit with more than five sepals,
+you know that they are a product of multiple flowers
+fused together.
+    The cause of deformed fruit can be the source of some       Figure 9.7. Hives of bees in a greenhouse for the pollination
+confusion, because growers think they’re getting fruit          of tomatoes.
+deformities even though the flowers weren’t exposed to
+cold temperatures. What they don’t understand is that           in the structure and let them do it. In the early days of
+even though no flowers were visible, they may still have        greenhouse growing, there were a variety of handheld
+been present in the growing point in an undeveloped             vibrating pollinators being sold to get the job done.
+state when plants were transplanted out early or other-         An electric toothbrush can even be used to pollinate.
+wise exposed to cold temperatures.                              But experience has proven that it is more thorough and
+                                                                cost-effective to use bees, rather than to pay someone to
+                                                                go through the crop and vibrate the flowers.
+                     Pollination                                   A number of companies sell bumblebee hives specif-
+Tomato flowers require pollination in order to set fruit.       ically for the purpose of pollinating greenhouses. The
+In the field, pollination occurs through the action of the      vendor can advise you on how many hives you need to
+weather and insect pollinators on the flowers. In small,        completely pollinate a house of your size. It is important
+open-sided hoophouses and greenhouses, wind and                 to get the number of hives right: Not having enough
+insects usually penetrate far enough into the structure         may result in incomplete pollination and poor fruit set,
+for pollination to occur. Larger, multibay structures           while too many bees may actually “overwork” the flow-
+without rollup sides and those that have insect screening,      ers, which can damage them.
+however, may not have enough natural pollinators to set            Bumblebees require a minimal amount of manage-
+fruit, especially in the center of the house. In these cases    ment and are not usually aggressive to people. Greenhouse
+pollination will have to be facilitated by the grower.          hives also have some nice features—for instance, you can
+   The most efficient and cost-effective option for pol-        change the entrance so bees can enter but not exit. That
+lination in greenhouses is to place hives of bumblebees         way, if you need to spray or do some other activity that is
+150                     The Greenhouse and Hoophouse Grower’s Handbook
+
+
+not compatible with the bees, you can shut the exit before     growers may plant a crop of determinate tomatoes in
+they come home for the night, and you know they will all       the late winter or early spring and grow them as an
+be in the hive the next morning.                               early crop until field tomatoes are available. This is
+                                                               especially true where it gets too hot to grow tomatoes
+                                                               indoors through the summer. Depending on the cli-
+                     Trellising                                mate and market, it could also be worthwhile to grow a
+The overwhelming majority of tomato varieties devel-           quick crop of determinates late in the season to follow
+oped for protected culture are indeterminate. This is          field tomatoes.
+because greenhouses that want a tall, vining variety to            The advantage of determinates is that they can be
+take advantage of all the vertical space in a greenhouse       basket-­weaved to save time on trellising, and require
+and bear over a long season represent the largest mar-         little or no pruning. Some growers don’t prune determi-
+ket for greenhouse seeds. Those who want to grow               nates at all, while others will remove a few suckers at the
+determinates usually use a field variety with appropriate      base. This can help increase airflow around the bottom
+resistances for their area, grown in a basket weave or         of the plant and allow the plant to get bigger before it
+other field-style trellis system.                              starts putting energy into fruit production.
+                                                                   The highest you normally want to prune a determi-
+                                                               nate is up to the sucker below the first flower cluster.
+Determinate Tomatoes
+                                                               Since determinates have a certain predetermined size,
+Though a minority, there are plenty of determinate             more pruning will begin to reduce the plant’s limited
+tomatoes grown in protected culture. In hot areas,             opportunities for fruit setting.
+
+
+
+
+Figure 9.8. The view along the pathway of a modern hydroponic tomato greenhouse. The blue string on the left was used to
+denote a sucker that was developed into a new head to increase planting density as light increased in the spring.
+                                                       Tomatoes                                                       151
+
+
+                                                               the energy of an overly vigorous plant. On the other
+Indeterminate Tomatoes
+                                                               hand, using only one stem is a way to consolidate and
+The most common way of growing indeterminate toma-             maintain the vigor of a weak variety.
+toes in protected culture is to grow each vine up its own          For example, most ungrafted plants are grown as a
+individual support. Twine is installed above each vine         single leader, because this drives all the plant’s energy up
+before it begins to flop to give the plant support as it       through one stem, making the plant as strong as possible.
+grows. Twine may be tied to overhead pipes or wires, or        Most grafted plants are grown with two leaders, because
+attached using movable spools that permit lowering and         most vigorous rootstocks would be too vigorous if grown
+leaning as the plant reaches the height of the wire (see       with a single vine.
+“Lowering and Leaning” in chapter 6).                              Pruning a tomato plant is a matter of removing the
+   I’ve occasionally seen indeterminate tomatoes grown         shoots, or suckers, that develop at every node of the plant
+in a tall basket weave in simple hoophouses. The reason        where a leaf is attached, leaving the desired number of
+you’d do this would be the same reason you’d grow deter-       stems. If suckers are left unpruned, each one will form
+minate tomatoes: to save labor. Training tomato plants         its own vine. Each additional vine will compete with the
+up a string, as is done in most greenhouse growing, is         main stem. To develop a plant with only one main stem is
+labor-intensive, but it is also facilitates a very high and    simple: You remove all the suckers that develop over the
+regular yield of top-quality tomatoes.                         course of plant growth.
+   Treating indeterminate tomatoes like determinates               With a pinched-top plant, the process is the same but
+and growing in a basket weave, especially without prun-        repeated twice for each of the stems that emerge out of
+ing, will sacrifice some fruit size. The plant will have so    the dormant buds below the cotyledons. Prevent any
+much fruit set that no one fruit will receive nearly as        suckers from developing on either of the stems and you
+many resources from the plant as on a pruned indeter-          should get an evenly matched two-stemmed plant. This
+minate. There will also be more second-quality fruit that      method is common in the industry but not often used on
+develops. But if labor is short, it’s an option.               smaller farms.
+   The vast majority of tomatoes grown in protected                The other way to make a two-stemmed plant, which
+culture are limited to a set number of stems, also called      I have always used, is to allow the sucker below the first
+vines or leaders. The number of leaders is usually one         flower cluster to develop into the second leader. This
+or two per plant, but depending on variety and growing         sucker is typically the strongest one on the plant, and
+conditions sometimes more are used. The number of              has the best chance to make a second stem that is a good
+stems may even change throughout the year depending            match for the primary leader. If this sucker is damaged
+on light levels and growing conditions (see “Spacing” on       or accidentally removed, any other stem on the plant can
+page 147).                                                     be developed into an additional leader, though it may lag
+                                                               behind the primary stem or take a while to catch up to it.
+             Pruning: How Many                                     Under some circumstances, you may want to develop
+                                                               a plant with more than two heads. This is sometimes
+              Stems per Plant?                                 done when heading into the summer with high light
+Most greenhouse tomato production uses indeterminate           levels, which can support a higher plant density than the
+plants pruned to one or two vines. The choice of how           low light of winter. Depending on variety and target den-
+many leaders to use is made by taking into account the         sity, every plant may not get a third head. Instead every
+vigor of the plant and the duration of cultivation. The goal   third or fourth plant will get a third head, just enough
+is to create a balanced plant that will have enough vigor to   to get the plant population up to the target density (see
+last the length of the season without being too vigorous.      “Spacing” on page 147).
+    Every leader on a plant takes a share of the plant’s           Some growers of grape and other very small-fruited
+energy. Developing more leaders can be a way to balance        tomatoes will grow plants with three or more heads. In
+152                     The Greenhouse and Hoophouse Grower’s Handbook
+
+
+this case, any sucker can be developed into an additional
+head. Just make sure to choose a sucker that is close to
+the top of the plant, because suckers that are down low in
+the shade won’t grow very fast. This may be a strategy to
+reduce seed costs in varieties that require a high planting
+density by developing more heads instead of planting
+more plants. Results can be mixed using plants with four
+or more heads; it’s worth experimenting with this before
+doing a lot of it.
+   Even though small-fruited tomatoes have a lower
+fruit load, if you put enough stems on a plant it will
+start to slow the plant down. It would be worth growing
+a row of plants with two or three heads, and a row with
+four or more heads, and comparing the yield. If the
+multiheaded plants result in more loss of yield per area
+than money saved in seed cost, then it is not a money-
+making strategy.
+
+
+How to Prune
+Pruning is usually a weekly job with tomatoes. Once you
+have figured out how many leaders you want the plant
+to have, pruning is a simple process of identifying any
+suckers that you don’t want to develop into additional        Figure 9.9. This is the kind of growth abnormality that heir-
+leaders and snapping them off by hand. Using your             looms are prone to, but has been mostly bred out of hybrids.
+fingers is preferred because it is faster and may actually    Note how the main stem ends in a flower cluster instead of
+transmit less disease than cutting. Since the blade comes     continuing on with the vine. This plant can be kept going by
+into contact with the interior of each plant, a disease in    developing the sucker below the dead end into a new head.
+one plant could be transmitted to all the others.
+    It’s ideal to remove suckers when they are about 1        up close to the head in case something happens to the
+inch (2.5 cm) long. They snap off cleanly from the plant,     head, so you always have a sucker that can be developed
+leaving a small wound that heals quickly. Suckers much        into a new head. This is another good reason not to try
+smaller than an inch can be hard to grab. When suckers        to remove suckers much smaller than an inch (2.5 cm),
+cannot be grasped properly, they sometimes get mashed         because suckers that small will be up very close to the
+instead of snapping off. When suckers are mashed on a         head of the plant, and should be left as potential head
+first failed attempt at removal, they may need to be cut      replacements anyway.
+off later, which will take more labor and may create a           Things that could cause you to lose the head of the
+larger wound. If suckers are missed and get really large,     plant include a worker accidentally snapping it, or dam-
+though, it’s often better to cut them off with a blade or     age from pests or disease. Occasionally a plant will grow
+clippers; they become too hard to snap off cleanly when       a “blind” head that terminates without a growing point.
+they get big.                                                 Greenhouse varieties have been bred not to do this; you
+    You never want to remove all the suckers from the top     will notice more blind heads and other irregular growth
+of an indeterminate tomato plant until it’s time to top       habits in heirlooms and other varieties that have had less
+the plant. You always want to have a few small suckers        breeding work.
+                                                          Tomatoes                                                             153
+
+
+
+
+Figure 9.10. The sucker below the flower cluster in this picture is starting to get big, but it’s still manageable for easy removal
+by hand.
+
+
+
+      Pests, Diseases and Disorders                                 prone to occur in excessively vegetative plants. When
+                                                                    the leaves are growing very strongly, they can have a
+See thrips, whiteflies, tomato hornworm, and TMV in                 much greater pull on the nutrients in the plant than the
+appendix B.                                                         fruit, and the fruit may simply not receive enough of
+                                                                    the available calcium. Because of this, BER is common
+                                                                    at the beginning of the season when plants are very
+Blossom End Rot
+                                                                    vegetative. Under these conditions, blossom end rot
+Blossom end rot (BER) is a common disorder in tomato                can occur even though there may be plenty of calcium
+fruit when not enough calcium is reaching the end of                in the soil. Using generative steering to make the plant
+developing fruit. It can produce a range of symptoms from           less vegetative may help.
+dark markings under the skin on the side or end of fruit,              Some varieties are more susceptible to BER than others.
+to open, leathery spots at the blossom end. These leathery          Elongated-shaped fruits, like Romas and San Marzanos,
+spots are susceptible to secondary infection by botrytis.           are more susceptible than round fruits. Fruits affected by
+   BER may be caused by inadequate calcium in the                   BER should be removed as soon as you notice them. They
+soil, uneven watering, or root damage. It is more                   cannot recover once they start showing symptoms.
+154                     The Greenhouse and Hoophouse Grower’s Handbook
+
+
+Gray Wall, Blotchy Ripening,                                  Botrytis
+Yellow Shoulder, Internal Whitening
+                                                              See more on botrytis in appendix B. Overfertilized
+These are different names for a related group of physi-       plants with lush, soft growth are more susceptible to
+ological disorders in which portions of the fruit walls or    botrytis than balanced plants are. Temperatures below
+core stay hard and flavorless and never ripen and color       65°F (18°C), poor airflow, and poor pruning techniques
+properly. The problem may be visible from the exterior,       that leave stubs are conducive to developing this disease.
+or it may only be apparent once the fruit is cut open.        Avoid all these conditions as much as possible.
+These disorders are similar to BER in that they can result
+from a nutrient deficiency in the root zone, and/or from
+environmental conditions. Though this does occur in
+                                                                                       Yield
+field tomatoes, it’s more common in protected culture.        The questions surrounding yield—what it should be,
+    This group of disorders is caused by a lack of potas-     what it could be, how to maximize it, whether it comes
+sium reaching the fruit. Adequate potassium is very           at a loss of flavor—are tricky because they are subjec-
+important for proper ripening and flavor in tomatoes.         tive. One grower may have wildly different results than
+So if the soil is deficient and the plant isn’t receiving     another with the same variety, because everything about
+enough potassium in the first place, that can be the cause.   how a crop is grown has an effect on the yield.
+Growers should consider applying additional potassium             Yields of over 100 kg/m2 of tomatoes per year have
+through fertigation or side dressing. Tomato plants that      been recorded, but I don’t think such yields are possible
+are ripening fruit need a lot of potassium, more than can     without a loss of flavor. They’re only achievable when a
+be provided with a single up-front application.               maximum amount of water is pumped into the fruit, which
+    Even if the plant is receiving enough potassium, there    of course dilutes whatever sugars and flavor compounds
+are several environmental reasons why adequate amounts        are in it. Once again we see how the interests of production
+may not be making it to the fruit. And just to confuse        sometimes conflict with the best interests of flavor. A more
+things, they can result from widely diverse conditions.       reasonable upper yield figure is probably in the 60 kg/m2/
+Prolonged periods of cool, overcast weather can be the        yr (14.6 pound/ft2/yr) for heated year-round production.
+culprit, because the plant transpires slowly and may not          The best way to maximize yield and flavor is to opti-
+be able to bring in enough potassium to meet the needs        mize all the plant growing conditions, so that there are as
+of a high fruit load. It can also be caused by hot weather,   few limitations to plant health as possible, without using
+especially following periods of cool weather. This kind of    techniques like overwatering to pump up the harvest. A
+weather pattern may occur in the summer when several          plant that is healthy and growing well will be producing
+overcast days give way to a stretch of sunny weather.         as much as possible and be able to devote a maximum
+    The hot-weather manifestation may be related to           amount of resources to production of fruit and flavor
+a decrease in root production during cloudy weather;          compounds. This is in contrast with a sick plant that has
+roots are then unable to meet the plant’s needs when this     limited resources to devote to either end.
+is followed by hot, sunny weather. One of the reasons             Genetics also play a role in determining yield, with
+this may be more common in protected culture is that          some varieties being inherently higher yielding. This is
+temperature fluctuations are often more extreme. When         why it’s important to trial different varieties and take
+the summer sun comes out after a few cloudy days, it gets     yield data. One variety might be a Dutch greenhouse
+hotter under cover than it does in the field. As with BER,    diva, cranking tomatoes out when all its demands are
+excessively vegetative plants without much fruit load         met, but it might not be a good yielder in your rough-
+may be prone to this as well, as the rampant leaf growth      and-tumble hoophouse. Alternatively, there might be
+pulls more strongly on the nutrients in the plant and         some scrappy varieties that will do well under some stress
+hogs the potassium.                                           in a less-than-optimized greenhouse environment but
+                                                         Tomatoes                                                         155
+
+
+go vegetative under optimal conditions. It is important          tomatoes completely ripe. I believe that the best stage of
+to make sure that a variety is a good yielder under your         ripeness for harvest lies somewhere in between the two
+particular conditions.                                           extremes.
+   As is typical with most fruiting crops, the largest              If you are going to pick a tomato and eat it right away,
+potential yields are with the largest-fruited beefsteak          there is nothing wrong with picking it completely ripe.
+varieties. You can expect to get 80 to 90 percent of beef-       But there is a point after the ripening process has started,
+steak yield from a cluster tomato, 40 to 60 percent from         before it has achieved full color, when a tomato will
+a cherry or cocktail tomato, and 25 to 50 percent from a         achieve full flavor even off the plant. During the growth
+grape tomato.                                                    process and the beginning of the ripening process, a
+                                                                 tomato receives a lot from the plant. But during the last
+                                                                 days of ripening, it doesn’t receive as much from the
+                        Harvest                                  plant anymore and can finish ripening on its own.
+Protected growers have a few harvest strategies that                It is usually in the interest of commercial growers to
+differ from those of field growing. One advantage of har-        pick their tomatoes before they have reached full ripe-
+vesting protected culture tomatoes is that they should be        ness. Growers who need to ship their tomatoes often pick
+very clean, so they don’t have to be washed. This enables        them less ripe depending on how far their tomatoes have
+harvesting with some of the green plant parts intact.            to travel until they reach the end user. Some wholesalers
+Leaving calyxes or trusses attached to the fruit makes for       specify slightly underripe tomatoes so they have some
+nice presentation, and helps differentiate your produce          shelf life. Other reasons to pick tomatoes less than fully
+from field tomatoes.                                             ripe include the fact that as they ripen, their skin loses its
+    The most famous example of this is the TOV, aka              elasticity. When tomatoes are unripe, the skins are fairly
+cluster tomato. The idea behind growing TOVs was                 elastic, which is what allows them to swell to their final
+that the appealing-looking green stem would symbolize            size without cracking. But as the tomato begins to ripen
+freshness to consumers. Indeed the TOV has gone from             and change color, the skin loses its ability to expand.
+a nonexistent category of tomato a couple of decades ago         Picking before full ripeness reduces last-minute crack-
+to one of the largest categories of greenhouse tomato            ing. Another reason to pick tomatoes before they are
+production today.                                                completely ripe is because adverse weather can actually
+    For tomatoes that are harvested loose, the calyx (the        hurt tomato flavor. You wouldn’t want your tomatoes to
+little green hat at the stem end of the fruit) can be left on.   be stored at very cold or hot temperatures off the vine.
+This is usually removed from field tomatoes so the stems         As long as fruit is in the greenhouse, it is vulnerable
+won’t puncture other tomatoes that are stacked around            to damage from bad weather, splitting, and pests and
+them. Protected culture tomatoes are usually picked into         diseases. So if you can anticipate excessively hot or cold
+the same containers they will be sold in, to eliminate the       temperatures, be proactive and get all the fruit that is
+extra labor of sorting them from bulk into sale packag-          close to being ready off the vines.
+ing. Since loose tomatoes are often packed into single
+layer flats, the calyxes can be left on without danger of
+                                                                 Determine Your Own Ripeness Preference
+puncturing other tomatoes.
+    There has been a great deal of debate over what the          So what’s a grower to do? Prioritize flavor or shelf life?
+“right” stage of ripeness is to pick tomatoes. When to           Unfortunately, most of the things that improve handling
+harvest depends on what your goals are and what you              reduce flavor, and vice versa. Fortunately, unless your
+want to do with the tomatoes.                                    supply chain is really long, you can have both flavor and
+    The bad reputation that tomatoes picked green and            shelf life. Part of the equation includes having a nice
+ripened off the vine have acquired is deserved, and this         tomato storage area, a ripening room with good tomato
+has inspired a countertrend to do the opposite and pick          storage and ripening conditions (see “Post-Harvest/
+156                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+
+
+                                        Flavor: An Opportunity
+      Sugars take extra energy to produce, so flavor tends      have any resistance to the diseases you have, it may
+      to correlate inversely with yield. Because the larg-      end up being unhealthy. And if it’s unhealthy plant,
+      est producers tend to focus their efforts on yield        it won’t taste its best. Healthy leaves and a healthy
+      and appearance, growing for flavor presents an            root system are essential for production of both
+      opportunity not just for local growers, but for any-      yield and flavor. One way to look at it is that the
+      one who wants to carve out a niche for themselves         roots are the pipelines and the leaves are the solar
+      as tasting better than the competition. Besides           panels powering the sugar factory. If either one isn’t
+      generating repeat customers, better flavor should         healthy, tomatoes are not going to produce up to
+      command a higher price—because better-tasting             their potential yield or flavor.
+      produce is a higher-quality product, and because              I always think of this when people discuss which
+      most of the strategies to improve flavor in toma-         variety is the best tasting. There are big differences
+      toes decrease yield.                                      and it’s fun to talk about our favorites. But the flavor
+          Flavor is an especially contentious issue when        is really the product of the variety and its interaction
+      it comes to tomatoes, because it’s subjective. With       with the environment. This is the French concept of
+      other features of the plant, like yield, we have a hard   terroir, or all the environmental factors that go into
+      number to point at. With flavor, not everyone can         the character of food.
+      even agree on what tastes good. Flavor is a func-             If your favorite variety is an heirloom with no dis-
+      tion of variety, moderated by the environment the         ease resistances, which you plant in an environment
+      tomato was grown in, as experienced by the person         with high disease pressure, you may not get a single
+      eating it. This means it’s up to you to pick a variety    tomato off the plant, let alone a good-tasting one.
+      that you think tastes good, or that you think your        This is an extreme example but one that is relevant in
+      market will enjoy. Keep in mind that some of what         less dramatic fashion to protected tomato growing.
+      eaters typically include in the realm of flavor are           I’ve seen some growers kill the flavor of
+      things like texture or mouthfeel. Some people don’t       good-tasting varieties. And I’ve seen others get
+      like soft tomatoes; others don’t like firm ones. Once     varieties with only average potential to taste good.
+      you’ve picked a variety, there are a few things that      The simplest example I can think of is this: If you
+      you can do to maximize how good it will taste.            are growing a Brandywine (or whatever tomato
+          This is where disease resistance plays into           you prefer) and it’s covered with leaf mold, its
+      the flavor discussion. You could be growing the           diseased leaves aren’t going to have much photo-
+      best-tasting variety in the world, but if it doesn’t      synthesis going on. A leaf-mold-resistant variety
+
+
+
+
+Storage” on page 158). So regardless of the conditions in       have to go a couple of miles down the road to the local
+your greenhouse, the tomatoes have the benefit of ideal         farmers market? Having a short supply chain is one factor
+storage conditions to help them reach their peak of flavor.     that local growers should take advantage of for flavor that
+   Here’s a way you can come up with your harvest               stands out from tomatoes that come from far away. One
+standards: First of all, think of your supply chain. Do         good way to determine the stage at which you should
+your tomatoes have to travel a long way and then sit on         harvest your tomatoes is to harvest one that is just barely
+a store shelf before someone eats them? Or do they just         starting to get some ripe color on the blossom end, take a
+                                                      Tomatoes                                                        157
+
+
+
+
+    with a more modest flavor pedigree growing right          almost like each fruit has a certain potential for
+    next to it might well have better flavor, under those     sugar, and it can either stay small and concentrated
+    conditions, than a Brandywine. Since leaves are the       or get large and diluted.
+    photosynthetic factories for sugars and everything
+    else in the plant, if they are diseased the fruit isn’t
+    going to taste like much.
+                                                                                      Brix
+       This doesn’t mean that we should pick variet-          Tomato varieties are sometimes marketed as having
+    ies based solely on disease resistance. I still grow      a certain amount of brix. Brix is a way to measure
+    some heirlooms because I like them and I have a           how much sugar is in a solution, so when someone
+    market for them. But it’s worth keeping in mind           says their tomato has a high brix they are saying
+    that varieties will also taste better if we can keep      it is sweet. However, a stated level of brix is not a
+    them healthy, and that is as important a part of the      completely reliable indicator of how sweet a variety
+    equation as pedigree.                                     will be, because the level even in tomatoes of the
+                                                              same plant will vary over the course of the season
+                                                              depending on how healthy the plant is, light levels,
+         Influence of Type on Flavor                          growing conditions, and more. Brix should also not
+    There are a few generalizations that can be made          be confused with good flavor. A tomato could be
+    about the flavor tendencies of certain categories of      very sweet and still have poor flavor.
+    tomatoes. Generally speaking, yellow, orange, and             Brix can be a good way to monitor the quality of
+    pink tomatoes tend to be lower in acid than many of       your own produce throughout the season. Brix is
+    the red ones. Because I like tomatoes that are high in    measured by an instrument called a refractometer;
+    acid and sweetness, I tend to find a lot of the yellow    they are cheap and easy to use. All you have to do
+    ones bland. However, if we don’t have any yellow          is put some plant sap on the refractometer and look
+    tomatoes on the stand, we always have market              through the instrument to see what the brix is. Just
+    customers who let us know they miss them. They            make sure you get one made for plants, as there
+    remind me it is a good principle not to rely solely       are refractometers made for measuring a variety of
+    on your own tastes if you want to stay in business        different fluids that have different calibrations. If
+    growing food for others.                                  you take readings on a regular basis and they start
+       Another generalization is that smaller tomatoes        dropping, something is likely going wrong with
+    tend to be sweeter than larger-fruited cultivars. It’s    your plants and sweetness is dropping.
+
+
+
+
+picture of it, and put it wherever you ripen your tomatoes.   both tomatoes are fully ripe (or however you like to eat
+A few days later, when the color has come halfway up the      your tomatoes), and pick one fresh from the vine that
+sides of your first tomato, pick another tomato fresh from    matches the two tomatoes you already have. Now do your
+the vine that matches the amount of color as the one you      own taste test. Try all three tomatoes. It would be even
+one you picked a few days ago. Label the tomatoes so you      more interesting to let other people taste-test them. Since
+know which is which, since now you have two tomatoes          they don’t know that the tomatoes were harvested at dif-
+at the same stage of ripeness. Wait a few more days until     ferent stages of ripeness, and they all look the same at this
+158                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+point, it would be a way to get a blind opinion of whether       prefer to pack them with the calyx down and blossom
+people can tell the difference between the tomatoes that         end up so they don’t bruise as much. The blossom end is
+were harvested at different stages.                              the softest part; since that is where ripening begins, it is a
+   My guess is that the tomato that was harvested with           few days ahead of the rest of the tomato.
+hardly any color is not going to taste as good as the                Exposure to temperatures below 59°F (15°C) will
+tomato harvested with half color. But I bet the tomato           give tomatoes a mushy, mealy texture and damage the
+harvested at half color tastes pretty similar to, if not the     flavor compounds, dulling the flavor. Tomatoes give off
+same as, the tomato that was harvested ripe from the vine.       ethylene, so don’t store them with sensitive crops like
+But maybe not; that’s the beauty of tasting for yourself         lettuce and cucumbers. Since tomatoes have a higher
+and developing your own flavor protocol. If you develop          storage temperature than most other crops, and don’t
+your own flavor standards, then you can communicate              store well with a lot of other crops, it’s a good idea to
+them to employees and help ensure that tomatoes will be          have a ripening room where freshly picked tomatoes can
+picked to your standard.                                         be held until they are sold. Some growers cool this room
+                                                                 for maximum shelf life, whereas others just try to keep
+                                                                 it from getting too hot. Anywhere that is out of direct
+            Post-Harvest/Storage                                 sunlight and not too hot will be better than nothing.
+Small-fruited tomatoes are usually picked loose into pint        Tomatoes will continue to ripen more quickly when kept
+containers. Large-fruited and tomatoes on-the-vine are           at warmer temperatures.
+also usually picked into the container they will be sold in.         On that note, remind your customers not to put their
+This is most commonly a flat that holds a single layer of        tomatoes in the refrigerator. It doesn’t matter how fan-
+tomatoes. For large, soft-fruited varieties like heirlooms, it   tastic a tomato you have grown if they start destroying
+may help to put a thin layer of foam wrap (like bubble wrap      the flavor as soon as they get it home. No wonder some
+with smaller bubbles) in the bottom of the flat to cushion       people don’t like tomatoes—their parents probably put
+the tomatoes from bruising under their own weight.               them in the fridge. Customers enjoy learning these kinds
+   Tomatoes are most frequently packed with their                of tips if they don’t already know them, and you may just
+blossom ends down, so the calyx is visible. Some growers         preserve your tomato reputation.

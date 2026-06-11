@@ -1,0 +1,841 @@
+                                              CHAPTER SIX
+
+
+                  Propagation, Pruning,
+                     and Trellising
+
+
+
+T       he techniques used for growing tomatoes,
+        cucumbers, peppers, and eggplant in protected
+culture are very similar. One of the nice things about
+                                                            treatment methods that can eliminate or reduce seed-
+                                                            borne pathogens.
+                                                                Good Seed and Plant Practices (GSPP) is an interna-
+these vining/fruiting crops is that once you learn how to   tional accreditation program designed to combat one of
+grow one, you can apply what you know—in modified           the most problematic seedborne diseases of tomatoes:
+form—to the others. Since all four crops can be grown       bacterial canker (Clavibacter michiganensis subsp. mich-
+with the same overhead trellis wire spacing (all can be     iganensis). The program was created in response to very
+grown in 2-foot/60-cm-wide double rows), it makes           serious losses suffered in commercial greenhouses due
+them suitable for mixing and matching different vining      to infected seeds. When seed is GSPP-certified, it means
+crops from year to year depending on demand or crop         it was grown under conditions designed to minimize
+rotation. The next three chapters are the basics you can    pathogens. Certified seed is produced in carefully con-
+apply to all of them; the specifics of each crop can be     trolled greenhouses to isolate the seed crop from any
+found after that, in their respective chapters.             risk factors that may exist in the environment. Then to
+                                                            make sure, seed from each lot is tested for the presence
+                                                            of bacterial canker.
+      Seeds                                                     Though this system was originally devised to protect
+                                                            tomato seed, other fruiting crops not susceptible to
+Since all the plants covered in this book are started       bacterial canker are being produced with GSPP certifica-
+from seed, it’s important to understand that good           tion, to give growers confidence that the seed is free from
+plants come from good seed; buy your seed from a            pathogens. To date, GSPP certification is usually only
+reputable source. There are a lot of diseases that can be   sought for seeds of varieties specifically for greenhouse
+transmitted by seed, and most of the companies selling      production.
+seeds specifically for greenhouse production do a good
+job of sourcing and testing seeds to make sure they’re                Why Greenhouse Seed
+free of pathogens.
+   If you save any of your own seed, or source from
+                                                                        Is So Expensive
+anywhere you don’t completely trust, find out what          I’m often asked why the seed of greenhouse vegetable
+diseases may be seedborne for the crop species you are      varieties is so expensive. The answer has several parts
+growing. There are a number of hot-water or chemical        but one of them is GSPP. It is more expensive to produce
+76                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+seeds in a tightly controlled greenhouse, and then have        greenhouse variety. But for most farms, seed cost is far
+them pathogen-tested, than to produce them in the              down on the list of expenses. If you find that there are
+open field.                                                    advantages to growing a greenhouse variety, it’s probably
+    But GSPP certification, and buying quality seed in         penny wise and pound foolish to try to save money by
+general, is cheap insurance compared with the expense          using field varieties. Whether they save labor, resist a
+of losses due to disease, especially when you consider that    disease, or simply provide a higher yield, using the best
+many diseases can spread quickly from plant to plant.          varieties for your growing environment will pay off in
+Even just a few sick plants grown from infected seeds can      the long run.
+be the start of a serious pathogen problem or even crop
+failure within a greenhouse.                                              Choosing Varieties:
+    Other parts of the greenhouse seed price equation
+include the fact that all the breeding, testing, and
+                                                                        Protected Culture Traits
+development of greenhouse varieties takes place in             There are a number of specialized adaptations that help
+greenhouses, which is more expensive than field space.         varieties thrive in protected culture. Plant breeders select
+Just as field varieties need to be developed in the field,     for traits that are advantageous for growing in a hoop-
+greenhouse varieties need to be tested where they’re           house or greenhouse. Keep these traits in mind when
+intended to grow if results are to be reliable. In addition,   choosing which varieties to grow.
+the greenhouse seed market is a smaller, much more spe-            So what do you get for all the fancy breeding and
+cialized market than that for field seed. The demand for       development work on protected culture varieties? As
+greenhouse seed worldwide is a fraction of the demand          mentioned above, greenhouse vegetable varieties come
+for field seed, so each greenhouse seed bears a higher         out of completely different breeding programs than
+percentage of the burden to pay the breeder back for           their field counterparts. Protected breeding programs
+development costs.                                             have been separate from field programs for decades,
+    The higher cost of greenhouse seed is balanced by the      dating back to the beginnings of commercial green-
+fact that you should be getting a higher return per seed       house production, as growers identified different needs
+from greenhouse seed. You can get a much higher yield          for plants in protected environments. One of the most
+over a longer season with a greenhouse variety than you        basic requirements for a variety is for it to thrive under
+can with a field variety. My hoophouse tomato plants are       protected conditions. There are a lot of differences
+a good illustration of this. By grafting, I use two seeds to   from field growing simply because you are under cover.
+make one plant: the rootstock and the top variety. From        Light levels are not quite as high, and are more diffused
+those two seeds, I will make a double-leader plant. In a       than in the field, since all coverings block some amount
+good year, even in an unheated hoophouse in Maine, I           of light.
+can get 30 pounds (14 kg) of fruit off each leader. At a           Another important aspect of breeding for greenhouse
+low average price of $2.50 per pound, that one tomato          varieties is plant habit, sometimes called plant archi-
+plant has the potential to gross at least $150 for me. If      tecture. This varies based on the crop being grown, but
+you get just one more piece of fruit off a greenhouse          greenhouse crops frequently have ideal plant types that
+variety than you would from a field variety, that should       differ from the field version of each crop. For example,
+cover the increased cost; anything beyond that is profit.      breeding may focus on making the plant more compact,
+    You can find out if paying the price for greenhouse        while keeping the plant habit open enough for good
+seed is worth it by growing a row of a greenhouse variety      airflow, so they can be planted densely.
+and a row of a field variety, keeping track of yield and           Resistance to common greenhouse pathogens is
+prices, and as a winter project compare the seed-price-to-     another basic breeding goal. There is some overlap, but
+revenue ratio of each. If the field variety comes out ahead,   many of the important disease resistances are different
+maybe it’s not worth it for you to pay the premium for a       between field and protected crops. There are a number
+                                      Propagation, Pruning, and Trellising                                                   77
+
+
+of diseases seldom seen in the field that are common in            don’t get off to a good start, problems that arise in the
+the greenhouse.                                                    beginning may persist through the entire life of the crop.
+    With all the other breeding goals, flavor sometimes
+takes a backseat. It’s always a good idea to try a new
+variety in a smaller quantity before going into full pro-
+                                                                    Propagation Mediums and Cell Size
+duction, just in case it’s not as good as you think it’s going     Before a single seed is planted, two big decisions need to
+to be. This includes all aspects of growing, but especially        be made: what size cell to use, and what medium to put
+flavor. Flavor is so subjective that it’s hard to take some-       the seed in.
+one else’s word for it. So whatever your flavor standards              As for mediums, biodegradability is a constraint for
+are, make sure a new variety meets them before growing             soil growers, who want something that will become
+a lot of it. It’s tempting to put a list of my favorite variet-    incorporated into the soil when it breaks down. Many
+ies here, but they change so quickly—and opinions are              soil growers use homemade soil mixes or commercially
+so subjective—that I’m going to resist the temptation.             available potting mixes. Soil growers can also use cocoa
+                                                                   coir, peat-based foam, or other biodegradable mediums
+                                                                   for starting plants to be transplanted into the soil.
+       Propagation                                                     Soil-based mediums may carry varying amounts of fer-
+                                                                   tility, pathogens, and weed seeds. I’ve noticed this problem
+Tomatoes, cucumbers, peppers, and eggplant are prop-               when my usual potting mix turned out to be stronger or
+agated in a similar manner. Propagation is an extremely            weaker than usual. For this reason, many soil growers have
+important part of raising crops, because if your plants            their propagation mixes tested before use, even if they come
+
+
+
+
+Figure 6.1. In this picture of our nursery, mesh is keeping most insects out of the structure, yellow sticky cards help us
+monitor what’s in the structure, and HAF fans maintain good airflow around tightly spaced seedlings.
+78                        The Greenhouse and Hoophouse Grower’s Handbook
+
+
+
+
+Figure 6.2. Fiber pots allow you to grow a larger plant than cell flats would permit. They also make it easy to transplant a
+larger plant, since you can plant them pot and all, without having to remove them before putting them in the ground.
+
+
+from a commercial supplier. Seedlings are more sensitive           you’re short on propagation space, you can use the small-
+to pathogens and fertility imbalances than larger plants,          est size possible to germinate seeds, and then transplant
+so it’s important to make sure they start off right. When          to a larger size as needed. If you have plenty of space and
+you think about the cost of the seed plus the delay caused         are short on labor, a more time-efficient solution is to
+by a failed planting, successful propagation becomes very          germinate seeds in a larger cell, to reduce or eliminate
+important. An alternative to testing batches of potting soil       the number of times you have to repot to a larger size.
+is to do a test-grow prior to starting the first round of seed-       But in general, seeds are usually germinated in cells
+lings, to make sure the potting soil performs as expected          or plugs much smaller than will be transplanted for
+and that the seedlings aren’t affected by pathogens.               production, because greenhouse growers tend to use a
+    Though soil growers have the flexibility to use any            much larger transplant size than field growers. If seeds
+cell size that they can find a tray to hold or a soil blocker      were started in the block they were to be transplanted
+to make, cell size is usually a function of whether space          in, it would waste space and cost more to heat during
+or labor is at more of a premium (I use the term cell size         propagation; in addition, seeds frequently germinate
+to refer to plants started in soil, since the empty cell           better in smaller cells. It’s harder to manage the watering
+determines the size of the root ball; the term block is used       needs of a very small plant in a large cell. The exception
+to refer to the larger containers or soil blocks a cell may        to this is the leafy crops, whose growers have the option
+be transplanted into for the seedling to grow larger). If          of seeding straight into the size used in production.
+                                   Propagation, Pruning, and Trellising                                                 79
+
+
+
+
+                                           Propagation Space
+    Greenhouse growers use large transplant sizes             good crops. This is especially true for long-season
+    because the longer seedlings stay in propagation          crops, like heated-greenhouse peppers, that need
+    at high density, the less time the entire greenhouse      to have seedlings growing before the end of the
+    has to be heated. For this reason, some growers           previous crop.
+    have separate propagation houses that are smaller             For growers not using heat, instead of trying to
+    than their production houses, just for producing          plant early into a hoophouse where temperatures
+    seedlings. Another option is to put up a plastic          may be too cold, let the transplant get big in a heated
+    curtain and divide off a section of the production        nursery. More mature transplants will begin to yield
+    house to use for propagation so you don’t have to         more quickly and reduce the amount of time that
+    heat the whole area. Many growers opt to pay a            the structure is not producing. Larger transplants
+    propagator to grow the seedlings for them, since          are possible for greenhouse growers because unlike
+    propagation is such a specialized process, and            field growers, they don’t have to contend with wind
+    quality transplants are so important to having            and rain beating up large transplants.
+
+
+
+
+    Fruiting-crop growers do not have this option. Seeds      proportional to the size transplant you want to grow. Big
+do not germinate and grow well in the large blocks that       transplants are great, but not if they’re root-bound.
+are used to produce fruiting-crop transplants, plus it
+would be wasteful of space to devote 16 in2 (100 cm2) or
+more to each germinating seed. The ultimate in compact
+                                                                                 Germination
+planting for solanaceous crops is a twenty-row flat, which    From troubleshooting customer problems at a seed com-
+has the same dimensions as a standard 10 × 20-plug flat       pany, I know that a lot of the problems encountered with
+but instead of cells there are twenty rows. Seeds can be      germination have to do with temperature. Pay attention
+planted densely (up to twenty per row or so) and plucked      to the ideal germination temperatures for each species
+out and transplanted into cells shortly after germination.    and maintain them as consistently as possible for good
+This is extremely conservative of space though it does        germination.
+result in more labor transplanting the seedlings into            One setup for poor germination I have seen many
+cells. This does not work as well for cucumbers as for        times: thinking that greenhouse temperatures are ade-
+the solanaceous crops, however, since cucurbits grow          quate for germination. Though daytime temperatures
+faster in the seedling stage and resent being uprooted. It    may be high enough, they have to stay constant for good
+is recommended to start cucumbers in cells rather than a      germination. The nighttime temperature dip in most
+twenty-row flat.                                              greenhouses is low enough to throw germination off.
+    To attain a large transplant size, soil growers may use   This is why building or purchasing a germinator is the
+fairly large pots with as much or more volume than a          ideal for germinating any crop. A germinator is basically
+4-inch (10 cm) cubic block, to transplant their seedlings     a temperature-controlled box with shelves for flats
+into. I have seen soil growers using pots up to 0.5-gallon    of germinating seeds. It can be set right at the desired
+(1.9 l) size to produce extra-large transplants. A pot        temperature for whatever you’re growing. You can make
+that holds 1 quart (1 l) of soil is a good size for grow-     one fairly cheaply by putting a heater in the bottom of a
+ing a big transplant. Just make sure the root volume is       box and regulating the temperature with a thermostat.
+80                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+There are also commercial models that have lights above              The highest, fastest, and most uniform germination
+each shelf, since the biggest pitfall of a germinator is          is produced by maintaining the right temperature
+that it’s easy to leave the plants inside for too long after      consistently from planting until emergence. Some
+germination. Seedlings become stretched very quickly in           varieties can be finicky germinators if they’re not given
+the dark at high temperatures.                                    this treatment.
+    The second best option after a germinator is to use              If you use a germination chamber without lights,
+bottom heat from heat mats or hot water to germinate              keep a close eye on germination, because sprouts will
+seeds. Bottom heat is more vulnerable to fluctuations in          stretch and start getting leggy immediately if they are
+the surrounding environment than a germinator, but it's           hot and don’t have any light. This can be a big problem,
+still a very good option.                                         because stems that stretch a lot in the beginning may lose
+    Regardless of medium, plant one seed per cell, and cover      the ability to expand to a normal size later on. As soon as
+with fine- or medium-grade vermiculite. Water the seeds in        you see the first sprouts emerge, move the flats to heat
+gently, taking care not to wash them out of their cells. After    mats with plenty of light. That way the first to sprout will
+watering, cover with a plastic sheet to keep the seeds from       not get leggy, and those not yet sprouted will continue
+drying out. If the flats will be going into a germination         the germination process.
+chamber, cover them with clear domes or plastic sheets.
+Covering with something clear will make it much quicker
+                                                                  Seedlings
+to check the germinator without having to take the covers
+off. If they’re going onto heat mats on bench tops, cover         As mentioned above, many fruiting-crop growers like
+with white domes or plastic sheets. Transparent domes in a        to produce a larger seedling than is typically used in the
+greenhouse will get too hot and cook the seeds.                   field. Growers who don’t have a separate nursery may
+
+
+
+
+Figure 6.3. These seedlings are ready to go into the hoophouse.
+                                       Propagation, Pruning, and Trellising                                                        81
+
+
+
+
+Figure 6.4. A freshly transplanted soil-grown grafted tomato plant. The rubber band was hooked onto the bamboo skewer,
+wrapped around the stem, and hooked on the other side to support the plant until it can be trellised. Note how the original plug
+was transplanted into the block, and the block transplanted into the soil a little higher than the original soil line to keep the graft
+union well above the soil line.
+82                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+                                                              of the band over the stake as well. Get rubber bands that
+                                                              are tight enough to hold the plant up but loose enough
+               Transplanting                                  not to cut into the stem. These do not usually need to be
+               Fruiting Crops                                 removed, as the high light and temperature in the green-
+                                                              house will quickly degrade the rubber until it falls apart.
+     Hardening off seedlings isn’t usually necessary
+     in protected culture production the way it is for
+     transplants going from nursery greenhouses to
+                                                                                Crop Spacing
+     the field. Since the transplants will be moving          One basic greenhouse spacing layout can accommodate
+     from a propagation greenhouse to production              all the popular vining/fruiting crops. (I’ll get into the
+     greenhouse (or from a sectioned-off part of the          spacing details for each individual crop in their respec-
+     greenhouse to the larger structure), the shock           tive chapters.) A big benefit of standardizing layout is
+     of going from a protected environment into the           that you can then grow any crop in any part of the green-
+     open field isn’t an issue.                               house without having to change the trellising hardware.
+         If soil growers are using blocks of cocoa coir       Installing trellising is time consuming and you don’t
+     or another solid medium that doesn’t disinte-            want to have to redo it every year. It’s ideal to pick one
+     grate over the course of the season, they can set        spacing that works for all your crops and stick with it.
+     the blocks on the soil surface and water them in             The system that I see most often, and that I have used
+     with dripper stakes without burying the blocks           myself, is double rows of plants 2 feet (60 cm) apart with
+     to save time. This is more like the procedure            a 3-foot (90 cm) walkway between them. The hardware
+     for transplanting into hydroponic systems (see           for this setup involves installing two wires 2 feet apart
+     appendix A). Otherwise, they have to dig a hole          above where you want your double rows to be, then leav-
+     large enough to accommodate the root ball.               ing 3 feet for a walkway until the next set of wires. This
+     It’s important to start irrigating fruiting crops        results in a very simple setup with two wires 2 feet apart,
+     shortly after transplanting to encourage rapid           3 feet for a walkway, and another two wires 2 feet apart,
+     root establishment.                                      repeated across the whole greenhouse.
+                                                                  Some people feel that this spacing is tighter than they
+                                                              would like, and that they can achieve the same plant den-
+                                                              sities by leaving 4 feet (1.2 m) for a path and crowding the
+heat a partial bay of a larger greenhouse and use it as a     plants more in the row. But my best advice is to space the
+nursery by putting a curtain up to separate it from the       wires as tightly as you would ever want them, since you can
+rest of the greenhouse. This minimizes the amount of          always decrease density later by increasing in-row spacing.
+time the entire greenhouse needs to be heated before              Yield will be higher when plants are spaced more
+crops become productive and start paying for themselves.      closely together simply from having more plants in
+    Often the longer nursery periods for vining crops         the structure, which is why you want to space plants as
+mean they reach the stage where they flop over before         tightly as possible while still keeping them healthy. The
+being transplanted into the production area. Deal with        spacings recommended in this book are fairly standard,
+this by sticking a bamboo or wooden stake into the soil       and are how Dutch growers get their plants as dense as
+next to the plant (bamboo shish kebab skewers work well       possible without compromising plant health.
+for this), and loosely rubber-band the plant to the stake.
+If the leaves are too big for you to put a rubber band over
+the top of the plant, you can hook the rubber band onto
+                                                                      Calculating Plant Density
+the tip of the stake, wrap it around the stem—being care-     Calculating crop spacing is an important way to figure
+ful not to encircle any leaves—and hook the other end         out the density of your greenhouse planting. Only
+                                    Propagation, Pruning, and Trellising                                                 83
+
+
+
+
+                                                 Intercropping
+    Intercropping is the practice of planting new seed-        limitations of weather, there are serious disadvan-
+    lings in with older plants in the greenhouse. It’s a       tages. Pest and disease problems from the old crop
+    strategy to eliminate the break in production caused       will carry over into the new crop. Also, the farther
+    at the end of the season between when the old crop         away you are from the equator, the more likely it
+    is cleaned out and the new crop is put in. By the time     is that you’ll need supplemental lighting to inter-
+    the older plants are removed, the younger plants are       plant, which adds to the expense and complication
+    in production, creating a constant year-round pro-         of this technique. And it makes cleaning out the
+    duction cycle. This may be an advantage for keeping        old plants more difficult, since the new plants are
+    certain markets and providing year-round income.           in the way.
+        While intercropping represents the ultimate                This advanced technique has been problematic
+    expression of liberating growing space from the            even for experienced growers.
+
+
+
+
+looking at in-row spacing can be misleading, because
+even a tight in-row spacing can lead to a low planting
+density if the rows are far apart.                                         Heads and Leaders
+    The easiest way to calculate planting density is to draw
+a map of your greenhouse or hoophouse, and figure out              It’s common for growers to refer to the top part
+how many vines are in the growing area. A vine could be            of a vining/fruiting-crop plant as the head. This
+an individual plant in the case of single-stemmed plants,          takes into account all the leaves, flower clusters,
+or each individual leader in the case of multistemmed              and shoots in the top 4 to 8 inches (10–20 cm)
+plants. Don’t include walkways larger than regular path-           of the plant. You can tell a lot about the state
+ways between rows, utility areas, or any other space that          of the plant by looking at the head, where the
+has a lower-than-normal planting density. Though that              new growth is found. For example, a thin stem
+does reduce the overall planting density of your struc-            with a flower cluster close to the head indicates
+ture, including these types of areas will throw off your           a plant in a generative state, whereas a thick
+calculations and make your planting seem less dense                stem with a lot of growth above the flower
+than it is. What you really want to know is how dense it           cluster indicates a more vegetative plant state
+is for a plant in the middle of a typical row.                     (for more, see chapter 7). It’s also common
+    For converting calculations in square feet to square           to refer to each vine as a leader, as in single- or
+meters, divide the number of square feet of growing                double-leader plant.
+area by 9. Then divide the total number of plants by the
+number of square meters to get the number of plants per
+square meter. It’s not important that the number you get
+be exactly the plants/square meter target you are aiming       See figure 6.5 for the most common spacings to achieve
+for as long as it’s pretty close. Differences in the way you   the most common densities.
+do your layout and account for space will result in slight        You may be able to change planting density over the
+differences in the outcome, so this is more important as a     course of the season, as the amount of light available in a
+ballpark figure to see roughly how dense your planting is.     greenhouse changes. This is especially true in long-season
+84                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+
+
+                     Recommended Spacings for Vining Crops
+     All the vining crops in this book can be grown using    Tomatoes. In this drawing, the plants are spaced a
+     a system of double rows trellised to overhead wires        foot apart, in the middle of the row, with two
+     spaced 2 feet (60 cm) apart, alternating with 3-foot-      leaders going from each plant up to the trellis
+     wide (90 cm) walkways. This standardization of             wire, and all the vines spaced evenly 1 foot (30
+     layouts is advantageous when you’re rotating crops         cm) apart along the wire. Plants can be lowered
+     through different places in the greenhouse over            and leaned as they outgrow the height of the
+     time without having to change trellising. Figure 6.5       wire. Variations: Single-leader plants could be
+     shows how to space plants for the recommended              planted in double rows a foot apart to achieve
+     planting densities. Adjust as needed. Due to their         the same spacing.
+     smaller leaves and more open plants, smaller-fruited    Cucumbers, umbrella-style. Plants are spaced
+     varieties can often be crowded even more densely to        18 inches (45 cm) apart in a single row, with
+     increase their typically low yields. If you need more      a single vine per plant going to alternate sides
+     airflow or wish to make up for low light levels, you       of the double row. When the vine reaches the
+     can space plants farther apart in the row. See each        top wire, it is topped so two shoots grow out
+     crop section for more detailed pruning and trellising      to either side of the wire. When they get long
+     information.                                               enough, the side shoots are guided over the
+
+                                                                                                        Spacing
+                      Tomato
+                                                                                                            6 in
+
+                                                                                                            2 ft
+
+                                                                                                            3 ft
+     Cucumber Umbrella-Style
+
+
+
+
+         Cucumber High-Wire
+
+
+
+
+                      Pepper
+
+
+
+
+                    Eggplant
+
+
+     Figure 6.5. Recommended Spacings for Vining Crops
+                                   Propagation, Pruning, and Trellising                                               85
+
+
+
+
+       trellis wire for support and allowed to grow out          inches (15 cm) apart along the wire. Variations:
+       roughly 18 inches to each side of the main stem,          If you’re using plants with four heads, you could
+       filling the space between vines.                          put plants in double rows 2 feet (60 cm) apart,
+    Cucumbers, high-wire. Single-leader plants can be            or single rows a foot apart, with heads spaced
+       spaced a foot apart in the center of the row, with        out evenly 6 inches apart along the wire.
+       vines going to alternating sides, so vines are         Eggplant. Plants are put a foot apart in the center
+       spaced out 2 feet (60 cm) apart along the wire.           of the row; two leaders are initially developed
+       Plants are lowered and leaned as they outgrow             and spaced out a foot apart along the wire.
+       the height of the wire. Variations: In summer-            When light levels are good, a third leader is
+       time/high-light growing conditions, plants                developed from each plant and spaced evenly
+       can be laid out as densely as double rows with            along the wire. Variations: Up to four leaders
+       a plant every foot (30 cm), with vines spaced a           can be developed at the same spacing to achieve
+       foot apart along the wire.                                a higher planting density. This may work well
+    Peppers. Plants are put in double rows a foot (30            for lower greenhouses, as four leaders will grow
+       cm) apart, with heads spaced out evenly 6                 up to the wire more slowly.
+
+
+
+
+greenhouse production where the season begins and ends           Lastly, it’s worth noting that 3 feet (90 cm) is only 90
+in dark times of the year with short days. Hoophouse          percent of a meter, so I should add the disclaimer that this
+growers who are limited to the warm, high-light parts of      method is really for figuring out the number of stems per
+the year may be able to start out and maintain their final    9 square feet. This has always been close enough for me,
+density for the duration of their season.                     and it will give you a good idea of how close your plants
+    An example of this in long-season eggplant growing        are. Of course, if you want to be metrically correct, you
+would be transplanting single-stemmed plants at a             can adjust to get the actual plants per square meter.
+density of 1.8/m2 in January or February when the light
+intensity is low. Almost immediately after transplanting,
+the sucker below the first flower cluster on each plant can          Vining/Fruiting-Crop
+be developed into a second vine to double the density to             Cycles
+3.6 stems/m2. Later, in good summer weather, a third
+leader can be developed on each plant for a density of        Most of the cropping cycles used for the vining/fruiting
+5.4 stems/m2.                                                 crops in protected culture are variations on a few differ-
+    For tomatoes, an example might be planting 1.8 two-       ent models.
+headed transplants/m2 for a beginning density of 3.6/m2.
+One of the reasons this works is that immature plants
+need less light than mature ones, so the plants mature
+                                                                             Long Crop Cycles
+as light levels increase. A month or two later, when light    Vining and fruiting crops take a long time to come
+levels are getting really good, a third shoot on every        into production; long crop cycles—which in heated
+other plant may be developed for a final planting density     production may be as much as a year long—therefore
+of 4.5 stems/m2.                                              include long harvest periods to compensate for this
+86                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+fact. In more northern climates, tomatoes, peppers, or       time is taken up with establishing young plants that are
+eggplant might be planted in January and grow until the      not yet bearing fruit. This is the main disadvantage of
+following December, meaning the greenhouse might             shorter crop cycles: More of the season is devoted to
+only be empty for a few weeks, just long enough to clean     growing new crops that aren’t yielding. The advantage
+out the old crop before a new one is introduced. The         of shorter crop cycles, however, is that they are easier to
+cleanout is timed to coincide with the coldest, lowest-­     manage than keeping a crop healthy and productive for
+light times of the year. In this manner, growers as far      nearly a whole year.
+north as southern Canada can keep plants growing for             Regardless of geography, in a two-crop-per-year sys-
+eleven-plus months without having to go to the expense       tem it’s most common to have a spring crop that yields
+of installing supplemental lighting. This is only possible   into the heat of the summer, with a fall crop planted after
+because while the plants are seedlings and after they        the hottest part of the summer. Alternatively, sometimes
+are topped (two months before they are removed from          growers will plan to remove an early-spring crop when
+the greenhouse), they require less light. The season is      their summer field tomatoes, peppers, or eggplant come
+timed so the plants’ lowest light needs coincide with the    in, and plan a fall crop to start maturing once field pro-
+darkest times of the year.                                   duction drops off.
+    Because they no longer have to sustain vegetative            The equivalent of a short crop for cucumbers is the
+growth, plants that are topped can ripen a fruit load        three- to four-month cycle preferred by most growers
+that they otherwise wouldn’t be able to support in the       who use umbrella-style trellising. The longest a cucum-
+dark part of the year. Topping is the practice of cutting    ber crop is normally grown is six months, using high-wire
+off the growing point (the head, or top) of the plant so     production (see chapter 10).
+that upward growth is stopped and all the energy goes
+to fruit production. Likewise, at the beginning of the
+next crop cycle, seedlings need less light to grow than do          Pruning
+mature plants. So the new plants can grow at lower light
+levels than would support older plants. Growers in the       Though commonly practiced on all the vining/fruiting
+north who want to grow a crop throughout the winter          crops in protected agriculture, the goals and strategies
+may have to install artificial lighting, depending on the    for pruning are often misunderstood. The best way to
+amount of light they receive (see chapter 5).                define pruning for protected agriculture is as a technique
+    Growers farther south may use crop cycles of the same    used to limit the amount and type of growth in order to
+length, but during opposite seasons. Instead of avoiding     keep plants balanced. Balanced plants will be more pro-
+the coldest months of the year, many growers in southern     ductive and healthier, with more predictable yields than
+areas find it difficult to keep greenhouses cool enough      those of unbalanced plants.
+during the hottest part of the year. So growers might            Plant balance is best understood by considering what
+have an eleven-month season, with cleanout during the        it means for a plant to be unbalanced. All of the vining
+hottest month. In this way northern and southern grow-       crops in this book form a sucker at each node. If left to its
+ers can enjoy counter-seasonal production.                   own devices, a plant would develop a new vine at every
+                                                             single leaf. Consider that every sucker would then begin
+                                                             producing a sucker itself at every node, and the number
+              Short Crop Cycles                              of heads would start to become problematic. If a plant
+Tomatoes (especially determinate tomatoes), peppers,         were allowed to develop an unlimited number of heads,
+and eggplant can also be grown in one or two shorter         its finite amount of energy would be divided among so
+crop cycles instead of one long one. Usually it’s not eco-   many heads and fruits that growth and ripening would
+nomical to do more than two crop cycles per year with        slow considerably. I have seen this happen in indetermi-
+fruiting crops in a single structure, because too much       nate basket-weave tomato production, where ripening
+                                    Propagation, Pruning, and Trellising                                                 87
+
+
+is noticeably slower and fruit size is smaller. With wide
+spacing this might not be as much of a problem, but
+when planted tightly in protected culture, unpruned
+indeterminate plants will branch out and compete with
+one another.
+    Pruning is one of the techniques that allows growers
+to crowd as many plants as possible into a finite area, by
+limiting each plant to the minimum amount of space it
+needs. Pruning not only conserves space by preventing
+vines from branching out, but it also makes a plant more
+open and permits light and air to flow through the can-
+opy. This results in a minimal amount of yield reduction
+due to shading and disease. Fruit on pruned plants sizes
+up and ripens more quickly than on unpruned plants.
+And all crops that are kept pruned are easier to harvest,
+because you don’t have to hunt through as much foliage
+to locate the fruit.
+    Pruning allows you to change the plant to balance
+                                                               Figure 6.6. This tomato leaf was improperly removed, leaving
+it to its ideal size. For example, to grow a weak tomato
+                                                               a stub, which may cause an infection in the stem.
+variety over a long season, you might want to limit plants
+of that variety to only one vine, to focus all their energy
+up through the one stem, and hopefully keep it vigorous
+over the whole season. If you grew the same weak variety
+grafted to a vigorous rootstock, you might be able to
+grow with two heads instead of one.
+    Growing indeterminate tomatoes unpruned in a
+basket weave is usually only possible in arid climates; in
+humid areas, the foliage is so dense that moisture builds
+up inside the plants’ canopy, which leaves them prone to
+foliar diseases.
+
+
+               Basics of Pruning
+For specifics on how to prune each species, see the individ-
+ual crop chapters. No matter what crop you are working
+on, though, it’s always best to cut whatever part of the
+plant you’re removing back to a living stem. Anytime you
+cut off a plant part and leave a stub, the stub may rot back
+into the stem and infect the rest of the plant.
+   Morning is a good time to prune, especially if you
+prune by snapping with your hands. Plants are more
+turgid in the morning and may snap more easily than            Figure 6.7. Botrytis moving into the plant through a pruning
+in the afternoon, when they become more flexible.              wound. Note the trellis clip that was correctly placed below
+When pruning is done in the morning, plants have the           the leaf before it was pruned off.
+88                        The Greenhouse and Hoophouse Grower’s Handbook
+
+
+rest of the day for wounds to dry out, which will help             yield consistent. This may not sound like a huge issue,
+them heal without infection. You can then spend the                until you have a ton of fruit to sell one week but only half
+afternoon trellising, because the plants are more flexi-           a ton the next. When you can’t get rid of all of it the first
+ble when they are transpiring more, and easier to work             week, and then don’t have enough the second, you will
+on without breaking.                                               find yourself wishing you had picked three-quarters of a
+                                                                   ton both weeks instead.
+Pruning Suckers
+                                                                   Pruning Leaves
+Pruning goes hand in hand with trellising (see page 89) as
+a technique to get plants to grow the way you want them            There are times when you will want to remove some
+to. In addition to opening up the plant to facilitate light        mature leaves from most of the fruiting crops. With
+transmission and airflow, it keeps the amount of foliage           tomatoes and eggplant, this is regularly done below the
+and fruit balanced, which will keep plant growth and               fruit to increase airflow. Increasing airflow will reduce the
+
+
+
+
+Figure 6.8. This tomato plant was not suckered on time, so the sucker is now as big as and competing with the main stem.
+You can tell the main stem is on the left because it has the flower cluster on it. The sucker to the right has grown out of the
+node of the leaf below the flower cluster.
+                                    Propagation, Pruning, and Trellising                                                89
+
+
+amount of disease and help fruits to ripen more quickly             I have occasionally seen growers plant a sprawling
+by keeping them warmer. Older leaves can be removed             crop of cucumbers in a hoophouse or screen house. But
+without detriment to the plant because they are in the          they could get a lot more out of the same size structure,
+shade and don’t contribute much to photosynthesis.              and get a lot more cucumber plants into it, if they put in
+                                                                a little more labor in the form of trellising. It is so much
+                                                                easier to harvest cucumbers that are held off the ground
+Pruning Flowering/Fruiting Clusters
+                                                                than to bend over and hunt through the leaves.
+All fruiting crops are prone to setting more fruit than             Trellising requires an up-front investment of time in
+they can mature. Pruning flowering or fruiting clusters         order to make jobs down the road, like harvesting and
+is done with all fruiting crops at some point to put the        pruning, go faster. It goes hand in hand with pruning
+amount of fruit set in balance with the amount of fruit         to get the plants to grow the way you want them to. It’s
+the plant can actually support. See individual crop sec-        also an investment in plant health and clean, market-
+tions for fruit and flower pruning recommendations.             able fruit.
+
+
+                                                                        Structural Considerations
+       Trellising                                                             for Trellising
+Most protected fruiting-crop growers use a trellis to           When you’re attaching trellising to your structure, first
+maximize the health and productivity of their vines. Ease       make sure the frame is in good shape and able to support
+of harvest and ergonomics are other important consider-         the load of the crop plus whatever exterior forces may
+ations. In the field, any of these crops are frequently grown   impact the structure, like snow and wind. Some green-
+without support, but they are almost always trellised in        house manufacturers offer reinforced end walls designed
+protected culture. Protected fruiting crops are the apart-      to take the extra force of trellising. They may also be
+ment dwellers of the vegetable world: By directing the          able to provide information on how much of a load their
+plants’ growth upward—taking advantage of the struc-            structure will support.
+ture’s height—instead of sideways, you can grow them at            All common greenhouse trellising methods use twine
+a higher density to make the most of precious real estate.      in some fashion to support the growing plants. The
+    Consider a typical greenhouse eggplant planting den-        high humidity and extended season of the greenhouse
+sity: A double row of eggplant is planted 2 feet (60 cm)        environment tend to break down natural fibers like
+apart, with plants in the row every foot (30 cm), separated     jute and sisal, reducing their reliable service life to less
+by 3-foot (90 cm) paths. With no support at this spacing,       than one greenhouse season. Even if natural fibers don’t
+the plants don’t have to grow for very long before they are     break, they have a tendency to mold in humid growing
+flopping all over one another and out into the pathways.        conditions. Since it’s impossible to predict what type of
+And if the plants are flopping on one another, they are shad-   mold will develop, and it could potentially be a plant
+ing and inhibiting one another’s growth. If light is blocked,   pathogen, many growers avoid using natural fibers for
+so is airflow, which will make the development of diseases      these reasons.
+more likely.                                                       In the past, plastic was the only choice for growers
+    Flopping also means the grower’s view is blocked, so        who wanted to avoid natural fibers. Now compostable
+he or she will have to move the plants around to find the       bioplastic options are available, which are not only
+fruit, which slows down harvest. Fruit on the ground            greener than plastic, but also save labor. Disentangling
+means more dirty and damaged fruit. Lastly, it is much          plants from noncompostable twine and trellis clips takes
+more difficult, if not impossible, to prune flopping            a lot of time. Now with compostable twine and clips,
+plants. Simply put, there’s no way to grow vining crops         being able to simply cut the plants down and compost
+at such high density without trellising.                        everything at the end of the season is a huge time-saver.
+90                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+                                                                stakes or T-posts are often used, sunk about 1 foot (30
+Gripple
+                                                                cm) into the ground. Longer stakes are more often used
+Originally designed to make installing fencing easier,          in protected culture, where the longer season and lower
+the gripple is useful for installing trellis wires. It can be   light levels contribute to taller plants than in the field,
+difficult to attach wires to solid objects (like greenhouse     even with relatively short varieties like determinate
+frames) while keeping them under tension, and then              tomatoes. Next, run a piece of twine down each side of
+undo them without cutting when they need to be moved.           the row of stakes to contain the plants, adding another
+The gripple solves both of these problems.                      level of twine every time the plants grow 8 to 12 inches
+    The gripple is a small piece of metal that you use in       (20–30 cm), before they flop over. In this manner the
+conjunction with a plier-like tool to join wires together       “weave” contains the plants and keeps them growing ver-
+and tension them at the same time. You put the gripple          tically, but you don’t have to spend time trellising each
+on loosely and then tighten it to your desired tension. It      individual plant as in the other trellis methods. When
+forms a very secure connection that you can also release        this method is used with peppers, string is usually only
+if you need to move wires. There are also gripples for          applied on one side at a time; otherwise a lot of peppers
+installing hanging wires, which could be used to install        get trapped between the strings. Fruits trapped between
+lights or anything else that might need to be hung from         strings will be deformed and scarred from the pressure
+the structure. This method does require buying the              of the twine.
+installation tool and some gripples, but it makes setting           Basket weaving has to be done before the plants flop
+up trellis wires much easier and faster than older meth-        out of the trellis. If the plants have started to flop, it
+ods like twisting wire or using ferrules.                       will take much longer to tuck them back into the trellis
+                                                                and apply string at the same time. A disadvantage of
+                                                                the basket weave is that the plants are difficult to prune
+                   Trellis Styles                               and work on since they’re trapped between the strings.
+A number of different styles of trellising are used in          This is why basket weaving is most commonly used with
+protected culture. The most common method involves              determinate tomato varieties that don’t need pruning.
+growing each vine along support twine to keep it off the
+ground. A basket-weave-type trellis is sometimes used
+                                                                String Trellis
+as well.
+                                                                The most common way of trellising vining crops in pro-
+                                                                tected culture is to attach a piece of twine to an overhead
+Basket Weave
+                                                                wire where each vine is to be trellised, and grow the vine
+The basket-weave style is borrowed from field growing           up the string. I can’t guarantee that this will hold under
+and can be used with tomatoes, peppers, and eggplant.           all circumstances, but 12-gauge high-tensile wire with
+This method is good for growers who have structures             a noncorrosive coating is used in many greenhouses to
+that can’t support the weight of trellised crops, or who        support the trellis twine. Some growers prefer aluminum
+are looking to save time spent trellising. Basket-weave         aircraft cable; since it’s made of multiple strands, it isn’t
+trellising is sometimes called Spanish style in protected       prone to single-point failure like monofilament wire.
+culture, since this is a common method for trellising           Others attach trellis strings to pipes they’ve laid on the
+in the tens of thousands of acres of low-tech tunnels in        trusses of the structure over where the rows will go.
+southern Spain.                                                     I would advise you to put a string over every plant, but
+    To basket-weave, you plant a row of plants, pounding        you might have plants with multiple heads, so the ideas is
+a stake between every few plants (a fairly common ratio         to put a string above every vine. For example, in a green-
+is two plants, then a stake, repeated all the way down the      house eggplant crop with a vine every foot (30 cm), you’d
+row). In field growing, 4- or 5-foot (1.2–1.5 m) wooden         tie a string every foot along the overhead support wire.
+                                    Propagation, Pruning, and Trellising                                                       91
+
+
+
+
+Figure 6.9. The view from the canopy of a tomato greenhouse. Note how the tomahooks wound with blue twine are hooked
+on aircraft cable to facilitate lowering and leaning.
+
+
+    To support each individual plant, loosely tie or clip
+twine to the base of the plant using trellis clips. It’s
+important that the knot be loose, because a knot snug to
+the plant’s stem will cut into it as it grows. Tying is more
+economical, whereas using clips may be quicker. Using
+clips is better for inexperienced workers, since there is
+no chance for them to tie the knot too tight and damage
+the plants.
+    When it comes to supporting the vine as it grows,
+you can use clips, or twist the string around the vine as
+it gets longer. Once again, twisting is cheaper but clips
+are probably easier for inexperienced workers, and both
+methods are pretty fast. Twisting has a slight generative
+effect (see chapter 7) on plants when compared with
+clipping, but I think growers mostly choose a method
+based on personal preference. Still, I know some growers
+who twist plants they want to be more generative and
+clip plants they want to be more vegetative.
+    To use the twisting method, simply twist the stem of
+the plant around the string as it grows to keep it from
+flopping over. Once you start twisting in one direction,       Figure 6.10. This trellis clip was installed properly under a
+you have to keep twisting in that direction; reversing it      leaf to help support the plant.
+92                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+
+
+Figure 6.11. These peppers are being trellised simply by twisting the string around them as they grow. The strings are tied to
+high-tensile wire overhead.
+
+
+will un-twine the plant and cause it to flop off the string.      sold in the “open” position so they come ready to use.
+It’s best to pick a direction and use that on all your plants,    Bring the open clip around the stem, placing the twine in
+so you don’t have to pause and assess each plant to see           the hinge—this will hold the clip securely in place—and
+which way it’s twisting.                                          close the clip so it clicks. Place clips beneath sturdy, fully
+    If you’ve never done this before, it may be hard to           expanded leaves to help support the plant. Do not place
+imagine. But all you have to do is try it and see how it          clips below flower clusters, as they may interfere with
+works. Make sure not to trap any flower clusters or other         fruit growth.
+plant parts between the stem and the string. Twist the               Don’t work so high up on plants that you’re clipping
+plants on a regular basis so they don’t flop off.                 or twisting growth that isn’t fully expanded. If you
+    To use clips for trellising, just add a clip as the plant     clip or twist the immature part of the plant that’s still
+grows, before it flops away from the string. Clips are            expanding, this will hinder the plant’s upward growth.
+available in plastic and bioplastic, which can be com-            If you have any doubt about what fully expanded
+posted along with the vines at the end of the season. The         growth is, look down the plant and see what size the
+technique is to steady the plant close to the string with         mature leaves are. Don’t do any trellising above the
+one hand, and get a clip with your other hand. Clips are          mature leaves.
+                                      Propagation, Pruning, and Trellising                                               93
+
+
+                                                                   trellising may need to be done on a weekly basis to
+                                                                   keep up with the rate of plant growth. Slower-growing
+                                                                   peppers may only need attention every other week.
+                                                                   Fast-growing cucumbers may need attention even
+                                                                   more than once a week.
+
+                                                                   Support Wire L ayout
+                                                                   A standard way to space rows and overhead support
+                                                                   wires is to form a double row by installing two wires 2
+                                                                   feet (60 cm) apart above the crop, separated by a 3-foot
+                                                                   (90 cm) walkway. The nice thing about standardizing
+                                                                   greenhouse/hoophouse layout with this trellising sys-
+                                                                   tem is that all the common spacings for vining crops
+                                                                   can be accommodated. This means you can grow any of
+                                                                   the vining crops anywhere in the house without having
+                                                                   to change trellis wires. Even if you decide a standard
+                                                                   spacing is too dense for you, you can reduce density by
+                                                                   increasing spacing between heads along the wire without
+                                                                   having to move the wires. The same double-row layout
+                                                                   can be used with basket-weaved crops.
+
+
+                                                                             Lowering and Leaning
+Figure 6.12. An example of an improperly installed trellis clip.   Lowering and leaning is a variation on the string trellis
+It was put on the plant too early, before the plant had finished   that is very common in hoophouses and greenhouses
+elongating. So as the plant extended upward, the flower            growing long-season vining crops. It’s an important pro-
+cluster pushed against the clip, creating the tension visible      tected culture technique because it allows you to grow
+between the two clips and deforming the plant’s growth.            a vining plant taller than your structure. You can grow
+                                                                   a plant of almost unlimited length in the finite space
+    If the leaves aren’t close to their mature size, that          of a greenhouse by lowering the head of the plant and
+part of the plant may still be elongating; this will cause         moving it down the row, trailing the vine along behind it
+it to grow into the clip, deforming the plant (see figure          as it outgrows the available vertical space.
+6.12). Be sure to clip plants before they flop away from               Lowering and leaning is the standard way of grow-
+the string, which may break or kink the plant. Even if             ing indeterminate greenhouse tomatoes. In the past, a
+it doesn’t hurt the plant, it will take extra labor to clip a      minority of cucumbers were grown this way, but lower-
+plant that has flopped over rather than clipping it once           ing and leaning cucumbers is becoming more popular.
+right by the string.                                               When cucumbers are lowered and leaned it’s called the
+    Whether you twist or use clips, it’s important to trel-        high-wire style of cucumber growing. Eggplant can
+lis on a regular basis. If plants grow so much between             be lowered and leaned, but it has to be done carefully
+being trellised that they flop, the vine may snap or the           because their stems are not as flexible as tomatoes’ and
+bend may cause damage to the stem. And it’s much                   cucumbers’. Peppers are not usually lowered because
+faster to trellis plants that are growing along the                their stems are too brittle. Plus, they are slower growers
+twine than it is to deal with plants that have flopped.            than the other crops, so they don’t use up their vertical
+For fast-growing crops like tomatoes and eggplant,                 space as quickly.
+94                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+    Several types of tools make lowering and leaning           start harvesting the fruit. This is bad both from a food
+possible. Instead of tying twine to the overhead wire,         safety standpoint (you don’t want the fruit touching the
+growers make use of a tool that holds a spool of twine         floor), and from a marketability standpoint (fruit that
+up by the wire. This spool clips to the wire and lets          makes contact with the floor will get scratched up and
+down enough string to reach the plant, holding the rest        dirty and become less marketable).
+in reserve until you need it. When the plant outgrows             In addition to attaching the plants to the overhead
+its space, some string is let out (about a foot at a time),    wire with something that can be easily removed, you
+lowering the plant, and the head is moved down the wire        need to arrange them in double rows. This is because the
+so the stem doesn’t bend sharply and snap.                     plants on the end of each row need to be looped around
+                                                               to the other side, to make space for the plants behind
+                                                               them to lean.
+How to Lower and Lean
+                                                                  To begin lowering and leaning on an end, take the
+Before you can lower and lean a crop, you need to do           last plant in a row and lower it. Once there is slack in
+some planning. First, it helps to have a tall greenhouse.      the stem of the end plant, loop it around to the end posi-
+If you try to lower and lean with a short wire height—6        tion of the opposite row. This plant will temporarily be
+feet (2 m), for example—there is a good chance the plant       overcrowded, until you finish lowering and leaning. To
+will grow to the top wire and need lowering before you         help the plants make a gradual turn around the end of
+
+
+
+
+Figure 6.13. You can see how these tomatoes are being lowered and leaned, with one side of the double row going in one
+direction and the other side in the opposite direction. The plants are growing in 5-gallon buckets.
+                                    Propagation, Pruning, and Trellising                                                 95
+
+
+the row, many soil growers drive a post to help the plant
+make a nice loop around the end.
+    In many greenhouses, lowering and leaning is a
+weekly task, so to stay ahead of the plants you will need
+to let out enough twine to equal a week’s growth. In most
+tomato crops, this equals two spools off a tomahook, or
+two turns of the spool of a roller-type hook. Cucumber
+plants that tend to grow faster than tomatoes will need
+more slack to be released, or they’ll have to be lowered
+more than once a week.
+    With some tools for lowering, like the tomahook, you
+have to take the spool and manually rotate it to let some
+twine off the hook. There are others, like the Rollerhook
+or RollerPlast, where you push a button or use another
+mechanism to release twine from the spool.
+    Once you’ve lowered the plant, the stem will be slack
+and may have a sharp curve at the bottom. This may
+not seem like a big problem, but if it happens week
+after week the stem will eventually kink and potentially
+snap. In order to keep enough tension on the vine that it
+doesn’t kink, you need to move the plant in the direction
+it will be leaned as you lower it. This is why you begin the
+                                                               Figure 6.14. This grower has installed a ridged pipe at the
+process of lowering and leaning by moving the end plant
+                                                               end of his rows to help the tomato vines make a gradual
+around to the other row. You move on to the second plant       turn without snapping when they are lowered and leaned.
+and, after lowering it, move it into the space created by
+moving the end plant over to the other row. Lowering
+                                                               Lifts and Other Ways to Work on Tall Plants
+and leaning is sometimes called racetracking the plants,
+because they end up circling around the ends in a long         Since lowering and leaning does not work well in low
+oval, the way cars drive around a racetrack.                   structures, lowering the plants cannot usually be done by
+    So every time you lower and lean a crop, the end plant     someone standing on the ground. You can use a variety
+on each row moves over to the adjacent row, and the            of methods to reach the tops of your plants. In smaller
+plant that was second from the end moves into the end          structures, you may be able to use ladders, kick stools,
+position. When you get to the end of the first row, there      or other stationary methods to reach the wire. These
+will be an empty space created by moving all the plants        stationary methods are time consuming, because you
+down the row in the opposite direction. This is where you      have to get off and move them every time you want to
+will put the end plant from the opposite row after it has      move down the row.
+been lowered and looped around the end. This creates an           There are also a variety of carts that can be purchased or
+opening on the end of the other row into which you can         made. Many of the commercial models are designed with
+move the next plant, and on down the row. When you             wheels that run on pipe rail, so they don’t need steering.
+get to the end of that row, you will come to the very first    This makes for a very efficient process in large green-
+plant you moved, the end plant from the first row, which       houses, as they are controlled by foot pedal so the person
+is overcrowded. As you move the next-to-last plant on          doing the lowering and leaning can keep the cart moving
+the second row, this will restore the proper spacing and       with both hands free. Many greenhouses have scissors lifts
+you can move on to the next row.                               that can be adjusted to work at any level. Cheaper versions
+96                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+work more like a scaffold wagon, with platforms for peo-       never in contact with the ground, they should never
+ple to stand on that have to be set manually.                  need washing. This creates efficiency during harvest
+   These lift carts are also useful for working on and         since you can pick fruits straight into the containers in
+maintaining the roof and trusses of a structure. I have        which you’ll sell them.
+also seen a variety of homemade and nonmotorized carts             Each crop has a different temperature and humidity
+that growers have made themselves. The challenge with          level that needs to be adhered to in order to maximize
+carts that don’t run on pipe rail is steering—you don’t        the shelf life, quality, and flavor of the produce. Another
+want the carts to run into the crop rows.                      important consideration is whether the produce is dam-
+                                                               aged by ethylene. Ethylene is a gas naturally given off by
+                                                               ripe produce, like tomatoes and apples. Some produce
+       Post-Harvest/Storage                                    is very sensitive even to small amounts of ethylene. If
+                                                               exposed, their ripening and rotting process will acceler-
+The way a crop is handled after it is harvested has a lot to   ate, which may render sensitive produce unsalable in a
+do with how long the produce will store. The individual        short period of time. Take the temperature, humidity,
+crop chapters describe the best post-harvest handling          and ethylene sensitivities of the crops you want to store
+practices to maximize shelf life and quality.                  into consideration when deciding how many separate
+   One of the nice things about growing fruiting crops         produce storage areas you might need, since not all crops
+in a greenhouse is how clean they are. Since they’re           are compatible if stored together.

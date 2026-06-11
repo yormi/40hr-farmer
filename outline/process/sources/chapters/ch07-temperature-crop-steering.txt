@@ -1,0 +1,650 @@
+                                           CHAPTER SEVEN
+
+
+                    Temperature Control
+                     and Crop Steering
+
+
+
+T       emperature is one of the biggest factors determin-
+        ing both how a plant grows and the conditions of
+the growing environment. There are several approaches to
+                                                             can control heating and venting systems, and instru-
+                                                             mentation that can measure environmental conditions,
+                                                             have allowed researchers to study and understand
+managing the temperature of your greenhouse or hoop-         how plants respond to a wide range of environmental
+house. On the simpler end, temperature can be set within a   stimuli. Whether you’re going to use more complicated
+range that plants like to keep them happy and active. This   climate control systems or keep it simple, it’s important
+is important since when plants go outside their comfort      to understand the ways you can use climate to manip-
+range, they aren’t growing. For many growers, it’s enough    ulate crops.
+to keep their plants within a certain range and know that
+they aren’t experiencing temperature stress.
+    However, environmental control can be used to do               Active Plants
+a lot more than just keep plants within a certain happy
+range. For example, temperature can be used to make the      The active plant is an important concept in greenhouse
+plant more or less vegetative, and to make the environ-      growing. An active plant is one that performs the basic
+ment wetter or drier if you know how to manipulate it.       functions of respiration, transpiration, and photosyn-
+    Our understanding of climate control has come a          thesis, in contrast with a plant that has shut down due
+long way over the last few decades. Computers that           to adverse environmental conditions. This is where
+
+
+
+                        Temperature and the Stage of the Crop
+    The fruiting crops have different ideal temperature      the crop cycle will encourage vegetative growth and
+    ranges depending on the species and stage. Unlike        rapid establishment. Later, when the plants start
+    leafy crops, they require you to balance vegetative      flowering, a wider temperature differential should
+    and generative (fruit) growth at the same time. A        be used to promote fruiting. Temperature ranges for
+    smaller day/night differential at the beginning of       each crop are found in the individual crop chapters.
+98                        The Greenhouse and Hoophouse Grower’s Handbook
+
+
+knowing the ideal conditions for each crop is important.           levels off at some point. The amount that photosynthesis
+Since you can control the conditions in protected cul-             exceeds respiration is known as the growth potential. In
+ture, it’s your job to keep them in the range where the            tomatoes, for example, at around 96°F (36°C) the rate
+plants stay active.                                                of respiration exceeds the rate at which assimilates are
+    If a plant isn’t active, it isn’t growing; if it isn’t grow-   manufactured through photosynthesis. Since at this
+ing, it isn’t producing anything for you, though pests and         temperature a tomato plant is not making a surplus, and
+diseases can still attack it. So any amount of time that           is probably experiencing an energy deficit, you want to
+a plant spends inactive reduces yield and leaves it more           avoid this as much as possible.
+susceptible to damage. The goal is to keep plants active at
+all times, even when it seems like they aren’t doing any-                Heating for Warmth Versus
+thing. Respiration should always be taking place, even
+at night. If it gets too cold at night, the plant will shut
+                                                                        Heating for an Active Climate
+down and not benefit from respiration. When plants                 The simplest way to control the temperature in a green-
+shut down at night it also delays them from becoming               house would be to set a low point on the thermostat and
+active again in the morning until they have warmed back            walk away, satisfied that the crop will not go below the set
+up, which can take time.                                           temperature. The crop will grow faster, be more produc-
+    One way to understand the effect of temperature stress         tive, and be healthier than the same crop in an unheated
+on your plants is to think of your own reaction to extreme         house. The main benefit of a climate control strategy like
+temperatures. If you found yourself in an environment              this is that it is simple to manage and operate.
+that was way too hot or cold, you probably wouldn’t be                In a greenhouse without automated vents, all you
+very productive, either. You’d spend most of your energy           have to do is pick a set point for your heater and decide
+trying to moderate your temperature, by fanning yourself           when to roll your sides up. If you do have automated
+in the heat or doing jumping jacks in the cold.                    vents, it can be as simple as setting a low temperature for
+    Plants can’t warm themselves, so they just shut down           the heater to come on and a higher temperature for the
+when it gets too cold. However, the reaction to excessive          vents to open. This is a very workable situation; many
+heat in people and plants is more similar. As the tempera-         growers maintain greenhouses this way. However, green-
+ture increases, so does transpiration as the plant tries to        houses can be made more productive with more complex
+cool itself. Evaporation is endothermic; it disperses heat.        climate management goals. Below are two strategies
+So transpiring the plant’s water into the air is a way for         that go beyond minimum/maximum temperature by
+the plant to cool itself. If the temperature gets so high          considering more of the factors that affect plant growth.
+that all the water absorbed by the plant needs to be used
+for cooling, growth slows until water becomes available               Making Gradual Changes to the
+for something besides cooling. And if a plant’s need for
+water outstrips the supply, stomata may close in an effort
+                                                                         Growing Environment
+to conserve water before wilting occurs.                           Just like you, plants appreciate gradual changes in their
+    If you touch the leaf of an active plant in a greenhouse,      environment. Think about how unpleasant it is to go
+it should feel cooler than the air temperature. If you             outside from a warm house on a freezing day without a
+touch a leaf and it feels hot, it probably means that the          coat. This principle can be applied generally to managing
+plant’s stomata are closed and it’s about to wilt. If your         plants in protected culture. If you want to make a change
+plants’ leaves are hot, this may be an indication that your        to the growing environment, do so in a gradual manner
+irrigation system isn’t functioning properly, or that you          rather than a sudden one.
+should provide some extra water on a hot day.                         When it comes to heating, for example, a good rule
+    The rates of respiration and photosynthesis both rise          of thumb is that when you need to change the tem-
+with the temperature, though the rate of photosynthesis            perature, don’t make changes more rapidly than 2°F
+                                  Temperature Control and Crop Steering                                              99
+
+
+(1°C) per hour if possible. The easiest way to do this
+                                                                     Heating to Reduce Humidity
+is to decide what temperature you want it to be at what
+time, and count backward to determine when to start            Power venting is what some growers call setting the
+changing the temperature. Let’s say you want it to be          ventilation point lower than the heating set point. This
+68°F (20°C) when the sun comes up at seven o’clock in          is a counterintuitive scenario where the heat is on at the
+the morning. If your night temperature is 62°F (17°C),         same time the vents are open. Though it might seem
+you will want to give the greenhouse three hours to            like you would never want this situation, it’s actually a
+warm up the 6°F (3°C), so start raising the temperature        very useful way to reduce the amount of humidity in
+at 4 am. This can be called a pre-day treatment. This          the greenhouse.
+strategy is used instead of setting a nighttime low and            Power venting works because it expels warm, humid
+letting the sun raise the temperature, and has several         air through the vents, and draws in and heats cooler air.
+big advantages.                                                The cooler outside air cannot hold as much moisture and
+    When the sun does the heating, the temperature             thus is drier than the inside air. As the cooler air warms
+tends to spike. As soon as the sun hits the structure, tem-    up, the RH goes down, VPD goes up, and it gains capac-
+perature rise due to the greenhouse effect is very rapid.      ity to take on moisture.
+This is great for getting the temperature up but shocking          Keeping the humidity down has two big advantages.
+to the plants, giving them just a few minutes to adjust        For one thing, condensation is reduced, which will keep
+from nighttime to daytime temperature.                         the plants healthier. The other advantage is its positive
+    Rapid warming in a humid environment also results          effect on respiration and transpiration, since as humidity
+in condensation. As the air temperature increases,             increases, respiration becomes more difficult until plants
+moisture in the air condenses on the plants, which are         can’t give off any more moisture through transpiration.
+colder because they don’t change temperature as quickly        When plants can’t transpire, they shut down until the
+as the air. Since wetness is a precondition for many plant     humidity goes down.
+diseases, letting the plants get wet makes them more               Two important factors to consider when determining
+likely to become diseased and nullifies one of the biggest     when and how much to power vent are condensation
+advantages for a greenhouse grower over field growing.         and humidity. Prevent condensation by keeping the
+    Raising the temperature before the sun comes up in         temperature above the dew point, as this represents the
+a pre-day treatment means that as the air warms up, the        intersection between temperature and humidity where
+relative humidity will go down. With lower humidity,           condensation forms. This must be done proactively to
+plants will be able to transpire more than they do in          be effective. If the plants are already wet when you walk
+cool air that’s saturated with moisture. This is important     into the greenhouse, it’s too late; the goal is to prevent
+because if plants are unable to transpire, they can’t grow.    condensation in the first place.
+Raising the temperature before sunrise helps the plants            Power venting can be useful early on cool mornings,
+transpire and be active as soon as the sun hits them.          when the humidity is high from overnight transpira-
+    Fruiting-crop growers may shoot to be at the desired       tion but low temperatures and lack of solar radiation
+daytime temperature even earlier, a half hour or hour          are preventing the vents from opening. The intuitive
+before sunrise. If you get the temperature up to the           approach would be to keep the vents closed tight to
+desired level just in time for sunrise, the fruits may still   avoid using any more heat than necessary. But to
+be cold since they change temperature more slowly than         maintain an active climate, set the ventilation a degree
+both the air and leaves, and if the fruits are cold they       or two below the heater for just long enough to get rid
+aren’t active and can’t start taking assimilates from the      of excess humidity. The extra money spent on heat to
+leaves. So if you want the whole plant to be active as         keep the air dry and the crop active via power venting
+soon as photosynthesis starts in a fruiting crop, raise the    more than pays for itself in improved crop productivity
+temperature earlier to warm up the fruits.                     and health.
+100                     The Greenhouse and Hoophouse Grower’s Handbook
+
+
+
+
+                                                Condensation
+    One of the biggest advantages a greenhouse grower         capacity to hold its moisture anymore, the moisture
+    has is the ability to keep plants dry. This includes      becomes visible as a cloud. As the cloud continues
+    both keeping rain off and minimizing condensation.        to cool and lose more water-holding capacity, the
+    Moisture on leaves is necessary for the development       moisture may begin to precipitate out as rain.
+    of late blight and contributes to other diseases such         An unheated hoophouse at the end of the day
+    as botrytis. Repeated cycles of condensation and          contains an air mass humid with the day’s transpi-
+    drying are one of the contributing factors to the         ration. As the sun goes down and the temperature
+    development of powdery mildew.                            drops, the humid air mass loses water-holding
+        Condensation is temperature- and humidity-­           capacity, just like a rising cloud. In a hoophouse the
+    dependent. It occurs when air at a given humidity         moisture will condense on plants rather than falling
+    reaches its saturation point, known as the dew point,     as rain. Greenhouse growers can prevent this by
+    where the air cannot absorb any more moisture             heating the air to maintain its water-holding capac-
+    and water begins to condense on surfaces. Every           ity, or power venting to expel moisture.
+    protected culture structure creates its own mini              If it doesn’t happen overnight, condensation is
+    climate and tends to be higher in humidity than the       likely to occur in the morning as the air warms and
+    surrounding environment due to the transpiration          the plants stay cold. Hoophouse growers can’t do
+    of the plants releasing moisture into the air.            much about this, but it may help to roll up the sides
+        As evening approaches, the environmental con-         and open the vents on a hoophouse before dawn, to
+    ditions inside a protected structure are similar to       moderate the increase in temperature and release
+    those that lead to the formation of rain clouds out-      humid air. The ability to control condensation is
+    side. Clouds form when a humid air mass cools as it       one of the big advantages of a greenhouse over a
+    rises, with its moisture-holding capacity diminished      hoophouse, and well worth the cost of the fuel to
+    the more it cools. When the air doesn’t have enough       heat and prevent it.
+
+
+
+
+                                                                 We put tomato plants in and they started growing
+       Crop Steering for                                      like Jack’s Beanstalk, but they never set much fruit. And
+                                                              the fruit they did set was smaller than it was supposed to
+       Generative or Vegetative                               be. Like any overeager gardener, I went and checked the
+       Growth                                                 fruit every day, and they took forever to ripen. It wasn’t
+                                                              my constant checking that made it seem like they were
+Though I didn’t know it at the time, one of my earliest       taking so long—the days to maturity listed in the seed
+gardening experiences was with tomato plants that were        catalog confirmed they really were ripening slowly. I
+excessively vegetative. My family had an enormous             didn’t know it at the time, but I had excessively vegeta-
+compost pile in the same place for many years. When           tive tomato plants.
+we finally decided to put a garden in, I thought it was          When a plant puts more of its energy into leaves,
+going to be great with all that compost. We smoothed          stems, shoots, and roots, it’s in a vegetative state of
+out the heap, rototilled it, and the soil looked like choc-   growth. If it puts more of its energy into flowers and
+olate cake.                                                   fruit, that’s called a generative state of growth. When a
+                                  Temperature Control and Crop Steering                                             101
+
+
+plant puts an adequate amount of energy into both at the       relative terms we use to describe states on the opposite
+same time, we say it is balanced.                              sides of a continuum.
+    As a fruiting-crop grower, most of the time you want
+your plants to be in a balanced state of growth. This is
+in contrast with leafy-crop growers, who want to keep
+                                                                                  Partitioning
+their plants vegetative. When leafy crops start putting        Partitioning refers to how a plant divides its resources
+energy into generative growth, it causes the develop-          between fruiting and vegetative growth. A plant has a
+ment of flowers and seeds (bolting) that make the crop         finite amount of resources at its disposal. You want it to
+unmarketable. But there may be times when unbalanced           put some energy into the fruit so you have something to
+growth is desirable. For example, right after transplant-      pick today, and at the same time to put energy into the
+ing you want the plant to put its energy into vegetative       plant so it will keep growing and there will be something
+growth to develop a strong root system as quickly as pos-      to pick months from now.
+sible. And at the end of the season, the plant might want         It may help to think of each plant as two separate
+to put all of its energy into generative growth to make as     sets of parts: vegetative (roots, shoots, and leaves) and
+many fruits and seeds as possible before a killing frost.      generative (fruit and flowers). Plants don’t always put
+    There are a lot of environmental factors that influence    equal amounts of energy into both types of growth.
+whether plants are vegetative or generative. With control      Depending on many factors we will discuss below, a plant
+over the environment in protected growing comes the            may prioritize one type of growth over the other. Key to
+ability to manipulate, or steer, plants in the direction       understanding why partitioning matters is knowing that
+you want them to go. Balancing fruiting and vegetative         a plant may put so much energy into the fruit that it gets
+growth over a long season is one factor that makes grow-       weak and peters out, or so much energy into the plant
+ing fruiting crops more complicated than growing leafy         that there is very little fruit.
+crops. Recognizing the state of growth the plant is in and        As the grower, it’s your job to keep the plant healthy,
+having the ability to change it when necessary is one of       so it has as much energy as possible. But you are not
+the big advantages you gain in protected growing.              going to get high yields if you’re not optimizing both
+    When my family got the results from a soil test at         the amount of energy the plant has and how it uses
+the end of our first gardening season, the fertility and       that energy. Creating a balanced plant—one that puts
+organic matter levels were off the charts. In our inexpe-      adequate energy into both fruiting and vegetative
+rience, we didn’t realize that you could have too much of      growth—is what will result in the highest yield and
+a good thing (fertility), or that humble compost could         fruit quality.
+result in overfertility. If you want high, consistent yields
+of fruiting crops that ripen in a timely manner over a
+long season, you want plants that are balanced.
+                                                                             Vegetative Growth
+    Once you learn the signs of a plant that is balanced       A plant is in a vegetative state when it puts an excess of
+or unbalanced, you won’t be able to miss them. Which           energy into the plant at the expense of the fruit. Signs
+is why I am grateful for my experience in the garden for       that a plant is vegetative include fruits that are smaller
+teaching me what an excessively vegetative plant looks         than they are supposed to be, fruits that take longer than
+like. It’s important for fruiting-crop growers to be able      normal to ripen, and a low ratio of fruits to leaves.
+to assess and understand the state of the plant: A grower         An excessively vegetative plant will have larger, lon-
+who can interpret the signs can tell where that plant’s        ger leaves than normal. The stem below the head of the
+energy is going, and whether it needs to be changed.           plant will be very large, and in tomatoes it may have a
+    Remember that the terms vegetative and generative are      characteristic oval shape instead of being round. Flower
+not absolutes. A plant does not switch back and forth          clusters tend to be poorly formed and stick straight up in
+like a light going on and off. Vegetative and generative are   the air instead of curving out from the plant. These are
+102                        The Greenhouse and Hoophouse Grower’s Handbook
+
+
+ Table 7.1. Signs That a Plant Is in a Vegetative or Generative State of Growth
+ Criteria                               Vegetative                                          Generative
+ Leaves                                 Long, thick, leathery, dark green                   Short, thin, light green
+ Stem                                   Thick                                               Thin
+ Head of plant                          Dense and bushy, with twisting leaves               Sparse and open
+ Flower trusses                         Long, thin, sticking up straight,                   Short, thick, curled,
+                                        poorly formed                                       well proportioned
+ Ripening                               Slow                                                Fast
+ Flowers and fruit                      Small, poorly shaped                                Large, well formed
+ Flower color (tomatoes)                Lighter yellow                                      Darker yellow
+ Position of highest open               Far below the tip of the plant                      At or close to the tip
+ flower on the plant                                                                        of the plant
+
+
+called stick trusses, and they’re in danger of kinking or
+snapping off under the weight of the fruit they hold.
+    Plants are particularly prone to becoming excessively
+vegetative at the beginning of the season, because there
+is no fruit load to balance the plant’s vegetative growth.
+Plus it’s the plant’s natural inclination to grow very fast
+at the beginning of the season in order to become estab-
+lished as quickly as possible.
+    The problem of excessively vegetative plants may be
+particularly acute for hoophouse growers, who are lim-
+ited by the weather as to how early they can plant. By the
+time they can transplant, the days tend to be long, with
+lots of light and heat. All these factors push the plant
+to grow quickly and vegetatively, which can have a bad
+effect on yield of valuable early fruit.
+    One time we grew a medium-sized greenhouse
+tomato called Massada, which was prone to going vege-
+tative under our particular conditions. Of all the varieties
+we were growing simultaneously in our hoophouse, it
+was by far the most vegetative. As the other varieties with
+similar days to maturity started ripening, the Massadas
+had no color, and were smaller than they were supposed
+to be, topping out at 4 to 5 ounces (113–142 g) instead of
+6 to 8 (170–227 g).
+    Days turned into weeks, and I kept visiting the plants
+every day to see when one would ripen, which only made            Figure 7.1. This long, skinny flower cluster is known as a
+the situation seem worse. When they finally ripened,              stick truss because of the way it sticks straight out from
+the tomatoes were so undersized there was no way we               the plant. It’s likely to bend or break under the weight of
+could sell them loose as small beefsteaks as we intended.         the fruit.
+                                    Temperature Control and Crop Steering                                                   103
+
+
+
+
+Figure 7.2. The downward-curling leaves and thick stems          Figure 7.3. This long, thin, poorly formed flower cluster is an
+are an indicator that this tomato plant is excessively           indicator that this tomato plant is excessively vegetative.
+vegetative, or bullish.
+
+
+
+
+Figure 7.4. This sucker developing off a leaf is an indication   Figure 7.5. The curling, twisting leaves of this tomato plant
+that the tomato plant is too vegetative. Some varieties are      are an indication that it is excessively vegetative. Note
+more prone to this than others.                                  that the open blossoms are well down below the head of
+                                                                 the plant—yet another indicator that vegetative growth is
+                                                                 outpacing generative.
+104                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+Instead, we clipped the entire truss off as they ripened and     generative will have a very thin stem at the head. In toma-
+sold them as cluster tomatoes, since that’s about the size       toes, flowers will be a darker yellow than in vegetative
+they were. Over the course of the season the plants settled      plants. Trusses will be shorter, nicely proportioned and
+down and became more balanced. They began putting                arching out from the plant instead of sticking straight up
+more energy into the fruits, and they started sizing up and      in the air. This type of stem architecture will support a
+ripening on time. But the first few clusters on those plants     fruit load much better than a stick truss.
+were a disaster from a yield and income perspective.                In all species, generative plants will have larger,
+   Overly vegetative plants, which produce rampant               stronger flowers. Leaves will be smaller, flatter, and less
+leafy growth at the expense of fruit growth, are espe-           curled than in very vegetative plants. Flowers will open
+cially bad early in the season because they reduce the           closer to the tip of the plant. In a vegetative plant, the tip
+early yield. A lot of growers get their best prices from         of the vine will grow faster than the flowers. But when
+early fruit, so small, late fruit at the beginning of the sea-   a plant prioritizes generative growth, the flowers will
+son is doubly damaging to the bottom line. Excessively           open close to the tip because they are growing as fast as
+leafy plants are also bad for labor efficiency since a leafy,    or faster than the vine. Fruit on generative plants tends
+fast-growing plant with undersized fruit will require            to be larger, better proportioned, and quicker to ripen
+more pruning than a balanced plant with normal fruit             than on plants that are too vegetative.
+size and production.
+                                                                  Balanced and Unbalanced Growth
+              Generative Growth                                  Unbalanced growth, regardless of whether it’s too vege-
+A plant is in a generative state of growth when it puts          tative or too generative, is not desirable in the long run.
+more of its energy into fruit at the expense of the rest of      Unbalanced vegetative growth would be great if you could
+the vine. A plant that is too generative might yield fine in     sell tomato leaves. But since you can’t, all that excessive
+the present, but production will fall off over time as plant     leafy growth comes at the expense of fruit production.
+growth slows.                                                    Excessively rapid vegetative growth also produces lush,
+   Most of the signs of a generative plant are opposites         soft plant tissue, which makes the plant more susceptible
+of the signs that a plant is vegetative. Plants that are too     to injury and attack by pathogens. With unbalanced
+
+
+
+
+Figure 7.6. The thin stem of this tomato, with blossoms open     Figure 7.7. The fact that this plant has open flowers so close
+at the same level as the head, is an indicator that this plant   (3 inches/7.5 cm) below the tip of the plant means that it’s
+is very generative.                                              still on the generative side.
+                                 Temperature Control and Crop Steering                                              105
+
+
+generative growth, the flowers and fruit may look great      sources of energy for a plant are mature leaves. The
+while the plant wastes away. Typical of a generative plant   main sinks are fruit and immature leaves at the head of
+is big fruit with a small, wispy head that doesn’t grow      the plant.
+very fast. When a plant stays generative, yield goes down        The numbers of sources and sinks need to be bal-
+as plant growth slows and becomes weak.                      anced in order to have a balanced plant. As a grower,
+   One of the only times I can think of when unbalanced      you have two jobs relating to plant balance. With steer-
+growth is desirable is during the first week or so after     ing, you need to make sure the plant is putting energy
+transplanting, when it’s common to encourage vegetative      into both fruit and leaves at the same time. Your other
+growth in order to speed rooting and establishment of        job is to make sure that the plant’s sources and sinks are
+the transplants. This is where the additional control of a   proportional, so there are enough sources to feed the
+greenhouse comes in handy. The main way to encourage         sinks, and enough sinks to absorb the energy generated
+vegetative growth is to run a relatively high temperature    by the sources.
+for the species, with little or no day/nighttime tem-            An imbalance between the numbers of sources and
+perature variation. This is known as a flat temperature      sinks commonly occurs right at the beginning of crops
+profile. The high temperature causes the crop to grow        that tend to be vigorous and vegetative, like tomatoes
+quickly, and the flat temperature promotes vegetative        or eggplant. As soon as they are transplanted into the
+growth. For a detailed explanation of temperature            production house they begin vigorously growing leaves.
+recommendations by species, see each individual crop’s       A plant must direct its energy toward something, and
+growing recommendations.                                     if there aren’t any fruit, it’s going to put all that energy
+   Creating balanced growth really is a balancing act in     into plant growth. Because it’s the beginning of the sea-
+that crop conditions are always changing, and it’s not       son and there isn’t any fruit yet, all of a plant’s energy
+a simple formula. You may have just gotten your crop         is directed back into more leaf growth. This is why it’s
+balanced after transplanting for the spring season when      so common for young tomato and eggplant crops to be
+the heat of summer hits and throws everything out of         excessively vegetative. The fruit load on a mature plant
+balance again. Balancing plant growth is a season-long       actually helps to balance it out.
+job that’s never really over until the end of the crop,          After a period of poor fruit set, when opportunities
+which is why it’s so important for growers to be able to     to set fruit have been missed due to high temperatures
+read the state of the crop and know just by looking at it    or poor pollination, is another time when a crop is prone
+what type of growth it’s experiencing.                       to becoming excessively vegetative—putting all of the
+   Crop registration is useful for helping confirm trends    energy that would otherwise go into fruit into growing
+that seem apparent in the crop. They can tell you whether    leaves. In addition to fixing the problems causing poor
+or not the trend matches the way the crop appears. For       fruit set, it would be important to recognize the plants’
+example, if you thought your crop looked vegetative, and     bad ratio of sources to sinks, to be on the lookout for
+you had records from registration to refer to, an accel-     signs that they’re becoming too vegetative, and to be
+erating growth rate and thickening head would seem           ready to steer the plants back into balance with the
+to confirm that the plants are trending vegetative. With     actions described below.
+this information you could use some generative actions           Pruning too many leaves in relation to fruit load can
+to steer the crop back toward balance.                       leave plants with too many sinks in relation to sources.
+                                                             Foliar diseases that kill leaves or compromise their pho-
+                                                             tosynthetic capacity can have the same effect, leaving
+Sources and Sinks
+                                                             the plant with more fruit than the number of leaves can
+Another way to think about balanced plant growth is in       support. In cases where there are too many sinks, you can
+terms of sources and sinks. A source is where energy is      reduce the fruit load by harvesting more aggressively or
+generated, and a sink is where it is absorbed. The main      even removing an immature fruit or a cluster to reduce
+106                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+the demand on the plant. Sometimes rebalancing the             and night temperature. Growers call this the day/night
+plant in the long run is worth the short-term reduction in     differential, or dif for short. For example, a flat tempera-
+yield. If plants are struggling for any reason, lightening     ture profile with no difference between day and night
+the fruit load is always an option to help them through a      temperatures would be the most vegetative. The larger
+rough patch.                                                   the difference between the day and night temperatures,
+   If growing were easy, plants would have meters on           the more generative an influence it will be.
+them telling you whether they were vegetative or gen-             This works because when the differential is small, the
+erative, and dials to change the settings. In the absence      growing conditions are more like summer, with warm
+of meters, you have to learn to read the signs. And in the     days and nights, so the plants think they have a long
+absence of dials, you have to learn how to manipulate the      season to continue growing and put lots of energy into
+environment to get the plants to grow the way you want         vegetative growth instead of reproduction. But when
+them to.                                                       the nights are much cooler than the days, the plants
+   There are a number of different factors a grower            think winter is coming and they put their energy into
+can manipulate in order to steer a crop in the desired         reproduction.
+direction. Actions that encourage vegetative growth are
+known as vegetative actions, and those that encourage
+                                                               Grafting
+generative growth are generative actions.
+   In addition to the influence environmental factors          Most commercial rootstocks will influence grafted plants
+have on the state of crop growth, individual varieties         to be more vegetative. This can be desirable because it
+bring their own influences as well. For example, some          will allow a crop to thrive over a longer season and be
+varieties are naturally more or less generative or more        more productive. The potential drawback (as with any
+easily balanced than others. Keep this in mind, and pick       very vigorous variety) is that the grafted plants may be
+varieties based on your growing environment. If the            difficult to balance early in the season due to their being
+environment you are growing in is naturally vegetative, a      so vegetative. Newer rootstock varieties have been devel-
+generative variety might be easier to balance.                 oped to address this problem. More balanced rootstocks
+                                                               with less vigor may be worth trying, especially with nat-
+                                                               urally vegetative plant types, like small-fruited tomatoes
+        How Crop Steering Works                                and eggplant.
+Broadly speaking, anything that causes the plants stress           Most grafted plants have at least two heads to try to
+will function as a generative action, and anything that        deal with the extra vigor. Single-leader grafted plants
+reduces the amount of stress on the plants is a vegetative     tend to be more difficult to balance. For more informa-
+action. Things that stress the plants make them think          tion, see chapter 8.
+they’re a little closer to death, so they focus on reproduc-
+tion to pass their genes along.
+                                                               Pre-Night Treatments
+   There are a number of different ways a crop can be
+manipulated to steer it in the desired direction. Since        Pre-night treatments are the closest thing to having a
+many of the actions involve changing environmental             button that will send energy straight to the fruit. This
+conditions, they are mostly off limits for field growers.      technique can be used on all the fruiting crops described
+                                                               in this book, though the details vary somewhat with
+Manipulating the Day/Night                                     the crop. See the individual crop chapters for specific
+                                                               recommendations.
+Temperature Differential
+                                                                  Referred to as pre-nights for short, pre-night
+One of the most common ways to steer a crop is to              treatments are a technique used to intensify the gener-
+manipulate the amount of difference between the day            ative effect of the day/night temperature differential.
+                                       Temperature Control and Crop Steering                                            107
+
+
+ Table 7.2. Factors Influencing How Vegetative or Generative Plants Are for Crop Steering Purposes
+ Factor                                                               More Vegetative             More Generative
+ Age of plants                                                            Younger                       Older
+ Twenty-four-hour temperature average                                      Lower                       Higher
+ Night temperature                                                         Lower                       Higher
+ Difference between day and night temperatures                            Smaller                      Larger
+ Speed of change from day to night temperature                            Slower                       Faster
+ (part of pre-night treatment)
+ Relative humidity                                                        Higher                       Lower
+ Amount of ventilation/air movement                                         Less                        More
+ Water stress                                                              Lower                       Higher
+ Frequency of irrigations                                                 Higher                       Lower
+ Time of first irrigation of the day                                       Earlier                      Later
+ Time of last irrigation of the day                                        Later                       Earlier
+ Level of electrical conductivity (EC) in root zone                        Lower                       Higher
+ (saltier is more stressful/more generative)
+ Stressful growing conditions                                           Less stress                  More stress
+ Amount of nitrogen                                                       Higher                       Lower
+ Fruit load                                                                Lower                       Higher
+ Level of carbon dioxide in greenhouse                                     Lower                       Higher
+ Amount of leaf pruning                                                     Less                        More
+ Taking a leaf out of the head (tomatoes)                                                            Generative
+ Grafting (tends to make plants more vegetative,                          Grafted                    Ungrafted
+ how much depends on rootstock variety)
+ Pre-night treatment—combination of three factors: amount,          Less, slower, shorter        More, faster, longer
+ speed, and duration of temperature drop at end of day
+
+
+Pre-nights are one of the few times you deliberately want     temperature, the slowest parts of the plant to cool are
+to break the rule of making temperature changes gradu-        those with the most water: the fruits. Pre-nights take
+ally at a rate of 2°F (1°C) per hour.                         advantage of the fact that parts of the plant that stay
+    The basic concept of a pre-night treatment is very        warmer continue drawing on the assimilates produced
+simple. At the end of the day, when the temperature           during the day longer than those that cool down first.
+is going to drop naturally, keep the vents open and let       Pre-night treatments are a way to direct the energy from
+it drop as rapidly as possible until the nighttime low is     the day’s photosynthesis to the fruit. As long as there is
+reached. This is instead of closing vents to conserve the     an excess of assimilate produced, this can result in higher
+heat of the day for a gradual decline to the nighttime        yields and better flavor, since you are drawing sugars to
+temperature.                                                  the fruit.
+    Pre-nights work because as the plants rapidly cool           Pre-nights can also help with fruit setting in a crop
+down, the fruits stay warmer than the other parts.            that has had issues with blossoms falling off without
+Since water temperature changes more slowly than air          forming fruit. Since peppers are especially prone to
+108                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+
+
+                                      Mixed-Crop Greenhouses
+      Each crop has its own environmental and tempera-         the greens or the vines grow in shorter-than-ideal
+      ture preferences. Many large greenhouses grow just       conditions.
+      one species at a time in order to tailor conditions to      Despite the compromises, lots of growers make it
+      the needs of a single crop.                              work. Take the needs of each crop into consideration,
+         However, for many growers there is value in           and make the compromises as amicable as possible
+      diversity. Whether having a variety of produce is a      for each one. Or you could pick two or more crops
+      way to stock a farm stand, fill a CSA box, or appeal     that have similar needs, an example being tomatoes
+      to produce buyers, many growers will want to grow        and eggplant. Both crops have similar preferred
+      more than one crop in a single greenhouse.               temperature profiles and appreciate a pre-night
+         For successful mixed cropping, it is important        treatment, so they can be grown together with little
+      to take crop compatibility into consideration. For       compromise in the production of either. Lettuce
+      example, vining/fruiting crops and lettuce/greens        and greens grow well together, since they like cooler
+      are not the best combination in a greenhouse.            conditions and have similar nutrient needs.
+      The height of the vining crops tends to shade               Another good way to grow blocks of different
+      the lower-growing greens crops when they are             crops without compromise is to put a curtain
+      grown anywhere except to the south of the vines.         between sections of greenhouse to create separate cli-
+      The fruiting crops also prefer a hotter, more            mate zones. A thermostat can be used to control each
+      variable climate than lettuce would like. Lastly,        section separately, or environmental control systems
+      the fruiting crops appreciate a taller structure         can be set up to manage more than one zone. This
+      than greens need. When the two types of crops            can be a good solution if you want to grow blocks of a
+      are grown together either the height is wasted on        few different crops with conflicting needs.
+
+
+
+
+fruit-set problems, it’s common for pepper growers to          some growers let the temperature ramp up a few degrees
+use pre-nights regularly to improve fruit set. It’s also       above the regular daytime setting right at the end of the
+common for growers to use regular pre-nights on crops          day before a pre-night treatment. And then they drop it
+that tend to be vegetative, such as tomatoes and eggplant.     a few degrees below the average nighttime temperature
+Pre-nights are not as important in cucumber-only struc-        right at the beginning of the night to really get a wide
+tures, since cukes aren’t as prone to becoming excessively     spread. Dropping the temperature extra low at the
+vegetative as tomatoes and eggplant, and they’re not as        beginning of the night can also help reduce the average
+prone to fruit-set problems as peppers. But if necessary,      temperature when excessive daytime heat has pushed the
+pre-nights can be used to steer cukes as well. This is         daily average too high. Prolonging the amount of time
+where mixed-crop greenhouses can get tricky—if one             spent at the pre-night temperature low is another way
+crop needs a pre-night and another doesn’t, the grower         of intensifying a pre-night treatment, and potentially
+needs to decide which crop to favor.                           of bringing down hotter-than-ideal twenty-four-hour
+   If you are doing pre-night treatments and the crop still    temperature averages.
+needs more generative steering, it is possible to intensify       Note that pre-night treatments can only be done on
+the effects of a pre-night treatment by widening the tem-      sunny days with lots of photosynthesis and a surplus
+perature spread. To produce a bigger temperature drop,         of assimilates, since the plant has to generate a certain
+                                  Temperature Control and Crop Steering                                                109
+
+
+amount of assimilates just to keep itself alive and support        fast drop in day/night temperature to do pre-night
+continued growth. If you do pre-nights on cloudy days,             treatments.
+too much energy may go into the fruit and weaken the           Humidity. Increasing the humidity to high levels,
+plant, which may have generated barely enough energy               within the acceptable range for the crop, serves as
+to stay alive. And if you do pre-nights during a patch of          a vegetative action. Lower humidity will make the
+overcast weather with multiple cloudy days in a row, the           crop more generative, because it has to work harder
+heads can thin out very quickly and the plants lose vigor.         to transpire at an adequate rate, which is more
+Since pre-nights will have a generative effect, you don’t          stressful on the plant.
+want to use them if the crop is already too generative.        Watering. Any watering strategy that results in the roots
+   The conditional effects of pre-nights are an example            being more uniformly moist over the course of the
+of how you can’t just be on autopilot and allow the green-         day will have a vegetative effect. For example, multi-
+house to run on the same settings every day. Even if your          ple small, evenly spaced irrigations will tend to have
+greenhouse features a lot of automation, you have to react         a vegetative effect. Fewer, larger irrigations with
+to current weather conditions, and use forecasts to look           more drydown between waterings are more stress-
+into the future and anticipate how to manage in response.          ful for the plant and thus are also generative. So is
+                                                                   waiting until later in the day to begin irrigation, and
+                                                                   having the last irrigation of the day earlier, so there’s
+Other Actions
+                                                                   a longer period between irrigations from one day to
+Depending on how much control you have over the con-               the next, with more drydown overnight.
+ditions in your structure, there are a lot of other ways you   Fertility. Soil-grown crops are more buffered to changes
+can steer your crop. Think about how everything that               in the root zone, so adjusting soil fertility is not the
+happens to you over the course of your day affects your            quickest method of steering. However, excessive
+mood and the way you feel: whether you got enough                  nitrogen levels will make plants too vegetative.
+sleep, had a cup of coffee, had breakfast, got stuck in        EC. Increasing the level of EC (salt concentration) in the
+traffic, had to skip lunch, and so forth. It’s the same with       root zone is moderately stressful for the crop and has
+plants: Almost every action you can control will affect            a generative effect. Try incremental changes of plus
+how the crop is growing. Below is a list of things that are        or minus 0.5 mS/cm (millisiemens per centimeter, a
+known to have a steering effect on a crop.                         measure of saltiness) from your normal EC to begin
+   Note that if your plants are really far to one side of          with and see if you notice an effect. Over the long
+the continuum, you may need to use multiple tech-                  term, running a higher EC may increase flavor and
+niques at the same time to steer them back into balance.           decrease yield (for a more detailed explanation, see the
+Don’t expect to see huge changes overnight. It takes at            “Root Pressure and Watering” sidebar on page 59).
+least a few days for the effects of steering to be notice-     Carbon Dioxide. Higher levels of carbon dioxide have a
+able. Once you have a crop balanced, the weather or                more generative effect.
+other conditions may change, making it necessary to            Pruning. There are a number of ways that pruning can
+begin steering again. Like horticulture in general, crop           affect the state of a plant. More leaf pruning will
+steering is a constant balancing act, using the factors            have a more stressful, generative effect on the crop,
+you can control to counter the effects of those you can’t.         while keeping more leaves on will be more vegeta-
+See table 7.2 for a list of all the actions that can be used       tive. Aggressive leaf pruning from the beginning
+to steer the crop.                                                 can be one way to settle a crop that has started out
+                                                                   too vegetative.
+Temperature. As I’ve already discussed, the wider the          Harvesting. Leaving more fruit on the plant will have a
+   day/night temperature differential is, the greater              generative effect, as a higher fruit load draws more
+   the generative effect is. This can be combined with a           strongly on the plant’s assimilates. Conversely, if
+110                        The Greenhouse and Hoophouse Grower’s Handbook
+
+
+
+
+                                     A Generative Pruning Trick
+      A specialized generative pruning action can be used          they mature and become energy sources. So this
+      on tomatoes to divert more energy into the fruit, and        technique rebalances the amount of energy; slightly
+      since it relies on pruning, it works whether or not          more goes to the fruit than otherwise would have
+      you have heat. It works on the principle that indeter-       been devoted to leaves.
+      minate tomato plants produce three leaves for every             If you really want to geek out on the details, in a
+      fruit cluster. Each leaf/cluster group can be thought        group of three immature leaves and the associated
+      of as a unit, with one leaf below, one leaf opposite,        flower cluster at the head of the plant, the cluster
+      and one leaf above each fruit cluster. The technique is      gets about half the energy and each leaf gets about
+      fairly simple: Remove the leaf opposite a flower clus-       a third of the other half. Let’s say the cluster gets 49
+      ter when the leaf is about 1 inch (2.5 cm) long. This        percent of the energy, and each leaf gets 17 percent
+      redirects the energy that would have been devoted            (for a total of 51 percent for the leaves) of the total
+      to growing that leaf to the flower cluster and the leaf      amount of energy the plant is going to invest in that
+      both above and below. Some prefer to use their fingers       section. When you remove the leaf opposite a devel-
+      for this; others like pruners. It doesn’t matter as long     oping flower cluster, a third of that leaf ’s energy is
+      as you can take the leaf off cleanly and not leave a stub.   redistributed to each remaining leaf and the flower
+          Remember that leaves are energy sinks from               cluster, boosting the amount of energy the flower
+      when they first unfurl up at the top of the plant until      cluster receives closer to 55 percent, giving the
+
+
+
+
+      plants have a high fruit load and are growing slowly,        The vital stats you want to keep track of are how much
+      harvesting more aggressively can liberate some               the plant grew in the past week, and the diameter of
+      energy to go back to the head of the plant.                  the stem 6 inches (15 cm) below the tip of the plant.
+                                                                   Record how far from the tip the newest flower cluster
+                                                                   is on each plant. You can also record how many flowers
+                 Crop Registration                                 are on the cluster, and how many of them set. The first
+Crop registration is a way to track the progress of your           week you take a measurement, make a mark on the
+crop that is particularly useful for helping determine if          string at the tip of the plant; the next week, measure
+the crop is trending in a vegetative or generative direc-          from that mark to determine how much the plant
+tion. The idea is to pick some plants at the beginning of          grew. Get a pair of calipers, measure 6 inches below
+the season and measure their progress every week until             the tip of the plant, and take a measurement of how
+the end of the season. Tie brightly colored flagging tape          wide the stem is at that point.
+to the plant’s string or use some other method that will               In addition to providing a record of crop growth, this
+help you remember which plants you’re monitoring. It’s             data will show you how the crop is trending. You may be
+also important to number the plants, because the week-             able to see changes in data before they are visible to the
+to-week trends will be off if you don’t keep track of an           naked eye, so you can notice trends more quickly. If the
+individual plant’s statistics.                                     rate of growth is slowing week after week, and the stems
+   Make it a weekly task to measure the plant’s growth             are getting thinner, it is a good indication the plants are
+and record the information. This is a great job for an             becoming more generative. The opposite may indicate a
+apprentice or someone learning how to be a grower.                 vegetative shift.
+                                 Temperature Control and Crop Steering                                                 111
+
+
+
+
+    generative part of the plant more than half of the       stop first as the plant comes back into balance. Tak-
+    total energy and gradually shifting the plant’s energy   ing a leaf out of the head will reduce yield over time,
+    in a generative direction. The exact percentage is       because you are reducing the number of leaves. On
+    less important than the fact that you’re shifting the    the other hand, being excessively vegetative has a
+    energy in favor of the generative parts of the plant.    greater potential to reduce yield, so it’s definitely
+        You can start doing this technique as early as the   worth doing if other generative actions don’t seem
+    first flower cluster if your plants are too vegetative   to be enough to balance the plant. When you
+    from the beginning, or if you know from experi-          remove an immature leaf, the plant will compensate
+    ence that they tend to be that way right out of the      by lengthening the leaves that remain to make up
+    gate. To be an effective generative steering tool,       for some of the missing photosynthetic surface area.
+    this technique must be done when the leaf is very            It is not standard practice to take leaves out of
+    small; otherwise the plant will already have made its    a head of peppers or cucumbers. Since peppers are
+    investment of assimilate in the leaf.                    naturally more generative, they usually don’t require
+        You can keep doing this on successive flower clus-   this kind of measure to balance. And since the leaf-
+    ters until the plant settles down and becomes more       to-fruit ratio is 1:1 in cucumbers, the rebalancing
+    balanced. If you are doing other generative steering     effects of removing a leaf would be more drastic than
+    on the plant, taking a leaf is the action you want to    in tomatoes.
+
+
+
+
+    Records from crop registration can be compared with      cm) might be considered balanced. What’s more import-
+weather and harvest data, as well as notes about what        ant is the trend over time: Are stems getting fatter or
+was going on in the greenhouse (pests and diseases, for      thinner? Are plants starting to grow faster or slow down?
+instance), to help you decipher trends. You may be able         A good set of crop registration records will help you
+to figure out whether a low yield trend is due to the crop   become more proactive by anticipating what will happen
+being too vegetative, or to excessively high temperatures,   based on previous years’ records. Having records and a
+or to both factors at the same time.                         historical perspective will help you predict when hot
+    Different growers use different standards for what is    weather will hit, or when pests and diseases will show up,
+considered vegetative or generative growth. For example,     so you can be ready when things change. Make it some-
+a 0.75-inch (1.87 cm) stem width at the flowering cluster    one’s job to do crop registration every week and you’ll
+might be considered vegetative, whereas 0.5 inch (1.25       have the data when you need it.

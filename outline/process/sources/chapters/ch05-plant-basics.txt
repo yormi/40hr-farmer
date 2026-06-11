@@ -1,0 +1,614 @@
+                                              CHAPTER FIVE
+
+
+  Protected Culture Plant Basics
+
+
+
+A         t the risk of oversimplifying, plants do two
+          basic things: photosynthesize and respire.
+Photosynthesis is the process whereby plants use the
+                                                                     Photosynthesis,
+energy in sunlight to turn carbon dioxide, nutrients,                Respiration, and
+and water into carbohydrates, giving off oxygen                      Transpiration
+and water as by-products. Respiration is the process
+through which those carbohydrates are converted               How well these three basic plant functions are working
+back into energy, which fuels the plant’s functions.          means a great deal for how well your plants will grow,
+Though photosynthesis depends on light, respiration           and it’s largely dependent on the environmental condi-
+takes place constantly, its rate determined by the            tions you control with protected culture. Many of the
+temperature. These two processes occur at different           environmental recommendations found in this book are
+speeds depending on different factors. It is the job of       based on optimizing plant photosynthesis, respiration,
+the greenhouse grower to try to harmonize the speed           and transpiration.
+and amount of both photosynthesis and respiration to
+optimize plant growth.
+    For an example of how not to harmonize photosyn-
+                                                                                Photosynthesis
+thesis and respiration, let’s consider greenhouse growers     As noted above, photosynthesis is the basis of plant
+growing their plants at a high temperature on a cloudy        growth, whereby carbon dioxide from the air and water
+day. In this low-light scenario, the plants aren’t generat-   and nutrients from the roots react with energy from the
+ing very much energy through photosynthesis, though           sun to produce assimilates and release oxygen. Assim-
+they’re expending a lot of energy due to the high rate of     ilates can include sugars, carbohydrates, proteins, or
+respiration brought on by the high temperature. This          starches. Unless we are talking about one in particular,
+is the protected culture equivalent of mashing the gas        it’s simplest to refer to the various products of photosyn-
+pedal to the floor in the middle of a desert without a gas    thesis generally as assimilates.
+station in sight.                                                 To describe the limiting effects of light, water, and
+    Balancing photosynthesis and respiration involves         carbon dioxide on photosynthesis, a barrel made out of
+reacting to ever-changing environmental conditions            staves makes a useful analogy. Each of these three factors
+by adjusting conditions in the greenhouse. If it were         corresponds to a third of the staves. If all the staves go
+simple, the rest of this book wouldn’t be dedicated to        all the way to the top of the barrel, it can be filled all the
+helping you understand how to use your greenhouse             way up, representing optimal photosynthesis. But if even
+or hoophouse as a tool to create the conditions that will     one of the staves is shorter than the rest, that one short
+maximize plant growth.                                        stave becomes the limiting factor. You can’t fill the barrel
+58                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+any higher than the lowest stave. Since photosynthesis           The point at which a plant has met its metabolic
+depends on the supply of light, water, and carbon diox-      needs and can move on to growth is called the compen-
+ide, a limitation on any one of these factors represents     sation point. If photosynthesis is limited to the point
+the short stave of the barrel. This is why we want to        where it is less than or equal to the compensation point,
+transmit as much light as possible and always meet the       there will be no growth. Many environmental factors
+plant’s water needs. It’s also why carbon dioxide supple-    influence the rates of respiration and photosynthesis. For
+mentation is so common in commercial greenhouses.            example, low light levels or a lack of water will prevent
+    In greenhouses that are kept closed during cold times    photosynthesis from reaching its potential. The rate of
+of the year, carbon dioxide levels can easily be depleted    respiration is dependent on temperature: The higher the
+so that they become the limiting factor for growth. It       temperature, the faster the rate of respiration. In vining
+may help to think of carbon dioxide as fertilizer that can   crops like tomatoes, when the temperature rises above
+be applied through the air. Nutrients in the soil around     96°F (36°C), the rate of respiration surpasses the ability
+plants become depleted and need to be replaced—and           of the plant to photosynthesize. Time spent above this
+it’s the same with CO2 in the atmosphere around plants.      temperature will not result in growth because the plant
+Even during warm times of the year, when ventilation is      is using all its energy for respiration.
+wide open, augmenting CO2 levels above the ambient               This is why it’s important to use the greenhouse to
+level will increase plant growth.                            moderate low and high temperatures, and why we don’t
+    Levels of up to 1,000 ppm have been shown to pay         want nighttime temperatures to be hotter than they need
+for themselves with increased growth. Photosynthesis         to be. If night temperatures are excessive, the plant will
+only takes place in the presence of light, so augmenting     use more energy than necessary, which will detract from
+carbon dioxide doesn’t help when it’s dark. Starting         the amount of energy available for plant growth.
+enrichment shortly before sunrise and stopping shortly
+before sunset is a common strategy.
+                                                                                Transpiration
+                                                             Transpiration is the process of water moving through
+                   Respiration                               the plant from its roots to its leaves, from which it evap-
+To recap, respiration is the process whereby plants trans-   orates. When water passes out of the plant through open
+form assimilates from photosynthesis back into energy        stomata in the leaves, it creates a deficit in the leaves; the
+that can be used for basic life functions (metabolic         plant must then pull water up from the roots to replace
+processes) and growth. Respiration involves combining        what was lost. Roughly 90 percent of the water enter-
+assimilates with oxygen, and the subsequent release of       ing most plants leaves through transpiration, with the
+energy, water, and carbon dioxide.                           remaining 10 percent staying in the plant.
+   For plant growth to occur, there needs to be a base           The rate of transpiration is governed by temperature
+level of photosynthesis to meet the plant’s metabolic        and humidity. Higher temperature and lower humidity
+needs. Once the needs of the plant are met, additional       lead to a faster rate of transpiration. This is where it
+assimilates can be used for growth. To draw an analogy       becomes apparent how closely all three basic plant func-
+with people, we all have a base amount of calories we        tions are connected. For example, if the plant isn’t getting
+need every day to keep our heart pumping, keep our           enough water to keep up with the rate of transpiration,
+brain working, and maintain other essential functions.       stomata will close so the plant doesn’t wilt. In addition to
+If we only get enough calories to cover these basic          letting water out of the plant, stomata are what allow car-
+functions, we don’t have any energy for other activities.    bon dioxide into the plant for photosynthesis. So when
+Likewise, if any factor limits photosynthesis to the point   transpiration isn’t occurring, neither is photosynthesis.
+where it doesn’t cover the basic metabolic needs of the      This is why environmental conditions need to be man-
+plant, growth will not occur.                                aged for the purpose of keeping plants active (see “Active
+                                     Protected Culture Plant Basics                                                    59
+
+
+
+
+                               Root Pressure and Watering
+Root pressure is a secondary way by which water
+is cycled through plants. If transpiration is the pull
+from water evaporating from the leaves, root pres-
+sure is the push from water absorbed by the roots.
+Root pressure isn’t as strong a force as transpiration.
+    Root pressure can be manipulated through the
+amount of water applied, and the electrical conduc-
+tivity (EC) of the irrigation water. A high amount
+of moisture and a low EC in the root zone will
+promote higher root pressure. This is because water
+wants to go from a lower to a higher salt concen-
+tration. A higher EC will make it more difficult for
+water to flow into the roots. An extreme example
+of this is when fertilizer burn results from excessive
+amounts of fertilizer salts around the roots, making
+it difficult for roots to draw water from the soil, to
+the point of damage.
+    High root pressure is undesirable, because it
+can promote guttation, meaning drops of moisture
+exuding from the leaves. Guttation is bad because it
+makes the leaves wet. The best way to avoid gutta-
+tion is by avoiding overwatering, and not watering
+at night.
+    A rule of thumb is: Don’t start watering until          Figure 5.1. The water droplets along the edges of the
+two hours after sunrise, stop watering two hours            tomato leaves are an example of guttation.
+before sunset, and avoid watering overnight alto-
+gether. It’s desirable to apply water only when the         where the fluid has dried, compounds are left behind
+plant is active and the roots are taking up water.          that are visible as a whitish film. In a worst-case sce-
+Otherwise, water tends to sit in the root zone.             nario, such as in a very humid environment (which
+Standing water promotes the development of soil-            might contribute to guttation in the first place), the
+borne diseases and excessive root pressure, which           sugars in the fluid may begin to mold, which could
+can lead to guttation and splitting in tomatoes.            lead to secondary infections.
+Cucumbers are also particularly prone to gutta-                 The exception to the “no night watering” rule
+tion, but other crops will experience this if root          is in some arid environments, where very dry air
+pressure gets high enough.                                  may sometimes necessitate night watering. In these
+    You can sometimes spot guttation through the            cases, it should be kept to the minimum necessary to
+sugars in the fluid it produces. In a best-case scenario,   avoid water stress.
+60                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+Plants” on page 97). Because when plants aren’t active,         that reduce the amount of light that actually reaches the
+they’re burning energy without making energy.                   ground. For example, if you’re considering building a
+                                                                greenhouse in an area that receives a lot of light but tends
+                                                                to be cloudy, a DLI map would warn you that a lot of the
+       Factors Affecting                                        PAR would be blocked.
+                                                                    Generally speaking, the closer you are to the equator,
+       Plant Growth in                                          the more solar radiation you’ll receive, simply because
+       Protected Culture                                        more light hits that part of the globe than closer to the
+                                                                poles. This is why light levels have been more of a bar-
+The basis of protected culture is learning the ideal            rier to extended-season production in far-northern and
+conditions for your crop species, and creating those con-       far-southern areas. But a DLI map can show you more
+ditions to the best of your ability given the capabilities of   specifically which times of the year an area will or won’t
+your structure. The main factors affecting crop growth          support plant growth. There may be times when your
+in protected culture are light, water, carbon dioxide,          area receives borderline amounts of light for certain
+temperature, humidity, and availability of nutrients.           crops. If light levels are marginal, either you can grow
+Manipulate the growing environment to keep these                a crop with lower light requirements—like lettuce or
+conditions as close to the ideal as possible.                   greens—or there may be enough light to support a seed-
+                                                                ling crop at the beginning or a topped crop at the end of
+                                                                the season.
+                         Light                                      The numbers on a DLI map express how much light
+Since all plants use light to produce energy through            you get on an average day in a given area. In protected
+photosynthesis, the amount of light is one of the most          culture, light is usually measured in moles of light falling
+basic factors affecting plant growth. When it comes to          on a given area per day, as in 15 moles (mol) per square
+extending the season, the question is whether your struc-       meter (m-2) per day (d-1). In practice you will see this
+ture receives enough light to grow in the darkest part          written as: 15 mol × m-2 × d-1. DLI measures the cumu-
+of the year. Even if you have plenty of heat, you need to       lative amount of light an area receives; it’s possible for a
+make sure you have enough light.                                short, bright day to receive as much light as a long, over-
+    The ability to measure the amount of light is               cast one. Most of the leafy crops can be produced with 12
+important when deciding both where to situate a new             to 14 mol × m-2 × d-1, though they will grow faster with
+greenhouse or hoophouse and whether or not to grow              more light. The vining/fruiting crops need between 20
+a particular crop at a certain time of year. When talking       and 30 mol × m-2 × d-1 to produce well.
+about light in regard to plants, we measure photosynthet-           Look at a DLI map to find out what the wintertime
+ically available radiation (PAR), because plants can’t use      average is for your area. You will see why growers plan-
+all of the light humans can see in the visible spectrum.        ning on year-round greenhouse production of fruiting
+PAR describes the range of light that plants can use to         crops locate in the Southwest, or else install grow lights.
+photosynthesize (from 400 to 700 nanometers).                   Likewise, it’s more viable to grow long-season fruiting
+    To assess the amount of light available in a given area,    crops with high light requirements in the Northeast
+you need to know the daily light integral (DLI). DLI is         than at the same latitude in the Pacific Northwest. The
+like a rain gauge for light; it measures how much PAR           typically cloudy winter weather in certain areas of the
+an area receives. Just as you can look at a rain map and        Northwest precludes very long-season fruiting-crop
+see how much water an area tends to receive, you can            production, even though you will have to use more heat
+look at a DLI map and see how much PAR an area gets,            in the Northeast. Lights for vegetable production (as
+averaged over a period of time. This is important because       opposed to seedling production) are such a big invest-
+DLI takes into account cloud cover and other factors            ment to install and run that for most growers, the best
+                                             Protected Culture Plant Basics                                                                61
+
+
+                                             Outdoor Daily Light Integral (DLI) Maps
+
+
+              January                                  February                                   March
+
+
+
+
+                April                                     May                                      June                    Outdoor average
+                                                                                                                           daily light integral
+                                                                                                                           (mol × m-2 × d-1)
+                                                                                                                                    5–10
+                                                                                                                                    10–15
+                                                                                                                                    15–20
+                                                                                                                                    20–25
+                                                                                                                                    25–30
+                July                                    August                                  September                           30–35
+                                                                                                                                    35–40
+                                                                                                                                    40–45
+                                                                                                                                    45–50
+                                                                                                                                    50–55
+                                                                                                                                    55–60
+
+
+
+              October                                 November                                  December
+
+
+
+
+To estimate the DLI inside your greenhouse for a particular month:
+   1. Use a light sensor to determine light intensity outdoors at noon on a clear day.
+   2. Go into your greenhouse and take light intensity measurements at plant level.
+   3. Use these values to determine the percentage of light outdoors that reaches your crops. For example, if you measure 6,300
+       footcandles outside the greenhouse and an average value of 4,100 footcandles inside, your light transmission value is about
+       65 percent.
+   4. Multiply the DLI value indicated in the maps above by the transmission value to obtain the average DLI inside your greenhouse.
+       For example, if your transmission value is 65 percent and the DLI for your location is 20 mol × m-2 × d-1, then your average DLI
+       that month is 13 mol × m-2 × d-1.
+
+Figure 5.2. A DLI map shows how much sunlight an area receives at different times of the year. Reproduced with permission
+from Jim Faust et al., “Mapping the Monthly Distribution of the Daily Light Integral Across the Contiguous United States,”
+HortTechnology 12 (2002).
+62                       The Greenhouse and Hoophouse Grower’s Handbook
+
+
+idea is to stick to growing crops that can be produced in       water is extremely basic or acidic, adjusting the pH isn’t
+their area using natural light.                                 that expensive, and it’s much cheaper than losing plant
+   Three principles allow growers to extend the season          growth. There are in-line systems that can adjust water
+quite a bit without having to install lights in the main        to a desired pH if necessary.
+production area. The first is to propagate seedlings in
+the darkest part of the year with supplemental lighting.
+When they are small, the seedlings are grown at high
+                                                                                 Carbon Dioxide
+density, so a much smaller area can be lit for propagation      Low CO2 levels can become a limiting factor for growth,
+than for the same number of plants in production.               especially during times of the year when the structure is
+   Second, seedlings need much less light to grow than          kept closed to retain heat. Since plants consume carbon
+do mature plants. Small seedlings may only require 6            dioxide in the air during photosynthesis, levels can
+to 9 mol × m-2 × d-1, with light needs increasing as the        become depleted to the point that they slow growth
+plants get bigger. This is why it’s possible to transplant      when there isn’t much air exchange. CO2 should be
+seedlings into an unlighted production greenhouse, even         thought of as fertilizer in the air, since it’s consumed and
+in the north in January, and let the plants grow as the         depleted in the same way as nutrients in the soil.
+light levels increase. The low light levels at the beginning        Many growers supplement CO2 because it can easily
+and end of the year may support seedling and leafy-crop         fall below the level needed for optimal growth. It’s worth
+growth though they won’t support mature fruiting-crop           monitoring CO2 levels in the greenhouse to know if
+production. One way to think of it is that often low light      this is happening. CO2 management can take the form
+levels are enough to grow leaves but probably not fruit.        of venting specifically to introduce fresh air when lev-
+   The last trick to get through dark times of the year         els are low, or supplementing CO2 by adding it to the
+without lighting is to increase spacing to reduce shading.      greenhouse.
+In tomato production, it’s fairly common to start the year          One of the ways greenhouse growers boost yields is
+with a certain number of stems, and develop an extra            by augmenting CO2 levels above the ambient level. For
+stem every few plants in the late spring. This increases        most greenhouse crops, boosting CO2 to between 800
+the planting density to take advantage of high light levels     and 1,000 ppm increases photosynthesis by as much as
+in the summer. You can top this extra stem in the fall to       50 percent over ambient levels. Since CO2 is only con-
+stop its growth and reduce stem density again as light          sumed during photosynthesis, augmentation only needs
+levels go back down. In this way you can manipulate             to occur during daylight hours.
+plant density throughout the year to match light levels,
+with higher planting density corresponding to higher
+light levels.
+                                                                                   Soil Fertility
+                                                                Fertility is an important factor affecting plant growth
+                                                                because if a plant doesn’t have enough nutrients, it
+                         Water                                  cannot fulfill its growth potential. Soil growing is compli-
+Make sure the plants’ water needs are always met. When          cated because it can be difficult to determine how much
+plants are drought-stressed, they close stomata to stop         fertility is available in the soil at any given time. This is
+respiration; subsequently, growth also stops. Quality           one of the big reasons why large-scale commercial pro-
+of water is important as well. Many soil growers don’t          duction of greenhouse vegetables has overwhelmingly
+check their irrigation source, but it’s a good idea to do so.   moved to hydroponic production. But soil does have
+Some areas of the country may have water sources that           advantages, especially for smaller growers, including
+are outside the ideal for plant growth. Water that is too       being a more forgiving medium, since it permits a larger
+acidic or basic may interfere with nutrient uptake, and         root system with more soil volume per plant. This larger
+will change the pH of the growing medium over time. If          root area is capable of more buffering, or evening out and
+                                          Protected Culture Plant Basics                                                 63
+
+
+                                                                compensating for fluctuations in the amount of nutri-
+                                                                ents and water levels when abrupt changes occur. Plus,
+                                                                many organic certification programs, including those in
+                                                                Europe and some in North America, do not currently
+                                                                allow organic certification for hydroponic growing.
+                                                                    The starting point for getting good protected culture
+                                                                soil fertility is a good soil test. The specialized soil test
+                                                                used for greenhouse crops is the Saturated Media Extract
+                                                                (SME) test, sometimes called the Greenhouse Media
+                                                                test. Not every soil testing service offers this, but many
+                                                                university and commercial labs do. It’s both inexpensive
+                                                                and well worth the money to get an idea of what’s in your
+                                                                soil. Without a soil test, you’ll have nothing to guide you
+                                                                in figuring how many nutrients are available in relation
+                                                                to what your plants need. Any applications of fertility
+                                                                without one are just guesses. An SME greenhouse soil
+                                                                test takes into account the larger amounts of nutrients
+                                                                that are necessary to feed a crop over an extended season.
+Figure 5.3. We take advantage of greens’ tolerance of much          The soil test results will provide recommendations
+lower temperatures to plant a crop in the fall where we grow    based on the specific crop you intend to grow. But while
+our fruiting crops in the summer. A layer of row cover inside   they’ll clue you in to what the crop needs, you’ll still have
+the hoophouse provides a second layer of protection in the
+                                                                to figure out what fertilizers to use, and in how many
+depths of winter.
+                                                                applications. Fertility needs for quick crops—most of
+                                                                the greens crops, for example—are easier to figure out;
+                                                                since their crop cycles are so much shorter, it may be pos-
+                                                                sible to develop a standard pre-plant fertilizer that can
+                                                                be applied before every crop to feed it from transplant
+                                                                to maturity.
+                                                                    The challenge with long-season greenhouse crops is
+                                                                that it isn’t possible to apply all the fertilizer necessary
+                                                                up front, at the beginning of the crop. Applying a whole
+                                                                season’s worth of fertilizer would likely make the vining/
+                                                                fruiting crops excessively vegetative (see chapter 7) due
+                                                                to too much nitrogen in particular. The way to avoid this
+                                                                is to incorporate only a portion of the fertilizer into the
+                                                                soil before planting, and apply the remainder gradually
+                                                                throughout the season. Some growers apply half or a
+                                                                third up front and the rest over the course of the season.
+                                                                The two main ways of applying fertility after planting
+                                                                are side dressing solid nutrients to the root zone, and
+                                                                applying liquid nutrients through irrigation water, oth-
+                                                                erwise known as fertigation.
+                                                                    The advantage of using fertigation to meet supple-
+Figure 5.4. Here are the results the following spring.          mental fertility needs is that it’s so easy. As long as you
+64                        The Greenhouse and Hoophouse Grower’s Handbook
+
+
+                                                                  Using compost can lead to excess levels of phosphorous
+                                                                  over time, so use other fertilizers to meet the rest of the
+                  Foliar Sprays                                   needs of the crop. Since managing soil fertility can be
+                                                                  tricky, do your own real-time monitoring of crop growth
+     I am not a big fan of foliar feeding plants after            with crop registration (see chapter 7).
+     the seedling stage, because this gives up two                    Tissue testing is another important way to see how
+     of the biggest protected culture advantages:                 well your crops’ needs are being met. Just as soil testing
+     dry leaves and clean produce. Wet leaves will                will show you what’s in the soil, tissue testing will tell you
+     increase the chances of developing foliar dis-               what’s actually getting through to the plant. You can send
+     eases, and foliar sprays have the potential to               a sample of leaves from a few different plants to a labora-
+     leave residue that will make produce look dirty.             tory, which can tell you how the leaves’ nutrient content
+                                                                  compares with the ideal for the crop. Some growers only
+                                                                  use tissue testing when there are physical symptoms that
+                                                                  can’t be linked to a particular pathogen, while others send
+have a fertilizer injector, it can be seamlessly incorporated     off a tissue test every week or two to see what’s going on
+into daily watering. Some growers make many small,                in their plants. But regular tissue testing is well worth it
+dilute applications of fertilizer. Others will apply larger       in a greenhouse of any size, because it can tell you when
+doses of fertilizer more infrequently. The downside to            plants are running low on a particular nutrient before
+fertigation is that you’re limited to fertilizers that flow       deficiencies show up. This is important because by the
+through irrigation lines; anything that isn’t completely          time deficiencies show up, they will take a while to cor-
+soluble is off limits.                                            rect, and you have likely already lost some production.
+    On the plus side for side dressing, you can use almost        With regular tissue testing you can be proactive and head
+any fertilizer you want. However, side dressing requires          off major production problems before they occur.
+more labor, and it can be tricky to activate solid fertilizers
+in the root zone of the plant. If fertilizer sits on top of the
+soil in a humid greenhouse environment, it may mold.
+                                                                                     Temperature
+On the other hand, if the greenhouse environment is               Temperature is one of the most basic influences on
+very dry it may sit on top of the soil and stay too dry for       how any plant grows. Making the temperature more
+the roots to penetrate it.                                        favorable than the prevailing outdoor temperature is
+    Finding the right frequency is a matter of matching           one of the main reasons for wanting to grow in protected
+the amount and kind of fertilizer to the needs of the crop.       culture in the first place. Understanding how to control
+When applying fertilizer to soil crops, there are a few           it is important for maximizing the health of your plants.
+rules of thumb. If you’re fertigating, get assurance from             There are two important ways of thinking about tem-
+the manufacturer that the product will not clog drip tape         perature for understanding its effects on plants. Minimum
+or irrigation lines. Even seemingly soluble products can          and maximum temperatures express the range a certain
+sometimes cause blockages. And clogged emitters on a              species should be kept within temperature-wise. Twenty-
+hot day can be a serious problem, in addition to being a          four-hour average temperature is important because the
+big waste of time.                                                average temperature over the course of a day’s growing
+    If you’re applying solid fertilizers, avoid pure applica-     cycle has a big effect on the way a plant develops.
+tions of large amounts of blood meal that isn’t thoroughly
+mixed in with other fertilizers. Its high nitrogen content
+                                                                  Minimum and Maximum Temperatures
+can volatilize and cause damage to plants in confined
+environments. If you’re using compost, only apply up              The recommended minimum and maximum tempera-
+to the point of meeting the crop’s phosphorous needs.             tures vary by crop, and form the boundaries within
+                                         Protected Culture Plant Basics                                                    65
+
+
+
+
+Figure 5.5. This greenhouse in Florida has a retractable roof for maximum ventilation, and reinforced end walls to withstand
+hurricane-force winds.
+
+
+which a species will be most productive. These are the           growing season. In heated greenhouses, cold stress can
+highest and lowest temperatures at which the plant               be eliminated by setting the thermostat at or above
+will stay happy. Most crops can tolerate temperatures            the minimum temperature, but in many areas in the
+well outside the minimum or maximum before dying,                summer, it’s impossible to keep greenhouses below the
+but plant growth and productivity will suffer during             maximum temperature, even with maximum ventilation
+any time spent outside the ideal. These temperatures             and cooling.
+are useful for developing set points for thermostats.                Lowering nighttime temperature can help alleviate
+Though unheated-high-tunnel growers do not have as               the effects of extreme daytime temperature to some
+much control over the climate, they will still want to           degree, as explained in “Twenty-Four-Hour Average
+understand min/max temperature. Even in the most                 Temperature” on page 66. However, there is no way
+basic hoophouses, outdoor temperature will determine             around the fact that crop growth will suffer when condi-
+crop timing, tell you when to ventilate, and perhaps             tions are too hot.
+explain why crops are not doing well when min/max                    When the maximum temperature is exceeded even
+temperatures have been exceeded.                                 slightly, growth efficiency may decline as the plant
+                                                                 allocates more resources to respiring and keeping cool.
+M a x i m u m T e mp er atu r es                                 If the temperature continues to rise and the maximum
+It’s inevitable in most greenhouses that temperatures            temperature is exceeded by a lot, water stress may occur
+will go above the ideal at some point during the                 as it becomes difficult for the plant to bring in enough
+66                        The Greenhouse and Hoophouse Grower’s Handbook
+
+
+                                                                   below the maximum temperature, because effects on
+                                                                   plant growth can be unpredictable once it’s exceeded.
+
+                                                                   Min imum T emperat ures
+                                                                   The minimum temperature given for each crop is well
+                                                                   above what the plant can tolerate and survive; rather, it’s
+                                                                   the lowest temperature that a crop can experience with-
+                                                                   out a loss of productivity. Below this temperature, plants
+                                                                   start to shut down, and not only will they lose produc-
+                                                                   tivity, but it will cost them precious growing time to get
+                                                                   going again once they do warm up. What temperatures
+                                                                   will actually cause crop damage and death are unpredict-
+                                                                   able. Frost can occur and cause severe damage to tender
+                                                                   crops without actually reaching 32°F (0°C), depending
+                                                                   on other atmospheric conditions.
+                                                                       Some greenhouse growers try to save money on
+                                                                   fuel by running lower-than-ideal night temperatures.
+                                                                   This can be penny wise and pound foolish, as they will
+                                                                   save some money on the heating bill but will lose more
+                                                                   money from lower production. Cold stress can hurt
+                                                                   photosynthesis for multiple days following a cold night.
+                                                                   If you’re heating a greenhouse, paying the cost to keep it
+                                                                   above the minimum temperature pays you back in extra
+                                                                   production. Elimination of cold stress is one of the many
+Figure 5.6. When grown at dense greenhouse spacing,                reasons greenhouse growing is so much more productive
+double rows of vining crops like these tomatoes form a             than field and hoophouse growing.
+dense hedge of plants.
+
+                                                                   Twenty-Four-Hour Average Temperature
+water to match the rate of transpiration. If water stress
+becomes severe, wilting may occur and the plant may                The average temperature over a twenty-four-hour
+close its stomata in order to stop further transpiration           period determines how fast a crop will grow, with faster
+and water loss. Growth grinds to a halt under these con-           respiration at a higher temperature driving a faster rate
+ditions, since if the plant isn’t transpiring it isn’t bringing    of growth. Rate of growth determines how quickly new
+in water and nutrients for photosynthesis. Depending               leaves, flowers, and roots are produced.
+on the crop and conditions, excessive heat can kill the               Plants respond more to the average temperature than
+blossoms before they can set fruit.                                to extremes. That’s why at the beginning of the climate
+    It’s impossible to put a point exactly on when plant           section for each individual crop chapter (chapters 9–13),
+death occurs. When a plant dies depends on a complex set           I provide a recommended average temperature for each
+of factors, including time spent at certain temperatures,          crop. This is the average temperature that will maximize
+available water, humidity, overall plant health, and more.         yields of fruit or leaves, depending on the crop. Ideally
+If water stress is acute, it’s possible for plants to lose indi-   you want day and night temperatures to average out to
+vidual leaves or parts of them that became too wilted to           this number.
+recover without losing the whole plant. Suffice it to say             Using the average temperature in conjunction with
+that you want to try to keep the growing environment               the min/max temperatures for each crop will give you
+                                         Protected Culture Plant Basics                                                      67
+
+
+
+
+                            Using Minimum Temperatures for
+                               Hoophouse Crop Scheduling
+    In all but the mildest of areas, cold stress is a fact of   revised the forecast back into freezing territory. Also,
+    life for hoophouse growers. Though they heat up             though the structure may warm up a lot by day, it’s
+    a lot when the sun is out, single- or double-layer          still going to be very cold at night, so even if you plant
+    hoophouses don’t stay much above the ambient air            just after the last frost date, the plants are going to
+    temperature at night. In fact, if the nighttime low         experience a lot of cold stress and not grow very fast
+    temperature holds for an extended period of time,           anyway. If you have the plants in a heated propagation
+    the temperature in the hoophouse may get as low as          area, it’s a good idea to leave them there where they
+    it is outside. Hoophouse growers can plant earlier          will continue to grow actively rather than moving
+    than field growers, but not by a whole lot. At the          them into a hoophouse where they will stall out until
+    very least, growers using unheated structures need          the weather improves. It’s your job to keep the plants
+    to wait until danger of frost is past to plant sensitive    in continual growth, because once they have stalled
+    plants like the fruiting crops in this book. It’s not       out for any reason it will take them a while to recover.
+    worth pushing it, trying to plant on the very first             Hoophouse growers should use nighttime lows as
+    day of the season with a frost-free night.                  a basis for crop scheduling, and wait until tempera-
+        From experience, I can say that by the time you         tures are well out of the damaging range to plant
+    get your hoophouse planted, meteorologists will have        sensitive crops.
+
+
+
+
+an idea how much latitude you have temperature-wise             eggplant). At lower twenty-four-hour average tempera-
+to even out extreme temperatures. The most common               tures, internodes are closer together, flowers are larger,
+example of this is using cooler night temperatures to           and stems and leaves are thicker. Growth initiated at
+balance out hotter-than-desirable day temperatures.             higher twenty-four-hour average temperatures tends to
+   For example, let’s say you want to run an average tem-       have the opposite characteristics: Internodes are farther
+perature of 70°F (21°C) in a cucumber crop. You know            apart, and flowers, stems, and leaves are smaller. Other
+your maximum temperature is 86°F (30°C) and your                factors figure into the plant’s morphology; how gener-
+minimum, 65°F (18°C). You can make up for a hotter-­            ative or vegetative a plant is will affect these same plant
+than-desirable day by making night temperatures a little        features (see “Crop Steering for Generative or Vegetative
+cooler than usual. But you can’t make up for a 100°F            Growth,” chapter 7).
+(38°C) day by making it 40°F (4°C) overnight. The                  I’ve heard a lot of people say that the twenty-four-
+plants would shut down if it got that cold. Based on your       hour average temperature seems lower than they would
+minimum temperature, the coolest you would ever want            have expected for each crop. Keep in mind that it’s an
+to go on a cuke crop would be 65°F (18°C). So minimum           average, and that daytime temperatures will be higher
+and maximum temperatures set the parameters within              and nighttime temperatures lower. Temperatures should
+which to try to create a given average temperature.             be adjusted on a daily basis in reaction to weather condi-
+   In addition to determining how fast the plant grows,         tions. For example, on a day when daytime temperatures
+the temperature under which plant growth occurs plays           get too high, nighttime temperatures can be lowered
+a part in determining the nature of the growth for the          (though not below the minimum temperature for the
+fruiting crops (tomatoes, cucumbers, peppers, and               crop) to even out the effect on the twenty-four-hour
+68                      The Greenhouse and Hoophouse Grower’s Handbook
+
+
+                                                            in the air. But whereas RH measures how full of moisture
+                                                            the air is, VPD measures how much capacity the air has
+            Day/Night                                       to take on additional moisture.
+      Temperature Differential                                  Understanding RH and VPD is important for pro-
+                                                            tected growers because along with increasing control
+     It’s not enough to simply set the temperature          over the climate comes control over humidity. The
+     controls to the ideal average temperature.             amount of moisture in the air has a big effect on plant
+     Especially for the fruiting crops, it’s desirable      growth, so manipulating humidity is an important part
+     to have a day/night temperature differential.          of optimizing plant growth. The ability to manipulate
+     Even if you could somehow maintain a flat tem-         humidity to keep it within an optimal range is a huge
+     perature profile with no day/night variation,          benefit of having a heated greenhouse. This is particu-
+     this would have an extremely vegetative effect         larly useful early and late in the season when structures
+     on fruiting crops. Because tomato crops have           are kept closed to preserve heat, and humidity can build
+     been so extensively studied, they offer the best       up to very high levels.
+     example of why this is the case.                           Relative humidity is a percentage that expresses how
+         All other things being equal, the fastest          much moisture is in the air versus how much moisture
+     way to grow a tomato plant would be to set             the air can hold. For example, an RH of 50 percent means
+     day and night temperatures to 77°F (25°C).             that the air is halfway saturated with water vapor and can
+     But this would result in an excess of leaf and         hold twice as much as it is currently holding. The higher
+     shoot growth at the expense of fruit produc-           the number, the closer the air is to being at capacity. RH
+     tion (see “Crop Steering for Generative or             is somewhat imprecise for determining the impact of a
+     Vegetative Growth,” chapter 7). So it would be         given amount of moisture in the air on plant growth.
+     the fastest way to grow the plant, but not the         This is because relative humidity is highly dependent
+     fruit. The day/night temperature differential          on air temperature. The water-holding capacity of air
+     in each crop’s temperature recommendations             roughly doubles with each 20°F (10°C) increase in tem-
+     has been developed to maximize the speed               perature. The RH of a given body of air increases if the
+     of crop growth without compromising fruit              temperature is lowered, and decreases if the temperature
+     production.                                            is raised. Picture cold air as a small bucket, with little
+                                                            capacity for moisture, and hot air as a large bucket. The
+                                                            hotter the air, the bigger the bucket gets. In fact, air at
+                                                            77°F (25°C) can hold more than twice as much water as
+average. This is where good temperature sensors and         air at 50°F (10°C).
+computer control are handy, because the computer can            Vapor pressure deficit is essentially a temperature-­
+calculate daily average temperatures in real time for you   compensated way of expressing the moisture carrying
+to base your heating and cooling decisions upon.            capacity of air. Instead of expressing how much water is
+                                                            in the air, VPD is an expression of how much capacity a
+            Relative Humidity                               body of air has to absorb more moisture. VPD and RH
+                                                            have an inverse relationship. When RH is high, VPD
+        and Vapor Pressure Deficit                          is low.
+It’s just as important to manage the water in the air as        VPD can be expressed in kiloPascals (kPa) or millibars
+it is to manage the water in the soil. Extremely high or    (mbar), though mbar is more common in greenhouse
+low humidity is bad for plant growth. Relative humidity     uses. Either format is an expression of the pressure that
+(RH) and vapor pressure deficit (VPD) are two different     water vapor in the air exerts. VPD is more accurate than
+ways of expressing the same thing: how much moisture is     RH in measuring the effect of humidity in the air at
+                                         Protected Culture Plant Basics                                                   69
+
+
+
+
+Figure 5.7. As plants grow up they shade each other, which is how to maximize the number of plants in a structure. The plants
+don’t suffer, since most of the photosynthesis occurs in the upper leaves, and on a bright sunny day they can get more light
+than they can use.
+
+any given temperature, because it’s an expression of the         leaf and in the surrounding atmosphere. This is why
+transpirational pull, or the strength of the movement of         little transpiration occurs when VPD is very low. In
+water from the leaf into the atmosphere.                         other words, low VPD means there isn’t much difference
+   Since the interior of a living leaf is always wet, VPD        between the amount of water inside and outside the leaf.
+reflects the difference between the vapor pressure in the        If it’s very humid, there isn’t much draw for the moisture
+70                        The Greenhouse and Hoophouse Grower’s Handbook
+
+
+
+
+Figure 5.8. The piece of equipment in this teaching greenhouse at the University of Arizona is a carbon dioxide generator.
+When the amount of CO2 goes below a set level, it turns on, giving off CO2 and heat.
+
+
+inside the leaf to come out. VPD can be calculated using a        100 percent and the air is saturated, transpiration won’t be
+chart showing the value at each temperature and relative          possible until the RH goes down and VPD goes up. What
+humidity. Many climate control programs will calculate            we’re looking for in protected culture is a happy medium
+VPD for you.                                                      where transpiration is active but not too fast. For most
+    The bottom line for plants is that as RH gets higher          greenhouse crops, this happy medium is a VPD between 4
+and VPD gets lower, transpiration will become increas-            and 8 mbar, or an RH between 70 and 80 percent.
+ingly difficult. Conversely, when RH gets low and VPD                As for the relationship between transpiration and RH/
+gets high, this drives a higher transpiration rate. Plant         VPD, anything that causes the process of transpiration to
+transpiration is active in that a plant can open or close         shut down must be avoided, because when plants are not
+stomata to start or stop it, but it’s passive in the sense that   transpiring, they aren’t cycling water and nutrients, and
+it depends on the air being able to accept moisture from          they aren’t growing. Plants stop transpiring when their
+the plant. It can’t just spit moisture out the stomata if the     stomata have closed to conserve moisture. Even if their
+air becomes too saturated to absorb the moisture the plant        stomata are open, plants may not be able to transpire if
+is trying to release. In the most extreme scenario, if RH is      RH is very high and VPD very low.
+                                        Protected Culture Plant Basics                                                71
+
+
+    Even when plants can respire, RH or VPD outside               Prevailing VPD conditions have a strong effect over
+the ideal range may cause respiration that’s too fast or       plant morphology. For example, plants grown in more
+too slow. High humidity slows transpiration, and low           humid northern North America will look different from
+humidity speeds it up. The closer the air is to being sat-     the same varieties grown in the dry desert Southwest.
+urated, the more difficult it becomes for plants to release    Plants grown under humid conditions will have larger,
+water into the air. Since water is one of the by-products      thicker leaves and stems. Plants grown under dry air
+of photosynthesis, not being able to release it slows pho-     conditions will have smaller, thinner leaves and stems.
+tosynthesis. Sluggish transpiration will also cause slowed        When RH is chronically too high and VPD too low,
+growth, because plants aren’t cycling water and nutrients      plants can have weak root systems, as the plant is not
+through the plant fast enough.                                 stimulated to produce a lot of roots to feed transpira-
+    At the opposite end of the spectrum, if the air is so      tion. A temporary condition called lazy root can occur
+dry that roots can’t keep up with the rate moisture is         when transpiration is slowed for a prolonged period
+leaving the leaves, stomata may close to try to keep the       and then picks back up again; for example, during an
+plant from losing too much moisture and wilting. Since         overcast period followed by hot and sunny weather. This
+transpiration cools the plant, closed stomata during hot       condition can be the culprit behind temporary wilting
+parts of the day can result in overheating and damage to       following a cloudy spell, while the roots catch up with
+the plant.                                                     the plant’s demand for water. The good news is that
+    The effects of stopped transpiration are so dramatic       plants usually outgrow lazy root as long as other growing
+that they’re apparent to the touch. Under most circum-         conditions are normal.
+stances, if you touch the leaf of a plant in a greenhouse         The increased control of protected culture is only
+or hoophouse it will feel cooler than the surrounding air,     useful if you understand how to manipulate the environ-
+because the evaporation from transpiration is cooling          ment and the plants grown in it. Knowing how to help
+the leaf. If plants feel hot, it’s likely that transpiration   the plants grow as well as possible requires understanding
+has stopped. Regardless of what’s causing it, a hot plant      the many factors that impact growth. The actions we take
+is a bad sign. It could mean that humidity is so high that     in protected culture are based on the many fascinating
+it’s preventing transpiration from occurring even though       ways that plants are influenced by their environments.
+stomata are open. Or it could mean that stomata have           This summary of plant biology as it relates to protected
+closed as a reaction to water stress, and the plants are on    culture has laid the foundation for many of the concepts
+the verge of wilting.                                          yet to come in the book.
+   PA R T T W O
+
+
+Crop-Specific
+Best Practices

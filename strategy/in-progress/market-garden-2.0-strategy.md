@@ -128,10 +128,13 @@ journey, not just the cheap rung. Percentages TBD.
 **Coaching calls:** 1 hr/week, group format. Fixed cost regardless of
 member count → scales at $18/mo.
 
-Open issues: rev-share percentages; virtual-consultant app build effort vs
-gamble-shrinking goal (v1 = human-curated guide + spreadsheets?); sensor
-business case; supersedes products.md pricing ($40/mo standalone, free w/
-GFM) — update products.md once locked.
+**Virtual consultant app (locked 2026-06-11):** ship in v1 of the program
+tier. Mostly already built; Orisha builds apps efficiently — concierge-MVP
+detour not worth it.
+
+Open issues: rev-share percentages; sensor business case; supersedes
+products.md pricing ($40/mo standalone, free w/ GFM) — update products.md
+once locked.
 
 ---
 

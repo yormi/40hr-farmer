@@ -5,11 +5,10 @@ Outlines for 40hr Farmer program videos. 3 min ideal, 5 min max.
 ## Locations
 
 - Process (procedure, spec, scaffold, sources): `outline/process/`
-- Drafts: `outline/in-progress/<topic>.md`
-- Locked outlines: `outline/<topic>.md`
+- Per-month outlines: `outline/<N>- <Month> - <Topic>/` — staged files (`01-brainstorm.md`, `02-video-cuts.md`, …) plus that month's source docs (`domain.md`, `andrew-*.md`).
 - Template: `outline/process/template.md`
 
-When a draft locks, move it from `in-progress/` to `outline/` and flip `Status:` to `locked`.
+Each stage file carries its own `Status:`. Flip it in place (`draft` → `locked`); files stay in the month folder.
 
 ## Structure (locked 2026-05-19)
 

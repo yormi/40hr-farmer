@@ -18,7 +18,7 @@ outlines.
 - **4-12 short videos**, 3 min ideal / 5 max. Brainstorm clusters decide
   the count.
 - Casting + per-beat speaker tags + b-roll shot plan: see
-  `outline/template.md`. Each video keeps intro / body / conclusion.
+  `outline/process/template.md`. Each video keeps intro / body / conclusion.
 
 ## Pre-seed Sources
 
@@ -107,7 +107,7 @@ outlines.
 
 ### Stage 4 — Finalize
 
-1. **[Claude]** Fill `outline/template.md` per video
+1. **[Claude]** Fill `outline/process/template.md` per video
     * Hook, body beats with speaker tags, one-action close, next hook + b-roll + casting shot plan
     * Use the input-enriched skeletons
     * Populate the `Outline` tab in place

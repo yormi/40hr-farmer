@@ -53,13 +53,12 @@ stays necessary. Vigor going wrong drains yield four ways.
 
 ### Climate steering
 
-- **Go into the hot season with maximum vigor:** heat will spend it.
+- **Go into the hot season with maximum vigor:** Otherwise, that's a sign your
+  plant is already exhausted and it'll only get worse when heat comes.
 - **Temperature average** Instant temperature = no big deal. Important = average. How to calculate.
   Sensor in the wrong place overstates temperature. Show where to install it.
 - **Day vs night temperature:** flat profile = vegetative; wide day-to-night gap = fruit.
 - **Night floor:** lower nights offset hot days, only to a point (~60F floor).
-- **Pre-night treatment:** rapid end-of-day temperature drop = more generative.
-  Orisha automates it. Skip on cloudy days, not enough energy.
 - **Temperature vs fruit load:** more clusters = run cooler. Show how Orisha does it.
 - **Cloudy days:** drop toward 63F; warmth without light grows weak stems.
 

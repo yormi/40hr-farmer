@@ -35,6 +35,29 @@ green, turgid, undistorted.**
 | Patchy by bed or input batch | Check that bed's water / feed. |
 
 
+## Severity ladder
+
+Where cupping sits, and what's next if the stress holds.
+
+| Rung | Sign | State |
+|---|---|---|
+| 1. Stomata shut | leaf not cooler than air (touch test) | invisible |
+| 2a. Cupping | margins cup upward, green, normal shape | mild, reversible |
+| 2b. Rolling | leaflets roll lengthwise into tubes toward midvein | moderate, reversible |
+| 3. Wilting | turgor gone, canopy droops | severe |
+| 4. Scorch | dead leaf margins | damage done |
+
+Touch test catches rung 1 before the eye sees anything.
+Cupping (2a) and rolling (2b) are one response worsening, not
+two diagnoses. Caught at either, leaves recover once the lever
+is fixed; prolonged rolling may not unroll but new growth comes
+clean.
+
+Roll-up reference — rung 2b, leaflets curled into tubes:
+
+![Leaflets rolled into tubes, rung 2b](midday-leaf-cupping-rollup.webp)
+
+
 ## Stop — not this protocol
 
 - **Twisted / fern-shaped / distorted tip** → herbicide, mites, or boron.

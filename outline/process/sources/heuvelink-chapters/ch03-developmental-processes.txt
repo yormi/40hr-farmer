@@ -1,0 +1,1461 @@
+                                         3
+                    Developmental Processes
+                      Ep Heuvelink and Robert C.O. Okello
+
+
+
+
+INTRODUCTION
+
+Growth and development in plants are strongly related, but the interpretation
+of plant responses to environmental factors is facilitated by making a distinc-
+tion between these two processes. Plant development is defined as a series of
+identifiable events resulting in a qualitative (germination, flowering, etc.) or
+quantitative (number of leaves, number of flowers, etc.) change in plant struc-
+ture. Growth is defined as an irreversible increase in plant or organ dimensions
+over time, e.g. length, width, diameter, area, volume and mass (Dambreville
+et al., 2015).
+      Plant development starts with fertilization. Fertilization, the fusion of
+pollen and egg nuclei, produces a diploid zygote, which differentiates into the
+embryo, the vital next generation of the plant. Embryo development, or embryo-
+genesis, is accompanied by production of storage tissues, such as endosperm or
+megagametophyte, and maternal integument layers, which in mature seed be-
+come the testa (seed coat). Hormones (e.g. auxin) play important roles in seed
+development and maturation. Precocious germination (vivipary) is controlled
+by abscisic acid (ABA) during late stages of seed development. However, Wang
+et al. (2016) reported vivipary occurring in one accession of tomato rin mutant
+fruit not directly associated with ABA, and concluded that hypo-osmolality in
+rin fruit may be an important factor in permitting limited viviparous germin-
+ation. Single-gene mutations leading to defects in synthesis or sensitivity to
+ABA in tomato result in formation of non-dormant seeds (Bewley et al., 2013).
+      Developmental processes such as germination, root and leaf development,
+inflorescence formation, flower and fruit development all have a strong impact
+on tomato yield and are discussed in detail in this chapter. Photoreceptors such
+as phytochromes play an important role in the control of plant developmental
+processes. Solanum lycopersicum contains five phytochromes: A, B1, B2, E and F
+(Eckstein et al., 2016).
+
+
+
+© CAB International 2018. Tomatoes 2nd edition (E. Heuvelink)               59
+60                          E. Heuvelink and R.C.O. Okello
+
+
+
+SEED AND SEED GERMINATION
+
+The seed of a commercial tomato cultivar is a flattened ovoid, up to 5 mm long,
+4 mm wide and 2 mm deep, consisting principally of the embryo, endosperm
+and testa or seed coat. The testa is covered with large soft hairs, which tend
+to bind with other seeds. Thousand-seed weight varies between 2 g (cherry
+­tomatoes) and 4 g. One hybrid tomato seed may cost over €0.40, which makes
+ it three times more expensive than gold (on a weight basis). Tomato seeds store
+ easily and retain their viability for long periods between 5°C and 25°C and a
+ fairly wide range of relative humidity (RH), and so no particular special storage
+ measures need be taken. James et al. (1964) reported 90% and 59% germin-
+ ation after 15 and 30 years of storage, respectively. Mathematical models have
+ been developed to predict tomato seed longevity as a function of storage condi-
+ tions (e.g. Sinício et al., 2009).
+       Germination performance of the seed is influenced by its characteristics,
+ for example seed size (more rapid germination is associated with smaller seeds,
+ possibly due to a reduced endosperm thickness). Harvesting and extraction of
+ tomato seed before full maturity is detrimental to seed viability and germin-
+ ation, due to the presence of large numbers of immature seeds, whereas in late
+ harvests viviparous germination can be a problem (Demir and Samit, 2001).
+ Dias et al. (2006) evaluated tomato seed quality obtained from fruits harvested
+ from trusses on the plant at 70 days after anthesis. Fruit weight decreased from
+ the first to the sixth truss; however, seeds extracted from fruits of the fourth to
+ sixth trusses had, overall, better quality than those from the first to third truss.
+ On the same truss, distal fruit tended to produce seeds of higher physiological
+ quality than proximal fruit.
+       Seed germination is a central process in the generative life cycle of higher
+ plants. This complex process is regulated by a large number of environmental
+ and endogenous factors. Germination begins with water uptake by the seed
+ (imbibition or rehydration) and ends with emergence of the embryonic axis,
+ usually the radicle, through the structures surrounding it. Cell elongation
+ is necessary, and is generally accepted to be sufficient, for the completion of
+ ­radicle protrusion; cell division is not essential. Radicle protrusion is some-
+  times referred to as ‘visible germination’ (Bewley et al., 2013). The criterion for
+  germination used by physiologists is radicle emergence; seed analysts extend
+  this interpretation by classification of seedlings as either normal or abnormal.
+  Tomato seed is considered a model system for germination research (Nonogaki,
+  2006).
+       Quality of seed lots is usually determined by a standard germination test
+  conducted under ideal conditions in a laboratory. Both total germination
+  ­percentage and uniformity in germination are important characteristics
+   of a seed lot. High germination percentages do not necessarily mean high
+   emergence in practice, especially under suboptimal, fluctuating field condi-
+   tions. For direct-sown tomato crops seed lots with a high vigour, ­indicated by
+                             Developmental Processes                          61
+
+
+more rapid ­germination or greater tolerance of stressful conditions (Bewley
+et al., 2013), are essential. Seed vigour differs from germination in that
+vigour emphasizes the germination rate (rapid and uniform) and its appli-
+cation in forecasting field emergence rather than laboratory performance.
+Seed vigour tests can be divided into categories according to ageing, cold,
+conductivity, seedling performance and tetrazolium tests (AOSA, 2009).
+‘Accelerated ageing’ or ‘controlled deterioration’ tests utilize the extreme
+reduction in seed longevity by the combination of high temperature and
+high humidity (e.g. 40–50°C and 75–100% RH) to rank seed lots (Bewley
+et al., 2013). For greenhouse production, seeds are often germinated in con-
+trolled-environment chambers, which guarantee optimal conditions. When
+seeds are sown into multiplates or peat pots, a germination percentage of
+about 100% normal seedlings is required, as opposed to sowing in seed trays
+and transplanting manually, which allows for some selection. Germination
+rate can be improved by pre-sowing seed treatments with growth regulators.
+Stimulatory effects have been demonstrated for gibberellins (GA) and various
+synthetic auxins. Venkatasubramanian and Umarani (2007) evaluated sev-
+eral seed priming methods to improve tomato seed performance. Priming
+allows the seed water content to be adjusted to a level that permits the seeds –
+provided they are freely aerated – to go through all the essential preparatory
+process of germination but prevents cell elongation and in consequence rad-
+icle emergence. During this waiting period, the less developed or slower seeds
+tend to catch up with the faster ones so that subsequent germination is faster
+and more uniform.
+     In cultivated tomato, seeds are considered non-dormant, whereas some
+studies with wild types suggest that ABA plays a role in a slight dormancy. Seed
+germination of several GA biosynthesis deficient mutants absolutely depends
+on the addition of GA to the medium during imbibition. Physiological, bio-
+chemical and genetic evidence suggests a role for GA in weakening the struc-
+tures covering the embryo during germination. GA biosynthesis in developing
+seeds is involved in embryo growth and the prevention of seed abortion (Kucera
+et al., 2005). These authors present an integrated view of the molecular gen-
+etics, physiology and biochemistry used to unravel how hormones control seed
+dormancy release and germination. ABA is a positive regulator of dormancy
+induction and most likely also maintenance, while it is a negative regulator of
+germination. GA releases dormancy, promotes germination and counteracts
+ABA effects. Ethylene and brassinosteroids (BR) promote seed germination and
+also counteract ABA effects.
+     Environmental factors strongly influence seed germination. Tomato seeds
+characteristically germinate best in the dark; and light will inhibit germination
+in some cultivars. These responses are dependent on phytochrome action.
+Far-red light has been reported to inhibit germination, whereas red light (at
+37°C) promoted germination, suggesting that the presence of Pfr (the far-red
+absorbing form of phytochrome) in the seed is a prerequisite for germination.
+62                         E. Heuvelink and R.C.O. Okello
+
+
+Phytochromes A and B2 were shown to play specific roles, acting antagonistically
+in far-red light (Eckstein et al., 2016). The ability of some light-sensitive culti-
+vars to germinate in the dark has been attributed to high levels of Pfr present
+in dehydrated seed. Effects of water, salinity and temperature on tomato seed
+germination are discussed below.
+
+
+Water and salinity
+
+Without water, no germination will occur. Water absorption by seeds is char-
+acterized by three phases. In the first phase (imbibition), rapid uptake of water
+will occur, whether the seed is viable or not. In the following phase, hydration
+of the cotyledons may take place but the moisture content of the seed remains
+apparently constant. A resurgence in water uptake marks the growth phase
+associated with radical protrusion and subsequent growth.
+     The rate and degree of water uptake for germination are affected by tem-
+perature, water content and salinity. In general, tomato seeds germinate at
+soil water potentials ranging from just above the wilting point to field capacity,
+though optimum germination is usually obtained at 50–75% field capacity.
+Reduced germination at high soil water content is probably caused by reduced
+oxygen availability.
+     Water stress is often associated with increased soil salinity, which may af-
+fect germination in two ways: firstly by creating an osmotic potential that im-
+pedes water uptake; and secondly by entry of deleterious ions. High salt levels
+tend to decrease tomato seed germination, though tomatoes seem to be more
+tolerant of saline conditions during germination than during subsequent
+growth.
+
+
+Temperature
+
+Mathematical models have been developed to describe germination in response to
+temperature on the basis of thermal time or heat units (i.e. degree-days). The basis
+of thermal time is that the temperature in excess of the minimum temperature
+for germination, multiplied by time to a given germination percentage, is a con-
+stant. Constant heat units imply a linear relationship between germination rate
+and temperature. This seems unlikely for germination of tomato seeds, since op-
+timum temperatures between 20°C and 25°C have been reported. However, over
+the suboptimal temperature range (13–25°C) this linearity has been observed by
+Bierhuizen and Wagenvoort (1974). These authors reported a minimum tem-
+perature of 8.7°C for germination and a heat sum requirement of 88 degree-days
+to achieve 50% germination, though in a further paper they considered 13°C
+as the ‘practical’ minimum temperature for germination (Wagenvoort and
+Bierhuizen, 1977). Membrane lipid changes appear to be involved in cultivar
+                             Developmental Processes                           63
+
+
+­differences in the ability to germinate at low temperatures, whereas failure to
+ germinate at high temperatures may be due to thermodormancy, a condition
+ thought to be related to an interaction between temperature and phytochrome
+ action.
+
+
+LEAF APPEARANCE AND LEAF GROWTH
+
+Leaf appearance or unfolding rate (LUR) is not necessarily equal to the rate
+of initiation of leaf primordia at the apex, but, in the long term, equality is
+expected. LUR is predominantly influenced by temperature (De Koning,
+1994). Since three leaves are initiated between two successive trusses for ‘in-
+determinate’ types, LUR rate is simply three times the truss appearance rate.
+LUR shows an optimum response to increasing temperature. This relation-
+ship is close to linear at 17–23°C and as a rule of thumb three leaves unfold
+each week at 20°C. Meristem temperature determines leaf initiation rate and
+Savvides et al. (2013) determined that meristem temperature can deviate sub-
+stantially (–2.6°C to 3.8°C for tomato) from air temperature under moderate
+environments.
+      De Koning (1994) observed no effects of fruit load, leaf removal or planting
+density on LUR. Heuvelink and Marcelis (1996) also reported little influence of
+assimilate supply on LUR (Table 3.1). Higher light interception per plant due
+to a lower planting density hardly affected LUR, whereas assimilate supply was
+strongly improved. However, Savvides et al. (2014) reported a reduction in leaf
+initiation rate in young tomato plants when light level was reduced below 6.5
+mol/m2/day (Fig. 3.1). A higher light level could result in a higher meristem
+temperature and hence reflect an indirect effect of light on leaf initiation rate,
+but Savvides et al. (2014) reported a constant meristem temperature among
+the light treatments, and hence reduced leaf initiation rate at low light level
+is likely to be determined by the reduction in local photosynthate availability.
+This contrast with Heuvelink and Marcelis (1996) may be explained by assimi-
+late supply limiting LUR in seedlings, because of the low leaf area and thus low
+light interception.
+      The size of a compound tomato leaf is immensely variable. Leaves of
+greenhouse cultivars are typically 0.5 m long, a little less in breadth, with a
+large terminal leaflet and up to eight large lateral leaflets, which may them-
+selves be compound. Many smaller leaflets (folioles) may be interspersed with
+the large leaflets. Stomata are present on the underside (abaxial side) of the
+leaflet and are often present in smaller numbers on the top (adaxial size) (Gay
+and Hurd, 1975).
+      Leaf size, both area and mass, is influenced by growth conditions
+(Table 3.1), with an increased assimilate supply resulting in larger leaves
+of higher mass. However, an individual leaf grown under high irradiance
+is usually smaller in area but larger in mass. The same is observed under
+                                                                                                                                                      64
+
+
+
+
+Table 3.1. Effect of treatment on the number of leaves visible, total dry weight, vegetative dry weight, average area and dry weight of
+individual leaves and specific leaf area (SLA) at the end of the experiments with tomato. For the latter three parameters, only the leaves
+still on the plant were taken into account. Means within an experiment, followed by the same letter, were not significantly different
+(P = 0.05) (Heuvelink and Marcelis, 1996).
+
+                                               No. of leaves          Total dry       Vegetative dry     Leaf area      Leaf dry
+Experiment           Treatment                   visible           weight (g/plant)   weight (g/plant)   (cm2/leaf)   weight (g/leaf)   SLA (cm2/g)
+
+
+
+
+                                                                                                                                                      E. Heuvelink and R.C.O. Okello
+1                    1.6 plants/m2                  59.5a                636a              256a            467a           3.17a            147a
+                     2.1 plants/m2                  60.3a                512b              196b            396b           2.36b            169a
+                     3.1 plants/m2                  57.8a                364c              141c            310c           1.61c            193b
+2                    1 fruit per truss              68.6a                385a              294a            322a           2.67a            123a
+                     3 fruits per truss             71.7a                536b              262a            352a           2.53a            140a
+                     7 fruits per truss             69.4a                519b              176b            329a           1.58b            209b
+3                    1 fruit per truss              64.8a                414a              341a            494a           3.37a            147a
+                     7 fruits per truss             59.3b                444a              210b            503a           2.21b            232b
+4                    50% truss removal              62.7a                471a              252a            419a           2.71a            155a
+                     Control                        62.3a                488a              182b            320a           1.91b            166a
+5                    50% leaf removal1              37.3a                221a              110a            331a           3.22a            104a
+                     Control                        37.0a                266b              136a            299a           2.54b            118a
+1
+    Removal of every other leaf (at a length of 5 cm) above the first truss.
+                               Developmental Processes                              65
+
+
+
+           Tomato
+30
+
+
+
+
+20
+
+
+                                                      Fig. 3.1. Time course of the
+                                                      number of leaves initiated
+10                                                    (dashed lines) and unfolded
+                                                      (length 10 cm; solid lines) in
+                                                      tomato plants grown under
+                                                      four diel photosynthetic photon
+ 0                                                    flux densities (PPFD) (2.5, 4.9,
+     0         10         20        30           40   6.5 and 13.2 mol/m2/day).
+                    Time (days)                       (Reproduced from Savvides
+                                                      et al., 2014, with permission
+         2.5        4.9           6.5     13.2
+                                                      from CSIRO Publishing.)
+
+
+enriched carbon dioxide (CO2) conditions. Except in low light conditions,
+a higher temperature usually increases the rate of expansion of individual
+leaves, but expansion period is decreased relatively more strongly, resulting
+in a reduced area per leaf. On the other hand, plant leaf area usually in-
+creases with temperature, since LUR increases. Leaf expansion is improved
+by a high turgor pressure, which is favoured by a suppressed transpir-
+ation rate. Indeed, tomato leaf area increases with humidity but the effect
+is small. In the long run, high humidity may cause calcium deficiencies,
+which may lead to up to 50% leaf area reduction (Holder and Cockshull,
+1990).
+     Leaf thickness increases with assimilate supply, resulting in a lower spe-
+cific leaf area (SLA) (leaf area per unit of leaf dry mass). This is shown in
+Table 3.1 for wider plant spacing and reduced fruit load, but the same has been
+reported for increased irradiance (Fan et al., 2013) or elevated CO2 concentra-
+tions (Qian et al., 2012). A higher temperature usually decreases leaf thickness
+and increases SLA.
+     Prolonged periods of surplus assimilates may lead to the so-called short-
+leaf syndrome (SLS), i.e. crisp, grey-green to purple-coloured leaves, some-
+times with necrotic spots and leaf tips (Nederhoff et al., 1992). These authors
+have suggested that SLS results from calcium deficiency in the apex, an in-
+direct consequence of a low sink–source ratio resulting in fast-growing or-
+gans. Short leaves can be avoided by increasing the plant density, or, in an
+early-planted year-round crop, by maintaining an extra shoot on part of the
+plants in spring, thus increasing stem density. In both cases the sink–source
+ratio is increased.
+66                          E. Heuvelink and R.C.O. Okello
+
+
+
+STEM DEVELOPMENT
+
+ At the tip of the main stem is the shoot apical meristem (SAM), a region of
+ active cell division where new leaves and flower parts are initiated. It is dome-
+ shaped and protected by newly formed leaves. Leaves are arranged alternately
+ with a 2/5 phyllotaxy. Shoot development in tomato can be separated into two
+ different phases. During the initial vegetative phase, the SAM forms metamers
+ consisting of an elongated internode, a leaf and a bud (Fig. 3.2). After the for-
+ mation of between 7 and 11 metamers, the primary shoot SAM is transformed
+ into an inflorescence meristem (IM). While the IM develops into an inflores-
+ cence, a second phase of shoot development is initiated by the outgrowth of
+ the bud in the axil of the youngest leaf primordium. This sympodial shoot
+ grows vigorously, displaces the developing inflorescence to a lateral position
+ and transfers its subtending leaf to an elevated position above the inflores-
+ cence. After the formation of three leaves, the SAM of the sympodial shoot is
+ also transformed into an IM and develops into an inflorescence. The main axis
+ is again continued by the sympodial shoot in the axil of the youngest leaf prim-
+ ordium. In ‘indeterminate’ cultivars the process is repeated indefinitely with
+ inflorescences every three leaves. These types are favoured in greenhouses as
+ they produce high yields over an extended period. In ‘determinate’ types each axis
+ produces a limited number of inflorescences and strong axillary buds develop
+ at the base of the stem, producing a bushy habit, which is ideal for growing
+ unsupported in the open. Microscopic studies reveal that axillary buds in tomato
+ are formed early in development in all axils of leaf primordia. Due to the weak
+ correlative inhibition by the shoot apex, these buds develop into side shoots
+ without a resting phase, repeating at least part of the development of the pri-
+ mary shoot. As all nodes of a side shoot can again form lateral shoots, this pattern
+ can be repeated indefinitely, resulting in a very bushy growth habit (Schmitz
+ and Theres, 1999). These side shoots are removed when ‘indeterminate’ culti-
+ vars are grown. The side shoot from the leaf axil immediately below an inflor-
+ escence is the strongest and can seriously compete with the main apex.
+      Cao et al. (2016) subjected tomato plants to night break (NB) treatments
+ with different frequencies ranging from every 1, 2, 3 and 4 h using red light
+ (RL) with an intensity of 20 μmol/m2/s. These authors showed that with the
+increase of RL NB frequency, plant height decreased, stem diameter increased
+and flower initiation was delayed (both in days and number of leaves below the
+first inflorescence).
+      The rate of stem elongation generally increases with temperature, with
+stem length primarily determined by day temperature (optimum > 28°C)
+(Langton and Cockshull, 1997). Reduction in length growth resulting from
+a so-called negative DIF (difference between day and night temperature) has
+been reported by many authors and for a large variety of crops, including
+­tomato (Fig. 3.3). Bours (2014) concluded that negative DIF affects growth by
+ directly affecting the phase and amplitude of circadian clock genes, which in
+                               Developmental Processes                            67
+
+
+
+
+                                                     Second
+                                                     sympodial unit
+
+
+
+
+                                                     First
+                                                     sympodial unit
+
+
+
+
+                                                     Primary
+                                                     shoot
+
+
+
+
+                         Tomato
+
+
+                     Infloral meristem   Flower                Leaf
+
+
+                             Vegetative side-shoot
+
+
+Fig. 3.2. Schematic representation of shoot development in tomato. The primary
+shoot is illustrated in black, lateral axes of successive order in grey. The primary
+shoot meristem forms the first segment of the sympodial stem terminating in the
+first inflorescence. In all leaf axils, vegetative side shoots are formed. The side
+shoot in the axil of the youngest leaf primordium grows vigorously, pushes the
+inflorescence to a lateral position and transfers its subtending leaf to an elevated
+position above the inflorescence. After the formation of three nodes the sympodial
+shoot also terminates in an inflorescence. Sympodial shoots of progressively higher
+order continue the elaboration of the main axis indefinitely. Inflorescences consist
+of a series of terminal flowers originating from sympodial inflorescence axes of
+progressively higher order. (Reproduced from Schmitz and Theres, 1999, with
+permission from Elsevier.)
+
+
+turn control downstream processes such as starch metabolism and hormone
+signalling pathways. Auxin and ethylene signalling pathways affected by nega-
+tive DIF show significant crosstalk and interconnect with the circadian clock at
+several positions. Bours (2014) stressed the unique position of the photoreceptor
+68                          E. Heuvelink and R.C.O. Okello
+
+
+
+
+                 D 16°C                                  D 20°C
+                 N 26°C                                  N 22°C
+
+Fig. 3.3. Tomato plants (8 weeks after sowing, 40 days after start of temperature
+treatments) grown in climate chambers at a light intensity of 30 W/m2 at three
+temperature regimes (D = day temperature; N = night temperature; day length was 12 h).
+
+phytochrome B in this regulation. Gibberellin metabolism is almost certainly
+involved in the regulation of stem extension by temperature (Langton and
+Cockshull, 1997). The effect of increased root temperature on stem elongation
+is relatively small.
+     Under daily total irradiances above about 2 MJ/m2/day the heights of
+plants of the same dry mass are constant. Reducing daily irradiance below this
+level generally increases the rate of stem elongation. The result is a weaker,
+thinner but taller stem. CO2 enrichment generally produces taller plants but
+this is because of faster growth. Plants of similar dry or fresh mass are slightly
+shorter if grown with additional CO2. High humidity improves stem elongation,
+though effects are only small. Holder and Cockshull (1990) did not observe
+any effect of humidity treatments (0.1, 0.2, 0.4 and 0.8 kPa vapour pressure
+deficit, maintained continuously for 28 days) on plant height. Salt stress (high
+electrical conductivity (EC) in the root environment) reduces stem elongation.
+Shaking both stresses and toughens plants, resulting in a reduced stem length,
+a phenomenon known as thigmomorphogenesis (Picken et al., 1986).
+     Axillary shoot development is promoted by low temperature, negative DIF
+or short days. A period of 5 min of far-red light at the end of a light period has
+been shown to suppress side-shoot growth (Tucker, 1976), which may be of
+interest for greenhouse crop production, where manual removal of side shoots
+demands a lot of labour. In tomato, several mutants are defective in axillary
+meristem initiation. The lateral suppressor (ls) mutant is characterized by the
+                             Developmental Processes                           69
+
+
+absence of side shoots, except for the sympodial shoot and the lateral shoot
+­immediately below (subfloral side shoots) (Schmitz and Theres, 1999).
+
+
+ROOT DEVELOPMENT
+
+Tomato seedlings develop a tap root, which can grow longer than 0.5 m but it is
+often damaged in culture. About 60% of the root system lies in the top 0.3 m of
+soil (Rendon-Poblete, 1980). Adventitious roots, similar in structure to the lat-
+erals, develop under favourable conditions from the stem, particularly near the
+base. They are also initiated on the underside of horizontal portions of stem,
+enabling the plant to re-root in nature.
+      Nowadays, many greenhouse tomato cultivations are on artificial sub-
+strates, e.g. stone wool, perlite or sometimes in nutrient solution only (nutrient
+film technique (NFT)). NFT enables studies of root growth and development,
+and both NFT and substrate cultures allow for a much more controlled root
+environment. In research focused on roots, sometimes plants are grown in aer-
+ated containers with nutrient solution; however, these roots have a different
+morphology from those grown in soil.
+      Water supply and nutrition have profound effects on plant growth (see
+Chapter 6). Roots grown at about 14°C were thicker, whiter and less branched
+than at higher soil temperatures, but nutrition influences this response
+(Gosselin and Trudel, 1982). Chapter 4 presents effects of root temperature on
+dry matter production and partitioning. High humidity may encourage aerial
+adventitious root growth.
+
+
+FLOWERING
+
+Samach and Lotan (2007) summarized progress in understanding the envir-
+onmental cues that affect the initial transition to flowering in tomato, and the
+genes that are involved in this transition and additional transitions occurring
+on the sympodial shoot. Environmental cues discussed were day length, light
+intensity and growth temperature. Most of the genes isolated so far seem to play
+similar roles in Arabidopsis flowering. This section is largely based on Dieleman
+and Heuvelink (1992) and an earlier review on flowering in tomato (Picken
+et al., 1985) has been consulted occasionally. In general the tomato plant ini-
+tiates at least six to eight leaves preceding the first inflorescence (number of
+leaves preceding inflorescence (NLPI)). Inheritance of this characteristic was
+found to be simple; one single gene pair determines the NLPI. Complete dom-
+inance is suggested for smaller node numbers over large node numbers to the
+first inflorescence. The first inflorescence terminates the main axis of growth
+and subsequent extension growth is made by the lateral shoot in the axil of the
+last initiated leaf (see ‘Stem development’, above).
+70                          E. Heuvelink and R.C.O. Okello
+
+
+       There are two flowering types, which are incorrectly termed ­‘determinate’
+and ‘indeterminate’. Botanically, both types are determinate since each
+i­nflorescence terminates the main axis. Tomato does not respond to seed ver-
+ nalization, i.e. NLPI is not reduced by low temperatures applied to imbibed
+ seeds. The sensitive period, determining the position on the stem at which the
+ first inflorescence will develop, lasts approximately 10 days, starting at coty-
+ ledon ­expansion, though this period can be longer depending on the cultivar.
+ No single environmental factor can be regarded as critical for the control of
+ flowering in tomato. Environmental factors such as light, temperature, CO2,
+ nutrition, moisture and growth regulators directly or indirectly influence
+ flower initiation.
+       The NLPI can be seen as the result of two processes: the rate of leaf initi-
+ ation and the time to initiation of the first inflorescence, which determines the
+ end of the vegetative phase. The slopes of the lines in Fig. 3.1 indicate the rate
+ of leaf initiation. The same rate of leaf initiation can result in a different NLPI,
+ if the number of days to initiation of the first inflorescence is different. Also,
+ a higher rate of leaf initiation combined with a lower number of days to initi-
+ ation of the first inflorescence may result in the same NLPI.
+
+
+Factors affecting the number of leaves preceding the first inflorescence
+
+A lower temperature, either by day or by night, during the sensitive period of
+tomato seedlings causes a smaller NLPI. This effect of mean diurnal tempera-
+ture on NLPI is mainly determined by the effect of temperature on the rate
+of leaf production. Temperature does not affect the time to flower initiation if
+light intensity is high. At low light intensities a higher temperature increases
+the time to flower initiation compared with a lower temperature. Root temper-
+atures appeared to have little or no effect on the NLPI.
+     The rate of leaf production in a tomato seedling increases with increasing
+light intensity (Fig. 3.1). On the other hand, the number of days to flower initi-
+ation decreases with increasing light intensity, this effect being stronger than
+the effect on the rate of leaf production. This results in a lower NLPI at higher
+light intensities. Effects of light and temperature on both the rate of leaf initi-
+ation and the time to flower initiation, and hence on NLPI, interact. Flowering
+in tomato is not usually affected by photoperiod but some cultivars are regarded
+as quantitative short-day plants. Several authors have reported a smaller NLPI
+with shorter photoperiods.
+     CO2 enrichment increases the rate of leaf initiation slightly and ­decreases
+the time to flower initiation a little, thus resulting in no clear effect on the
+NLPI. Removal of parts of the cotyledons immediately after they had ­unfolded
+increases NLPI, the increase being greater the larger the area removed.
+Removal of the first two foliage leaves from 6-day-old seedlings reduces the
+NLPI, whereas NLPI is not significantly altered by the removal of further
+                               Developmental Processes                            71
+
+
+f­oliage leaves. Generally, the higher the fertilizer level (nitrogen, phosphorus,
+ ­potassium (NPK)), the lower is the NLPI. However, flowering is delayed when
+  salt or water stress is applied in early stages of development.
+       The effects that growth regulators have on the NLPI vary with the method
+  of application, the concentration, timing, environment and variety. Application
+  of auxins as well as application of gibberellin as a foliar spray cause an increase
+  in NLPI. However, application of gibberellin to imbibed seeds does not influ-
+  ence NLPI. Application of auxin or gibberellin transport inhibitors decreases
+  NLPI; for example, an NLPI as low as 2.4 has been observed after application
+  of 10–3 M TIBA (2,3,5-triiodobenzoic acid) foliar spray, which inhibits auxin
+  transport.
+       Most of the observations mentioned above can be explained by nutrient di-
+  version hypothesis for flowering (Sachs and Hackett, 1969). According to this
+  hypothesis, the amount of assimilate available to the apex during the sensitive
+  phase has to reach a certain minimum before flower initiation can take place.
+  This level of assimilates is influenced by the assimilate production rate and its
+  distribution. Factors that increase the total amount of assimilates in the plant as
+  well as those increasing the competitive potential of the apex decrease the NLPI.
+
+
+Appearance rate of new trusses
+
+Most tomato cultivars develop ‘units’, comprising three leaves and internodes,
+terminated by an inflorescence, which build up the sympodial stem (Fig. 3.2).
+Hence, appearance rate of new inflorescences (trusses), following the first in-
+florescence on the sympodial stem, often called the flowering rate, is one-third
+of leaf appearance rate (see ‘Leaf appearance and leaf growth’, pp. 63–65,
+this volume). This means that the description of environmental effects on
+leaf appearance rate also holds for truss appearance rate. Thus, truss appear-
+ance rate after the first truss is predominantly determined by temperature.
+De Koning (1994) observed an almost linear response between temperature
+(range 17–23°C) and truss appearance rate (0.11–0.15 trusses per day). Truss
+appearance rate is equally related to day and night temperature and therefore
+responds to the 24 h mean temperature. No effects of fruit load, leaf removal or
+plant density on truss appearance rate have been observed (De Koning, 1994).
+Hence, sink–source ratio has no significant influence on truss appearance rate
+in tomato. Also, root temperature, EC in the root environment, air CO2 concen-
+tration and air humidity hardly affect truss appearance rate.
+
+
+FLOWER DEVELOPMENT, POLLINATION AND FRUIT SET
+
+Once a tomato plant has terminated its vegetative phase, several processes fol-
+lowing the initiation of an inflorescence determine whether fruits will start
+72                               E. Heuvelink and R.C.O. Okello
+
+
+to grow. Flower buds have to develop into flowers, pollination and fertilization
+have to be successful and fruit set should occur (Fig. 3.4). All of these processes
+are considered in the present section, mainly based on Chapters 4 and 5 of the
+tomato book by Atherton and Rudich (1986) and a review on pollination and
+fruit set by Picken (1984).
+
+
+Inflorescence size and flower bud abortion
+
+The number of flowers initiated in an inflorescence depends on cultivar and
+environmental conditions. The inflorescence is a monochasial cyme in which
+the vegetative axis terminates in the king flower (Picken et al., 1985). Increased
+irradiance or decreased plant density and decreased temperatures positively in-
+fluence the number of flowers formed in an inflorescence, with the tempera-
+ture effect being larger at high irradiance compared with low irradiance. Low
+air temperatures (< 10°C) during inflorescence initiation promote inflores-
+cence branching, usually resulting in more flowers per inflorescence. It is the
+mean diurnal temperature, rather than day or night temperature alone, that
+
+
+                                                   Flowers per                      Initial number
+                                                      truss                         of flower buds
+                                                                                       per truss
+                Rate of flower
+                  formation
+
+                                                                                 Flower bud
+      Flower                                                                      abortion
+     abortion
+                                 Fruits set
+                                                                 Rate of truss
+                                                                  formation
+
+
+      Fruit                Growing fruits
+     abortion
+
+
+
+                                                    Fruit
+                                              development rate
+
+
+
+                             Ripe fruits
+
+
+Fig. 3.4. A relational diagram of the number of growing fruits on an indeterminate
+tomato plant (De Koning, 1994).
+                             Developmental Processes                           73
+
+
+controls branching and flower number (Hurd and Cooper, 1967). Similar to air
+temperature, a reduction in root temperature promotes the number of flowers
+in the first inflorescence. Inflorescence size is reduced when plants are grown
+under restricted water supply or in small pots containing a small volume of
+growing medium. Photoperiod or CO2 level show no influence on the number
+of flowers formed in an inflorescence.
+     Flower development after initiation is primarily influenced by tempera-
+ture: higher temperatures result in faster flower development. Increased day
+temperatures are reported to be more effective in promoting flower develop-
+ment than corresponding increases in night temperatures.
+     Especially under conditions where photosynthesis is low (low light in-
+tensities, low CO2 and/or short days), increased temperatures will stimulate
+flower bud abortion. High temperature effects on flower abortion may be a
+consequence of failure of fruit set rather than a direct effect of temperature
+(see below). Overall it appears that low assimilate availability during flower de-
+velopment stimulates abortion of flower buds. Furthermore, when plants are
+grown at the same total daily irradiance, flower bud abortion is more evident
+in long days than in short days.
+
+
+Pollination
+
+Fruit set, defined here as the proportion of open flowers that subsequently set
+fruit of a marketable size, may fail for many reasons. Flower/fruit abortion is
+defined as the proportion of flowers that fail to yield fruit of marketable size
+and hence fruit set is one minus abortion. In tomato, flower abortion occurs
+frequently, whereas fruit abortion is uncommon, though sometimes distal
+fruits stop growing at a small size and never ripen. Failure of pollen produc-
+tion (number and viability of pollen) or pollination, pollen germination, pollen
+tube growth, ovule production, fertilization or fruit swelling all may result in
+poor fruit set. However, poor fruit set in low light conditions is most frequently
+caused by failure of pollen production or pollination.
+     The potential number of pollen grains is genetically determined. For ex-
+ample, some modern TMV-resistant cultivars, containing the Tm-2 gene, pro-
+duce less pollen of a slightly lower viability. Pollen development is adversely
+affected by low light. At severe carbohydrate deficiency, meiosis is abnormal
+in some pollen mother cells. With less severe carbohydrate stress, pollen de-
+velopment is variable. When microspore development ceases at an early stage,
+pollen grains are shrunken and irregular, whereas when microspore devel-
+opment proceeds normally until after mitotic division, the pollen grains are
+morphologically perfect. Abnormal flowers with rudimentary petals, stamens
+and pistils produced under low light produce sterile pollen. High temperature
+(40°C) damages pollen, the most critical stage for pollen development being
+meiosis, which occurs about 9 days before anthesis in plants grown at 20°C.
+74                         E. Heuvelink and R.C.O. Okello
+
+
+In contrast, meiosis appears unaffected by low temperature. A day/night tem-
+perature of 32°C/26°C compared with 28°C/22°C did not cause a significant
+change in the number of pollen grains produced; however, it significantly
+decreased the number of fruit set, pollen viability and the number of pollen
+grains released (Sato et al., 2006). Failure of tomato fruit set under a moder-
+ately increased temperature above optimal was due to the disruption of sugar
+metabolism and proline translocation during the narrow window of male re-
+productive development. Also failures in anther dehiscence at high temperat-
+ures have been mentioned (Arrizumi et al., 2013). Literature reports conflict
+where possible decrease in pollen quality at low temperatures is concerned,
+possibly because of interactions with light and root temperature.
+     Pollination, the successful transfer of pollen grains to the stigmatic surface,
+depends on pollen release, flower characteristics and pollen grain adherence to
+the stigma. Although pollen is mature and ready for transfer at anthesis, the
+stigma becomes receptive about 2 days previously and remains so for up to 4 days
+or more. All modern cultivars are self-pollinated. Flowers are not frequently
+visited by insects, since they do not produce nectar. Air movement in the field is
+enough to stimulate self-pollination but wind speed in greenhouses is too low. In
+greenhouses, pollination is promoted by vibrating each truss mechanically with
+an electric ‘bee’ two or three times a week, or, more recently, by the introduction
+of bumblebees. It is most effective in winter to vibrate flowers at around midday,
+maybe as a consequence of the higher temperature and irradiance at this time.
+However, tomato flowers close at night and open during the day, which may also
+contribute to the increased effectiveness of vibration at midday.
+     At high humidities, pollen tends to remain inside the anthers, whereas at
+low humidities it may not adhere to the stigma. However, the effects of rela-
+tive humidity between 50% and 90% are small. Pollination can be adversely
+affected by abnormalities in flower structure. For self-pollination, the stigma
+must lie within the tip of the anther cone. Stigma exsertion beyond the cone
+enables the pollen to escape before reaching the stigma, and it may also lead
+to desiccation of the stigmatic surface. The length of the style is both genetic-
+ally determined and affected by growing conditions. Low light, high nitrogen
+levels and high temperature have been shown to increase stigma exsertion.
+Other structural defects that reduce fruit set include, for example, poor devel-
+opment of the endothecum at higher temperature, which is essential for dehis-
+cence, and splitting of the staminal cone and/or fasciation of the style at low
+light. Pollen adherence to the stigmatic surface depends not only on relative
+­humidity (see above) but also on temperature, 17–24°C being optimal.
+
+
+Germination of pollen grains and fertilization
+
+Pollen germination depends on pollen viability and environmental factors.
+The time taken for pollen to germinate decreases with increasing temperature.
+                              Developmental Processes                            75
+
+
+The germination percentage is greatly reduced at temperatures outside the
+range 5–37°C. The growth rate of the pollen tube increases with temperature
+between 10°C and 35°C but is reduced outside this range. Sato et al. (2000)
+concluded from their work that cultivar differences in pollen release and ger-
+mination under heat stress are the most important factors determining their
+ability to set fruit. Humidity and light only marginally affect pollen tube growth.
+     Low light may reduce the size of flowers and ovaries, and ovule develop-
+ment may cease under such conditions before or soon after embryo sac for-
+mation. Ovule viability may be adversely affected by high temperature (40°C)
+5–9 days before anthesis at about the time of meiosis in the ovule mother cells.
+     Fertilization takes place once the nuclei from the pollen tubes penetrate
+viable ovules. Because of an increased tube growth rate, higher temperatures
+reduce the time to fertilization. Fertilization is not greatly affected by growth
+conditions, though exposure to high temperature (40°C) can have adverse ef-
+fects on fertilization and on processes that immediately precede or follow it. For
+example, the endosperm can deteriorate at high temperature 1–4 days after
+pollination.
+
+
+Fruit initiation
+
+Fruit set is positively correlated with assimilate availability, which may be
+expressed as the source–sink ratio in the plant (Fig. 3.5). Tomato fruit set
+depends on successful pollination and fertilization, which trigger the fruit de-
+velopmental programme through activation of auxin and gibberellin signal-
+ling pathways. However, the role of each of these two hormones is still poorly
+understood. De Jong et al. (2009) reviewed the role of auxin and gibberellin in
+tomato fruit set and presented a model integrating the role of both hormones.
+The level of cytokinines is up-regulated 5 days after anthesis, suggesting a posi-
+tive correlation between cytokinines and cell division. Application of synthetic
+cytokinin to pre-anthesis ovaries resulted in parthenocarpic fruit formation
+by activating cell division (Matsuo et al., 2012). The precise role of seeds in
+the initiation of fruit growth in tomato has not been determined, though it
+has been suggested that they may be sources of auxin, which stimulates fruit
+swelling. Gibberellins are also involved in fruit growth initiation, for high levels
+of endogenous gibberellins in the ovaries have been observed in cultivars that
+exhibit parthenocarpy. The genetic background of parthenocarpy in tomato is
+discussed in Chapter 2.
+
+
+FRUIT DEVELOPMENT
+
+Like most developmental processes, the rate at which an initiated fruit pro-
+gresses towards ripeness is primarily dependent on temperature. The relation
+76                                                      E. Heuvelink and R.C.O. Okello
+
+
+                                         6
+
+                                        5.5
+
+
+
+
+       Number of set fruits per truss
+                                         5
+
+                                        4.5
+
+                                         4
+
+                                        3.5
+
+                                         3
+
+                                        2.5
+
+                                         2
+                                              0   0.2         0.4          0.6           0.8   1
+                                                            Real growth/potential growth
+
+Fig. 3.5. Number of set fruits on the first nine inflorescences of beefsteak
+tomato ‘Capello’, grown in CO2-enriched () or non-enriched (•) polycarbonate
+greenhouses, as a function of the ratio between real and potential fruit growth
+calculated at fruit set of each inflorescence, pruned to seven flowers. (Reprinted,
+with permission, from Bertin, 1995, Annals of Botany, 75.)
+
+
+between fruit developmental stage and fruit growth rate is also presented here
+and the genetic control of fruit development is discussed. First, fruit morph-
+ology and anatomy are considered. Main references for this section are Chapter
+5 of Atherton and Rudich (1986) and the dissertations of De Koning (1994)
+and Okello (2015).
+
+
+Fruit morphology, anatomy and development rate
+
+Botanically, a tomato fruit is a berry consisting of seeds within a fleshy pericarp
+developed from an ovary. Fruits of the cultivated species (Solanum lycopersicum)
+have two to several carpels and final masses from a few to several hundred
+grams. Based on the number of carpels, cultivars are grouped as: round to-
+matoes (two to three carpels), beefsteak tomatoes (more than five carpels) and
+the nowadays popular intermediate types (three to five carpels). Tomato fruits
+are composed of flesh (pericarp walls and skin) and pulp (placenta and locular
+tissue including seeds) (Fig. 3.6). In general, the pulp accounts for less than
+one-third of the fruit fresh mass. Covering the epidermis is a thin cuticle.
+     The period between anthesis and fruit maturity decreases with increasing
+averaged temperature from 14°C to 26°C, with a small effect of DIF (De Koning,
+                               Developmental Processes                                 77
+
+
+(a)
+      Epidermis (e)                                                   Outer wall of
+                                                                      pericarp (p)
+
+
+      Seeds (s)                                                       Radial wall of
+                                                                      pericarp (rp)
+
+
+
+      Locular cavity (lc)                                             Columella (c) or
+      with jelly-like                                                 inner wall of
+      parenchyma                                                      pericarp
+      around seeds
+
+
+                                                                      Placental
+      Vascular bundles (vb)                                           tissue (pl)
+
+
+
+(b)
+              (e)                                                       (p)
+
+
+
+        (s)
+                                                                        (rp)
+
+
+
+
+      (c)
+
+
+       (lc)
+                                                                        (pl)
+            (vb)
+
+Fig. 3.6. Anatomy of tomato fruits with (a) bilocular or (b) multilocular structure
+shown as transverse sections (copyright Glasshouse Crops Research Institute).
+
+
+1994). The fruit growth period can be well described by linearly relating its
+reciprocal (i.e. fruit development rate) to temperature (Fig. 3.7). This means for
+harvest-ripe fruits a certain temperature sum has to be reached. This concept
+of heat units has been explained in the section on germination (pp. 60–63, this
+volume). For cv. ‘Counter’, accurate predictions of fruit growth period may be made
+assuming a temperature sum of 940 degree-days and a base temperature of 4°C.
+However, the temperature sensitivity of the fruit development rate varies during
+fruit development, being high during the first weeks after anthesis when cell div-
+ision and elongation take place, and then decreasing when only cell elongation
+occurs. When the fruit is close to maturity, increasing temperature enhances
+78                                                               E. Heuvelink and R.C.O. Okello
+
+
+                                 2.6
+
+
+                                 2.4                                                44
+
+                                                                       34
+
+
+
+
+Fruit development rate (%/day)
+                                                                       34
+                                 2.2
+                                                                        5
+                                                                       25
+                                                                       255
+                                  2
+                                                             5                                    Fig. 3.7. Relationship
+                                                     3                                            between temperature
+                                                      3      5
+                                 1.8                4        1
+                                                             2                                    and fruit development
+                                                    5        2
+                                                     5                                            rate of tomato for five
+                                                   2                                              experiments: (1) cv.
+                                 1.6               2
+                                                                                                  ‘Counter’ in spring;
+                                                                                                  (2) cv. ‘Calypso’ in
+                                 1.4     22                                                       spring; (3) cv. ‘Counter’
+                                                                                                  in summer; (4) cv.
+                                 1.2                                                              ‘Calypso’ in summer;
+                                    16        18         20     22       24         26      18    (5) cv. ‘Liberto’ in spring
+                                                           Temperature (°C)                       (De Koning, 1994).
+
+
+fruit ripening (De Koning, 1994). Other factors, such as plant density, light
+intensity, CO2, air humidity, fruit load, plant age or salinity in the root envir-
+onment, have no or only a small effect on fruit growth period. Severe water
+stress shortens the duration of fruit growth period and fruit affected by blos-
+som-end rot will ripen 1–2 weeks earlier. Fruit ripening is considered in detail
+in Chapter 5.
+      Fruits grown under source limitation reach the potential growth rate,
+i.e. growth rate under non-limiting assimilate supply, about 2 weeks after the
+source limitation has been lifted by severe fruit pruning (Fig. 3.8). This is an
+interesting observation, as apparently it is the fruit developmental stage that
+determines its potential growth rate and not the fruit size, which reflects the
+history of assimilate availability experienced by the fruit.
+
+
+Genetic control of fruit development
+
+Tomato fruit development is a four-phase process (Fig. 3.9) that begins with
+initiation of the floral meristem, carpel formation and ovary growth. The se-
+cond phase involves pollination, fertilization, fruit set and resumption of cell
+division. During the third phase, cells expand and undergo endoreduplica-
+tion. Initiation of ripening is the fourth phase and it marks the beginning of
+fruit senescence. Reviews by Arrizumi et al. (2013), Karlova et al. (2014) and
+Azzi et al. (2015) on fruit development have been consulted in writing up this
+section.
+                                         Developmental Processes                  79
+
+
+                          12
+
+
+                          10
+
+
+                           8
+
+
+
+
+ Fruit dry mass (g)
+                           6
+
+
+                           4
+
+
+                           2
+
+
+                           0
+                                0   10     20         30            40    50     60
+                                          Number of days after anthesis
+
+
+                          0.4
+
+
+
+
+                          0.3
+
+
+
+
+ Growth rate (g DM/day)
+                          0.2
+
+
+
+
+                          0.1
+
+
+
+
+                          0.0
+                                0   10     20         30            40    50     60
+                                          Number of days after anthesis
+
+Fig. 3.8. Tomato (cv. ‘Counter’) fruit growth rate as a function of days after
+anthesis. Fruits were grown with one (�), two () or eight () fruits per truss, or
+seven fruits were removed from each truss from plants with eight fruits per truss at
+18 days after anthesis (¸). Growth was calculated from diameter measurements on
+the second and third fruit on the fourth truss (Heuvelink and Wubben, unpublished
+data, 1999).
+80                                   E. Heuvelink and R.C.O. Okello
+
+
+
+      Phase 1: Floral initiation, carpel                Phase 2: Pollination, fruit set and restart of
+      formation and growth                              cell division
+            AG                                           Aux/IAA         SlIAA17           TIR1
+
+
+
+        WUS             Floral meristem growth             ARF           Ovary growth resumption
+                                                           PIN
+         IMA            Carpel primordial size
+
+                                                       KRP1 SIM/SMR            DELLA              GA
+        TAG1
+                         Carpel identity
+       TAGL1
+
+                                                      CYC-CDK            Post anthesis cell division
+     SPL/SPB             Carpel number
+
+                                                      APC/C        DEL         E2Fb           RBR
+         FAS
+                         Locule number
+          LC
+
+
+       Phase 3: Cell expansion                           Phase 4: Fruit ripening
+
+        AGPaseB AGPS1               TIV1                RIN           CNR
+
+
+
+                                                        ACS     ACO    PSY1 TAGL1 NOR
+             Sucrose import
+
+            delta-TIP        PIP1
+                                                              Ethylene biosynthesis
+
+             Water import
+                                                                                                  ETR
+                                                              SlAP2      SlMADS1
+
+
+             Cell wall elasticity                              Ethylene signalling                CTR1
+
+                                       UDP-G-PPase
+     XTH6        BR1 EXP UDP-G-4-epi                    NEVER-           ERF         EIL          EIN2
+                                                        RIPE
+
+
+Fig. 3.9. Schematic representation of transcriptional regulation of the four phases
+of tomato fruit development: (1) floral initiation, carpel formation and growth;
+(2) pollination, fruit set and restart of cell division; (3) cell expansion; (4) fruit
+ripening. Lines ending with an arrow represent a positive feedback; blocked lines
+represent negative feedback. Abbreviations are explained in the text.
+
+
+Phase 1: Floral initiation, carpel formation and ovary growth
+Tomato flower induction occurs when the shoot apical meristem (SAM) is
+converted into an inflorescence meristem that produces floral meristems
+(FM). Unlike SAM, the FM exhibits determinate growth through repression
+of WUSCHEL (WUS) by AGAMOUS (AG) gene encoded transcription f­actors.
+                             Developmental Processes                         81
+
+
+WUS promotes cell division and prevents premature differentiation. The FM
+produces four floral whorl primordia, sepals, petals, stamens and carpels. The
+fourth innermost whorl, the carpel primordium, fuses to form the ovary with
+locules that contain ovules. Carpel primordial size is regulated by INHIBITOR
+OF MERISTEM ACTIVITY (IMA). Overexpression of IMA causes formation of
+small carpel primordia and ultimately small flowers and fruits. Carpel identity
+is controlled by TOMATO AGAMOUS 1 (TAG1) and TOMATO AGAMOUS-LIKE
+1 (TAGL1). Knock-down of TAG1 causes defects in stamens, loss of deter-
+minacy, and production of flowers-in-flowers or fruit-in fruit-­phenotype, while
+knock-down of TAGL1 causes style trichome loss and production of a thin
+pericarp. Another group of carpel number regulators consists of SQUAMOSA
+promoter binding protein-like (SPL/SPB) transcription factors. Knock-down
+mutants of these transcription factors produce extra carpels and fruit-like
+structures at the fruit stylar end. The tomato fruit is a multi-carpelar berry
+and its size is dependent on locule number. The largest variation in locule
+number has so far been attributed to two transcription factor encoding genes,
+FASCIATED (FAS) and LOCULE NUMBER (LC). The mutant forms ( fas and lc)
+present in most large-fruited domestic tomato are responsible for high locule
+number.
+
+Phase 2: Flower pollination, fertilization of ovules, fruit set and re-start of
+cell division
+Before anthesis, cell division in the ovary ceases temporarily. Following
+successful pollination and fertilization, cell division resumes (fruit set) due
+to auxin and gibberellic acid (GA) biosynthesis. Auxin transporters (PIN-
+FORMED (PIN)) and receptors (TRANSPORT INHIBITOR RESPONSE 1
+(TIR1)) are important during fruit set, development and growth. Mounet
+et al. (2012) have shown that mutant tomato plants with silenced SlPIN4
+gene produce small parthenocarpic fruits. TIR1 controls degradation of
+AUXIN/INDOLE-3-ACETIC ACID (Aux/IAA) transcriptional repressors in
+the presence of auxin, leading to release of auxin response factors (ARFs).
+Parthenocarpic fruits are formed when TIR1, Aux/IAA and ARF genes are
+mis-expressed. Larger fruits form when transcriptional repressors of auxin
+transporters or receptors are silenced. Su et al. (2014) have shown that
+when the repressor (SlIAA17) of Aux/IAA was silenced in tomato, larger
+fruits with thick pericarp were formed. Development of unpollinated ovaries
+is usually inhibited through reduced expression of genes encoding GA bio-
+synthesis enzymes. Transcript levels of these genes (e.g. those encoding GA
+20-oxidases) increase after successful pollination, leading to synthesis of ac-
+tive GA1 and GA4. GA interacts with its receptor (GA INSENSITIVE DWARF1
+(GID1)) to target DELLA proteins for proteolytic degradation, hence release
+of GA-responsive gene repression. Silencing of SlDELLA1 and repression of
+SlGA20ox1 causes production of pollen with reduced viability and small
+elongated facultative parthenocarpic fruits.
+82                         E. Heuvelink and R.C.O. Okello
+
+
+     Following fruit set, cell division proceeds for about 2 weeks but can be longer
+(up to 25 days after anthesis) in some cultivars. Cell division is a four-phase
+process consisting of DNA synthesis (S) and mitosis (M) and two gap phases.
+During M phase, a cell divides into two. Newly formed cells expand during gap
+phase 1 (G1) in preparation for S phase, when cellular DNA content doubles.
+S phase is followed by a second gap phase (G2) in which cell size doubles in prep-
+aration for M phase. Phase transition is regulated by catalytic cyclin-dependent
+kinases (CDK) that are dependent on cyclins (CYC) for activation. Cyclins deter-
+mine CYC–CDK complex stability, localization and substrate specificity. Seven
+CDKs and eight CYCs have been reported in tomato (Czerednik, 2012). Activity
+of the CYC–CDK complex can be modified by (i) proteolytic destruction of the
+CYC subunit (e.g. by the anaphase promoting complex/cyclosome (APC/C)),
+and (ii) inactivation by CDK inhibitors (e.g. SIM/SMR, WEE1 and Kip-related
+protein 1 (KRP1)). Cell cycle regulation can be upstream of CYCs and CDKs
+through transcription factors. E2F transcription factors are upstream cell cycle
+regulators that target genes (DEL) involved in DNA repair and chromatin dy-
+namics at the transition between G1 and S. The RETINOBLASTOMA-RELATED
+(RBR) protein binds the E2Fb transcription factor to prevent cell cycle progres-
+sion. G1 to S phase transition occurs when CYC–CDK dimers phosphorylate
+RBR and release E2F transcription factors. Some proteins (e.g. FW2.2) inhibit
+cell division but their mode of action is still elusive. FW2.2 accounts for up to
+30% of the variation in fruit fresh weight of domesticated and wild tomato.
+FW2.2 gene expression decreases in tomato fruits when they are grown at
+high temperature (Okello et al., 2015).
+
+Phase 3: Cell expansion and endoreduplication
+Cell expansion is a process that starts after fruit set and continues until the end
+of fruit growth. By the end of fruit growth, mesocarp cells can attain a size that
+is 30,000 times that of cells at anthesis. This increase in cell size is caused by
+import of water and sucrose, and accumulation of macromolecules and organ-
+elles. Imported sucrose is broken down into glucose and fructose by vacuolar
+acid invertase. Glucose molecules are used in the formation of ADP glucose, the
+building blocks of starch. ADP glucose formation is catalysed by ADP glucose
+pyrophosphorylase (ADPGPP) while starch synthase catalyses starch forma-
+tion from ADP glucose. ADPGPP consists of a large and small subunit encoded
+by AGPS1 and AGPaseB respectively. Towards the end of fruit growth, starch is
+broken down into fructose and glucose in a reaction catalysed by starch phos-
+phorylase. The expression of genes encoding these enzymes markedly influ-
+ences fruit growth. Silencing of the gene (TIV1) encoding vacuolar invertase
+biosynthesis, for example, causes reduced fruit size, high sucrose but low fruc-
+tose and glucose content. Guan and Janes (1991) demonstrated remarkable dif-
+ferences in fruit size of in vitro grown fruits exposed to light or darkness. They
+attributed the large fruit phenotype observed in light to higher rates of starch
+accumulation due to activation of ADPGPP by light.
+                               Developmental Processes                            83
+
+
+      Water uptake during cell expansion is driven by an osmotic potential gra-
+dient caused by carbohydrate accumulation. Water channels (aquaporins)
+f­acilitate water entry into cells. The expression of two aquaporin encoding
+ genes (delta-tonoplast integral protein (delta-TIP); plasma membrane intrinsic
+ protein (PIP1)) increases between 28 and 42 days after anthesis (Prudent et al.,
+ 2010). Cell expansion following water and carbohydrate uptake depends on
+ cell wall elasticity. Therefore factors influencing cell wall elasticity such as new
+ cell wall deposition, composition, bonding between wall components and en-
+ zymatic modification of the wall significantly affect cell expansion. Expansin
+ (EXP) genes encode proteins that act as a molecular grease between wall com-
+ ponents, thereby increasing cell wall elasticity. Prudent et al. (2010) studied
+ the expression of two cell wall synthesis associated genes (UDP-glucose-4-
+ epimerase (UDP-G-4-epi); UDP-glucose-pyrophosphorylase (UDP-G-PPase))
+ and three cell wall degradation genes (polygalacturonase (PG) and two xylo-
+ glucan endotransglycosylases (XTH6 and BR1)) in tomato. Their findings
+showed that under non-source-limiting conditions, UDP-G-4-epi expression
+increases with fruit maturity but declines towards ripening. The expression
+of PG is similar to that of UDP-G-4-epi except that no decline in expression
+is ­observed towards ripening. Expression of UDP-G-PPase, on the other hand,
+does not change while that of XTH6 and BR1 drops initially and levels off
+during fruit development.
+      Cell expansion in tomato fruit is positively correlated with endoreduplica-
+tion, a modified cell cycle in which cells undergo a repeated gap and DNA syn-
+thesis phase leading to ploidy levels ranging between 4C and 512C (where C is
+the haploid DNA content in picograms). Inhibitors of the CYC–CDK complex
+such as WEE1, KRP1, SIAMESE (SIM)/SIAMESE-RELATED (SMR) proteins pro-
+mote endoreduplication. Promotion of endoreduplication also occurs through
+inhibitory competition between E2F transcription factors. For example, E2Fc
+transcription factors inhibit activity of the cell cycle promoting DEL1 when
+they occupy the DNA binding site occupied by E2Fb during the normal cell
+cycle. Endoreduplication causes an increase in nuclear size. A positive effect
+of endoreduplication on transcription has also been shown in some studies. It
+is thought that the positive correlation between ploidy level and cell size stems
+from a causal relationship between nuclear and cytoplasmic growth as pro-
+posed in the karyoplasmic ratio theory.
+
+Phase 4: Ripening
+Ripening marks the beginning of senescence. It involves a change in colour from
+green to red or yellow. Colour change is associated with accumulation of caroten-
+oids which results from breakdown of the thylakoid membrane in chloroplasts.
+Dark-grown fruit are white due to lack of chloroplasts but they contain organ-
+elles (etioplasts and amyloplasts) that are capable of carotenoid accumulation
+and red colour formation during ripening. Expression of carotenoid biosynthesis
+genes (e.g. PHYTOENE SYNTHASE (PSY1)) increases during ripening. PSY1
+84                         E. Heuvelink and R.C.O. Okello
+
+
+catalyses the first step in the carotenoid biosynthetic pathway and is a ­precursor
+for the red pigment, lycopene. Flavonoids and anthocyanin also accumulate in
+the fruit peel during ripening and significantly affect fruit colour.
+     Tomato fruit are climacteric, hence they exhibit marked increase in
+respiration and ethylene production at the onset of ripening. Ethylene
+production begins with conversion of S-adenosymethionine (SAMe) to
+1-aminocyclopropane-1-carboxylic acid (ACC) by ACC synthase (ACS).
+ACC is then converted into ethylene in a reaction catalysed by ACC oxi-
+dase (ACO). Regulation of ripening via ethylene signalling occurs through
+ethylene biosynthesis and perception by receptors. Important regu-
+lators in the ethylene biosynthetic pathway include MADS-domain pro-
+tein RIPENING INHIBITOR (RIN), COLORLESS NON-RIPENING (CNR),
+and NAC domain transcription factor encoded by the gene underlying the
+non-ripening (nor) mutation. Mutants (rin and cnr) in which RIN and CNR
+expression are suppressed produce fruits that are unable to ripen. Fruits of
+these mutants neither produce elevated levels of ethylene nor respond to
+exogenous ethylene application.
+     RIN regulates autocatalytic ethylene production genes and plays a role
+in aroma formation by regulating LIPOXYGENASE (LOX) genes. The rin mu-
+tants exhibit suppressed expression of two genes, SlACS2 and SlACS4, in-
+volved in autocatalytic ethylene production. RIN also interacts with other
+ripening-promoting transcription factors, for example TOMATO AGAMOUS-
+LIKE 1 (TAGL1) and FRUITFUL 1 and 2 (FUL1/TDR4 and FUL2/MBP7).
+TAGL1 induces autocatalytic ethylene production while effects of FUL1 and
+FUL2 are ethylene independent (Bemer et al., 2012). Surprisingly, RIN ap-
+pears to play a role in negative regulation of ethylene biosynthesis through
+promotion of the expression of two genes (SlAP2a and SlMADS1) that nega-
+tively influence fruit ripening. Plants in which SlAP2a is repressed produce
+ripe fruits that are orange in colour, faster senescence and high levels of
+ethylene production. Expression of SlMADS1 is high in mature green fruits
+but decreases as fruits ripen. Plants with silenced SlMADS1 produce fruits
+that ripen earlier and produce more ethylene compared with the wild type.
+CNR, on the other hand, up-regulates the expression of ripening-related
+genes like PSY1, LOX and ACO1. Mutants (cnr) are incapable of carotenoid
+biosynthesis because they lack phytoene and other carotenoid precursors.
+However, CNR also promotes expression of a negative regulator of ethylene
+biosynthesis, SlAP2. The final step in ethylene biosynthesis requires activity
+of ACO. Silencing of its transcription factor, LeHB-1, reduces expression
+of LeACO1, leading to inhibition of ripening. Another recently discovered
+gene (SlNAC4) appears to be a positive regulator of ripening (Zhu et al.,
+2014). Suppression of its expression results in fruits with delayed ripening,
+­decreased ethylene biosynthesis, suppressed chlorophyll degradation and
+ reduced carotenoid phenotype.
+                             Developmental Processes                            85
+
+
+     Ethylene receptors are encoded by ETHYLENE RESPONSE (ETR)
+genes. ETR genes play a role in ethylene signalling by removing the block
+on ETHYLENE INSENSITIVE 2 (EIN2) exerted by CONSTITUTIVE TRIPLE
+RESPONSE 1 (CTR1). The released EIN2 promotes EIN3/EIN3-like (EIL) tran-
+scription factor gene activity which activates transcription of ETHYLENE
+RESPONSE FACTORS (ERFs). In general, ERFs positively mediate ethylene sig-
+nalling. For example, LeERF1 positively mediates ethylene signalling while
+Sl-ERF.B3 is active in feedback mechanisms that regulate ethylene produc-
+tion and responses. Other genes that regulate ripening via ethylene signal
+transduction include ethylene receptor genes, NEVER-RIPE, ETR6 and
+GREEN-RIPE.
+
+
+SUMMARY
+
+•   Germination rate depends linearly on temperature in the suboptimal tem-
+    perature range, with a minimum temperature of 8.7°C and a heat sum
+    requirement of 88 degree-days; 13°C is considered a ‘practical’ minimum
+    temperature for germination.
+•   Leaf and truss appearance rate and fruit development rate depend linearly
+    on temperature (range 17–23°C) and show hardly any influence of as-
+    similate supply (e.g. light intensity, CO2 concentration, fruit load, plant
+    density or removal of just-unfolded leaves).
+•   Number of leaves below the first inflorescence correlates negatively with
+    assimilate availability to the apex during a sensitive phase (approximately
+    the first 10 days from cotyledon expansion).
+•   Fruit set is positively correlated with assimilate availability, and both auxin
+    and gibberellins play a role. Poor fruit set under high or low temperatures
+    results from poor pollen quality.
+•   The identity of tomato carpels is regulated by TOMATO AGAMOUS 1
+    (TAG1) and TOMATO AGAMOUS-LIKE 1 (TAGL1) genes.
+•   Locule number is a major determinant of fruit size. Variation in fruit size
+    is attributed to two transcription factors FASCIATED (FAS) and LOCULE
+    NUMBER (LC).
+•   Fruit set is dependent on genes encoding auxin transporters (PIN) and re-
+    ceptors (TIR1).
+•   Cyclins and cyclin-dependent kinases orchestrate cell division during early
+    tomato fruit growth.
+•   Genes that regulate carbohydrate metabolism, endoreduplication and
+    aquaporins determine the extent of cell expansion.
+•   Tomato fruit ripening is regulated by genes encoding cell wall associated
+    proteins, ethylene biosynthesis and perception, and synthesis of carotenoids
+    and anthocyanin.
+86                             E. Heuvelink and R.C.O. Okello
+
+
+
+REFERENCES
+
+AOSA (2009) Seed Vigor Testing Handbook. Association of Official Seed Analysts,
+     Washington, DC.
+Arrizumi, T., Shinozaki, Y. and Ezura, H. (2013) Genes that influence yield in tomato.
+     Breeding Science 63, 3–13.
+Atherton, J.G. and Rudich, J. (eds) (1986) The Tomato Crop: A Scientific Basis for
+     Improvement. Chapman and Hall, London.
+Azzi, L., Deluche, C., Gévaudant, F., Frangne, N., Delmas, F., Hernould, M. and Chevalier, C.
+     (2015) Fruit growth-related genes in tomato. Journal of Experimental Botany 66,
+     1075–1086.
+Bemer, M., Karlova, R., Ballester, A.R., Tikunov, Y.M., Bovy, A.G. et al. (2012) The
+     t­omato FRUITFULL homologs TDR4/FUL1 and MBP7/FUL2 regulate ethylene-­
+      independent aspects of fruit ripening. The Plant Cell 24, 4437–4451.
+Bertin, N. (1995) Competition for assimilates and fruit position affect fruit set in inde-
+      terminate greenhouse tomato. Annals of Botany 75, 55–65.
+Bewley, J.D., Bradford, K.J., Hilhorst, H.W.M. and Nonogaki, H. (2013) Seeds: Physiology
+      of Development, Germination and Dormancy (3rd edn). Springer, New York.
+Bierhuizen, J.F. and Wagenvoort, W.A. (1974) Some aspects of seed germination in
+      vegetables. 1. The determination and application of heat sums and minimum tem-
+      perature for germination. Scientia Horticulturae 2, 213–219.
+Bours, R. (2014) Antiphase light and temperature cycles disrupt rhythmic plant growth: the
+      Arabidopsis jetlag. PhD thesis, Wageningen University, Wageningen, The Netherlands.
+Cao, K., Cui, L.,Ye, L., Zhou, X., Bao, E., Zhao, H. and Zou, Z. (2016) Effects of red light
+      night break treatment on growth and flowering of tomato plants. Frontiers in Plant
+      Science 7, 527.
+Czerednik, A. (2012) Effect of changes in cell cycle gene expression on tomato fruit de-
+      velopment. PhD thesis, Radboud University, Nijmegen, The Netherlands.
+Dambreville, A., Lauri, P.E., Normand, F. and Guédon, Y. (2015) Analysing growth and
+      development of plants jointly using developmental growth stages. Annals of Botany
+      115, 93–105.
+De Jong, M., Mariani, C. and Vriezen, W.H. (2009) The role of auxin and gibberellin in
+      tomato fruit set. Journal of Experimental Botany 60, 1523–1532.
+De Koning, A.N.M. (1994) Development and dry matter distribution in glasshouse to-
+      mato: a quantitative approach. PhD thesis, Wageningen Agricultural University,
+      Wageningen, The Netherlands.
+Demir, I. and Samit, Y. (2001) Quality of tomato seeds as affected by fruit maturity at
+      harvest and seed extraction method. Gartenbauwissenschaft 66, 199–202.
+Dias, D.C.F.S., Ribeiro, F.P., Dias, L.A.S., Silva, D.J.H. and Vidigal, D.S. (2006) Tomato seed
+      quality harvested from different trusses. Seed Science and Technology 34, 681–689.
+Dieleman, J.A. and Heuvelink, E. (1992) Factors affecting the number of leaves preced-
+      ing the first inflorescence in the tomato. Journal of Horticultural Science 67, 1–10.
+Eckstein, A., Jagiełło-Flasinska, D., Lewandowska, A., Hermanowicz, P., Appenroth, K.J. and
+      Gabrys, H. (2016) Mobilization of storage materials during light-induced germination of
+      tomato (Solanum lycopersicum) seeds. Plant Physiology and Biochemistry 105, 271–281.
+Fan, X.X., Xu, Z.G., Liu, X.Y., Tang, C.M., Wang, L.W. and Han, X.I. (2013) Effects of
+      light intensity on the growth and leaf development of young tomato plants grown
+      under a combination of red and blue light. Scientia Horticulturae 153, 50–55.
+                                  Developmental Processes                                   87
+
+
+Gay, A.P. and Hurd, R.G. (1975) The influence of light on stomatal density in the
+     ­tomato. New Phytologist 75, 37–46.
+Gosselin, A. and Trudel, M.J. (1982) Influence de la temperature du substrat sur la
+      croissance, le developpement et le contenu en elements mineraux de plants de
+      tomate (cv. Vendor). Canadian Journal of Plant Science 62, 751–757.
+Guan, H.P. and Janes, H.W. (1991) Light regulation of sink metabolism in tomato fruit.
+      I. Growth and sugar accumulation. Plant Physiology 96, 916–921.
+Heuvelink, E. and Marcelis, L.F.M. (1996) Influence of assimilate supply on leaf for-
+      mation in sweet pepper and tomato. Journal of Horticultural Science 71, 405–414.
+Holder, R. and Cockshull, K.E. (1990) Effects of humidity on the growth and yield of
+      glasshouse tomatoes. Journal of Horticultural Science 65, 31–39.
+Hurd, R.G. and Cooper, A.J. (1967) Increasing flower number in single-truss tomatoes.
+      Journal of Horticultural Science 42, 181–188.
+James, E., Bass, L.N. and Clark, D.C. (1964) Longevity of vegetable seeds stored 15 to 30
+      years at Cheyenne, Wyoming. American Society of Horticultural Science Proceedings
+      84, 527–534.
+Karlova, R., Chapman, N., David, K., Angenent, G.C., Seymour, G.B. and de Maagd, R.A.
+      (2014) Transcriptional control of fleshy fruit development and ripening. Journal of
+      Experimental Botany 65, 4527–4541.
+Kucera, B., Cohn, M.A. and Leubner-Metzger, G. (2005) Plant hormone interactions
+      during seed dormancy release and germination. Seed Science Research 15, 281–307.
+Langton, F.A. and Cockshull, K.E. (1997) Is stem extension determined by DIF or by ab-
+      solute day and night temperatures? Scientia Horticulturae 69, 229–237.
+Matsuo, S., Kikuchi, K., Fukuda, M., Honda, I., and Imanishi, S. (2012) Roles and regulation of
+      cytokinins in tomato fruit development. Journal of Experimental Botany 63, 5569–5579.
+Mounet, F., Moing, A., Kowalczyk, M., Rohrmann, J., Petit, J. et al. (2012) Down-
+      regulation of a single auxin efflux transport protein in tomato induces precocious
+      fruit development. Journal of Experimental Botany 63, 4901–4917.
+Nederhoff, E.M., De Koning, A.N.M. and Rijsdijk, A.A. (1992) Leaf deformation and fruit
+      production of glasshouse grown tomato (Lycopersicon esculentum Mill.) as affected
+      by CO2, plant density and pruning. Journal of Horticultural Science 67, 411–420.
+Nonogaki, H. (2006) Seed germination – the biochemical and molecular mechanisms.
+     Breeding Science 56, 93–105.
+Okello, R.C.O. (2015) Multi-level analysis of the impact of temperature and light on tomato
+     fruit growth. Dissertation, Wageningen University, Wageningen, The Netherlands.
+Okello, R.C.O., Heuvelink, E., de Visser, P.H.B., Lammers, M., de Maagd, R.A., Struik, P.C.
+     and Marcelis, L.F.M. (2015) A multi-level analysis of fruit growth of two tomato
+     cultivars in response to fruit temperature. Physiologia Plantarum 153, 403–418.
+Picken, A.J.F. (1984) A review of pollination and fruit set in the tomato (Lycopersicon
+     esculentum Mill.). Journal of Horticultural Science 59, 1–13.
+Picken, A.J.F., Hurd, R.G. and Vince-Prue, D. (1985) Lycopersicon esculentum. In: Halevy A.H.
+     (ed.) Handbook of Flowering III. CRC Press, Boca Raton, Florida, pp. 330–346.
+Picken, A.J.F., Stewart, K. and Klapwijk, D. (1986) Germination and vegetative develop-
+     ment. In: Atherton, J.G. and Rudich, J. (eds) The Tomato Crop: A Scientific Basis for
+     Improvement. Chapman and Hall, London, pp. 111–166.
+Prudent, M., Bertin, N., Génard, M., Muños, S., Rolland, S. et al. (2010) Genotype-
+     dependent response to carbon availability in growing tomato fruit. Plant, Cell and
+     Environment 33, 1186–1204.
+88                            E. Heuvelink and R.C.O. Okello
+
+
+Qian, T., Dieleman, J.A., Elings, A. and Marcelis, L.F.M. (2012) Leaf photosynthetic and
+        morphological responses to elevated CO2 concentration and altered fruit number
+     in the semi-closed greenhouse. Scientia Horticulturae 145, 1–9.
+Rendon-Poblete, E. (1980) Effect of soil water status on yield, quality and root devel-
+     opment of several tomato genotypes. PhD dissertation, University of California,
+     Davis, California.
+Sachs, R.M. and Hackett, W.P. (1969) Control of vegetative and reproductive develop-
+     ment in seed plants. HortScience 4, 103–107.
+Samach, A. and Lotan, H. (2007) The transition to flowering in tomato. Plant
+     Biotechnology 24, 71–82.
+Sato, S., Peet, M.M. and Thomas, J.F. (2000) Physiological factors limit fruit set of to-
+     mato (Lycopersicon esculentum Mill.) under chronic, mild heat stress. Plant, Cell &
+     Environment 23, 719–726.
+Sato, S., Kamiyama, M., Iwata, T., Makita, N., Furukawa, H. and Ikeda, H. (2006)
+     Moderate increase of mean daily temperature adversely affects fruit set of
+     Lycopersicon esculentum by disrupting specific physiological processes in male
+     reproductive development. Annals of Botany 97(5), 731–738. doi: 10.1093/aob/
+     mc1037.
+Savvides, A., van Ieperen, W., Dieleman, J.A. and Marcelis, L.F.M. (2013) Meristem tem-
+     perature substantially deviates from air temperature even in moderate environ-
+     ments: is the magnitude of this deviation species‐specific? Plant, Cell & Environment
+     36, 1950–1960.
+Savvides, A., Ntagkas, N., van Ieperen, W., Dieleman, J.A. and Marcelis, L.F.M. (2014)
+     Impact of light on leaf initiation: a matter of photosynthate availability in the
+     ­apical bud? Functional Plant Biology 41, 547–556.
+Schmitz, G. and Theres, K. (1999) Genetic control of branching in Arabidopsis and
+      ­tomato. Current Opinion in Plant Biology 2, 51–55.
+Sinício, R., Lopes, J.F., Silva, D.J.H. and Mattedi, A.P. (2009) Longevity equation for
+       ­tomato seeds. Seed Science & Technology 37, 667–675.
+Su, L., Bassa, C., Audran, C., Cheniclet, C., Chevalier, C. et al. (2014) The auxin
+        Sl-IAA17 transcriptional repressor controls fruit size via the regulation of the
+        endoreduplication-­related cell expansion. Plant and Cell Physiology 55, 1969–1976.
+Tucker, D.J. (1976) Effects of far-red light on the hormonal control of side shoot growth
+        in the tomato. Annals of Botany 40, 1033–1042.
+Venkatasubramanian, A. and Umarani, R. (2007) Evaluation of seed priming methods
+        to improve seed performance of tomato (Lycoperison esculentum), egg plant (Solanum
+        melongena) and chilli (Capsicum annuum). Seed Science & Technology 35, 487–493.
+Wang, X., Zhang, L., Xu, X., Qu, W., Li, J., Xu, X. and Wang, A. (2016) Seed devel-
+        opment and viviparous germination in one accession of a tomato rin mutant.
+        Breeding Science 66, 372–380.
+Wagenvoort, W.A. and Bierhuizen, J.F. (1977) Some aspects of seed germination in
+        vegetables. II. The effect of temperature fluctuation, depth of sowing, seed size
+        and cultivar, on heat sum and minimum temperature for germination. Scientia
+        Horticulturae 6, 259–270. https://doi.org/10.1016/0304-4238(77)90083-8
+Zhu, M., Chen, G., Zhou, S., Tu, Y., Wang, Y., Dong, T. and Hu, Z. (2014) A new tomato
+        NAC (NAM ATAF1/2/CUC2) transcription factor, SlNAC4, functions as a positive
+        regulator of fruit ripening and carotenoid accumulation. Plant and Cell Physiology
+        55, 119–135.

@@ -1,0 +1,1572 @@
+                                     9
+          Greenhouse Tomato Production
+              Cheiri Kubota, Arie de Gelder and Mary M. Peet
+
+
+
+
+GREENHOUSE INDUSTRY OVERVIEW
+
+Although definitive numbers are not available, the greenhouse area used for
+the production of vegetables worldwide has been increasing over the years. In
+comparing different geographical areas, large differences are seen in climatic
+conditions (light intensity and temperature), greenhouse design and equip-
+ment, as well as technical expertise (Montero et al., 2011). This results in yield
+differences between regions. While it might be expected that regions with
+higher light would have higher production, the level of greenhouse technology
+utilized is often a more important factor. For example, average tomato yields in
+Almeria, Spain, are far lower (28 kg/m2) than in The Netherlands or Canada
+(60 kg/m2) (see Chapter 1), even though the daily light sum or daily light in-
+tegral (DLI) is on average 5 times higher in winter and 60% higher on an an-
+nual basis in Spain than in The Netherlands (Costa and Heuvelink, 2000). This
+difference is partly caused by a difference in cropping season. In Almeria, the
+temperature in summer is too high for balanced crop growth and good product
+quality of tomatoes, therefore greenhouses are left empty in summer. On the
+other hand, in arid or semi-arid regions such as Mexico and south-western USA,
+tomatoes are grown very successfully in summer in greenhouses equipped
+with advanced climate control technology. Differences in yield between regions
+are also due to cultivar choice. For ­example, pink-type cultivars grown widely
+in Japan have been shown to be less productive than modern Dutch cultivars.
+The average annual greenhouse tomato yield has reportedly doubled from 30
+kg/m2 in the 1980s to 60 kg/m2 in 2005 in The Netherlands (Higashide and
+Heuvelink, 2009). More recently a yield level of 100 kg/m2 was anecdotally
+reached in south-western USA in a high-tech, semi-closed greenhouse by com-
+bining crop scheduling and advanced environmental control. This remarkable
+achievement is due to both technology ­advancements in controlled environ-
+ment and the use of special cultivars that are highly productive and especially
+bred for greenhouse cultivation (Higashide and Heuvelink, 2009).
+
+
+276                      © CAB International 2018. Tomatoes 2nd edition (E. Heuvelink)
+                          Greenhouse Tomato Production                       277
+
+
+     More recently, along with increasing interest in urban farming, green-
+houses have now been erected in metropolitan areas such as New York City.
+Rooftop greenhouses, once considered economically impractical, are now suc-
+cessfully operating and attracting consumers who appreciate locally produced
+food. Entrepreneurs and academia are examining the feasibility of tomato pro-
+duction inside warehouses equipped with modern artificial lighting (i.e. ‘plant
+factories’), but the economics of such production systems need to be further
+investigated under various scenarios.
+     Special cultivars exist for tomato production in greenhouses. The large
+red multi-locular ‘beefsteak’ type tomato with an indeterminate growth habit
+is the industry standard in North America. However, this cultivar type is no
+longer popular in North American greenhouses, due to competition from open
+field production. Cluster tomatoes or on-the-vine tomatoes (TOV) are now the
+common types produced in North American greenhouses (Fig. 9.1). Smaller
+two- to three-locule round fruits (47–65 mm) or cherry tomatoes (< 15 mm),
+nearly all cluster types, are the most common types grown in Europe. There is
+also a market for large fruit, which may replace smaller fruits as market trends
+change. Attributes for cluster types include uniformity of fruit size, harvesting
+the entire truss at once, simultaneous ripening of all the fruit on the truss and
+fruit remaining on the vine/truss after harvest.
+     Heirloom tomato varieties are grown in greenhouses for niche markets
+in North America, though scale of production is still small. They are open-­
+pollinated and maintained for many generations among farmers in Europe
+and North America. They exhibit large variations in colour, flavour, shape and
+other traits. Many of these cultivars are not as productive as the widely used
+commercial hybrids but they are richer in flavour, creating specialized markets
+in retail and restaurants.
+
+
+GREENHOUSE STRUCTURES AND SYSTEMS
+
+Structure types and orientations
+
+Greenhouses have been developed to protect the crop from ‘hostile’ weather
+conditions such as low temperatures, frost, wind, rain, hail or snow. Tomatoes
+can be grown in every type of greenhouse, provided it is high enough to train
+the plants vertically. Tunnels covered with plastic films are widely used as low-
+cost structures, typically for seasonal production. In many countries world-
+wide, the Dutch so-called Venlo type of glasshouse is now used (Atherton and
+Rudich, 1986; Teitel et al., 2012). At the same time, many countries have their
+own greenhouse types with different dimensions, structures and coverings
+(Montero et al., 2011). For example, a typical Chinese greenhouse (solar green-
+house) consists of short north–south oriented raised beds inside the east–west
+oriented lean-to structure with the north-side wall made of soil and/or bricks.
+278                                 C. Kubota et al.
+
+
+      (a)
+
+
+
+
+                                                Cluster type (TOV) – medium size
+
+      (b)
+
+
+
+
+                                                Cluster type (TOV) – mini Roma
+      (c)
+
+
+
+
+                                                Cherry type
+
+Fig. 9.1. Various types of tomatoes grown in greenhouse: (a) cluster type (TOV),
+medium size; (b) cluster type (TOV), mini Roma; (c) cherry type. (Photographs:
+Chieri Kubota.)
+
+In southern Spain, flat-roof greenhouses covered by single-layer polyethylene
+film (‘parral’ greenhouses) are widely used. In Israel and Mexico, where tem-
+peratures are generally higher, screen houses are common and effectively used
+for tomato production.
+      The frames of modern Dutch-style greenhouses are generally made of alu-
+minum or galvanized steel. More traditional and older or smaller greenhouses
+as well as high tunnels may be wood-framed. The shape of greenhouses used for
+tomato cultivation (Fig. 9.2) varies depending on several factors, such as: (i) the
+weight of the tomato plants on the wire; (ii) expected snow load; (iii) amount of
+natural ventilation required; (iv) place of vents (roof or side); (v) whether the
+bays are stand-alone or joined at the gutters; (vi) type of covering (glass or plastic);
+(vii) growing system; (viii) use of screens; and (ix) use of artificial lighting, etc.
+                          Greenhouse Tomato Production                         279
+
+
+
+(a)
+
+
+
+
+(b)
+
+
+
+
+      (c)
+
+                                              Fig. 9.2. Shapes of greenhouse
+                                              frames: (a) gutter-connected
+                                              straight sidewall with arch roof;
+                                              (b) ridge-and-furrow style straight
+                                              sidewall with gable roof; (c) hoop
+                                              or quonset style; (d) Gothic-arch
+      (d)                                     frame.
+
+
+Sidewall and support column height has been increasing, and in modern
+Venlo-type greenhouses ranges from 3.5 m to 7 m. High sidewalls and support
+columns allow for a taller crop and for more climate control equipment to be
+installed above the crop, such as horizontal airflow fans, energy screens, shade
+screens, fogging, lighting and heating. High sidewalls also increase the effect-
+iveness of natural ventilation in greenhouses with roof venting. However, in-
+creasing sidewall height may increase the heating costs in some cases, such
+as in single-span greenhouses, as it increases the surface/floor area ratio.
+Space near the sides can be used more efficiently with straight sidewalls than
+in so-called Quonset-style structures (Fig 9.2). Gothic-arch frame structures,
+which have a peak at the top but curving sides, provide adequate sidewall
+height without loss of strength and can be free-standing or part of a range of
+multi-span, gutter-connected units. The advantage of Gothic-arch structures
+in double-polyethylene greenhouses is better runoff of condensation from the
+inner layer of plastic. The runoff can be channelled outside the greenhouse,
+reducing greenhouse humidity.
+     Venlo-type greenhouses protect the crop against adverse weather condi-
+tions and at the same time provide high light transmittance, allowing good crop
+growth (Bakker et al., 1995). Venlo greenhouses typically use glass covering
+but a variety of synthetic covering materials is also used.
+280                               C. Kubota et al.
+
+
+     The parral greenhouse, which is the standard in Almeria, Spain, consists
+of a supporting structure of vertical wooden, concrete or metal posts. The lower
+ends of the posts are set in the soil and their upper ends are connected by a flex-
+ible wire grid. The plastic film covering material is supported by this wire grid
+and is held in place by a second wire grid placed over the film. The roof pitch
+varies from flat to 13 degrees. Holes are made in the plastic film along the val-
+leys to allow rainwater to pass through the cover and be collected using plastic
+or galvanized steel gutters. Since the cost of mechanical ventilation is unaccept-
+ably high for typical parral greenhouses, they use natural ventilation. This is the
+cheapest, most practical and commonly used method to ensure an acceptable
+greenhouse climate during both warm and cool periods (Brugger et al., 2005)
+but does not allow production in mid-summer (high temperature season).
+     Greenhouse light transmission and spatial uniformity of light intensity
+inside the greenhouse are important. They are affected by the direct/diffuse
+ratio in the incident light as well as diffusion properties of covering mater-
+ials (Hemming et al., 2008, 2016), greenhouse design (roof angle and shape,
+number of spans, and amount of light intercepting structural elements), time
+of day, season and location (latitude). Computer-based simulations have been
+used to investigate influences of such factors on incident light intensity and dis-
+tribution over the plant canopy (e.g. Gupta et al., 2012; Castellano et al., 2016).
+In general, seasonal changes in greenhouse light transmission are greater at
+higher latitudes. Greenhouses transmit more light (direct light) in winter when
+they are oriented east–west, while north–south oriented greenhouses have a
+more uniform light environment inside the greenhouse. In large, multi-span
+greenhouses, optimizing for light may be less critical than optimizing for wind
+direction if the greenhouse is to be naturally ventilated by roof vents. Ideally
+the greenhouse is placed perpendicular to the direction of the prevailing winds
+during the hottest times of the production cycle. An additional consideration is
+that the distribution of shaded and non-shaded areas should be uniform over
+the course of the day. Ideally, all areas of the greenhouse should receive the
+same amount of light over a 24 h period in order for plant growth to be uni-
+form throughout the greenhouse.
+
+
+Covering materials
+
+There are three main types of greenhouse covering: glass; rigid plastics; poly-
+ethylene or other synthetic film. Film coverings can be either double or single.
+In cold climates, double layers are separated by an insulating layer of air, often
+continuously inflated with an air pump, usually about 10 cm thick, to conserve
+energy. Modern synthetic materials can have similar or better attributes than
+glass, but are often more expensive.
+    Traditionally, greenhouses have been made from glass; hence the use of
+the terms ‘glasshouse’. Glass maximizes photosynthetically active radiation
+                            Greenhouse Tomato Production                           281
+
+
+(PAR) transmission and only requires regular cleaning and sealing of the
+edges. Glass also has lower transmission of long-wave radiation (3000 nm or
+greater) and therefore glass provides more thermal protection than plastics.
+Glass can be used in large panels, reducing structural shading (Giacomelli
+and Roberts, 1993). However, glass is expensive compared with polyethylene
+plastic film and some rigid plastics.
+     Life expectancy of all plastics with a few exceptions (e.g. ethylene-co-tetrafluo-
+roethylene (ETFE)) is reduced by extreme temperatures, dust, sand, air pollu-
+tants and ultraviolet (UV) radiation. Traditional polyethylene coverings would
+need to be replaced every 2–4 years to maintain acceptable light transmission.
+Innovation in plastic formulations and advanced extrusion technologies has
+led to high-quality greenhouse films with extended film life. Also different
+types of plastic layers are combined to modify thermal properties or to reduce
+condensate dripping. Near-infrared (NIR) blocking additive for plastic covering
+materials, however, typically reduces the transmission of PAR and needs evalu-
+ation under various conditions (e.g. Kempkes and Hemming, 2012). Some
+companies also offer wavelength-selective plastics said to reduce disease or in-
+sect pressure or to control plant height growth. At this time, because of their
+higher cost, wavelength-selective plastics are not widely used by growers.
+     Three types of coverings were compared in an experiment in Ontario,
+Canada: glass, rigid synthetics and polyethylene plastic film. Tomato and cu-
+cumber yields were reported to be similar under all three types of coverings
+(Papadopoulos and Hao, 1997a, b). Probably other factors compensated for
+the lower light level, such as more diffuse light and more favourable humidity
+in summer under plastic than under glass, leading to different plant bal-
+ance. Presumably light was less limiting than in earlier studies done in The
+Netherlands, which compared single- and double-glass greenhouses. In these
+studies, 1% light loss resulted in about 1% loss of production (Van Winden et al.,
+1984). In a more recent literature study, Marcelis et al. (2006) showed that
+1% less light resulted in 0.7–1% less growth and production in most green-
+house vegetable crops (see also Chapter 4). Whatever the type of covering
+material used, optimal light transmission should be a priority for manufac-
+turers of greenhouses and greenhouse covering materials.
+     Rigid plastics used for greenhouse covering include fibreglass reinforced
+polyester, polycarbonate and acrylic. Some are energy efficient, have good light
+transmission in the first year of usage and last at least 10 years. But rigid plas-
+tics are more expensive than polyethylene films (Giacomelli and Roberts, 1993).
+Acrylic and fibreglass panels deteriorate from dust more rapidly than glass and
+they are fire hazards. Like glass panes, rigid plastics are strong and can be in-
+stalled as large panels to reduce shading from support structures. Insulated
+rigid double-walled plastic panels are sometimes used to conserve energy but
+they reduce the rate of snowmelt compared with glass or plastic film. This is a
+severe disadvantage in regions with snowfall, because snow ­accumulation not
+only blocks the natural light but also can lead to collapse of the greenhouse.
+282                                C. Kubota et al.
+
+
+Double-layer polyethylene greenhouses are also energy efficient and in case of
+snowfall the double layers can be deflated, to increase melting rate. Thus, in
+Canada, Mexico and the USA, it is more common for new greenhouses to be
+covered with a double layer of plastic film than with glass or rigid plastic panels.
+In north-west Europe, use of glass is common. Double-poly houses often have
+rounded roofs (Quonset-style) (Fig. 9.2), which contribute to condensate drip-
+ping on to leaves. Designs with roof openings (Fig. 9.3) are available for plastic
+film greenhouses as well as acrylic (Giacomelli and Roberts, 1993).
+     Among recently developed covering materials, one that transforms direct
+light to diffuse light without substantially reducing the transmission of global
+light (diffuse plus direct light) has been evaluated. Converting direct light to dif-
+fuse light can increase plant productivity in greenhouses (see also Chapter 4),
+because diffuse light is non-directional and can reach deeper into the canopy
+and thus increase photosynthesis of the whole plant stand (Hemming et al.,
+2008, 2016; Li et al., 2014). For high-wire cucumber plants, Hemming et al.
+(2008) demonstrated that yield was increased by 8–10% by applying diffusing
+covering material made of ETFE in comparison with using glass. The effective-
+ness of diffusing covering materials can vary regionally and is minimum in areas
+with predominantly overcast skies, where the natural global light contains a
+high percentage of diffuse light. Diffusing covering materials are more effective
+
+
+
+
+Fig. 9.3. Plastic greenhouse with roof opening for natural ventilation. (Photograph
+courtesy of Chieri Kubota.)
+                            Greenhouse Tomato Production                          283
+
+
+in promoting plant growth in regions with high levels of direct sunlight, such
+as arid and semi-arid regions. Other new technologies recently developed and
+evaluated are glass coatings that reduce reflection and hence increase the
+transmission of light (i.e. anti-reflection coatings), and low-emission coatings
+that reduce emissivity of long-wave radiation for energy saving (Hemming
+et al., 2011). Most recent innovations of covering technology include a com-
+bination of glass and ETFE film to enhance thermal insulation while retaining
+high transmission.
+
+
+Growing systems
+
+In most commercial large-scale greenhouse complexes worldwide, greenhouse
+tomatoes are grown in ‘soilless’ cultures with drip irrigation. A large propor-
+tion of tomato cultivation uses growing media (also known as substrates or
+­aggregates). The term ‘hydroponic’ can refer to substrate-based soilless culture
+ or to water cultures such as nutrient film technique (NFT). NFT is used far less
+ than substrate-based soilless culture for commercial tomato production.
+      For small-scale and for organic production, greenhouse tomatoes are pro-
+ duced in the soil (see Chapter 11). Growing in soil requires measures to reduce
+ soilborne diseases and pests. Possible measures are crop rotation, grafting,
+ pre-planting soil sterilization by steaming or fumigation, or companion plant-
+ ing and the use of biologicals that boost plant defence mechanisms.
+      Among various substrates available in crop production, stone wool has
+ been the most common substrate for soilless culture. However, due to the
+ higher price and (in some countries) issues associated with the disposal of
+ stone wool, more growers are using coconut coir as an alternative. Both sub-
+ strates are commonly used as substrate slabs, typically 15 cm wide, 7.5 cm
+ high and 90 or 120 cm long, wrapped in white thin plastic film. In a typical
+ setting, slabs are placed in gutters (or gullies) to collect the efflux solution typ-
+ ically called ‘drain’. The drain is either discharged or recycled, typically called
+ ‘recirculated’. Recirculation involves pumping the drain back into the nutrient
+ tank, ideally after sterilization. Then the nutrient solution must be adjusted to
+ account for nutrients that were taken out by the plants. Many large-scale com-
+ mercial growers use a raised, hanging gutter system so that harvestable fruits
+ are at a convenient height for workers. Hanging gutter systems are also incorp-
+ orated in the closed and semi-closed greenhouse system described elsewhere in
+ this chapter.
+      Other substrates used in soilless culture of tomatoes include perlite, peat
+ and to some extent pumice. Properties of various substrates are summarized
+ in Schwarz et al. (2014). Locally available materials such as sand and volcanic
+ rocks (e.g. ‘tezontle’ in Mexico) are used also. These loose substrates can be
+ placed in buckets, pots or bags as shown in Fig. 9.4. Regarding differences be-
+ tween substrates in their effect on tomato plant growth and yield, a substrate
+284                               C. Kubota et al.
+
+
+
+
+Fig. 9.4. Tomato plants grown in pots containing perlite in a greenhouse.
+(Photograph courtesy of Wim van Ieperen.)
+
+trial at the University of Arizona (Jensen, 2002) showed that there were no
+significant differences in yield of greenhouse tomatoes between five different
+media (coconut coir, perlite, peat-lite, coir/perlite and stone wool) when irri-
+gation was managed properly. A rule of thumb is to irrigate with a volume of
+100 ml/plant (or 200 ml/plant with double shoots) per irrigation event, while
+timing of the irrigation events is controlled so that the efflux solution volume is
+about 30% of influx solution volume. Frequent irrigation with a small volume
+each time rather than infrequent irrigation with a large volume is advanta-
+geous in terms of maintaining the root zone conditions in an optimal range.
+(See also Chapter 6.)
+                          Greenhouse Tomato Production                       285
+
+
+      Several types of substrate can be reused for a new planting, though
+some substrates suffer loss of structure and quality over time. Substrates are
+usually sterilized before a new crop is planted. Some growers reuse the sub-
+strates without sterilization, which was supported by studies conducted in The
+Netherlands (Sonneveld and Welles, 1984) as well as in the USA (Hochmuth
+et al., 1991). However, it seems that single usage of substrate is more common
+among large greenhouse growers, presumably to minimize the risk of diseases.
+
+
+CROPPING SCHEDULES AND MANAGEMENT UNIQUE TO
+GREENHOUSE
+The tomato plant is a short-lived perennial and can be maintained for a period
+of a year or more in favourable environments. Most production schemes are
+based on an annual cycle, with allowance of about a month between crops for
+clean-up and pest and disease control. This means that typically, tomato plants
+are in the greenhouse for 11 months and in production for about 9 months
+per year. Year-round production can be achieved with interplanting (or inter-
+cropping, Fig. 9.5). The time chosen to be out of production is usually based
+on unfavourable prices or environmental conditions. In hot and humid cli-
+mates, many growers seed in late summer or autumn and carry the crop until
+early summer of the next year. In this way they avoid summertime cooling,
+poor fruit set and quality, pest build-up and competition from field tomatoes.
+In many cases, large commercial greenhouses produce tomatoes almost or, in
+some cases, all year-round, in order to increase return on investments and to
+avoid buyers switching to alternative sources. In some cases interplanting is
+performed, which is essentially planting young seedlings among the finishing
+old plants, to ensure minimal interruption in supply.
+     December planting, with production from March until November, is
+common practice at northern latitudes in the northern hemisphere. In the
+southern hemisphere the same is done but with a 6 months offset. Supplemental
+lighting is used to support plant growth and enable tomato production in
+periods with low natural light. Some growers, especially in the south-eastern
+USA, and some in The Netherlands (approximately 100 ha), grow separate au-
+tumn and spring crops, leaving short production breaks both mid-winter and
+mid-summer.
+     There is considerable interest in organic greenhouse tomato production.
+With organic production, crop production must be certified by an authorized
+organization that regulates the types of material that can be used. In Europe,
+hydroponics and soilless cultural practices are not allowed under organic
+schemes. In the USA, the National Organic Program does not preclude soilless
+or hydroponic production, though synthetic substrates such as stone wool are
+not allowed. All guidelines relative to organic fertilizers and pesticides must
+be followed and the choice of cost-effective soluble organic fertilizers is still
+286                                 C. Kubota et al.
+
+
+
+
+Fig. 9.5. Willcox Arizona greenhouse showing new intercropped tomato plants
+with older plants on either side. Note severe leaf pruning on older plants in order
+to provide additional light to the new crop. The pipe-rail heating is visible in the
+middle. (Photograph courtesy of Chieri Kubota.)
+
+limited. Use of high-analysis chemical fertilizers and most chemical pesticides
+is prohibited. Biological factors, such as soil condition and fertility and the use
+of beneficial insects, are the main factors used to assure a vital, healthy crop
+and good fruit quality. Total area of organic production in The Netherlands is
+2% and that for tomato in the USA is 3% (USDA, 2013). (See Chapter 11 for
+organic cultivation.)
+
+
+Transplant production
+
+ Transplant quality is defined by absence of pests and diseases, and the capacity
+ to quickly grow and become established. Transplant production requires 3–6
+ weeks (or as long as 8 weeks for grafted two-headed plants), depending on tem-
+ perature and light conditions and stage of transplanting: either as plugs or as
+ mature plants with visible first truss. A good transplant is one that is as wide as
+ it is tall and is not yet flowering. Supplemental light (50–100 μmol/m2/s photo-
+synthetic photon flux (PPF)) in situations with low natural light and carbon
+­dioxide (CO2) enrichment (800–1000 μmol/mol) during ­transplant ­production
+                           Greenhouse Tomato Production                       287
+
+
+increase plant growth rates and plant quality, and have been a practice in spe-
+cialized nurseries.
+     Seedlings for stone wool systems are generally started in a sterile inert me-
+dium, such as stone wool plugs at a density of around 600–1000 plants/m2.
+Use of coated seeds is common, which is especially advantageous for machine
+seeding and for uniform germination. Germination is often conducted in a
+separate compartment with controlled temperature and humidity suitable for
+germination. In some cases, especially for grafted seedlings, a sorting by size
+may be conducted at the cotyledon stage to create a more uniform seedling
+stand.
+     Grafting, which involves combining a rootstock and a scion, was originally
+done for attaining resistance to soilborne diseases and pests. For soil-based pro-
+duction systems, rootstocks are selected mainly for resistance to diseases such
+as Fusarium, Verticillium wilt and bacterial wilt, as well as root-knot nema-
+todes (Meloidogyne sp.). Increasingly, greenhouse growers use grafted plants
+even in soilless culture to achieve greater yields resulting from the stronger
+root system (Kubota et al., 2008). Grafting is normally conducted when the
+second true leaf emerges and is followed by 5–7 days of healing. Grafted plants
+are sometimes pinched after healing to induce two lateral shoots per plant.
+The strong rootstock can support two heads and thus reduces the number of
+transplants needed for the production area without reducing the overall yields.
+Grafted plant performance depends on the combination of rootstock and scion.
+Rootstocks used for grafting tomato are either interspecific hybrids or intraspe-
+cific hybrids. The advantage of the former is generally greater vigour but they
+have the disadvantage of non-uniform germination. The standard method for
+grafting tomatoes is tube grafting, where scion and rootstock seedlings are cut
+at a sharp angle of 30–45 degrees and held together using an elastic plastic
+or silicon tube (Fig. 9.6). Machine grafting for tomato is available but hand
+grafting is still common in most nurseries.
+     During the transplanting stage growing in large cubes, plant density
+should be 20–22 plants/m2. A rule of thumb is that transplant leaves should
+not touch. Sub-irrigation is always recommended, to minimize diseases on
+wet foliage. Transplanting into the final production greenhouse is performed
+just before the first flower opens (anthesis stage). This minimizes the time
+between transplanting and first harvest in the greenhouse and also ensures
+that the first flower grows out to a harvestable tomato fruit. Increasingly,
+growers purchase seedlings grown in commercial nurseries and in some
+cases the seedlings travel long distance over multiple days or are imported
+from another country. Long-distance transportation of seedlings requires
+appropriate temperature control during transportation, since unfavourable
+conditions could cause flower abortion or abnormal development (Kubota
+and Kroggel, 2006). Virus and viroid introduction associated with trans-
+porting plants is a serious issue and some countries have already banned
+importation of live tomato seedlings to minimize the risk of outbreak or
+288                                C. Kubota et al.
+
+
+
+
+Fig. 9.6. Grafting tomato seedlings. Tube grafting is a common method for tomato that
+allows 100–400 grafts per hour per person. (Photograph courtesy of Chieri Kubota.)
+
+
+introduction of new disease. In other cases, new certification programmes
+(e.g. Good Seed and Plant Practices (GSPP)) have been introduced to prevent
+the spread of diseases through vertically integrated hygiene practices. In
+Japan, use of isolated growth rooms with artificial lighting (300 μmol/m2/s
+PPF for 16–18 h photoperiod) and CO2 enrichment (about 1000 μmol/mol)
+is becoming standard for high-quality tomato transplant production partly
+because of increasing demand for transplants free from diseases and pests
+(Kozai, 2015) (Fig. 9.7).
+     Carefully designed watering schedules and nutrient programmes (espe-
+cially with regard to nitrogen and potassium concentration) are necessary to
+control plant growth, as plants tend to be overly vegetative after transplanting.
+An example nutrient management programme is shown in Table 9.1.
+
+
+Planting density/stem density
+
+In a typical 3.2 m Venlo greenhouse span, there are four rows of tomato plants
+and two pathways. Generally, tomatoes are set out in double rows, normally
+around 0.5 m apart with 1.1 m access pathways between the double rows.
+Plant populations are adjusted at the start of the crop by altering the in-row
+spacing and later in the season by allowing extra heads (side shoots) to develop.
+Atherton and Rudich (1986) gave detailed information of the relation between
+plant density and yield per plant and consequences of spacing for mean fruit
+                            Greenhouse Tomato Production                           289
+
+
+
+
+Fig. 9.7. Indoor transplant production system using artificial lighting. More
+commercial nurseries in Japan are introducing this type of high-tech propagation
+facility to ensure hygiene and quality control. (Photograph courtesy of Chieri Kubota.)
+
+weight and harvest costs. In general, under north European conditions a plant
+density of 2.5 plants/m2 has been found to give the best financial margin.
+In more southerly latitudes, a higher plant density may be used because of
+higher light intensity. Similarly, the number of plant stems or side shoots al-
+lowed to develop should be based on light intensity. This ensures not only a
+high yield but also optimal quality, including taste. Uniformity of fruit size is
+also improved when the number of side shoots is matched to incident light (Ho,
+2004). For example, Canada has about 2 times higher radiation in winter and
+40% higher radiation in spring compared with The Netherlands. Anecdotally,
+optimal plant spacing in mid-December is 50 cm in Canada rather than 55 cm
+in The Netherlands. Extra stems are left starting in week 5 in Canada versus
+in week 9 in The Netherlands. For spring, recommended spacing in Canada is
+40 cm in the row compared with 44 cm in The Netherlands. The use of strong
+rootstock allows the making of double-headed grafted seedlings. This allows
+growers to halve the number of plants while maintaining the shoot density
+(shoots/m2). Increasingly, growers adopt the so-called ‘V-system’ with the two
+shoots per plant trained in opposite directions along the gutter to form double
+rows of plants.
+290                                    C. Kubota et al.
+
+
+Table 9.1. Final delivered nutrient solution concentration (ppm or mg/l) and
+electrical conductivity (EC) recommendations for tomatoes grown in Florida in
+stone wool, perlite or nutrient film technique (Hochmuth and Hochmuth, 1995).
+Numbers in bold denote changes from previous stage.
+
+                                               Stage of growth
+
+              Transplant      First truss to    Second truss      Third truss     Fifth truss to
+Nutrient     to first truss   second truss      to third truss   to fifth truss   termination
+
+N                70              80                100             120              150
+P                50              50                 50              50               50
+K               120             120                150             150              200
+Caa             150             150                150             150              150
+Mg               40              40                 40              50               50
+Sa               50              50                 50              60               60
+Fe                2.8             2.8                2.8             2.8              2.8
+Cu                0.2             0.2                0.2             0.2              0.2
+Mn                0.8             0.8                0.8             0.8              0.8
+Zn                0.3             0.3                0.3             0.3              0.3
+B                 0.7             0.7                0.7             0.7              0.7
+Mo                0.05            0.05               0.05            0.05             0.05
+EC (dS/m)         0.7             0.9                1.3             1.5              1.8
+a
+ Calcium (Ca) and sulfur (S) concentrations may need to consider Ca and Mg concentrations
+in well water and amount of sulfuric acid used for acidification.
+
+
+Training system
+
+In the 1970s and early 1980s, plants were trained up to the wire, then allowed
+to drape down the other side (the up-and-down system). The negative effect on
+yield of plant heads hanging down in the shade of the canopy was the reason
+to move to the ‘plant lowering’ method, which later developed into the high-
+wire system. The most widespread training system in The Netherlands and
+North America at the present time is the high-wire system, which allows one
+crop to be carried over several seasons. In this system, the growing tip remains
+at the top of the canopy, but the stem is lowered and trails along the base of
+the plants (Fig. 9.8). This system combines the yield-improving advantages of
+maximum light interception by young leaves with increased labour efficiency
+resulting from easier removal of leaves and fruit. However, it requires a high
+enough greenhouse structure to accommodate the high horizontal wires used
+in training the plants. The greenhouse needs to be extra high if any screening
+materials are to be utilized for shading or energy conservation.
+     The high-wire system requires early training of the main stem. As soon
+after transplanting as possible, plant stems should be secured to plastic twine
+hung from horizontal wires (Fig. 9.9). The end of the twine is attached to the
+base of the stem with a non-slip loop. The twine is then wound around the
+                           Greenhouse Tomato Production                         291
+
+
+
+
+Fig. 9.8. Greenhouse worker standing on an electrical lift to sucker and train
+plants. The lift moves down the row on tracks, which are also the hot-water pipes
+(pipe-rail system). (Photograph courtesy of Arie de Gelder.)
+
+
+stem in two or three spirals for each truss. The length of the supporting twine
+should allow an extra 10–15 m to unwind. Usually this extra twine is held
+in a winding hook placed near the wire. As an alternative to winding string
+around the stem, the stem can be clipped to the string every 20–30 cm. Clips
+can be sterilized and reused, but string should be discarded after each crop. If
+the stems are to be ‘leaned and lowered’ (see below), it is useful to wind twine
+around the lower stem, as the twine provides a better support than clipping.
+     The objective of ‘leaning and lowering’ is to keep the head of the plant up-
+right for light interception and still have the harvestable fruits at a convenient
+292                               C. Kubota et al.
+
+
+
+
+Fig. 9.9. Stone wool cubes containing two seedlings each are placed on stone
+wool slabs in a Dutch greenhouse. Vine twine is wound around the stem. The tube
+on the right in this high-wire system is a grow pipe with hot water for promoting
+fruit development. Plastic tubing for CO2 enrichment is placed along with the grow
+pipe between the rows of plants. (Photograph courtesy of Arie de Gelder.)
+
+
+height for workers even when crops are in the greenhouse for long periods.
+When plant tops near (or approach) the overhead wire, the strings are un-
+wound from the twine hook hangers and string and plant are both moved side-
+ways down the horizontal wire. This ‘lowering’ process is a delicate operation
+in order to avoid breaking the stems. At the same time the hooks are moved
+over, say, about 30 cm so that the plants start to ‘lean’ (all in the same dir-
+ection, of course). The fourth flower truss is a good developmental stage for
+this operation, as the stem is relatively vigorous and should resist breakage.
+Leaning and lowering should be performed every 7–10 days. In some green-
+houses, especially those using upright bags and hanging gutters, the stems
+rest on special holders designed to give additional support. At the end of the
+double row, the stems are wound around a corner and back down the next
+row. Upright rods or wire supports are placed or posts are used at the corners
+to turn the stems and this is another spot where stems frequently break. Black
+plastic drain tube or other types of ‘bumpers’ are sometimes placed on the rods
+to protect the stem as it is turned. Stems breaks can sometimes be successfully
+mended with duct tape.
+                            Greenhouse Tomato Production                           293
+
+
+     Interplanting (Fig. 9.5) is a variation of the high-wire system that min-
+imizes down time between crops and allows high annual yield and year-round
+production. Each pair of adjacent rows of old plants is aligned to one side of
+the trough, in order to create space on the other side of the trough for the new
+crop. Young plants are then transplanted into the open space, next to the row
+of old plants that are in their final stage. In the remaining old plants, the shoot
+tips are pinched to terminate the shoot growth and leaves are removed progres-
+sively during the transition time, except for the top four leaves. The height of the
+leafy part of the old canopy is adjusted to increase light penetration to the new
+plants. Disadvantages of intercropping are that greenhouse clean-up is more
+difficult. Also, diseases may be carried over from old plants to new transplants.
+
+
+Pollination management
+
+Before the early 1990s, each flower cluster had to be vibrated with an electric
+pollinator at least 3 times per week to release pollen and thus promote pollin-
+ation. Poor pollination results in flower abortion and/or small, puffy or mis-
+shapen fruits. It is particularly important to get good fruit set on the first three
+trusses to establish an early pattern of generative growth. Pollination should
+take place around midday when humidity conditions are most favourable
+(50–70%). If humidity is too high in winter, temperatures can be raised by 2°C
+at midday to reduce humidity. Too-high mean daily temperatures will reduce
+pollen development and release (Sato et al., 2000), and too-low temperatures
+at night (below 16°C) have the same effect (Portree, 1996).
+     Nowadays bumblebees are used for pollination. They are shipped as hives
+containing varying numbers of bees, depending on price. Generally, one worker
+bee can service 40–75 m2 of greenhouse area (Portree, 1996) and therefore
+about 5–7.5 hives/ha are required. As well as saving labour, the use of bumble-
+bees increases yield and quality compared with manual vibration (Portree,
+1996). Hives are placed on stands 1.5 m above the ground along the centre
+aisle (Fig. 9.10) and protected from ants with sticky bands or water troughs.
+Hives should be shaded by foliage or covers, and marked distinctively above
+the hive and around the entrance so that bees can return to the correct hive
+(Portree, 1996). Bumblebees are docile, unless the hive is disturbed or an indi-
+vidual is squeezed, but it is still a good idea to maintain first-aid supplies on site.
+No broad-spectrum insecticides or those with residual action should be used
+once a hive is in place. All pesticides should be checked for effects on bumble-
+bees, and, if compatible, application should be done at night with the hive closed
+and covered. Some pesticides may be used when the hives remain closed during
+3 days after treatment. The health of the hive can be monitored by observing
+activity and looking for brown bruise marks on the anther cone as evidence of
+flower visitation. At least 75% of withered flowers should have evidence of bee
+visits. Most hives will need to be replaced within 2 months or less.
+294                               C. Kubota et al.
+
+
+
+
+Fig. 9.10. Bee hives are placed on stands in a greenhouse. A slide on the top front
+of the box can be used to open or close access to the hive. (Photograph courtesy of
+Koppert Biological Control.)
+
+
+Other crop managements
+
+Side shoots will develop from every axil. These side shoots should be removed
+weekly, leaving only one main stem as a growing point. An exception is that
+one side shoot may be maintained when light intensity is high compared
+with fruit load. Often this is done on only one in four plants, and some weeks
+later again on one in four plants as a method to increase stem density grad-
+ually. In The Netherlands, management of side shoots is an important tool for
+­optimizing fruit load of the crop and hence yield (De Koning, 1994). Leutscher
+ et al. (1996) presented an economic evaluation of the optimal number of add-
+ itional side shoots, based on a modelling approach.
+       In the UK (Ho, 2004), uniform fruit size is maintained by fruit pruning and
+ thereby controlling the number of fruits left on the truss, as well as by letting
+ an additional side shoot develop as light increases. To address this problem as-
+ sociated with the seasonal change in fruit size, Cockshull and Ho (1995) dem-
+ onstrated that letting additional side shoots develop could help to minimize the
+ undesirable extra-large fruit produced in summer. With the high-wire system,
+ side shooting and other operations may be done standing on an electrical lift
+ (Fig. 9.8).
+       When plants are trained, lower leaves are removed (de-leafing or leaf
+ pruning). Typically, all leaves are removed below the bottom fruit truss. The
+ number of leaves to remain on the stem is determined by the grower and is
+                           Greenhouse Tomato Production                        295
+
+
+often between 12 and 18 fully expanded compound leaves. The optimal
+number of leaves can be approached theoretically based on light interception
+and microclimate inside the canopy (Sarlikioti et al., 2011). When a new crop
+is interplanted next to the old one, de-leafing may be more severe to improve
+the light conditions for the young seedlings (Fig. 9.5).
+     An important factor to be considered in de-leafing is the effect on diseases,
+pests and beneficials. Removing lower leaves from the greenhouse and then
+destroying them will also remove immature whiteflies that are developing on
+the lower leaves. However, if beneficials have been introduced, they will have
+parasitized the immatures. Destroying these leaves will also prevent the benefi-
+cials from emerging. Sometimes, if parasitized pupae are known to be present,
+leaves are removed but left piled in the greenhouse for a few days to allow emer-
+gence. In this case, de-leafing and leaf removal represent a trade-off between
+emergence of whiteflies, emergence of beneficials and spread of disease from
+the discarded leaves.
+     The purpose of fruit pruning is to increase fruit size and fruit quality, and
+to create the right balance between fruit load and leaf area. Fruit pruning can
+also be used to maintain uniform fruit size. Misshapen fruits and undersized
+fruits at the end of a cluster are always removed, as these will generally not
+grow to marketable size and are thought to reduce the size of other fruits on the
+truss. In some cases, all trusses are pruned to leave only the four fruits nearest
+to the plant (proximal fruits). Whether or not trusses are pruned depends on a
+number of factors such as the expected fruit size for that cultivar, how many
+fruits normally form on the truss, growing conditions and the size demanded
+by the market. A typical practice for cluster or TOV cultivars is to have four to
+six fruits per truss. With some cultivars such as ‘Campari’, producing fruit in
+size between cherry type and typical TOV type, up to eight to ten fruits can be
+allowed to develop on each truss.
+     When some greenhouse tomato cultivars are grown under relatively low
+light conditions, the peduncles of the inflorescences (the truss stems) are too
+weak to support the weight of the fruits they bear and are prone to bending
+(Horridge and Cockshull, 1998) or ‘kinking’. Another reason sometimes given
+for kinking is too high a temperature during the vegetative phase, which causes
+the truss to become almost vertical (‘stick trusses’). As fruits develop on these
+trusses, they may become kinked (Fig. 9.11). Truss hooks prevent the peduncle
+from bending sharply under the weight of the fruit and prevent heavy trusses
+from pulling off the stem. Another type of truss support is ‘truss braces’, which
+are applied to the truss before fruit development, when the stem is still flexible.
+     Five to eight weeks before the anticipated crop termination date, the
+growing point is removed. A week later, all remaining flowers are removed.
+An individual fruit requires 6–9 weeks from anthesis to harvest, so flowers
+or small fruits present after topping will not have enough time to develop to
+­maturity. Some growers leave some shoots at the top (or do not top at all) to
+ provide shade to top fruits and also increase the transpiration to reduce the
+296                               C. Kubota et al.
+
+
+
+
+Fig. 9.11. Kinking of the peduncle of cluster tomato (TOV). (Photograph courtesy
+of Arie de Gelder.)
+
+
+risks of fruits cracking and russeting. (For further discussion of factors contrib-
+uting to cracking and russeting, see Chapter 5.)
+
+
+Nutrient and irrigation management
+
+In systems with drip irrigation, nutrients are usually injected into the irrigation
+water (fertigation) from concentrated solutions in stock tanks (Sonneveld and
+Voogt, 2009). The fertilizers must be separated into at least two tanks to avoid
+precipitation of calcium phosphate and calcium sulfate. Often a third tank is
+                          Greenhouse Tomato Production                       297
+
+
+present with acids for pH correction, and some large commercial greenhouses
+are fitted with six or more separate tanks to give better control of the nutrient
+solution. Some greenhouses have duplicate sets of stock tanks, so that irriga-
+tion will not be interrupted while solutions are remade. Greenhouses where
+interplanting is applied need to be equipped with two irrigation lines for each
+row to cater for the distinct difference in nutrient requirement between young
+seedlings and old plants.
+     In an open (non-recirculating) system, approximately 30% excess irriga-
+tion is applied. The main problem with open systems is that in areas of intensive
+production there may be significant discharge of nutrients into the environ-
+ment. There has been increasing interest over the past decade in nutrient-­
+recirculation systems with provision for disinfection of the water and/or
+replenishment of nutrients before reuse. Recirculation can decrease fertilizer
+costs by 30–40% and water usage by 50–60% (Portree, 1996). Provisions for
+reuse or at least recapture of greenhouse runoff should be designed into new
+greenhouses, as already required in many countries, as recapture systems are
+not easy to retrofit. In modern systems, the solution is monitored for salts and
+water, and specific nutrients may be replenished.
+     The main problem with recirculation systems is the risk of pathogens
+spreading through the system. To prevent this, the return water (or drain) is
+disinfected before it is pumped back into the nutrient tank. Ikeda et al. (2001)
+listed the following types of water disinfection: (i) physical methods including
+heat treatment, UV radiation and filtration; (ii) chemical methods including
+ozone, chlorination, iodination, hydrogen peroxide and metal ions; and (iii)
+biological methods including rhizosphere bacteria and antagonistic fungi,
+mycoparasistic fungi and biosurfactants. The most widely used water disinfec-
+tion method is a combination of filtration and UV radiation. When coconut
+coir is used as substrate, UV radiation and heat treatment may be the preferred
+method, because coir particles tend to reduce the UV light transmission.
+     Large amounts of high-quality water are needed for plant transpiration,
+which serves both to cool the leaves and to trigger transport of nutrients from
+roots to leaves and fruits. Water consumption of 0.9 m3/m2/year is estimated
+for greenhouses in The Netherlands (Anonymous, 1995) and 0.8 m3/m2/year
+for British Columbia, Canada (Portree, 1996). Before building a greenhouse, it is
+important to ensure adequate water availability and quality. It is also important
+to consider whether evaporative cooling will be used (pad-and-fan cooling, fog-
+ging, misting, roof sprinklers, etc.) and to estimate the amount of water needed
+for that in addition to irrigation. In some regions, evaporative cooling water use
+largely exceeds the irrigation water use in the greenhouse. In a study reported
+by Sabeh et al. (2011), tomato production in a semi-arid greenhouse (located
+in Arizona) consumed 0.40–0.78 m3/m2 over a 7-month period (early March
+to early October) while additional water consumption for pad-and-fan cooling
+was 1.45 m3/m2 during this period. Water used for irrigation in soilless culture
+should have an electrical conductivity of below 0.5 dS/m, pH from 5.4 to 6.3
+298                               C. Kubota et al.
+
+
+and alkalinity below 2 meq/l. Water treatment to lower alkalinity and adjust
+pH is usually possible. Lowering electrical conductivity (EC) by reverse osmosis
+is often not economically feasible.
+      The optimal frequency of irrigation varies with substrate rooting volume
+and water-holding capacity. In stone wool slabs, rooting volume is very re-
+stricted and slabs may be watered up to 6 times per hour in peak radiation,
+and up to 30 times per day under summer conditions. Daily timing of irriga-
+tion cycles also varies with water demand. In stone wool systems, fertigation
+should begin a few hours after sunrise and end 1–2 h before sunset to decrease
+diseases as well as summertime russetting and fruit cracking. Night watering
+may be needed, however, during the winter when night-time heating decreases
+relative humidity and in summer if conditions are hot and dry (OMAFRA,
+2001). In The Netherlands an irrigation model has been developed for recir-
+culating systems, based on leaf area, air temperature and season (De Graaf,
+1988). Some growers use accurate weighing units (lysimeters), so that mois-
+ture content of the slab as well as plant transpiration can be monitored every
+hour to avoid stress to plants. The water content of the slab can also be directly
+measured by sensors (Balendonck et al., 2005).
+
+
+Steering plant growth (reproductive versus vegetative)
+
+The balance between vegetative and reproductive (or generative) growth in the
+tomato crop needs to be controlled. A well balanced plant (OMAFRA, 2001)
+has a stem approximately 1 cm thick at about 15 cm below the shoot tip, dark
+green leaves and closely spaced, large flower clusters that set well. Thicker stems
+indicate excessive vegetative growth and are usually associated with poor fruit
+set and low productivity. Thinner stems usually indicate carbohydrate starva-
+tion, slow growth and ultimately low overall productivity. There are a number
+of ways to control this balance, including the environmental controls sum-
+marized in Table 9.2. EC, water supply and the ratio of nitrogen to potassium
+in the feed also influence plant balance. EC influences plant growth through
+its effect on plant/water relations (Heuvelink et al., 2003). High salinity in the
+root environment, infrequent irrigation and low volume of irrigation water re-
+duce water availability to plant roots, therefore decreasing water uptake and
+overall growth rate, steering the plant towards generative growth. High tem-
+perature and low relative humidity also have a generative effect because they
+make water less available, resulting in ‘hard’ plants and slow growth. Lowering
+nitrogen or maintaining a high potassium-to-nitrogen ratio in the fertilizer
+feed is another technique to reduce the rate of growth and steer plants towards
+generative development (OMAFRA, 2001).
+      Temperatures can also be used to steer the plant towards a particular
+growth pattern (Table 9.2). In the long cropping cycles typical of greenhouse
+production, tomatoes tend to cycle between being overly vegetative at the
+                            Greenhouse Tomato Production                        299
+
+
+Table 9.2. Regulating plant growth by adjusting environment and nutrition.
+Adapted from Reading the Plant (Portree, 1996).
+
+Plant part    Observation          Recommendation
+
+Plant head    Thick head         Too vegetative. Increase day temperature 1–2°C,
+                                   especially during peak light period; increase
+                                   the spread between day/night temperature
+                                   settings by 1–8°C. The bigger the difference,
+                                   the stronger the ‘generative’ signal to the plant
+             Thin head           Too generative. Bring day/night temperatures
+                                   closer together. Reduce the 24 h average in
+                                   low radiation situation, e.g. early spring, late
+                                   autumn. Target a 10–12 mm diameter head
+                                   measured approximately 15 cm from growing
+                                   tip or at the first fully expanded leaf before
+                                   the flowering truss
+             Head is ‘tight’ –   Vegetative imbalance. Increase the 24 h average
+               leaves do not       by increasing the temperature between
+               unfold until late   midnight and sunrise. Curl should be out
+               in the day          between 11am and 4pm. Target a slightly
+                                   higher temperature in afternoon (+1 to 2°C)
+             Heads are purple Vegetative imbalance. Slight purpling is
+                                   acceptable. Increase night temperature
+             Grey heads          High tissue temperatures in combination with
+                                   high CO2 levels. Can be in early spring when
+                                   venting is limited. Reduce CO2 levels and shut
+                                   off earlier in the day
+             Chlorosis in head Chlorosis in the head can occur if the media
+                                   water/air ratio is not in balance. If the slab
+                                   is dry, increase the EC. If the slab is wet,
+                                   increase only the micronutrients 10%.
+                                   Maintain a temperature differential between
+                                   head temperatures and root temperatures of
+                                   more than 5˚C
+Flower/truss Flower colour       Colour should be bright ‘egg-yolk’ yellow. If the
+               pale yellow,        climate is humid, low vapour pressure deficit
+               especially in       (< 2 g/m3) will often occur in the morning.
+               morning             Recommend increase VPD, especially early
+                                   in the morning ,from 3 to 7 g/m3 VPD, by
+                                   opening vents for short period of time to
+                                   let the moisture out, followed by heating.
+                                   Flowering rate should be 0.8–1.0 truss/week
+             Long, straight      Aggravated by low light and high temperature.
+               flower trusses      Decrease 24 h temperature by decreasing day
+               (kink trusses)      temperature. Promote an active climate 3 g/m3
+                                   VPD. Avoid increasing plant density too early
+                                   in the season when light levels are low
+                                   (< 6 MJ/m2/day)
+300                                  C. Kubota et al.
+
+
+Table 9.2.   Continued.
+
+Plant part     Observation           Recommendation
+
+Flowers        ‘Sticky’ flowers in   Caused by too humid a climate, especially in
+                  which the sepal      morning. Activate the plant in the morning
+                  does not roll        with a minimum pipe and crack the vent. If
+                  back                 left unchecked these flowers result in poor-
+                                       quality fruit. Higher day temperature = higher
+                                       VPD = less sticky
+               Flowers too close     Plant is too generative. Go down with day, up
+                 to the head,          with night, i.e. bring day/night temperatures
+                 < 10 cm below         closer together. Late April/early May this is
+                 growing tip           desirable in order to get enough fruit on the
+                                       plant for summer fruit loads
+Leaves         Short leaves          This condition occurs in late spring. The plant
+                 in the head,          is in a vegetative imbalance. Fruit load is low
+                 e.g. < 35 cm in       (< 85 fruit/m2). Increase differential between
+                 length                day and night
+
+
+­beginning of cropping (too much growth and too little fruiting) and later being
+ overly generative (too little growth and excessive fruit loads). Where uniform
+ production is desired, it is helpful to be able to moderate these swings in plant
+ balance. Temperature is considered to be the most important factor affecting
+ plant development and therefore an important tool to control flowering and
+ fruit ripening. Quantitative data on the effects of temperature on flowering,
+ fruit set, fruit growth and yield were used to develop yield prediction models for
+ The Netherlands (De Koning, 1994).
+
+
+GREENHOUSE ENVIRONMENTAL CONTROL AND SYSTEMS
+
+Because of their increasing sophistication, ease of use and affordability, com-
+puters are used to optimize temperature, relative humidity, CO2 concentration
+and light intensity. They are also very useful in providing a history of the crop
+environment over time and alerting operators to malfunctions. Computers can
+control many mechanical devices within a greenhouse, such as vents, heaters,
+fans, evaporative pads, fogging, roof sprinklers, CO2 enrichment systems, ir-
+rigation valves, fertilizer injectors, shade-cloths and energy-saving curtains.
+Control is based on pre-set criteria, such as irradiance, outside temperature and
+other weather conditions as well as required inside conditions (temperature,
+humidity and CO2 levels). More importantly, computers can integrate the read-
+ings of different sensors and process all the data and then steer the devices to
+achieve a desired result, such as a particular temperature or humidity regime.
+Computerized greenhouses would assist growers in selecting conditions that
+                           Greenhouse Tomato Production                         301
+
+
+would help to balance plant growth using environmental controls. (Computer
+control of irrigation and fertilization regimes based on environmental condi-
+tions is discussed in Chapter 6.)
+
+
+Heating and cooling
+
+Optimal day and night temperatures for different crop developmental stages
+are shown in Table 9.3. Within the so-called linear range, there is a linear rela-
+tionship between temperature and growth and development. Therefore, within
+the linear range, 24 h mean temperature has a significant influence on plant
+development rate. Therefore, theoretically, if daytime temperatures are warm,
+night-time temperatures can be allowed to fall to the level that does not cause
+any adverse physiological effect, to conserve energy.
+     A particular strategy was developed in The Netherlands, called ‘tempera-
+ture integration’, which aims at maintaining a particular average daily tem-
+perature level rather than maintaining specific day and night temperatures (De
+Koning, 1990). The background is that this strategy can be much more ­energy
+efficient, because it allows maintaining a high temperature when heating is
+cheap, for instance when a screen is closed or when the sun is out. Energy
+savings of 10–15% have been realized by using temperature integration com-
+pared with using regimes of high day and low night temperatures regardless of
+the 24 h mean. Work summarized in Papadopoulos et al. (1997) suggested that
+plants tolerate some variation around the optimal temperature over periods
+ranging from 24 h to several days. For example, the temperature in a tomato
+crop can safely deviate 3°C below standard for 6 days, provided that the fol-
+lowing 6 days are 3°C above standard, as long as the average temperature over
+the 12-day period stays the same. Even a deviation as high as 6°C can be toler-
+ated if the 7-day temperature average is unaffected (Portree, 1996).
+     Energy conservation measures are widely used in northern latitude green-
+houses to reduce heating costs. Pulling thermal curtains of porous polyester
+or an aluminum foil fabric over the plants at night reduces the radiative heat
+
+Table 9.3. Growing recommendations for tomato cropping (adapted from
+OMAFRA, 2001).
+
+                       Germination Plant raising Transplanting Fruit production
+
+Temperature (°C)
+   Day                     25          19–21            24            20–22
+   Night                   25           19–21           24             17–19
+EC (dS/m)                0.0–0.1       2.5–3.0        2.5–3.0         2.7–4.0
+pH                         5.8           5.8            5.8             5.8
+Volume of                   –          0.2–0.3        0.2–0.3         0.5–2.5
+  feed (l/day)
+302                               C. Kubota et al.
+
+
+transfer and decreases the overall heat loss by as much as 70% while closed,
+or 20% over an entire year (Dieleman and Kempkes, 2006). Dual-purpose
+lightweight retractable curtains are sometimes used for energy conservation at
+night and for shade in daytime. Combining screens with forced ventilation and
+temperature integration is a next practice in energy conservation (De Gelder
+et al., 2012b; De Gelder and Dieleman, 2012).
+      Typical greenhouse heating for small-scale operations is based on over-
+head air heating systems. Large greenhouse operations usually use a natural
+gas-fired central boiler with water and sometimes with steam for heat transfer.
+The heating pipes are often located a short distance (e.g. 10 cm) above the
+ground, between crop rows. They serve as a radiative heating system as well as
+a track for trolleys for internal transport and for working in the crop. The pipes
+are known as pipe-rail heating system (Figs 9.5 and 9.8). Additional heating
+pipes are sometimes used inside the canopy (Fig. 9.9). These pipes are called
+‘grow pipes’ and are attached with flexible hoses at both ends so that they can
+be moved vertically to deliver heat to a selected zone of canopy to control plant
+growth and/or fruit ripening.
+      Extremely high temperatures are considered to limit greenhouse tomato
+production in summer in lower latitudes. This is especially true where evap-
+orative cooling is less effective because of high humidity (high wet-bulb tem-
+perature). There are three common methods of greenhouse cooling: natural
+ventilation; mechanical cooling; and evaporative cooling. In The Netherlands,
+a new system called ‘closed greenhouse’ has been developed (De Gelder et al.,
+2012a), which utilizes heat storage, heat pumps, heat exchangers and cooling
+plates to control greenhouse temperatures, as described later in this chapter.
+      Natural ventilation is popular in areas with relatively few days with high
+ambient temperatures. For natural ventilation, some part of the greenhouse,
+usually at the peak or ridge, is opened and air movement is created by wind
+pressures or by gradients in air temperatures. Single-span greenhouses are
+often ventilated via sidewalls that can be opened. Air exchanges driven by tem-
+perature gradients in greenhouses are generally enhanced with increasing dif-
+ference in height between roof vent and side vent (so-called chimney effect).
+Multi-span greenhouses are vented through the roof vents.
+      Any influence of side vents on the natural ventilation rate would be small,
+especially for multi-span greenhouses. With any type of natural ventilation
+system, however, insect netting in the ventilation opening to prevent pest entry
+and escape of pollinators or beneficials reduces ventilation capacity by approxi-
+mately 20%. Computer simulations based on computational fluid dynamics
+(CFD) effectively demonstrate how structural design, wind direction relative to
+vent opening, and/or insect netting affect the air exchange and temperature
+distribution inside the greenhouse (e.g. Boulard, 2011).
+      In arid and semi-arid climates, fan-and-pad evaporative cooling can
+be used effectively. While natural ventilation is used in some warm-climate
+greenhouses, hot conditions outside and lack of wind reduce its effectiveness.
+                           Greenhouse Tomato Production                       303
+
+
+In south-eastern USA, pest pressures, high humidity and high temperatures
+force most growers to invest in active mechanical cooling, usually with a com-
+bination of fans and pads. With mechanical cooling, low-pressure propeller-
+blade fans are placed opposite the air intake, which is covered by cellulose
+evaporative cooling pads. Louvres are placed outside the cooling pads and are
+closed when the greenhouse is not venting. Ventilation fans are normally sized
+to allow one air exchange per minute, though researchers in North Carolina
+and Israel have documented increased cooling at higher rates, especially when
+combined with evaporative cooling (Willits, 2000), while in arid climates in-
+creasing ventilation may not necessarily increase the cooling efficiency as the
+intake air is often higher in temperature and drier. Cooling system design needs
+better engineering approaches and there has been much effort in this area,
+along with the effort to make greenhouse tomato production year-round in
+mild climates and in arid/semi-arid regions, where traditionally greenhouses
+were not used in summer due to the unfavourable thermal conditions for plant
+growth. High-pressure fogging systems have been introduced as greenhouse
+cooling systems to a limited extent. The control logics and fogging nozzle dis-
+tribution need to be further optimized to reduce large temperature fluctuations
+as well as wetting the plants, especially when the fogging system is combined
+with natural ventilation.
+     Presumably, the temperature-averaging method described above as a way
+to reduce heating costs can also be applied to warm conditions where cooling
+costs are a concern. This question has not been addressed directly, but Peet
+et al. (1997) reported that over the range 25–29°C, the actual day and night
+temperatures and the day/night differential were less important than the daily
+average in accounting for declines in fruit set, yield, fruit number and seedi-
+ness, all of which are typical results of thermal stress. This suggests that in
+areas where summertime night temperatures are low, day temperatures can
+be allowed to exceed the normal maximal levels. In areas where temperatures
+are excessive, lowering night-time temperatures by a heat-pump (air condi-
+tioning) may be useful. Although the applicability of temperature averaging
+to above-optimal conditions for plants setting fruit has not been tested directly,
+data collected in south-eastern USA in an experiment with night-time air con-
+ditioning (Willits and Peet, 1989) suggested the potential feasibility of such an
+approach. With the closed glasshouse system in The Netherlands, temperat-
+ures can be kept below 26°C (De Gelder et al., 2005).
+
+
+Shade screen and supplemental lighting
+
+Daily averaged light transmission of greenhouse is generally 70–80%, de-
+pending on the covering and the greenhouse structure and orientation.
+Therefore in almost all regions, CO2 and irradiance (light intensity) are the
+most limiting factors for maximizing yield. Supplemental lighting is a common
+304                               C. Kubota et al.
+
+
+approach to promote growth in areas with short days in winter. One problem
+is that the bulb assembly, reflector, transformer and starter, when placed over-
+head, reduce the interception of natural light by the crop. Artificial lighting
+has been used successfully in The Netherlands (Marcelis et al., 2002; Heuvelink
+et al., 2006) and use of supplemental lighting for tomato crop is increasing
+nowadays (see also Chapter 4). New technologies such as light-emitting diodes
+(LEDs) have been tested as intra-canopy lighting to deliver photosynthetically
+efficient light to lower leaves of a canopy (Dueck et al., 2012; Hao et al., 2012;
+Gómez and Mitchell, 2016). However, the economics of supplemental LED
+lighting has not been proved yet and more on-farm evaluations are necessary.
+An empirical approach suggested that profitability of supplemental lighting
+for tomato crop was dependent on the lamp photon efficiency, electricity price,
+lamp photon utilization efficiency and heating fuel cost offset by the heat gen-
+erated by the lamps (Kubota et al., 2016). Therefore, efficient photon delivery
+methods such as intra-canopy lighting are expected to reduce the lighting cost
+and to increase profitability.
+     Shade-cloths and screens are used in southern production areas to protect
+fruit at the top of the canopy from sunscald, russetting and cracking caused by
+high temperatures and to reduce greenhouse temperatures. See Chapter 5 for
+additional discussion of the causes of these disorders. However, reduction of
+PAR decreases plant growth and yield.
+
+
+CO2 enrichment
+
+Carbon dioxide can be added to the greenhouse in several ways. Natural gas or
+propane burners hooked up to sensors can be used to generate CO2. Different
+fuel sources provide different amounts of CO2. Burning 1 m3 of natural gas,
+1 l of kerosene or 1 l of propane provides 1.8 kg, 2.4 kg and 5.2 kg of CO2, re-
+spectively (Portree, 1996). Flue gases from a hot-water boiler burning natural
+gas can be captured and recirculated. All these sources of CO2 will add heat and
+water vapour to the greenhouse, as well as potential pollutants. Water vapour
+can be condensed before injecting to the greenhouse. Low NOx (nitrous oxide
+and nitrogen dioxide) burners are available to minimize risks of pollutants re-
+ducing yield. Ethylene is a typical pollutant causing physiological disorders for
+tomato plants even at a very low concentration (less than 0.1 μmol/mol) when
+exhaust gas of an inefficient combustion heater is introduced into the green-
+house for the purpose of CO2 enrichment. The most expensive but safest option
+is compressed or liquid CO2. Some areas of The Netherlands have distribution
+nets for liquid CO2 (Organic CO2 for Assimilation by Plants, OCAP) coming from
+waste CO2 from industrial sources. Sensors for CO2 concentration should be
+calibrated periodically and located near the top of the plant. CO2 distribution
+within the greenhouse should also be as uniform as possible to avoid yield dif-
+ferences and for efficient utilization.
+                          Greenhouse Tomato Production                       305
+
+
+     CO2 enrichment to 750–800 μmol/mol increases yields compared
+with standard outside conditions (about 390 μmol/mol) (see also Chapter 4).
+A standard approach to enrichment (Nederhoff, 1994) is to inject CO2, as a
+by-product of combustion of natural gas, at a level of 800 μmol/mol during
+heating. At low ventilation rates (< 10% opening), this level is reduced to 500
+μmol/mol when CO2 cost is significant. With further vent opening, the goal
+is to maintain a base level of 450 μmol/mol, but this is not always possible.
+Currently, in The Netherlands during May to September, CO2 is maintained at
+ambient levels. In Japan, a CO2 controller was developed and made commer-
+cially available to maintain CO2 concentration precisely at the same as outside
+level (i.e. null balance CO2 enrichment) (Kozai et al., 2015).
+     Computer control models (Aikman et al., 1996; Stanghellini et al., 2012)
+have been developed to convert the increase in photosynthesis by CO2 enrich-
+ment into an anticipated financial return from fruit sales by linking biological
+processes with a fruit price model. Since fruit prices are very difficult to pre-
+dict, use of such models is limited. Bailey (2002) considered strategies for CO2
+enrichment both with liquid CO2 and with CO2 from greenhouse heaters or
+combined heat and power (CHP) units. The heat produced by burning gas in
+a boiler or CHP can be stored in a heat storage tank to be used during night-
+time, while CO2 is used during daytime. The exhaust gas of a CHP needs to be
+‘cleaned’ before it can be used in the greenhouse. On the basis of the financial
+margin between crop value and the combined costs of CO2 and natural gas,
+Bailey (2002) showed that the most economic CO2 control point with liquid
+CO2 depended on its price. With exhaust gas CO2 and CHP units, financial mar-
+gins depended on whether there was heat storage.
+     In southern latitudes, greenhouses are vented at a higher rate and so CO2
+enrichment is not practical. In Raleigh, North Carolina, tomatoes could only be
+CO2 enriched for 2–3 h daily for most of the growing season (Willits and Peet,
+1989). In any case, when temperatures are above 25°C, in North American
+conditions CO2 enrichment may not be cost effective (Portree, 1996) and may
+increase stomatal resistance, which reduces transpiration and increases leaf
+temperature. In the ‘closed’ greenhouse and ‘semi-closed’ greenhouse, high
+levels of CO2 (> 1000 μmol/mol) will be used year-round.
+
+
+Management of relative humidity or vapour pressure deficit
+
+Relative humidity in a greenhouse is a result of the balance between transpir-
+ation of the crop, soil evapotranspiration, condensation on the greenhouse
+cover and vapour loss during ventilation, as well as air temperature inside the
+greenhouse. Therefore relative humidity inside the greenhouse exhibits di-
+urnal and seasonal changes. Energy conservation features, such as the use of
+double layers of polyethylene films, have increased relative humidity (Hand,
+1988).
+306                               C. Kubota et al.
+
+
+      Although computer control programs can be very sophisticated, there are
+limitations on the effectiveness of humidity control. For example, as vents are
+opened and closed to control temperature, relative humidity and CO2 levels
+also change. If relative humidity levels become too high, while temperatures
+remain in an acceptable range, some combination of heating and ventilation
+may be necessary to maintain acceptable relative humidity and temperature.
+When the outside air temperature is lower than the set point, the heater should
+be turned on to maintain air temperature and the vents opened or the fans
+operated. With the ‘closed’ greenhouse, humidity control may be achieved
+without influencing other climatic factors, because cooling is provided by heat
+exchange with aquifer rather than ventilation.
+      Use of vapour pressure deficit (VPD) of the air, i.e. the difference between
+the saturated vapour pressure at that temperature and the current vapour
+pressure, is more encouraged to understand the plant response (i.e. transpir-
+ation and leaf temperature), as it shows the capacity of the air to hold vapour
+and directly influences evapotranspiration rates. In The Netherlands, growers
+use VPD expressed as weight of vapour (g) per volume (m3) of moist air (also
+called ‘humidity deficit’) but the rest of the world uses pascal (Pa or kPa), an SI
+unit for partial pressure. Conversion from the Dutch unit to kPa needs temper-
+ature-specific coefficients, as mass and volume relationship of vapour differs at
+different temperatures. The University of Arizona developed a web-based appli-
+cation (https://cals.arizona.edu/vpdcalc/) to compute VPD and humidity def-
+icit from air temperature and relative humidity. In a study in The Netherlands
+(Bakker, 1990), high relative humidity (low VPD) reduced leaf area because
+of calcium deficiency, and also increased stomatal conductance, reduced final
+yield and reduced mean fruit weight. This study was conducted over a fairly
+limited range of VPDs, however: 0.35–1.0 kPa in daytime and 0.21–0.71 kPa
+at night. It is unclear to what extent low humidity (high VPD) is deleterious
+to the plant if adequate water is available, but in general VPDs > 1.0 kPa are
+considered potentially stressful. In northern Europe, VPDs > 1 kPa are rarely
+seen, but in semi-arid parts of North America, VPDs will exceed this range
+without properly humidifying the air inside the greenhouse. A greenhouse
+temperature of 26°C and relative humidity of 60% would result in a VPD of
+1.35 kPa or 9.7 g/m3, for example. If plants transpire more water than can be
+supplied through the roots, fruit may develop blossom-end rot (BER) and sto-
+mata may close, resulting in poor growth.
+      The most important reason for reducing humidity and keeping leaf sur-
+faces dry is disease prevention. Diseases spread rapidly when VPD is 0.2 kPa or
+less for prolonged periods of time and germination of fungal pathogen spores
+increases on wet leaf surfaces. This is most likely when warm, sunny days in-
+crease leaf transpiration and evaporation but moisture is held as water vapour
+until leaf or glazing internal surfaces cool to the dewpoint at night. Water
+vapour then condenses on to these cool surfaces and drips may fall on to the
+leaves. Wetting agents, either sprayed on the inside film or incorporated into
+                           Greenhouse Tomato Production                        307
+
+
+the plastic, prevent condensation from dripping because moisture remains as
+a film, which slides off in a sheeting action, rather than dripping off on to the
+leaves. The problem of condensate dripping on leaves is most severe in Quonset-
+style double-poly greenhouses, because the rounded arch makes it hard to col-
+lect and remove condensation. Condensation over leaves may be reduced by
+increasing air movement to 1 m/s in the greenhouse. This is because increase
+in air movement would decrease boundary layer resistance over leaves to heat
+transfer. Enhanced heat transfer would reduce the differences in temperature
+between the leaf surface and the air and therefore prevent leaf surfaces from
+cooling below the dewpoint. Air movement can be increased by either running
+the fans on hot air furnaces or by horizontal airflow (HAF) fans. These small
+fans are placed above the canopy along the sides of the house to push air in one
+direction on one side of the greenhouse and in the opposite direction on the
+other side, and operate continuously, except when the exhaust fans are turned
+on for ventilation. HAF fans create a slow horizontal air movement, which also
+makes temperatures more uniform. In The Netherlands a condensation model
+has been developed (Rijsdijk, 1999) that enables growers to modify the heating
+regime during sunrise (the typical period when condensation is formed) as a
+function of measured fruit temperature rather than by use of ventilation fans.
+Condensation can form on the fruit because at sunrise air heats up (much faster
+than fruits) and plant transpiration increases the dewpoint of the air inside the
+greenhouse, while the fruit surface remains cold. Fruits heat more slowly than
+leaves and so if no condensation forms on the fruits, it should also not occur
+on the leaves. Therefore fruit temperature should be carefully monitored in the
+greenhouse during the time when condensation may occur.
+
+
+Computerized climate control and monitoring system
+
+The level of computerized climate control must be in accordance with the tech-
+nical equipment. A high-tech greenhouse with sensors can be controlled by
+high-end climate computers to achieve optimal climate conditions. High-level
+computation such as neural network has been investigated and demonstrated
+for possible integration into greenhouse control systems (e.g. Fitz-Rodriguez
+et al., 2012). For high tunnels and greenhouses with lower technology, less
+expensive temperature control equipment is adequate to regulate temperat-
+ures. In high-end instrumentation, sensors can give information on plant tem-
+perature, photosynthesis and transpiration, which can be incorporated into
+control algorithms. The sensor information can be integrated into ‘speaking
+plant’ control (Steppe, 2012), in which plant information is reflected in the
+decisions toward optimization of climate conditions (Van Straten et al., 2011).
+Regardless of the level of technology, calibrating sensors periodically is critical
+to maintain the high accuracy of instrumentation. For example, air tempera-
+ture and humidity sensors must be placed inside well aspirated housing with
+308                              C. Kubota et al.
+
+
+radiation shield. Measurement and reporting guidelines have been developed
+for disseminating more appropriate methods suitable in greenhouse climate
+measurements (Both et al., 2015).
+
+
+New environmental control technology
+
+The ‘closed’ greenhouse is a recent innovation in The Netherlands to save en-
+ergy as well as increase yields. The basic components of ‘closed’ greenhouses are
+mechanical cooling, heat-pump technology to produce warm water for heating
+and cold water for cooling, and seasonal storage of energy (cold and heat) in
+aquifers (De Gelder et al., 2012a). Hanging gutter systems are used along with
+plastic tube air distribution systems (Fig. 9.12). This concept has the poten-
+tial to fully control climate for optimal growth, because temperature, humidity
+and CO2 levels can be controlled independently, but at present the system is not
+economically beneficial. In south-western USA, France and The Netherlands,
+‘semi-closed’ greenhouse designs with limited ventilation have been successfully
+used commercially, because the limited ventilation allows CO2 enrichment and
+also because more light transmission is expected from reduced numbers of roof
+vents that are often covered with insect screens and/or add more structural
+
+
+
+
+Fig. 9.12. A semi-closed greenhouse with hanging gutter system and inflated
+air-distributing plastic tubes. (Photograph courtesy of Chieri Kubota.)
+                             Greenhouse Tomato Production                             309
+
+
+shade. In ‘semi-closed’ or ‘closed’ greenhouses, typically a large vertical tempera-
+ture gradient exists due to a cooling system in the lower part of the greenhouse.
+However, this gradient (> 5°C during the day in summer) does not negatively
+affect tomato plant growth, development and yield (Qian et al., 2015).
+
+
+CONCLUSION: GREENHOUSE AS A SYSTEM TO CONTROL
+PLANT PRODUCTIVITY INTERACTIVELY
+Although worldwide protected cultivation of tomato is small compared with
+open field production, it is an important industry sector in many countries.
+The cultivation system in the greenhouse offers the possibility of training the
+plants in an optimal way and optimizing climate conditions for maximal crop
+growth and production. It is a challenge to the grower to integrate information
+about plant development and climate into decisions about how to grow the
+plants to achieve maximal production of perfect quality with minimal costs of
+energy, labour and other production factors.
+
+
+REFERENCES
+
+Aikman, D.P., Fenlon, J.S. and Cockshull, K.E. (1996) Anticipated cash value of photo-
+     synthate in the glasshouse tomato. Acta Horticulturae 417, 47–54.
+Anonymous (1995) Kwantitatieve informatie voor de glastuinbouw 1995-1996. Informatie
+     en Kennis Centrum Landbouw, Afdeling Glasgroente en Bloemisterij, Aalsmeer/
+     Naaldwijk.
+Atherton, J.G. and Rudich, J. (1986) The Tomato Crop. A Scientific Basis for Improvement.
+     Chapman & Hall, London.
+Bailey, B.J. (2002) Optimal control of carbon dioxide enrichment in tomato green-
+     houses. Acta Horticulturae 578, 63–70.
+Bakker, J.C. (1990) Effects of day and night humidity on yield and fruit quality of glass-
+     house tomatoes (Lycopersicon esculentum Mill.). Journal of Horticultural Science 65,
+     323–331.
+Bakker, J.C., Bot, G.P.A., Challa, H. and van de Braak, N.J. (1995) Greenhouse Climate
+     Control. An Integrated Approach. Wageningen Pers, Wageningen, The Netherlands.
+Balendonck, J., Bruins, M.A., Wattimena, M.R., Voogt, W. and Huys, A. (2005) WET-
+     sensor pore water EC calibration for three horticultural soils. Acta Horticulturae
+     691, 789–795.
+Both, A.J., Benjamin, L., Franklin, J., Holroyd, G., Incoll, L.D., Lefsrud, M.G. and
+     Pitkin, G. (2015) Guidelines for measuring and reporting environmental param-
+     eters for experiments in greenhouses. Plant Methods 11, 43. doi: 10.1186/
+     s13007-015-0083-5.
+Boulard, T. (2011) Advantages and constraints of CFD greenhouse modeling. Acta
+     Horticulturae 893, 145–153.
+Brugger, M., Montero, J., Baezz, E. and Perez-Parra, J. (2005) Computational fluid
+     ­dynamic modeling to improve the design of the Spanish parral style ­greenhouse.
+310                                  C. Kubota et al.
+
+
+     In: VanStraten, G., Bot, G.P.A., VanMeurs, W.T.M. and Marcelis, L.M.F. (eds)
+     Proceedings of the International Conference on Sustainable Greenhouse Systems,
+     pp. 425–431.
+Castellano, S., Santamaria, P. and Serio, F. (2016) Solar radiation distribution inside
+     a monospan greenhouse with the roof entirely covered by photovoltaic panels.
+     Journal of Agricultural Engineering 47, 1–6.
+Cockshull, K.E. and Ho, L.C. (1995) Regulation of tomato fruit size by plant density and
+     truss thinning. Journal of Horticultural Science 70, 395–407.
+Costa, J.M. and Heuvelink, E. (2000) Greenhouse Horticulture in Almeria (Spain): Report
+     on a Study Tour, 24–29 January 2000. Horticultural Production Chains Group,
+     Wageningen University, Wageningen, The Netherlands.
+De Gelder, A. and Dieleman, J.A. (2012) Validating the concept of the next gener-
+     ation greenhouse cultivation: an experiment with tomato. Acta Horticulturae 952,
+     545–550.
+De Gelder, A., Heuvelink, E. and Opdam, J.J.G. (2005) Tomato yield in a closed green-
+     house and comparison with simulated yields in closed and conventional green-
+     houses. Acta Horticulturae 691, 549–552.
+De Gelder, A., Dieleman, J.A., Bot, G.P.A. and Marcelis, L.F.M. (2012a) An overview of
+     climate and crop yield in closed greenhouses. Journal of Horticultural Science and
+     Biotechnology 87, 193–202.
+De Gelder, A., Poot, E.H., Dieleman, J.A. and De Zwart, H.F. (2012b) A concept for re-
+     duced energy demand of greenhouses: the next generation greenhouse cultivation
+     in the Netherlands, Acta Horticulturae 952, 539–544.
+De Graaf, R. (1988) Automation of water supply of glasshouse crops by means of cal-
+     culating the transpiration and measuring the amount of drainage water. Acta
+     Horticulturae 229, 219–231.
+De Koning, A.N.M. (1990) Long term temperature integration of tomato: growth and
+     development under alternating temperature regimes. Scientia Horticulturae 45,
+     117–127.
+De Koning, A.N.M. (1994) Development and dry matter distribution in glasshouse
+     tomato: a quantitative approach. PhD Dissertation, Agricultural University,
+     Wageningen, The Netherlands, 240 pp.
+Dieleman, J.A. and Kempkes, F.L.K. (2006) Energy screens in tomato: determining the
+     optimal opening strategy. Acta Horticulturae 718, 599–606.
+Dueck, T.A., Janse, J., Eveleens-Clark, B.A., Kempkes, F.L.K. and Marcelis, L.F.M. (2012)
+     Growth of tomatoes under hybrid LED and HPS lighting. Acta Horticulturae 952,
+     335–342.
+Fitz-Rodríguez, E., Kacira, M., Kubota, C., Linker, R. and Arbel, A. (2012) Neural net-
+     work predictive control in a naturally ventilated and fog cooled greenhouse. Acta
+     Horticulturae 952, 45–52.
+Giacomelli, G.A. and Roberts, W.J. (1993) Greenhouse covering systems. HortTechnology
+     3, 50–58.
+Gómez, C. and Mitchell, C.A. (2016) In search of an optimized supplemental lighting
+     spectrum for greenhouse tomato production with intracanopy lighting. Acta
+     Horticulturae 1134, 57–62.
+Gupta, R., Tiwari, G.N., Kumar, A. and Gupta, Y. (2012) Calculation of total solar frac-
+     tion for different orientation of greenhouse using 3D-shadow analysis in Auto-
+     CAD. Energy and Buildings 47, 27–34.
+                              Greenhouse Tomato Production                               311
+
+
+Hand, D.W. (1988) Effects of atmospheric humidity on greenhouse crops. Acta
+     Horticulturae 229, 143–155.
+Hao, X., Zheng, J.-M., Little, C. and Khosla, S. (2012) LED inter-lighting in year-round
+     greenhouse mini-cucumber production. Acta Horticulturae 956, 335–340.
+Hemming, S., Dueck, T., Janse, J. and van Noort, F. (2008) The effect of diffuse light on
+     crops. Acta Horticulturae 801, 1293–1300.
+Hemming, S., Kempkes, F.L.K. and Mohammadkhani, V. (2011) New glass coatings for
+     high insulating greenhouses without light losses – energy saving, crop production
+     and economic potentials. Acta Horticulturae 893, 217–226.
+Hemming, S., Swinkels, G.L.A.M., van Breugel, A.J. and Mohammadkhani, V. (2016)
+     Evaluation of diffusing properties of greenhouse covering materials. Acta Horticulturae
+     1134, 309–316.
+Heuvelink, E., Bakker, M.J. and Stanghellini, C. (2003) Salinity effects on fruit yield in
+     vegetable crops: a simulation study. Acta Horticulturae 609, 133–140.
+Heuvelink, E., Bakker, M.J., Hogendonk, L., Janse, J., Kaarsemaker, R. and Maaswinkel, R.
+     (2006) Horticultural lighting in the Netherlands: new developments. Acta
+     Horticulturae 711, 25–33.
+Higashide, T. and Heuvelink, E. (2009) Physiological and morphological changes over
+     the past 50 years in yield components in tomato. Journal of the American Society for
+     Horticultural Science 134, 460–465.
+Ho, L.C. (2004) The contribution of plant physiology in glasshouse tomato soilless cul-
+     ture. Acta Horticulturae 648,19–25.
+Hochmuth, G. and Hochmuth, B. (1995) Challenges for growing tomatoes in warm
+     climates. Greenhouse Tomato Seminar, Montreal, Quebec, Canada. American
+     Society for Horticultural Science, ASHS Press, Alexandria, Virginia, pp. 34–36.
+Hochmuth, G.J., Hochmuth, R.C. and Carte, W.T. (1991) Preliminary Evaluation of
+     Production Media Systems for Greenhouse Tomatoes in Florida. Research Report 91–17.
+     Suwannee Valley Research and Education Center, Suwannee Valley, Live Oak, Florida.
+Horridge, J.S. and Cockshull, K.E. (1998) Effect on fruit yield of bending (‘kinking’) the
+     peduncles of tomato inflorescences. Scientia Horticulturae 72, 111–122.
+Ikeda, H., Koohakan, P. and Jaenaksorn, T. (2001) Problems and countermeasures in the
+     re-use of the nutrient solution in soilless production. Acta Horticulturae 578, 213–219.
+Jensen, M. (2002) Controlled environment agriculture in deserts, tropics and temperate
+     regions – a world review. Acta Horticulturae 578, 19–25.
+Kempkes, F.L.K. and Hemming, S. (2012) Calculation of NIR effect on greenhouse cli-
+     mated in various conditions. Acta Horticulturae 927, 543–550.
+Kozai, T. (2015) Transplant production in closed systems – main components and their
+     functions. In: Kozai, T., Niu, G. and Takagaki, M. (eds) Plant Factory. An Indoor
+     Vertical Farming System for Efficient Quality Food Production. Academic Press,
+     Cambridge, Massachusetts, pp. 237–242.
+Kozai, T., Kubota, C., Takagaki, M. and Maruo, T. (2015) Greenhouse environment
+     control technologies for improving the sustainability of food production. Acta
+     Horticulturae 1107, 1–13.
+Kubota, C. and Kroggel, M. (2006) Air temperature and illumination during transpor-
+     tation affect quality of mature tomato seedlings. HortScience 41, 1640–1644.
+Kubota, C., McClure, M.A., Kokalis-Burelle, N., Bausher, M.G. and Rosskopf, E.N. (2008)
+     Vegetable grafting: history, use, and current technology status in North America.
+     HortScience 43, 1664–1669.
+312                                   C. Kubota et al.
+
+
+Kubota, C., Kroggel, M., Both, A.J., Burr, J.F. and Whalen, M. (2016) Does supplemental
+     lighting make sense for my crop? Empirical evaluations. Acta Horticulturae 1134,
+     403–411.
+Leutscher, K.J., Heuvelink, E., Van de Merwe, R.A. and Van den Bosch, P.C. (1996)
+     Evaluation of tomato cultivation strategies: uncertainty analysis using simula-
+     tion. In: Lokhorst, C., Udink ten Cate, A.J. and Dijkhuizen, A.A. (eds) Information
+     and Communication Technology Applications in Agriculture: State of the Art and
+     Future Perspectives. Proceedings of the 6th International Congresss for Computer
+     Technology in Agriculture (ICCTA ’96). VIAS, Wageningen, The Netherlands, pp.
+     492–497.
+Li, T., Heuvelink, E., Dueck, T.A., Janse, J., Gort, G. and Marcelis, L.F.M. (2014)
+     Enhancement of crop photosynthesis by diffuse light: quantitfying the contribu-
+     tion factors. Annals of Botany 114, 145–156.
+Marcelis, L.F.M., Maas, F.M. and Heuvelink, E. (2002) The latest development in the
+     lighting technologies in Dutch horticulture. Acta Horticulturae 580, 35–42.
+Marcelis, L.F.M., Broekhuijsen, A.G.M., Meinen, E., Nijs, E.M.F.M. and Raaphorst, M.G.M.
+     (2006) Quantification of the growth response to light quantity of greenhouse
+     grown crops. Acta Horticulturae 711, 97–103.
+Montero, J.I., Henten, E.J.v., Son, J.E. and Castilla, N. (2011) Greenhouse engineering:
+     new technologies and approaches. Acta Horticulturae 893, 51–63.
+Nederhoff, E.M. (1994) Effect of CO2 concentration on photosynthesis, transpiration
+     and production of greenhouse fruit vegetable crops. Dissertation, Wageningen
+     Agricultural University, Wageningen, The Netherlands.
+OMAFRA (2001) Growing Greenhouse Vegetables. Publication 371. Ontario Ministry of
+     Agriculture, Food and Rural Affairs, Toronto.
+Papadopoulos, A.P. and Hao, X.M. (1997a) Effects of greenhouse covers on seedless cu-
+     cumber growth, productivity, and energy use. Scientia Horticulturae 68, 113–123.
+Papadopoulos, A.P. and Hao, X.M. (1997b) Effects of three greenhouse cover materials
+     on tomato growth, productivity, and energy use. Scientia Horticulturae 70, 165–178.
+Papadopoulos, A.P., Pararajasingham, S., Shipp, J.L., Jarvis, W.R. and Jewett, T.J. (1997)
+     Integrated manaement of greenhouse vegetable crops. Horticultural Reviews 21,
+     1–39.
+Peet, M.M., Willits, D.H. and Gardner, R. (1997) Response of ovule development and
+     post-pollen production processes in male-sterile tomatoes to chronic, sub-acute
+     high temperature stress. Journal of Experimental Botany 48, 101–112.
+Portree, J. (1996) Greenhouse Vegetable Production Guide. British Columbia Ministry of
+     Agriculture, Fisheries and Food, Abbotsford, British Columbia.
+Qian, T., Dieleman, J.A., Elings, A., De Gelder, A. and Marcelis, L.F.M. (2015) Response of
+     tomato crop growth and development to a vertical temperature gradient in a semi-
+     closed greenhouse. Journal of Horticultural Science and Biotechnology 90, 578–584.
+Rijsdijk, A. (1999) Risico van condensatie bepalen met de computer. Groenten en Fruit
+     20, 12–13.
+Sabeh, N.C., Giacomelli, G.A. and Kubota, C. (2011) Water use in a greenhouse in a
+     semi-arid climate. Transactions of ASABE 54, 1069–1077.
+Sarlikioti, V., de Visser, P.H.B., Buck-Sorlin, G.H. and Marcelis, L.F.M. (2011) How plant
+     architecture affects light absorption and photosynthesis in tomato: towards an ide-
+     otype for plant architecture using a functional-structural plant model. Annals of
+     Botany 108, 1065–1073.
+                              Greenhouse Tomato Production                              313
+
+
+Sato, S., Peet, M.M. and Thomas, J.E. (2000) Physiological factors limit fruit set of to-
+     mato (Lycopersicon esculentum Mill.) under chronic high temperature stress. Plant,
+     Cell and Environment 23, 719–726.
+Schwarz, D., Thompson, A.J. and Kläring, H.-P. (2014) Guidelines to use tomato in ex-
+     periments with a controlled environment. Frontiers in Plant Science 5, 625.
+Sonneveld, C. and Voogt, W. (2009) Plant Nutrition of Greenhouse Crops. Springer,
+     Dordrecht, The Netherlands.
+Sonneveld, C. and Welles, G.W.H. (1984) Growing vegetables in substrates in The
+     Netherlands. Proceedings 6th ISOSC International Congress on Soilless Culture, pp.
+     613–632. ISOSC, Wageningen, The Netherlands.
+Stanghellini, C., Bontsema, J., De Koning, A. and Baeza, E.J. (2012) An algorithm for
+     optimal fertilization with pure carbon dioxide in greenhouses. Acta Horticulturae
+     952, 119–124.
+Steppe, K. (2012) Plant sensors and models: getting the dialogue started. Acta
+     Horticulturae 957, 277–280.
+Teitel, M., Baeza, E.J. and Montero, J.I. (2012) Greenhouse design: concepts and trends.
+     Acta Horticulturae 952, 605–620.
+USDA (2013) Organic production. Economic Research Service (ERS), US Department of
+     Agriculture, Washington, DC. Available at: http://www.ers.usda.gov/data-prod-
+     ucts/organic-production.aspx (accessed 21 January 2018).
+Van Straten, G., Van Willigenburg, G., Van Henten, E. and Van Ooteghem. R. (2011)
+     Optimal Control of Greenhouse Cultivation. CRC Press, New York.
+Van Winden, C.M.M., Van Uffelen, J.A.M. and Welles, G.W.H. (1984) Comparison of the
+     effect of single and double glass greenhouses on environmental factors and pro-
+     duction of vegetables. Acta Horticulturae 148, 567–573.
+Willits, D.H. (2000) The Effect of Ventilation Rate, Evaporative Cooling, Shading and Mixing
+     Fans on Air and Leaf Temperatures in a Greenhouse Tomato Crop. ASAE Paper No.
+     00-4058. ASAE Meeting Presentation, Milwaukee, Wisconsin.
+Willits, D.H. and Peet, M.M. (1989) Predicting yield responses to diffferent green-
+     house CO2 enrichment schemes: cucumbers and tomatoes. Agricultural and Forest
+     Meteorology 44, 275–293.

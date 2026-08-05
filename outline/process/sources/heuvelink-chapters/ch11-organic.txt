@@ -1,0 +1,1373 @@
+                                    11
+                            Organic Tomato
+                      Martine Dorais and Dietmar Schwarz
+
+
+
+
+PRINCIPLES AND STANDARDS OF ORGANIC
+AGRICULTURE
+Organic agriculture is defined by the International Federation of Organic
+Agriculture Movements (IFOAM) as a ‘production system that sustains the
+health of soils, ecosystems and people’. Organic agriculture endeavours to min-
+imize system inputs and adverse environmental impact through sustainable
+waste management, minimal use of energy, nutrient-balanced approaches,
+and mechanical and biological control of pests. It excludes genetically modi-
+fied varieties, synthetic fertilizers and pesticides, sewage sludge, synthetic hor-
+mones or antibiotics. In most countries, plants have to be grown in soil.
+      For most of the European countries and for all member states of the
+European Union (EU), organic farming is strictly defined by the European
+Commission (EC). In 2009, the Commission revised guidelines from 1999
+for the production of organic crops, including tomato (EC 834/2007; EC
+889/2008). Certification of the product is compulsory, because it provides
+the consumer with further confidence. By law, all EU products labelled as
+­organic must bear the country code, the name of the last operator who han-
+ dled the product (such as the producer, the processor or the distributor), as
+ well as the name or code number of their inspection body. A logo is used to
+ supplement the labelling and increase the visibility of organic products for
+ consumers. Some guidelines are country-specific or specific to grower associ-
+ ations; see, for example, Bioland (www.bioland.de) and Demeter International
+ (www.demeter.net), both originating in Germany. If an EU tomato grower de-
+ cides to become an organic grower, they need to work at least 2 years under the
+ organic production guidelines before they can start providing certified organic
+ tomatoes. In North America, no conversion period is required when produc-
+ tion takes place in allowable demarcated soil beds or containers.
+      National governments and private organizations have developed their own
+ interpretations and rules for tomato cultivation (e.g. Anonymous, 2013; Skal
+
+
+© CAB International 2018. Tomatoes 2nd edition (E. Heuvelink)                 337
+338                          M. Dorais and D. Schwarz
+
+
+Biocontrole, 2010). Some countries (USA, Mexico, Israel and Canada) allow
+tomato plants to be grown in demarcated soil beds or containers with organic
+growing media such as peat- and compost-based soils, where soil biological ac-
+tivity provides the major part of the nutrients to the tomato plants. Except in
+the USA hydroponics is prohibited. In Italy, heating is not allowed, whereas
+Demeter (Germany) allows heating up to 15°C. In Sweden, 80% of the energy
+used should be renewable. Although Spain does not allow carbon dioxide (CO2)
+greenhouse enrichment for organic tomato crops, there is no restriction on its
+use in most EU countries or in North America. In Ireland, however, CO2 should
+come from renewable sources, whereas in The Netherlands CO2 should be a
+by-product of heating (e.g. natural gas). Artificial lighting can be used in North
+America, Sweden and Iceland or is limited to plant propagation (van der Lans
+et al., 2011).
+
+
+
+PRODUCTIVITY AND PROFITABILITY OF ORGANIC
+TOMATO
+There are no complete statistical data available on organic tomato production.
+In 2010, however, tomato (6600 ha) was the fifth most important organic vege-
+table after potato (29,327 ha), lettuce (11,705 ha), carrot (8095 ha) and pea
+(8048 ha) (Granatstein et al., 2010), while the total area of organic green-
+house crops was estimated at around 8302 ha in 2016, which is almost en-
+tirely used for lettuce and fruit vegetables such as tomato (Dorais and Cull,
+2017). The ratio of organic yield to conventional yield ranges from 0.69 to
+1.19 for protected tomato crops and from 0.60 to 1.75 for field-grown toma-
+toes (Table 11.1). Differences between organic and conventional tomato yield
+depend on climate conditions, growing systems and cultural management. For
+greenhouse tomato, yield decreases can reach as high as 40% owing to soil-
+borne pathogens, root-knot nematodes and salinity, while yield of demarcated
+soil beds is similar to conventional systems (Dorais and Alsanius, 2015).
+     Organically grown tomato (Fig. 11.1) can be more profitable than a con-
+ventional crop when a premium price of 10–50%, or even more, depending
+on the market area, is added (Kaiser and Ernst, 2011). Nevertheless, there
+may be higher production costs for organic tomato due to additional expenses
+for weed and pest control, compost and cover crop management (Clark et al.,
+1999; Kaiser and Ernst, 2011). For unheated polytunnel tomato crops grown
+in the UK, the labour cost (38.5%) has the highest impact on organic crop prof-
+itability (Schmutz et al., 2011). Only 1.8% and 3% of costs were due to fertilizers
+and crop protection, respectively. Other variable costs were similar to those for
+conventional tomato crops: 20% for seedlings, 15% for commission, 7.2%
+for packaging, 5.6% for transport and 0.4% for irrigation. Protected organic
+crops can be very profitable, as shown for the UK (Schmutz et al., 2011) and
+                                  Organic Tomato                                  339
+
+
+Table 11.1. Yield of tomato grown in different production systems: ratio of organic
+(Org) to conventional (conv).
+
+System                                  Org : conv. References
+
+Heated greenhouse
+  Soil                                     0.69   Bakker, 2011 (Netherlands)
+  Container/coir                        0.94–1.02 Gravel et al., 2011a (Canada)
+  20 l pot                              0.91–0.92 Papadopoulos et al., 2011
+                                                    (Canada)
+   Soil/soil and stone wool             0.85–1.19 Gravel et al., 2010 (Netherlands)
+   Peat/compost (beefsteak), 15 l pot   0.98–1.00 Zhai et al., 2009 (Canada)
+   Peat/compost (truss), 15 l pot          0.81   Zhai et al., 2009 (Canada)
+   Peat/coir/bark, 19 l bag             1.15–1.18 Rippy et al., 2004 (USA)
+Unheated greenhouse
+   Peat/coir/bark, 19 l bag             0.92–1.00   Reeve and Drost, 2012 (USA)
+Field                                      0.70     De Pascale et al., 2016 (Italy)
+                                           0.84     de Bon et al., 2012 (Vietnam)
+                                        0.75–0.81   Chellemi et al., 2012 (USA)
+                                           1.00     Campanelli and Canali, 2012
+                                                      (Italy)
+                                           0.78     Aldrich et al., 2010 (USA)
+                                           0.62     Riahi et al., 2009 (Tunisia)
+                                         0.6–1.11   Pieper and Barrett, 2009 (USA)
+                                        0.88–0.97   Tabaglio et al., 2008 (Italy)
+                                        0.95–1.75   Mitchell et al., 2007 (USA,
+                                                      Canada)
+                                        0.87–1.13   Barrett et al., 2007 (USA, Canada)
+                                        0.91–0.94   Poudel et al., 2002 (USA, Canada)
+                                        0.89–1.03   Colla et al., 2002 (USA, Canada)
+                                        0.83–0.87   Clark et al., 1999 (USA, Canada)
+                                           1.06     Eggert, 1983 (USA, Mexico)
+
+
+
+for Canada (20–80% more profitable than conventional greenhouse tomato)
+(Dorais and Cull, 2017).
+
+
+CULTIVAR SELECTION AND SEEDLING PRODUCTION
+
+Cultivars and rootstocks
+
+Depending on organic markets targeted, on production systems and on the
+growing environment, the type and diversity of the tomato varieties selected
+vary greatly to meet the demand for an optimal yield and quality. After having
+disappeared because of their sensitivity to diseases and pests, heirloom var-
+ieties are becoming more important and are returning to the market thanks to
+340                           M. Dorais and D. Schwarz
+
+
+
+ (A)                            (B)
+
+
+
+
+ (C)                            (D)
+
+
+
+
+Fig. 11.1. (A) Soil-grown organic tomato cultivated in a shade-house. (B) Soil-grown
+organic tomato cultivated in a glasshouse. (C) Demarcated raised beds newly amended
+with a mixed organic amendment on the top of the peat-based growing soil. (D) Organic
+tomato grown in soil under high plastic tunnels (Photographs Martine Dorais).
+
+their taste and appearance. Although interest in these heirloom varieties is in-
+creasing, tolerance and resistance to major diseases and pests as well as to cli-
+matic conditions and production techniques cannot be ignored in the selection
+process. Besides flavour, consumers are paying increasing attention to char-
+acteristics related to human health (Dorais et al., 2008; Dorais and Alsanius,
+2015). A practical method of adapting heirloom and sensitive cultivars to
+counteract abiotic and biotic stresses is grafting these cultivars on to selected
+vigorous rootstocks. However, the rootstock–scion combination and scion per-
+formance must be adjusted to the organic growing conditions and consider-
+ation should be given to unfavourable conditions, including saline soils, soil
+pH (alkalinity) stress, nutrient deficiency, toxicity of heavy metals, thermal
+stress, drought and flooding, and persistent organic pollutants (Schwarz et al.,
+2010). In recent years many new rootstocks have been bred and released to
+the market (Kleinhenz, 2015). Unfortunately, among the huge list of commer-
+cial rootstocks (see, for example, www.vegetablegrafting.org) only a few are
+                                 Organic Tomato                               341
+
+
+bred and tested for organic farming. Recommended rootstocks for organic cul-
+tivation are ‘Maxifort’, ‘Estamino’, ‘Fortamino’, or cold-tolerant ones such as
+‘Armada’, ‘Arnold’, ‘Actimino’, ‘Top Bental’ or ‘Top Gun’.
+     Tomatoes are susceptible to varying degrees to diseases, and complete re-
+sistance does often not exist. The use of rootstocks is particularly successful
+against soilborne pathogens, such as Verticillium wilt (Verticillium dahliae),
+bacterial wilt (Ralstonia solanacearum), Fusarium wilt (Fusarium oxysporum
+f.sp. lycopersici), corky root rot (Pyrenochaeta lycopersicum), southern blight
+(Sclerotium rolfsii), Rhizoctonia solani, Pythium and Phytophthora species, and
+nematodes (see Chapter 7). Some rootstocks, such as ‘Maxifort’, ‘Multifort’,
+‘Survivor’ and ‘Brigeor’, have been able to reduce root galling by 80%. Others
+are offered by the seed companies as completely resistant. Unfortunately, the
+results vary widely for different environmental conditions and scion culti-
+vars. Moreover, tolerance disappears when the same rootstocks are used over a
+longer period and real resistance is absent.
+
+
+Seeds
+
+Some associations allow the use of any type of seed, whereas others do not
+allow all types of hybrids and prefer traditionally bred seeds (heirloom var-
+ieties). Biodynamic cultivation associations (Demeter) do not accept cyto-
+plasmic male sterility in hybrids produced by cytoplast–protoplast fusion and
+recommend refraining completely from the use of hybrids. All seeds, seed-
+lings and rootstocks must come from organic production and no genetically
+modified organisms are allowed. Some tools and breeders offer growers the
+selection of seeds suitable to their demands (see, for example, http://www.
+organicxseeds.com). Seeds should be treated only by methods approved for or-
+ganic cultivation. Organic seed treatments against fungi and bacterial diseases
+by copper-based compounds, vinegar, plant and compost extracts, mustard
+seed extract, chitin, essential oils, lime or milk powder, combined or not with
+beneficial microorganisms, along with thermal treatment could be effective,
+depending on the concentrations used and the pathogens involved. However,
+the literature reports contradictory results, phytotoxicity effects and moderate
+or low efficacy. The use of acidified nitrite in citric acid (300 mmol/l NaNO2
+in citric acid buffer at pH 2; 20.7 g sodium nitrite in 1 l of 57.63 g citric acid
+buffer; applied for 10–20 min) to treat tomato seeds infected by Didymella
+lycopersici has been reported to be highly effective compared with biological
+control agents, acetic acid, mustard flour, milk powder and elicitors of plant re-
+sistance (Kasselaki et al., 2008). Moreover, for efficacy similar to that achieved
+with conventional fungicides used in tomato seed treatment, acidified nitrite
+treatment appears to be less phytotoxic. The release of gaseous compounds
+such as nitric oxide has antimicrobial activity through the seed coat, allowing
+pathogen removal from the seed’s surface and inner tissues. Although nitrite
+342                          M. Dorais and D. Schwarz
+
+
+is permitted as a food additive in organic food, the status of its agronomic use
+as a seed disinfection treatment is unclear. For Clavibacter michiganensis, the
+immersion of tomato seeds for 10 min in 300 mmol/l acidified nitrite has been
+found to result in 98% pathogen removal, whereas the use of copper hydroxide,
+certain strains of Bacillus spp. and compost water extracts (1:2; green waste,
+green waste mixed with manure, digestates from co-fermentation of cow and
+green waste or biowaste) resulted in 100% pathogen-free seeds without any
+phytotoxic effects (Kasselaki et al., 2011).
+
+
+Organic seedling production
+
+The transplant medium usually consists of a mixture of peat and mature
+compost (20–30%; < 2 dS/m in 1.5 water extract v/v) amended with around
+300 mg nitrogen (N) per litre of commercial organic fertilizers and 2 g lime-
+stone per litre to reach a pH value of 6.0–6.5 (Koller et al., 2004). Coir, saw-
+dust, composted bark, perlite, vermiculite, sand, clay, topsoil or other local
+­materials may replace all or part of the peat substrate. Yucca or other cer-
+ tified i­ngredients may be used as wetting agents. Horn and feather meals
+ are ­excellent animal-based nitrogen fertilizers, while plant-based products
+ such as potato protein, malt sprouts and vinasse are interesting alternatives.
+ However, plant-based products have to be mixed with the growing medium
+ at least 2 weeks before sowing, to prevent any phytotoxic effects. The use of
+ vermicompost or plant-based amendments (sesame or lucerne meal) in the
+ transplant medium was found to increase transplant biomass and early yield
+ in organic tomato compared with the use of thermogenic compost, made
+ with the same feedstock as the vermicompost, and standardized industrial
+ organic transplant media (Jack et al., 2011). The level of phosphorus (P)
+ (about 100–200 mg P2O5 per litre), potassium (K) (about 200 mg K2O per
+ litre), magnesium (Mg) and micronutrients provided by at least 20% of com-
+ post is normally sufficient to fulfil plant requirements. Additional fertilizers
+ such as horn chips (2–3 g), rock phosphate and potassium sulfate may also
+ be added to the growing medium. To ensure good seedling vigour during
+ the final weeks in the nursery, liquid organic fertilizers are often provided as
+ complements.
+
+
+ORGANIC GROWING SYSTEMS
+Soil
+
+In contrast to conventional crops, soil biological activity is the main deter-
+minant of soil fertility for organic crops, given that nutrients are provided
+mainly by compost and manure. Organic soils have a larger pool of organic
+                                  Organic Tomato                                343
+
+
+carbon (C) and microbial biomass, and higher enzyme activity compared with
+soils in conventional farming. To ensure high soil activity, several cultural as-
+pects should be considered, as set out below.
+
+Carbon:nitrogen ratio
+A C:N ratio below 15 prevents microorganisms from immobilizing soil N and
+ensures a constant release of nutrients, whereas a C:N ratio between 20 and
+30 is desired for timely decomposition of organic matter and subsequent N
+release. On the other hand, a C:N ratio of 25–40 promotes microorganism
+growth and humification. The cut-off point for the C:N ratio with respect to N
+mineralization and immobilization has therefore been defined at about 25–30.
+However, tomato fertilizer amendments used by growers generally have a C:N
+ratio ranging from 4 to 25.
+
+Organic matter
+A soil organic C content of 2% in the topsoil (0–30 cm), corresponding to 3.4%
+organic matter, is indicated by the European Commission as a threshold below
+which a reduction in soil chemical, biological and physical fertility (water-­
+holding capacity, soil ­aggregation, air and water porosity, hydraulic conduct-
+ivity, gas diffusivity, nutrients) as well as an increase in erosion can be observed.
+However, this threshold is soil- and site-dependent. To ensure a well balanced
+nutrient budget, the ­recommendations are 30 t compost supply per hectare per
+year for greenhouse tomato and 7–9 t/ha per year for field tomato. Too much
+or too little organic matter can result in nutrient imbalances (excess or defi-
+ciency) and nutrient leaching to groundwater.
+
+Cover crops and green manure
+Cover crops constitute a sustainable soil-building technique with significant
+advantages for the soil and nutrient supply (Table 11.2). For field tomato,
+incorporation of a cover crop at the time of planting was shown to result
+in the lowest weed and cover-crop regrowth compared with incorporation
+17–19 days after planting or with no incorporation and, consequently, made
+N more available to the crop (Madden et al., 2004). The combination of rye
+and hairy vetch (Vicia villosa) in a no-tillage tomato system was found to pro-
+vide the most weed suppression (Delate et al., 2012). Moreover, combining
+a summer cowpea cover crop and a resistant cultivar brought Meloidogyne
+incognita under control and improved the yield of tomato in rotation with
+pepper.
+
+Crop rotation
+For organic field tomato, rotation to non-solanaceous crops for 3 years is
+­recommended to avoid pest problems. It was reported that the best tomato
+ crops follow a crop of clover, sweet clover or lucerne in a 3- or 4-year rotation.
+ For greenhouse tomato, the high infrastructure investment required means
+Table 11.2.    Nutrient contribution of cover crops used under northern or subtropical growing conditions.
+                                                                                                                                                        344
+                          N             K           P         Biomass                                      N            K          P         Biomass
+Legumes                (kg/ha)       (kg/ha)     (kg/ha)     (t/ha DW)      Non-legume species          (kg/ha)      (kg/ha)    (kg ha)     (t/ha DW)
+Hairy vetch           111–224          149         20        2.58–5.60      Rye                        54–159         121         19          3.36–
+V. villosa           (70–92%)a                                              S. cereale                  (78%)                                 11.55
+Pigeon bean           171–236                                6.40–8.29      Flax                         141                                  10.16
+C. indicus                                                                  L. usitatissimum
+Velvet bean           173–286       156–214      23–32      6.70–11.10      Sorghum sudangrass         30–110       64–188      19–57      3.30–12.00
+Mucuna spp.                                                                 S. bicolor                (30–50%)
+Cowpea                75–243        111–124        15       2.80–11.70      Ryegrass                     33                                2.24–10.08
+V. unguiculata          (90%)                                               L. multiflorum
+
+
+
+
+                                                                                                                                                        M. Dorais and D. Schwarz
+Sunn hemp             190–561       114–190      15–26      6.70–19.70      Wheat                                                          3.36–8.96
+C. juncea                (fast)                                             T. aestivum
+Red clover             78–168                                2.24–5.60      Oat                                                            2.24–11.20
+T. pratense                                                                 A. sativa
+Crimson clover        78–146           160         18        3.92–6.16      Millet                        65                                   6.66
+T. incarnatum          (89%)                                                Pennisetum spp.
+Subclover             84–224                                 3.36–9.52      Buckwheat                     48                               2.24–4.48
+T. subterraneum                                                             F. esculentum
+Berseem clover        84–246                                6.72–11.20      Mexican sunflower          70–140                              7.90–12.60
+T. alexandrinum                                                             T. diversifolia
+White clover          90–224                                 2.24–6.72      Radish                     56–224                              4.48–7.84
+T. repens                                                                   R. sativus
+Sweet clover          111–190                                3.36–5.60      Rapeseed                   45–179                              2.24–5.60
+M. officinalis                                                              B. rapa
+Austrian winter       111–168          178         21        4.48–5.60      Mustards                  33.6–134                             3.36–10.37
+   peas P. sativum     (77%)                                                Brassica spp.              43–224
+DW, dry weight.
+a
+  Percentage of N release within the growing season. Note: These values vary depending on climate, soil, seeding rate and cropping system; potential
+rate of N decreases with plant maturity. (From Sullivan, 2003; Wang et al., 2009; Clark, 2007; Campiglia et al., 2011; Partey et al., 2011.)
+                                  Organic Tomato                               345
+
+
+that crop rotations are generally limited to a few species with similar pest sus-
+ceptibility, such as aubergine, sweet pepper and cucumber.
+
+Tillage
+Organic tomato field producers use tillage to maximize the mineralization rate
+and nitrification processes of cover crops or other organic amendments and
+to control weeds. Nevertheless, from a sustainability perspective, minimum
+tillage or a combination of conventional and minimum tillage is preferable.
+Indeed, long-term tillage contributes to reduce both organic matter and micro-
+bial activity, worsen soil structure, increase greenhouse gas emissions and in-
+crease the potential for nitrate leaching to groundwater. For irrigated organic
+tomato, a no-tillage roller/crimper system using rye–hairy-vetch or wheat–
+winter-pea covers was found to provide results for plant growth, number of
+fruits and yield (40–63 t/ha) similar to those achieved in a tilled system (Delate
+et al., 2012). Consequently, similar yields in no-tillage and tilled tomato crops
+are feasible when cover-crop regrowth does not occur and adequate irrigation
+is provided. However, the long-term effect of no-tillage on the weed seedbank
+has to be considered.
+
+
+Containers, raised beds and organic hydroponics
+
+This section relates to systems in non-EU countries. It describes greenhouse
+organic systems for container-grown plants in North America, Israel and some
+other countries, along with raised bed systems as found in Scandinavia and
+organic hydroponics as allowed in the USA.
+      Growing protected organic tomato in enclosed beds or containers can be
+profitable where soils are contaminated (e.g. by pests, salinity, pesticides, heavy
+metals) or have to be heated during a large portion of the year. Such systems
+also facilitate a grower’s transition from conventional to organic farming when
+soil quality is the main limiting production factor. From an environmental
+perspective, enclosed soil also offers the possibility of collecting and recycling
+drained water and nutrients and, consequently, reducing pollutant emissions.
+To fulfil plant nutrient requirements, amendments are provided every 1–3
+weeks (see Table 11.1 for yield performance).
+      Organic hydroponics using fish or digestates or other organic liquid fer-
+tilizers, although not allowed in most countries as main source of nutrients,
+provide beneficial compounds (e.g. amino acids, humic acids) and microorgan-
+isms that promote plant growth and productivity as well as protect the plant
+against pathogens. For instance, crude fish effluent was shown to reduce to-
+mato root colonization by Pythium ultimum and F. oxysporum, and had a stimu-
+lating effect on tomato plant height, leaf area and root dry weight (Gravel et al.,
+2014). Previous studies also showed the fertilizer value of digester effluents
+from the anaerobic digestion of animal manure.
+346                          M. Dorais and D. Schwarz
+
+
+
+ORGANIC FERTILIZATION AND AMENDMENT
+
+Nutrient supply
+
+Soil fertility management in organic tomato production systems is more
+complex than in conventional systems, because it is based on agroecologi-
+cal strategies, making good knowledge of the pedoclimatic situation and nu-
+trient flow through the agroecosystem a requirement (Tittarelli et al., 2016).
+Consequently, unlike in conventional tomato production systems, fertilization
+decisions in soil-based organic growing systems involve taking into account
+storage, nutrient-use efficiency, disease resistance and the well-being of bene-
+ficial soil microorganisms. Manure can be used for field tomato crops provided
+that a 120-day delay prior to harvest is respected. In addition, the regulations
+allow farmers to purchase mineral fertilizers of natural origin, such as rock
+phosphate, crude potassium salts, calcium and magnesium carbonate, mag-
+nesium sulfate, calcium chloride, calcium sulfate, lime, elemental sulfur and
+stone meals. Other amendments such as fish powder, algal products, feather
+meal, guano, blood meal (not permitted everywhere, owing to bovine spongi-
+form encephalopathy) and vermicompost (see EC 889/2008, annex 1) are
+used. Liquid fertilizers are allowed as complements in most countries when the
+products are registered as permitted substances. In the EU, a maximum level of
+manure N is set (170 kg/ha per year) and fertilizers have to comply with the EU
+Nitrate Directive. The use of Chilean nitrate is prohibited in most countries and
+restricted to 20% of the crop N requirement in the USA (Hartz and Johnstone,
+2006). Table 11.3 presents commercially used fertilization scenarios for or-
+ganic field and greenhouse tomato crops.
+      The current strategy of nutrient supply is based on soil analyses to deter-
+mine the plant-available minerals. Depending on plant demand application: (i)
+base dressing before planting (50–66%; in North America 56 kg N/ha) and (ii)
+side dressings when first fruits are about 2 cm in diameter (in North America
+28–56 kg N/ha) (Schonbeck et al., 2006) are provided. The recommended N fer-
+tilizer rate is up to 220 kg/ha (Zotarelli et al., 2009). A mixture of animal meal
+by-products, rock phosphate and kelp meal is commonly given at transplanting
+as supplemental N (Diver et al., 2012). Some farmers also provide biofertilizers
+during the first 6 weeks of production as biweekly foliar applications of fish
+extract (0.07 kg N/ha, 0.008 kg P/ha, 0.03 kg K/ha) combined or not with
+seaweed powder (0.007 kg N/ha, 0 kg P/ha, 0.02 kg K/ha). For soil with an
+excess of P or K, nitrogen is mainly provided by legume cover crops. Plant nu-
+trient recommendations for fresh and processing organic tomatoes in the USA
+range from 56 to 146 kg N/ha, 112 to 280 kg P2O5/ha and 112 to 336 kg K2O/ha
+(Diver et al., 2012). For organic greenhouse tomato crops, top dressings are
+applied throughout the growing season to support the longer-term inten-
+sive production (up to 42 weeks of harvesting; yield of 500 t/ha) and higher
+crop demand compared with field tomato (40–100 t/ha), whereas additional
+                                       Organic Tomato                                       347
+
+
+Table 11.3. Nutrient requirements for organic field and greenhouse tomato
+production.
+                                                             N
+Fertilizer inputs                   Application rate       (kg/ha          N
+Field tomatoa                         (t DW/ha)b          per year)       (%)          C:N
+Composted manure                           7–9            114–439      2.3–3.9       5.4–15.4
+(composted chicken manure)
+Cover crops                                  –            81–148       1.8–3.9      10.2–21.7
+(legumes or legume–grass
+   mixtures)
+Tomato plant uptake                                       105–189
+
+Fertilizer inputs                   Application rate          N            P             K
+Greenhouse tomatob                      (t/ha/y)          (kg/ha/y)    (kg/ha/y)     (kg/ha/y)
+
+Base dressing                              59c               776          191           636
+Top dressing                               17d               685          135          1751
+Total                                      76               1461          326          2387
+a
+  Field tomato crops need up to 3.4 kg N per hectare per day (237 kg N/ha) and 6.75 kg K2O
+per hectare per day (496 kg K2O/ha), considering plant uptake of 100–150 kg N/ha, 20–40 kg
+P2O5/ha and 150–300 kg K2O/ha and a yield of 40–50 t/ha (see Chapter 6). Source: Clark
+et al., 1999.
+b
+  Fertilization scenario for greenhouse production based on the commercial practices of eight
+producers located in The Netherlands and according to a 3-year crop rotation (tomato,
+cucumber and sweet pepper). Source: Voogt et al., 2011. DW is Dry Weight.
+c
+  In kg N:P:K content per tonne fresh weight: compost (7.1:1.4:4.8) 30 t/ha, manure
+(7.4:2.5:8.1) 19.3 t/ha, dried manure (22:7.85:12.45) 3.3 t/ha, mixed fertilizer (50:26.2:107.9)
+1.4 t/ha, feather meal (130:0:0) 0.72 t/ha, bone meal (60.0:69.8:0) 0.28 t/ha, blood meal
+(130:0:0) 0.42 t/ha, seaweed (14.6:1.40:32.9) 0.96 t/ha, castor oil waste (50:8.5:12) 0.78 t/ha,
+hydrolysed plant material (41.3:9.1:27.7) 0.07 t/ha.
+d
+  In kg N:P:K content per tonne fresh weight: mixed fertilizer (50:26.2:107.9) 2.76 t/ha, blood
+meal (130:0:0) 0.82 t/ha, feather meal (130:0:0) 0.80 t/ha, brewery waste (50:13.08:41.50)
+1.94 t/ha, vinasse (20:0:249) 3.50 t/ha, castor oil waste (44.7:5.8:70.0) 2.04 t/ha, dried
+chicken manure (22.0:7.8:12.4) 1.91 t/ha, hydrolysed plant material (30:4.2:26) 1.0 t/ha, bone
+meal (60.0:69.8:0) 0.10 t/ha, K2SO4 0.74 t/ha, MgSO4 1.04 t/ha.
+
+
+­fertilizers (e.g. K2SO4) are usually provided via the irrigation system. Many dif-
+ferent waste products from the agricultural and fishery industries are used and
+may have fast or slow release rates, as shown in Table 11.4. Liming is some-
+times needed to adjust the pH to about 6.5.
+
+Nitrogen
+For organic crops, N is the main limiting factor for productivity. The calcu-
+lation of the fertilization is based on the N requirement and N release rate
+(Table 11.4). Owing to rapid N mineralization, the application of high‑N
+waste products from agricultural and fishery industries is the most practical
+option for in-season N fertilization. In fact, 47–60% of the organic N in blood
+Table 11.4.   Nutrient values (g/kg fresh weight) of different types of amendments used for organic tomato production.                               348
+                                                                                                                                     N release (%)
+Sources                       N             P2O5a           K2O            CaO          MgO            OMb             C:N            (< 1 year)
+
+Bone meal                 73–114            160               –            22            0.6         558–934            4.5             55–66
+Blood meal                12–15              2–3              1            0.3            –                                             64–70
+Feather meal                101             11.5             2.7            –             –             880             4.8             64–82
+Meat meal                    81              93               6             –             –             667             4.8               70
+Guano                       160             202              30             –             –              –               –              82–93
+Cattle manure              5.7–8             4–9            5–14                                        210            16.6             20–45
+Sheep manure               11.5               7              23                                         260                               20
+
+
+
+
+                                                                                                                                                     M. Dorais and D. Schwarz
+Pig manure                 5–11             2–43            3–21                                                        3.3               65
+Poultry manure            14–28            23–28            7–25                                     479–577           14.5             50–70
+Turkey manure             22–28            31–40           25–32                                     454–530                              50
+Fish meal                 10–90             5–90           0–0.5            –            –                                               Fast
+Crab waste                   2               3.6             0.2            –            –                                               Slow
+Shrimp waste                2.9              10               –             –            –                                                 –
+Algae products             6–7.5           1–1.2           11–15          3–4           1–2             200              –               Slow
+Alfalfa meal                2.5              0.3             1.9            –            –                                             Medium
+Cotton-seed meal            6–7            1.1–3             1.5           0.4          0.9                                               70
+Peanut meal                  7               1.5             1.2           0.4          0.3                                                –
+Soybean meal                 7            0.7–1.2         1.5–2.4          0.4          0.3                                               70
+Castor cake                 57               30              20             –            –             824              8.4            55– 66
+Wheat bran                  2.9              1.4             1.3            –            –                                                 –
+Green wastea               5–10              3–5            3–10          7–40          2–4             450           11–25                –
+Molasses                    4–5              0.3              6                                                                         40–50
+a
+ In general, 65–80% of P and 80–100% of K are available during the growing season.
+b
+ OM, organic matter. Note that heavy metal analyses (Cd, Cr, Cu, Hg, Ni, Pb, Se, Zn, As, Mo) should be performed to comply with organic production
+regulations.
+                                    Organic Tomato                                 349
+
+
+meal, feather meal, guano and fish powder is mineralized within 2 weeks and
+up to 74% is mineralized after 8 weeks (Hartz and Johnstone, 2006). With
+Tithonia diversifolia, in contrast to leguminous species, no N immobilization
+occurs and an ideal N:P ratio of 10 is maintained during decomposition
+(Partey et al., 2011). Under an organic farming management system in nor-
+thern California, using a 4-year rotation (tomato, safflower, maize and bean
+with a biculture of oat–vetch mix), the potentially mineralizable N was 112%
+higher than under a 2-year conventional system (tomato, wheat) (Poudel
+et al., 2002). Cost per unit of available N varies widely among fertilizers, with
+feather meal the cheapest and fish powder the most expensive. Nevertheless,
+too high levels of N and NH4 were found to increase plant infection in organic
+tomato. For ­example, high concentrations of NH4‑N and total C and a low cal-
+cium (Ca) concentration were correlated with a higher level of corky root rot
+(Hasna et al., 2007). Similarly, Fusarium crown rot of tomato was observed
+to be more severe under NH4‑N compared with NO3‑N, a higher total N con-
+centration, low Ca fertilization and high NaCl levels (Woltz et al., 1992). High
+NH4‑N form can be observed under cold conditions given the slower rate of
+nitrification at low temperatures.
+
+Micronutrients
+Organic amendments such as compost and manure provide micronutrients
+that are seldom applied by farmers, such as manganese (Mn), zinc (Zn) and
+other micronutrients. In addition to soil-incorporated fertilizers, growers
+use foliar feed with fish emulsion, seaweed and compost, weed teas, or other
+­certificated substances. However, the effectiveness of foliar spraying varies,
+ ­depending on: (i) the environmental conditions (e.g. temperature, light, rela-
+  tive humidity); (ii) leaf phenology (e.g. surface wetness); (iii) plant physiological
+  status (e.g. open stomata, age, injury, nutrient status, osmotic potential, root
+  temperature) at the time of treatment; (iv) the physical-chemical properties of
+  the solution (e.g. pH, components, adjuvants, surface-active agents, surfact-
+  ants); and (v) the amount and mode of application (e.g. droplet size, volume,
+  concentration) (Fernández and Eichert, 2009).
+
+
+Nutrient balance
+
+The NPK composition of the organic fertilizers rarely matches plant demands,
+resulting in unbalanced soil nutrient content and soil salinization (e.g. SO4,
+Na, Cl). Consequently, the production of organic tomato, particularly in green-
+houses, is becoming more and more difficult with respect to European legal
+N and P standards and regulations, owing to the limited manure application
+permitted (170 kg N/ha per year), restrictions in the use of compost depending
+on its quality, and upcoming discussions on limiting the total nutrient supply
+amounts below a threshold of some 1250 kg N/ha per year (Skal Biocontrole,
+350                          M. Dorais and D. Schwarz
+
+
+2010; Tittarelli et al., 2016). Tremendous difficulties involved in synchronizing
+demand and supply were revealed in a study with ten organic greenhouse
+growers using a tomato, cucumber and sweet pepper crop rotation. The
+average N and P supply was more than double the crop demand (680 kg N and
+150 kg P per hectare and year) resulting in a surplus of approximately 945 kg
+N and 250 kg P per hectare per year (Voogt et al., 2011). Moreover, unbal-
+anced ratios between N, P and K were observed (42:11:47) compared with the
+crop demand (37:6:57). Therefore, to meet the annual N demand of a tomato
+crop of about 1110 kg/ha yielding 50 kg/m2, the following fertilization was re-
+commended: approximately 470 kg N/ha as compost, 170 kg N/ha as manure,
+560 kg N/ha as additional fertilizers (Voogt et al., 2011). Models to calculate
+nutrient availability have also been developed to improve fertilization practices
+(Janssen, 2011).
+     When the nutrient application rate exceeds the crop uptake or when
+amendments contain high levels of residual salts such as Na, Cl and SO4, soil
+salinization occurs, limiting plant growth, yield and fruit quality (Gravel et al.,
+2011b). To control soil salinity, growers over-irrigate their soil, causing N
+leaching and environmental pollution. Therefore, a dynamic nutrient balance
+approach is needed to simulate N availability, fine-tune manure applications to
+crop demand, and apply innovative approaches to the collection and treatment
+of crop effluents as part of sustainable fertilization management. Otherwise,
+nutrient losses (leaching, denitrification, fixation) not only harm the environ-
+ment but may also affect the reputation of organic farming.
+
+
+Compost
+
+The most appropriate C:N ratio of composts used for organic tomato produc-
+tion ranges between 25:1 and 40:1, because these composts (1–3 months)
+have good biological activity and are a good source of humus.
+
+Nutrient value
+Increased yield of field tomato grown in a sandy loam was observed with 62
+and 124 t of compost per hectare (Maynard, 1995). Although commercial
+composts usually have a low N content (< 1.5%), cow manure-based composts
+amended with grape marc (1:1) and wheat straw (2:1) with an organic matter
+content of 70–53%, a C:N ratio of 15.6–13.1 and a pH of 7.1–6.8 were found
+to provide 2.63–2.39% N in the form of NH4‑N (137–195 mg/kg) and NO3‑N
+(15–1644 mg/kg), 487–211 mg PO −34‑P/kg and 10,101–14,781 mg K/kg
+(Raviv et al., 2005). However, when the C:N ratio is higher (25–30) due to
+amendment with maize straw, wheat bran and cotton-seed cake, cow manure-
+based compost was found to have 1.21% N, 0.6% P and 1.58% K (Xie et al.,
+2011). Table 11.4 provides the nutrient values of composts/manures gener-
+ally used for organic tomato production.
+                                   Organic Tomato                                351
+
+
+Disease suppressiveness
+Organic matter inputs in amounts that provide significant levels of disease con-
+trol (25–50% v:v) are commonly used in organic production systems (Giotis
+et al., 2009). Depending on the type of compost, multiple studies have reported
+a major or moderate suppressive effect of compost/compost tea on tomato dis-
+eases such as bacterial spot (Xanthomonas vesicatoria), early blight (Alternaria
+solani), bacterial canker (C. michiganensis), corky root rot (P. lycopersici), grey
+mould (Botrytis cinerea), F. oxysporum, P. infestans, P. ultimum, R. solani, V. dahl-
+iae and nematodes (M. javanica) (Noble and Coventry, 2005). In addition, the
+number of fungal- and bacterial-feeding nematodes increased significantly.
+Compost may, however, have negative effects, such as stimulation of corky root
+rot by horse manure compost. The microbial content, nutrients and organic
+molecules (e.g. humic and phenolic compounds) in compost are the main fac-
+tors in the inhibition or prevention of plant diseases. While microorganisms
+may act through pathogen antagonism, parasitism, antimicrobial production
+or induction of plant resistance, organic compounds in compost may induce
+systemic resistance as well or may have a direct toxic effect on the pathogen.
+The inoculation of compost with biofertilizers may increase its suppressive ef-
+fect, though interactions with external factors and fine-tuning are extremely
+important for the effectiveness of this form of biological control (Van der Wurff
+et al., 2016).
+
+
+Biostimulants
+
+The stimulation of crops with plant growth-promoting agents is a common
+strategy used by organic producers. Pseudomonas, Bacillus and Streptomyces spp.
+can control B. cinerea in organic greenhouse tomato. Suppression of corky root
+rot has been correlated with cellulolytic actinomycetes and total actinomycete
+populations (Workneh and van Bruggen, 1994). P. fluorescens strains have been
+shown to control bacterial pathogens effectively. However, abiotic factors such as
+water stress and nutrient deficiency and the indigenous microflora and micro-
+fauna affect the efficacy of these promoters. The beneficial response of tomato to
+a growth promoter may also be dependent on the tomato genotype. Biostimulants
+containing non-living substances, such as humic/fulvic acids, protein hydrolys-
+ates, chitosan compounds or silicon, may exhibit positive effects on leaf chloro-
+phyll content, plant growth, yield and fruit components. Seaweed products are
+a rich source of Ca, K, P, Mg and Mn, iron (Fe), Zn, molybdenum (Mo), boron (B)
+and cobalt (Co). Their plant hormones (cytokinins, auxins, gibberellins), amino
+acids and vitamin content may promote the growth of beneficial soil microbes,
+while their rich content in polyphenols can have antifungal activity (Sangha et al.,
+2014). Seaweed extracts (Ecklonia maxima or Ascophyllum nodosum) applied to soil
+reduced tomato root infestation by M. incognita or M. javanica, probably as a re-
+sult of the betaine content in the extract (Chitwood, 2002). Despite the apparent
+352                          M. Dorais and D. Schwarz
+
+
+benefits of some biostimulants, there is controversy about the real advantages for
+organic tomato crops.
+
+
+WATER MANAGEMENT
+
+Irrigation systems and monitoring tools used for organic tomato are similar
+to those for conventional crops (see Chapter 6), though special care is given to
+optimize microbial soil activity and mineralization rate (Dorais et al., 2016).
+Good water management practices, however, by means of root zone or plant
+sensors as well as evapotranspiration and water-uptake models, still need to
+be adapted to organic crops. In fact, the fine-tuning of irrigation for organic
+crops is much more complex than in conventional crops, due to plant hetero-
+geneity and ion imbalances as well as the optimization of soil biological activity,
+which is a main factor in plant productivity. Based on soil activity, physiological
+parameters, yield and fruit quality, matric potential thresholds of −40 mbar to
+−100 mbar were proposed for organic greenhouse tomato grown in a sandy
+loam soil, though similar mineralization rates were observed for organic soils at
+−35 mbar and −250 mbar (Pepin et al., 2008). Maintaining a higher potential
+(< −30 mbar) resulted in a lower soil mineral content. For a greenhouse tomato
+crop grown in containers filled with a peat–sawdust-based growing medium, a
+matric potential ranging from −22 mbar to −15 mbar relative to a container
+capacity of −6 mbar was beneficial for improving plant photosynthetic activity
+and yield (Lemay et al., 2012). Because tomato plants are sensitive to high soil
+moisture and poor soil oxygen content, excessive irrigation on poorly draining
+organic soils limits productivity by reducing or inhibiting root respiration, min-
+eral uptake and water movement into the roots. This results in reduced stomatal
+conductance and photosynthesis and enhanced plant susceptibility to root dis-
+eases such as Pythium spp. For soil-grown organic greenhouse tomato, oxygen
+(O2) enrichment of the irrigation water (16 μmol/l) or O2 injection at a depth of
+25 cm (25% soil O2) increased soil biological activity, nutrient availability, leaf
+mineral content, plant photosynthetic capacity and, in some cases, fruit yield
+(Dorais and Pepin, 2011; Dorais et al., 2011). For field-grown tomato in heavy
+clay, it was observed that subsurface irrigation with aerated water (12% air in
+water) stimulated above-ground growth, increased fruit yield by 21% and im-
+proved plant water use efficiency (Bhattarai et al., 2006).
+     Water management of organic tomato should also take into consideration
+the build-up of salinity and ion imbalances when unbalanced amendment and
+fertilizers are used. Over-irrigation to control soil salinity should be limited,
+to prevent nutrient emission into the environment. This is particularly chal-
+lenging for EU organic producers, as a zero emission target by 2027 has been
+established for greenhouse soil-grown crops to fulfil the water and nitrates
+framework directives (2000/60/EC; 91/676/EEC). Moreover, effluent ­recycling
+is difficult with soil-grown organic field or greenhouse tomato crops, because
+                                  Organic Tomato                               353
+
+
+collecting drains have to be installed with minimal soil disturbance and con-
+tamination from other agricultural or industrial activities nearby. Organic to-
+mato crop effluents can also be rich in organic matter, making the disinfection
+process to reuse this wastewater and limit pathogen propagation challenging.
+However, tailwater ponds designed to capture runoff and tailwater return sys-
+tems installed to recycle runoff back to the field seem to be successful man-
+agement practices for nutrient cycling on an organic tomato farm (Smukler
+et al., 2012). Such systems significantly reduce total discharge, ammonium
+and dissolved organic matter compared with fallow fields. Artificial wetlands
+are also being used to treat greenhouse effluents from organic tomato grown in
+demarcated beds (Gruyer et al., 2013a,b). Multiple technological approaches
+integrating biological processes (e.g. sand filter, wetland, passive bioreactor),
+membrane filtration, ozonation, ultraviolet (UV) treatment and thermal treat-
+ment may also be used to recycle effluents of organic tomato crops.
+
+
+PLANT PROTECTION
+
+The diseases and pests observed in conventional production (see Chapter 7) also
+occur in organic farming. Nevertheless, the improvements in soil fertility, or-
+ganic matter and polysaccharide content as well as the higher and more diverse
+microbial biomass in organic tomato systems reduce the incidence of diseases.
+The main challenge in organic production is therefore to optimize the manage-
+ment system in such a way that makes either the tomato plants healthier or the
+conditions for the pests less favourable. Possible options for optimizing the equi-
+librium of the agroecosystem as a whole are: (i) the application of agronomic
+practices (e.g. rotation, cover crop, manure, compost, biostimulants, climate
+management and nutrition control in greenhouses); (ii) the introduction of
+natural pests and microbes; (iii) the use of banker plants; and (iv) the applica-
+tion of habitat management and sanitary control. Only when this approach
+of indirect crop protection is insufficient do control measures come into play.
+These measures depend on the incidence itself, the environmental conditions
+and the permissibility of supplying a potential protectant. In addition, the con-
+trol measures should comply with the following rules: (i) must be necessary;
+(ii) should be organic; (iii) should not be harmful to the environment or human
+health; (iv) should have no negative effect on produce quality; and (v) should
+not meet resistance or opposition from consumers (Speiser et al., 2006).
+
+
+Control of fungal, bacterial and nematode pathogens
+
+Soil steaming and soil solarization are the most widely used techniques to re-
+duce soilborne diseases, though both techniques negatively affect microflora and
+fauna. Soil anaerobic disinfection and soil biofumigation in organic ­tomato crops
+354                            M. Dorais and D. Schwarz
+
+
+by means of Brassica green manure can be an efficient alternative tool (Gamliel
+and van Bruggen, 2016) as well as using Brassica break crops (e.g. kohlrabi, white
+mustard) (Giotis et al., 2009). The addition of fresh Brassica tissue or chitin, or
+both, to organic greenhouse soils infected by P. lycopersici, V. albo-atrum, or both,
+was found to increase fruit yield by reducing disease severity in tomato roots
+owing to the release of isothiocyanates or the induced resistance effects of chitin
+(Noble and Coventry, 2005). Intercropping organic tomato with companion spe-
+cies reduced diseases, but with different effects on yield and quality. For example,
+marigold (Tagetes erecta) was shown to reduce the incidence of early blight, A.
+solani (Gómez-Rodriguez et al., 2003) and intercropping with turfgrass as living
+mulch reduced leaf blight incidence (Xu et al., 2012). Essential oils and indi-
+vidual monoterpenoids from lavender (Lavandula stoechas), oregano (Origanum
+vulgare ssp. hirtum), sage (Salvia fruticosa) and spearmint (Mentha spicata) were
+found to prevent mycelial growth and conidial production of Aspergillus terreus,
+F. oxysporum, Penicillium expansum and V. dahliae (Woltz et al., 1992; Kadoglidou
+et al., 2011). A similar approach to reduce disease incidence is the application
+of suppressive soils or plant growth media (Castaño et al., 2011). Copper-based
+products are largely used in organic tomato production to control anthracnose,
+bacterial speck, bacterial spot, early and late blight, grey leaf mould, powdery
+mildew and septoria leaf spot, and elemental sulfur (S) is used to control powdery
+mildew and mites (Diver et al., 2012). However, growers should rely on alterna-
+tive control methods, because copper is toxic for non-targeted microorganisms
+and fauna (e.g. earthworms) and leads to soil and water contamination, in-
+creasing the risk of plant toxicity. Potassium bicarbonate is often used to prevent
+anthracnose, early blight, leaf blight, leaf spot and powdery mildew.
+
+
+Pest control
+
+Pest control is based mainly on frequent releases of natural predators and the use of
+natural repellents (e.g. garlic, onion, zinnia, marigold, nasturtium). Trap crops are
+effective by attracting different pests. For example, maize invites tomato fruitworm,
+whereas marigold is attractive to the fruit borer. Biopesticides such as pyrethrum are
+commonly used when pest populations reach economically damaging levels (Diver
+et al., 2012). Microbial insecticides such as B. thuringiensis may control several pests
+at their immature stage. Also potentially helpful are biocontrol agents, including
+the nuclear polyhedrosis virus, used against the fruit borer, and Trichoderma
+strains successfully used as an egg parasitoid against several Lepidoptera pests.
+
+
+Weed control
+
+Weed control, particularly within crop rows, is one of the main problems in or-
+ganic tomato cultivation. Few efficient weed control products are available for
+                                 Organic Tomato                               355
+
+
+use. Thus, exclusively physical control methods provide ‘instantaneous’ weed
+control (Raffaelli et al., 2011). However, physical control requires on average
+50% higher labour inputs than conventional weed control. Other strategies are
+cover crops and mulches, such as natural materials, paper and plastic, but they
+may increase soil moisture and N content, delaying tomato fruit ripening. Soil
+solarization in greenhouse tomato acts as a prophylactic method. It may kill
+most of the weed seeds and induce dormancy in the remaining seeds, resulting
+in higher crop yields.
+
+
+HEALTH AND NUTRITIVE COMPOUNDS
+
+The increasing consumer demand for organic products is mainly due to health
+and safety values over pesticide residues, antibiotics and genetically modified
+organisms in foods. Beyond the fact that the health benefits of organic foods
+are controversial, organic tomatoes have lower pesticide residues than conven-
+tional fruit (Dorais and Alsanius, 2015). Consequently, the pesticide risks posed
+by organically grown tomatoes are substantially smaller than those posed by
+tomatoes from other sources. However, risk assessments of natural pesticides
+remain to be scientifically attested. Furthermore, there is no evidence that or-
+ganic tomatoes are more susceptible to microbiological contamination than
+conventional horticultural products if appropriate farm management prac-
+tices are used.
+     Besides consumer perception, direct evidence showing that organic toma-
+toes have a higher nutritional value than conventionally grown fruits still has
+to be scientifically attested. Nonetheless, organic tomatoes have lower nitrate
+content and higher levels of vitamin C and phenolic compounds as compared
+with conventionally grown ones (Table 11.5). When tomato plants are grown
+under an organic regime, their natural defence mechanisms may be more
+active than those of conventional plants, resulting in higher defence-related
+secondary metabolites, which can often be considered beneficial for human
+health (Vallverdú-Queralt et al., 2012; Orsini et al., 2016). In fact, it has been
+shown that organic tomato experiencing oxidative stress has higher vitamin C
+and phenolic compounds (Oliveira et al., 2013; López-Martinez et al., 2016).
+Stresses related to reduced foliage development and higher fruit exposure to
+ambient light may also increase the vitamin C content of organically grown to-
+matoes. Because the flavonoid content in tomatoes is inversely related to avail-
+able N, reduced N supply for organic tomato may enhance the flavonoid level
+compared with conventional tomato (Mitchell et al., 2007). For carotenoids in-
+cluding β-carotene and lycopene, no consensus between differences of organic
+and conventional grown tomatoes has be made (Dorais et al., 2008; Dorais and
+Alsanius, 2015). Given that Cu and Zn are common constituents of animal
+feed supplements, manure applications as an important source of nutrients
+provide additional Cu and Zn, resulting in a higher plant uptake. The use of
+Table 11.5. Differences in the nutritional value of tomatoes grown under organic and conventional practices and their ratio (organic   356
+to conventional). Only compound values that were significantly different were reported.
+
+                                                                                               Sampling
+Compounds (unitsa)       Cultivars              Units               Organicb      Org:conv      periodc References
+
+Soluble solids           Mean of 10 cvs         °Brix                  4.4          0.956        2y      Aldrich et al., 2010
+Soluble solids           Firenze, HyPeel 108    °Brix              4.58–5.27     0.867–1.114     1y      Riahi et al., 2009
+Soluble solids           AB2                    °Brix              5.05–6.66     1.002–1.273     2y      Pieper and Barrett, 2009
+Soluble solids           HM 830, Bos 315        °Brix              5.39–5.96     1.072–1.157     1y      Barrett et al., 2007
+Soluble solids           Ropreco, Burbank       °Brix              5.4–5.5±0.5   1.102–1.170     3y      Chassy et al., 2006
+Soluble solids           Sahel                  °Brix                5.5±0.5         1.28        1y      Lopez-Martinez et al., 2016
+
+
+
+
+                                                                                                                                       M. Dorais and D. Schwarz
+Soluble solids           Licata, CH2000,        °Brix                5.2±0.3         0.97        3 exp   De Pascale et al., 2016
+                            Sansone
+Total solids             AB2                    %                  5.65–6.93 1.014–1.262         2y      Pieper and Barrett, 2009
+Titratable acidity       Firenze, Perfectpeel   %                  0.33–0.46 1.138–1.278         1y      Riahi et al., 2009
+Titratable acidity       HM 830, Bos 315        %                  0.25–0.37 1.190–1.193         1y      Barrett et al., 2007
+Titratable acidity       Licata, CH2000,        % DM                  6.3        0.75            3 exp   De Pascale et al., 2016
+                            Sansone
+Crude protein            PS1296                 g/kg FW               14.9           1.419       1y      Rossi et al., 2008
+Glutamic acid            AB2                    g/kg DW            14.3–36.7     0.709–0.991     2y      Pieper and Barrett, 2009
+Glutamine                AB2                    g/kg DW            10.4–49.8     0.336–0.922     2y      Pieper and Barrett, 2009
+Tyrosine                 AB2                    g/kg DW            0.22–0.54      0.426–0.96     2y      Pieper and Barrett, 2009
+Ash                      PS1296                 g/kg FW               0.65           1.326       1y      Rossi et al., 2008
+Nitrate                  Plato de Egipto        % increase              –            0.667       5y      Herencia et al., 2011
+NH4‑N                    AB2                    mg/kg DW            104–126      0.456–0.727     2y      Pieper and Barrett, 2009
+Total N                  AB2                    % DW                  2.30           0.830       2y      Pieper and Barrett, 2009
+Total N                  Brigade                g/kg DW              ~20.0           0.717       2y      Colla et al., 2002
+P                        Brigade                g/kg DW            ~3.88–4.02    1.165–1.589     2y      Colla et al., 2002
+P                        AB2                    % DW                  0.45           1.184       2y      Pieper and Barret, 2009
+K                      AB2                 % DW             4.00      1.149       2y    Pieper and Barrett, 2009
+Na                     Brigade             g/kg DW         ~347       0.529       2y    Colla et al., 2002
+Ca                     Many varieties      mg/kg DW        2126       2.070       2y    Kelly and Bateman, 2010
+Ca                     AB2                 % DW             0.13      0.929       2y    Pieper and Barrett, 2009
+Zn                     Many varieties      mg/kg DW         ~32       1.231       2y    Kelly and Bateman, 2010
+Mn                     Many varieties      mg/kg DW          11       0.611       2y    Kelly and Bateman, 2010
+Mn                     AB2                 mg/kg DW        11–15   0.647–0.652    2y    Pieper and Barrett, 2009
+Cu                     Many varieties      mg/kg DW          ~8       1.333       2y    Kelly and Bateman, 2010
+B                      AB2                 mg/kg DW          17       0.895       2y    Pieper and Barrett, 2009
+Cd                     PS1296              μg/kg FW         33.0      16.50       1y    Rossi et al., 2008
+Pb                     PS1296              μg/kg FW         37.8      11.12       1y    Rossi et al., 2008
+Ascorbic acid          Mean of 10 cvs      g/kg FW         0.198      1.070       2y    Aldrich et al., 2010
+Ascorbic acid          PS1296              mg/kg FW        118.2      0.552       1y    Rossi et al., 2008
+
+
+
+                                                                                                                         Organic Tomato
+Ascorbic acid          Burbank             mg/100 g FW      22.1      1.263       3y    Chassy et al., 2006
+Ascorbic acid          Izabella, Félicia   mg/100 g FW   16.2–17.5 1.326–1.687    1y    Caris-Veyrat et al., 2004
+Dehydro-ascorbic ac.   Rogers 1570, HM     μg/g FW       2448–1587 0.74–1.394     1y    Barrett et al., 2007
+                         830, Bos 315,
+                         HyPeel 45
+Salicylic acid         PS1296              mg/kg FW        0.745      1.613       1y    Rossi et al., 2008
+Caffeic acid           Daniella            μg/g FW         41.70      1.822       2y    Vallverdú-Queralt et al., 2012
+Chlorogenic acid       Daniella            μg/g FW         56.99      1.546       2y    Vallverdú-Queralt et al., 2012
+Ferulic acid           Daniella            μg/g FW         35.11      1.619       2y    Vallverdú-Queralt et al., 2012
+p-coumaric acid        Daniella            μg/g FW         34.25      1.663       2y    Vallverdú-Queralt et al., 2012
+Chlorogenic acid       Félicia, Paola      mg/100 g FW   0.55–0.65 0.859–1.354    1y    Caris-Veyrat et al., 2004
+Apigenin-7-O-glucoside Daniella            μg/g FW         31.63      1.118       2y    Vallverdú-Queralt et al., 2012
+Naringenin             Izabella, Félicia   mg/100 g FW   0.09–0.10 1.125–1.250    1y    Caris-Veyrat et al., 2004
+Naringenin             Halley 3155         mg/g DW          39.6      1.311      10 y   Mitchell et al., 2007
+Naringenin             Daniella            μg/g FW         87.38      2.397       2y    Vallverdú-Queralt et al., 2012
+
+                                                                                                           Continued     357
+Table 11.5.    Continued.
+                                                                                                                                                 358
+                                                                                                      Sampling
+Compounds (unitsa)          Cultivars                Units                   Organicb    Org:conv      periodc References
+
+Naringenin-7-O              Daniella                 μg/g FW                   13.91      1.811         2y      Vallverdú-Queralt et al., 2012
+  glucoside
+Kaempferol                  Halley 3155              mg/g DW                   63.3        1.974       10 y     Mitchell et al., 2007
+Kaempferol                  Ropreco, Burbank         mg/100 g FW            1.47–1.58   1.17–1.195      3y      Chassy et al., 2006
+Kaempferol-3-O-             Daniella                 μg/g FW                  12.70        2.106        2y      Vallverdú-Queralt et al., 2012
+  rutinoside
+Quercetin                   Daniella                 μg/g FW                  11.42        2.007        2y      Vallverdú-Queralt et al., 2012
+
+
+
+
+                                                                                                                                                 M. Dorais and D. Schwarz
+Quercetin                   Halley 3155              mg/g DW                  115.5        1.788       10 y     Mitchell et al., 2007
+Quercetin                   Burbank                  mg/100 g FW               3.42        1.295        3y      Chassy et al., 2006
+Rutin                       Daniella                 μg/g FW                 272.75        2.276        2y      Vallverdú-Queralt et al., 2012
+Rutin                       Paola, Félicia,          mg/100 g FW            0.14–0.22    1.20–5.50      1y      Caris-Veyrat et al., 2004
+                              Izabella
+Total phenolics             Sahel                    mg/100 g FW               14.45      1.086         1y      Lopez-Martinez et al., 2016
+Carotenoids                 Licata, CH2000,          mg/100 g FW               7.85        1.16         2 exp   De Pascale et al., 2016
+                              Sansone
+Lycopene                    PS1296                   mg/100 g FW              3.6–4.2   0.760–1.125     1y      Rossi et al., 2008
+Lycopene                    Paola, Félicia,          mg/100 g FW                           1.105        1y      Caris-Veyrat et al., 2004
+                              Izabella
+Lycopene                    Sahel                    mg/100 g FW            4.37±0.30    0.897          1y      Lopez-Martinez et al., 2016
+β-carotene                  Paola, Félicia,          mg/100 g FW            1.03–1.35 1.198–1.626       1y      Caris-Veyrat et al., 2004
+                              Izabella
+Antioxidant activity        Mean of 10 cvs           μmol TEAC/kg FW           1870       1.078         2y      Aldrich et al., 2010
+Antioxidant activity        Sahel                    μmol TEAC/kg FW           1437       1.026         1y      Lopez-Martinez et al., 2016
+a
+  FW, fresh weight; DW, dry weight; TEAC, Trolox equivalent antioxidant capacity.
+b
+  ~: values estimated from published figures.
+c
+  exp: experiments; y: year(s).
+                                  Organic Tomato                               359
+
+
+Bordeaux mixture (copper sulfate and lime solution) to help to control fungal
+and bacterial diseases also provides additional Cu.
+
+
+ENVIRONMENTAL IMPACT OF ORGANIC FARMING
+
+The environmental benefits of organic farming have been documented most
+clearly for biodiversity and for water and soil conservation. In general, organic
+systems enhance floral and faunal diversity and overall microbial activity, and
+have a high erosion control potential via soil fertility management. Organic
+farming can also reduce soil CO2 emissions and increase C sequestration com-
+pared with conventional cropping systems. C sequestration content of soil or-
+ganic C in an organic system generally exceeds that in a conventional system
+through successive cropping years. In Europe, organic farming practices have
+positive impacts on the environment as shown by higher soil organic matter
+content, lower nutrient losses (N leaching, N2O and NH3 emissions) per unit
+of cultivated area compared with conventional farming, and lower energy re-
+quirements. However, due to a lower yield per cultivated area, higher N losses
+have been observed per product unit (Tuomisto et al., 2012). On the other hand,
+the CO2 footprint of an organic greenhouse tomato grown in The Netherlands
+was 10% higher than that of a conventional crop (1950 kg CO2 eq/t versus
+1775 kg CO2 eq/t tomatoes), assuming that the gas requirement to heat the
+greenhouse is responsible for 85% of the total CO2 emissions (Vermeulen and
+van der Lans, 2011). However, when combined heat and power is used (cogen-
+eration), the organic and conventional tomato crops have an equal CO2 foot-
+print of 890 kg CO2 eq/t tomatoes. Under the growing conditions in Quebec,
+Canada, climate control was responsible for 81–96% of the total CO2 footprint
+per tonne of tomatoes (Dorais et al., 2014). Organic greenhouse tomato sys-
+tems use more energy than conventional production systems in northern re-
+gions (e.g. 33 GJ/t versus 26.3 GJ/t in northern central Europe; cumulative
+energy demand of 97 GJ/t versus 80 GJ/t in Quebec) owing to a lower yield
+per unit of cultivated area as well as to strict climate control to prevent disease
+(Vermeulen and van der Lans, 2011; Dorais et al., 2014).
+
+
+CONCLUSIONS
+
+High production risks related to limited effective tools for pest, disease and
+weed management still constitute a major barrier for the expansion of organic
+farming. Therefore, new biological control agents, biopesticides and cultural
+practices increasing plant resilience to biotic and abiotic stresses as well as a
+balanced nutrient supply following plant demands without any leaching or
+emission into the environment have to be used and optimized to make organic
+tomato production competitive. More research is needed on the nutritive value
+360                             M. Dorais and D. Schwarz
+
+
+of organic tomato, though lower pesticide residues compared with convention-
+ally grown tomatoes is clear. The enhancement of microbial, floral and faunal
+diversity as a result of the use of different types of organic amendments also
+needs further verification and publication.
+
+
+REFERENCES
+Aldrich, H.T., Salandanan, K., Kendall, P., Bunning, M., Stonaker, F., Külen, O. and
+     Stushnoff, C. (2010) Cultivar choice provides options for local production of or-
+     ganic and conventionally produced tomatoes with higher quality and antioxi-
+     dant content. Journal of the Science of Food and Agriculture 90, 2548–2555. doi:
+     10.1002/jsfa.4116.
+Anonymous (2013) Platform duurzame glastuinbouw. Available at: http://edepot.wur.
+     nl/283877 (accessed 14 May 2018).
+Bakker, J.C. (2011) New technologies developed for conventional growing systems:
+     ­possibilities for application in organic systems. Acta Horticulturae 915, 47–54. doi:
+      10.17660/actahortic.2011.915.5.
+Barrett, D.M., Weakley, C., Diaz, J.V. and Watnik, M. (2007) Qualitative and nutri-
+      tional differences in processing tomatoes grown under commercial organic and
+      conventional production systems. Journal of Food Science 72, C441–C451. doi:
+      10.1111/j.1750-3841.2007.00500.x.
+Bhattarai, S.P., Pendergast, L. and Midmore, D.J. (2006) Root aeration improves yield
+      and water use efficiency of tomato in heavy clay and saline soils. Scientia
+      Horticulturae 108, 278–288. doi: 10.1016/j.scienta.2006.02.011.
+Campanelli, G. and Canali, S. (2012) Crop production and environmental effects in con-
+      ventional and organic vegetable farming systems: the case of a long-term experi-
+      ment in Mediterranean conditions (central Italy). Journal of Sustainable Agriculture
+      36, 599–619. doi: 10.1080/10440046.2011.646351.
+Campiglia, E., Mancinelli, R. and Radicetti, E. (2011) Influence of no-tillage and organic
+      mulching on tomato (Solanum lycopersicum L.) production and nitrogen use in the
+      Mediterranean environment of central Italy. Scientia Horticulturae 130, 588–598.
+      doi: 10.1016/j.scienta.2011.08.012.
+Caris-Veyrat, C., Amiot, M.J., Tyssandier, V., Grasselly, D., Buret, M. et al. (2004)
+      Influence of organic versus conventional agricultural practice on the antioxidant
+      microconstituent content of tomatoes and derived purees; consequences on anti-
+      oxidant plasma status in humans. Journal of Agricultural and Food Chemistry 52,
+      6503–6509. doi: 10.1021/jf0346861.
+Castaño, R., Borrero, C. and Avilés, M. (2011) Organic matter fractions by SP-MAS
+      13
+        C NMR and microbial communities involved in the suppression of Fusarium
+     wilt in organic growth media. Biological Control 58, 286–293. doi: 10.1016/j.
+     biocontrol.2011.05.011.
+Chassy, A.W., Bui, L., Renaud, E.N., Van Horn, M. and Mitchell, A.E. (2006) A three-
+     year comparison of the content of antioxidant microconstituents and several
+     quality characteristics in organic and conventionally managed tomatoes and bell
+     peppers. Journal of Agricultural and Food Chemistry 54, 8244–8252. doi: 10.1021/
+     jf060950p.
+                                      Organic Tomato                                    361
+
+
+Chellemi, D.O., Wu, T., Graham, J.H. and Church, G. (2012) Biological impact of di-
+     vergent land management practices on tomato crop health. Phytopathology 102,
+     597–608. doi: 10.1094/phyto-08-11-0219.
+Chitwood, D.J. (2002) Phytochemical based strategies for nematode control. Annual
+     Review of Phytopathology 40, 221–249. doi: 10.1146/annurev.phyto.40.032602.
+     130045.
+Clark, A. (ed.) (2007) Managing Cover Crops Profitably. 3rd edn. Sustainable Agriculture
+     and Education Handbook series book 9. SARE Outreach (Sustainable Agri­­culture
+     Research & Education), Sustainable Agriculture Network, Beltsville, Maryland.
+     Available at: http://www.sare.org/Learning-Center/Books/Managing-Cover-Crops-
+     Profitably-3rd-Edition (accessed 9 November 2014).
+Clark, M.S., Horwath, W.R., Shennan, C., Scow, K.M., Lantni, W.T. and Ferris, H. (1999)
+     Nitrogen, weeds and water as yield-limiting factors in conventional, low-input, and
+     organic tomato systems. Agriculture, Ecosystems and Environment 73, 257–270.
+     doi: 10.1016/s0167-8809(99)00057-2.
+Colla, G., Mitchell, J.P., Poudel, D.D. and Temple, S.R. (2002) Changes of tomato
+     yield and fruit elemental composition in conventional, low input, and ­organic
+     systems. Journal of Sustainable Agriculture 20 (2), 53–67. doi: 10.1300/
+     j064v20n02_07.
+de Bon, H., Langlais, C., To, H.T.T., Buy, T.K., Nguyen, M.T., Nguyen, T.T.H. and
+     Moustier, P. (2012) Horticultural organic production in Northern Vietnam: tech-
+     nical or economic questions? Acta Horticulturae 933, 641–644. doi: 10.17660/
+     actahortic.2012.933.84.
+Delate, K., Cwach, D. and Chase, C. (2012) Organic no-tillage system effects on soy-
+     bean, corn and irrigated tomato production and economic performance in
+     Iowa, USA. Renewable Agriculture and Food Systems 27, 49–59. doi: 10.1017/
+     s1742170511000524.
+De Pascale, S., Maggio, A., Orsini, F. and Barbieri, G. (2016) Cultivar, soil type, nitrogen
+     source and irrigation regime as quality determinants of organically grown toma-
+     toes. Scientia Horticulturae 199, 88–94. doi: 10.1016/j.scienta.2015.12.037.
+Diver, S., Kuepper, G., Born, H., Hinman, T., Baier, A. and Riesselman, L. (2012) Organic
+     tomato production. ATTRA – National Sustainable Agriculture Information Service,
+     Rural Business – Cooperative Service, United States Department of Agriculture.
+     Available at: attra.ncat.org/attra-pub/summaries/summary.php?pub=33 (accessed
+     19 March 2017).
+Dorais, M. and Alsanius, B.W. (2015). Advances and trends in organic fruit and vege-
+     table farming research. Horticultural Reviews 43, 185–267. doi: 10.1002/
+     9781119107781.ch04.
+Dorais, M. and Cull, A. (2017) Organic protected horticulture in the world. Acta
+     Horticulturae 1164, 922. doi: 10.17660/ActaHortic.2017.1164.2.
+Dorais, M. and Pepin, S. (2011) Soil oxygenation effects on growth, yield and nutri-
+     tion of organic greenhouse tomato crops. Acta Horticulturae 915, 91–99. doi:
+     10.17660/actahortic.2011.915.11.
+Dorais, M., Ehret, D.L. and Papadopoulos, A.P. (2008) Tomato (Solanum lycopersicum)
+     health components: from the seed to the consumer. Phytochemistry Reviews 7,
+     231–250. doi: 10.1007/s11101-007-9085-x.
+Dorais, M., Jean-Paul, C., Gravel, V., Rochette, P., Antoun, H. and Ménard, C. (2011) Oxygen
+     enrichment for organic greenhouse crops. Proceedings of the 17th IFOAM Organic
+362                              M. Dorais and D. Schwarz
+
+
+     is Life 1, 410–413. Available at: http://isofar.org/isofar/images/conferences/
+     Proceedings/ISOFAR_Proceedings_2011_Namyangju_KOR_V1.pdf.
+Dorais, M., Antón, A., Montero, J.I. and Torrellas, M. (2014). Environmental impact of
+     soil and demarcated bed grown organic greenhouse tomatoes. Acta Horticulturae
+     1041, 291–298. doi: 10.17660/actahortic.2014.1041.35.
+Dorais, M., Alsanius, B.W., Voogt, W., Pépin, S., Tüzel, H., Tüzel, Y. and Möller, K. (2016)
+     Impact of water quality and irrigation management on organic greenhouse horti-
+     culture. BioGreenhouse COST Action FA 1105 (www.biogreenhouse.org). doi:
+     10.18174/373585.
+Eggert, F.M. (1983) Effect of soil management practices on yield and foliar nu-
+     trient concentration of dry beans, carrots, and tomatoes. In: Lockeretz, W. (ed.)
+     Environmentally Sound Agriculture. Praeger, New York, pp. 247–259.
+Fernández, V. and Eichert, T. (2009) Uptake of hydrophilic solutes through plant leaves:
+     current state of knowledge and perspectives of foliar fertilization. Critical Reviews
+     in Plant Sciences 28, 36–68. doi: 10.1080/07352680902743069.
+Gamliel, A. and van Bruggen, A.H.C. (2016) Maintaining soil health for crop produc-
+     tion in organic greenhouses. Scientia Horticulturae 208, 120–130. doi: 10.1016/j.
+     scienta.2015.12.030.
+Giotis, C., Markelou, E., Theodoropoulou, A., Toufexi, E., Hodson, R. et al. (2009) Effect
+     of soil amendments and biological control agents (BCAs) on soil-borne root dis-
+     eases caused by Pyrenochaeta lycopersici and Verticillium albo-atrum in organic
+     greenhouse tomato production systems. European Journal of Plant Pathology 123,
+     387–400. doi: 10.1007/s10658-008-9376-0.
+Gómez-Rodríguez, O., Zavaleta-Mejía, E., González-Hernández, V.A., Livera-Muňoz, M.
+     and Cárdenas-Soriano, E. (2003) Allelopathy and microclimatic modification of
+     intercropping with marigold on tomato early blight disease development. Field
+     Crops Research 83, 27–34. doi: 10.1016/s0378-4290(03)00053-4.
+Granatstein, D., Kirby, E. and Willer, H. (2010) Organic horticulture expands globally.
+     Chronica Horticulturae 50, 31–38.
+Gravel, V., Blok, W., Hallman, E., Carmona-Torres, C., Wang, H. et al. (2010) Differences
+     in N uptake and fruit quality between organically and conventionally grown green-
+     house tomatoes. Agronomy for Sustainable Development 30, 797–806. doi: 10.1051/
+     agro/2010025.
+Gravel, V., Ménard, C. and Dorais, M. (2011a) Organic greenhouse tomato production
+     in raised bed containers: a two-year study. Acta Horticulturae 915, 69–74. doi:
+     10.17660/actahortic.2011.915.8.
+Gravel, V., Ménard, C., Dorais, M. and Pepin, S. (2011b) Greenhouse tomato plant devel-
+     opment under organic growing conditions: a case study of six organic soils. Acta
+     Horticulturae 915, 83–89. doi: 10.17660/actahortic.2011.915.10.
+Gravel, V., Dorais, M., Dey, D. and Vandenberg, G. (2014) Suppressiveness of fish effluents
+     against two greenhouse tomato pathogens: Pythium ultimum and Fusarium oxysporum.
+     Canadian Journal of Plant Science 95, 427–436. doi: 10.4141/cjps-2014-315.
+Gruyer, N., Dorais, M., Alsanius, B.W. and Zagury, G.J. (2013a) Simultaneous removal
+     of nitrate and sulphate from greenhouse effluent by artificial wetlands. Journal of
+     Environmental Quality 42, 1256–1266. doi: 10.2134/jeq2012.0306.
+Gruyer, N., Dorais, M., Zagury, G.J. and Alsanius, B.W. (2013b) Removal of plant patho-
+     gens from recycled greenhouse effluent using artificial wetlands. Agricultural Water
+     Management 117, 153–158. doi: 10.1016/j.agwat.2012.11.009.
+                                      Organic Tomato                                    363
+
+
+Hartz, T.K. and Johnstone, P.R. (2006) Nitrogen availability from high-nitrogen-
+     containing organic fertilizers. HortTechnology 16, 39–42.
+Hasna, M.K., Martensson, A., Persson, P. and Rämert, B. (2007) Use of composts to
+     manage corky root disease in organic tomato production. Annals of Applied Biology
+     151, 381–390. doi: 10.1111/j.1744-7348.2007.00178.x.
+Herencia, J.F., Garcia-Galavís, P.A., Dorado, J.A.R. and Maqueda, C. (2011)
+     Comparison of nutritional quality of the crops grown in an organic and con-
+     ventional fertilized soil. Scientia Horticulturae 129, 882–888. doi: 10.1016/j.
+     scienta.2011.04.008.
+Jack, A.L.H., Rangarajan, A., Culman, S.W., Sooksa-Nguan, T. and Thies, J.E. (2011)
+     Choice of organic amendments in tomato transplants has lasting effects on bac-
+     terial rhizosphere communities and crop performance in the field. Applied Soil
+     Ecology 48, 94–101. doi: 10.1016/j.apsoil.2011.01.003.
+Janssen, B.H. (2011) Simple models and concepts as tools for the study of sustained
+     soil productivity in long-term experiments. II. Crop nutrient equivalents, balanced
+     supplies of available nutrients, and NPK triangles. Plant and Soil 339, 17–33. doi:
+     10.1007/s11104-010-0590-0.
+Kadoglidou, K., Lagopodi, A., Karamanoli, K., Vokou, D., Bardas, G.A., Menexes, G.
+     and Constantinidou, H.-I.A. (2011) Inhibitory and stimulatory effects of essential
+     oils and individual monoterpenoids on growth and sporulation of four soil-borne
+     fungal isolates of Aspergillus terreus, Fusarium oxysporum, Penicillium expansum,
+     and Verticillium dahliae. European Journal of Plant Pathology 130, 297–309. doi:
+     10.1007/s10658-011-9754-x.
+Kaiser, C. and Ernst, M. (2011) Organic tomatoes. University of Kentucky Cooperative
+     Extension Service, Lexington, Kentucky. Available at: http://www.uky.edu/ccd/
+     sites/www.uky.edu.ccd/files/organictomatoes.pdf (accessed 14 June 2018).
+Kasselaki, A.-M., Malathrakis, N.E., Goumas, D.E, Cooper, J.M. and Leifert, C. (2008)
+     Effect of alternative treatments on seed-borne Didymella lycopersici in tomato. Journal
+     of Applied Microbiology 105, 36–41. doi: 10.1111/j.1365-2672.2007.03715.x.
+Kasselaki, A.-M., Goumas, D., Tamm, L., Fuchs, J., Cooper, J. and Leifert, C. (2011) Effect
+     of alternative strategies for the disinfection of tomato seed infected with bacterial
+     canker (Clavibacter michiganensis subsp. michiganensis). NJAS – Wageningen Journal
+     of Life Sciences 58, 145–147. doi: 10.1016/j.njas.2011.07.001.
+Kelly, S.D. and Bateman, A.S. (2010) Comparison of mineral concentrations in com-
+     mercially grown organic and conventional crops – tomatoes (Lycopersicon esculen-
+     tum) and lettuces (Lactuca sativa). Food Chemistry 119, 738–745. doi: 10.1016/j.
+     foodchem.2009.07.022.
+Kleinhenz, M.D. (2015) Description of Commercial Tomato Rootstocks as of February 5, 2015.
+     USDA. Available at: http://www.vegetablegrafting.org/wp/wp-content/­uploads/
+     2015/02/usda-scri-tomato-rootstock-table-feb-15.pdf (accessed 30 March 2017).
+Koller, M., Alföldi, T., Siegrist, M. and Weibel, F. (2004) A comparison of plant and
+     animal based fertiliser for the production of organic vegetable transplants. Acta
+     Horticulturae 631, 209–215. doi: 10.17660/actahortic.2004.631.27.
+Lemay, I., Caron, J., Dorais, M. and Pepin, S. (2012) Defining irrigation set points based
+     on substrate properties for variable irrigation and constant matric potential ­devices
+     in greenhouse tomato. HortScience 47, 1141–1152.
+López-Martinez, J.D., Vásquez-Diaz, D.A., Esparza-Rivera, J.R., Gardía-Hernández, J.I.,
+     Castruita-Segura, M.A. and Preciado-Rangel, P. (2016) Yield and nutraceutical
+364                              M. Dorais and D. Schwarz
+
+
+     quality of tomato fruit produced with nutrient solutions prepared using organic
+     materials. Revista Fitotecnica Mexicana 39(4), 409–414.
+Madden, N.M., Mitchell, J.P., Lanini, W.T., Cahn, M.D., Herrero, E.V. et al. (2004)
+     Evaluation of conservation tillage and cover crop systems for organic processing
+     tomato production. HortTechnology 14, 243–250.
+Maynard, A.A. (1995) Cumulative effect of annual additions of MSW compost on
+     the yield of field-grown tomatoes. Compost Science and Utilization 3, 47–54. doi:
+     10.1080/1065657x.1995.10701781.
+Mitchell, A.E., Hong, Y.-J., Koh, E., Barrett, D.M., Bryant, D.E., Ford Denison, R. and
+     Kaffka, S. (2007) Ten-year comparison of the influence of organic and conven-
+     tional crop management practices on the content of flavonoids in tomatoes. Journal
+     of Agricultural and Food Chemistry 55, 6154–6159. doi: 10.1021/jf070344+.
+Noble, R. and Coventry, E. (2005) Suppression of soil-borne plant diseases
+     with composts: a review. Biocontrol Science and Technology 15, 3–20. doi:
+     10.1080/09583150400015904.
+Oliveira, A.B., Moura, C.F.H., Gomes-Filho, E., Marco, C.A., Urban, L. and Miranda,
+     M.R.A. (2013) The impact of organic farming on quality of tomatoes is associ-
+     ated to increased oxidative stress during fruit development. PLoS One 8, 1–6. doi:
+     10.1371/journal.pone.0056354.
+Orsini, F., Maggio, A., Rouphael,Y. and De Pascale, S. (2016) ‘Physiological quality’ of
+     organically grown vegetables. Scientia Horticulturae 208, 131–139. doi: 10.1016/j.
+     scienta.2016.01.033.
+Papadopoulos, A.P., Madhiyazhagan, R., Hao, X., Khosla, S., Ehret, D.L. and Lin, W.C.
+     (2011) Integrated systems for the production of organic greenhouse tomatoes.
+     Acta Horticulturae 893, 1201–1208. doi: 10.17660/actahortic.2011.893.140.
+Partey, S.T., Quashie-Sam, S.J., Thevathasan, N.V. and Gordon, A.M. (2011)
+     Decomposition and nutrient release patterns of the leaf biomass of the wild sun-
+     flower (Tithonia diversifolia): a comparative study with four leguminous agroforestry
+     species. Agroforestry Systems 81, 123–134. doi: 10.1007/s10457-010-9360-5.
+Pepin, S., Dorais, M., Gruyer, N. and Ménard, C. (2008) Changes in mineral content and
+     CO2 release from organic greenhouse soils incubated under two different temper-
+     atures and moisture conditions (poster). In: Cultivating the Future Based on Science,
+     Vol. 1, Organic Crop Production, Proceedings of the 2nd Scientific Conference of the
+     International Society of Organic Agriculture Research. ISOFAR, Cheonan, Republic of
+     Korea, pp. 648–651.
+Pieper, J.R. and Barrett, D.M. (2009) Effects of organic and conventional production
+     systems on quality and nutritional parameters of processing tomatoes. Journal of
+     the Science of Food and Agriculture 89, 177–194. doi: 10.1002/jsfa.3437.
+Poudel, D.D., Horwath, W.R., Lanini, W.T., Temple, S.R. and van Bruggen, A.H.C.
+     (2002) Comparison of soil N availability and leaching potential, crop yields
+     and weeds in organic, low-input and conventional farming systems in northern
+     California. Agriculture, Ecosystems and Environment 90, 125–137. doi: 10.1016/
+     s0167-8809(01)00196-7.
+Raffaelli, M., Fontanelli, M., Frasconi, C., Sorelli, F., Ginanni, M. and Peruzzi, A. (2011)
+     Physical weed control in processing tomatoes in Central Italy. Renewable Agriculture
+     and Food Systems 26, 95–103. doi: 10.1017/s1742170510000578.
+Raviv, M., Oka, Y., Katan, J., Hadar, Y., Yogev, A. et al. (2005) High-nitrogen compost as a
+     medium for organic container-grown crops. Bioresource Technology 96, 419–427.
+     doi: 10.1016/j.biortech.2004.06.001.
+                                      Organic Tomato                                    365
+
+
+Reeve, J. and Drost, D. (2012) Yields and soil quality under transitional organic high
+     tunnel tomatoes. HortScience 47, 38–44.
+Riahi, A., Hdider, C., Sanaa, M., Tarchoun, N., Ben Kheder, M. and Guezal, I. (2009)
+     Effect of conventional and organic production systems on the yield and quality of
+     field tomato cultivars grown in Tunisia. Journal of the Science of Food and Agriculture
+     89, 2275–2282. doi: 10.1002/jsfa.3720.
+Rippy, J.F.M., Peet, M.M., Louws, F.J., Nelson, P.V., Orr, D.B. and Sorensen, K.A. (2004)
+     Plant development and harvest yields of greenhouse tomatoes in six organic
+     growing systems. HortScience 39, 223–229.
+Rossi, F., Godani, F., Bertuzzi, T., Trevisan, M., Ferrari, F. and Gatti, S. (2008) Health-
+     promoting substances and heavy metal content in tomatoes grown with different
+     farming techniques. European Journal of Nutrition 47, 266–272. doi: 10.1007/
+     s00394-008-0721-z.
+Sangha, J.S., Kelloway, S., Critchley, A.T. and Prithiviraj, B. (2014) Seaweeds
+     (Macroalgae) and their extracts as contributors plant productivity and quality: the
+     current status of our understanding. Advances in Botanical Research 71, 189–219.
+     doi: 10.1016/b978-0-12-408062-1.00007-x.
+Schmutz, U., Sumption, P. and Lennartsson, M. (2011) Economics of UK organic protected
+     cropping. Acta Horticulturae 915, 39–46. doi: 10.17660/actahortic.2011.915.4.
+Schonbeck, M., Damian, K., Dawling, P. and Maloney, C. (2006) Tomatoes: Organic
+     Production in Virginia. VABF information sheet No. 5-06. Virginia Association for
+     Biological Farming, Richmond, Virginia. Available at: http://vabf.org/wp-content/
+     uploads/2012/03/tomatoes.pdf (accessed 14 June 2018).
+Schwarz, D., Colla, G., Rouphael, Y. and Venema, J.H. (2010) Grafting as a tool to im-
+     prove tolerance of vegetables to abiotic stresses: thermal stress, water stress and
+     organic pollutants. Scientia Horticulturae 127(2), 162–171. doi: 10.1016/j.
+     scienta.2010.09.016.
+Skal Biocontrole (2010) About Skal. Zwolle, The Netherlands. Available at: www.skal.
+     nl/home-en-gb/about-skal (accessed 19 March 2017).
+Smukler, S.M., O’Geen, A.T. and Jackson, L.E. (2012) Assessment of best management
+     practices for nutrient cycling: a case study on an organic farm in a Mediterranean-
+     type climate. Journal of Soil and Water Conservation 67, 16–31. doi: 10.2489/
+     jswc.67.1.16.
+Speiser, B., Wyss, E. and Maurer, V. (2006) Biological control in organic production:
+     first choice or last option? In: Eilenberg, J. and Hokkanen, H.M.T. (eds) An Ecological
+     and Societal Approach to Biological Control. Springer, Dordrecht, The Netherlands,
+     pp. 27–46. doi: 10.1007/1-4020-4401-1_3.
+Sullivan, P. (2003) Overview of cover crops and green manures. ATTRA – National
+     Sustainable Agriculture Information Service, Rural Business – Cooperative Service,
+     United States Department of Agriculture. NCAT (National Center for Appropriate
+     Technology), Butte, Montana. Available at: attra.ncat.org/attra-pub/summaries/
+     summary.php?pub=288 (accessed 19 March 2017).
+Tabaglio, V., Gavazzi, C. and Nervo, G. (2008) A comparison of organically and conven-
+     tionally grown vegetable crops: results from a 4-year field experiment. Proceedings
+     Second Scientific Conference of the International Society for Organic Agricultural
+     Research (ISOFAR). Available at: http://orgprints.org/13672 and http://orgprints.
+     org/13674 (accessed 14 June 2018).
+Tittarelli, F., Båth, B., Ceglie, F.G., del Carmen Garcia, M., Möller, K. et al. (2016)
+     Soil fertility management. In: Van der Wurff, A.W.G., Fuchs, J.G., Raviv, M. and
+366                              M. Dorais and D. Schwarz
+
+
+     Termorshuizen, A.J. (eds) Organic Greenhouses in Europe. BioGreenhouse, COST
+     Action FA 1105 (www.biogreenhouse.org). doi: 10.18174/373583.
+Tuomisto, H.L., Hodge, J.D., Riordan, P. and Macdonald, D.W. (2012) Does organic
+     farming reduce environmental impacts? A meta-analysis of European research.
+     Journal of Environmental Management 112, 309–320.
+Vallverdú-Queralt, A., Jáuregui, O., Medina-Remón, A. and Lamuela-Raventós, R.M.
+     (2012) Evaluation of a method to characterize the phenolic profile of organic and
+     conventional tomatoes. Journal of Agricultural and Food Chemistry 60, 3373−3380.
+     doi: 10.1021/jf204702f.
+van der Lans, C.J.M., Meijer, R.J.M. and Blom, M. (2011) A view of organic green-
+     house horticulture worldwide. Acta Horticulturae 915, 15–22. doi: 10.17660/
+     actahortic.2011.915.1.
+Van der Wurff, A.W.G., Fuchs, J.G., Raviv, M. and Termorshuizen, A.J. (2016) Handbook
+     for Composting and Compost Use in Organic Horticulture. BioGreenhouse, COST
+     Action FA 1105 (www.biogreenhouse.org). doi: 10.18174/375218.
+Vermeulen, P.C.M. and van der Lans, C.J.M. (2011) Combined heat and power (CHP) as
+     a possible method for reduction of the CO2 footprint of organic greenhouse horti-
+     culture. Acta Horticulturae 915, 61–68. doi: 10.17660/actahortic.2011.915.7.
+Voogt, W., de Visser, P.H.E., van Winkel, A., Cuijpers, W.J.M. and van de Burgt,
+     G.J.H.M. (2011) Nutrient management in organic greenhouse production: navi-
+     gation between constraints. Acta Horticulturae 915, 75–82. doi: 10.17660/
+     actahortic.2011.915.9.
+Wang, Q., Klassen, W., Li, Y. and Codallo, M. (2009) Cover crops and organic mulch
+     to improve tomato yields and soil fertility. Agronomy Journal 101, 345–351. doi:
+     10.2134/agronj2008.0103.
+Woltz, S.S., Jones, J.P. and Scott, J.W. (1992) Sodium chloride, nitrogen source, and lime
+     influence Fusarium crown rot severity in tomato. HortScience 27, 1087–1088.
+Workneh, F. and van Bruggen, A.H.C. (1994) Suppression of corky root of tomatoes in
+     soils from organic farms associated with soil microbial activity and nitrogen status of
+     soil and tomato tissue. Phytopathology 84, 688–694. doi: 10.1094/phyto-84-688.
+Xie, Y.L., Yang, H.F., Liang, L.N. and Li, J. (2011) Dynamic changes of soil chem-
+     ical and biological properties in organic/integrated/conventional vegetable
+     growing systems in greenhouse. In: Organic is Life - Knowledge for Tomorrow,
+     Vol. 1, Organic Crop Production, Proceedings of the 3rd Scientific Conference of the
+     International Society of Organic Agriculture Research. ISOFAR, Cheonan, Republic
+     of Korea, pp. 90–93.
+Xu, H.L., Qin, F.F., Xu, Q.C., Li, J.M., Ma, G. and Shah, R.P. (2012) Improvements in dis-
+     ease resistance and fruit quality of organic tomato intercropped with living mulch
+     of turfgrass. Journal of Food, Agriculture and Environment 10, 593–597.
+Zhai, Z., Ehret, D.L., Forge, T., Helmer, T., Lin, W., Dorais, M. and Papadopoulos, A.P.
+     (2009) Organic fertilizers for greenhouse tomatoes: productivity and substrate
+     microbiology. HortScience 44(3), 800–809.
+Zotarelli, L., Dukes, M.D., Scholberg, J.M.S., Munoz-Carpena, R. and Icerman, J. (2009)
+     Tomato nitrogen accumulation and fertilizer use efficiency on a sandy soil, as af-
+     fected by nitrogen rate and irrigation scheduling. Agricultural Water Management
+     96, 1247–1258. doi: 10.1016/j.agwat.2009.03.019.

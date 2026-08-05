@@ -1,0 +1,2083 @@
+                                         5
+                               Fruit Quality
+                                     Nadia Bertin
+
+
+
+
+INTRODUCTION
+
+Quality of fleshy fruit is a complex trait including multiple variables. While
+the commercial quality relies mainly on external attractiveness (e.g. colour,
+shape, size), firmness and shelf-life, the organoleptic quality depends on phys-
+ical (texture or firmness) and biochemical traits determining the overall taste
+and flavour. On the other hand, the health benefits rely on the composition
+in vitamins and antioxidant compounds (lycopene, β-carotene, ascorbic acid
+and polyphenol) as well as minerals (potassium, calcium, phosphorus, magne-
+sium), whereas the sanitary quality is defined by residues of pesticides or other
+unhealthy compounds such as allergens, mycotoxins, antibiotics, environ-
+mental persistent pollutants and pathogenic microorganisms. In past decades,
+genetic improvement mainly favoured the producers and distributors, by der-
+ivation towards resistant productive cultivars and long-life products, whereas
+consumer preferences were generally overlooked (see Chapter 2). At the same
+time, yields have steadily increased by improvement of technical crop manage-
+ment in horticulture, so that intensive production systems launched on the
+market homogeneous, firm but tasteless products suitable for large distribution
+networks. Recently, the social demand for tasty, healthy fruits rich in vitamins
+and antioxidant compounds, but also for environmentally friendly production
+of fruits free of pesticides and residues, has given rise to new research con-
+cerning these traits. Meanwhile, fresh fruits have been recognized as a major
+source of vitamins and antioxidants and as important components of human
+diet and welfare on account of their nutritional value. Thus, increasing their
+consumption became a worldwide priority, in particular to limit the risks of
+chronic diseases and nutritional deficiencies. Tomato also represents a major
+economic issue as it is the second highest vegetable (first fruit) consumed
+worldwide (see Chapter 1). This changing social and environmental context
+led to the search for new cultivars adapted to more sustainable modes of pro-
+duction and able to maintain yield and produce high quality fruits.
+
+
+© CAB International 2018. Tomatoes 2nd edition (E. Heuvelink)               137
+138                                  N. Bertin
+
+
+      This chapter focuses on main quality traits from the consumer’s point of
+view, which are fruit size or fresh weight, colour, taste, flavour, texture and nu-
+tritive value. Quality standards have been defined that give quantitative market
+values. However, there are as many quality standards as there are consumer
+types. A large scale study (Causse et al., 2010) revealed that preferences are
+quite homogeneous across European countries (The Netherlands, France and
+Italy) and that within each country two main factors discriminate the con-
+sumers of fresh tomatoes: the first is based on overall fruit flavour (aroma,
+juiciness, taste); the second is made up of textural components such as firm-
+ness, ‘meltiness’ and crunchiness.
+      Fruit quality is evaluated at harvest but it is elaborated in the course of
+fruit development, resulting from many interacting growth processes and
+metabolic activities, which are regulated according to the fruit ontogenetic
+programme and by environmental conditions (Génard et al., 2007). Fruit
+taste, texture, overall flavour and nutritive value are mainly determined by
+the amount of dry matter and its composition in sugars, acids, cellulose and
+proteins, antioxidant compounds and minerals as well as by the ratio between
+sugars and acids and their dilution by water. At harvest, these traits are highly
+variable among fresh cultivated tomatoes: fruit fresh weight may vary 200-fold
+whereas the dry matter, sugar, acid or vitamin C contents may vary by four- to
+fivefold. After harvest, quality continues to evolve in relation to postharvest
+storage conditions and ripening stage at harvest. Despite increasing know-
+ledge on the main metabolic pathways and molecular regulations occurring at
+plant and fruit levels, the improvement of fruit quality and the reconciliation
+of both yield and quality traits is still a challenge. Indeed, due to antagonistic
+relationships between fruit size and composition in sugars, the most tasty var-
+ieties are cherry or cocktail tomatoes, which represent only a minor part of the
+market, while the taste of large tomato fruit varieties is rather poor. In order
+to gain insight into the formation and variations of fruit quality in relation
+to genetic and environmental conditions, a preliminary step is to understand
+the processes underlying each trait and the development of integrative ap-
+proaches to fruit quality to disentangle the complex network of interactions
+among these processes in response to external or internal stimuli. For this
+reason, in recent decades understanding fruit quality in relation to gene × en-
+vironment × management (G×E×M) interactions and analysing correlations
+among yield and quality traits have been key objectives for fruit physiologists
+and ecophysiologists in view of crop management and cultivar adaptation to
+specific environments.
+      This chapter is divided into five parts. The first describes major quality
+traits of tomato fruit and the underlying processes. The second and third parts
+review some of the effects of environmental and genetic factors involved in
+quality variations. A few physiological disorders that may negatively impact
+the marketable yield are presented in the fourth part. Finally, an integrative
+approach for optimizing fruit quality is discussed in the last part.
+                                    Fruit Quality                                139
+
+
+
+QUALITY CHARACTERISTICS AND UNDERLYING
+PROCESSES
+Fruit size and shape
+
+Size and shape of tomato fruits are major traits of quality exhibiting a huge
+genetic variability (Tanksley, 2004). Fruit shape is determined mainly by the
+genetic make-up and it has been strongly diversified during breeding. Fruit size
+largely varies in response to G×E×M interactions. The increase in fruit volume
+results from the development of pericarp tissue, which generally accounts for
+more than two-thirds of total fruit weight (Ho, 1996). The increase in pericarp
+volume is achieved through two important processes: (i) the production of new
+cells, which is limited to a more or less short period (10–25 days after anthesis)
+of development; and (ii) cell expansion, which generally proceeds until start
+of maturation (Fig. 5.1). Although most of the fruit volume increase occurs
+during the expansion phase, several authors have provided evidence that final
+size is highly correlated to the number of cells determined early during the div-
+ision phase (Fig. 5.2) (Bertin et al., 2003). After cell division stops, the increase
+in tissue volume results from cell growth by increase in cytoplasmic volume
+and expansion through vacuolation, and from biophysical constraints related
+to epidermal extensibility (Thompson, 2001). Cell expansion is supported by
+the pressure of cell contents and constrained by cell wall properties (Cosgrove,
+1997). The decrease in cell turgor and water potential resulting from cell
+wall relaxation and loosening enables water to enter the cell and to stimulate
+­expansion (Lockhart, 1965). Water enters the fruit through xylem (15–20%
+ of water influx) and phloem (75–80% of water influx) tissues following the
+ stem-to-fruit gradient of water potential, which is generated by the gradient
+ of osmotic potential between source and sink tissues, linking cell expansion
+ to sugar metabolism and subcellular compartmentalization. Cessation of cell
+ division and increase in cell size have been found to be closely linked to the
+ switch of the complete mitotic cycle to an incomplete cycle without mitosis,
+ so-called endoreduplication, which leads to polyploid cells in pericarp tissue
+ where C-values range from 2C to 512C (Joubès and Chevalier, 2000). In to-
+ mato, large endoreduplicated cells are located in the mesocarp with DNA con-
+ tents up to 256C (eight endocycles) or even 512C (nine endocycles) in cherry
+ tomatoes as well as in large-fruit cultivars (Bertin et al., 2007). The functional
+ role of endoreduplication remains controversial. Among a large diversity of
+ tomato lines, Cheniclet et al. (2005) reported a positive correlation between
+ endoreduplication and cell size of pericarp tissues. By contrast, absence of
+ correlation has been reported for mutants affected by the number of endocy-
+ cles (Leiva-Neto et al., 2004), in transgenic lines over-expressing a cell-cycle
+ ­inhibitor (De Veylder et al., 2001), or in response to changes in growth condi-
+  tions affecting cell size (Bertin, 2005). Many theories have been developed to
+  explain the link between cell size and nuclear size or DNA content, such as the
+ 140                                                                                                        N. Bertin
+
+
+ (A)
+                                       140                                                                       14
+
+
+
+
+Average fruit fresh weight (g)
+                                                                                                                       Pericarp cell number (106)
+                                       120                                                                       12
+                                       100                                                                       10
+                                            80                                                                   8
+
+
+
+
+                                                                                                                      Volume of one mean cell (nl)
+                                            60                                                                   6
+                                            40                                                                   4
+                                            20                                                                   2
+                                             0                                                                   0
+                                                 0   10                             20     30    40    50      60
+                                                                                    Fruit age (daa)
+               (B)
+                                            40
+                                            35
+
+
+
+
+             Fruit dry matter content (%)
+                                            30
+                                                                                                                                                     Fig. 5.1. Dynamics of
+                                                                                                                                                     (A) fruit fresh weight (solid
+                                            25                                                                                                       lines), pericarp cell number
+                                            20                                                                                                       (dashed lines) and mean cell
+                                            15                                                                                                       volume (dotted lines) and (B)
+                                                                                                                                                     fruit dry matter content in
+                                            10                                                                                                       cherry (red) and large-fruited
+                                             5                                                                                                       (blue) tomatoes. The curves
+                                             0                                                                                                       were fitted on several sets of
+                                                 0   10                             20     30    40    50      60                                    experimental data. (N. Bertin,
+                                                                                    Fruit age (daa)                                                  unpublished data.)
+
+
+                                                                                   250
+
+
+
+
+                                                     Ripe fruit fresh weight (g)
+                                                                                   200
+
+
+                                                                                   150
+
+
+                                                                                   100
+
+
+                                                                                   50
+
+
+                                                                                     0
+                                                                                         0               5                10                                        15
+                                                                                                      Pericarp cell number (106)
+
+ Fig. 5.2. Relationship observed at maturity between fruit fresh weight and cell
+ number in a QTL-NILs population of tomato. Each point represents an individual
+ fruit and each colour is a different genotype. (Bertin et al., 2009; reprinted by
+ permission of the Society for Experimental Biology.)
+                                  Fruit Quality                            141
+
+
+nuclear–cytoplasmic ratio theory, but the molecular basis of this correlation
+remains poorly understood (Chevalier et al., 2011).
+     The onset of fruit ripening coincides with the rapid slowdown of cell ex-
+pansion and the onset of intensive metabolic transformations. Tomato is a
+climacteric fruit and ripening is associated with ethylene production and cell
+respiration peaks in both attached and detached tomato fruits. As ripening
+progresses, fruit colour changes from green to red as chloroplasts are trans-
+formed into chromoplasts, chlorophyll is degraded and carotenoids accu-
+mulate. Fruit softening and textural changes occur as the fruit cell wall is
+partially disassembled by enzymes and the ripe flavour develops as specific
+volatiles increase and the sugar–acid balance alters (p. 42, this volume).
+Ethylene biosynthesis in pre-climacteric i­mmature and mature-green to-
+mato fruits and ripening climacteric tomato fruits is by the conventional
+pathway of methionine to SAM to ACC to ethylene (Abeles et al., 1992).
+Exposure of mature-green fruit to endogenous levels of ethylene hastens
+the onset of the climacteric and ripening. Once the ethylene concentration
+within the fruit surpasses a ‘threshold’ level, it will promote its own bio-
+synthesis (i.e. positive feedback), and autocatalytic ethylene production will
+cause a rapid increase in production and accumulation within the tissues
+(Abeles et al., 1992). The atmosphere within a tomato fruit is effectively
+isolated from the surrounding atmosphere by an impermeable skin and cu-
+ticle; about 95% of gas exchange occurs through the stem scar. Therefore,
+once ethylene has started its positive feedback climacteric rise, few external
+treatments can modulate its synthesis. Reduced temperatures and lowered
+oxygen atmospheres slow overall metabolism but ripening will continue, al-
+beit at a slower pace. However, certain inhibitors of ethylene action (e.g.
+1-methylcyclopropane (1-MCP), ethanol vapours) appear to stop reversibly
+ethylene-enhanced fruit ripening at almost any stage of ripeness (Saltveit
+and Sharaf, 1992).
+
+
+Fruit texture
+
+Texture is a main trait of quality determining the end-use value of fruits,
+whether intended for fresh market or for industrial processing. In the case of
+tomato, texture not only influences purchasing and consumer acceptance
+but also has a significant impact on whole organoleptic quality, shelf-life and
+transportability (Seymour et al., 2002), and it strongly interferes with fla-
+vour and aroma perception (Causse et al., 2003). Texture is a complex trait,
+implying several components such as firmness, ‘meltiness’, mealiness, juici-
+ness or crunchiness (Harker et al., 2002). It can be evaluated by sensory ana-
+lysis (Szczesniak, 2002), or it can be objectively measured by instrumental
+methods, including mechanical measurements, magnetic resonance imaging,
+or sonic and ­ultrasonic techniques (Abbott, 1999). The most common mech-
+anical methods are compression and puncture tests (Barrett et al., 2010),
+142                                   N. Bertin
+
+
+which mainly evaluate fruit or tissue firmness and elasticity and usually cor-
+relate well with sensory evaluation (Causse et al., 2002).
+      Mechanisms underlying fruit texture are complex. Extensive work has fo-
+cused on the molecular and biochemical mechanisms that lead to fruit soft-
+ening during ripening, when the decline in fruit firmness coincides with the
+dissolution of the middle lamella, resulting in the reduction of intercellular
+adhesion, depolymerization and solubilization of hemicelluloses and pectic cell
+wall polysaccharides (Toivonen and Brummell, 2008). These events are accom-
+panied by the increased expression of numerous cell wall-degrading enzymes,
+including hydrolases, transglucosylases, lyases and other wall-loosening pro-
+teins such as expansins. However, fruit texture might be already determined
+during the fruit growth period (Chaïb et al., 2007), involving various mechan-
+isms. Several reports have examined the importance of fruit anatomical and
+histological properties (Barrett et al., 1998). At the fruit scale, proportion and
+thickness of the different tissues are determinants for fruit texture (Bourne,
+2002). At the tissue scale, the cellular structure is likely involved in fruit mech-
+anical properties, such as firmness (Aurand et al., 2012). Moreover, cell turgor
+(Shackel et al., 1991), transport of solutes among cell compartments (Almeida
+and Huber, 1999), chemical and mechanical properties of cell walls (Rosales
+et al., 2009), cuticle structure and loss of water by transpiration (Saladié et al.,
+2007) also contribute to textural properties. A recent study (Aurand et al.,
+2012) noted that tomato firmness and stiffness measured by puncture tests
+correlate with both morphological (locular number), histological (cell size) and
+biochemical (dry matter and soluble sugar content) fruit traits.
+      After harvest, texture evolves rapidly, while membrane and cell wall break-
+down occurs in relation to turgor loss and to enzyme-orchestrated cell wall
+loosening. This evolution may critically threaten the distribution of the pro-
+duction, with dramatic economic consequences.
+
+
+Fruit composition in sugars and acids
+
+Soluble sugars (glucose, fructose and sucrose) and organic acids (mainly malic
+and citric acids) are major osmotic compounds accumulated in tomato fruit.
+Both the absolute amounts and the balance between sugars and acids are re-
+sponsible for fruit sweetness and sourness and contribute to their overall fla-
+vour (Davies and Hobson, 1981). Tomato fruit is made up of about 90–95%
+water and 5–10% dry matter, of which about 50% is represented by sugars
+and 15% by organic acids and amino acids (Fig. 5.3). The fruit structure and
+proportion of the different tissues may influence its taste, since jelly tissues
+contain more acid and less sugars than pericarp tissue. Metabolic pathways of
+sugar and acid syntheses and links between enzymatic activities and product
+accumulation in fruits have been well documented (reviewed by Etienne et al.,
+2013, for acids and by Beckles et al., 2012, for sugars).
+                                         Fruit Quality                         143
+
+
+
+                          Ascorbate: 0.5%
+                          Pigments: 0.4%
+                          Volatiles: 0.1%
+                          Polyphenols & others: 1%
+
+
+
+                             2%
+                   9%                                          Glucose
+                                                 22%           Fructose
+            4%
+                                                               Sucrose
+       2%
+      2%                                                       Proteins
+                                                               Pectins
+   8%                                                          Hemicellulose
+                                    48%
+                                    sugars                     Cellulose
+                           27%
+                        insoluble                              Minerals
+    6%                    solids
+                                                               Lipids
+
+                                                         25%   Amino acids
+         4%
+                                                               Malic acid
+              7%                                               Citric acid
+                                                               Other compounds
+                           8%       1%
+
+
+Fig. 5.3. Composition of tomato fruit dry matter. (Adapted from Davies and Hobson,
+1981, by permission of Taylor & Francis Ltd (http://www.tandfonline.com).)
+
+     Tomato fruit shifts from partially photosynthetic to truly heterotrophic
+metabolism. Rare quantitative studies indicated that carbon fixed by the
+fruit itself contributes between 10% and 15% of that required for fruit
+growth (Tanaka et al., 1974). Other studies based on transgenic lines or
+mutants confirmed that fruit photosynthesis is not necessary for fruit en-
+ergy metabolism or development but suggested an important role for photo-
+synthesis in the initiation of fruit development, or in properly timed seed
+development (Lytovchenko et al., 2011). Thus most of the carbon required
+for growth is imported from leaves into fruit through the phloem tissues.
+Sucrose is the main form of carbon import in tomato fruit. It is either metab-
+olized in the apoplast by a cell wall invertase or directly transported into fruit
+cells (Fig. 5.4). The transport occurs via symplastic (through the plasmo-
+desmata) or apoplastic loading, involving hexose transporters. Although
+symplastic loading of sucrose is believed to predominate in young fruit,
+apoplastic loading has been suggested to occur throughout fruit develop-
+ment (Zanor et al., 2009). Part of the imported carbon is consumed through
+respiration, providing energy for maintenance and structural growth, and
+144                                         N. Bertin
+
+
+
+
+                                                                      Glucose    G-1-P
+                                                                  E
+                                           Glucose
+      Sucrose              Sucrose Sucrose 6                                       G
+                                           Fructose                             G-1-P
+                                  C
+                                                                                8
+                                              D                                 Starch
+                          Glucose Fructose
+                                 6
+                                         5                                 ADPglucose
+      Sucrose                 Sucrose      Sucrose
+                                                                                   7
+                                 4                                           G-1-P
+                          Fructose UDPG
+                                               Hexose-P                   F     G-6-P
+                                       3         pool
+                                                             2
+                                     Fructose           Glucose
+
+                                        A                   B
+
+
+                                      Fructose          Glucose
+
+                                                  1
+                                               Sucrose                  APOPLAST
+
+
+                                            Legends
+                                        Enzymes involved:
+      1: apoplastic (cell wall) invertase 5: sucrose phosphate synthase (SPS)
+      2: glucokinase                      6: invertase
+      3: fructokinase                     7: ADPglucose pyrophosphorylase (AGPase)
+      4: sucrose synthase (Susy)          8: starch phosphorylase
+
+                                         Transporters:
+                         A, B: apoplastic hexose transporters
+                         C: sucrose vacuolar transporter
+                         D, E: hexose vacuolar transporters
+                         F: plastidic hexose phosphate transporter
+
+
+Fig. 5.4. Carbohydrate metabolism in developing tomato fruit. Sucrose may be
+imported directly via the symplast or may be inverted in the apoplast to hexoses,
+which are then imported into the cell. Both sucrose and hexoses may be stored in the
+vacuole. The flux of sucrose to starch occurs early in fruit development from anthesis
+to ~20–25 days post-anthesis (DPA). Here, sucrose metabolism via sucrose synthase
+and hexokinases dominates. Hexose phosphate intermediates are then imported into
+the plastid for the synthesis of starch. As the fruit ripens, Susy and hexokinase activity
+declines relative to invertase and the apoplastic import of hexose becomes more
+significant with storage of sugars in the vacuole. Starch biosynthesis is minimal and active
+degradation of the starch occurs, which may add to the sugar content available for
+storage. (Beckles et al., 2012, reprinted by permission of Cambridge University Press.)
+                                                            Fruit Quality                  145
+
+
+ the rest is stored in different forms (mainly starch, sucrose, glucose, fruc-
+ tose). While the pools of hexoses increase until maturation, a transient pool
+ of starch particularly located in the columella, the placenta and the inner
+ and radial pericarp (Schaffer and Petreikov, 1997) is filled in the early phase
+ of fruit expansion and peaks around 10–25 days after anthesis (Fig. 5.5).
+ Starch accumulated during this period is completely hydrolysed afterwards
+ and maximum starch levels correlate well with final levels of soluble sugars
+ (Ho, 2003). In the mature fruit, glucose and fructose are present at an ap-
+ proximately equimolar ratio (Davies and Hobson, 1981), while sucrose rep-
+ resents a small portion of the soluble sugars (generally less than 5%) in most
+ commercial cultivars (Ho, 1996).
+      Malic and citric acids are the main organic acids accumulated in tomato
+ fruit. They determine fleshy fruit acidity, as measured by titratable acidity
+ and/or pH. The pH of tomato juice currently ranges between 4 and 4.5
+ but it does not correlate with acid content, which fluctuates over a much
+ larger range. The perception of fruit acidity is due mainly to citric acid. Even
+ though some organic acids are supplied by the sap, variations in fruit acidity
+ primarily result from the metabolism of malate and citrate in the fruit itself
+ (Fig. 5.6). Etienne et al. (2013) demonstrated that accumulation of malate
+ and citrate is the result of complex interactions between metabolism and
+ vacuolar storage. The first steps of acid synthesis, i.e. malate and oxaloac-
+ etate synthesis, take place in the cytosol and require the fixation of CO2 on
+
+
+
+                                      50.00
+
+
+
+
+Soluble sugar and starch g/100 g dm
+                                      40.00
+
+
+                                      30.00
+
+
+                                      20.00
+
+
+                                      10.00
+
+
+                                       0.00
+                                              0   10   20             30         40   50   60
+                                                               fruit age (daa)
+
+ Fig. 5.5. Dry matter composition in total soluble sugars (solid lines) and starch
+ (dashed lines) during development of cherry (red) and large-fruited (blue) tomato
+ fruit. Vertical bars indicate 95% confidence intervals. (Adapted from Bertin et al.,
+ 2009, by permission of the Society of Experimental Biology.)
+146                                                          N. Bertin
+
+
+
+                              Pyruvate                                                    GLYOXYSOME
+                           PDH
+                                                                                          CoA
+             NAD-ME         acetylCoA        CoA
+                                                                              acetylCoA           citrate                   citrate
+                                                                                             CS
+                     OAA        CS       citrate                     OAA            OAA                                         ACO
+                                                       ACO                                   glyoxylate
+                     NAD-MDH                                              NAD-MDH            cycle     isocitrate
+            malate                                                                                                          isocitrate
+                                               cis-aconitate
+                                                                    malate          malate
+                                                       ACO                                                        ICL
+                           TCA cycle
+       fumarate                                                                            MS
+                                                   isocitrate                                 glyoxylate
+                                                                                                      succinate
+                                                   NAD-IDH                                CoA
+           succinate            CoA               NADP-IDH
+                                       2-oxoglutarate
+                     succinyl-CoA
+                                                                                                ATP-CL              acetyl CoA
+                                       MITOCHONDRION                            citrate                         OAA metabolism
+                                                                      GABA shunt      ACO                     acetylCoA
+                                      NADP-ME                                  isocitrate
+                     Pyruvate                            malate
+                                                                                    NADP-IDH
+                                                                                                              flavonoids/
+                                                                               2-oxoglutarate                 isoprenoids
+                                PPDK                            NAD-MDH
+      gluconeogenesis                                                          glutamate
+                                     PEPCK
+ glucose                 PEP                              OAA
+                                                                               GABA               glutamine
+           glycolysis                 PEPC
+                                                                                                                    CYTOSOL
+                                                                               succinate
+
+
+Fig. 5.6. Citrate and malate metabolic pathways in fruit mesocarp cells. Only the
+enzymes described in the source are shown. ACO, aconitase; ATP-CL,
+ATP-citrate lyase; CS, citrate synthase; ICL, isocitrate lyase; MS, malate synthase;
+NAD-MDH, NAD-malate dehydrogenase; NAD-ME, NAD-malic enzyme;
+NAD-IDH, NAD-isocitrate dehydrogenase; PDH, pyruvate dehydrogenase; PEPC,
+phosphoenolypyruvate carboxylase; PEPCK, phosphoenolpyruvate carboxykinase;
+PPDK, pyruvate orthophosphate dikinase. The probable direction of reversible
+reactions is indicated by the large arrow. Dashed blue arrows indicate malate
+and citrate transport. Names in orange are dicarboxylates and names in red are
+tricarboxylates. (Etienne et al., 2013; reprinted by permission of the Society for
+Experimental Biology.)
+
+
+a carbon skeleton ­derived from hexose catabolism. Both cytosolic pH and
+malate concentration play an i­mportant role in the regulation of malate
+synthesis (Etienne et al., 2013). Then malate can be converted to citrate or
+to other tricarboxylates or dicarboxylates via several pathways in the mito-
+chondria, leading to fruit acidity fluctuations. While acid synthesis and con-
+versions through different pathways occur in different cell compartments
+(cytosol, mitochondria and glyoxysomes), large amounts of acids are accu-
+mulated mainly in the vacuole after transport through the tonoplast, which
+depends on both vacuolar pH and electric potential gradient across the tono-
+plast. Then, during fruit ripening, the cytosolic degradation of organic acids
+through the gluconeogenesis pathway promotes the accumulation of soluble
+sugars (Etienne et al., 2013).
+                                     Fruit Quality                                147
+
+
+Fruit ascorbate (vitamin C)
+
+Ascorbic acid or ascorbate (AsA) plays important roles in plants. For instance, it
+is involved in cell division and cell wall synthesis, and in the interaction of plants
+with the environment, pathogens and oxidizing agents (Smirnoff, 2000). It is
+also an important micronutrient and an essential antioxidant in the human
+diet. In tomato, vitamin C exists in two water-soluble, biologically active forms:
+ascorbate (reduced form) and dehydroascorbic acid (oxidized form). Both forms
+are present in all cell compartments of tissues undergoing active growth and de-
+velopment, and the total amount of vitamin C ranges from 20 to 60 mg/100 g
+fresh weight among tomato species and cultivars (Table 5.1) (CTIFL, 2011).
+The biosynthesis pathway of AsA in plants and the numerous enzymes in-
+volved have been well described (l-galactose pathway) (Wheeler et al., 1998).
+AsA is synthesized from d-glucose both in leaves and in fruits. Once synthe-
+sized, AsA can rapidly be oxidized, as result of its antioxidant function, and so
+the recycling pathway (reduction of the oxidized form) also plays an important
+role in maintaining AsA levels and redox status in plant cells (Massot et al.,
+2013). Thus the AsA pool size in fruit results from its import (or the import
+of precursors) from leaves, its synthesis and recycling within the fruit and its
+export, as well as its degree of oxidation or degradation. During fruit develop-
+ment, fruit AsA content decreases during the periods of cell division and ex-
+pansion, probably because of dilution effects, then increases during ripening
+concomitantly to the hexose content (Massot et al., 2010). Many studies
+have found good correlations between fruit soluble sugar and AsA contents.
+However, recent works have demonstrated that AsA synthesis in tomato fruit is
+not limited by sugar content (Massot et al., 2010) and that the in situ synthesis
+prevails over AsA transport from leaves (Gautier et al., 2009).
+     In the postharvest period, ascorbic acid content shows significant losses
+during storage but the content of vitamin C shows remarkable stability when ex-
+pressed as the sum of ascorbic acid and dehydroascorbic acid. Moreover, it has been
+shown that mature-green and breaker fruits that have been ripened with ethylene
+lose less vitamin C by the time they reach the red-ripe stage than fruits allowed to
+ripen without added ethylene. However, both are lower than in fruits ripened on
+the plant. Interestingly, monodehydroascorbate reductase (MDHAR) activity plays
+an important role in the maintenance of ascorbate levels in fruit after chilling in-
+jury induced by storage below 10°C. Furthermore, under these conditions, an in-
+creased fruit MDHAR activity and a lower oxidation level of the fruit ascorbate pool
+are correlated with decreased loss of firmness (Stevens et al., 2008).
+
+
+Fruit carotenoids
+
+Carotenoids are also of importance in the human diet due to their antioxidant
+properties (Dorais et al., 2008). Besides their interest for humans, carotenoids
+                                                                                                                               148
+
+
+
+
+Table 5.1.   Composition of different ripe tomatoes. (Cantwell, 2010.)
+
+                                                                   Soluble      Sugar     Titratable   Vitamin C    Lycopene
+Tomato type               Fruit weight (g)   Red colour, Hue      solids (%)   (mg/mL)   acidity (%)   (mg/100 g)    (mg/kg)
+
+Campari                       53.1                44.2               6.3        31.4       0.58          40.5         63.0
+Cherry                        20.3                45.5               4.2        28.9       0.31          54.0         84.6
+Grape                          5.0                51.3               5.6        29.5       0.51          47.1         49.1
+Grape                          6.2                41.7               4.2        39.6       0.35          61.7         98.0
+
+                                                                                                                               N. Bertin
+Orange Cluster               111.5                71.5               4.6        26.1       0.33          29.2          4.2
+Round Cluster                102.1                43.2               7.6        20.1       0.62          26.9         53.6
+Round Cluster                119.8                44.6               3.8        15.3       0.44          26.0         44.8
+Round Greenhouse             231.2                45.9               4.5        22.5       0.36          30.4         28.0
+Round Greenhouse             179.4                47.7               4.7        25.0       0.44          20.4         42.5
+Roma                          94.8                42.1               4.3        24.0       0.27          22.8         46.4
+Roma                          84.5                45.2               6.2        20.2       0.67          24.3         44.4
+Romanita                      20.5                41.3               6.3        32.9       0.44          45.9         70.3
+LSD 0.05                        6.7                 2.4              0.3         5.0       0.08           8.0          7.5
+                                     Fruit Quality                                 149
+
+
+play fundamental biological roles in plants (for instance, in light harvesting in
+photosynthetic membranes, protection of the photosynthetic apparatus from
+excessive light energy, pigment-protein complexes in thylakoids, precursors of
+abscisic acid, and attractants to pollinators, thus involved in seed dispersal).
+     Carotenoids are C40 isoprenoid molecules formed in plastids, alongside the
+differentiation of chloroplasts into chromoplasts. Carotenoid accumulation
+is spatially and temporally regulated in the chloroplasts and chromoplasts of
+fruits and flowers. All carotenoids are synthesized from geranylgeranyl diphos-
+phate (GGPP). Then isomerization, cyclization, hydrogenation and oxygenation
+events give rise to the chemical variability of carotenoids, whose accumulation
+results from the balance between synthesis and catabolism through enzym-
+atic or non-enzymatic oxidative cleavage (review by Fanciullino et al., 2014).
+The most abundant carotenoid in tomato fruit is lycopene, followed by phy-
+toene, phytofluene, zeta-carotene, gamma-carotene, beta-carotene (precursor
+of vitamin A), neurosporene and lutein. Lycopene and β-carotene are the
+principal ripe fruit pigments of tomato responsible for fruit colouration, and
+lycopene represents about 80–90% of total carotenoid content of ripe fruit.
+In tomato, total carotenoid concentration increases between 10- and 50-fold
+during fruit ripening, with a concomitant decrease in chlorophyll (Fraser et al.,
+1994). Reported contents in lycopene and β-carotene range from, respectively,
+0.4 to 10 mg/100 g fresh weight and from 0.6 to 1.4 mg/100 g fresh weight
+(CTIFL, 2011) (Table 5.1). The primary mechanism that controls the increase
+in carotenoid content is based on the differential regulation of expression of
+genes encoding enzymes of the carotenoid biosynthetic pathway, such as the
+phytoene synthase and phytoene desaturase gene (Fraser et al., 1994). The
+carotenoid biosynthetic pathway has been well described and several regula-
+tory mechanisms have been suggested, including ethylene, light, availability of
+substrates and metabolic sequestration (Ronen et al., 1999; Fanciullino et al.,
+2014). However, carotenoid accumulation and activities of many enzymes
+­involved in the biosynthesis do not correlate during fruit development.
+     The ability of the fruit to synthesize lycopene and β-carotene is almost the
+ same for harvested mature-green fruits as it is for fruit ripening on the plant
+ (Table 5.2). Exposure of harvested mature-green fruits to ethylene stimulates
+
+Table 5.2. Composition of tomato fruit at different stages of ripeness. Fruit
+were harvested at the mature-green, breaker or red-ripe stage of ripeness. (From
+Cantwell, 2000.)
+
+           Soluble   Reducing          Titratable                    Ascorbic
+Stage of    solids    sugars            acidity β-carotene Lycopene    acid
+ripeness     (%)       (%)      pH         (%)     (μg/g)    (μg/g) (mg/100 g)
+
+Mature-     2.37       0.81     4.20      0.28       0.0          0.0       12.5
+  green
+Breaker     2.42       0.85     4.17      0.39       0.40         0.52      18.0
+Red-ripe    5.15       1.62     4.12      0.43       4.33        48.3       22.5
+150                                  N. Bertin
+
+
+normal ripening with the synthesis and accumulation of lycopene and β-car-
+otene, often to a greater extent than for harvested fruits left to ripen without
+ethylene stimulation (Saltveit, 1999).
+
+
+Fruit colour and appearance
+
+During ripening, the most obvious external changes are associated with the
+loss of chlorophyll and the accumulation of lycopene, which first becomes ap-
+parent at the blossom end of the fruit and progresses toward the stem end.
+Therefore during ripening the fruit can be partially green and red. Once ripe,
+however, high-quality fruits have uniform red distributed over the entire sur-
+face of the fruit. Under proper conditions of temperature and humidity, tomato
+fruits progress through six well defined stages to the red-ripe stage (Fig. 5.7).
+These stages are: (1) mature-green, (2) breaker, (3) turning, (4) pink, (5) light-
+red and finally (6) red-ripe; and they are based almost entirely on the external
+colour change of the fruit from green to red (i.e. destruction of chlorophyll
+and synthesis of lycopene). At the mature-green stage (no external red colour-
+ation), fruits have reached about 80% of their final size and acquire the ability
+to continue to develop and ripen normally after harvest. While fruits of most
+cultivars change from a uniform green to red as they ripen, a few cultivars have
+fruits that turn yellow (reduced or incomplete synthesis of lycopene) or are
+variegated in colour.
+
+
+Fruit polyphenols
+
+Polyphenols are a widespread family of phytochemicals with diverse bio-
+logical functions in plants, for instance in response to various biotic or abi-
+otic stress factors. They are also bioactive health compounds involved in the
+prevention of cancer and cardiovascular diseases related to their potent anti-
+oxidant activity as well as hepatoprotective, hypoglycaemic and antiviral ac-
+tivities (Slimestad and Verheul, 2009). Polyphenols are mainly synthesized
+from the phenylalanine produced by the shikimic acid pathway. Tomatoes
+are an important source of phenolic compounds, mostly restricted to their
+skin and exocarp. About 50 compounds have been reported in fruit, among
+which phenolic acids, phenylpropanoids, coumarins and flavonoids play an
+important role in fruit quality (Slimestad and Verheul, 2009). Chlorogenic
+acids and flavonoids are the main polyphenols in tomato. According to the
+flavonoid database of the US Department of Agriculture (USDA) (Bhagwat
+et al., 2014), red tomatoes contain on a year-average basis 15 mg flavon-
+oids per kg of fresh weight (FW) but the total flavonoid content of different
+tomato types varies from 4 to 26 mg/100 g FW (Slimestad and Verheul,
+2009). Naringenin (45%) is reported to be the main flavonoid, f­ollowed
+                                       Fruit Quality                                        151
+
+
+
+
+    Green / Stage 1                             Breakers / Stage 2
+    “Green” means that the surface of the       “Breakers” means there is a definite
+    tomato is completely green in color. The    “break” in color from green to tannish-
+    shade of green may vary from light to       yellow, pink or red on not more than 10%
+    dark.                                       of the surface.
+
+
+
+
+    Turning / Stage 3                           Pinks / Stage 4
+    “Turning” means that more than 10%          “Pink” means that more than 30%, but
+    but not more than 30%, of the surface, in   not more than 60%, of the surface, in the
+    the aggregate, shows a definite change in   aggregate, shows pink or red in color.
+    color from green to tannish-yellow, pink,
+    red, or a combination thereof.
+
+
+
+
+    Light Red / Stage 5                     Red / Stage 6
+    “Light red” means that more than 60%    “Red” means that more than 90% of the
+    of the surface, in the aggregate, shows surface, in the aggregate, is red.
+    pinkish-red or red, provided that not
+    more than 90% of the surface shows red.
+
+Fig. 5.7. Classification of fresh market tomatoes based on changes in external and
+internal colour and tissue softening. (USDA Tomato Ripening Stages.)
+152                                  N. Bertin
+
+
+by quercetin (39%), myricetin (10%) and kaempferol (5%) (Slimestad and
+Verheul, 2009).
+
+
+Fruit aroma and flavour
+
+Flavour and aroma have often given rise to consumer complaints about the
+quality of tomato. Flavour results from complex interactions among sugars,
+acids and aroma volatile compounds (Baldwin et al., 2008). The latter have
+been shown to affect human perception and preference of tomato fruit
+(Tieman et al., 2012). Over 400 volatile compounds have been identified in
+fresh tomatoes, among which only 30 are present in concentrations over 1 ppb
+and thus have been long considered to contribute significantly to the percep-
+tible flavour (Buttery, 1993) (Table 5.3). However, the presence of a molecule
+even at a relatively high level does not necessarily contribute to flavour or con-
+sumer liking. A study by Tieman et al. (2012) demonstrated that the near com-
+plete removal of the most abundant class of volatiles (C6 volatiles) in transgenic
+fruit, without affecting sugars, acids and other volatiles, impacts on flavour in-
+tensity but does not significantly impact on consumer preference. Thus odour
+thresholds alone are inadequate to predict the impact of particular volatiles on
+flavour. Moreover, the same authors demonstrated that aroma volatiles, such
+as geranial, make contributions to perceived sweetness independently of sugar
+concentration, suggesting a novel way to increase perception of sweetness.
+Volatile compounds are synthesized during ripening with a lesser contribution
+of the locular gel in the total production by the whole fruit (Maul et al., 1998).
+Volatile components include acyclic, cyclic and heterocyclic hydrocarbons, alco-
+hols, phenols, ethers, aldehydes, ketones, carboxylic acids, esters and lactones,
+as well as nitrogen, sulfur and halogen-containing compounds (reviewed by
+Lewinsohn et al., 2001). The aroma of tomato is not directly related to the pres-
+ence or absence of a single compound, but rather to synergism among com-
+ponents. (Z)-3-hexenal, hexanal, 1-octen-3-one, methional, 1-penten-3-one
+and 3-methylbutanal belong to the most odour-active aroma volatiles in fresh
+tomatoes (Krumbein and Auerswald, 1998) whereas the acyclic monoterpene
+alcohol, linalool, strongly influences the flavour of tomatoes (Buttery, 1993).
+Volatile compounds found in fruits are formed in different metabolic pathways
+(Klee and Tieman 2013) and derived from fatty acids (e.g. cis-3-hexenol and
+n-hexanal), aliphatic amino acids (e.g. 2-isobutylthiazole and guaiacol), phen-
+olic compounds (e.g. eugenol and methyl salicilate), or longer terpenoids such
+as β-carotene and lycopene (e.g. β-ionone and geranylacetone). Although the
+biosynthetic pathways have been well described, the enzymes and genes con-
+trolling the production of aroma compounds are poorly known.
+     Fruits harvested mature-green and improperly ripened or ripe fruits stored
+at chilling temperatures do not produce the characteristic volatiles associated
+with high-quality tomatoes (Saltveit, 1999).
+                                  Fruit Quality                                 153
+
+
+Table 5.3. Volatiles emitted by ripe fruits of two tomato lines, Solanum
+habrochaites LA1777 and Solanum lycopersicum LA4024 (Mathieu et al., 2009;
+reprinted by permission of the Society for Experimental Biology.)
+
+Volatile                   S. habrochaites        S. lycopersicum       Ratio
+
+(ng g−1 FW h−1)               LA1777                 LA4024         LA1777/LA4024
+
+β-Damascenone                  0.18±0.07             0.01±0.00          30.31
+Methyl jasmonate               0.69±0.55             0.03±0.01          23.53
+β-Ionone                       0.31±0.21             0.03±0.00          12.00
+2-Methylbutanal               12.53±1.54             2.56±0.42           4.90
+cis-2-Penten-1-ol              2.68±1.31             0.64±0.09           4.15
+Isobutyl acetate              11.14±4.07             2.71±0.47           4.11
+Geranylacetone                10.04±4.58             2.65±0.65           3.78
+Phenylacetaldehyde             1.03±0.29             0.28±0.09           3.69
+2-Methylbutanol              46.96±22.95            14.99±2.99           3.13
+Benzaldehyde                  14.90±7.45             4.93±0.81           3.02
+1-Penten-3-ol                 10.78±3.61             3.64±0.28           2.96
+1-Penten-3-one                 2.00±0.81             0.68±0.11           2.93
+Pentanal                      12.78±4.42             5.07±0.36           2.52
+Methylsalicylate               3.15±2.98             1.26±0.28           2.50
+Methyl benzoate                4.00±2.00             1.61±0.49           2.48
+cis-3-Hexenal              169.21±117.83           69.13±13.94           2.45
+2-Methoxyphenol                2.39±1.26             1.01±0.31           2.36
+trans-2-Hexenal                4.47±1.53             2.52±0.72           1.77
+Methional                      0.24±0.18             0.14±0.02           1.70
+Geranial                       0.37±0.28             0.23±0.07           1.65
+cis-3-Hexen-1-ol             63.87±32.25            45.12±9.39           1.42
+trans-2-Pentenal               0.81±0.50             1.14±0.16           0.72
+Benzyl alcohol                 0.27±0.15             0.43±0.11           0.63
+2-Phenylethanol                0.24±0.04             0.42±0.15           0.58
+Hexyl alcohol                20.02±16.24           36.08±13.02           0.56
+3-Methylbutanol               15.74±6.04            34.80±5.91           0.45
+Hexanal                      54.12±27.38          120.18±14.58           0.45
+1-Pentanol                     2.21±1.42             4.98±1.07           0.44
+1-Nitro-2-phenylethane         0.42±0.28             1.25±0.30           0.33
+trans-2-Heptenal               0.20±0.10             0.84±0.23           0.24
+2-Isobutylthiazole             0.48±0.29             5.05±0.75           0.09
+Isovaleronitrile               0.61±0.33             6.90±1.80           0.09
+6-Methyl-5-hepten-2-one        0.27±0.10             6.31±1.45           0.04
+
+
+
+ENVIRONMENTAL CONTROL OF FRUIT QUALITY
+
+A wealth of descriptive studies have outlined the effects of environmental fac-
+tors (temperature, light, CO2) or cultural management (fruit pruning, fertil-
+ization, water and saline stress) on quality traits. Environmental factors may
+154                                  N. Bertin
+
+
+impact fruit quality through their effects on carbon fixation and distribution
+among sink organs, but also through stress-induced osmotic and turgor regu-
+lations, and stimulation of antioxidant metabolism in the case of induced oxi-
+dative stress. Because in many studies fruit composition is often reported on a
+fresh weight basis, it is not clear whether the reported enhancement of quality
+is due to an actual stimulation of the biosynthetic capacity and/or to dilution/
+concentration effects associated with changes in fruit size and water content
+(Koricheva, 1999).
+      Important traits of quality (size and composition) have been assessed
+mainly in response to water or salinity stress (Dorais et al., 2001; Guichard
+et al., 2001), partial root-drying (Zegbe et al., 2006), assimilate partitioning
+and carbohydrate compartmentation in fruit (Ho, 1996; Prudent et al., 2011)
+and fertilizers (Bénard et al., 2009). Generally, a moderate water or carbon
+stress promotes fruit quality through an increased accumulation of com-
+pounds involved in taste and health value (e.g. sugars and acids, aroma, vita-
+mins, lycopene), but reduces fruit size and marketable yield (Ripoll et al., 2014).
+Compromises between quality and yield need to be found by manipulating the
+fruit environment to alter relevant physiological processes such as carbon me-
+tabolism and water relations. For instance, it has been demonstrated that both
+water content and chemical composition of tomato fruits can be manipulated
+by water and salt stresses with small loss of yield (Ehret and Ho, 1986; Dorais
+et al., 2001), especially if moderate stress is imposed during the mid to late
+stages of fruit development (Mizrahi et al., 1988; Ripoll et al., 2016). Under
+high electrical conductivity (EC), fruit size is inversely related to EC while the
+fruit dry matter content linearly increases with EC at a rate that depends on
+cultivars, environmental factors, composition of the nutrient solution and
+crop management (Dorais et al., 2001).
+      Most of the aroma and health-promoting compounds accumulated in to-
+mato are regulated by environmental factors, in particular light and tempera-
+ture (reviewed by Dorais et al., 2008; Poiroux-Gonord et al., 2010; Fanciullino
+et al., 2014). Low temperatures (above 10°C) during the growth period are gen-
+erally favourable to the accumulation of ascorbic acid, phenolic compounds
+and carotenoids, whereas temperatures above 26°C decrease lycopene and
+β-carotene but promote rutin and caffeic acid derivatives (Gautier et al., 2008).
+Generally, good exposure or high light intensity is a positive factor for the ac-
+cumulation of ascorbic acid, lycopene, β-carotene and phenolic compounds in
+tomatoes (Gautier et al., 2008; Truffault et al., 2015). For instance, seasonal
+variations in vitamin C levels have been described in relation to light inten-
+sity variations and sugar content, and fruits harvested during summer contain
+8–50% more vitamin C compared with fruits harvested during early spring
+(Massot et al., 2010). Fruit shading experiments have shown that AsA accu-
+mulation is not limited by leaf photosynthesis or sugar substrate but strongly
+depends on the fruit irradiance itself (Gautier et al., 2008; Massot et al., 2010).
+Moreover, the red to far-red ratio, which increases fourfold in pericarp tissues
+                                    Fruit Quality                               155
+
+
+during ripening, stimulates lycopene accumulation. This red-light-induced
+lycopene accumulation is regulated by fruit-localized phytochromes and their
+photo-equilibrium in response to changes in the spectral composition of the
+light that penetrates the pericarp during ripening (Alba et al., 2000).
+     The effects of drought and high salinity on the accumulation of vitamins
+and secondary metabolites are more complex, and conflicting results have been
+reported (review by Poiroux-Gonord et al., 2010; Ripoll et al., 2014). This is
+due to the fact that environmental factors may have indirect effects related to
+photosynthesis and carbon allocation (precursor availability) and/or direct
+effects on their biosynthesis. For instance, drought stress may be regarded as
+a negative factor for the synthesis of secondary metabolites because it limits
+photosynthesis; but, on the other hand, water (or other abiotic factor) stress
+may exacerbate photo-oxidative stress, thus providing a positive stimulus for
+their synthesis, probably involving signals transmitted from leaves to fruits
+(Poiroux-Gonord et al., 2010). High salinity has global positive effects on ascorbic
+acid, lycopene and β-carotene (Frary et al., 2010), with strong genotype ×
+environment (G×E) interactions (Gautier et al., 2009), whereas conflicting re-
+sponses with regard to phenolic compounds are reported.
+     Nitrogen depletion lessens the accumulation of phenolic compounds
+alongside a slight increase in ascorbic acid concentration (Bénard et al., 2009).
+     The environmental control of tomato fruit texture has been mainly in-
+vestigated in the postharvest period, while the effects of environmental fac-
+tors during fruit development have been more rarely reported (Sams, 1999;
+Rosales et al., 2009). Generally, tomato firmness (physical component of
+texture) decreases in summer, which is empirically attributed to high tem-
+perature and high vapour pressure deficit. Regarding the mineral nutrition,
+high EC and high magnesium (Mg) supply increase fruit firmness in summer
+production, while high calcium (Ca) supply reduces fruit firmness (Hao and
+Papadopoulous, 2003). The latter authors suggested that high EC and high
+Mg might increase fruit tissue rigidity, whereas high Ca might increase only
+tissue plasticity. Water deficit also induces significant variations in fruit firm-
+ness with contrasting effects (Ripoll et al., 2014). A moderate water deficit
+decreases firmness measured by compression test but increases firmness meas-
+ured by puncture test, which correlates well with firmness and crunchiness
+assessed by sensory evaluation. Contrasting effects reported in the literature
+likely result from different methods of texture evaluation, different stress in-
+tensity, strong G×E interactions, and from the complex interactions among the
+numerous processes involved in final fruit texture.
+     In the postharvest period, the effects of temperature during storage and
+atmospheric composition on fruit quality have been primarily investigated. In
+particular, low temperatures, used by retailers or consumers to extend fruit
+shelf-life, may trigger physiological disorders and loss of quality. The optimum
+storage temperature differs with the stage at which fruits are harvested, due
+to different influences on the enzymatic activity (reviewed by Passam et al., 2007).
+156                                    N. Bertin
+
+
+
+                    °F    °C
+                    90    32
+                    85    29
+      Poor ripening,
+      softening      80   27
+      TOO WARM       75   24
+         MAX.       70    21
+                                   Recommended
+         Ripening   65    18       ripening temp.
+         range      60    16
+                                Recommended transit
+         MIN.       55    12
+                                & storage temperatures
+                    50    10
+
+TOO COLD             45   7
+                                   Not more than
+Chilling injury                    1–2 days
+Poor colour, flavour 40   4
+                     35   2
+                    32    0
+                                   Freezing point
+                                   31°F, –0.5°C           Fig. 5.8. Recommended
+                                                          temperature for tomato fruit
+                                                          storage. (Cantwell, 2010.)
+
+
+It also differs between varieties. For instance, long or extended ­shelf-life ­varieties
+may not be able to attain full red colour if harvested too early (Cantwell, 2010).
+Although fully ripe tomatoes may be held at 2–5°C for a few days prior to con-
+sumption (not longer, since colour loss and softening may occur), fruits that
+are mature-green or at the turning or breaking stage should not be subjected
+to temperatures lower than 12°C, to avoid chilling injury and relative symptoms
+such as rubbery texture, watery flesh and irregular ripening (Fig. 5.8) (Stevens
+et al., 2008; Cantwell, 2010). Fruits stored at 5°C were rated by sensory analysis
+as significantly lower in ripe aroma (attributed to a loss of the principal volatile
+components), sweetness and tomato flavour, and significantly higher in sour-
+ness, compared with those stored at 20°C (Passam et al., 2007). Although low
+temperatures during storage lower the lycopene content of fruit (twice less after
+10 days storage at 7°C compared with 15°C or 25°C) even when harvested at a
+mature-red stage, they do not necessarily reduce the total antioxidant capacity
+related to phenolics and ascorbate over a limited period (Passam et al., 2007).
+
+
+GENETIC CONTROL OF FRUIT QUALITY
+
+Major components of tomato fruit quality, such as fruit size, appearance, firm-
+ness and shelf-life, are quantitative traits that have continuous variation in
+segregating populations (Causse et al., 2002). They have been tremendously
+                                    Fruit Quality                              157
+
+
+modified by breeding during the past 50 years, leading to a large diversity in
+size, shape and colour. For instance, domestication has increased fruit size up
+to 500-fold in cultivated species. On the contrary, the genetic improvement of
+organoleptic quality or health value has been considered only recently. The
+genetic control of interesting traits of quality relies either on a few natural mu-
+tations with tremendous effects or on the accumulation of numerous quanti-
+tative trait loci (QTLs) and genes with small individual effects. The multi-genic
+control of most traits of fruit quality, the co-localization of QTLs/genes with
+contrary effects, and the interactions among QTLs/genes and with the envir-
+onment or cultural practices put a damper on the fast genetic improvement of
+tomato quality (Causse et al., 2011). For instance, the antagonistic relation-
+ship between fruit size and taste represents a locking point for breeders. As a
+result, cherry tomatoes have the best flavour and higher contents in sugar and
+acids than large-fruited genotypes (Causse et al., 2011). Although very few
+QTLs have been identified at the molecular levels, great advances are expected
+in the coming years by manipulating the components of tomato, thanks to pro-
+gressing knowledge of the underlying genes, the release of the tomato genome
+sequence and the recent advances in sequencing and genotyping methods that
+allow identification of important genes and loci through analyses based on
+single nucleotide polymorphism (SNP) such as QTL mapping and genome-wide
+association study (GWAS) (Zsögon et al., 2017). Many genetic engineering ap-
+proaches have been already developed to modify the expression of genes con-
+trolling quality attributes, especially during ripening (e.g. for improving the
+taste, sugar-to-acid ratios, aroma and carotenoid levels in tomato) (Lewinsohn
+et al., 2001; Guo et al., 2012), but the use of genetic transformations for com-
+mercial purposes is highly regulated. On the other hand, the natural genetic
+variability within or among tomato species offers great potential for creating
+new improved varieties (Lin et al., 2014). Until now, most genetic studies on
+QTL detection have been performed on populations derived from interspecific
+crosses between wild species and processing tomatoes. Numerous QTLs for fruit
+weight, shape, sugar and acid contents, firmness, volatiles and sensory attri-
+butes have been detected (reviewed in Labate et al., 2007, and in Causse et al.,
+2011). The introduction of five major regions bearing QTLs of quality has been
+successfully realized (Lecomte et al., 2004) and fruit quality could be improved
+with favourable effects provided by cherry tomato (Causse et al., 2002). Yet,
+interactions between genes or QTLs and environmental conditions should be
+considered (Albert et al., 2015). Major mutations and genes for improving to-
+mato fruit quality have been reported by Causse et al. (2011) (Table 5.4).
+
+
+Fruit size and shape
+
+Many QTLs of fruit mass have been detected. Six of them explain more than
+20% of the phenotypic variance (Grandillo et al., 1999), among which fw2.2
+Table 5.4. Major mutations and genes for improving tomato fruit quality. (Reprinted from Causse et al. 2011, by permission of John    158
+Wiley & Sons.)
+
+Quality trait    Mutation                Phenotype                 Chromosome Activity                      Reference
+
+Size and shape   fw2.2 (QTL)             Fruit weight                     2       Transcription factor      Cong & Tanksley, 2006
+                 fas (fasciated)         Fruit shape                     11       Transcription factor      Cong et al., 2008
+                 o (ovate)               Fruit shape                      2       Transcription factor      Liu et al., 2002
+                 SUN                     Fruit shape                      7       IQD protein               Xiao et al., 2000
+Sugar content    Lin5                    Increased sugar content          9       Cell wall Invertase       Fridman et al., 2000
+Vitamin C        Vtc9.1                  Higher vitamin C                 9       MDHAR                     Stevens et al., 2008
+Shelf life       Rin                     Inhibited ripening               5       MADS-box transcription    Vrebalov et al., 2002
+                                           (semi-dominant)                          factor
+                 nor (non ripening)      Inhibited ripening              10       Transcription factor      Moore et al., 2002
+                                           (semi-dominant)
+                                                                                                                                      N. Bertin
+                 Nr (Never-ripe)         Inhibited ripening               9       C2H4 receptor             Wilkinson et al., 1995
+                                           (dominant)
+                 Cnr (Colourless         Inhibited ripening               2       Epigenetic control        Thompson et al., 1999;
+                     non-ripening)         (dominant)                                                          Seymour et al., 2002
+Colour           B (Beta)                Yellow fruits                    6       Lycopene cyclase          Ronen et al., 2000
+                 og (old gold-crimson)   Higher lycopene content          6       Lycopene cyclase          Ronen et al., 2000
+                 Del (Delta)             Orange fruits                   12       Lycopene cyclase          Ronen et al., 1999
+                 r (yellow flesh)        Yellow fruits                    3       Phytoene synthase         Fray & Grierson, 1993
+                 t (tangerine)           Orange fruits                   10       Carotenoid isomerase      Isaacson et al., 2002
+                 hp-2 (high pigment)     Higher lycopene content         12       DETI homolog              Mustilli et al., 1999
+                 hp-I (high pigment)     Higher lycopene content          2       DDBI light signaling      Liu et al., 2004
+                 Dg (dark green)         Higher lycopene content         12       DETI homolog; allelic     Levin et al., 2003
+                                                                                    to hp1
+                 y                       Uncoloured epidermis             1       MYB transcription factor Adato et al., 2009
+                                    Fruit Quality                              159
+
+
+controls 30% of fruit size variations and is involved in the control of cell div-
+ision in the pre-anthesis period. Among 13 QTLs that contributed to fruit
+mass enlargement during the improvement of modern tomato cultivars, five
+are ­located at the distal end of the long arm of chromosome 2 (fw2.2, lcn2.1,
+fw2.1, fw2.3 and lcn2.2), whereas five others related to fruit mass (fw1.1,
+fw5.2, fw7.2, fw12.1 and lcn12.1) likely contributed to the enlargement of
+tomato fruits during domestication of wild species (Lin et al., 2014).
+      Three major QTLs for fruit shape have been identified on chromosomes
+2, 7 and 8; and two major QTLs for locule number, fasciated (fas) and locule
+number (lc or lcn2.1), are located on chromosomes 11 and 2, respectively. Other
+QTLs such as OVATE and SUN modify fruit shape more specifically, as they are
+responsible for elongated fruit shape (reviewed in Causse et al., 2011).
+
+
+Fruit texture
+
+Forty-six QTLs controlling texture as assessed by touching (30 QTLs), by mech-
+anical measurement (11 QTLs) and by sensory evaluation (five QTLs) were
+­reported in several populations, with a few main clusters on chromosomes 1,
+ 2, 4, 5, 9, 10 and 11 (Causse et al., 2002; Labate et al., 2007). At the ­molecular
+level, most studies on texture have focused on the mechanisms that lead to fruit
+softening during ripening and on the characterization of mutants affected in
+ripening-related genes; for instance, the ripening inhibitor (rin) gene, non-­
+ripening (nor) gene, delayed-fruit deterioration (DFD) gene or colourless
+non-ripening (Cnr) gene (Seymour et al., 2002; Giovannoni, 2004; Saladié
+et al., 2007). On chromosomes 2, 5 and 10 the firmness QTL co-­localized with
+the genes rin, nor and Cnr. Interestingly, the divergence ­between firm processing
+tomatoes and soft fresh tomatoes resides in SNPs located on chromosome 5 in
+a region where a major QTL for firmness has been detected (Lin et al., 2014).
+However, no key determinants of fruit texture have been clearly identified, due
+to the high number of processes involved, including processes unrelated to cell
+wall loosening (Saladié et al., 2007; Aurand et al., 2012).
+
+
+Fruit composition in sugar and acids
+
+Increasing fruit sugar content is one main objective, of breeding programmes
+focusing on organoleptic quality. This is particularly true for tomato, as domes-
+tication has led to a loss of flavour, despite abundant literature and knowledge
+on the physiological and genetic factors controlling the main steps of sugar
+and acid metabolisms in tomato (Beckles et al., 2012; Etienne et al., 2013).
+The number of regions bearing QTLs for sugar and acid contents obtained in
+different populations is very high (Labate et al., 2007), likely because of the
+high number of processes involved and strong G×E interactions (Prudent et al.,
+160                                  N. Bertin
+
+
+2009; Albert et al., 2016). For instance, among 56 regions (95 QTLs) bearing
+QTLs for sugar content (or Brix), about 28 regions were found in several popu-
+lations (the wild allele mostly increasing the trait) (Labate et al., 2007). Only
+a few regions are common to sugars and acids (Sauvage et al., 2014) while
+frequent colocations between sugars and fruit weight with opposite allelic ef-
+fects have been detected (Grandillo et al., 1999; Prudent et al., 2009). At the
+molecular level, a high number (more than 60) of candidate genes involved in
+carbon metabolism have been identified (Causse et al., 2011). Among them,
+a few genes encoding major enzymes of sugar metabolism affect the final
+fruit sugar content. For instance, Lin5, encoding the apoplastic invertase, is
+involved in the control of total soluble sugar content due to an increased cap-
+acity to uptake the phloem unloaded sucrose (Baxter et al., 2005) and would
+explain a QTL for soluble compounds on chromosome 9 (Sauvage et al., 2014).
+On chromosome 10, a QTL controlling fructose content contains two cell wall
+invertase genes Lin6 and Lin8 (Albert et al., 2016). Similarly, AgpL1, AgpL2,
+AgpL3 and AgpS1 regulate the AGPase activity and starch synthesis during the
+expansion stage of fruit development, which constitutes a reservoir contrib-
+uting to higher soluble sugar content at the ripe stage (Causse et al., 2011).
+
+
+Fruit composition in health-promoting phytochemicals
+
+Metabolic engineering of plants to produce novel compounds or to improve the
+production of existing compounds is possible by over-expressing one or more
+specific genes coding for enzymes that control key steps of the known biosyn-
+thetic pathways.
+     Several QTLs for fruit ascorbic acid have been identified in different popula-
+tions with a range of phenotypic variation from 6 to 50 mg/100 g fresh weight
+(Stevens et al., 2007; Ruggieri et al., 2014). The ascorbic acid concentration
+in cells depends on its biosynthesis, recycling and degradation. Thus, efficient
+ways to manipulate ascorbic acid content might be achieved via regulatory
+genes of the synthesis or via the up-regulation of recycling. Two main genes,
+both on chromosome 9, co-localized with QTL for fruit ascorbic acid: MDHAR
+(monodehydroascorbate reductase) involved in the recycling and GME (GDP-
+mannose epimerase) involved in the synthesis of ascorbic acid (Stevens et al.,
+2007, 2008; Sauvage et al., 2014).
+     Several mutants of different genes of the carotenoid biosynthesis pathway
+have been identified (reviewed in Liu et al., 2003). For instance, the yellow-flesh
+(r) mutant corresponds to a loss of the phytoene synthase gene resulting in
+the absence of lycopene. Another single dominant gene, Del, encoding a
+lycopene ε-cyclase, changes the fruit colour to orange in the tomato mutant
+Delta as a result of accumulation of δ-carotene at the expense of lycopene
+(Ronen et al., 1999). Similarly Beta (B) is a partially dominant, single-locus
+mutation that causes an orange colour in the fully ripened fruit because of
+                                     Fruit Quality                                161
+
+
+ the accumulation of β-carotene at the expense of lycopene. In the wild type,
+ β-carotene constitutes 5–10% of total fruit carotenoids, whereas in Beta it is
+ 45–50% and can exceed 90% (Ronen et al., 2000). The existence of r, B and Del
+in wild tomato species suggests a hypothetical scenario for the evolution of fruit
+colour in tomato (Ronen et al., 2000). Other genes are involved in the carotenoid
+and other antioxidant contents. For instance, the high pigment (hp) mutant, a
+light-­signalling gene not involved in the carotenoid biosynthesis pathway, also
+­affects the carotenoids, flavonoids, ascorbic acid and sucrose contents in leaves
+ and fruits (reviewed in Poiroux-Gonord et al., 2013, and in Causse et al., 2011).
+ However, only a few candidate genes involved in the carotenoid biosynthesis
+ pathway co-localize with colour QTL, indicating a complex regulation (Causse
+ et al., 2003; Liu et al., 2003).
+       Concerning aroma formation, the complexity of the multiple biosynthetic
+ pathways contributing to volatile composition has discouraged tomato breeders
+ and there are relatively few examples of genetic improvement enhancing the
+ profile or quantity of tomato fruit volatiles (Lewinsohn et al., 2001; Tieman
+ et al., 2012). However, a few recent studies identified important loci that control
+ aroma in tomato. Thirty QTLs spread over the genome (except on chromosomes
+ 8 and 9) and affecting 24 different volatile compounds were mapped in a popu-
+ lation of introgression lines derived from a cross between the cultivated tomato
+ Solanum lycopersicum and its wild relative, Solanum habrochaites (Mathieu et al.,
+ 2009). In a Solanum pennellii introgression line (IL) population, 25 loci were iden-
+ tified that significantly alter one or more of 23 different volatiles (Tieman et al.,
+ 2006). More recently a GWAS analysis on 28 main volatiles outlined significant
+ associations on chromosomes 2 and 4 where previous QTLs have been identified
+ (Zhang et al., 2015). Genes regulating the output of volatile synthesis pathways
+ and associated with flavour-imparting volatiles in tomato have been reviewed by
+ Klee and Tieman (2013). Moreover, a large natural diversity in volatile compos-
+ ition was reported in Heirloom populations of tomato (Table 5.5), which could
+ be exploited with molecular-assisted breeding techniques (Tieman et al., 2012).
+
+
+FRUIT PHYSIOLOGICAL DISORDERS
+
+A number of disorders affect the quality of fresh market tomato fruit and re-
+duce the marketable yield. These disorders result from a combination of envir-
+onmental, production or handling procedures, or are genetic in origin. A few
+of them are represented in Fig. 5.9.
+
+
+Blossom-end rot
+
+This disorder (BER) is associated with a local calcium deficiency in the distal
+fruit tissue, resulting from a misbalance between calcium supply/transport and
+162                                       N. Bertin
+
+
+Table 5.5. Observed variations in flavour volatiles within S. Lycopersicum
+Heirloom varieties. (Reprinted from Current Biology 22(11), Tieman et al., The
+chemical interactions underlying tomato flavor preferences, 1035-1039, Copyright
+2012, with permission from Elsevier.)
+
+                                                                     Fold
+                                     High              Low        Difference   Median
+
+1-penten-3-one                       9.37              0.17         55          1.18
+isovaleronitrile                    68.45              0.58        117          7.63
+trans-2-pentenal                     5.16              0.31         17          1.23
+trans-2-heptenal                     2.71              0.09         30          0.42
+isovaleraldehude                    51.08              1.55         33          8.59
+3-methyl-1-butanol                 184.46              3.20         58         27.26
+methional                            1.616             0.012       137          0.07
+isovaleric acid                      0.953             0.004       262          0.09
+2-isobutylthiazole                  63.61              0.37        174          8.34
+6-methyl-5-hepten-2-one             20.07              0.17        120          3.38
+β-ionone                             0.396             0.008        47          0.05
+phenylacetaldehyde                   1.90              0.00        654          0.24
+geranylacetone                      28.96              0.03       1095          1.22
+2-phenylethanol                      5.269             0.002      3142          0.05
+isobutyl acetate                    11.93              0.14         85          1.67
+cis-3-hexen-1-ol                   124.15             10.00         12         40.00
+1-nitro-2-phenylethane               2.59              0.02        149          0.25
+trans,trans-2,4-decadienal           0.30              0.00        211          0.02
+2-methylbutanal                     14.66              1.14         13          3.47
+hexyl alcohol                       84.03              0.99         85         13.86
+guaiacol                             8.09              0.03        290          0.77
+hexanal                            381.05             15.55         25         88.65
+1-octen-3-one                        0.312             0.017        18          0.07
+cis-3-hexenal                      399.66              8.29         48         71.09
+methylsalicylate                    14.16              0.00       3354          0.40
+trans-2-hexenal                     48.01              0.39        123          3.54
+β-damascenone                        0.1733            0.0020       86          0.01
+2-methyl-1-butanol                 115.69              1.93         60         15.08
+Note: Volatile emissions were measured as ng/g fresh weight/hr.
+
+requirement for growth, especially during the phase of rapid fruit expansion,
+which is the most sensitive period (Ho and White, 2005). Symptoms occur first
+in the internal part of the fruit and then extend to the external tissues. The
+blossom end of a green fruit develops a water-soaked area near the blossom
+scar. The area dries, turns brown as a consequence of cell death, and there is
+subsequent leakage of cell contents into the extracellular space. High tempera-
+ture, light, vapour pressure deficit (i.e. low humidity) and salinity, irregular
+watering, plant vigour, high nitrogen fertilization and root pruning are con-
+ducive factors. The sensitivity is genotype-dependent. For instance, large-fruit
+                                     Fruit Quality                                 163
+
+
+
+
+Blossom-end         Radial or         Blotchy         Catfacing        Puffiness
+    rot or         concentric         ripening
+black bottoms        cracks
+
+
+
+
+    Gold spot or      Greenback; green      Sunscald; sunburn        Silvering
+    golden speck      or yellow shoulder
+
+Fig. 5.9. Illustrations of main tomato disorders that impact negatively on
+marketable yield.
+
+
+or plum tomatoes are much more sensitive than cherry or wild tomatoes. The
+incident of blossom-end rot increases significantly when the concentration of
+calcium in the fruit falls below 0.08% (dry weight) while the disorder seldom
+occurs at levels above 0.12%, and spraying Ca directly on to young fruits is re-
+commended for the prevention of BER (Ho and White, 2005).
+
+
+Cracking and russeting
+
+Cracking occurs when the internal expansion is faster than the expansion of
+the epidermis and so the epidermis splits. Concentric cracks can develop around
+the stem end of the fruit, and/or radial cracks can develop that extend from the
+stem to the blossom end. Cracking can occur at all stages of fruit growth, but as
+the fruit matures they become more susceptible, especially as colour develops.
+A rapid influx of water and solutes, and reduced strength and elasticity of the
+tomato skin and pericarp wall contribute to the occurrence and severity of
+cracking. This disorder is not only unsightly but breaks in the epidermis also
+increase water loss and the entry of pathogens. Cracking can be minimized
+by the uniform application of water to avoid periods of water stress, adequate
+calcium nutrition and the selection of crack-resistant cultivars. Cracking and
+164                                  N. Bertin
+
+
+splitting are inherited tendencies and cultivars differ greatly in susceptibility.
+The development of numerous very fine cracks is another disorder, known as
+russeting or micro-cracks. Unlike cracking where the cracks extend several
+millimetres into the pericarp, russeting is the development of numerous fine
+cracks in the tomato skin. Microbial infection is not a significant problem but
+water loss is increased and visual appearance decreased (reviewed in Dorais
+et al., 2004).
+
+
+Blotchy ripening
+
+Blotchy ripening leads to uneven ripening with hard grey to yellow patches,
+usually near the calyx end of the fruit, retaining chlorophyll and not accu-
+mulating sufficient lycopene to produce a normal red fruit. Blotchy areas con-
+tain less nitrogenous compounds, organic acids, starch, sugars and dry matter
+(Yahia and Brecht, 2012). Early and mid-season greenhouse crops are particu-
+larly susceptible. The cause of this physiological disorder and its relationship
+to ‘grey wall’ is not well understood. Improper plant nutrition (e.g. potassium
+and/or boron deficiency and high nitrogen levels, which promote excessive
+growth), insect feeding and environmental stresses (e.g. chilling, temperature
+above 30°C, low light intensity or high soil moisture) may contribute to the
+occurrence of this disorder (Yahia and Brecht, 2012).
+
+
+Catfacing
+
+Catfacing is a generic term used to describe a tomato fruit that has a gross de-
+formity. In this case the differential growth of the various locules produces a
+convoluted shape in contrast to the smooth shape of most fruits. Symptoms
+of catfacing also include corky brown scarring, cracks and uneven ripening.
+Large-fruited tomatoes with high number of locules (more than five) are more
+prone to this problem than small-fruit varieties. Critical flower development
+or pollination may be responsible for this problem. Moreover, low temperature
+and light intensity during flowering and fruit set may exacerbate the occur-
+rence of catfacing (CTIFL, 2011; Yahia and Brecht, 2012).
+
+
+Puffiness
+
+Puffy fruits are flat-sided or angular fruits in which one or more seed cavities
+(i.e. locules) are empty of some or all tissue. Puffiness is also known as boxiness
+or hollowness. It may be impossible to detect light puffiness until the fruit is
+cut and open cavities are observed between the seed gel area and the outer
+wall. Puffy fruits are less dense than good ones and so they can be separated by
+                                    Fruit Quality                                165
+
+
+­flotation in water. Growing conditions (too low or too high temperatures, high N,
+ low light) that cause improper pollination, fertilization or seed development and
+ genotype contribute to the occurrence of this disorder. Distal fruits of the inflor-
+ escence are more frequently affected (CTIFL, 2011; Yahia and Brecht, 2012).
+
+
+Gold spot
+
+Gold spot is described as yellow or white flecks distributed all over the fruit sur-
+face, and more especially near the calyx and shoulder of the fruit. The number
+can vary from a few to many. Flecks develop as small irregular-shaped green
+spots on the surface of immature fruit and turn gold as the fruit ripens. Gold
+spot is due to calcium oxalate crystals resulting from an excess of calcium. The
+disorder depends on genetic and environmental factors. Plum, Roma and sala-
+dette tomato types appear to be more susceptible than round tomatoes. The
+abundance of gold spot is increased by high humidity and high Ca fertilization
+(CTIFL, 2011; Yahia and Brecht, 2012).
+
+
+Green shoulder
+
+In this case the shoulders of a ripening fruit near the calyx remain green due to
+a high chlorophyll content, while the rest of the fruit turns red. While generally
+undesirable, this condition is actually preferred by consumers in some coun-
+tries. Incorporating the ‘uniform ripening’ gene can eliminate this disorder in
+susceptible cultivars. Predisposing factors include exposure to excessive heat,
+high salinity and an inadequate supply of potash and phosphate fertilization
+(CTIFL, 2011; Yahia and Brecht, 2012).
+
+
+Sunscald
+
+Sunscald can be described as a yellow, hard area, usually on the shoulder of the
+fruit, which occurs when tissue temperature rises above 30°C and prevents the
+synthesis of red pigments and the softening of flesh. Fruit temperatures above
+40°C are lethal and the exposed tissue will die, turn white, dry out and form a
+flat parchment-like covering over the affected area. Green fruits are more sensi-
+tive to solar injury than ripe ones. Damage usually occurs when fruits are sud-
+denly exposed to sunlight, for instance after an over-pruning of leaves. Indeed,
+direct sunlight may increase the temperature of exposed fruit tissue by 10°C
+or more above ambient air temperatures. Plant architecture that shades the
+fruit during growth and bin covers that shade the harvested fruit during trans-
+port to packing facilities are the most effective ways to reduce sunscald (CTIFL,
+2011; Yahia and Brecht, 2012).
+166                                 N. Bertin
+
+
+Silvering
+
+Silvering is represented by silver-green streaks that turn yellow as the fruit
+ripens. They are due to abnormal tissue development but the actual causes are
+unknown. Symptoms are more frequent in early crops with short day-periods
+or in case of thermal shocks (low temperature) (CTIFL, 2011).
+
+
+OPTIMIZING FRUIT QUALITY THROUGH MODELLING
+APPROACH
+As previously discussed, all the major traits of quality result from complex
+interactions and regulation loops among numerous processes, regulated at the
+plant and fruit levels. These processes are controlled by interactions between
+genetic, environmental and management (G×E×M) factors and the qualities
+of a given genotype under contrasted environments are hardly predictable.
+Significant variations in all quantitative traits of quality have been reported
+in response to G×E×M interactions (Causse et al., 2003; Bertin et al., 2009;
+Prudent et al., 2009). A multi-site experiment including 42 tomato genotypes
+revealed as much as 211% change in performance of some genotypes in a
+particular location. Lycopene was found to be most influenced by the envir-
+onment, whereas total acidity was the least influenced (Panthee et al., 2012).
+Such interactions are difficult for breeders and producers to handle and multi-
+site tests are necessary for developing varieties that will perform consistently
+well across multiple environments. However, exploring all G×E×M combin-
+ations by experiments is an endless task. An alternative approach relies on the
+development of process-based simulation models (PBSMs) (Bertin et al., 2010;
+Kromdijk et al., 2014; Bertin and Génard, 2018). Indeed PBSMs allow complex
+traits, such as quality, to be unravelled by simulating interactions among the
+various components or processes that underlie the trait of interest. Moreover,
+G×E×M interactions are emergent properties of simulation models, i.e. unex-
+pected properties generated by complex interconnections between subsystem
+components and biological processes. In this perspective, bottom-up (based on
+mechanistic knowledge of underlying processes), top-down (statistical regres-
+sion to establish links between data and phenotype) or middle-out (combin-
+ation of bottom-up and top-down) modelling approaches have been developed
+(Génard et al., 2007; Yin and Struik, 2010) (Fig. 5.10). In these models, the
+so-called component traits are characterized in terms of model parameters,
+which instead of the complex trait itself may subsequently be linked to under-
+lying genetic variations (Fig. 5.11).
+     Several predictive models of the processes involved in the quality of fruit
+have been developed (Martre et al., 2011). Concerning tomato growth,
+we can report a model of cell division and endoreduplication (Bertin et al.,
+2007) and a model of cell expansion related to carbon and water fluxes
+                                        Fruit Quality                                              167
+
+
+
+                              Plant control
+                              Xylem mineral concentrations
+                              Phloem sugar and mineral concentrations
+                              Phloem and xylem water potential
+
+
+
+                                      Fruit
+                                      Phloemic and xylemic flows
+                                      Transpiratory flow
+                                      Photosynthesis                                  Fruit
+                                      Respiratory flow
+                                      Ethylene flow
+                                      Tissues growth coordination
+
+
+
+
+                               Skin area and biophysical characteristics      Epicarp (skin)
+                               Gas concentrations
+                                                                                               Mesocarp
+                               Biophysical characteristics of vessels
+ Genetic &                     Osmotic and turgor pressures
+ environmental                 Tissue
+ control
+                               Carbon and water status
+ Humidity, temperature,        Respiration
+ solar radiation               Tissue size: competition between cells
+                               for resources
+                               Biophysical characteristics
+                                                                              Endocarp         Seed
+
+
+                               Division, differentiation, endoreduplication
+                               and expansion
+                               Sugar, acid and ethylene metabolism
+                               Thermodynamic conditions of transport
+                               Biophysical characteristics of cells
+
+                               Cell
+                                                                                         Cells
+
+                                           Virtual Fruit
+
+
+Fig. 5.10. Schematic presentation of the virtual fruit model organization in levels
+and objects (right). For each level, constraints on the lower level are given in the
+lower part of the box and initiating conditions are given in the upper part of the
+box. (Génard et al., 2007, reprinted by permission of the Society for Experimental
+Biology.)
+
+(Liu et al., 2007). Concerning fruit composition, rare models of sugar and acid
+metabolism have been developed for peach (Génard et al., 2003; Lobit et al.,
+2003, 2006). These models could be easily transferred to tomato, taking ac-
+count of species-dependent control of sugar and acid metabolisms. Several
+PBSMs that predict fruit quality as a function of the environment or crop man-
+agement are now available. The next important steps to progress in this field
+will be: (i) the integration of the sub-models to consider the complex inter-
+actions and feedback regulations across the various organizational levels
+(Fig. 5.10); and (ii) the coverage of the genetic and molecular control on the
+modelled processes.
+168                                                  N. Bertin
+
+
+
+                                  Yes? Create new perturbations
+
+                                          Observed                     match?                         Predicted
+                                            Trait           No?                                       Trait
+                                                            Adjust or reshape model
+
+                        Perturbations                          Component               model
+                                                                 trait
+                          Crop                                               Component
+                       management                                           ?  trait?     ?
+                                                                                       Component
+                                                                      Component
+                         Genotype                               ?        trait
+                                                                                          trait
+
+
+                                                                                          ?
+                       Environment                                                     Component
+                                                          Component    Component         trait?
+                                                            trait        trait     ?
+
+
+   Model development
+
+
+
+
+                               Mapping population
+                               Genetic variation                                              Trait     Predicted
+                                                                                                        Trait
+                                                    parameter value
+                                                    prediction               virtual ideotype
+          mapping                                   by QTL          Virtual
+                                                                    pheno- and
+                                                                    ideo-typing
+                              model                    QTL-based model
+                                                                                              Marker-assisted
+           Component
+              trait                                   QTL                                     breeding
+
+                              Component
+                  Component
+                     trait
+                                 trait                      QTL         QTL
+                                                                                              Trait       Trait
+      Component
+         trait
+                  Component
+                     trait                          QTL      QTL                         New cultivar
+
+  Model-based marker-assisted breeding
+
+
+Fig. 5.11. Scheme of recommended workflow to use the combination of
+physiological modelling and breeding based on molecular markers. First, model
+development takes place by decomposing complex traits into components
+(characterized in terms of model parameters). To find reliable values for these
+model parameters, various perturbations are applied and the resulting data are
+used to evaluate or calibrate the model. Next, sensitivity analysis is applied to
+find influential component traits, which are selected for mapping on to marker-
+defined chromosomal regions. These model parameter values can subsequently
+be predicted by means of the identified correlations with one or various QTLs.
+The resulting QTL-based version of the model allows prediction of phenotypic
+traits based on QTLs and as such can also predict performance of novel QTL
+                                     Fruit Quality                               169
+
+
+     Current fruit models have been developed either at cell or at organ level
+(one big cell model) (Génard et al., 2007). Actually, the cell level is likely to
+be the elementary level for mechanistic modelling of fruit which will further
+allow linking of the fruit model with cellular models describing complex meta-
+bolic pathways and molecular regulatory networks. Therefore, modelling the
+way in which cell division and expansion progress together is crucial to under-
+standing the emergence of specific morphological traits (Baldazzi et al., 2012).
+Recently, models integrating cell division, cell expansion and DNA endoredupli-
+cation in the tomato fruit have been proposed (Fanwoua et al., 2013; Baldazzi
+et al., 2017). At a higher scale of integration, the virtual tomato model has
+been connected to a plant model describing water and carbon fluxes in the
+plant architecture, and the induced gradients of water potential and phloem
+sap concentration in carbon within the plant (Baldazzi et al., 2013). Such inte-
+grated models centred on the fruit open new perspectives to integrate informa-
+tion on the molecular control of fruit cellular processes into the fruit model and
+to analyse the effects of G×E×M interactions on fruit quality. Yet the prediction
+of other traits of quality including the accumulation of healthy compounds
+such as vitamins and carotenoids still needs some developments.
+     Covering the genetic control in plant and fruit models is still far from satis-
+factory, despite promising approaches (Bertin et al., 2010). Model parameters
+are considered as either generic parameters when they do not vary among
+genotypes, or as genotypic parameters (also called genetic coefficients) when
+they are genotype-dependent. Each set of gene or allele combination is repre-
+sented by a set of parameters and the phenotype can then be simulated in ­silico
+under various environmental and management conditions. This i­mplies that
+model parameters are usually specific to one genotype, restricting the validity
+range of the model itself. To overcome this limitation, the values of the geno-
+typic parameters have to be predicted depending on combinations of QTLs
+(QTL-based models), alleles or genes (gene-based models) involved in the pro-
+cess that is modelled. Until now only a few genotypic parameters (i.e. allelic vari-
+ants) have been advantageously introduced into simulation models. Regarding
+fruit quality, a QTL-based model of peach quality (Quilot et al., 2005) and a
+model of tomato sugar composition (Prudent et al., 2011) have been proposed.
+The model-based approach has clear benefits over traditional QTL mapping,
+
+
+Fig. 5.11. Continued.
+combinations or different growth environments or management practices, i.e.
+virtual phenotyping. This procedure can be used to derive virtual ideotypes,
+which can be realized by means of marker-assisted breeding. In this way, trait
+improvement can be reached in a fast and efficient way; namely, more QTLs
+are identified; QTLs are likely to be more robust, and when the environment is
+known, it is more straightforward to identify which markers will give the largest
+trait improvement. (Kromdijk et al., 2014, reprinted by permission of the Society for
+Experimental Biology.)
+170                                     N. Bertin
+
+
+since more QTLs are usually identified that tend to be more stable and the im-
+portance of which can be ranked under varying conditions. However, its wider
+implementation is hampered by the lack of genetic information on the traits
+and processes simulated by models, and also by the low degree of function-
+ality of current PBSMs, which should be further refined in order to bind model
+parameters and physiological components. An important issue of simulating
+G×E×M interactions is the design of ideotypes or QTL/gene combinations
+relevant to optimizing fruit growth and quality under specific conditions by
+multi-criteria optimization methods (Quilot-Turion et al., 2012; Génard et al.,
+2016; Constantinescu et al., 2016), adding genetic constraints to account for
+pleiotropic and linkage effects (Quilot-Turion et al., 2016).
+
+
+CONCLUSION
+
+The various components of tomato quality are involved in many plant biological
+functions as well as being essential for a healthy and hedonic human diet. Thus
+improving fruit quality as a whole is a top priority. The increasing knowledge of
+the genetic and molecular controls of many traits of quality, the development
+of high-throughput methods for plant and fruit phenotyping under varying en-
+vironments and the development of integrative approaches to unravel G×E×M
+interactions should rapidly contribute to this objective. Interestingly, most of
+the chemical components that contribute to the health value of fruits are also
+involved in plant adaptation and defence against stress. Thus, meeting the social
+demand for high-quality fruits is likely to be favourable in facing the urgent need
+to reduce inputs of water, fertilizers and pesticides in intensive production sys-
+tems. Yet, finding viable compromises between yield and quality remains a chal-
+lenge. In tomato this should be facilitated by the large genetic resources, such as
+near-isogenic lines, mutants, transgenics and mapping populations presenting
+interesting variability in size and composition of fruit.
+
+
+REFERENCES
+
+Abbott, J.A. (1999) Quality measurement of fruit and vegetables. Postharvest Biology
+    and Technology 15, 207–225. doi: 10.1016/S0925-5214(98)00086-6.
+Abeles, F.B., Morgan, P.W. and Saltveit, M.E. (1992) Ethylene in Plant Biology, 2nd edn.
+    Academic Press, San Diego, California.
+Alba, R., Cordonnier-Pratt, M.M. and Pratt, L.H. (2000) Fruit-localized phytochromes
+    regulate lycopene accumulation independently of ethylene production in tomato.
+    Plant Physiology 123, 363–370. doi: ​10.​1104/​pp.​123.​1.​363.
+Albert, E., Gricourt, J., Bertin, N., Bonnefoi, J., Pateyron, S. et al. (2015) Genotype by
+    watering regime interaction in cultivated tomato: lessons from linkage mapping
+    and gene expression. Theoretical and Applied Genetics 129, 395–418. doi: 10.1007/
+    s00122-015-2635-5.
+                                         Fruit Quality                                      171
+
+
+Albert, E., Segura, V., Gricourt, J., Bonnefoi, J., Derivot, L. and Causse, M. (2016)
+     Association mapping reveals the genetic architecture of tomato response to water
+     deficit: focus on major fruit quality traits. Journal of Experimental Botany 67(22),
+     6413–6430. doi: 10.1093/jxb/erw411.
+Almeida, D.P.F. and Huber, D.J. (1999) Apoplastic pH and inorganic ion levels in tomato
+     fruit: a potential means for regulation of cell wall metabolism during ripening.
+     Physiologia Plantarum 105, 506–512. doi: 10.1034/j.1399-3054.1999.105316.x.
+Aurand, R., Faurobert, M., Page, D., Maingonnat, J.F., Brunel, B., Causse, M. and
+     Bertin, N. (2012) Anatomical and biochemical trait network underlying gen-
+     etic variations in tomato fruit texture. Euphytica 187, 99–116. doi: 10.1007/
+     s10681-012-0760-7.
+Baldazzi, V., Bertin, N., Jong, H.D. and Genard, M. (2012) Towards multiscale plant
+     models: integrating cellular networks. Trends in Plant Science 17, 728–736. doi:
+     10.1016/j.tplants.2012.06.012.
+Baldazzi, V., Pinet, A., Vercambre, G., Benard, C., Biais, B. and Génard, M. (2013)
+     In-silico analysis of water and carbon relations under stress conditions. A mul-
+     ti-scale perspective centered on fruit. Frontiers in Plant Science 4. doi: 10.3389/
+     fpls.2013.00495.
+Baldazzi, V., Génard, M. and Bertin, N. (2017) Cell division, endoreduplication and ex-
+     pansion processes: setting the cell and organ control into an integrated model of
+     tomato fruit development. Acta Horticulturae 1182, 257–264.
+Baldwin, E.A., Goodner, K. and Plotto, A.J. (2008) Interaction of volatiles, sugars, and
+     acids on perception of tomato aroma and flavor descriptors. Journal of Food Science
+     73(6), S294–307.
+Barrett, D.M., Garcia, E. and Wayne, J.E. (1998) Textural modification of processing
+     tomatoes. Critical Reviews in Food Science and Nutrition 38, 173–258. doi:
+     10.1080/10408699891274192.
+Barrett, D.M., Beaulieu, J.C. and Shewfelt, R. (2010) Color, flavor, texture, and nutri-
+     tional quality of fresh-cut fruits and vegetables: desirable levels, instrumental and
+     sensory measurement, and the effects of processing. Critical Reviews in Food Science
+     and Nutrition 50, 369–389. doi: 10.1080/10408391003626322.
+Baxter, C., Carrari, F., Bauke, A., Overy, S., Hill, S.A. et al. (2005) Fruit carbohydrate me-
+     tabolism in an introgression line of tomato with increased fruit soluble solids. Plant
+     Cell Physiology 46, 425–437. doi: 10.1093/pcp/pci040.
+Beckles, D.M., Hong, N., Stamova, L. and Luengwilai, K. (2012) Biochemical fac-
+     tors contributing to tomato fruit sugar content: a review. Fruits 67, 49–64. doi:
+     10.1051/fruits/2011066.
+Bénard, C., Gautier, H., Bourgaud, F., Grasselly, D., Navez, B. et al. (2009) Effects of low ni-
+     trogen supply on tomato (Solanum lycopersicum) fruit yield and quality with special
+     emphasis on sugars, acids, ascorbate, carotenoids, and phenolic compounds. Journal
+     of Agricultural and Food Chemistry 57, 4112–4123. doi: 10.1021/jf8036374.
+Bertin, N. (2005) Analysis of the tomato fruit growth response to temperature and
+     plant fruit load in relation to cell division, cell expansion and DNA endoreduplica-
+     tion. Annals of Botany 95, 439–447. doi: 10.1093/aob/mci042.
+Bertin, N. and Génard, M. (2018) Tomato quality as influenced by preharvest factors. Scientia
+     Horticulturae 233, 264–276; https://doi.org/10.1016/j.scienta.2018.01.056.
+Bertin, N., Borel, C., Brunel, B., Cheniclet, C. and Causse, M. (2003) Do genetic makeup
+     and growth manipulation affect tomato fruit size by cell number, or cell size and
+172                                      N. Bertin
+
+
+     DNA endoreduplication? Annals of Botany 92, 415–424. doi: 10.1093/aob/
+     mcg146.
+Bertin, N., Lecomte, A., Brunel, B., Fishman, S. and Génard, M. (2007) A model de-
+     scribing cell polyploidization in tissues of growing fruit as related to cessation of
+     cell proliferation. Journal of Experimental Botany 58, 1003–1013. doi: https://doi.
+     org/10.1093/jxb/erm052.
+Bertin, N., Causse, M., Brunel, B., Tricon, D. and Génard, M. (2009) Identification of
+     growth processes involved in QTLs for tomato fruit size and composition. Journal
+     of Experimental Botany 60, 237–248. doi: https://doi.org/10.1093/jxb/ern281.
+Bertin, N., Martre, P., Génard, M., Quilot, B. and Salon, C. (2010) Why and how can
+     process-based simulation models link genotype to phenotype for complex traits?
+     Case-study of fruit and grain quality traits. Review article. Journal of Experimental
+     Botany 61, 955–967. doi: 10.1093/jxb/erp377.
+Bhagwat, S., Haytowitz, D.B. and Holden, J.M. (2014) USDA Database for the Flavonoid
+     Content of Selected Foods, Release 3.1. US Department of Agriculture, Agricultural
+     Research Service. Nutrient Data Laboratory Home Page. Available at: http://www.
+     ars.usda.gov/nutrientdata/flav (accessed 19 January 2018).
+Bourne, M.C. (2002) Food Texture and Viscosity: Concept and Measurement, 2nd edn.
+     Academic Press, San Diego, California.
+Buttery, R.G. (1993) Quantitative and sensory aspects of flavor of tomato and other
+     vegetable and fruits. In: Acree, T.E. and Teranishi, R. (eds) Flavor Science: Sensible
+     Principles and Techniques. ACS, Washington, DC, pp. 259–286.
+Cantwell, M. (2000) Optimum procedures for ripening tomatoes. In: Management of
+     Fruit Ripening. University of California Postharvest Horticultural Series No. 9,
+     University of California, Davis, California, pp. 80–88.
+Cantwell, M. (2010) Optimum procedures for ripening tomatoes. In: Thompson, J.T. and
+     Crisosto, C. (eds) Fruit Ripening and Ethylene Management. University of California
+     Postharvest Horticulture Series No. 9. University of California, Davis, California,
+     pp. 106–116.
+Causse, M., Saliba-Colombani, V., Lecomte, L., Duffe, P., Rousselle, P. and Buret, M.
+     (2002) QTL analysis of fruit quality in fresh market tomato: a few chromo-
+     some regions control the variation of sensory and instrumental traits. Journal of
+     Experimental Botany 53, 2089–2098. doi: https://doi.org/10.1093/jxb/erf058.
+Causse, M., Buret, M., Robini, K. and Verschave, P. (2003) Inheritance of nutritional
+     and sensory quality traits in fresh market tomato and relation to consumer prefer-
+     ences. Journal of Food Science 68, 2342–2350. doi: 10.1111/j.1365-2621.2003.
+     tb05770.x.
+Causse, M., Friguet, C., Coiret, C., Lépicier, M., Navez, B. et al. (2010) Consumer
+     preferences for fresh tomato at the European scale: a common segmen-
+     tation on taste and firmness. Journal of Food Science 75(9), S531–41. doi:
+     10.1111/j.1750-3841.2010.01841.x.
+Causse, M., Stevens, R., Ben Amor, B., Faurobert, M. and Munos, S. (2011) Breeding
+     for fruit quality in tomato. In: Jenks, M.A. and Bebeli, P.J. (eds) Breeding for Fruit
+     Quality. Wiley-Blackwell, Oxford, pp. 279–305.
+Chaïb, J., Devaux, M.-F., Grotte, M.G., Robini, K., Causse, M., Lahaye, M. and Marty, I.
+     (2007) Physiological relationships among physical, sensory, and morphological
+     attributes of texture in tomato fruits. Journal of Experimental Botany 58, 1915–1925.
+     doi: 10.1093/jxb/erm046.
+                                       Fruit Quality                                    173
+
+
+Cheniclet, C., Rong, W.Y., Causse, M., Frangne, N., Bolling, L., Carde, J.P. and Renaudin,
+     J.-P. (2005) Cell expansion and endoreduplication show a large genetic variability
+     in pericarp and contribute strongly to tomato fruit growth. Plant Physiology 139,
+     1984–1994. doi: http:/​/​dx.​doi.​org/​10.​1104/​pp.​105.​068767.
+Chevalier, C., Nafati, M., Mathieu-Rivet, E., Bourdon, M., Frangne, N. et al. (2011)
+     Elucidating the functional role of endoreduplication in tomato fruit development.
+     Annals of Botany 107(7), 1159–1169. doi: 10.1093/aob/mcq257.
+Constantinescu, D., Memmah, M.-M., Vercambre, G., Génard, M., Baldazzi, V. et al.
+     (2016) Model-assisted estimation of the genetic variability in physiological param-
+     eters related to tomato fruit growth under contrasted water conditions. Frontiers in
+     Plant Science 7, 1841. doi: 10.3389/fpls.2016.01841.
+Cosgrove, D.J. (1997) Relaxation in a high-stress environment: the molecular bases of
+     extensible cell walls and cell enlargement. Plant Cell 9, 1031–1041. doi: 10.1105/
+     tpc.9.7.1031.
+CTIFL (2011) Hortipratic Tomate: Qualité et Preferences. Centre Technique Interprofessionnel
+     des Fruits et Légumes, Paris.
+Davies, J.N. and Hobson, G.E. (1981) The constituents of tomato fruit – the influence of
+     environment, nutrition, and genotype. Critical Reviews in Food Science and Nutrition
+     15, 205–280. doi: 10.1080/10408398109527317.
+De Veylder, L., Beemster, G.T.S., Beeckman, T. and Inzé, D. (2001) CKS1At over-
+     expression in Arabidopsis thaliana inhibits growth by reducing meristem size
+     and inhibiting cell cycle progression. The Plant Journal 25, 617–626. doi:
+     10.1046/j.1365-313x.2001.00996.x.
+Dorais, M., Papadopoulos, A.P. and Gosselin, A. (2001) Influence of electric conduct-
+     ivity management on greenhouse tomato yield and fruit quality. Agronomie 21,
+     367–383. doi: 10.1051/agro:2001130.
+Dorais, M., Demers, D.-A., Papadopoulos, A.P. and Van Ieperen, W. (2004) Greenhouse
+     tomato fruit cuticle cracking. Horticultural Reviews 30, 163–184. doi:
+     10.1002/9780470650837.ch5.
+Dorais, M., Ehret, D.L. and Papadopoulos, A.P. (2008) Tomato (Solanum lycopersicum)
+     health components: from the seed to the consumer. Phytochemistry Reviews 7(2),
+     231–250. doi 10.1007/s11101-007-9085-x.
+Ehret, D.L. and Ho, L.C. (1986) The effects of salinity on dry matter partitioning and
+     fruit growth in tomatoes grown in nutrient film culture. Journal of Horticultural
+     Science 61, 361–367. doi: 10.1080/14620316.1986.11515714.
+Etienne, A., Genard, M., Lobit, P., Mbeguie-A-Mbeguie, D. and Bugaud, C. (2013)
+     What controls fleshy fruit acidity? A review of malate and citrate accumulation
+     in fruit cells. Journal of Experimental Botany 64, 1451–1469. doi: https://doi.
+     org/10.1093/jxb/ert035.
+Fanciullino, A.L., Bidel, L.P.R. and Urban, L. (2014) Carotenoid responses to environ-
+     mental stimuli: integrating redox and carbon controls into a fruit model. Plant, Cell
+     & Environment 37, 273–289. doi: 10.1111/pce.12153.
+Fanwoua, J., de Visser, P.H.B., Heuvelink, E., Yin, X., Struik, P.C. and Marcelis, L.F.M.
+     (2013) A dynamic model of tomato fruit growth integrating cell division, cell
+     growth and endoreduplication. Functional Plant Biology 40(11), 1098–1114.
+Frary, A., Göl, D., Keleş, D., Ökmen, B., Pınar, H. et al. (2010) Salt tolerance in Solanum
+     pennellii: antioxidant response and related QTL. BMC Plant Biology 10, 58–74. doi:
+     10.1186/1471-2229-10-58.
+174                                       N. Bertin
+
+
+Fraser, P.D., Truesdale, M.R., Bird, C.R., Schuch, W. and Bramley, P.M. (1994) Carotenoid
+     biosynthesis during tomato fruit development – evidence for tissue-specific gene
+     expression. Plant Physiology 105, 405–413. doi: http:/​/​dx.​doi.​org/​10.​1104/​pp.​
+     105.​1.​405.
+Gautier, H., Diakou-Verdin, V., Bénard, C., Reich, M., Buret, M. et al. (2008) How does
+     tomato quality (sugar, acid, and nutritional quality) vary with ripening stage,
+     temperature, and irradiance? Journal of Agriculture and Food Chemistry 56, 1241–
+     1250. doi: 10.1021/jf072196t.
+Gautier, H., Massot, C., Stevens, R., Serino, S. and Genard, M. (2009) Regulation of
+     tomato fruit ascorbate content is more highly dependent on fruit irradiance than
+     leaf irradiance. Annals of Botany 103, 495-504. doi: https://doi.org/10.1093/
+     aob/mcn233.
+Génard, M., Lescourret, F., Gomez, L. and Habib, R. (2003) Changes in fruit sugar con-
+     centrations in response to assimilate supply, metabolism and dilution: a modeling
+     approach applied to peach fruit (Prunus persica). Tree Physiology 23, 373–385.
+     PMID: 12642239.
+Génard, M., Bertin, N., Borel, C., Bussières, P., Gautier, H. et al. (2007) Towards a vir-
+     tual fruit focusing on quality: modelling features and potential uses. Journal of
+     Experimental Botany 58, 917–928. doi: https://doi.org/10.1093/jxb/erl287.
+Génard, M., Memmah, M.-M., Quilot-Turion, B., Vercambre, G., Baldazzi, V. et al. (2016)
+     Process-based simulation models are essential tools for virtual profiling and design
+     of ideotypes: example of fruit and root. In: Yin, X and Struik, P.C. (eds) Crop Systems
+     Biology: Narrowing the Gaps Between Crop Modelling and Genetics. Springer, Zurich,
+     pp.83-104.
+Giovannoni, J.J. (2004) Genetic regulation of fruit development and ripening. Plant Cell
+     16, S170–S180. doi: http:/​/​dx.​doi.​org/​10.​1105/​tpc.​019158.
+Grandillo, S., Ku, H.M. and Tanksley, S.D. (1999) Identifying the loci responsible for nat-
+     ural variation in fruit size and shape in tomato. Theoretical and Applied Genetics 99,
+     978–987. doi: 10.1007/s001220051405.
+Guichard, S., Bertin, N., Leonardi, C. and Gary, C. (2001) Tomato fruit quality in re-
+     lation to water and carbon fluxes. Agronomie 21, 385–392. doi: 10.1051/
+     agro:2001131.
+Guo, F., Zhou, W., Zhang, J., Xu, Q. and Deng, X. (2012) Effect of the citrus lycopene
+     β-cyclase transgene on carotenoid metabolism in transgenic tomato fruits. PLoS
+     ONE 7(2), e32221. doi: 10.1371/journal.pone.0032221.
+Hao, X.M. and Papadopoulos, A.P. (2003) Effects of calcium and magnesium on
+     growth, fruit yield and quality in a fall greenhouse tomato crop grown on rock-
+     wool. Canadian Journal of Plant Science 83(4), 903–912. doi: 10.4141/P02-140.
+Harker, F.R., Maindonald, J., Murray, S.H., Gunson, F.A., Hallett, I.C. and Walker, S.B.
+     (2002) Sensory interpretation of instrumental measurements 1: texture of
+     apple fruit. Postharvest Biology and Technology 24, 225–239. doi: 10.1016/
+     S0925-5214(01)00158-2.
+Ho, L.C. (1996) Tomato. Marcel Dekker Inc., New York.
+Ho, L.C. (2003) Improving tomato fruit quality by cultivation. In: Cockshull, K.E., Gray, D.,
+     Seymour, G.B. and Thomas, B. (eds) Genetic and Environmental Manipulation of
+     Horticultural Crops. CABI Publishing, Wallingford, pp. 17–29.
+Ho, L.C. and White, P.J. (2005) A cellular hypothesis for the induction of blossom-end
+     rot in tomato fruit. Annals of Botany 95, 571–581. doi:10.1093/aob/mci065.
+                                        Fruit Quality                                    175
+
+
+Joubès, J. and Chevalier, C. (2000) Endoreduplication in higher plants. Plant Molecular
+     Biology 43, 735–745.
+Klee, H.J. and Tieman, D.M. (2013) Genetic challenges of flavour improvement in to-
+     mato. Trends in Genetics 29(4), 257–262. doi: 10.1016/j.tig.2012.12.003.
+Koricheva, J. (1999) Interpreting phenotypic variation in plant allelochemistry: prob-
+     lems with the use of concentrations. Oecologia 119, 467–473. doi: 10.1007/
+     s004420050809.
+Kromdijk, J., Bertin, N., Heuvelink, E., Molenaar, J., de Visser, P.H.B., Marcelis, L.F.M.
+     and Struik, P.C. (2014) Crop management impacts the efficiency of quantitative
+     trait loci (QTL) detection and use – case study of fruit load × QTL interactions.
+     Opinion paper. Journal of Experimental Botany 65(1), 11–22. doi: 10.1093/jxb/
+     ert365.
+Krumbein, A. and Auerswald, H. (1998) Characterization of aroma volatiles in toma-
+     toes by sensory analyses. Nahrung 42(6), 395–399. PMID: 9881368.
+Labate, J.A., Grandillo, S., Fulton, T., Munos, S., Caicedo, A.L. et al. (2007) Tomato. In:
+     Kole, C. (ed.) Genome Mapping and Molecular Breeding in Plants. Springer, Berlin, pp.
+     1–125.
+Lecomte, L., Duffe, P., Buret, M., Servin, B., Hospital, F. and Causse, M. (2004) Marker-
+     assisted introgression of 5 QTLs controlling fruit quality traits into three tomato
+     lines revealed interactions between QTLs and genetic backgrounds. Theoretical and
+     Applied Genetics 109, 658–668. doi: 10.1007/s00122-004-1674-0.
+Leiva-Neto, J.T., Grafi, G., Sabelli, P.A., Woo, Y.M., Dante, R.A. et al. (2004) A dominant
+     negative mutant of cyclin-dependent kinase A reduces endoreduplication but not
+     cell size or gene expression in maize endosperm. The Plant Cell 16, 1854–1869. doi:
+     10.1105/tpc.022178.
+Lewinsohn, E., Schalechet, F., Wilkinson, J., Matsui, K., Tadmor, Y. et al. (2001) Enhanced
+     levels of the aroma and flavor compound s-linalool by metabolic engineering of
+     the terpenoid pathway in tomato fruits. Plant Physiology 127(3), 1256–1265.
+     doi/10.1104/pp.010293.
+Lin, T., Zhu, G., Zhang, J., Xu, X., Yu, Q. et al. (2014) Genomic analyses provide insights
+     into the history of tomato breeding. Nature Genetics 46(11), 1220–1226. doi:
+     10.1038/ng.3117.
+Liu, H., Genard, M., Guichard, S. and Bertin, N. (2007) Model-assisted analysis of to-
+     mato fruit growth in relation to carbon and water fluxes. Journal of Experimental
+     Botany 58, 3567–3580. doi: 10.1093/jxb/erm20.
+Liu, Y.S., Gur, A., Ronen, G., Causse, M., Damidaux, R. et al. (2003) There is more to
+     tomato fruit colour than candidate carotenoid genes. Plant Biotechnology Journal
+     1(3), 195–207. doi: 10.1046/j.1467-7652.2003.00018.x.
+Lobit, P., Génard, M., Wu, B.H., Soing, P. and Habib, R. (2003) Modelling citrate me-
+     tabolism in fruits: responses to growth and temperature. Journal of Experimental
+     Botany 54, 2489–2501. doi: 10.1093/jxb/erg264.
+Lobit, P., Génard, M., Soing, P. and Habib, R. (2006) Modelling malic acid accumulation
+     in fruits: relationships with organic acids, potassium, and temperature. Journal of
+     Experimental Botany 57, 1471–1483. doi: 10.1093/jxb/erj128.
+Lockhart, J. (1965) Cell extension. In: Bomaer, J. and Varner, J.E. (eds) Plant Biochemistry.
+     Academic Press, New York, pp. 827–849.
+Lytovchenko, A., Eickmeier, I., Pons, C., Osorio, S., Szecowka, M. et al. (2011) Tomato
+     fruit photosynthesis is seemingly unimportant in primary metabolism and
+176                                       N. Bertin
+
+
+     ripening but plays a considerable role in seed development. Plant Physiology 157(4),
+     1650–1663. doi: 10.​1104/​pp.​111.​186874.
+Martre, P., Bertin, N., Salon, C. and Génard, M. (2011) Modelling the size and compos-
+     ition of fruit, grain and seed by process-based simulation models. New Phytologist
+     Tansley Review 191, 601–618. doi: 10.1111/j.1469-8137.2011.03747.x.
+Massot, C., Génard, M., Stevens, R., and Gautier, H. (2010) Fluctuations in sugar con-
+     tent are not determinant in explaining variations in vitamin C in tomato fruit. Plant
+     Physiology and Biochemistry 48, 751–757. doi: 10.1016/j.plaphy.2010.06.001.
+Massot, C., Bancel, D., Lauri, F., Truffault, V., Baldet, P., Stevens, R. and Gautier, H.
+     (2013) High temperature inhibits ascorbate recycling and light stimulation of the
+     ascorbate pool in tomato despite increased expression of biosynthesis genes. PLoS
+     One 8(12), e84474. doi: 10.1371/journal.pone.0084474.s001.
+Mathieu, S., Dal Cin, V., Fei, Z., Li, H., Bliss, P. et al. (2009) Flavour compounds in tomato
+     fruits: identification of loci and potential pathways affecting volatile composition.
+     Journal of Experimental Botany 60(1), 325–337. doi: 10.1093/jxb/ern294.
+Maul, F., Sargent, S.A., Balaban, M.O., Baldwin, E.A., Huber, D.J. and Sims, C.A. (1998)
+     Aroma volatile profiles from ripe tomato fruit are influenced by physiological
+     maturity at harvest: an application for electronic nose technology. Journal of the
+     American Society for Horticultural Science 123(6), 1094–1101.
+Mizrahi, Y., Taleisnik, E., Kagan-Zur, V., Zohar, Y., Offenbach, R., Matan, E. and Golan, R.
+     (1988) A saline irrigation regime for improving tomato fruit quality without redu-
+     cing yield. Journal of the American Society for Horticultural Science 113, 202–205.
+Panthee, D.R., Cao, C., Debenport, S.J., Rodríguez, G.R., Labate, J.A. et al. (2012)
+     Magnitude of genotype × environment interactions affecting tomato fruit quality.
+     HortScience 47(6), 721–726.
+Passam, H.C., Karapanos, I.C., Bebeli, P.J. and Savvas, D. (2007) A review of recent re-
+     search on tomato nutrition, breeding and post-harvest technology with reference
+     to fruit quality. European Journal of Plant Science and Biotechnology 1, 1–21.
+Poiroux-Gonord, F., Bidel, L.P.R., Fanciullino, A.-L., Gautier, H., Lauri-Lopez, F. and
+     Urban, L. (2010) Health benefits of vitamins and secondary metabolites of fruits
+     and vegetables and prospects to increase their concentrations by agronomic ap-
+     proaches. Journal of Agricultural and Food Chemistry 58, 12065–12082. doi:
+     10.1021/jf1037745.
+Poiroux-Gonord, F., Fanciullino, A.L., Poggi, I. and Urban, L. (2013) Carbohydrate con-
+     trol over carotenoid build-up is conditional on fruit ontogeny in clementine fruits.
+     Physiologia Plantarum 147, 417–431. doi: 10.1111/j.1399-3054.2012.01672.x.
+Prudent, M., Causse, M., Génard, M., Tripodi, P., Grandillo, S. and Bertin, N. (2009)
+     Genetic and physiological analysis of tomato fruit weight and composition: influ-
+     ence of carbon availability on QTL detection. Journal of Experimental Botany 60,
+     923–937. doi: 10.1093/jxb/ern338.
+Prudent, M., Lecomte, A., Bouchet, J.P., Bertin, N., Causse, M. and Génard, M. (2011)
+     Combining ecophysiological modelling and quantitative trait loci analysis to iden-
+     tify key elementary processes underlying tomato fruit sugar concentration. Journal
+     of Experimental Botany 62, 907–919. doi: 10.1093/jxb/erq318.
+Quilot, B., Kervella, J., Genard, M. and Lescourret, F. (2005) Analysing the genetic con-
+     trol of peach fruit quality through an ecophysiological model combined with a QTL
+     approach. Journal of Experimental Botany 56, 3083–3092. doi:10.1093/jxb/eri30.
+                                         Fruit Quality                                     177
+
+
+Quilot-Turion, B., Ould-Sidi, M.-M., Kadrani, A., Hilgert, N., Génard, M. and Lescourret, F.
+     (2012) Optimization of parameters of the ‘Virtual Fruit’ model to design peach
+     genotype for sustainable production systems. European Journal of Agronomy 42,
+     34–48. doi: 10.1016/j.eja.2011.11.008.
+Quilot-Turion, B., Génard, M., Valsesia, P. and Memmah, M.-M. (2016) Optimization of
+     allelic combinations controlling parameters of a peach quality model. Frontiers in
+     Plant Science 7, 1873. doi: 10.3389/fpls.2016.01873.
+Ripoll, J., Urban, L., Staudt, M., Lopez-Lauri, F., Bidel, L.P.R. and Bertin, N. (2014) Water
+     shortage and quality of fleshy fruits – making the most of the unavoidable. Review.
+     Journal of Experimental Botany 65(15), 4097–4117. doi:10.1093/jxb/eru197.
+Ripoll, J., Urban, J., Brunel, B. and Bertin, N. (2016) Water deficit effects on tomato
+     quality depend on fruit developmental stage and genotype. Journal of Plant
+     Physiology 190, 26–35. doi: 10.1016/j.jplph.2015.10.006.
+Ronen, G., Cohen, M., Zamir, D. and Hirschberg, J. (1999) Regulation of carotenoid bio-
+     synthesis during tomato fruit development: expression of the gene for lycopene epsi-
+     lon-cyclase is down-regulated during ripening and is elevated in the mutant Delta.
+     The Plant Journal 17(4), 341–351. doi: 10.1046/j.1365-313X.1999.00381.x.
+Ronen, G., Carmel-Goren, L., Zamir, D. and Hirschberg, J. (2000) An alternative pathway
+     to beta-carotene formation in plant chromoplasts discovered by map-based cloning
+     of beta and old-gold color mutations in tomato. Proceedings of the National Academy
+     of Sciences USA 97(20), 11102–11107. doi: 10.1073/pnas.190177497.
+Rosales, M.A., Cervilla, L.M., Rios, J.J., Blasco, B., Sanchez-Rodriguez, E., Romero, L. and
+     Ruiz, J.M. (2009) Environmental conditions affect pectin solubilization in cherry to-
+     mato fruits grown in two experimental Mediterranean greenhouses. Environmental
+     and Experimental Botany 67, 320–327. doi: 10.1016/j.envexpbot.2009.07.011.
+Ruggieri, V., Francese, G., Sacco, A., D’Alessandro, A., Rigano, M.M. et al. (2014) An
+     association mapping approach to identify favourable alleles for tomato fruit quality
+     breeding. BMC Plant Biology 14, 337. doi: 10.1186/s12870-014-0337-9.
+Saladié, M., Matas, A.J., Isaacson, T., Jenks, M.A., Goodwin, S.M. et al. (2007) A reeval-
+     uation of the key factors that influence tomato fruit softening and integrity. Plant
+     Physiology 144, 1012–1028. doi: http:/​/​dx.​doi.​org/​10.​1104/​pp.​107.​097477.
+Saltveit, M.E. (1999) Effect of ethylene on quality of fresh fruits and vegetables. Postharvest
+     Biology and Technology 15, 279–292. doi: 10.1016/S0925-5214(98)00091-X.
+Saltveit, M.E. and Sharaf, A.R. (1992) Ethanol inhibits ripening of tomato fruit har-
+     vested at various degrees of ripeness without affecting subsequent quality. Journal
+     of the American Society for Horticultural Science 117, 793–798.
+Sams, C.E. (1999) Preharvest factors affecting postharvest texture. Postharvest Biology
+     and Technology 15, 249–254.
+Sauvage, C., Segura, V., Bauchet, G., Stevens, R., Do, P.T. et al. (2014) Genome-wide
+     association in tomato reveals 44 candidate loci for fruit metabolic traits. Plant
+     Physiology 165(3), 1120–1132.
+Schaffer, A.A. and Petreikov, M. (1997) Sucrose-to-starch metabolism in tomato fruit
+     undergoing transient starch accumulation. Plant Physiology 113, 739–746.
+     PMID: 12223639.
+Seymour, G.B., Manning, K., Eriksson, E.M., Popovich, A.H. and King, G.J. (2002)
+     Genetic identification and genomic organization of factors affecting fruit texture.
+     Journal of Experimental Botany 53, 2065–2071. doi: 10.1093/jxb/erf087.
+178                                       N. Bertin
+
+
+Shackel, K.A., Greve, C., Labavitch, J.M. and Ahmadi, H. (1991) Cell turgor changes
+     associated with ripening in tomato pericarp tissue. Plant Physiology 97, 814–816.
+     doi: 10.1104/pp.97.2.814.
+Slimestad, R. and Verheul, M. (2009) Review of flavonoids and other phenolics from
+     fruits of different tomato (Lycopersicon esculentum Mill.) cultivars. Journal of the
+     Science of Food and Agriculture 89, 1255–1270. doi: 10.1002/jsfa.3605.
+Smirnoff, N. (2000) Ascorbic acid: metabolism and functions of a multi-facet-
+     ted molecule. Current Opinion in Plant Biology 3, 229–235. doi: 10.1016/
+     S1369-5266(00)80070-9.
+Stevens, R., Buret, M., Duffe, P., Garchery, C., Baldet, P., Rothan, C. and Causse, M.
+     (2007) Candidate genes and quantitative trait loci affecting fruit ascorbic acid
+     content in three tomato populations. Plant Physiology 143, 1943–1953. doi:
+     10.1104/pp.106.091413.
+Stevens, R., Page, D., Gouble, B., Garchery, C., Zamir, D. and Causse, M. (2008) Tomato
+     fruit ascorbic acid content is linked with monodehydroascorbate reductase activity
+     and tolerance to chilling stress. Plant, Cell and Environment 31, 1086–1096. doi:
+     10.1111/j.1365-3040.2008.01824.x.
+Szczesniak, A.S. (2002) Texture is a sensory property. Food Quality and Preference 13,
+     215–225. doi: 10.1016/S0950-3293(01)00039-8.
+Tanaka, A., Fujita, K. and Kikuchi, K. (1974) Nutrio-physiological studies on the
+     tomato plant. III. Photosynthetic rate on individual leaves in relation to dry
+     matter production of plants. Soil Science and Plant Nutrition 20, 173–183. doi:
+     10.1080/00380768.1974.10433240.
+Tanksley, S.D. (2004) The genetic, developmental, and molecular bases of fruit size and
+     shape variation in tomato. The Plant Cell 16, S181–189. doi: http:/​/​dx.​doi.​org/​10.​
+     1105/​tpc.​018119.
+Thompson, D.S. (2001) Extensiometric determination of the rheological properties of
+     the epidermis of growing tomato fruit. Journal of Experimental Botany 52, 1291–
+     1301. doi: 10.1093/jexbot/52.359.1291.
+Tieman, D., Zeigler, M., Schmelz, E., Taylor, M., Bliss, P., Kirst, M. and Klee, H. (2006)
+     Identification of loci affecting flavour volatile emissions in tomato fruits. Journal of
+     Experimental Botany 57(4), 887–896. doi: 10.1093/jxb/erj074.
+Tieman, D., Bliss, P., McIntyre, L.M., Blandon-Ubeda, A., Bies, D. et al. (2012) The chem-
+     ical interactions underlying tomato flavor preferences. Current Biology 22(11),
+     1035–1039. doi: 10.1016/j.cub.2012.04.016.
+Toivonen, P.M.A. and Brummell, D.A. (2008) Biochemical bases of appearance and tex-
+     ture changes in fresh-cut fruit and vegetables. Postharvest Biology and Technology
+     48, 1–14. doi: 10.1016/j.postharvbio.2007.09.004.
+Truffault, V., Fifel, F., Longuenesse, J.J. and Gautier, H. (2015) Impact of temperature
+     integration under greenhouse on energy use efficiency, plant growth and develop-
+     ment and tomato fruit quality depending on cultivar rootstock combination. Acta
+     Horticulturae 1099, 95–100. doi: 10.17660/ActaHortic.2015.1099.7.
+Wheeler, G.L., Jones, M.A. and Smirnoff, N. (1998) The biosynthetic pathway of vitamin
+     C in higher plants. Nature 393(6683), 365–369. doi: 10.1038/30728.
+Yahia, E.M. and Brecht, J.K. (2012) Tomatoes. In: Rees, D., Orchard, J.E. and Farrell, G.
+     (eds) Crop Post-harvest: Science and Technology. Vol. 3: Perishables. Blackwell, Oxford,
+     pp. 18–51.
+                                       Fruit Quality                                  179
+
+
+Yin, X. and Struik, P.C. (2010) Modelling the crop: from system dynamics to systems
+     biology. Journal of Experimental Botany 61, 2171–2183. doi: 10.1093/jxb/erp375.
+Zanor, M.I., Rambla, J.L., Chaïb, J., Steppa, A., Medina, A. et al. (2009) Metabolic char-
+     acterization of loci affecting sensory attributes in tomato allows an assessment of
+     the influence of the levels of primary metabolites and volatile organic contents.
+     Journal of Experimental Botany 60, 2139–2154. doi: 10.1093/jxb/erp086.
+Zegbe, J.A., Benboudian, M.H. and Clothier, B.E. (2006) Yield and fruit quality in pro-
+     cessing tomato under partial rootzone drying. European Journal Horticultural
+     Science 71, 252–258.
+Zhang, J., Zhao, J., Xu, Y., Liang, J., Chang, P. et al. (2015) Genome-wide association
+     mapping for tomato volatiles positively contributing to tomato flavor. Frontiers in
+     Plant Science 6, 1042. doi: 10.3389/fpls.2015.01042.
+Zsögön, A., Cermak, T., Voytas, D. and Peres, L.E. (2017) Genome editing as a tool to
+     achieve the crop ideotype and de novo domestication of wild relatives: case study in
+     tomato. Plant Science 256, 120–130. doi: 10.1016/j.plantsci.2016.12.012.

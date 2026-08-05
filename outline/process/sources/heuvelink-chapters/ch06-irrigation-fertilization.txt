@@ -1,0 +1,1244 @@
+                                     6
+               Irrigation and Fertilization
+           Bielinski M. Santos and Emmanuel A. Torres-Quezada
+
+
+
+
+INTRODUCTION
+
+This chapter deals with the basic principles of water and fertilizer management
+in tomato, as well as discussing the practical application of these topics in both
+open field and greenhouse production of the crop, with recommendations for
+soil and soilless conditions. Where applicable, a clear distinction between these
+two production environments is made on the particular aspects of irrigation
+and plant nutrition. However, there is a great degree of overlapping informa-
+tion that is equally pertinent to greenhouse and field production. Decisions
+on the use of certain irrigation and fertilization practices will depend on the
+specific growing conditions (e.g. soil, soilless, tomato types and cultivars, cul-
+tural practices) of each grower, as described elsewhere in this book. The basic
+principles on irrigation and fertilization cover the influence of water quality,
+irrigation requirements, plant nutrition and fertigation on tomato growth and
+yield. Sonneveld and Voogt (2009) provided specific information on water and
+fertilizer management in greenhouse crops (see also Chapter 9). Fertilization in
+organic tomato production is discussed in Chapter 11.
+
+
+WATER QUALITY AND IRRIGATION REQUIREMENTS
+
+Salinity and pH
+
+High-quality irrigation water is a prerequisite for any production system.
+Salinity level and water pH are two of the main parameters used by growers
+for crop management. Salinity is expressed by the electrical conductivity (EC)
+of a solution, in units of mS/cm (millisiemens per centimetre) or dS/m (decisie-
+mens per metre). These units represent a quantitative measure of the ability
+of a material to allow the movement of an electric charge (conductance).
+Measurements of EC are related to the total concentration of electrolytes in
+solution (dissolved salts form ionic particles, each with positive or negative
+
+180                      © CAB International 2018. Tomatoes 2nd edition (E. Heuvelink)
+                             Irrigation and Fertilization                          181
+
+
+charge). Hence, diluted salts contribute greatly to solution conductance. Soil
+EC can also be correlated with soil texture, cation exchange capacity and soil
+moisture (Grisso et al., 2009). Irrigation water EC is generally used as an indi-
+cator of total fertilizer concentration.
+      EC measurements are one of the simplest, fastest and least expensive tests
+available for growers. The test allows growers to have an indicator of the total
+concentration of ions in solution but it does not discriminate among ions in
+solution or their concentrations. This is especially important in soilless cul-
+ture, given the low buffer capacity of most soilless media. Adequate EC levels
+in t­omato production are generally managed between 1.6 and 5.0 dS/m,
+­depending on the cultivar, environmental conditions and production prac-
+ tices (Dorais et al., 2001). Too high EC in the rhizosphere can negatively affect
+ stomata conductance and leaf areas and therefore plant photosynthetic rate,
+ water and nutrient uptake, dry matter accumulation, and fruit development
+ and quality (see Chapter 4).
+      High salt concentrations in solution outside the root tissue create an equal
+ or higher osmotic potential than inside the plant tissue. Under this condition,
+ water will move out of the plant tissue by osmosis, causing stress by dehydra-
+ tion and eventual wilting (Fig. 6.1). Stomatal conductance decreases (about
+
+
+
+
+                                                    Fig. 6.1. Tomato plant subjected
+                                                    to heat and salinity stress. Leaves
+                                                    also show symptoms of calcium
+                                                    deficiency.
+182                      B.M. Santos and E.A. Torres-Quezada
+
+
+  30%) but stomata are not completely shut down, leading to desiccation and
+  loss of turgor of the cells (Wu and Kubota, 2008). Salinity in solution tends to
+  increase as water is depleted by transpiration. Furthermore, depending on the
+  concentration of ions in solution, plants can be affected by nutritional imbal-
+  ance generally associated with sodium (Na+) and chloride (Cl–) uptake, com-
+ petitive uptake, and disorders in transport and partitioning of solutes within
+ the plant.
+       Nitrogen (N-NO3–) uptake decreases under high EC concentrations, pos-
+ sibly due to an interaction between nitrate (NO3–) and Cl– at the ion transport
+  sites. Furthermore, membrane depolarization has been related to high Na+
+  concentrations (Dorais et al., 2001). Under high EC, water and nutrient up-
+  take decreases, including NO3–, which regulates nitrate reductase transcription,
+translation and activation in higher plants, thus reducing its activity. Debouba
+et al. (2007) and Martinez and Cerda (1989) showed that nitrate reductase
+­activity in tomato plants decreased by 40% when grown with 100 mM of NaCl
+ in solution.
+       The effect of high salinity depends on the specific nutrient under con-
+ sideration. A high NaCl concentration will reduce tomato yield regardless of
+ phosphorus (P) concentrations in the soil solution. However, high P concentra-
+ tions can enhance manganese (Mn) uptake and/or reduce zinc (Zn) utilization.
+ Tomato plants grown with 3 dS/m of NaCl did not suffer reduced potassium
+ (K+) uptake. However, under 5 and 8 dS/m of NaCl, K+ uptake was reduced by
+ 27% and 36% (Adams and Ho, 1995). Calcium (Ca2+) can also be displaced by
+  high Na+ concentration around cell membranes, triggering additional physio-
+ logical disorders.
+       Hot, dry conditions coupled with high salinity could cause rapid wilting
+ and permanent damage. However, the outcomes of high EC in tomato produc-
+ tion change based on the part of the plant under examination, environmental
+ conditions, cultivar, ions in solution and time of day. For example, tomato
+ grown at 17 dS/m (high EC) compared with 2 dS/m (low EC) resulted in a
+ ­reduction of fruit growth rate during daytime, with no effect on growth rate
+  at night (Ehret and Ho, 1986). Meanwhile, the effects of high salinity on fruit
+  yield are extensively reported to be detrimental. Total yield reduction under
+  high EC levels are associated with decreased fruit size and number, and devel-
+  opment of blossom-end rot, a physiological disorder related to low Ca concen-
+  tration, inadequate water supply and gene expression under stress conditions
+  (see Chapter 5) (Van Ieperen, 1996).
+       On the other hand, high EC levels can improve organoleptic and nutra-
+  ceutical features of tomato fruit and help with plant conditioning (see Chapter 5)
+  (Adams, 1991; Mitchell et al., 1991). Under high EC conditions, starch accu-
+  mulation and sucrose synthase enzyme activity are built-up in fruit, which
+  generally results in improved fruit quality (Dorais et al., 2001). Furthermore,
+  controlled high EC condition might positively affect tomato production systems.
+  During the early stages of plant establishment, high EC may strengthen cell
+                                Irrigation and Fertilization                      183
+
+
+ walls in plants. The same study reported that fruit cuticle thickness ­increased,
+ while turgor pressure and firmness decreased, making the fruit less susceptible
+ to cracking and allowing for a longer shelf-life (Dorais et al., 2001). High EC
+ concentration has also been associated with better colour indexes and reduc-
+ tion of uneven ripening. It is important to note that this would vary according
+ to cultivars.
+      Tomato crops could be grown in nutrient solutions containing 100 ppm
+ Cl– without too much difficulty, but it is recommended to use water sources
+ with < 50 ppm Na+ and < 70 ppm Cl– (OMAFRA, 2001). Adjusting the EC
+ normally allows modification of plant water availability and maintenance of
+ a healthy balance between vegetative and reproductive parts of plants (Holder
+ and Christensen, 1989). Low-quality water with relatively high concentra-
+ tions of salts, such as those containing dissolved Na+, Cl– and sulfate (SO42–),
+ should be utilized with caution in substrate and soil culture systems, as long
+ as root zones can be leached and salts removed as water moves down. It is a
+ common practice in many hydroponic systems without water recirculation to
+ flush media using frequent irrigations to prevent salt accumulation. However,
+ environmental protection measures push towards recirculation of the nutrient
+ solution, which puts much higher demands on the irrigation water and the
+ purity of the used fertilizers (e.g. Beerling et al., 2014).
+      Acceptable EC levels for irrigation water range between 0.75 dS/m in the
+ early crop stages and 1.5 dS/m during harvest. Detailed water quality stand-
+ ards for greenhouse production are presented in Table 6.1. Regardless of the
+ production system, irrigation water should be tested at least twice a year, or
+ every time a new source of water (e.g. well, river, pond or municipal system) is
+ selected for crop production. Additionally, it is important to acknowledge that
+ other salinity sources could also be present in everyday operations, such as nu-
+ trient ions dissolved in surface waters. Nutrients that have leached or drained
+ from adjacent farms or landscapes could lead to high amounts of nitrates (NO3–),
+ sulfates (SO42–) and phosphates (PO43–) in surface waters.
+      For soilless-grown greenhouse crops, the concentration of fertilizers is
+an important factor in the irrigation. When radiation and air temperature
+­increase, the water uptake rate increases at a higher rate than nutrient ­uptake.
+ Thus, the concentration of the remaining nutrient solution in the root zone
+ and salinity rise. If this effect is not controlled, both water and nutrient ­uptake
+
+
+Table 6.1. Minimum standards for greenhouse crop irrigation water (OMAFRA, 2001).
+
+Water class        ECa (dS/m)    Sodium (ppm)           Chloride (ppm)   Sulfate (ppm)
+
+1                     < 0.5            < 30                      < 50       < 100
+2                    0.5–1.0          30–60                     50–100     100–200
+3                    1.0–1.5          60–90                    100–150     200–300
+a
+ Electrical conductivity.
+184                      B.M. Santos and E.A. Torres-Quezada
+
+
+may be reduced, resulting in wilting and slower growth. Generally, this ten-
+dency is overcome by adjusting the EC of the supplied nutrient solution in
+­accordance with the climate.
+      The pH of the irrigation water is not so much of a problem in soil-grown
+ crops but it is crucial in soilless cultivation. A high pH is a risk for micronu-
+ trient availability and can cause precipitation and clogging of irrigation sys-
+ tems. The most common pH range for irrigation water is from 6.5 to 8.4. A pH
+ outside the adequate range may cause low availability of certain nutrients or
+ allow for dilution of toxic ions derived from the soil. Low salt content in irri-
+ gation water (EC < 0.2 dS/m) may also lead to a pH outside the normal range,
+ due to the low buffering capacity of the solution. One of the major problems of
+ abnormal water pH is the effect on the irrigation equipment. High pH in water
+ may be corrosive for pipelines, sprinklers and control equipment.
+      Soil buffering capacity will allow for slow changes in medium solution pH.
+ Trying to change initial pH of the water source is impractical, because any
+ introduction of an amendment will only achieve results in a few instances.
+ However, the nutrient solution pH, used for fertilization, could be adjusted as
+ long as this is done on a regular basis. In the case of production in soils, a most
+ effective approach is to try to adjust the soil pH through practices such as
+ liming or addition of elemental sulfur (S).
+
+
+Environmental conditions affecting irrigation
+
+A basic principle of irrigation is that the total amount of applied water during
+irrigation should be equal to the crop requirement plus the volume lost
+through diverse processes, such as evaporation and leaching. The irrigation
+requirement is a function of crop type, growing stage and evaporation (Dukes
+et al., 2012). The volume of water lost through evaporation from the soil and
+plant surfaces and through transpiration from leaves is termed evapotranspir-
+ation (ET). Evaporation is the process by which water is converted from liquid
+to ­vapour, while transpiration causes water loss through the leaf stomata. ET
+is affected by environmental conditions including solar radiation, air tempera-
+ture and relative humidity, as well as wind speed.
+      As water evaporates from soil or a wet surface, energy transfer occurs.
+During evaporation, water absorbs approximately 540 calories/g from the sur-
+rounding air in a process called evaporative cooling (Albregts and Howard,
+1985). Eventually, the overlying air becomes saturated with water until air
+temperature decreases below the dew point (temperature where air is saturated
+with water) and condensation begins. When both processes – evaporation and
+condensation – are equal, the relative humidity (RH) of the air will be 100%.
+High temperatures, wind and solar radiation tend to increase evaporation,
+while high RH has the opposite effect. Humidity can be expressed as abso-
+lute humidity (g/m3), vapour pressure (kPa), specific humidity (g water/kg air)
+                             Irrigation and Fertilization                     185
+
+
+or RH (ratio between the mass of water vapour in the air and the maximum
+mass it can hold at that temperature, i.e. saturation). The amount of water
+vapour that a given volume of air can hold is dependent on temperature,
+almost doubling for every 10°C rise in temperature. Transpiration rate in-
+creases as the difference between the fully saturated atmosphere inside the
+leaf (100% RH) and the water vapour content outside the leaf increases.
+Mathematically, this difference is described as vapour deficit or vapour pressure
+deficit (VPD). Since water vapour exerts pressure, VPD is expressed in units of
+pressure, such as millibars (mbar) or kPa. The transpiration rate also depends
+on the stage of growth, as well as the soil water status. Transpiration is reduced
+when VPD is too low and leaves may appear thicker and larger. Stems are also
+thick but root systems may appear weak and plants are more susceptible to dis-
+ease (OMAFRA, 2001).
+     A greenhouse irrigation system should be able to provide at least 8 l/m2
+per day (80,000 l/ha per day). A mature tomato plant may use between 2 and
+3 l/day (OMAFRA, 2003). Most of this water (90%) is used for transpiration
+and the rest for growth. Water use efficiency is much higher in greenhouses
+than in field production. To produce 1 kg of fresh tomatoes, between 15 l and
+60 l of irrigation water are required, depending on growing conditions and
+crop management (Stanghellini et al., 2003). In a survey of water productivity
+of growing systems for tomato production in Spain, it was demonstrated that
+productivity of greenhouse growing was about four times higher than in the
+field. For a given growing system (either field or greenhouse), the level of ‘man-
+agement’ of the farm could make a difference of two-and-a-half times again.
+In short, an ‘excellent’ greenhouse grower is able to produce ten times more to-
+matoes with 1 m3 of water than an ‘average’ field grower (Stanghellini, 2014).
+
+
+Irrigation scheduling
+
+Soil and soilless production: irrigation based on evapotranspiration
+The reference ET (ETo) is defined as the ET rate from an extended surface
+covered with green grass or alfalfa 8–15 cm tall, actively growing and com-
+pletely covering the ground without limiting water supply (Doorenbos and
+Pruitt, 1977). There are several methods to assess reference values for spe-
+cific production regions, including the Penman-Monteith, the Thornthwaite,
+the Hargreaves and the Hamon methods. In open field situations, the former
+is often considered the standard for estimation of water requirements for crops
+and it is expressed as water volume per surface area over time. The water use
+of the crop is obtained by multiplying the crop coefficients (Kc), which are ob-
+tained from crop water use during different growth stages, and the ETo. For
+mature tomato, the Kc during mid-season is between 0.75 and 0.90. This
+method is widely used for scheduling irrigation programmes for field-grown
+crops, including tomato.
+186                          B.M. Santos and E.A. Torres-Quezada
+
+
+Soil and soilless production: irrigation based on solar radiation
+Solar radiation is the main factor in calculating crop irrigation requirements.
+Within a day, transpiration closely follows radiation (Fig. 6.2). When radiation
+is higher, leaf temperatures increase, which in turn increases VPD and tran-
+spiration. Because of this close relationship between incoming solar radiation
+and water loss through transpiration, computerized irrigation in commercial
+greenhouses is frequently based on received solar radiation. Net radiation is
+generally equal to maximum ET, except for unusually hot and windy days,
+when ET can be 30% higher than net radiation (Tanner et al., 1960).
+     In modern, well controlled greenhouses, the adjustments to seasonal and
+even day-to-day fluctuations of radiation and temperature are part of the
+standard irrigation strategies. However, these adjustments will also take into
+account crop stage, as well as the overall strategy of EC control with regard to
+crop development and fruit quality management. At low humidity (high VPD),
+transpiration may be excessive, stressing the plant. Indications of excessive
+transpiration in greenhouse tomatoes include small thin leaves and stems but
+a strong root system (OMAFRA, 2001).
+
+       25                                                                           1000
+
+
+
+
+       20                                                                           800
+
+
+
+
+       15                                                                           600
+
+
+
+
+       10                                                                           400
+
+
+
+
+        5                                                                           200
+
+
+
+
+        0                                                                           0
+        5:30               11:30               17:30           23:30             5:30
+      14-03-’92                                                                15-03-’92
+                                              Time (h)
+
+                  Transpiration rate (mg/s)       Global radiation outside (W/m2)
+
+Fig. 6.2. Transpiration during daytime strongly correlates with solar radiation
+(greenhouse tomato crop in The Netherlands). (Reprinted, with permission, from
+Journal of Experimental Botany 45, 56, Van Ieperen and Madery, 1994.)
+                              Irrigation and Fertilization                      187
+
+
+      Inside greenhouses, VPD cannot be completely controlled. However, rais-
+ing temperatures, venting and/or air movement will generally increase VPD,
+whereas misting (fogging) will generally decrease VPD. The frequency of
+watering is also a tool in crop management. With frequent irrigation, plants
+­experience less stress because water status is more constant. In managing plant
+ growth in soilless growing systems, stress resulting from either periodic water
+ deficits or high salinity levels results in reduction of plant biomass, chlorophyll
+ content and total yield with increased electrolyte leakage (Kirnak et al., 2001).
+
+Soilless production: irrigation based on drainage
+Irrigation management in soilless media may be based on the amount of water
+draining out (also referred to as over-drainage or percentage leach). Irrigation
+will stop when a pre-established drainage percentage is collected from a col-
+lective sample of the greenhouse. More specifically, the nature of this strategy
+is based on the necessity of system uniformity and security for the grower that
+the growing media is completely wet.
+     Some overwatering may be necessary under specific conditions, especially
+in greenhouse drip irrigation systems, plant-to-plant differences and differences
+between locations. For example, outer rows may require more water than
+centre rows, given the higher radiation received from the lateral walls of the
+structure and therefore lack of plant-to-plant shade. Another example: water
+movement by capillarity may be slower compared with the reference flow in
+growing media with big particle size (e.g. perlite). Therefore, in order to ­assure
+complete water coverage in the medium, growers may intentionally allow
+drainage of water and fertilizer. Recommendations for irrigation drainage in
+soilless media change depending on the medium, season and the crop stage.
+Even though irrigation based on drainage allows for economic losses of water
+and fertilizer, it assures that, after every irrigation cycle, the medium is com-
+pletely wet again. If slabs are too dry, root hairs will be damaged, EC may be-
+come excessive, nutrient uptake may be reduced and plant growth will become
+harder. In this case, plants would have thin stems and small dark leaves. On the
+other hand, excessively wet slabs will decrease aeration, increase the potential
+for root disease and result in softer vegetative growth and poor rooting.
+     By matching the amount of water provided to plant demands, fertilizer
+runoff and water use can be minimized. In addition to adverse environmental
+impacts, provision of water in excess of plant requirements can reduce the
+amount of air available in the root zone (Adams, 1999). In the field, this is
+most frequently a problem with poorly draining soils or those with subsurface
+hardpans. In soilless culture, low oxygen levels generally occur in hot weather
+because the available oxygen in the solution decreases as the root zone tem-
+perature rises. Root zone temperatures above 25°C are said to be deleterious for
+greenhouse tomato production. Low root-zone oxygen can occur in either the
+field or the greenhouse but it is most common in peat-based greenhouse sub-
+strates, because they have a higher water-holding capacity (i.e. drain less freely
+188                      B.M. Santos and E.A. Torres-Quezada
+
+
+than stone wool or perlite). In peat, overwatering can lead to iron deficiency,
+which must be corrected with a reduction in amount of watering and an add-
+ition of iron to the feed (Adams, 1999).
+
+
+Moisture monitoring and sensors
+
+In hydroponic systems, drain measurement equipment and weighing gutters
+are commonly used to monitor irrigation. An irrigation sensor is any instru-
+ment that can measure some type of physical or chemical factor related to the
+water content of the root medium. It is important to keep in mind that all sen-
+sors have a measurement error margin. There are three key components that
+need to be considered to reduce this error: accuracy, repeatability (also called
+precision) and resolution. The ideal sensor would combine high accuracy with
+repeatability and adequate resolution, a combination that will generally result
+in increased price (Van Iersel et al., 2013).
+       Monitoring soil or medium moisture is one of the most important steps
+in preventing water stress and eventual wilting of tomato. Its importance is
+­accentuated by the role irrigation plays in nutrient distribution and uptake,
+ salt leaching and temperature control in open fields and inside protective struc-
+ tures. When designing a comprehensive water monitoring system, both open
+ field and greenhouse growers should consider three basic steps: (i) determin-
+ ation of irrigation efficiency; (ii) use of moisture sensors; and (iii) adjusting
+ according to growing stages.
+       Firstly, after the water use of the crop has been determined, the efficiency
+ of the delivery of the irrigation system (e.g. drip, subsurface, sprinkler) must be
+ verified to compensate for the water losses due to delivery. For instance, most
+ drip irrigation systems have irrigation efficiencies between 80% and 95%, in
+ comparison with approximately 60% from sprinkler irrigation. Secondly, the
+ correct use of water monitoring equipment allows growers to save water and
+ to improve crop nutrition. There are several types of monitoring sensors: two
+ of the most common are those that measure water tension and probes that
+ measure volumetric water content. Tensiometers are the most common among
+ the first group, giving a measurement of the tension at which water is retained
+ in the soil or medium pores. An increase in soil moisture causes a decline in soil
+ tension readings. These instruments are pressurized plastic ­cylinders with a
+ porous ceramic cup in the lower part, a gauge on the top and an inner chamber
+ filled with water. When the tube is inserted in the soil, water is suctioned out
+ of the tensiometer through the porous ceramic cup and a negative pressure
+ is created inside the tube, which is measured as negative pressure or tension.
+ These devices are easy to use and relatively inexpensive but require routine
+ maintenance to eliminate algae growth in the inner chamber and they can
+ only be placed in fixed locations throughout the planted fields. In most soils,
+ typical water tension at field capacity may be between 5 and 15 centibars
+                             Irrigation and Fertilization                     189
+
+
+(cbar). However, depending on the texture of the soil, more or less water would
+be needed to reach this desired tension. For instance, a sandy soil may need to
+have a volumetric water content of around 10–14%, whereas the same tension
+will be reached in a clay soil with 21–26%. This is due to the higher number
+and volume of micropores available in clay as opposed to sandy soil. Soilless
+media operate under similar principles; on the other hand, volumetric probes
+give a direct measurement of soil moisture and can be classified in two groups:
+capacitance sensors and time domain reflectometry (TDR) sensors. Although
+both are based on different principles, they provide instantaneous measure-
+ments of soil moisture with a small margin of error. One advantage of these
+sensors, particularly the TDR, is their practicality, because a single unit can be
+used to measure moisture in multiple fields. However, they cost more than sim-
+pler units such as tensiometers. Finally, a comprehensive irrigation monitoring
+system requires constant adjustments and supervision. For example, irriga-
+tion could be suspended for relatively long periods of time after heavy rains in
+open field production to avoid overwatering the crop. In protected culture, very
+cloudy or cold days reduce the ETo and thus the needed irrigation volumes, as
+described above. Table 6.2 describes alternative irrigation sensors.
+
+
+FERTILIZATION AND FERTIGATION
+
+Nutrition principles and essential nutrients
+
+The goal of applying fertilizer for plant growth in soil or soilless media is to
+match the amount provided as fertilizer to the nutrient uptake of the crop as
+closely as possible. Currently, one of the main concerns of producing crops
+under intensive irrigation and fertilization is the risk of polluting both above-
+and below-ground water sources. Using appropriate fertilization programmes
+in combination with correct irrigation strategies reduces excessive leaching
+and runoff, thus limiting their environmental impact. The objective of this sec-
+tion is to describe the general nutrition principles and most common fertiliza-
+tion practices for tomato production.
+     Essential nutrients are elements needed to complete the plant cycle. These
+elements are irreplaceable for a vital reaction or structure. Essential nutrients
+must be differentiated from ‘beneficial elements’, which are elements that could
+improve growth, specific functions or plant structures. There are 17 ­essential
+elements for plant growth and development: hydrogen (H), oxygen (O), carbon
+(C), nitrogen (N), phosphorus (P), potassium (K), calcium (Ca), magnesium
+(Mg), sulfur (S), iron (Fe), manganese (Mn), zinc (Zn), boron (B), copper (Cu),
+molybdenum (Mo), chlorine (Cl) and nickel (Ni). The first three are freely ob-
+tained from the atmosphere and water. The remaining nutrients are divided
+into two groups (macronutrients and micronutrients) based on their absorbed
+volumes. The macronutrients are N, P, K, Ca, Mg and S, whereas Fe, Mn, Zn,
+190                      B.M. Santos and E.A. Torres-Quezada
+
+
+Table 6.2. Alternatives for soil water measurement methods used for irrigation
+scheduling. (Maughan et al., 2015.)
+
+                 Type of                Quality of
+Method           measurement            measurement            Cost
+
+Porous block     Electrical resistance Requires calibration Data logger/reader
+                   of a porous block     to soil water        $500 to $1000,
+                                         content. Sensitive   then $40 per
+                                         to temperature       sensor (2–5 per
+                                         and soil salinity    site)
+Neutron probe Neutron                  Estimates water in a Neutron Probe
+                   thermalization        larger area than     ($10,000) plus
+                   as a function of      most soil measure    $15 per access
+                   water content         methods. Requires    tube. Regular
+                                         calibration to soil  dosimetry analysis
+                                         water content        and record
+                                                              keeping
+Frequency        Electromagnetic soil Accurate after         Data logger or
+  domain probe     capacitance as a      calibration to soil  reader $500 to
+                   function of water     water content.       $3000, then
+                   content               Relatively           $280+ per sensor
+                                         insensitive to soil  (2–5 per site).
+                                         water salinity       Access tube
+                                         levels               installation kit
+                                                              $2600
+Heat dissipation Uses heat buffering Requires calibration Data logger/reader
+                   capacity of soil      to soil water        $500 to $3000,
+                   and thermal           content. Quite       then $155 per
+                   conductivity of       accurate and         sensor (2–5 per
+                   soil water            relatively           site)
+                                         insensitive to soil
+                                         water salinity
+                                         levels
+
+
+
+B, Cu, Mo, Cl and Ni are considered micronutrients. Several other elements
+are beneficial, such as cobalt (Co), sodium (Na) and silicon (Si) (Barker and
+Pilbeam, 2007). Some of the most important functions and deficiency and tox-
+icity symptoms of the most absorbed nutrients are discussed below.
+
+Nitrogen
+This element is part of the building blocks for amino acids, enzymes, nucleic
+acids and energetic compounds. Under hot, bright growing conditions, N must
+be adequate for plants to grow rapidly, but high N levels encourage vegetative
+growth, which can be detrimental to reproductive growth under low light.
+Typically, N levels are kept relatively low until fruit set to promote reproductive
+                              Irrigation and Fertilization                      191
+
+
+growth. In soilless culture, the ratio of N to other nutrients is closely controlled
+to encourage either reproductive or vegetative growth, depending on the grow-
+er’s perception of crop needs. Tomato plants have different absorption rates of
+N at various stages of growth. The N absorption by tomato plants during the
+formation of the first two to three flower trusses is about the same as for K. As
+the fruit load increases, so does the K uptake, resulting in a K:N uptake of 1.5:1
+or 2:1. Excessive pruning, use of fertilizer and water under low light conditions
+early in the production cycle will result in an overly vegetative plant prone to
+disease and poor flower development, poor fruit set and size (OMAFRA, 2001).
+Lower N feed during this phase helps to control plant growth and makes the
+plant more generative. Plant growth can also be slowed by increasing the K:N
+ratio in the fertilizer, increasing EC by irrigating less frequently and in lower
+amounts, and reducing RH.
+      N limitation reduces chlorophyll concentration and thus absorption and
+light harvesting (De Groot et al., 2003). Deficiencies of N are sometimes hard
+to detect without a well fertilized control for comparison. Growth may be re-
+duced overall, so the plants are stunted, but leaves may look healthy, except for
+being a paler green than normal. Symptoms appear first on the lower leaves
+and continue to be more pronounced there, as N is a mobile element, moving
+from older to younger tissue. Symptoms at the top of the plant include pale
+flowers rather than deep yellow and a main stem that is thin at the top. The
+whole plant has a spindly appearance. Rather than the foliage being lush or
+succulent, leaves are small, erect and hard. Over time, the whole plant can turn
+yellow, flowers drop and fruits remain small. Plants may mature early, but fruit
+yield and quality decline (Guidi et al., 1997).
+      Most cases of toxicity caused by N produce dark green leaves, sometimes
+thickened and brittle. At the top of the plant, stems remain thick and new leaves
+may curl into a ball. Clusters of flowers are large but fruit set may be poor.
+Although leaf growth is initially promoted, it is eventually restricted under ex-
+cessive N. Plants may be more susceptible to diseases and insects (Jones, 1999).
+The applied N form is also an important consideration in guarding against
+toxicity. Tomato is much more sensitive to N in the ammonium form than in
+the nitrate form, especially under low light. The early symptoms of ammo-
+nium toxicity are small chlorotic spots on the leaves, which later turn necrotic
+(brown and dead). Spot size may increase, covering the entire interveinal area,
+giving the leaf a scorched appearance, and leaf margins may roll up. Lesions
+may also occur on the stems. As the plant matures, the vascular tissue at the
+base of the plants begins to deteriorate, with wilting occurring during periods
+of high atmospheric demand, followed by plant death (Jones, 1999).
+      Cation–anion ratio in tomato tissue is generally balanced. However, fer-
+tilization programmes with high ammonium (NH+4) or nitrate (NO3–) concen-
+tration will result in pH changes in plant tissue and nutrient solution in both
+soil and soilless conditions. Ion uptake in tomato plants is accompanied by a
+corresponding exchange from the root. Therefore, the uptake of nitrate causes
+192                     B.M. Santos and E.A. Torres-Quezada
+
+
+excretion of hydroxyl or bicarbonate, while ammonium uptake is balanced by
+exchanging hydrogen with the nutrient solution or soil solution (Kirkby and
+Mengel, 1966). Nitrate in plant tissues is reduced to nitrite, and during this
+process hydrogen carbonate (HCO3–) and carbon dioxide (CO2) are produced,
+increasing the organic acid content in plant tissue. Part of the generated HCO3–
+and CO2 diffuses out of the root tissue and increases the nutrient solution pH.
+On the contrary, ammonium uptake will lead to the production of H+, which
+will lower the pH of plant tissues and reduce the accumulation of organic acid
+anions (Kirkby and Mengel, 1966). It is important to regulate nitrate and am-
+monium in tomato fertilization from a practical pH management standpoint.
+
+Phosphorus
+Some of the functions of P in plants are as part of the energy compounds, such
+as adenosine diphosphate and triphosphate (ADP and ATP). It is a basic com-
+ponent of enzymes, proteins, phospholipids and nucleic acids. Although P is
+used in much smaller quantities than N and K, it must also be provided con-
+tinuously. Initially, P is important for early fruit growth, especially under cool
+soil conditions when P uptake decreases, but later it is necessary for vegetative
+growth and fruit set. Phosphorus is stored well in soil but is easily leached in
+peat media and less available at high pH.
+     Deficient plants show symptoms on the lower leaves and stems. Plants ap-
+pear stunted and upper leaf surfaces may turn unusually dark green. A char-
+acteristic red or purple colour on the undersides of the leaves (including the
+veins) and stem appears later, starting on the older leaves. Leaves are small
+and curved slightly downwards. Plants become slender, with thin stems, and
+cluster development is poor. P limitation reduces the functioning of photo-
+system II (De Groot et al., 2003). Roots become brown and develop few lateral
+branches. Low rooting-zone and air temperatures can also reduce P uptake,
+and cause the purple pigmentation typical of P deficiency (Besford, 1980;
+Hosier and Bradley, 1999). Toxicities due to P excess are uncommon but can
+occasionally be seen as slow plant growth, with visual symptoms related to Zn
+deficiency. These symptoms can be severe, as large sections of the leaves turn
+light brown, giving a burned appearance. This is particularly noticeable on an-
+aerobic rooting conditions (Jones, 1999).
+
+Potassium
+This element functions in the enzyme activation, protein synthesis and in the
+adjustment of the osmotic potential of tissues, including stomata. It is required
+for best fruit quality and to regulate growth; as a major nutrient with a posi-
+tive charge, K balances the negative charges of organic acids produced within
+the cell and those anions such as sulfates, chlorides and nitrates. Potassium
+levels are particularly important at transplanting, to prevent subsequent plant
+growth problems and future ripening disorders. The ratio of N:K is also im-
+portant in controlling growth. Tomato plants extract 250–500 kg K/ha per
+                              Irrigation and Fertilization                     193
+
+
+growing season, with 2/3 of all K allocated to the fruit when fully mature
+(Besford and Maw, 1974).
+     Major deficiencies are shown as reduced growth and chlorotic spots in
+older leaves, especially along the leaf margins, which could degenerate to nec-
+rotic areas. Potassium deficiency is first expressed as dark green foliage, which
+later turns purplish brown. Marginal chlorosis and necrosis appear first on the
+lowest leaves, then progress up the plant. Like N and P, K is phloem-mobile and
+young leaves are the last affected. Chlorosis almost always ­occurs first at the
+margins of older leaves, which often curve downwards. Later chlorosis moves
+into the interveinal areas towards the centre of the leaf and ­necrosis of leaf
+margins follows. In advanced stages, the small veins lose their colour, older
+leaves become severely scorched and drop, young leaves turn yellow and ­remain
+small, plant growth is restricted and fruit ripening is uneven. Postharvest
+quality is also poor (Jones, 1999). Interveinal chlorosis is also symptomatic of
+low Mg and the two deficiencies are sometimes confused.
+     Compared with Mg deficiency, K deficiency is more likely to occur along
+the leaf margins and is also more likely to develop into necrotic spots. Problems
+with fruit quality, such as blotchy ripening, boxy fruit and even to some extent
+greenback, are associated with low levels of K and some cases can be counter-
+acted with high-K feeds (OMAFRA, 2001). Plant biomass can be reduced by
+Mg deficiency, induced by heavy K fertilization. Kabu and Toop (1970) ­reported
+a reduction of stem tissue Mg under high K fertilization in greenhouse tomato.
+Ions of similar size and valence interact, causing deficiencies. Cellular bidding
+sites of the plant cannot distinguish between K, Ca and Mg ions. Thus, media
+concentration of these ions will influence the rate of adsorption and competi-
+tion. Uptake of K can also be reduced on anaerobic rooting conditions and low
+root-zone temperatures. Although K toxicities are rare, very high rates of K
+may induce Ca or Mg deficiency or salinity damage. Reductions in yield occur
+at very high levels of K, when K:N ratio in the liquid feed is too high, or when
+both N and K are too high.
+
+Calcium, magnesium and sulfur
+Calcium is a basic component of cell walls and it is involved in cell elongation
+and division, and in enzyme and hormone activity. Its role in the formation
+of structures gives tissues rigidity and strength. Deficiencies of this nutrient
+occur in younger leaves and fruit, including disorders such as blossom-end rot
+and burning of leaf tips and edges. Magnesium is the centre of the chlorophyll
+molecule, thus it has a direct influence on the green of leaves. It is also related
+to the many enzymatic reactions in the plant together with K, Na and NH4 cat-
+ions. Deficiencies are first noticed in the older leaves as mottling. Both Ca and
+Mg are cations absorbed mostly by mass flow and need to be balanced to avoid
+blocking each other’s root uptake. In soils, it is desirable to have Ca:Mg propor-
+tions between 4:1 to 5:1 (Hao and Papadopoulos, 2004). Sulfur is required as
+being a component of the essential amino acids cysteine and methionine, the
+194                      B.M. Santos and E.A. Torres-Quezada
+
+
+formation of S bonds in some hormones, vitamins, glucosides, sulfolipids and
+coenzymes. Deficiencies are rare – though in field crops they are increasing
+lately due to the reduction of atmospheric S deposition, mainly from burned
+fossil fuels – and resemble those caused by lack of N.
+
+Micronutrients
+Iron is part of several enzymes, as well as a component of proteins during respir-
+ation (Römheld and Nikolic, 2007). It is necessary for the formation of chlorophyll
+and it serves as an activator of respiration and photosynthesis. Its deficiency can
+be induced by heavy Mn fertilization, while low pH allows for higher solubility and
+availability of Fe. Iron deficiency symptoms include chlorosis of the interveinal
+part of young leaves and in some cases death of the entire plant (Lohry, 2007).
+      Manganese is an enzyme activator and it is used in the synthesis of certain
+amino acids and lignin (Humphries et al., 2007). It participates in chlorophyll
+formation along with Fe. Conversely, high Mn fertilization may result in Fe
+­deficiency. Symptoms of Mn deficiency generally include interveinal chlorosis,
+ with darker colour next to the veins (Lohry, 2007).
+      Zinc is a structural constituent of several essential enzymes, including
+ some that are needed for synthesis of histidine, glutamine and asparagine with
+ more than 80 Zn-containing proteins reported. High concentration of Ca and
+ P can affect Zn uptake. Within plant tissues, Zn translocation to shoots could
+ be inhibited by high bicarbonate concentration. Zinc deficiency symptoms
+ include decreased stem length and fruit bud formation, mottled leaves and
+ interveinal chlorosis (Lohry, 2007).
+      Boron is needed for the formation of reproductive structures and metabolite
+ transport across membranes, and it is required for root elongation and protein
+ and nucleic acid metabolism. Boron deficiency results in a wide range of nutri-
+ tional disorders. Symptoms of B deficiency include internode shortening, discol-
+ oured buds and youngest leaves and flower, and fruit dropping. Cells may keep
+ dividing but plant structures may not differentiate in its absence (Lohry, 2007).
+      Copper activates several enzymes and improves C fixation and electron
+ transport. Deficiency symptoms include chlorotic leaves with blue-green mar-
+ gins and drop of flowers and fruits (Lohry, 2007). Molybdenum is essential for
+ the nitrate and nitrogenase reductase enzymes and it plays a role in the oxi-
+ dation of sulfite to sulfate. Chlorine is required for the activity of at least four
+ essential enzymes in plants and it is an essential cofactor in the photosynthetic
+ process. Nickel has been shown to be needed by certain non-redox and redox
+ enzymes in several plant species.
+
+
+Nutrient requirements and sufficiency
+
+For field-grown tomatoes, a clear knowledge of the nutrient requirements
+is needed to design an effective fertilization programme. This requirement
+                              Irrigation and Fertilization                     195
+
+
+will ­depend intrinsically on the crop type and its yield potential (Phillips
+et al., 2009) and it could be supplied from three main sources of nutrients:
+(i) ­atmospheric deposition and inputs; (ii) the natural soil supply; and (iii) the
+applied fertilizers. The former is important in the case of the essential elem-
+ents C, H and O, which are in most cases under non-limiting conditions, and
+for S deposition in the form of acid rain (Ceccotti et al., 1998). Nonetheless,
+the soil supply and added fertilizers provide the majority of the crop nutrient
+requirements. For both bare ground and under plastic mulch production, it is
+suggested that growing media pH values initially be 6.0–6.5 and that the soil
+be tested ­before pre-plant fertilizers are added. If pH needs to be increased, pre-
+plant lime or dolomite application could be used. On the contrary, when pH
+must be ­reduced, application of elemental S would be necessary. In order for
+the soil reaction to occur, a period of 2–3 months might be needed from the
+time of the amendment application to planting. As mentioned above, plant nu-
+trient uptake may affect the pH of the nutrient solution. It is necessary to keep
+a record of pH changes in nutrient solution for both soil and soilless conditions.
+This will allow the fertilization programme to be adjusted for sudden changes
+in pH levels. Many greenhouse growers keep a daily record of pH in soilless
+production. Open field production allows for a longer period of time in between
+measurements, given the buffer properties of the soil. However, this will de-
+pend on the soil’s physical and chemical properties.
+      Based on soil test results, N, P, K, Mg and Ca are usually added at pre-­
+planting, even if the crop is to be fertigated later. Pre-plant application can be
+broadcast and disked in or side-dressed in bands 10 cm deep and 10 cm from
+the row at planting. The application can also be split between the two methods
+of incorporation. For greenhouse crops, there are different methods to es-
+tablish tomato seedlings, namely stone wool blocks or containers filled with
+growing media (e.g. bags, pots and troughs). In most cases, nutrient solution
+should have a pH of 5.5–6.5 and an EC of 1.5–2.0 dS/m to maximize nutrient
+availability and avoid salinity toxicity. After the transplants are established,
+the EC of the nutrient solution could reach 3.0–3.5 dS/m, based on available
+light, rate of growth, plant vigour, available moisture and temperature regime
+(OMAFRA, 2001).
+      It is important to clarify that EC levels are commonly measured at three
+different points within the production system: (i) at the entry point (emitter);
+(ii) media or soil solution extraction; or (iii) drainage water (in soilless pro-
+duction). Levels of EC tend to change depending on the measurement point.
+Entry EC is usually a result of the fertilization programme. Within the growing
+medium, EC level changes will depend on the fertilization programme, water
+status of the media, plant uptake and ion content in the medium. Values of EC
+in the drainage water will be related to the remaining ions of the solution, after
+plant and media uptake and water losses are taken into account. Depending
+on the cultivar, soil-grown tomatoes are moderately sensitive to soil salinity,
+­compared with other vegetables, with a maximum threshold for yield loss
+196                      B.M. Santos and E.A. Torres-Quezada
+
+
+of 2.5 dS/m and a 10% yield decrease per dS/m above this threshold (Maas,
+1984). Where salinity is high, but not as extreme, fruit quality and soluble
+solids may increase with increasing soil salinity, just as in soilless systems.
+      While seasonal tomato nutrient absorption will vary according to par-
+ticular growing conditions, nutrient removal will strongly depend on the
+growing habits of the cultivars. For instance, determinate tomato varieties are
+mostly planted in open fields and last between 3 and 4 months from trans-
+planting to the end of commercially feasible harvests. On the other hand,
+indeterminate cultivars are produced for 10–16 months under protective
+structures, such as greenhouses and high tunnels (Table 6.3). In both cases,
+removal of N, P and K are the largest on a per-weight basis. Other nutrients,
+such as Ca and Mg, need to be closely monitored to maintain an appropriate
+ratio, as previously described.
+      Monitoring the nutritional status of the tomato plants is an essential task,
+regardless of the production system. Several methodologies exist to assess this
+nutritional status. These methods range from very simplistic to sophisticated
+approaches. Regardless of the chosen methodology, none provides a 100%
+­accurate prediction or adjustment of the fertilization programme and, in many
+ cases, a combination is preferred for different essential elements. Additionally,
+ the nature and functions of each one of the essential elements for crop pro-
+ duction along with the specific conditions of the farm and crop will dictate the
+ necessary adjustments of the applied nutrient rates and thus the fertilization
+ programme.
+      The two most common methods to determine the nutritional situation of
+ tomato are: (i) petiole sap concentration; and (ii) diagnostic plant part ana-
+ lysis. These methods could be used alone or in conjunction with the others to
+ manage programmes for crops that have multiple moments of fertilizer appli-
+ cation (i.e. drip-applied nutrients and split side-dressing applications). Petiole
+ sap concentration is a real-time measurement of ions flowing through the
+ plant vascular system and serves as a quick diagnostic tool for determining
+ deficiencies and adjusting fertilization programmes, especially for NO3– and K
+ (Hochmuth, 1994). These tests are accurate and inexpensive but sufficiency
+ values must be determined and validated for each crop prior to analysis.
+      The use of diagnostic plant parts has been the most typical ‘in-season’
+ diagnostic method for decades. The most recently expanded mature leaf is
+
+Table 6.3. Nutrient removal by tomato grown in the field and greenhouses. (Halliday
+and Trenkel, 1992; Jones, 1999; OMAFRA, 2001; Sonneveld and Voogt, 2009.)
+
+                                Field crop (yield                Greenhouse crop
+Nutrient (kg/ha)                 of 40–50 t/ha)                  (yield of 500 t/ha)
+
+N                                   100–150                            1000
+P2O5                                 20–40                              500
+K2O                                 150–300                            1500
+                              Irrigation and Fertilization                      197
+
+
+collected, dried and ground for nutrient analysis. Some of the advantages of
+this method are its accuracy and broad range of nutrients that can be detected
+with one sample. However, it needs to be performed before or when deficiencies
+are barely suspected, because the samples need to be dried and may be sent to
+commercial laboratories for analysis. A potential limitation of this method is
+that the whole process could last from 5 to 15 days, which could be too late to
+correct deficiencies. The nutrient sufficiency contents in mature tomato leaves
+and acceptable leaf petiole concentrations of NO3-N and K are presented in
+Tables 6.4 and 6.5. These ranges serve as reference values for tomato produc-
+tion and should be confirmed depending on the growing conditions.
+
+
+Fertilization programmes
+
+Nutrient rates
+Accurate management of a fertilization programme seeks to reduce nutrient
+losses to the minimum and to enhance plant absorption. When designing an
+effective fertilization programme, the rate, sources, timing and placement of
+fertilizers must be considered (Roberts, 2007; Bruulsema et al., 2009). It is
+widely known that a single nutrient programme is unpractical because of the
+differences across locations, soils, seasons, cultivars, fertilization practices and
+production techniques. Instead, a fertilization programme relies on in-farm
+conditions (e.g. irrigation and available equipment), as well as external situ-
+ations (e.g. fertilizer prices and environmental regulations). For open field
+production in soil, fertilization programmes need to estimate the soil nutrient
+supply potential to avoid over-fertilization. In some cases, the rate of fertil-
+izer may be higher than needed to compensate for the absence of nutrients
+in the soil and restore soil fertility (Phillips et al., 2009). In greenhouse and
+high tunnel production where inert media are used, all the nutrients must be
+­applied through the irrigation lines. A common way of managing nutrient
+ levels in this production system would be by EC measurements. The exception
+ could be when some organic growing amendments (e.g. composted substrate,
+ peat moss) are utilized due to their potential nutrient contributions.
+       Determination of the adequate nutrient rate is also dependent on the as-
+ sessment of the possible nutrient losses. These losses could be due to biological
+ and mineral immobilization, volatilization, leaching and runoff. Biological and
+ mineral immobilization occurs when soil microbes, such as bacteria, use C atoms
+ as energy source or build mineral blocks as part of the mineralization process. A
+ typical example of this process is N fixation by microbes in the presence of a high
+ C:N ratio (Bengtsson et al., 2002). Volatilization of ammonia (NH3) and nitrous
+ oxide (N2O) are two cases of N losses in soils due to microbial activity (Reddy
+ et al., 1979; Snyder et al., 2007). Nutrient leaching and runoff are two physic-
+ ally driven processes that could cause severe nutrient depletion in soils. Heavy
+ NO3– leaching to ground waters is one of the main causes of eutrophication in
+                                                                                                                                         198
+
+
+
+
+                                                                                                                                         B.M. Santos and E.A. Torres-Quezada
+Table 6.4. Plant nutrient relative sufficiency concentration on a dry weight basis in newly opened mature leaves of tomato foliar
+tissue. (Maynard and Hochmuth, 2007; Olson et al., 2012.)
+
+                   N         P          K            Ca      Mg          S         Fe        Mn        Zn         Cu    B           Mo
+
+Growth stage                                   (%)                                                      (mg/kg)
+
+5-leaf stage    3.0–5.0   0.3–0.6    3.0–5.0   1.0–2.0     0.3–0.5    0.3–0.8   40–100     30–100    25–40    5–15     20–40   0.2–0.6
+First flower    2.8–4.0   0.2–0.4    2.5–4.0   1.0–2.0     0.3–0.5    0.3–0.8   40–100     30–100    25–40    5–15     20–40   0.2–0.6
+Harvest         2.0–3.0   0.2–0.4    1.5–2.5   1.0–2.0    0.25–0.5    0.3–0.6   40–100     30–100    20–40    5–10     20–40   0.2–0.6
+                               Irrigation and Fertilization                       199
+
+
+Table 6.5. Testing guidelines for tomato leaf petiole fresh sap NO3-N and K.
+(Sanders, 2004; Olson et al., 2012.)
+
+                                        Fresh petiole sap concentration (mg/kg or ppm)
+
+Development stage/time                    NO3-N                           K
+
+First buds                              1000–200                     3500–4000
+First open flowers                       600–800                     3500–4000
+Fruit 50 mm diameter                     400–600                     3000–3500
+First harvest                            300–400                     2500–3000
+
+
+
+
+rivers and lakes. Runoff of P and S may occur from fertilized fields and have been
+reported as another source of pollution into ground waters and lakes (Moore
+et al., 2000; Bates et al., 2002). Fertilizer management practices that enhance
+crop absorption of available and applied nutrients are the basis for sustainability
+of production systems and the efficacy of fertilization programmes. This is dir-
+ectly linked to the amount of nutrients applied for crop production. Different
+production systems will utilize varying techniques to achieve sustainability. In
+open field production, the soil will allow for a certain level of error in the fertil-
+ization programme, while in soilless production the nutrient solution will be the
+primary source of chemical change in the medium. Closed soilless systems with
+water recirculation will depend 100% on the nutrient solution and the potential
+adjustment that growers apply. A compilation of macronutrient rates for tomato
+production from selected references is presented in Table 6.6.
+
+
+Fertigation systems and scheduling
+Fertigation is the most common method for applying fertilizers and water at
+the same time and it requires precise scheduling to maximize the efficiency of
+nutrient and water absorption. In this section, fertigation scheduling, injec-
+tion equipment and fertilizer sources are discussed. Examples of scheduling
+of greenhouse and open field tomato production are presented in Tables 6.7
+and 6.8.
+     Under protected culture, all fertigation systems have their own character-
+istics, which will affect the functionality of the system. There are two major
+micro-irrigation methods for vegetable crops: drip irrigation and microsprin-
+klers. Drip irrigation is the most used and inexpensive of the two methods. For
+drip irrigation systems, the type, number and distance between drip emitters,
+the injection system, the number of valves and the uniformity coefficient are
+some of the parameters to consider when calculating the water discharge.
+Knowing this total discharge will allow the application of the correct water
+volumes and calculation of fertilizer rate. Other important factors to consider
+are as follows.
+200                      B.M. Santos and E.A. Torres-Quezada
+
+
+Table 6.6. Ranges of macronutrient rates for maximum growth and yield of
+tomato types in nutrient-deficient soils from selected research reports. (IMCC, 1984;
+Kaniszewski et al., 1987; Baselga-Yrisarry et al., 1993; Seliga and Shattuck, 1995;
+Andersen et al., 1999; Sainju et al., 2001; Maynard and Hochmuth, 2007; Sanchez,
+2007; Olson et al., 2012.)
+
+Optimum range (kg/ha)         Comments
+
+Nitrogen (N)
+   134–202                    Determinate tomato, pre-plant fertilization, open field,
+                                drip irrigation
+   90–180                     Determinate tomato, broadcast split in three doses
+   90–135                     Determinate tomato, pre-plant incorporation
+   150–225                    Determinate tomato, without and with irrigation
+   50–150                     Processing tomato
+   198                        Determinate tomato
+   220                        Tomato, drip or seepage irrigation
+   88–99                      Fresh tomato fresh in mid-Atlantic, USA
+   220                        Fresh tomato in Florida, USA
+   154–176                    Fresh tomato in New England, USA
+Phosphorus (P)
+   53                         Determinate tomato
+   220                        Tomato, drip or seepage irrigation
+   55–83                      Tomato, sandy soil, very low to medium P level
+   88–176                     Fresh tomato fresh in mid-Atlantic, USA
+   110–165                    Fresh tomato in Florida, USA
+   55–220                     Fresh tomato in New England, USA
+Potassium (K)
+   370                        Determinate tomato
+   220–242                    Tomato, drip or seepage irrigation
+   88–176                     Fresh tomato fresh in mid-Atlantic, USA
+   110–248                    Fresh tomato in Florida, USA
+   110–275                    Fresh tomato in New England, USA
+
+
+
+Table 6.7. Fertigation schedule (kg/ha) for indeterminate tomatoes grown in stone
+wool slabs. (OMAFRA, 2001.)
+
+Growth stage       N     P     K     Ca    Mg    Fe    Mn      Zn    B     Cu    Mo
+
+Slab saturation   200    50   353   247 75      0.8   0.55 0.33 0.5       0.05 0.05
+4–6 weeks after   180    50   400   190 75      0.8   0.55 0.33 0.5       0.05 0.05
+  planting
+Normal feed       190    50   400   190 65      0.8   0.55 0.33 0.5       0.05 0.05
+Heavy fruit       210    50   420   190 75      0.8   0.55 0.33 0.5       0.05 0.05
+  load
+                              Irrigation and Fertilization                      201
+
+
+Table 6.8. Suggested fertigation schedule (kg/ha) for field-grown tomato plants in
+the south-eastern USA on low-K soils. (Sanders, 2004.)
+
+Days after
+planting          Daily N      Daily K2O           Cumulative N    Cumulative K2O
+
+Pre-plant                                                 56            140
+0–14                0.56           0.56                   64            148
+15–28               0.78           1.58                   75            170
+29–42               1.13           2.25                   90            202
+43–56               1.69           3.35                  114            249
+57–77               2.81           5.60                  173            367
+78–98               3.38           6.75                  237            495
+
+
+•   Type of solid pipes and drip emitters. These include the lateral pipes and
+    single-wall drip tapes that deliver water to the emitters. Drip tapes usually
+    work at pressures between 1 and 3 bar and deliver 1–2 l/h per emitter.
+    These are very susceptible to emitter obstruction due to debris or algae and
+    do not possess a great deal of uniformity when located in slopes. A vari-
+    ation of this type of tape is the double-walled drip tape, which could be
+    used for more than one season. All these drip tapes could be autocompen-
+    sated and/or anti-drainage. The former type allows uniform water volume
+    distribution at a minimum working pressure, whereas the latter stops irri-
+    gation when pressure drops below certain threshold.
+•   Average emitter delivery. The average discharge per emitter could change
+    depending on environmental conditions, pressure and distance from
+    the pumping station. There is a very practical method to determine the
+    average emitter delivery, using emitters at the beginning and end of each
+    line and selecting several lines along the feeding lateral lines. Then coef-
+    ficient of uniformity is determined by dividing the lowest output by the
+    average volume. Coefficients around 90% are excellent.
+•   Number of drip lines. The number of tapes per bed is important to create
+    a wet front as soon as possible, to avoid overuse of water pumps. Also, the
+    number of lines per planted area will help to determine the total water
+    volume needed for a given irrigation event.
+•   Distance between emitters. Most drip tapes in the market have emitters
+    between 10 cm and 30 cm apart. The distance between plants may dictate
+    the appropriate emitter distance, with short in-row distances requiring
+    closer emitters than widely spaced plants.
+
+      Besides the irrigation set-up, the most common types of fertilizer applica-
+tors for fertigation are: (i) suction injectors (commonly known as ‘Venturi’);
+(ii) constant-concentration injectors; and (iii) computerized injection nozzles.
+Suction injectors use a physical principle to generate differential pressure in
+the main water line, which creates suction into a secondary line that pulls
+202                      B.M. Santos and E.A. Torres-Quezada
+
+
+f­ertilizer from the injection tanks. The advantages of this system are that
+ these ­devices are inexpensive and easy to install and manage, as long as water
+ pressure ­remains relatively constant. The disadvantage is that fertilizer injec-
+ tion could be variable when water pressure and temperature fluctuate, which
+ could lead to irregular nutrition. Constant-concentration injectors possess a
+ piston pump or diaphragm that draws liquid fertilizer from a non-pressurized
+ container and mixes it with pressurized water into the main lines. These in-
+ jectors can be either electric or hydraulically driven and require a minimum
+ working pressure. They are more expensive and require more maintenance
+ than the ‘Venturi’ but are more efficient and precise. A more expensive but
+ precise method is the computerized injection nozzles. These use computer-
+ ized consoles that can be programmed to deliver the selected fertilizer volume
+ at the right time into the water stream. Whether a simple or a sophisticated
+ method is used to fertigate, it is recommended that application rates should be
+ checked periodically to ensure proper rates.
+      With regards to fertilizer sources, especially in protected culture, there are
+ two main formulations: (i) solid compound salts; and (ii) liquid fertilizers. In
+ many parts of the world, it is common to mix solid fertilizer (hydrosoluble) salts
+ with water in large tanks. This method facilitates fertilizer transport to remote
+ areas. However, it requires the constant use of labour to produce the mix and
+ several fertilizer tanks to avoid precipitation and volatilization of some mater-
+ ials. Additionally, injection water must have a relatively high temperature (to
+ allow the nutrients to stay in solution) and low salt content. All these factors
+ increase the chances for human error during the process. During the appli-
+ cation of hydrosoluble fertilizers, it is common to have several tanks to avoid
+ combination of reactive sources. For example, a concentrated tank with Ca2+
+ will react with concentrated phosphatic and sulfatic sources, forming either
+ calcium phosphate or calcium sulfate, which can form solid deposits that even-
+ tually will clog the irrigation emitters. For this reason, growers will have one
+ tank with a Ca source (e.g. calcium nitrate and potassium nitrate) and another
+ with sulfates (e.g. sulfate of potash and magnesium sulfate) and phosphates
+ (e.g. monoammonium phosphate and monopotassium phosphate). Typically a
+ third tank will be used for phosphate for practicality in the daily changes in the
+ fertilization programme. A fourth tank may contain acids, such as phosphoric
+ acid for pH levelling and line-cleaning purposes.
+      Liquid fertilizers contain predesigned concentrations of nutrients, as ei-
+ ther a single or compound salt, that are delivered directly through the irriga-
+ tion stream without further mixing. This method is more costly than soluble
+ salts, because it requires the transport of the fertilizer already dissolved in
+ water. However, it minimizes the risks for human error during application and
+ the costs of maintenance and purchase of large tanks and injection equip-
+ ment. Similarly, these sources reduce precipitation of nutrients, provided that
+ temperatures do not drop below 10°C.
+                                Irrigation and Fertilization                          203
+
+
+Foliar sprays
+Foliar sprays should be avoided because of the potential damage to the ­foliage
+from spraying in hot or bright weather and because leaves do not absorb
+­nutrients well, but they are sometimes used under emergency conditions while
+ the situation around the root zone is corrected. Foliar sprays of urea dissolved
+ in water at 2.5 g/l can be applied to correct a severe N deficiency. For P defi-
+ ciency, foliar sprays with potassium or ammonium phosphate are possible but
+ are not recommended, as they can cause serious leaf damage. For K deficiency,
+ the crop may be sprayed with a solution of 20 g/l potassium sulfate. To correct
+ Ca deficiency quickly, plants can be sprayed with a solution of 2–7 g/l or a
+ 0.3% calcium chloride solution. Such sprays are rarely beneficial in correcting
+ ­blossom-end rot, since as discussed above Ca absorbed through the leaves
+  cannot move readily into the fruit. Hence, only the Ca that lands on the fruit
+  surface is utilized (Adams, 1999). Magnesium deficiencies can also be cor-
+  rected with sprays of magnesium sulfate (Epsom salts). Roosta (2011) reported
+  that foliar spray of all elements significantly increased plant fruit number and
+  yield in the aquaponics in order of K > Fe > Mn > Zn > Mg > B. In the hydro-
+  ponics, foliar application of K, Mg and Zn increased fruit number and yield of
+  plants compared with control.
+
+
+REFERENCES
+
+Adams, P. (1991) Effects of increasing the salinity of the nutrients solution with major
+     nutrients or sodium chloride on the yield, quality and composition of tomato
+     grown in rockwool. Journal of Horticultural Science 66, 201–207.
+Adams, P. (1999) Plant nutrition demystified. Acta Horticulturae 481, 341–344.
+Adams, P. and Ho, L.C. (1995) Uptake and distribution of nutrients in relation
+     to tomato fruit quality. Acta Horticulturae 412, 375–387. doi: 10.17660/
+     ActaHortic.1995.412.45.
+Albregts, E.E. and Howard, C.M. (1985) Effect of intermittent sprinkler irrigation on
+     establishment of strawberry transplants. Soil and Crop Science Society of Florida
+     Proceedings 44, 197–199.
+Andersen, P.C., Rhoads, F.M., Olson, S.M. and Hill, K.D. (1999) Carbon and nitrogen
+     budgets in spring and fall tomato crops. HortScience 34, 648–652.
+Barker, A.V. and Pilbeam, D.J. (2007) Introduction. In: Barker, A.V. and Pilbeam, D.J.
+     (eds) Handbook of Plant Nutrition. Taylor and Francis, Boca Raton, Florida, pp. 3–18.
+Baselga-Yrisarry, J.J., Prieto-Losada, M.H. and Rodriguez del Rincon, A. (1993)
+     Response of processing tomato to three different levels of water and nitrogen appli-
+     cations. Acta Horticulturae 335, 149–156.
+Bates, A.L., Orem, W.O., Harvey, J.W. and Spiker, E.C. (2002) Tracing sources of sulfur in
+     the Florida Everglades. Journal of Environmental Quality 31, 287–299.
+Beerling, E.A.M., Blok, C., Van der Maas, A.A. and Van Os, E.A. (2014) Closing the
+     water and nutrient cycles in soilless cultivation systems. Acta Horticulturae 1034,
+     49–55. doi: 10.17660/ActaHortic.2014.1034.4.
+204                        B.M. Santos and E.A. Torres-Quezada
+
+
+Bengtsson, G., Bengtson, P. and Månsson, K.F. (2002) Gross nitrogen mineralization-,
+     immobilization-, and nitrification rates as a function of soil C/N ratio and micro-
+     bial activity. Soil Biology and Biochemistry 35, 143–154.
+Besford, R.T. (1980) A rapid tissue test for diagnosing phosphorus deficiency in the
+     ­tomato plant. Annals of Botany 45, 225–227.
+Besford, R.T. and Maw, G.A. (1974) Uptake and distribution of potassium in tomato
+      plants. Plant and Soil 41, 601–618.
+Bruulsema, T., Lemunyon, J. and Herz, B. (2009) Know your fertilizer rights. Crops &
+      Soils 42(2), 13–16.
+Ceccotti, S.P., Morris, R.J. and Messick, D.L. (1998) A global overview of the sulphur
+      situation: industry’s background, market trends, and commercial aspects of sul-
+      phur fertilizers. In: Schnug, E. (ed.) Sulphur in Agroecosytems. Kluwer Academic,
+      Dordrecht, Netherlands, pp. 175–202.
+Debouba, M., Maâroufi-Dghimi, H., Suzuki, A., Ghorbel, M.H. and Gouiaj, H. (2007)
+      Changes in growth and activity of enzymes involved in nitrate reduction and
+      ­ammonium assimilation in tomato seedlings in response to NaCl stress. Annals of
+       Botany 99(6), 1143–1151. doi:10.1093/aob/mcm050.
+De Groot, C.C., Van den Boogaard, R., Marcelis, L.F.M., Harbinson, J. and Lambers, H.
+       (2003) Contrasting effects of N and P deprivation on the regulation of photosyn-
+       thesis in tomato plants in relation to feedback limitation. Journal of Experimental
+       Botany 54, 1957–1967. doi: 10.1093/jxb/erg193.
+Doorenbos, J. and Pruitt, W.O. (1977) Crop Water Requirements. Irrigation and Drainage,
+       no. 24. United Nations Food and Agriculture Organization, Rome.
+Dorais, M., Papadopoulos, A. and Gosselin, A. (2001) Influence of electric conduct-
+       ivity management on greenhouse tomato yield and fruit quality. Agronomie 21,
+       367–383.
+Dukes, M.D., Zotarelli, L., Liu, G.D. and Simonne, E.H. (2012) Principles and prac-
+       tices of irrigation management for vegetables. In: Olson, S.M. and Santos, B.M.
+       (eds) 2012–2013 Vegetable Production Handbook for Florida. Institute of Food and
+       Agricultural Sciences, University of Florida, Gainesville, Florida, pp. 17–27.
+Ehret, D.L. and Ho, L.C. (1986) The effects of salinity on dry matter partitioning and fruit
+       growth in tomatoes grown in nutrient film culture. Horticultural Science 61, 361–367.
+Grisso, R., Alley, M., Wysor, W.G., Holshouser, D. and Thomason, W. (2009)
+       Precision Farming Tools: Soil Electrical Conductivity. Publications and educa-
+       tional resources, Virginia Cooperative Extension. Available at: https://pubs.ext.
+       vt.edu/442/442-508/442-508.html (accessed 6 December 2016).
+Guidi, L., Lorefice, G., Pardossi, A., Malorgio, F., Tognoni, F. and Soldatini, G.F.
+       (1997) Growth and photosynthesis of Lycopersicon esculentum (L.) plants
+       as affected by nitrogen deficiency. Biologia Plantarum 40(2), 235–244. doi:
+       10.1023/A:1001068603778.
+Halliday, D.J. and Trenkel, M.E. (eds) (1992) IFA World Fertilizer Use Manual. International
+       Fertilizer Industry Association, Paris, pp. 289–290, 331–337.
+Hao, X. and Papadopoulos, A.P. (2004) Effects of calcium and magnesium on plant
+       growth, biomass partitioning, and fruit yield of winter greenhouse tomato.
+       HortScience 39(3), 512–515.
+Hochmuth, G. (1994) Plant Petiole Sap-Testing Guide for Vegetable Crops. Florida
+       Cooperative Extension Service Circular No1144. IFAS, Gainesville, Florida.
+                                  Irrigation and Fertilization                            205
+
+
+Holder, R. and Christensen, M.H. (1989) The effect of electrical conductivity on the
+    growth, yield and composition of cherry tomatoes grown on rockwool. In: Proceedings
+    7th International Congress Soilless Culture, Flevohof, 1988. ISOSC, Wageningen,
+    Netherlands, pp. 213–228.
+Hosier, S. and Bradley, L. (1999) Guide to Symptoms of Plant Nutrient Deficiencies.
+    AZ1106. University of Arizona Cooperative Extension, Tucson, Arizona.
+Humphries, J.M., Stangoulis, J.C.R. and Graham, R.D. (2007) Manganese. In: Barker, A.V.
+    and Pilbeam, D.J. (eds) Handbook of Plant Nutrition. Taylor and Francis, Boca Raton,
+    Florida, pp. 351–374.
+IMCC (1984) Efficient Fertilizer Use: Fertilizing for Maximum Profit. International
+    Minerals and Chemical Corporation, Mundelein, Illinois.
+Jones, J.B. Jr (1999) Tomato Plant Culture: In the Field, Greenhouse, and Home Garden. CRC
+    Press, Boca Raton, Florida.
+Kabu, K.L. and Toop, E.W. (1970) Influence of potassium-magnesium antagonism on
+    tomato plant growth. Canadian Journal of Plant Science 58, 711–715.
+Kaniszewski, S., Elkner, K. and Rumpel, J. (1987) Effect of nitrogen fertilization and irriga-
+    tion on yield, nitrogen status in plant and quality of fruits of direct seeded tomatoes.
+    Acta Horticulturae 200, 196–202.
+Kirkby, E.A. and Mengel, K. (1966) Ionic balance in different tissues of the tomato plant
+    in relation to nitrate, urea, or ammonium nutrition. Plant Physiology 42, 6–14.
+Kirnak, H., Kaya, C., Tas, I. and Higgs, D. (2001) The influence of water deficit on vege-
+    tative growth, physiology, fruit yield and quality in eggplants. Bulgarian Journal of
+    Plant Physiology 27(3–4), 34–46.
+Lohry, R. (2007) Micronutrients: Functions, Sources and Application Methods. Indiana
+    CCA Conference Proceedings. Available at: https://www.agry.purdue.edu/
+    CCA/2007/2007/Proceedings/Raun%20Lohry%20-%20CCA%20Proceedings_
+    KLS.pdf (accessed 1 January 2017).
+Maas, E.V. (1984) Crop tolerance. California Agriculture 38, 20–21.
+Martinez, V. and Cerda, A. (1989) Influence of N source on rate of Cl, N, Na, and K uptake
+    cucumber seedlings grow in saline conditions. Journal of Plant Nutrition 12, 971–983.
+Maughan, T., Allen, L.N. and Drost, D. (2015) Soil Moisture Measurement and Sensors for
+    Irrigation Management. Available at: http://extension.usu.edu/files/publications/
+    publication/AG_Irrigation_2015-01pr.pdf (accessed 19 December 2016).
+Maynard, D.N. and Hochmuth, G.J. (2007) Knott’s Handbook for Vegetable Growers, 5th
+    edn. John Wiley and Sons, Hoboken, New Jersey, pp. 181, 203.
+Mitchell, J.P., Shennan, C. and Grattan, S.R. (1991) Developmental changes in tomato
+    fruit composition in response to water deficit and salinity. Physiologia Plantarum
+    83, 177–185. doi: 10.1111/j.1399-3054.1991.tb01299.x.
+Moore, P.A., Daniel, T.C. and Edwards, D.R. (2000) Reducing phosphorus runoff and
+    inhibiting ammonia loss from poultry manure with aluminum sulfate. Journal of
+    Environmental Quality 29, 37–49.
+Olson, S.M., Stall, W.M., Vallad, G.E., Webb, S.E., Smith, S.A. et al. (2012) Tomato pro-
+    duction in Florida. In: Olson, S.M. and Santos, B.M. (eds) 2011–2012 Vegetable
+    Production Handbook for Florida. Institute of Food and Agricultural Sciences,
+    University of Florida, Gainesville, Florida, pp. 309–332.
+OMAFRA (2001) Growing Greenhouse Vegetables. Publication 371. Ontario Ministry of
+    Agriculture, Food and Rural Affairs, Toronto, Canada.
+206                        B.M. Santos and E.A. Torres-Quezada
+
+
+OMAFRA (2003) Growing Greenhouse Vegetables, 2003 Supplement. Publication 371S.
+     Ontario Ministry of Agriculture, Food and Rural Affairs, Toronto, Canada.
+Phillips, S.B., Cemberato, J.J. and Leikam, D. (2009) Selecting the right fertilizer rate: a
+     component of 4R nutrient stewardship. Crops and Soils 42, 14–17.
+Reddy, K.R., Khaleel, R., Overcash, M.R. and Westerman, P.W. (1979) A nonpoint
+     source model for land areas receiving animal wastes: II. Ammonia volatilization.
+     Transactions of the American Society of Agricultural Engineers 22, 1398–1405.
+Roberts, T.L. (2007) Right product, right rate, right time and right place: the foundation
+     of best management practices for fertilizer. In: Fertilizer Best Management Practices.
+     IFA, Paris, pp. 29–32.
+Römheld, V. and Nikolic, M. (2007) Iron. In: Barker, A.V. and Pilbeam, D.J. (eds) Handbook
+     of Plant Nutrition. Taylor and Francis, Boca Raton, Florida, pp. 329–350.
+Roosta, H.R. (2011) Effects of foliar application of some macro- and micro-nutrients
+     on tomato plants in aquaponic and hydroponic systems. Scientia Horticulturae 129,
+     396–402.
+Sainju, U.M., Singh, B.P. and Whitehead, W.F. (2001) Comparison of the effects of cover
+     crops and nitrogen fertilization on tomato yield, root growth, and soil properties.
+     Scientia Horticulturae 91, 201–214.
+Sanchez, C.A. (2007) Phosphorus. In: Barker, A.V. and Pilbeam, D.J. (eds) Handbook of
+     Plant Nutrition. Taylor and Francis, Boca Raton, Florida, pp. 51–90.
+Sanders, D.C. (2004) Vegetable Crop Guidelines for the Southeastern US. North Carolina
+     Vegetable Growers Association, Raleigh, North Carolina.
+Seliga, J.P. and Shattuck, V.I. (1995) Crop rotation affects the yield and nitrogen fertil-
+     ization response in processing tomatoes. Scientia Horticulturae 64, 159–166.
+Snyder, C.S., Bruulsema, T.W. and Jensen, T.L. (2007) Best management practices to min-
+     imize greenhouse gas emissions associated with fertilizer use. Better Crops 91, 16–18.
+Sonneveld, C. and Voogt, W. (2009) Plant Nutrition of Greenhouse Crops. Springer,
+     Dordrecht. doi: 10.1007/978-90-481-2532-6.
+Stanghellini, C. (2014) Horticultural production in greenhouses: efficient use of water.
+     Acta Horticulturae 1034, 25–32. doi: 10.17660/ActaHortic.2014.1034.1.
+Stanghellini, C., Kempkes, F.L.K. and Knies, P. (2003) Enhancing environmental
+     quality in agricultural systems. Acta Horticulturae 609, 277–283. doi: 10.17660/
+     ActaHortic.2003.609.41.
+Tanner, C.B., Peterson, A.E. and Love, J.R. (1960) Radiant energy exchange in a corn
+     field. Agronomy Journal 52, 373–379.
+Van Ieperen, W. (1996) Effects of different day and night salinity levels on vegetative
+     growth, yield and quality of tomato. Journal of Horticultural Science 71, 99–111.
+Van Ieperen, W. and Madery, H. (1994) A new method to measure plant water uptake
+     and transpiration simultaneously. Journal of Experimental Botany 45, 51–60.
+Van Iersel, M.W., Chappell, M. and Lea-Cox, J.D. (2013) Sensors for improved efficiency
+     of irrigation in greenhouse and nursery production. HortTechnology 23, 735–746.
+Wu, M. and Kubota, C. (2008) Effects of electrical conductivity of hydroponic nutrient
+     solution on leaf gas exchange of five greenhouse tomato cultivars. HortTechnology
+     18, 271–277.

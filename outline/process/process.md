@@ -23,6 +23,8 @@ outlines.
 ## Pre-seed Sources
 
 - Andrew's book: `/home/guillaume/Downloads/The 40hr Farmer/Livre Andrew.pdf` — extracted text in `sources/book-raw.txt`, split by chapter in `sources/chapters/`
+- Heuvelink (ed.), *Tomatoes*, 2nd ed., CABI 2018: `sources/Heuvelink2018_Tomatoes_CABI_2ndEd.pdf` — extracted text in `sources/heuvelink-raw.txt`, split by chapter in `sources/heuvelink-chapters/`
+- Turcotte et al., *Production de la tomate de serre au Québec* (2015): `sources/Production de la tomate de serre.pdf`
 - Orisha course (logged-in): https://www.orisha.io/learn/6-steps-to-15000-45n8732bddg8 — full capture in `sources/course-scrape-raw.md`
 - `brand/docs/internal/`: `drew-raw-notes.md`, `gordon-raw-notes.md`, `drew-video-transcript.md`
 - Orisha Customer stories: https://docs.google.com/document/d/1oyDiEyFvQ3u-YYOu8kxImkteDnklY3d-jh3Zj_hixXE/edit?tab=t.0#heading=h.a6n9uswhqmso

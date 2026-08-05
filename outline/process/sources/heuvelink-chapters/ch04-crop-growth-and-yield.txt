@@ -1,0 +1,2405 @@
+                                         4
+                    Crop Growth and Yield
+                     Ep Heuvelink, Tao Li and Martine Dorais
+
+
+
+
+INTRODUCTION
+
+The fresh fruit yield of a tomato crop can be calculated from total crop biomass
+production, biomass partitioning (harvest index) and fruit dry matter con-
+tent (Fig. 4.1). Besides affecting yield, these attributes also influence product
+quality (e.g. fruit size and taste; see Chapter 5).
+      Yields of field crops usually range between 40 and 100 t/ha, whereas
+yields from year-round cultivation in greenhouses in north-west Europe or
+North America easily exceed 500 t/ha, and yields as high as 700–900 t/ha
+are obtained in high-tech greenhouses without supplementary light (SL).
+With the use of SL, over 1000 t/ha have been produced, according to Verheul
+et al. (2012), who estimated that for Norway a yield potential of tomato pro-
+duction of 125–140 kg/m2 using artificial light is realistic. The main reasons
+for a much higher yield for greenhouse crops compared with field-grown
+tomato crops are: (i) the length of the cultivation period (11–12 months;
+over 35 trusses harvested per stem) and thus higher cumulative light inter-
+ception and biomass production; (ii) the control and optimization of environ-
+mental factors (carbon dioxide (CO2), temperature, humidity and light); and
+(iii) intensive cultural practices (hydroponics, fertigation, biological and/or
+integrated pest and disease control, plant density, additional stems, leaf and
+fruit pruning, SL). Annual tomato production per unit greenhouse area in
+The Netherlands increased by 113% between 1983 and 2010 (De Gelder
+et al., 2012). This increase was due to several factors, including improved cli-
+mate control, improved crop and pest management and better control of the
+rooting medium. Also, genetic improvement played an important role, as yield
+of modern greenhouse tomato cultivars is about 40% higher than that of old
+cultivars (Higashide and Heuvelink, 2009). This increase is not related to a
+higher harvest index but rather it is due to an increase in light use efficiency
+(LUE) following morphological and physiological changes through breeding,
+which results in an increase in total dry matter production. For fresh market
+field t­omato in North Carolina, genetic gain observed from 1975 to 2009
+
+© CAB International 2018. Tomatoes 2nd edition (E. Heuvelink)                89
+90                                         E. Heuvelink et al.
+
+
+
+                                     Total yield fresh tomatoes (kg/m2) 89
+
+
+
+
+             Total yield dry tomatoes (kg/m2)               Fruit dry matter content (kg/kg) 106
+
+
+
+                      Total crop dry                               Fraction to fruits
+                     matter (kg/m2) 93                                    98
+
+
+
+ Fraction of light intercepted 93   LUE (g/MJ) 98          Number of fruits     Sink strength of a fruit 105
+
+
+
+                                                    Truss appearance          Number of fruits
+                                                         rate 71               per truss 75
+                        Light extinction
+                         coefficient 93
+
+ Leaf area index 93                        Leaf photosynthetic                 Source : sink
+                                                 rate 95                         ratio 106
+
+
+
+Fig. 4.1. Tomato fruit yield and its underlying components (numbers refer to page
+numbers in this book). Tomato fruit fresh yield can be higher, because the total
+fruit dry yield is higher and/or because of more dilution with water (lower fruit dry
+matter content). (Adapted from Highashide and Heuvelink (2009.)
+
+(~227 kg/ha per year) results mainly from early marketable yield instead of
+total yield. Total yield reached its maximum level by 2000 and then levelled
+off, but marketable yield is still being improved. Fruit yield of processing to-
+mato was genetically improved by 1.54% per year in California over a 20-year
+period (Panthee and Gardner, 2011).
+     Biomass production is primarily determined by crop photosynthesis, while
+photosynthesis to a large extent depends on light interception, which further-
+more varies with leaf area. Moreover, a high biomass production does not
+necessarily result in a high yield, since only the tomato fruit is of economic
+interest. Partitioning to the fruit may be low because of poor fruit set, and con-
+sequently low fruit load, or by the low capacity of individual fruits to import
+photo-assimilate (fruit sink strength). Finally, fruit dry matter content is of
+major importance, since this parameter determines which fresh fruit mass re-
+sults from the dry mass partitioned into the fruit. For processing tomato, dry
+matter content expressed as soluble solids or sucrose accumulation is of con-
+siderable economic importance for the food industry as a major determinant of
+palatability and processing characteristics (see Chapter 5).
+     Two important interactions (feedback mechanisms) between dry matter
+production and dry matter distribution in tomato can be distinguished
+(Fig. 4.2): (i) flower and/or fruit abortion at low source–sink ratio, resulting
+                                   Crop Growth and Yield                               91
+
+
+
+
+                  –
+           Source–sink
+             + ratio
+                                              Fig. 4.2. A simplified representation
+                                              of two important interactions (feedback
+                                  Number of   mechanisms) between dry matter
+                              +     fruits    production and dry matter partitioning
+Pnc                      Wt                   in an ‘indeterminate’ tomato crop:
+  +                                           (+) positive influence; (–) negative
+                                              influence. Solid lines represent carbon
+                                      –
+                                              flow; dashed lines represent information
+                                  Wveg
+                                              flow. LAI, leaf area index; Pnc, crop net
+                     +
+                                              assimilation rate; SLA, specific leaf area;
+               LAI
+                              SLA             Wt, total crop dry mass; Wveg, vegetative
+                     +                        crop dry mass.
+
+in fewer fruits on the plant and hence decreased sink strength and increased
+source–sink ratio; and (ii) partitioning to the vegetative parts determining leaf
+area index (LAI) and hence future light interception and dry matter produc-
+tion. Fruit yield can be considered as the product of total biomass production
+and the fraction partitioned to the fruits (Fig. 4.1). A larger number of fruits
+per truss will on the one hand increase partitioning to the fruits. On the other
+hand, as at the same time less assimilates are partitioned to the vegetative part,
+larger fruit numbers will reduce LAI, the fraction of intercepted light, and
+hence total biomass production (Fig. 4.2). Conversely, individual fruit mass in-
+creases with decreased fruit number per plant, as competition for assimilates
+among fruits is reduced. This increase in individual fruit mass results from a
+higher average growth rate of individual fruits, as fruit growth period (time
+from anthesis until harvest ripe) is hardly affected by fruit load (see Chapter 3).
+At the commercial scale, fruit pruning is generally applied to obtain a certain
+desired average fruit weight. Because of these two counteracting effects, fruit
+yield shows an optimum response to fruit number per truss, as shown in Fig. 4.3
+(Heuvelink and Bakker, 2003).
+     Crop growth and yield determining processes mentioned above will be con-
+sidered in detail in this chapter, with emphasis on the influence of environmental
+factors and crop management such as light, CO2, temperature, humidity, salinity,
+plant density, and leaf and fruit pruning. Guidelines on how to grow tomato in
+experiments with a controlled environment are provided by Schwarz et al. (2014).
+
+
+GROWTH OF YOUNG PLANTS
+
+Young plants usually show exponential growth with constant relative growth
+rate (RGR), as mutual shading of leaves is limited (Hunt, 1982):
+92                                                                 E. Heuvelink et al.
+
+
+                              5                                       0.8                                                           5                                     12
+
+
+
+
+                                                                                                                                                                               Fruit weight (dry mass, g/fruit)
+     Dry mass (kg/m )
+                                                                                                                                                                          10
+                              4                                                                                                     4
+                                                                      0.6
+
+
+
+
+                                                                            Fraction of total to fruits
+                                                                                                          Yield (dry mass, kg/m2)
+2
+                                                                                                                                                                          8
+                              3                                                                                                     3
+
+
+                      2  2
+                                                                      0.4                                                                                                 6
+
+
+
+and Leaf Area Index (m /m )
+                              2                                                                                                     2
+                                                                                                                                                                          4
+                                                                      0.2
+                              1                                                                                                     1
+                                                                                                                                                                          2
+
+                              0                                       0.0                                                           0                                      0
+                                  1   3   5       7     9     11    13                                                                  1   3   5      7      9     11   13
+                                      Number of fruits per truss                                                                            Number of fruits per truss
+
+Fig. 4.3. Simulated (TOMSIM) effects of the number of fruits per truss for a round
+tomato cultivar on leaf area index (¯), the fraction dry mass distributed to the fruits
+(£) and on fruit dry mass production: total fruit including unripe fruits (®), harvested
+ripe fruit (), total biomass (—) and average dry weight per fruit harvested ().
+
+
+
+                       Wt 2 = Wt1 × e RGR(t 2–t1)
+
+where Wt1 and Wt2 represent plant dry mass at times t1 and t2, respectively.
+RGR can be separated in a ‘photosynthetic term’, net assimilation rate (NAR),
+and a ‘morphogenetic term’, leaf area ratio (LAR) (Hunt, 1982):
+
+                        RGR = NAR × LAR
+
+                        NAR = 1/At × dWt /dt
+
+                       LAR = At /Wt
+
+where At is plant leaf area at time t.
+     An evaluation of experimental design and computational methods in
+plant growth analysis is given by Poorter and Garnier (1996). LAR may be fur-
+ther separated into the leaf weight ratio (LWR), i.e. the ratio of leaf dry weight
+over total plant dry weight, and the specific leaf area (SLA), i.e. the ratio of leaf
+area over leaf dry weight. Variations in LAR are usually primarily caused by
+variations in SLA (Hunt, 1982).
+     Growth analysis has proved highly effective in studying a plant’s reac-
+tion to environmental conditions. However, it has its limitation, especially
+when analysing crop growth, where mutual shading of leaves begins within
+a few weeks of emergence and is the major reason for a rapid decline of both
+RGR and NAR. Therefore, attempts to correlate these quantities with changes
+in the environment during the growing season have rarely been successful.
+Furthermore, NAR and LAR are often mutually dependent, showing a negative
+correlation, which hampers breeding for cultivars with a higher RGR. Finally,
+                              Crop Growth and Yield                            93
+
+
+a comparison based on time-averaged growth parameters may be misleading
+and averaging over a dry weight interval is preferred, as growth rate is size
+­dependent (ontogenetic effect).
+
+
+BIOMASS PRODUCTION
+
+Cumulative biomass production of a tomato crop basically follows a sigmoid
+pattern in time. A short exponential growth phase with a constant relative
+growth rate gradually evolves to a long phase of linear growth, with a more or
+less constant absolute growth rate. At ripe fruit stage, growth rate will decrease
+for ‘determinate’ tomato types, as a result of leaf senescence and reduction
+in sink strength negatively influencing photosynthesis. For ‘indeterminate’
+tomato types the linear growth phase continues until the end of the cultiva-
+tion, resulting in an expo-linear growth pattern. However, this type of growth
+pattern may not be observed, since towards the end of the cultivation plants
+are generally decapitated, giving the same response as ‘determinate’ types.
+Moreover, low light levels observed in late autumn (October and November)
+and changes in crop light interception as influenced by leaf area development
+may also reduce growth rate.
+
+
+Leaf area and light interception
+
+The amount of absorbed (intercepted) light by the canopy is a determining
+factor in tomato crop growth and biomass production and depends mainly
+on leaf area, the canopy structure and the distribution of the leaf area over
+ground area. The relationship between the fraction of light intercepted and
+LAI (m2 leaf area per m2 ground area) follows the Lambert-Beer law (1 – e–k.LAI).
+The constant in this relationship is called the extinction coefficient k and for
+tomato its value is about 0.7 for diffuse radiation. Hence, at LAI of 3, 90% of
+the incident light is intercepted. Modern greenhouse tomato cultivars have a
+lower k as a result of a changed morphology (e.g. leaf angles): for example,
+k decreased from 0.85 (in 1950) to 0.57 (in 2002), contributing to a higher
+light use efficiency resulting from a less heterogeneous vertical light distribu-
+tion (Higashide and Heuvelink, 2009). For a processing tomato crop, at LAI
+of 4.5, k is around 0.45 (Cavero et al., 1998), while for semi-indeterminate
+field-grown tomato k ranges from 1 early in the season to around 0.2 late in
+the season (Scholberg et al., 2000). Estimated light interception for LAI of 4–5
+is in that case about 50–60% during the period of maximum seasonal fruit
+development. These values are substantially lower than for greenhouse crops,
+because of wide row spacing, leading to a percentage ground area covered that
+could be as low as 55% (see below). In particular, internode length and leaf
+shape affect the vertical distribution of light in the canopy. A more spacious
+94                               E. Heuvelink et al.
+
+
+canopy architecture due to long internodes and long and narrow leaves led to
+an increase in simulated crop photosynthesis of up to 10% (Sarlikioti, 2011).
+To optimize the light interception by the canopy according to the incident solar
+radiation, a crop starts with a rather low plant density (e.g. 2.5 plants/m2) to
+avoid any negative effect on fruit size or yield under low light (winter), and
+then in spring a side shoot is retained on every second plant (see Chapter 9). In
+this way, stem density is increased (e.g. 3.75 stems/m2) towards the summer
+and a higher LAI can be maintained, resulting in a significant yield increase
+without additional planting cost. It was also reported that the fraction of light
+intercepted for a north–south orientation of rows was 10% (winter) up to 23%
+(summer) higher compared with an east–west orientation (Sarlikioti, 2011).
+LAI is also modulated by greenhouse tomato growers, since leaves are removed
+up to just above the truss to be harvested (see Chapter 9) or pruned according
+to the targeted leaf-to-fruit ratio.
+      For semi-determinate field-grown tomato, after an initial lag phase of
+225oCd (225 degree-days), LAI increased linearly with degree-days after plant-
+ing (base temperature of 10°C), resulting in an average maximum value of
+3.8 attained 11 weeks after planting (Fig. 4.4A) (Scholberg et al., 2000). Near-
+optimal light interception within the row for field-grown tomato appears to
+be attained within 4–6 weeks at intra-row spacing of 45 and 60 cm, respect-
+ively (Scholberg et al., 2000). Canopy closure between rows, however, does not
+occur practically and pesticide applications and harvesting operations may
+become difficult with row spacing under 1.8 m. Thus, based on a maximum
+observed canopy width of 1.0 m, the percentage ground area covered by the
+crop would be around 83%, 67% and 55% for row spacings of 1.2, 1.5 and
+1.8 m, respectively (Scholberg et al., 2000). For an optimum light interception
+and fruit yield of field-grown tomato crop, the LAI should be around 4–5 with
+a plant population of 10,000–60,000 plants/ha, according to the cultivars,
+soil fertility, growing and irrigation systems (raised bed, mulch, drip irrigation,
+sub-irrigation), and available solar radiation. Lower LAI values would reduce
+light interception and increase yield losses due to sunburn, while higher values
+may delay the onset of fruit production and reduce the effectiveness of foliar
+pesticides.
+      For greenhouse and field tomato, the amount and quality of light inter-
+cepted by a crop can be enhanced or modified by the presence of reflecting
+material on the ground, such as white plastic sheets and mulches. Bare soil
+reflects 10–20% of the photosynthetic active radiation (PAR) (400–700 nm),
+whereas white plastic sheets on the soil surface, a common practice in green-
+houses, may reflect 50–80% of the PAR and increase crop photosynthesis over
+the whole season by at least 7% for LAI at 3 (Gijzen, 1995). This is especially
+important for the young crop, where a lot of light is transmitted by the crop
+and reaches the ground. For determinate type of fresh tomato, young plants
+grown with white mulch had ~3 times more axillary leaves than plants in black
+mulch, contributing to a 3.6 times greater ratio of axillary to main leaf area
+                                                             Crop Growth and Yield                                                                           95
+
+
+ (A)                       6                                              (B) 1500
+                                                                                                                       Biom (Sub-I)
+                                                                                                                       Biom (Drip-I)
+                           5                                                                             1200          Fruit (Sub-I)
+
+
+
+
+Leaf area index (LAI)
+                                                                                                                       Fruit (Drip-I)
+
+
+
+
+                                                                          Dry weight (g/m2)
+                           4
+                                                                                                          900
+                           3
+                                                                                                          600
+                           2
+                                                            Sub - I                                       300
+                           1                                Drip - I
+                                                            Lin. Plat.
+                           0                                                                                0
+                               0    300      600      900   1200   1500                                         0           300   600   900     1200       1500
+                                   Degree days after planting (°Cd)                                                  Degree days after planting (°Cd)
+
+ (C)                                                                         (D)
+    1500                                                                                                  1.0
+                                   Biom (Sub-I)                                                                     Root
+                                   Biom (Drip-I)                                                                    Stem
+
+
+
+
+                                                                          Fraction of total dry weight
+                        1200       Fruit (Sub-I)                                                         0.8        Leaf
+                                   Fruit (Drip-I)                                                                   Fruit
+
+
+
+
+     Dry weight (g/m2)
+                         900                                                                             0.6
+
+
+                         600                                                                             0.4
+
+
+                         300                                                                             0.2
+
+
+                           0                                                                             0.0
+                               0       300          600     900       1200                                      0        300      600   900    1200       1500
+                           Calculated cum. intercepted radiation (MJ m–2)                                              Degree days after planting (°Cd)
+
+Fig. 4.4. (A) Leaf area index (r2=0.74); (B) total dry weight (Biom) (r2=0.91) and
+fruit dry weight (r2=0.79) accumulation of field tomato grown in Florida (USA) as
+a function of thermal time; (C) estimated cumulative intercepted radiation (r2=0.92
+and r2=0.84, respectively) with subirrigation (Sub-I) and drip irrigation (Drip-I);
+and (D) fraction of total dry weight accumulated in root (r2=0.92), stem (r2=0.50),
+leaf (r2=0.93) and fruit (r2=0.81). (Reprinted, with permission, from Scholberg et al.
+(2000), Agronomy Journal 92, 152–159.)
+
+
+compared with plants grown with black mulch. However, leaf area for total
+leaves (main + axillary) and plant biomass was unaffected by mulch surface
+colour. This mulch effect is not maintained throughout plant development, due
+to the increased shading of the mulch by the canopy (Decoteau, 2007).
+
+
+Photosynthesis
+
+The leaf photosynthetic rate depends strongly on the amount of photo-
+synthetic protein per leaf area, CO2 conductance through the stomata and
+96                                              E. Heuvelink et al.
+
+
+­mesophyll conductance. While the light-harvesting and electron transport
+ systems convert the free energy of absorbed light into useful metabolic forms
+ (e.g. adenosine triphosphate (ATP), reduced ferredoxin (Fd), nicotinamide
+ ­adenine dinucleotide phosphate (NADPH)), CO2 assimilation is a key process
+   in crop production. PAR supplies the energy for photosynthesis. The RuBisCO
+   enzyme (ribulose-1,5-bis-phosphate-carboxylase-oxygenase) catalyses the
+  ­incorporation of CO2 (carboxylation), but RuBisCO also has affinity to O2 (oxy-
+  genation), resulting in release of CO2 (photorespiration). RuBisCO contains
+  as much as 25–40% of the total leaf nitrogen (N) and so it is understandable
+  that leaf nitrogen and leaf photosynthetic capacity are strongly correlated.
+  N deficiency decreased maximal rate of gross photosynthesis (Pg,max) and the
+  chlorophyll fluorescence parameter Fv/Fm, which is a quantitative measure of
+  photochemical efficiency of photosystem II (PSII). The relationship between
+  nitrogen status of the tomato plant and photosynthesis is covered in Chapter 6.
+        Photosynthetic capacity of leaves varies widely according to light, water
+  and nutrient availability and these differences in capacity usually reflect
+  RuBisCO content. Leaves in high light environments (‘sun’ leaves) have greater
+  CO2 assimilation capacities than those in shaded environments or lower in a
+canopy (Fig. 4.5) (Trouwborst et al., 2011) and this is reflected in the larger
+allocation of nitrogen-based resources to photosynthetic carbon reduction.
+Sun leaves have a high stomatal density, are thicker and have a higher ratio of
+RuBisCO to chlorophyll in order to utilize the larger availability of photons (and
+
+
+ (A)                                                              (B)
+                    40                                            40
+
+
+
+
+ Amax (μmol/m2/s)
+                    30                                            30
+
+
+                    20                                            20
+
+
+                    10                                            10
+
+
+                    0                                              0
+                         0   1     2      3      4            5         0     400     500    600    700
+                             Overlaying LAI (m/m2)                             PPFD-integral during
+                                                                            leaf development (mol/m2)
+
+                                       7 June        6 July       25 July     6 September
+
+Fig. 4.5. (A) The effect of overlaying leaf area index (LAI) on the Amax of leaves in
+vertically grown tomato plants measured on four dates in summer and (B) the effect
+of the PPFD-integral received during 21 days of leaf development on the Amax of the
+youngest mature leaves. Reprinted from Trouwborst et al., 2011, by permission of
+Taylor and Francis Ltd (http://www.tandfonline.com).
+                                 Crop Growth and Yield                                97
+
+
+ hence ATP and NADPH). Shade leaves are larger and thinner, but have more
+ chlorophyll per unit leaf dry weight than sun leaves. Shade leaves achieve a
+ lower maximum rate of assimilation.
+        To uncouple leaf age from photosynthetic photon flux density (PPFD),
+ ­tomato plants were grown horizontally, hence PPFD was similar for all leaves.
+  Photosynthetic capacity and chlorophyll contents were higher in late spring
+  than in winter but were hardly affected by leaf age (Trouwborst et al., 2011).
+  Shading fully developed mature leaves dramatically decreased their Pg,max and
+  chlorophyll contents within a few days. Therefore, during the normal 70-day
+  lifespan of tomato leaves in commercial cultivation, the decrease in PPFD
+  within the canopy, and not leaf-ageing, is the most important factor causing
+  reduction in Pg,max with canopy depth. The lower Pg,max of older leaves is attrib-
+  uted to a reduced content of RuBisCO rather than a lower RuBisCO activity.
+        In a tomato canopy of LAI 8.6, the uppermost 23% of the total leaf area
+  assimilated 66% of the net CO2 fixed by the canopy (Acock et al., 1978). In
+contrast to individual leaves, the light saturation for canopy photosynthesis
+does not occur for a tomato crop, as part of the canopy does not reach light
+saturation. In conditions where the rate of photosynthetic CO2 assimilation
+exceeds the capacity of sink organs (e.g. high light and CO2 concentration),
+  there is an accumulation of carbohydrates in the leaves which might trigger
+  a down-regulation of photosynthesis involving a repression of several photo-
+  synthetic genes encoding for RuBisCO and thylakoid proteins.
+        Truss peduncle, pedicels, calyxes and green fruit may contribute to a certain
+  extent to photosynthesis. An early study reported that fruit contributes by its own
+  fixed carbon 10–15% of the carbon skeletons required (Tanaka et al., 1974). At
+  light saturation, the photosynthetic rate in young truss peduncles reached 5 mg
+  CO2/h/g dry weight (DW) compared with 3.5 mg CO2/h/g in older ones, while
+  the gross photosynthetic rate per green fruit surface area was 15–30% of that in
+  the leaves (Czarnowski and Starzecki, 1990). For small fruit (10 g fresh weight
+  (FW)), Pg,max reached 0.43 μmol CO2 /kg/s, which was similar to a 3 cm2 leaf (Xu
+  et al., 1997). As the fruit size increased, Pg,max ­decreased to a negligible value and
+no net photosynthesis was found in a fruit over 40 g FW because of high dark
+respiration. Except for young fruit, respiration always exceeds gross photosyn-
+thesis in tomato fruit, even under high light. The accumulation of dry matter in
+a tomato fruit is thus dependent on the import of leaf assimilate. Although fruit
+photosynthesis is not necessary for fruit energy metabolism or development, it
+is essential for properly timed seed development and therefore may confer an
+­advantage under conditions of stress (Lytovchenko et al., 2011).
+        Whereas steady-state photosynthetic responses to environmental factors
+ have been extensively studied, knowledge of dynamic modulation of photo-
+ synthesis remains scarce and scattered. However, incident irradiance on
+ plant leaves often fluctuates, causing dynamic photosynthesis. SL provided by
+ light-emitting diodes (LEDs) can be switched on and off rapidly; hence, growers
+ using LEDs could use fluctuations in energy prices to determine when to switch
+98                                E. Heuvelink et al.
+
+
+their lighting on and off, resulting in a more dynamic irradiance. Dynamic
+photosynthesis is separated into sub-processes related to proton and electron
+transport, non-photochemical quenching, control of metabolite flux through
+the Calvin cycle (activation states of RuBisCO and RuBP regeneration, and
+post-illumination metabolite turnover) and control of CO2 supply to RuBisCO
+(stomatal and mesophyll conductance changes) (Kaiser, 2016). Increases in
+ambient CO2 concentration and temperature (up to about 35°C) enhance rates
+of photosynthetic induction and decrease its loss, facilitating more efficient
+dynamic photosynthesis. Depending on the sensitivity of stomatal conduct-
+ance, dynamic photosynthesis may additionally be modulated by air humidity.
+However, RuBisCO activase and stomatal conductance are main targets for im-
+provement of photosynthesis in fluctuating irradiance.
+
+
+Light use efficiency
+
+Quantum yield or LUE, expressed as mol CO2 fixed per mol photons absorbed,
+can be defined at leaf level but also at crop canopy level. Its value depends on
+light intensity, atmospheric CO2 concentration and humidity, the composition
+of solar radiation (higher LUE at diffuse radiation; see ‘Diffuse light’ pp. 111–112)
+and root environment (soil moisture, salinity). At ambient CO2 concentration,
+leaf LUE is about 0.05 mol/mol, with a maximum of 0.08 mol/mol without
+photorespiration, i.e. at very high CO2 levels. A combination of CO2 enrich-
+ment and SL for greenhouse crops grown in winter in northern regions could
+have a synergistic effect in increasing LUE at crop level. A high temperature,
+however, increases (photo)respiration and consequently decreases LUE. At am-
+bient CO2 concentration, LUE decreases by about 15% when temperature rises
+from 15°C to 30°C. In greenhouse-grown tomato plants, LUE may be higher
+than in field-grown plants because of the ultraviolet (UV)-protective epidermis
+of field plants. Higher LUE of modern greenhouse cultivars (3.3 to 3.5 g/MJ
+PAR compared with 2.4–2.5 g/MJ PAR) results from a decrease in the light
+extinction coefficient and an increase in leaf photosynthetic rate (Higashide
+and Heuvelink, 2009). For the humid tropics of Central Thailand, in ventilated
+greenhouses with polyethylene (PE)-film roofs and PE-net walls, LUE of 2.6 g/MJ
+was reported, which is similar to regions at greater latitude with much lower
+global radiation (Kleinhenz et al., 2006). For field-grown fresh tomato, LUE of
+2.1 g/MJ (PAR) was observed (Scholberg et al., 2000) (Fig. 4.4C), while 2.4 g/MJ
+is generally used for processing tomato (Cavero et al., 1998).
+
+
+BIOMASS PARTITIONING
+
+The total dry matter production and partitioning within a tomato plant differs
+considerably between tomato genotypes and depends on the developmental
+                                Crop Growth and Yield                             99
+
+
+stage. In young tomato plants, 8% (high N supply) to 24% (low N supply) of
+total dry matter was distributed to the roots (Nagel et al., 2001), while 4% was
+allocated to the roots in producing tomato plants under ample nutrient supply
+(Khan and Sagar, 1969). For a long-season crop, the total yield is determined
+by the balance between the vegetative and reproductive growth and conse-
+quently the assimilate partitioning. In a tomato plant, assimilate availability
+(source strength) is usually lower than assimilate demand (sink strength),
+which is shown by increased fruit size when some of the fruits are removed at
+an early stage. Increased light intensity and CO2 concentration improve source
+strength, whereas sink strength primarily depends on temperature. Hence,
+competition occurs between vegetative and generative plant organs, among
+trusses and among fruits within a truss.
+     Only biomass allocated to the fruits contributes to yield (Fig. 4.1); there-
+fore, biomass allocation has a direct impact on tomato crop production. For
+a year-round greenhouse crop, 72% of total dry mass was allocated to the
+fruits (Table 4.1) (De Koning, 1993), while a harvest index (HI) of 69% (plant
+without side shoots) was reported (Cockshull et al., 1992) compared with
+53–71%, with an average of 58%, for field-grown semi-determinate tomato
+(Scholberg et al., 2000) (Fig. 4.4D) and 57–67% for processing tomato (Cavero
+et al., 1998; Hewitt and Marrush, 1986). High-yielding crops typically have
+HI values of about 65%. Higher and lower values may be observed according
+to the number of trusses harvested, the crop management and the season (e.g.
+winter versus spring/summer/autumn). In an indeterminate plant, the fresh
+weight gain by fruit accounts for almost 85% of the plant gain, because fruits
+accumulate more water than other organs (Table 4.1). A certain balance be-
+tween vegetative (future production potential) and generative growth (short-
+term productivity) should be maintained, as sufficient but not too much new
+leaf area has to grow for future light interception and biomass production.
+Besides its influence on total fruit mass, partitioning also influences individual
+fruit mass in tomato (Fig. 4.3).
+     Although the mechanism by which a plant partitions its resources be-
+tween the different organs is of both theoretical and practical interest, it is still
+not fully understood. It is generally agreed that sinks play an important role
+
+              Table 4.1. Total performance of an early tomato crop
+              (De Koning, 1993).
+
+                              Fresh weight                Dry weight
+
+                            kg/m2         %             kg/m2      %
+
+              Fruits        51.7         84.2           2.96      71.5
+              Leaves         6.6         10.7           0.76      18.2
+              Stem           3.1          5.1           0.43      10.3
+              Total         61.4                        4.15
+100                              E. Heuvelink et al.
+
+
+in partitioning, and in a tomato plant the fruits are the most important sinks.
+Biomass allocation in tomato is both dynamic and complex. It involves the
+transport of assimilates from sources to sinks. Hence sources, the transport
+path and sinks may influence allocation. Evidence for this comes from a range
+of studies. Changes in the leaf-to-fruit ratio, modification of leaf photosyn-
+thetic activity by shading, or altering of the activity of some leaf metabolic
+enzymes have all had repercussions in fruit yield and/or sugar accumulation
+(Luengwilai et al., 2010).
+      Hormonal signals, such as cytokinins, abscisic acid, the ethylene pre-
+cursor 1-aminocyclopropane-1-carboxylic acid and the auxin indole-3-
+acetic acid may coordinate assimilate production and biomass partitioning
+(Pérez-Alfocea et al., 2010). Hormonal regulation of source–sink relations
+during the osmotic phase of salinity, which is independent of the ionic
+­effect, affects whole-plant energy availability to prolong the maintenance
+ of growth, root function and ion homeostasis and could be critical to delay
+ the accumulation of sodium (Na+) or any other ion to toxic levels (Pérez-
+ Alfocea et al., 2010). Initial growth maintenance requires regulation of sto-
+ matal conductance and source–sink relations to avoid premature stomatal
+ and metabolic inhibitions of photosynthesis, and subsequent oxidative
+ damage and senescence.
+
+
+Shoot/root ratio
+
+Despite the fact that it has been challenged, the functional equilibrium is a con-
+cept that helps in understanding the partitioning of assimilates between shoot
+and root. According to this paradigm, partitioning between shoot and root is
+regulated by an equilibrium between root activity (water or nutrient absorp-
+tion) and shoot activity (photosynthesis):
+      Ws /Wr ∞ Sr /S s
+where Wr is root mass, Ws is shoot mass, Ss is specific photosynthesis rate of
+the shoot and Sr is specific absorption rate of the root. Observations of environ-
+mental effects on shoot/root ratio in tomato are well explained by this theory.
+For example, shoot/root ratio is lower for plants grown in higher irradiance,
+which increases specific shoot activity. Similarly, shoot/root ratio is higher for
+plants grown at higher root temperature or improved nutrition, which im-
+proves specific root activity. Increasing the temperature of the root zone from
+14°C to 26°C increased the quantity of water absorbed during a day by 30%,
+the rate of absorption of nitrogen (N), potassium (K) and magnesium (Mg) by
+21–24% and the rate of absorption of calcium (Ca) and phosphorus (P) by
+45% and 64%, respectively (Dorais et al., 2001a).
+     The functional equilibrium paradigm is useful in understanding partitioning
+in young, vegetative tomato plants. However, it is not easily applied to fruiting
+plants. The shoot/root ratio increases as plants grow and in the early fruiting
+                              Crop Growth and Yield                           101
+
+
+phase root growth often ceases completely. It later resumes and thereafter the
+ratio of vegetative shoot-to-root fresh weight remains essentially constant (4:1).
+
+
+Source strength
+
+The source strength (availability of assimilates) has no direct influence on as-
+similate partitioning, as different assimilate availability affects growth rate of
+all organs to the same relative extent. For example, despite a large reduction in
+assimilate availability at high plant density (plants grown at 1.6, 2.1 and 3.1
+plants/m2 reached a total dry mass of 596, 478, 340 g/plant, respectively),
+biomass allocation was not influenced (Heuvelink, 1995b). Indirect effects,
+through the number of sinks (sink strength), were in this experiment excluded
+by fruit pruning. However, at very low assimilate availability, priority of the
+apex over an initiating inflorescence has been found. Under such conditions
+the inflorescence, or part of its flowers, may abort, while the growth of young
+leaves continues.
+
+
+Transport path
+
+Supply of assimilates from leaves to trusses in a multi-truss tomato plant is
+rather localized, the three subtended leaves of a truss being the principal sup-
+pliers. A truss together with the three leaves immediately below it has been re-
+garded as a sink–source unit, though this relationship is not absolute. As fruits
+attract assimilate rather locally, the supply of assimilate to the apex and the
+roots may be mainly confined to a few upper leaves and the bottom leaves, re-
+spectively (Ho, 1996). Within each truss, the fruits on one side tend to receive
+more assimilate from leaves on the same side of the stem, even if this distribu-
+tion is not absolute. Removing a truss at anthesis results in yield increases on
+some of the remaining trusses closest to the one removed (Fig. 4.6). These ob-
+servations seem to suggest that the transport path (phloem resistance) plays
+an important role in biomass allocation in tomato plants. However, a study in
+double-shoot tomato plants where on half of the plants no trusses were re-
+moved from one shoot and all trusses were removed at anthesis from the other
+shoot (100–0), whereas on the other plants every other truss was removed
+from both shoots (50–50), showed that biomass allocation was the same
+for both treatments (Fig. 4.7). No significant influence of distance between
+source and sink on partitioning was found. Hence, biomass allocation may be
+considered to originate from one common assimilate pool. This does not ex-
+clude the possibility that in intact plants trusses are fed predominantly by the
+leaves nearby and it also does not conflict with previous observations, which
+can be easily explained without assuming a ‘distance effect’ on assimilate
+partitioning. Trusses closest to the one excised get the highest yield increase.
+Earlier-initiated trusses have a shorter growth period left to take profit from
+removing a truss and later-initiated trusses miss a larger part of the period
+102                                                  E. Heuvelink et al.
+
+
+                                 1.16
+
+
+
+
+                                 1.12
+
+
+
+
+         Relative truss weight
+                                 1.08
+
+
+
+
+                                 1.04
+
+
+
+
+                                 1.00
+                                     –5   –4   –3   –2   –1      0    1      2   3   4   5   6
+                                                              Truss position
+
+Fig. 4.6. Relative truss weight over controls for trusses above (positive numbers)
+and below (negative numbers) an excised truss (0) on tomato plants. No influence
+of position on the plant on sink strength of a truss or vegetative unit was assumed.
+Vertical bars indicate standard error of mean. Measurements (—) reprinted, with
+permission, from Slack and Calvert, 1977, Journal of Horticultural Science 52, 312,
+and simulation lines (TOMSIM).
+
+
+where removal of the truss plays a role. During one fruit growth period (about
+60 days at 20°C) after expected anthesis date of the excised truss, its removal
+no longer plays a role. Furthermore, trusses closest to the excised truss exhibit
+highest sink strength in the period where excision has the largest influence
+on total sink strength, i.e. the period where the highest sink strength of the
+excised truss would have occurred. In conclusion, transport path plays only a
+minor role in biomass allocation in tomato.
+
+
+Sink strength
+
+Partitioning may be analysed according to the concept of sink strengths. The
+term sink strength is used to describe the competitive ability of an organ to
+                                                Crop Growth and Yield                      103
+
+
+
+                                          (A)
+
+
+
+
+                                                   50–50                 100–0
+                  (B)
+
+
+                                   750
+                                                                           plant
+
+
+
+                  Dry weight (g)
+                                   500
+
+
+                                   250
+                                                                                   fruit
+                                     0
+                                     60                100                 140
+                                                           Day of year
+
+Fig. 4.7. (A) Schematic presentation of two pruning treatments on tomato plants
+with two equal stems: removal of every second truss at anthesis on each of the two
+stems (50–50) or removal of all trusses at anthesis from one stem and no truss removal
+from the other stem (100–0). (B) Total (closed symbols) and fruit (open symbols) dry
+weight increase for pruning treatment 50–50 (squares) and 100–0 (triangle).
+
+attract assimilates. Sink strength can be quantified by the potential growth
+rate of a sink, i.e. the growth rate under conditions of non-limiting assimilate
+supply, and depends on sink activity and size. Whereas sink activity is deter-
+mined by processes such as phloem transport, metabolism and compartmenta-
+tion, sink size is determined by the cell number (Ho, 1996).
+     Since sink strength determines dry matter distribution, the fraction of
+dry matter partitioned to the fruits (Ffruits) may be calculated as generative sink
+strength (SSgen) divided by total plant sink strength, the latter being the sum of
+generative and vegetative sink strength (SSveg):
+                            SS gen
+     Ffruits =
+                 SS gen + SSveg
+
+    Generative sink strength is the integral of sink strength of all trusses
+growing on the plant. Sink strength of a truss is proportional to the number of
+104                                E. Heuvelink et al.
+
+
+fruits per truss. However, at high fruit numbers per truss, this is no longer so, as
+the distal fruits show a reduced sink strength (De Koning, 1994). Nevertheless,
+cell size measured on proximal fruits was not significantly affected by fruit load
+treatments in one of two studied genotypes (Prudent et al., 2010).
+      The order of priority in assimilate partitioning changes from the order of
+root > young leaf > flower in flowering plant to that of fruit > young leaf >
+flower and root in fruiting plants (Ho, 1996). The low sink strength of flowers
+might be due to low cell division activity, as enhanced cell division activity in
+the ovary caused by hormonal treatment (cytokinin and gibberellic acid) may
+generate an improved sink strength. The role of cell division and cell enlarge-
+ment in fruit sink strength and fruit growth is further discussed in Chapter 3.
+      Sink strength of a fruit is primarily determined by fruit developmental
+stage. The fraction partitioned into the fruits shows a saturation-type response
+with time (Fig. 4.4D): in the early stages only a small proportion is partitioned
+into the fruits, as only a few small fruits are competing with vegetative growth.
+Once fruit harvest has commenced, a steady-state constant partitioning is
+reached, assuming equal numbers of fruit for each truss. Fruits are competing
+with vegetative parts as a whole, as partitioning within the vegetative parts is
+fairly constant.
+
+Leaf sink strength
+The effect of the second leaf removal of each vegetative unit between two
+successive trusses when it was only 1–3 cm long was simulated by Xiao et al.
+(2004) (Table 4.2). As expected, the reduced vegetative sink strength by leaf
+pruning increased partitioning to the fruits from 66% to 74%. However, yield
+was hardly affected, as leaf pruning resulted in a lower LAI and therefore
+lower light interception and total biomass production. In contrast, when leaf
+
+Table 4.2. Average LAI, total and fruit dry weight, and fraction partitioned to
+the fruit in a simulation study for a greenhouse tomato crop (January–September).
+Dry matter partitioning is simulated based on sink strengths of plant organs. Leaf
+pruning (removal of one out of each three young leaves) was simulated by reducing
+the sink strength of each vegetative unit by 1/3. Lowest, old leaves from a vegetative
+section were removed 1 week before fruits on the corresponding truss above the
+section were harvest-ripe. Seven fruits per truss were assumed. When delayed leaf
+removal was applied, removal of old leaves was delayed by 2 weeks compared with
+the control (Xiao et al., 2004).
+
+                             LAI   Total dry weight Fruit dry weight Fruit fraction
+Treatments                 (m2/m2)      (g/m2)            (g/m2)          (%)
+
+Control                      2.4           3190             2093              66
+Leaf pruning                 1.7           2887             2125              74
+Leaf pruning and delayed     2.3           3201             2362              74
+  old leaf removal
+                                Crop Growth and Yield                             105
+
+
+pruning was combined with delayed picking of older leaves to obtain the same
+LAI as in the control, a yield increase of 13% was predicted. Hence, a tomato
+cultivar with two instead of three leaves between trusses would improve yield,
+when combined with measures to keep LAI sufficiently high (Heuvelink et al.,
+2005). On the other hand, it was observed that leaf-to-fruit ratio (LFR) higher
+than 1 had a negligible effect on fruit growth but could increase fruit solid
+content as well as the sucrose concentration of the phloem sap. Specifically,
+when LFR increased from 0.2 to 1, fruit dry weight increased linearly, but
+it saturated beyond 1. In contrast, the contents of dry matter and soluble
+sugars on a fresh weight basis increased linearly from LFR of 0.2 to 3 (Jan and
+Kawabata, 2011).
+
+Fruit sink strength
+In developing tomato fruit, sucrose metabolizing enzymes may regulate
+­sucrose unloading and sink strength and thus fruit dry matter accumulation.
+ Acid invertase may not play an important role in the regulation of assimilate
+ import by the tomato fruit (Dorais et al., 1999). However, over-expression of
+ sucrose-phosphate synthase (SPS) in field tomato fruit increased sucrose syn-
+ thase (Susy) activity by 27%, and 70% more sucrose was unloaded in trans-
+ formant fruit (20 days after anthesis) compared with the untransformed
+ control. Acid invertase and ADP-glucose pyrophosphorylase (ADP-Glc PPase,
+ or AGPase) activities remained at similar levels or were slightly lower than in
+ the untransformed control. Unexpectedly, the repression of Susy activity in
+ the fruit (antisense cDNA of the tomato fruit specific Susy, TOMSSF) did not
+ ­affect the unloading capacity when compared with the untransformed plants.
+  Hence, four sucrose turnover cycles (I, sucrose degradation and resynthesis
+  in the cytosol; II, sucrose degradation in the vacuole and resynthesis in the
+  cytosol; III, sucrose degradation in the apoplast and resynthesis in the cytosol;
+  and IV, starch degradation and synthesis in the amyloplast) may control sink
+  activity of tomato fruit (Dorais et al., 1999). Thus, sink utilization (i.e. respir-
+  ation, cellular structure, growth and storage) determines the sucrose import
+  rate. Sucrose metabolizing enzymes may affect the unloading rate but they are
+  not the main regulatory factors.
+       Substrate cycles of sucrose and starch may provide metabolic flexibility
+  and help to maintain the fruit as a carbon sink (Luengwilai and Beckles,
+  2009). Studies using transgenic lines whereby AGPase was over-expressed
+  and suppressed provided evidence that starch plays a more direct role in
+  ­determining total soluble sugars and yield (Beckles et al., 2012). Indeed, parti-
+   tioning of carbon to starch may increase sink strength in green fruit and then,
+   when it is degraded during ripening, adds to the pool of sugars imported from
+   the phloem. Approaches to manipulate fruit sink strength in order to improve
+   harvest index and thereby crop yield and quality have been discussed earlier
+   (Herbers and Sonnewald, 1998), while biochemical factors contributing to
+   ­tomato fruit sugar content have been reviewed by Beckles et al. (2012).
+ 106                                                        E. Heuvelink et al.
+
+
+ Source–sink ratio
+
+  For several cultivars, the altered source–sink ratio by leaf or fruit pruning
+  did not influence the light-saturated photosynthesis of young, fully ex-
+  panded leaves measured under CO2-limited conditions (Matsuda et al., 2011).
+  Although soluble sugars accumulated in leaves under high source–sink con-
+  ditions, the amount of RuBisCO was not affected by the altered source–sink
+  balance. This study supports previous works suggesting that a decreased sink
+  capacity did not lower leaf photosynthetic rate under CO2-limited conditions
+  (Heuvelink and Buiskool, 1995). However, photosynthetic acclimation did
+  occur under elevated CO2, when plant sink strength was reduced by about
+ 70% (Qian et al., 2012).
+       It was estimated that total assimilate demand is twice the assimilate
+ ­availability, averaged over a whole growing season (De Koning, 1994), while
+  a calculated source–sink strength ratio of 0.3 was reported by Bertin (1995).
+  This difference may have a genetic background, as these authors did not use
+  the same cultivar. For greenhouse crops, the pattern of source–sink ratio over
+  time for three types of tomato (cherry, round and beefsteak type) was initially
+  above 1 (Li et al., 2015). This occurs because in the young crop there are only a
+  few sink organs – young leaves and perhaps one truss with small fruit, whereas
+  the crop already intercepts a lot of the light (a relatively high leaf area). In this
+  period supplementary light is not useful, as the plant is sink limited. During
+  most of the growing season, however, the source–sink ratio is lower than 1
+  (Fig. 4.8), so higher PPFD will stimulate growth and yield.
+
+
+ FRUIT DRY MATTER CONTENT
+
+ Fruit dry matter content (dry matter as percentage of fruit fresh weight) de-
+ creases during fruit development (see Chapter 3) and is larger in summer than
+ spring or autumn. Generally, 4–7.5% of tomato content is dry matter; this is
+
+                    1.6
+                    1.4
+
+
+
+
+Source–sink ratio
+                    1.2
+                    1.0                                                           Fig. 4.8. Calculated source–
+                                                  Medium fruit size               sink ratio over time for three
+                    0.8
+                                                            Small fruit size      tomato cultivars with standard
+                    0.6
+                                                                                  fruit load. Lines are moving
+                    0.4
+                              Large fruit size                                    averages over 5 days. Dashed
+                    0.2                                                           horizontal line represents a
+                    0.0                                                           source–sink ratio of 1. Fruit
+                          0        20       40        60          80       100
+                                         Days after planting                      set started between 20–30
+                                                                                  days after planting for all three
+                                 Komeett         Capricia     Sunstream           cultivars (Li et al., 2015).
+                                Crop Growth and Yield                            107
+
+
+dependent on genotype (e.g. higher for cherry tomatoes than beefsteak toma-
+toes) and could reach 17% for wild tomato species (Dorais et al., 2001a). Dry
+matter content correlates positively with a better taste, as normally sugars rep-
+resent about 50% of the dry matter in fruits, and a higher sugar concentra-
+tion correlates with a better taste (see Chapter 5). For some Japanese tomato
+cultivars, a strong positive correlation between fruit dry matter content and
+the soluble solids content in fruits has been observed (Higashide et al., 2012).
+Dry matter content of harvest ripe fruit is slightly higher for fruits grown at
+non-limiting assimilate supply, probably due to extra storage of carbohydrates.
+It also increases with temperature (De Koning, 1994). A higher solids content
+of tomato fruit for processing is an important breeding goal. Unfortunately, there
+is often an inverse relationship between fruit size, total yield and fruit total
+solids content. Dry matter content of the fruit increases with the salinity of the
+root environment (Fanasca et al., 2007). This is explained as a ‘­concentration’
+e­ffect, because fruit enlargement (fresh weight increase) is suppressed by
+ limited water uptake as a result of salt stress.
+
+
+INFLUENCE OF ENVIRONMENTAL FACTORS
+
+Light
+
+As for many other crops, a linear relationship between cumulative intercepted
+PAR, dry mass production and yield has been reported. The slope of this re-
+lationship is the LUE, expressed in g dry mass per MJ of intercepted PAR (see
+above). In Dutch tomato production it has been observed that fresh tomato
+yield per unit of light is lower in autumn than in spring. Two main reasons are
+a lower leaf area index and lower greenhouse CO2 concentration in autumn
+compared with spring.
+      A rule of thumb for estimating the effects of light on production often used
+in practice is the ‘one-percent rule’, stating that 1% reduction in light will reduce
+production by 1%. For tomato, this value varies between 0.7% and 1% (Marcelis
+et al., 2006). The effect on fruit fresh weight is stronger than on plant dry weight
+and the relative effect of radiation decreases at low temperatures, low CO2 con-
+centrations and at high light levels. Despite its simplicity, the one-percent rule
+often gives close estimates of the consequences of light loss on tomato yield.
+A light requirement equal to or higher than 30 mol/m2/day (1 MJ/m2 natural
+PAR = 4.6 mol/m2 = 71.9 klxh = 6640 ft-c, while for HPS 1 MJ/m2 PAR = 5
+mol/m2 = 118 klxh = 10,970 ft-c; 1 J = 1 W/s; 1 kWh = 3.6 MJ) is reported
+for a tomato culture, while a light integral of 4.8– 6.0 mol/m2/day is gener-
+ally favourable for tomato seedling production, which corresponds to a light
+intensity of 83 μmol/m2/s during a photoperiod of 16–20 h. Under low light
+conditions, initiation of the first inflorescence is delayed, as more leaves are ini-
+tiated prior to the inflorescence, and reduced flower development and flower
+108                              E. Heuvelink et al.
+
+
+abortion is ­observed. In commercial practice, fruit set could temporarily be im-
+proved under low light by removing some young leaves (competing sink organs
+for assimilate).
+     Light can play an indirect or direct role in regulating source–sink relation-
+ships involved in allocation of photo-assimilate within the growing plant. The
+light intensity received by the plant affects the quantity of assimilates available
+to the plant organs and thus their degree of sink competition. Light also dir-
+ectly stimulates tomato fruit growth, due to mechanisms other than photo-
+synthesis. This can be interpreted as a direct influence of light on tomato fruit
+sink strength. Fruit illumination stimulates cell division but has no detectable
+effect on fruit size, suggesting that effects of cell division are compensated by
+effects on cell expansion (Okello et al., 2015). In field tomato crops grown in
+summer sunlight over mulches, it was reported that an upwardly reflected far-
+red:red (FR:R) ratio higher than the ratio in incoming sunlight would signal
+the growing plant to partition more of its new photosynthate to the shoot and
+fruit growth, while an FR:R ratio lower than that in incoming sunlight would
+favour partitioning to the root (Kasperbauer and Kaul, 1996).
+
+Supplemental lighting (SL) and photoperiod
+For northern countries, the use of SL for greenhouse crops to secure flowering
+and fruit set in the winter is successful when there is shortage of assimilates
+(lower source than sink strength; see ‘Source–sink ratio’, p. 106). Early works
+showed that SL during the winter increased yield by 70–106% compared with
+natural light and sustained a minimal weekly yield of 1 kg/m2 from November
+to February (Dorais and Gosselin, 2002; Dorais et al., 2017). Increasing SL
+from 100 to 150 μmol/m2/s gave an additional 20–36% yield increase, which
+has been related to a higher number of fruits instead of a higher fruit size. The
+use of SL for greenhouse-grown fruit vegetables, including tomato, has been
+detailed in recent reviews (Lu and Mitchell, 2016; Dorais et al., 2017).
+     High-pressure sodium (HPS) gaseous discharge lamps are most commonly
+used but LEDs are receiving more and more attention. Advantages of LED
+lighting are as follows (Morrow, 2008; Persoon and Hogewoning, 2014; Lu
+and Mitchell, 2016; Dorais et al., 2017).
+
+•     More efficient in transferring electricity into light. LEDs (95% red, 5%
+      blue) have reached an efficiency of 2.3 μmol/J electricity, whereas for the
+      best HPS lamps this is 1.85 μmol/J, hence LED lamps are about 35% more
+      efficient. Efficiencies reported by LED manufacturers vary between 1.4
+      and 2.7 μmol/J electricity, or even 3.1 umol/J for red LEDs.
+•     Adjustable spectrum (light quality) that allows optimization for photosyn-
+      thesis and plant form and function.
+•     Hardly any radiative heat emission, so lamps can be placed close to the
+      plants (e.g. interlighting).
+•     Very long life (> 50,000 hours).
+                             Crop Growth and Yield                         109
+
+
+•   Less light pollution (human-eye light sensitivity depends on colour; yellow
+    most sensitive).
+•   Good safety characteristics.
+
+     Because growers are used to HPS lamps, they sometimes feel that transi-
+tion to LEDs gives disadvantages because the head of the plant needs additional
+heating to maintain an acceptable development rate. On the other hand, the
+‘coldness’ of LED light has the advantage that addition of light is separated
+from addition of heat, which makes it possible to bring the lamps between the
+crop for interlighting (see next section). The main limitation for the applica-
+tion of LED light in greenhouses is the high investment costs (Persoon and
+Hogewoning, 2014; Nelson and Bugbee, 2014).
+
+Canopy interlighting
+Conventionally, commercial greenhouses apply HPS lamps as an SL source
+above the crop canopy. Plants are known to benefit from light distributed
+evenly throughout the crop canopy. In the high-wire tomato cultivation
+system with high plant density, most of the SL is intercepted by the upper
+part of the plant canopy. A recently developed SL technique to overcome this
+problem is interlighting, where some of the lamps are placed within the crop
+canopy to give light to the middle or lower part of the canopy. When grown
+under top lighting, leaves low in the canopy have a low photosynthetic cap-
+acity because they acclimate to low light conditions. However, with inter-
+lighting this acclimation happens to a lesser extent and the lower leaves stay
+more productive. Interlighting reduces loss of light due to crop reflection
+towards the sky, which corresponds to approximately 6–7% of the incident
+irradiance. It also reduces loss of light due to crop transmittance towards
+the floor, which can be in the order of 5–10% (LAI of 3–4 with an extinction
+­coefficient of 0.75). Interlighting with low-wattage HPS lamps was first
+ tested experimentally with success in Finland and Norway, where increases in
+ annual production in the order of 10–20% were found. The popular twin-row
+ system (narrow row) often used in tomato production in northern regions,
+ together with the high operating temperature of HPS lamps (> 200°C)
+ resulting in a significant near-infrared (NIR) heat radiation, makes HPS
+ unsuitable for interlighting.
+      In order to take advantages of both HPS and LED SL, hybrid systems have
+ shown great potential for greenhouse crops. For example, an HPS and LED
+ hybrid system resulted in a 20% higher yield for two tomato cultivars com-
+ pared with top HPS lighting only (Moerkens et al., 2016). However, produc-
+ tion under LEDs was lower than HPS when four lighting treatments (PPFD
+ 170 μmol/m2/s) were compared: (i) top lighting with HPS or (ii) LED; (iii) top
+hybrid lighting with HPS in combination with LED lighting (50/50) above the
+crop; and (iv) HPS above the crop in 50/50 combination with LED between the
+canopy (interlighting) (Dueck et al., 2012b).
+110                             E. Heuvelink et al.
+
+
+     To optimize the intra-canopy lighting system, the positioning of LED lamps
+should also be considered. By using a three-dimensional (3D) light model in com-
+bination with a 3D model of a tomato crop to simulate the 3D plant structure
+and light distribution for an interlighting system, LEDs shining slightly upward
+(20 degrees) increased light absorption and LUE relative to horizontally beaming
+LEDs, which could avoid loss of light to the ground (De Visser et al., 2014).
+     Using LEDs as light sources for interlighting raises questions about the
+optimal light spectrum within the crop. Using narrow-band LED light sources
+provides possibilities for lighting with efficient spectra for photosynthesis and
+plant development. There is little variation in the photosynthetic effective-
+ness of photons of different wavelengths; though red light has the highest
+quantum efficiency (McCree, 1972), blue light plays a key role in control-
+ling stomatal regulation (Hlavinka et al., 2013), whereas the ratio of red to
+far-red light is known to control stem elongation (Franklin and Whitelam,
+2005). The presence of blue light in the LED spectrum delayed stomata
+closure during water deficit (Kotiranta et al., 2015). It was reported for high-
+wire greenhouse tomato that interlighting with varying red (627 nm), blue
+(450 nm) or far-red (730 nm) ratio altered leaf photosynthesis and stomatal
+properties but did not affect plant productivity expressed by fruit number and
+total fruit fresh weight (Gomez and Mitchell, 2016), which can be explained
+by the presence of natural irradiance that dilutes the spectral effects of LED
+lighting. Although the ‘optimal’ light spectrum for interlighting in tomato is
+not known, a general conclusion from sole-source light-quality research is
+that 5–10% of total PPFD needs to be blue. Furthermore, the optimum light
+spectrum for various plant growth processes such as leaf and fruit growth
+may be different, as manipulating light spectral distribution with LEDs in the
+vertical profile of the canopy has a large influence on plant growth and de-
+velopment (Guo et al., 2016).
+
+Photoperiod
+It is important to take into account that a tomato plant grown under SL needs
+a minimum dark period of about 6 h (Dorais and Gosselin, 2002). When ex-
+posed to continuous light (CL), tomato plants show a set of characteristic
+symptoms, of which interveinal mottled chlorosis starting at the leaf/leaflet
+base is the most distinctive. It was hypothesized that CL implies continuous en-
+ergy supply for photosynthesis (energy component) and continuous signalling
+to the photoreceptors (signalling component); both could play a role inducing
+injury (Vélez-Ramírez, 2014). The CL-induced injury could be photo-oxidative
+damage, early senescence and/or photosynthetic down-regulation (feedback
+inhibition) (Dorais et al., 1995). A dominant locus on chromosome 7 of wild
+tomato species (known to be tolerant to CL) that confers CL tolerance and the
+type III light-harvesting chlorophyll a/b binding protein 13 (CAB-13) gene has
+been identified as a major factor responsible for the tolerance (Vélez-Ramírez,
+2014). Introgressing the tolerance into modern tomato hybrid lines resulted
+                                Crop Growth and Yield                            111
+
+
+in up to 20% yield increase. Hence, it was proposed that CL-induced injury
+in tomato arises from retrograde signals that counteract signals derived from
+the cellular developmental programme that promote chloroplast development,
+such that chloroplast development cannot be completed, resulting in the chlor-
+otic phenotype (Vélez-Ramírez, 2014).
+
+Diffuse light
+Solar light is composed of a diffuse component and a direct component. Diffuse
+light arises from the scattering of light by molecules or larger particles in the
+atmosphere and comes from many directions simultaneously; direct light ar-
+rives in a straight line from the sun without being scattered. Many studies have
+reported that plants, including tomato, use diffuse light more efficiently than
+direct light (Mercado et al., 2009; Li et al., 2014). Under Dutch conditions, dif-
+fuse glass cover increased year-round tomato production by 8–11% (Dueck
+et al., 2012a). Only diffuse covering materials, developed in recent years,
+increase the diffuseness of light without affecting total light transmission
+(Hemming et al., 2014). Under PE the fraction of diffuse light is higher than
+under glass; however, glass generally obtains a higher total light transmission.
+     Diffuse light creates a more homogeneous light profile (both vertically and
+horizontally) in the canopy than direct light. It exhibits a lower light extinc-
+tion coefficient than direct light (Li et al., 2014), hence diffuse light penetrates
+deeper into the canopy. Diffuse light also results in a more homogeneous light
+distribution as less sunflecks occur (Fig. 4.9). High light levels usually lead to
+
+
+ (A)                                        (B)
+
+
+
+
+Fig. 4.9. Light distribution in a tomato canopy in a conventional clear glasshouse
+(direct light, A) and diffuse glasshouse (diffuse light, B) on a clear day. Light is
+more homogeneously distributed under diffuse cover (B) compared with clear
+cover (A) where many sunflecks in the middle and lower part of the canopy occur.
+(Photograph courtesy of Wageningen UR Greenhouse Horticulture.)
+112                              E. Heuvelink et al.
+
+
+photosynthetic saturation and a decrease in LUE, which often occurs on the
+top canopy leaves under direct light. Diffuse light effectively mitigates the light
+saturation constraint by more evenly distributing light among all leaves in the
+canopy and therefore leads to a more efficient use of light. Diffuse light also
+results in a lower leaf temperature (3–5°C) and less photo-inhibition of top
+leaves in the middle of clear days (Li et al., 2014).
+     Besides the direct effect of a more homogeneous distribution of diffuse
+light described above, there is also an indirect effect resulting from acclima-
+tion. Since diffuse light penetrates deeper into the canopy, the lower leaves
+receive on average a higher light intensity, which leads to a higher total ni-
+trogen and chlorophyll content and hence a higher photosynthetic capacity
+in these lower leaves. Acclimation to diffuse light also includes acclimation of
+leaf morphology, which affects light interception and, consequently, photosyn-
+thesis. Tomato plants grown under diffuse light showed a lower specific leaf
+area (SLA), which indicates thicker leaves, as well as a higher leaf area index
+(LAI) mainly caused by a greater leaf width.
+     A simulation study showed for Dutch greenhouse conditions that diffuse
+glass increased crop photosynthesis by 7.2%; this increase mainly resulted
+from a better horizontal light distribution (33% of the total effect), whereas
+improved vertical light distribution and acclimation were each responsible for
+21–23% of the total effect (Li et al., 2014).
+
+
+Carbon dioxide
+
+ CO2 is the substrate for photosynthesis, and a higher concentration increases
+the rate of diffusion of CO2 into the leaf and therefore gross leaf and crop
+ photosynthesis. It also increases photosynthesis, because of suppressing
+ photorespiration (see above). Photosynthetic rate, growth and yield show a
+ saturation-type of response to CO2. The relative increase in crop growth and
+yield (X, % per 100 μmol/mol) caused by additional CO2 at certain CO2 con-
+ centrations (C, μmol/mol) can be roughly estimated for indeterminate tomato
+ grown under normal greenhouse conditions by the following rule of thumb:
+ X = (1000/C)2 × 1.5 (Nederhoff, 1994). In (semi-)closed greenhouses, increased
+rates of photosynthesis due to the higher CO2 concentrations are primarily
+­responsible for the yield increase of 10–20% (De Gelder et al., 2012).
+     For several species, including tomato, increases in RGR at elevated CO2
+ were correlated with the relative increase in NAR and partly counter-
+ acted by a decrease in LAR, because of decreased SLA. Total fresh and dry
+ weight, plant height and stem thickness of young tomato plants increased
+ with elevated CO2 without affecting the root-to-shoot ratio (Li et al., 2007).
+ However, Wang et al. (2009) observed an increased root-to-shoot ratio
+ under elevated CO2 (800 μmol/mol versus 350 μmol/mol), which agrees with
+the functional equilibrium (see above). Increased assimilation rate, ­decreased
+                                Crop Growth and Yield                            113
+
+
+stomatal conductance and transpiration rate as well as higher total dry mass,
+fruit set and higher yield were observed at 700 μmol/mol CO2 concentration
+compared with 500 μmol/mol (Mamatha et al., 2014). Raising CO2 concen-
+tration to 1000 μmol/mol increased yield by up to 84% compared with 400
+μmol/mol (Khan et al., 2013). CO2 concentration does not affect appearance
+rate of leaves and trusses and has no direct effect on dry matter allocation,
+as sink strength rather than source strength determines the assimilate par-
+titioning (see ‘Biomass Partitioning’, pp. 98–106). Indirectly, however, CO2
+enrichment in tomato plants increases fruit set (Fig. 3.5) and thus dry matter
+allocation to the fruits.
+     From experimental observations, increasing CO2 concentration from
+360 to 720 μmol/mol increased the photosynthetic rate of young tomato
+by 55% (Li et al., 2007), while CO2 increase from 400 to 1000 μmol/mol in-
+creased the photosynthesis rate of the lower foliage by up to 100% (Bencze
+et al., 2011). An increase of 100 μmol/mol in CO2 concentration could
+reduce stomatal ­conductance of tomato by about 3% (Nederhoff, 1994).
+Despite the increased stomatal resistance at elevated CO2, the intercellular
+CO2 concentration is kept high under CO2 atmosphere enrichment which
+maintains high photosynthesis. No significant effect of CO2 concentration
+on average leaf temperature was established, except under very low radi-
+ation (Nederhoff, 1994).
+
+Acclimation
+Although photosynthesis shows an initial higher short-term response to CO2
+enrichment, the long-term response often declines markedly (Besford, 1993)
+(Fig. 4.10). The long-term CO2 acclimation of C3 plants is related to a substan-
+tial reprogramming of gene expression (Fukayama et al., 2009) in response
+to metabolic changes. Environmental, genetic or management practices that
+limit the development of sink strength predispose plants to a greater acclima-
+tion of photosynthetic capacity and lessen the stimulation of photosynthetic
+carbon uptake by growth at elevated CO2 concentration (Foyer et al., 2012).
+In fact, elevated CO2 concentrations in a semi-closed greenhouse did not cause
+feedback inhibition in a high-producing tomato crop, because the plants had
+sufficient sink organs (fruits) to utilize the extra assimilates (Qian et al., 2012).
+Different responses observed on young and mature plants and under different
+environmental conditions (e.g. light, photoperiod, CO2, temperature) clearly
+showed the influence of the source-to-sink balance on the acclimation of
+photosynthetic capacity to elevated CO2 and therefore degree of stimulation of
+CO2 uptake. Although genetic factors play an important role in photosynthetic
+response to high CO2, the down-regulation of transcripts encoding RuBisCO
+and other proteins associated with CO2 fixation and an up-regulation of those
+encoding proteins involved in RuBP regeneration and starch synthesis is a
+common response to long-term growth at elevated CO2 concentration (Leakey
+et al., 2009; Foyer et al., 2012).
+114                                            E. Heuvelink et al.
+
+
+
+                               30
+
+
+
+                               25
+
+
+
+                               20
+
+
+
+
+       Pmax (μmol CO2 /m2/s)
+                               15
+
+
+
+                               10
+
+
+
+                               5
+
+
+
+                               0
+
+                                    24   30      40            50          60   70
+                                              Plant age (days from sowing)
+
+Fig. 4.10. Light-saturated rate of photosynthesis, Pmax (1500 μmol/m2/s) of the
+unshaded fifth leaf of tomato plants at various stages of development. Plants grown
+in 340 μmol/mol CO2 (,  ) or in 1000 μmol/mol CO2 (—, ) and measured in
+300 μmol/mol CO2 (, —) or in 1000 μmol/mol CO2 (, ). (Reprinted from Besford,
+1993, Vegetatio 104/105, 444, with permission from Kluwer Academic Publishers.)
+
+
+Growing environment
+The higher rates of photosynthesis and assimilation production of plants grown
+under CO2 enrichment is also related to enhanced nutrient demands and a re-
+duced C/N ratio (Li et al., 2007). Although RuBisCO acclimation at high CO2
+may save nitrogen, the increase of nitrogen use efficiency typically observed is
+driven by enhanced CO2 uptake rather than by the saving and redistribution of
+leaf nitrogen (Leakey et al., 2009). Acclimation of plants to elevated CO2 also
+improves the water use efficiency by reducing stomatal conductance and tran-
+spiration (Leakey et al., 2009; Takagi et al., 2009; Bencze et al., 2011). Besides,
+under elevated CO2 levels, tomato plants may suffer greater damage from herb-
+ivorous insects because of their reduced resistance and tolerance caused by the
+suppression of the jasmonic acid signalling pathway, an important hormone
+involved in plant defence against chewing insects (Guo et al., 2012). Increase
+in the potential crop losses of field tomato due to higher weed competition
+under elevated CO2 may also occur (Valerio et al., 2013).
+                               Crop Growth and Yield                           115
+
+
+Temperature
+
+Temperature primarily influences tomato yield because it influences plant de-
+velopment (see Chapter 3) through processes such as leaf initiation rate, leaf
+area development, pollen quality and hence fruit set. Besides, temperature
+has a direct influence on plant metabolism (e.g. photosynthesis, respiration,
+sink activity) and thus affects crop growth and yield. Yield potential reduces
+at temperatures above 26°C, with fruit set being one of the first processes
+that is negatively influenced by supra-optimal temperatures (see Chapter 3).
+The effect of temperatures around the optimal one on the growth of closed
+­canopies is mainly through maintenance respiration. The rate of maintenance
+ respiration more or less doubles with a 10°C rise in temperature. In the long
+ term, temperature effect on crop maintenance respiration rate is small. At cool
+ temperatures a heavier crop will compensate for a lower respiration rate per
+ unit of biomass, whereas at warmer temperatures biomass is reduced, which
+ in turn compensates for the increase in respiration rate per unit of biomass
+ (Heuvelink, 1999).
+      Average fruit size decreases with temperature, being a consequence of in-
+ creased truss appearance rate and accelerated fruit development (including
+ reduction of the ripening time; see Chapter 3). Hence at higher temperatures
+ an almost similar amount of assimilates has to be distributed over a larger
+ amount of fruit, resulting in a lower average fruit weight when temperature is
+ increased from 17°C to 26°C.
+      The optimum temperature for vegetative growth is 18–25°C, while the
+ truss appearance rate increases almost linearly when temperature increases
+ from 17°C to 27°C. At temperatures of 17–23°C, the ratio between vegeta-
+ tive and generative growth over a long growth period is independent of the
+ average temperature (De Koning, 1989). The optimal temperature for anthesis
+ is 18–20°C.
+
+Chilling temperatures
+As tomato is a tropical species, it is sensitive to chilling temperature. No growth
+occurs below 12°C and long-term exposure to these low temperatures causes
+chilling injury. For field crops, low-temperature exposure in combination with
+high irradiance, as found during the early growth season in California, causes
+a rapid and severe inhibition of photosynthesis. Several elements that con-
+tribute to this inhibition have been identified and all may ultimately arise from
+the photosynthetic production of highly reactive oxygen species (ROS) (Apel
+and Hirt, 2004). ROS formation occurs when the photosynthetic light-driven
+electron transport chain exceeds demand by the slowly turning Calvin cycle
+resulting in photo-inhibition, which is manifested in damage to the D1 protein
+of photosystem II. Under moderately low temperature and light as observed in
+several European countries during spring, photo-inhibition may not occur, but
+due to cessation of growth and development a reduced demand for photo-as-
+similates occurs, resulting in carbohydrate leaf accumulation and changes of
+116                              E. Heuvelink et al.
+
+
+the starch and soluble sugar partitioning. Consequently, sucrose synthesis in
+the cytoplasm will cease and may cause feedback inhibition on the reduction
+of phosphoglyceric acid in the Calvin cycle. Moreover, Calvin cycle turnover
+rates will decrease for thermodynamic reasons (Venema et al., 2005). As neg-
+ligible demand for NADPH occurs under low temperature, the photochemical
+quenching decreases (Havaux, 1987) and the non-photochemical quenching
+through the xanthophyll cycle increases. Alternatives routes such as photorespir-
+ation and cyclic electron transport around PSI are also involved in protecting
+the photosynthetic apparatus from over-excitation. Upon long-term chilling,
+the specific activity of RuBisCO declines in parallel with photosynthesis rates
+in tomato (Brüggemann et al., 1994). Due to the low turnover rates of tomato
+RuBisCO (Besford et al., 1985), particularly at low temperatures, inactivated
+enzyme molecules accumulate in the chloroplast, which increases the plant’s
+susceptibility to over-excitation by light and low temperature. When irrevers-
+ible RuBisCO inactivation occurs, Calvin cycle rates decrease and plants are not
+able to benefit from better temperatures (Venema et al., 2005). For example,
+exposing young tomato plants during 9 days at high day and low night tem-
+peratures (25°C/9°C compared with 25°C/15°C) caused a reduced capacity
+for CO2 assimilation, which decreased the utilization of NADPH (Liu et al.,
+2012). Specifically, this reduction was accompanied by stomatal limitation of
+CO2 supply and decline in RuBisCO activity at the transcriptional level. Soluble
+sugars and starch content and sucrose synthase activity increased under low
+night temperatures (Qi et al., 2011).
+     Respiration – a vital component of plant metabolism, providing energy
+and carbon skeletons for biosynthesis, cell maintenance and active transport
+in plants – is one of the most important metabolic processes in chilling acclima-
+tion (Shi et al., 2013). It has been observed that plants capable of maintaining
+a similar respiration rate under different temperatures are better adapted to
+chilling (Atkin et al., 2006). Flexible changes in both the plant mitochondrial
+electron transport chain and cytosolic glycolysis cooperatively control chilling
+tolerance in tomato plants (Shi et al., 2013). For chilling-sensitive species such
+as tomato, the circadian rhythm controlling the activity of SPS and nitrate re-
+ductase (NR), key control points of carbon and nitrogen metabolism in plant
+cells, is delayed by chilling treatments (Jones et al., 1998). The mistiming in the
+regulation of SPS and NR, and perhaps other key metabolic enzymes under
+circadian regulation, underlies the chilling sensitivity of photosynthesis in to-
+mato. Moreover, it has been observed that low temperature (6°C for 5 days) al-
+tered the membrane lipid composition of tomato chloroplast and decreased the
+number of granal thylakoids but had no effect on the total content of protein
+(Novitskaya and Trunova, 2000). The possible role of variation in membrane
+lipid composition as a causal factor in chilling sensitivity of several species has
+been noted by several authors (Somerville, 1995; Venema et al., 2005). On the
+other hand, tomato under chilling conditions appears incapable of ­optimal
+regulation of stomatal conductance, resulting in high transpiration and wilting.
+                                                                     Crop Growth and Yield                                                117
+
+
+ Suboptimal temperatures
+ Under field conditions, photosynthesis decrease was observed when day
+ t­emperature was reduced from 25ºC to 16ºC (Venema et al., 1999a, b).
+  A reduction in the night temperature from 14ºC to 6°C, combined with a day
+  temperature of 19ºC, did not affect net photosynthesis on a leaf area basis,
+  while photosynthesis on a fresh leaf weight basis decreased under lower night
+  temperatures, due to increasing leaf thickness (Van de Dijk and Maris, 1985).
+  The RGR on tomato plants is reduced at suboptimal averaged temperatures and
+  at low night temperatures, which is correlated with the LAR decrease. NAR is
+  not affected by night temperature, while LAR reduction under low night tem-
+  peratures is correlated with the SLA reduction. Suboptimal temperatures pro-
+  duce thicker leaves (reduced SLA) due to larger cells and starch accumulation
+  (Venema et al., 1999 a, b). This is especially of importance for young plants,
+  where thicker leaves result in less light interception and consequently a lower
+  relative growth rate. Under suboptimal day/night temperatures of 17°C/14°C,
+  suppression of the shoot growth rates and leaf area expansion compared with
+  optimal 22°C/18°C temperatures was not due to restriction in the rates of net
+  CO2 assimilation but rather related to hormonal signalling such as abscisic
+acid, auxin and salicylic acid (Ntatsi et al., 2013). Temperature can also modu-
+late stomatal responses to water deficits and to ABA (Correia et al., 1999), as
+observed in low-temperature-tolerant wild species (Venema et al., 2005).
+       In greenhouse tomato production, energy input is an important aspect
+regarding sustainability (economics and CO2 emission). Within the culti-
+vated tomato, there is only little genetic variation in response to temperature,
+which hampers breeding for equal production and quality at lower temper-
+atures. However, in wild tomato species (e.g. Solanum pennellii, S. hirsutum)
+low-­temperature tolerance is present (Fig. 4.11). It has been shown that the
+­decrease in SLA at lower temperature in cv. ‘Moneymaker’ was related to the
+ accumulation of non-structural carbohydrates (soluble sugars + starch),
+
+ (A)                                               (B)                                                (C)
+                0.20                                                 0.5                                            500
+
+
+
+
+                                                  NAR (mg/cm /day)
+                                                                     0.4                                            400
+
+
+
+
+RGR (g/g/day)                                                                                         LAR (cm /g)
+                0.15                              2
+                                                                     0.3
+                                                                                                      2
+                                                                                                                    300
+
+                                                                     0.2                                            200
+                0.10
+
+                                                                     0.1                                            100
+
+                0.05                                                 0.0                                             0
+                       10      15     20     25                            10      15     20     25                   10      15     20     25
+                            Temperature (°C)                                    Temperature (°C)                           Temperature (°C)
+
+Fig. 4.11. Effect of temperature on (A) RGR, (B) NAR and (C) LAR of seedlings of
+S. lycopersicum ‘Moneymaker’ (£) and S. pennellii LA716 (¾). (J.H. Venema, A. Van
+der Ploeg and E. Heuvelink, unpublished.)
+118                             E. Heuvelink et al.
+
+
+which was much less pronounced in more cold-tolerant related wild tomato
+species (Venema et al., 1999a, b).
+
+Supra-optimal temperatures
+Over a wide range, temperature has only a minor effect on gross photosyn-
+thesis of tomato. Temperature affects mainly the assimilate demand by the
+fruit (see ‘Biomass Partitioning’, pp. 98–106) without changing photosyn-
+thesis rate in the range of 15–25°C. Full acclimation of the photosynthetic
+apparatus of mature leaves to altered temperature requires at least several
+days. Stomatal conductance increases exponentially with temperature over
+the range of 15–35°C, even when assimilation rate decreased at high meas-
+urement temperature (Bunce, 2000). Below these ranges, photosynthesis in-
+creases with temperature because of the increased rates of the light reaction
+and carboxylation, but net CO2 assimilation is depressed by the increase in dark
+respiration and photorespiration.
+     Based on detailed tomato canopy CO2 gas exchange measurements at
+supra-optimal temperatures and high CO2 levels (300, 600, 900 and 1200
+μmol/m2/s for 20–33°C and 400, 700 and 1000 μmol CO2/mol), the tempera-
+ture that maximized gross crop photosynthesis (Pgc) was predicted, showing a
+clear shift to higher optimum temperatures at elevated CO2 levels (Fig. 4.12)
+(Körner et al., 2009). Compared with leaf photosynthesis, crop photosynthesis
+had a lower temperature optimum (the difference could be several degrees),
+and the shift in optimum temperature from a low to a high CO2 level was lower
+for a canopy compared with a leaf. Therefore, optimizing the leaf photosyn-
+thetic rate in model-based greenhouse climate control would not result in
+optimum crop photosynthesis.
+     Supra-optimal temperatures can cause severe damage to the photosyn-
+thetic apparatus. Generally, high temperatures reduced photosynthesis by
+changing the structural organization of thylakoids, resulting in the loss of
+grana stacking or its swelling (Wahid et al., 2007) and down-regulation of PSII
+activity (Ogweno et al., 2008). Decreases in RuBisCO and in PSII activities are
+the main factors involved in photosynthesis limitation resulting from supra-­
+optimal temperatures (Zhang et al., 2012). In tomato genotypes differing in heat
+tolerance, reduction in the CO2 assimilation rate was not related to stomatal
+limitation (Camejo et al., 2010) but rather the result of effects on the Calvin
+cycle and PSII functioning, while an increased chlorophyll a:b ratio and a de-
+creased chlorophyll-to-carotenoids ratio was observed in the tolerant wild geno-
+types as sun-type chloroplasts. The heat-sensitive step of the sensitive genotype
+appeared to be the maximum rate of electron transport as a consequence of the
+activation of alternative pathways. However, when plants of a heat-sensitive
+genotype were adapted during 30 days to 35°C, net rate of photosynthesis was
+not negatively affected by 20 min at 35°C compared with the 25°C control
+plants (Camejo et al., 2010). As fruit set declines under excessive temperature,
+lower fruit sink strength may decrease the export of photo-assimilates from
+                                                Crop Growth and Yield                       119
+
+
+           (A)                                                (B)
+                                 60                            60
+
+
+
+
+           Pgc (µmol CO2/m2/s)
+                                 40                            40
+
+
+
+                                 20                            20
+
+
+
+                                  0                             0
+                                      20   24   28    32            20     24    28    32
+
+           (C)                                                (D)
+
+                                 60                            60
+
+
+
+
+           Pgc (µmol CO2/m2/s)
+                                 40                            40
+
+
+
+                                 20                            20
+
+
+
+                                  0                             0
+                                      20   24   28    32            20     24    28    32
+                                       Temperature (°C)                 Temperature (°C)
+
+Fig. 4.12. Measured and fitted (negative-exponential) gross crop photosynthesis (Pgc)
+values for tomato as a function of temperature at two CO2 concentrations (400 (™) or
+1000 (˜) μmol CO2/mol) at four photosynthetic photon flux densities (A: 300, B: 600,
+C: 900 or D: 1200 μmol/m2/s). Data were fitted using quadratic functions. Standard
+errors (±SE) were smaller than the symbols used. Reprinted from Körner et al., 2009,
+by permission of Taylor and Francis Ltd (http://www.tandfonline.com)
+
+
+source (leaf) to sink (fruit) organs, resulting in photosynthesis feedback inhib-
+ition and starch accumulation in the leaf (Zhang et al., 2012).
+
+Temperature and partitioning
+High temperature enhances early fruit growth at the expense of vegetative
+growth. At high temperatures, the rate of plant development (new leaves and
+trusses) is higher (see Chapter 3). Therefore, growing young plants (only a few
+trusses have appeared) at high temperatures will increase partitioning into the
+fruits, as it increases the number of growing fruits on the plant. The strong
+assimilate demand by the growing fruits at the higher temperatures causes
+not only reduced leaf growth but also delay of growth of newly set fruits and
+even flower abortion. As a consequence, after some time total sink strength of
+120                              E. Heuvelink et al.
+
+
+the fruits is low and the plant recovers vegetatively and good-quality flowers
+­develop. Subsequently, these flowers set fruit and form strong sinks, resulting
+ in the onset of a second cycle of strong fruit growth. This leads to a more or
+ less pronounced alternation of fruit growth and vegetative growth (De Koning,
+ 1989). These effects of temperature, however, should not be confused with a
+ direct effect of temperature on dry matter allocation.
+      Literature data are not conclusive on a possible direct effect of tempera-
+ ture on partitioning in tomato. For example, partitioning towards the fruits
+ was only improved a little when young producing tomato plants were exposed
+ for 3 weeks at 24°C compared with 19°C (Heuvelink, 1995a). However, when
+ a similar experiment was conducted for a period of 2 weeks during the anthesis
+ of the sixth truss, the fraction of dry matter partitioned to the fruits was 0.68
+ and 0.80 at 19°C and 23°C, respectively (De Koning, 1994).
+
+Temperature integration
+The long-term average temperature, rather than the day–night tempera-
+ture regime, determines crop growth and yield in producing tomato crops.
+Consequently, temperature integration up to 12 days with an amplitude of
+6°C does not reduce yield once the canopy (LAI) is fully developed (De Koning,
+1990); and under high CO2 enrichment (1000 μmol/mol) yield is hardly in-
+fluenced by temperatures ranging between 16°C and 24°C (Heuvelink et al.,
+2008). This great ability of a mature tomato crop to integrate (compensate
+within a certain period) temperature offers good possibilities for saving energy
+in greenhouse cultivation (see Chapter 9). For example, in spring, energy can
+be saved by allowing the greenhouse to heat up above the desired long-term
+average temperature by solar radiation during daytime, which is compensated
+for by reduced heating during the night. Similarly, in periods with high wind
+speed (high energy loss) the temperature set-point may be below the desired
+average, to be compensated for by a higher than average set-point in periods
+with low wind speed, reducing total heating costs. These control possibilities
+are included in greenhouse climate computer software in modern facilities.
+
+
+Humidity
+
+Humidity (vapour pressure deficit (VPD) 0.2–1.0 kPa) has little effect, or higher
+humidity increases photosynthesis. Pollination, fruit growth and development
+of tomato are generally not influenced in this VPD range (Picken, 1984), while
+an increase of VPD from 1 to 1.8 kPa could reduce plant growth of several
+crops (Hoffman, 1979). Humidity can influence leaf photosynthesis through
+its effect on stomatal conductance: low humidity may result in water stress
+and (partial) stomatal closure. Under extreme conditions of low humidity
+(1.5–2.2 kPa), there is a reduction of growth due to stomatal closure and
+therefore reduced photosynthesis. Long-term high relative humidity is known
+                                Crop Growth and Yield                             121
+
+
+to induce abnormal stomatal functioning, bigger stomata and changed sto-
+matal density in several plant species, including tomato (Fanourakis et al.,
+2013; Arve and Torre, 2015). Carbon assimilation per se appears not to be
+greatly affected by humidity in the range of 0.2–1.0 kPa unless leaf or plant
+transpiration exceeds the water supply and water stress results (Grange and
+Hand, 1987). Hence, photosynthesis is decreased by low humidity only in high
+electrical conductivity (EC)- and/or water-stressed plants.
+     High humidity is often prevented in greenhouses, as it increases the risk
+of diseases (e.g. botrytis), especially in combination with a heterogeneous tem-
+perature distribution such that water vapour condensates on the coldest parts.
+It may also reduce yield; for example, 18–21% reduction at a VPD of 0.1 kPa
+(high humidity) compared with a VPD of 0.5 kPa, which may be related to a
+diminution of the leaf area due to a calcium deficiency in the foliage (Holder
+and Cockshull, 1988) and a reduced fruit growth rate (Bakker, 1990). High
+humidity may also reduce the ovule fertilization rate, due to a more difficult
+release of the pollen. On the other hand, high humidity (misting) has been
+used to partially mitigate the negative effect of high salinity in the root envir-
+onment, by reducing the transpiration rate and thus the water demand (Li and
+Stanghellini, 2001; Cuartero et al., 2006).
+     Under Mediterranean conditions, VPD higher than 2 kPa during the hottest
+hours of the day reduces fruit growth and fruit fresh weight, probably due to a
+reduction of the fruit-stem water potential gradient. Under those conditions total
+yield is also reduced by a decrease in fruit size (higher dry mass content). Moreover,
+there is an increase in the number of fruit affected by blossom-end rot (BER), due
+to a high foliage transpiration rate, thereby limiting the supply of xylem sap (cal-
+cium) to the fruit. At high salinity (10 dS/m), depressing plant transpiration by
+35% under the same solar radiation reduced the incidence of BER from 20% to
+2% of the total yield and might enlarge fruit size, thereby improving fruit quality
+and yield value (Stanghellini et al., 1998). Low VPD did not affect the enhanced
+organoleptic quality of fruit grown under these high EC levels.
+
+
+Salinity
+
+In practice, water and salinity stresses are believed to favour generative devel-
+opment in tomato. Young plants are often stressed to stimulate fruit growth
+on the first truss. There is no proof that water and salinity stress directly influ-
+ences partitioning, but influence in an indirect way by improving fruit set is well
+known. Improved fruit set leads to more fruits, and a higher fruit number on the
+plant will increase partitioning towards the fruits (Fig. 4.3). According to Dorais
+et al. (2001b), at an EC of 6 dS/m, biomass and dry matter partitioning among
+fruit, vegetative parts and roots were not affected by salinity. Nevertheless, EC of
+10 dS/m reduced plant dry weight by 19% as compared with an EC of 2 dS/m but
+did not influence dry matter partitioning. An EC of 17 dS/m, however, slightly
+122                              E. Heuvelink et al.
+
+
+reduced dry matter distribution to the fruits. On the other hand, for young
+fruiting plants (first flower anthesis until harvest of the second truss) exposed
+to a salinity of 8 dS/m, it was reported that salinity increased the sink strength
+of tomato fruits due to an increase in the fruit ­sucrose synthase activity, while
+both forms of invertase were not affected (Saito et al., 2009). Although salinity
+reduced photosynthesis rate per unit leaf area, increased transport and distri-
+bution of photo-assimilates to the fruits was measured.
+     Depending on temperature, cultivar, the severity of salinity and the
+duration of salinization, the number of trusses per plant as well as the
+number of flowers per truss might be influenced by salinity. For example,
+ECs of 4.6–8 dS/m reduced fruit yield because of a reduction in fruit size,
+whereas an EC of 12 dS/m reduced both the number and size of fruit.
+Salinities higher than 2.3–5.0 dS/m resulted in an undesirable yield reduc-
+tion, while ECs of 3.5–9.0 dS/m improved tomato fruit quality (Dorais et al.,
+2001a, b). In general, the yield and individual fruit weight of cultivars with
+smaller fruit size would be less affected by high salinity than cultivars with
+larger fruit.
+     Reduction of growth under salt stress is due to both an osmotic stress (days
+to weeks) and then an ionic stress (weeks to months), which provoke nutri-
+tional imbalance and accumulation of toxic ions such as sodium. Reduction of
+fruit growth and the final fruit size by an osmotic effect is due to a lower plant
+water potential, which will reduce the water flow into the fruit and therefore
+the rate of fruit expansion. A growth reduction of 6–10% for each 1 dS/m in-
+crease is expected (Adams, 1991). Under salinity, stem internode length, plant
+height and leaf area of tomato are reduced (Najla et al., 2009). It has been
+proposed that shoot growth inhibition under salt stress may be regulated by
+hormones or their precursors (Pérez-Alfocea et al., 2010). For example, root-lo-
+calized induction of cytokinin biosynthesis modified both shoot hormonal and
+ionic status, thus ameliorating salinity-induced decreases in growth and yield
+under moderate salinity (Ghanem et al., 2011). Abscisic acid and the ethylene
+precursor 1-aminocyclopropane-1-carboxylic acid (ACC) concentrations in-
+creased in roots, xylem sap and leaves after 1 day and 15 days, respectively, of
+salinization. The auxin concentration decreased in the leaves while it accumu-
+lated in the roots. The auxin/cytokinin ratio in the leaves and roots may explain
+both the salinity-induced decrease in shoot vigour and the shift in biomass al-
+location to the roots (Albacete et al., 2008; Lovelli et al., 2012). Functional evi-
+dence about the role of metabolic and hormonal inter-regulation of local sink
+processes in controlling tomato fruit sink activity, growth and yield under sal-
+inity have been shown (Albacete et al., 2014).
+     Increasing water salinity (EC = 0.5 up to 15.7 dS/m) negatively affected
+LAI, radiation use efficiency (RUE) and above-ground dry weight accumula-
+tion, resulting in lower total and marketable yield (De Pascale et al., 2015).
+Although the smaller leaf area of salinized plants was largely responsible
+for reduced RUE, approximately 50% of this reduction was accounted for by
+                               Crop Growth and Yield                           123
+
+
+processes other than changed crop architecture, such as an increased stomatal
+resistance, increased mesophyll resistance and other impaired metabolic func-
+tions that may occur at high salinity. Interestingly, plants grown on long-term
+salinized soils (exposed to > 20 years of salinization) had a slightly higher RUE
+at a given EC of soil extract than plants grown on one-season salinization soil,
+indicating that permanent modifications of the soil physical properties may
+trigger physiological mechanisms of adaptation.
+      A proportional decrease in leaf photosynthesis rate as salinity increased
+has been reported (Romero-Aranda et al., 2001). However, a decline in crop
+photosynthesis is primarily the result of a reduced leaf area (Heuvelink et al.,
+2003). Photosynthetic performance of tomato under salinity varies among
+genotypes and may be related to: (i) their capability for toxic ion exclusion and
+maintenance of appropriate essential macronutrient concentrations in leaves;
+and (ii) metabolic and diffusion limitations (Nebauer et al., 2013). Stomatal
+closure and decreased mesophyll conductance (gm) initially limit photosyn-
+thesis due to reduced CO2 availability but subsequently this low CO2 level can
+lead to leaf metabolism changes (Nebauer et al., 2013). The mechanisms that
+down-regulate gm under salinity are still unknown, though they may involve
+regulation of proteins such as aquaporins or carbonic anhydrase (Nebauer
+et al., 2013). Metabolic limitations are related to a reduction in active RuBisCO
+as well as limited RuBP regeneration due to an inadequate ATP or NADPH
+supply of enzymatic activities.
+
+Mitigating salinity effects
+Three cultural techniques that have proved useful in tomato to overcome, in
+part, the negative effects of salinity are: (i) treatment of seedlings with drought
+or NaCl, which ameliorates the adaptation of adult plants to salinity; (ii) mist
+(increasing humidity) applied to tomato plants, improving vegetative growth
+and yield in saline conditions; and (iii) grafting tomato cultivars on to appro-
+priate rootstocks (Cuartero et al., 2006). In addition to enhancing tolerance
+of tomato against salinity, rootstocks reduce infection by soil-borne pathogens
+and relieve nutrient, water, thermal and pollutant stresses (Colla et al., 2010;
+Schwatz et al., 2010). Elevated CO2 concentration may also alleviate the nega-
+tive effect of salinity on photosynthesis and plant growth (Maggio et al., 2002;
+Takagi et al., 2009). This effect was promoted under high sink-to-source ac-
+tivity, probably owing to improvement of oxidative stress as well as the water
+status through stomatal closure at high CO2 concentration (Takagi et al.,
+2009).
+     A significant consequence of climate change is the increased frequency
+of stress combinations that plants are exposed to, especially of abiotic factors
+such as salinity in combination with pathogenic microorganisms. Recent work
+(Kissoudis et al., 2017) has revealed the differential influence of ethylene and
+abscisic acid signalling pathways on tomato resistance to combined powdery
+mildew and salt stress.
+124                              E. Heuvelink et al.
+
+
+
+CROP GROWTH MODELS
+
+As seen in the previous sections, tomato crop growth is a complex phenom-
+enon. Simulation models seem appropriate here, as these models have proved
+to be successful tools in prediction and explanation of the behaviour of such
+a complex, dynamic system as a growing crop. Models are powerful tools to
+test hypotheses, to synthesize knowledge, to describe and understand complex
+systems and to compare different scenarios. Furthermore, with a model, con-
+ditions that cannot be attained experimentally can be evaluated, which may be
+important in theoretical studies. Models may be used in decision support sys-
+tems, greenhouse climate control and prediction and planning of production.
+A model is a set of equations that represent the behaviour of a system. Often
+descriptive and explanatory models are distinguished. Descriptive models, also
+called statistical, regression, empirical or black-box models, reflect few or none
+of the mechanisms that are the cause of the behaviour of a system, whereas
+explanatory models consist of a quantitative description of these mechanisms
+and processes. Crop models can also be distinguished into process-based (func-
+tional) models and structural (architectural) models. The former represent
+plant processes such as photosynthesis and leaf area expansion, whereas the
+latter focus much more on developmental aspects (initiation of new organs,
+morphogenesis). A more recent development is the combination of both ap-
+proaches into so-called functional–structural plant models (FSPM).
+      An overview of photosynthesis-based models for tomato is provided by
+Marcelis et al. (1998). Two of these models are TOMGRO (Gary et al., 1995) and
+TOMSIM (Heuvelink, 1999), which include most of the processes described
+before (e.g. leaf and crop photosynthesis, light interception, biomass increase
+and dry mass partitioning) and the developmental processes (e.g. truss ap-
+pearance rate, fruit growth period) presented in Chapter 3. More recently,
+process-based tomato crop growth models have been presented by: (i) Boote
+and Scholberg (2006), who showed results obtained with the crop simula-
+tion model CROPGRO-tomato with full C, N and water balance (Fig. 4.13);
+(ii) Marcelis et al. (2009), who concluded that their mechanistic crop model accur-
+ately simulates yield, growth, development and water and nutrient relations of
+greenhouse-grown tomato in different climate zones; (iii) Wang et al. (2012),
+who developed (by analysing the quantitative relationships between growth,
+partitioning index and harvest index and physiological development time) a
+mathematical model to estimate total dry matter accumulation, shoot dry
+matter partitioning and yield for processing tomatoes; and (iv) Katerji et al.
+(2013), who showed that the FAO AquaCrop model could adequately simu-
+late final biomass and yield of tomato crops growing under non-stressed and
+moderate water stress treatments, whereas yields were poorly simulated under
+severe water stress treatments.
+      FSPMs for a tomato crop have also been presented (Kang et al., 2011),
+analysing tomato fruit set based on the quantitative link between source–sink
+                                                                 Crop Growth and Yield                                                                  125
+
+
+ (A)                                                                           (B)
+                                 10                                                                          14
+
+
+
+
+Fruit dm accumulation (g/frt)                                                 Fruit dry matter content (%)
+                                 8                                                                           12
+
+                                 6                                                                           10
+
+                                 4                                                                            8
+
+                                 2                                                                            6
+
+                                 0                                                                            4
+                                      0        200      400     600     800                                       0         200      400       600     800
+                                          Degree days after anthesis (°Cd)                                            Degree days after anthesis (°Cd)
+
+ (C)                                                                           (D)
+                                200                                              100
+
+
+
+
+Fruit fresh weight (g/frt)                                                    Fruit diameter (mm)
+                                150                                                                          80
+
+                                                                                                             60
+                                100
+                                                                                                             40
+                                 50
+                                                                                                             20
+
+                                  0                                                                           0
+                                      0    200     400      600     800                                           0        100      200      300       400
+                                      Degree days after anthesis (°Cd)                                                    Fresh fruit weight (g/frt)
+
+                                               G95    G96        H2O stress                                   N stress            Equation     Data
+
+Fig. 4.13. (A) Dry matter accumulation, (B) dry matter concentration and (C) fresh
+weight of tagged early tomato fruits versus degree-days after anthesis for four treatments
+(G95 = Control 1995; G96 = Control 1996; H2O stress = irrigation was cut off 3
+weeks prior to flowering of cluster used for fruit development, and fruit yield was 57.2
+versus 74.3 t/ha, although there was a shallow water table; N stress = no N-fertilizer
+applied, the crop accumulated 30 kg compared with 140 kg N/ha for well fertilized
+crop, and yield was 22.9 versus 79.1 t/ha; and (D) Fruit diameter as a function of
+fresh fruit weight. (Reprinted, with permission, from Boote and Scholberg, 2006.)
+
+
+ratio and fruit set probability with the GreenLab FSPM. The impact of architec-
+tural traits on total light absorption and biomass production under dynamic
+conditions (e.g. up to 20% shoot dry mass increase by altering leaf angle) was
+demonstrated in a dynamic FSPM (Chen et al., 2014) and earlier with a static
+tomato FSPM (Sarlikioti, 2011).
+     A novel knowledge-and-data-driven modelling (KDDM) approach for
+simulating tomato plant growth that consists of two sub-models has been
+developed (Fan et al., 2015). A GreenLab model was adopted as the knowl-
+edge-driven sub-model and the radial basis function network as the data-
+126                               E. Heuvelink et al.
+
+
+driven sub-model. In comparison with the knowledge-driven model and
+data-driven model alone, the KDDM approach presented several benefits in
+predicting tomato yields. It effectively addressed situations of missing variables
+or data and showed good flexibility in maximally utilizing domain knowledge
+and data.
+
+
+
+CONCLUSION
+
+Genetics, environmental factors and crop management all affect tomato crop
+growth and yield. Yield is determined by the canopy photo-assimilation, assimi-
+late distribution within the plant and fruit dry matter content. One or several
+of these yield components can be manipulated directly or indirectly by light (in-
+tensity, day length, spectrum, diffusiveness), CO2, temperature, humidity and/or
+water, and nutrient availability during cultivation. Cultural practices such as
+planting density, leaf and fruit pruning also play a role. Better understanding
+of the rate-limiting steps of the accumulation of dry matter in tomato fruit
+would identify critical physiological processes that can be improved by plant
+breeding or genetic engineering. Plant breeding may provide a long-term solu-
+tion for yield and quality improvement under suboptimal growing conditions
+such as low or high temperature, high salinity, or low light levels. Improvement
+can also be made by a better integration of growing conditions and cultural
+practices for an optimally balanced plant. In this context, crop modelling has
+become a major research tool in horticulture. A number of descriptive and ex-
+planatory models have been developed. These models can be used for yield and
+quality prediction, climate and crop management, as well as economical and
+policy analysis, and for teaching concepts.
+
+
+
+REFERENCES
+
+Acock, B., Charles-Edwards, D.A., Fitter, D.J., Hand, D.W., Ludwig, L.J., Wilson, J.W.
+    and Withers, A.C. (1978) The contribution of leaves from different levels within
+    a tomato crop to canopy net photosynthesis: an experimental examination of
+    two canopy models. Journal of Experimental Botany 29, 815–827. doi: https://doi.
+    org/10.1093/jxb/29.4.815.
+Adams, P. (1991) Effects of increasing the salinity of the nutrient solution with
+    major nutrients or sodium chloride on the yield, quality and composition of to-
+    matoes grown in rockwool. Journal of Horticulture Science 66, 201–220. doi:
+    10.1080/00221589.1991.11516145.
+Albacete, A., Ghanem, M.E., Martínez-Andújar, C., Acosta, M., Sánchez-Bravo, J. et al.
+    (2008 ) Hormonal changes in relation to biomass partitioning and shoot growth
+    impairment in salinized tomato (Solanum lycopersicum L.) plants. Journal of
+    Experimental Botany 59 , 4119–4131. doi: https://doi.org/10.1093/jxb/ern251.
+                                  Crop Growth and Yield                                 127
+
+
+Albacete, A., Cantero-Navarro, E., Balibrea, M.E., Großkinsky, D.K., de la Cruz González, M.
+     et al. (2014) Hormonal and metabolic regulation of tomato fruit sink activity and
+     yield under salinity. Journal of Experimental Botany 65, 6081–6095. doi: 10.1093/
+     jxb/eru347.
+Apel, K. and Hirt, H. (2004) Reactive oxygen species: metabolism, oxidative stress, and
+     signal transduction. Annual Review of Plant Biology 55, 373–399. doi: 10.1146/
+     annurev.arplant.55.031903.141701.
+Arve, L.E. and Torre, S. (2015) Ethylene is involved in high air humidity promoted sto-
+     matal opening of tomato (Lycopersicon esculentum) leaves. Functional Plant Biology
+     42, 376–386. doi: 10.1071/FP14247.
+Atkin, O.K., Scheurwater, I. and Pons, T.L. (2006) High thermal acclimation po-
+     tential of both photosynthesis and respiration in two lowland Plantago species
+     in contrast to an alpine congeneric. Global Change Biology 12, 500–515. doi:
+     10.1111/j.1365-2486.2006.01114.x.
+Bakker, J.C. (1990) Effects of day and night humidity on yield and fruit quality of glass-
+     house eggplant (Solanum melongena L.). Journal of Horticultural Science 65, 747–753.
+Beckles, D.M., Hong, N., Stamova, L. and Luengwilai, K. (2012) Biochemical fac-
+     tors contributing to tomato fruit sugar content: a review. Fruits 67, 49–64. doi:
+     10.1051/fruits/2011066.
+Bencze, S., Keresztényi, I., Varga, B., Koszegi, B., Balla, K., Gémesné-Juhász, A. and
+     Veisz, O. (2011) Effect of CO2 enrichment on canopy photosynthesis, water use
+     efficiency and early development of tomato and pepper hybrids. Acta Agronomica
+     Hungarica 59, 275–284. doi: 10.1556/AAgr.59.2011.3.12.
+Bertin, N. (1995) Competition for assimilates and fruit position affect fruit set in inde-
+     terminate greenhouse tomato. Annals of Botany 75, 55–65.
+Besford, R.T. (1993) Photosynthetic acclimation in tomato plants grown in high CO2.
+     Vegetatio 104/105, 441–448.
+Besford, R.T., Withers, A.C. and Ludwig, L.J. (1985) Ribulose bisphosphate carboxylase
+     activity and photosynthesis during leaf development in the tomato. Journal of
+     Experimental Botany 36, 1530–1541. doi: 10.1093/jxb/36.10.1530.
+Boote, K.J. and Scholberg, J.M.S. (2006) Developing, parameterizing, and testing of dy-
+     namic crop growth models for horticultural crops. Acta Horticulturae 718, 23–34.
+     doi: 10.17660/ActaHortic.2006.718.1.
+Brüggemann, W., Klaucke, S. and Maas-Kantel, K. (1994) Long-term chilling of young
+     tomato plants under low light – V. Kinetic and molecular properties of two key en-
+     zymes of the Calvin cycle in Lycopersicon esculentum Mill. and L. peruvianum Mill.
+     Planta 194, 160–168. doi: 10.1007/bf00196384.
+Bunce, J.A. (2000) Acclimation of photosynthesis to temperature in eight cool and
+     warm climate herbaceous C3 species: temperature dependence of parameters of a
+     biochemical photosynthesis model. Photosynthesis Research 63, 59–67.
+Camejo, D., Nicolas, E., Torres, W. and Alarcon, J.J. (2010) Differential heat-induced
+     changes in the CO2 assimilation rate and electron transport in tomato (Lycopersicon
+     esculentum Mill.). Journal of Horticultural Science & Biotechnology 85, 137–143.
+Cavero, J., Plant, R.E., Shennan, C., Williams, J.R., Kiniry, J.R. and Benson, V.W. (1998)
+     Application of epic model to nitrogen cycling in irrigated processing tomatoes
+     under different management systems. Agricultural Systems 56, 391–414.
+Chen, T.W., Nguyen, T.M.N., Kahlen, K. and Stützel, H. (2014) Quantification of the
+     effects of architectural traits on dry mass production and light interception of
+128                                 E. Heuvelink et al.
+
+
+     ­tomato canopy under different temperature regimes using a dynamic functional–
+      structural plant model. Journal of Experimental Botany 65, 6399–6410.
+Cockshull, K.E., Graves, C.J. and Cave, C.R.J. (1992) The influence of shading on yield of
+      glasshouse tomatoes. Journal of Horticultural Science 67, 11–24.
+Colla, G., Rouphael, Y., Leonardi, C. and Bie, Z. (2010) Role of grafting in vegetable
+      crops grown under saline conditions. Scientia Horticulturae 127, 147–155. doi:
+      10.1016/j.scienta.2010.08.004.
+Correia, M.J., Rodrigues, M.L., Osorio, M.L. and Chaves, M.M. (1999) Effects of growth
+      temperature on the response of lupin stomata to drought and abscisic acid.
+      Australian Journal of Plant Physiology 26, 549–559.
+Cuartero, J., Boların, M.C., Asıns, M.J. and Moreno, V. (2006) Increasing salt tolerance in
+      the tomato. Journal of Experimental Botany 57, 1045–1058. doi:10.1093/jxb/erj102.
+Czarnowski, M. and Starzecki, W. (1990) Carbon dioxide exchange in tomato cluster
+      peduncles and fruits. Folia Horticulturae 2, 29–39.
+De Gelder, A., Dieleman, J.A., Bot, G.P.A. and Marcelis, L.F.M. (2012) An overview of
+      climate and crop yield in closed greenhouses. Journal of Horticultural Science and
+      Biotechnology 87, 193–202. doi: 10.1080/14620316.2012.11512852.
+De Koning, A.N.M. (1989) The effect of temperature on fruit growth and fruit load of to-
+      mato. Acta Horticulturae 248, 329–336. doi: 10.17660/ActaHortic.1989.248.40.
+De Koning, A.N.M. (1990) Long-term temperature integration of tomato. Growth and de-
+      velopment under alternating temperature regimes. Scientia Horticulturae 45, 117–127.
+De Koning, A.N.M. (1993) Growth of a tomato crop: measurements for model valid-
+      ation. Acta Horticulturae 328, 141–146.
+De Koning, A.N.M. (1994) Development and dry matter distribution in glasshouse to-
+      mato: a quantitative approach. Thesis, University of Wageningen, The Netherlands.
+De Pascale, S., Maggio, A., Orsini, F., Stanghellini, C. and Heuvelink, E. (2015) Growth
+      response and radiation use efficiency in tomato exposed to short-term and
+      long-term salinized soils. Scientia Horticulturae 189, 139–149. doi: 10.1016/j.
+      scienta.2015.03.042.
+De Visser, P.H.B., Buck-Sorlin, G.H. and van der Heijden, G.W.A.M. (2014) Optimizing
+      illumination in the greenhouse using a 3D model of tomato and a ray tracer.
+      Frontiers in Plant Science 5, 48.
+Decoteau, D.R (2007) Leaf area distribution of tomato plants as influenced by poly-
+      ethylene mulch surface color. HortTechnology 17, 341–345.
+Dorais, M. and Gosselin, A. (2002) Physiological response of greenhouse vegetable
+      crops to supplemental lighting. Acta Horticulturae 580, 59–67.
+Dorais, M., Yelle, S., Carpentier, R. and Gosselin, A. (1995) Adaptability of tomato and
+      pepper leaves to changes in photoperiod: effects on the composition and function
+      of the thylakoid membrane. Physiologa Plantarum 94, 692–700.
+Dorais, M., Nguyen-Quoc, B., N’tchobo, H., D’Aoust, M.A., Foyer, C., Gosselin, A.
+      and Yelle, S. (1999) What controls sucrose unloading in tomato fruits? Acta
+      Horticulturae 487, 107–112.
+Dorais, M., Papadopoulos, A.P. and Gosselin, A. (2001a) Greenhouse tomato fruit
+      quality: the influence of environmental and cultural factors. Horticultural Reviews
+      26, 239–319.
+Dorais, M., Papadopoulos, A.P. and Gosselin, A. (2001b) Influence of electrical con-
+      ductivity management on greenhouse tomato yield and fruit quality. Agronomie
+      21, 367–383.
+                                   Crop Growth and Yield                                  129
+
+
+Dorais, M., Mitchell, A.C. and Kubota, C. (2017) Lighting greenhouse fruiting veget-
+     ables. In: Lopez, R. and Runkle, E. (eds) Light Management in Controlled Environments.
+     Meister Media Worldwide, Willoughby, Ohio.
+Dueck, T., Janse, J., Li, T., Kempkes, F. and Eveleens, B. (2012a) Influence of diffuse
+     glass on the growth and production of tomato. Acta Horticulturae 956, 75-82. doi:
+     10.17660/ActaHortic.2012.956.6.
+Dueck, T.A., Janse, J., Eveleens, B.A., Kempkes, F.L.K. and Marcelis, L.F.M. (2012b)
+     Growth of tomatoes under hybrid LED and HPS lighting. Acta Horticulturae 952,
+     335–342. doi: 10.17660/ActaHortic.2012.952.42.
+Fan, X.R., Kang, M.Z., Heuvelink, E., De Reffye, P. and Hu, B.G. (2015), A knowledge-
+     and-data-driven modeling approach for simulating plant growth: a case study on
+     tomato growth. Ecological Modelling 312(C), 363–373.
+Fanasca, S., Martino, A., Heuvelink, E. and Stanghellini, C. (2007) Effect of electrical
+     conductivity, fruit pruning, and truss position on quality in greenhouse tomato
+     fruit. Journal of Horticultural Science and Biotechnology 82, 488–494.
+Fanourakis, D., Heuvelink, E. and Carvalho, S.M.P. (2013) A comprehensive analysis of
+     the physiological and anatomical components involved in higher water loss rates
+     after leaf development at high humidity. Journal of Plant Physiology 170, 890– 898.
+     doi: 10.1016/j.jplph.2013.01.013.
+Foyer, C.H., Neukermans, J., Queval, G., Noctor, G. and Harbinson, J. (2012)
+     Photosynthetic control of electron transport and the regulation of gene expres-
+     sion. Journal of Experimental Botany 63, 1637–1661. doi: 10.1093/jxb/ers013.
+Franklin, K. and Whitelam, G. (2005) Phytochromes and shade-avoidance responses in
+     plants. Annals of Botany 96, 169–175.
+Fukayama, H., Fukuda, T., Masumoto, C., Taniguchi, Y., Sakai, H. et al. (2009) Rice
+     plant response to long term CO2 enrichment: gene expression profiling. Plant
+     Science 177, 203–210. doi: 10.1016/j.plantsci.2009.05.014.
+Gary, C., Barczi, J.F., Bertin, N. and Tchamitchian, M. (1995) Simulation of individual
+     organ growth and development on a tomato plant: a model and a user-friendly
+     interface. Acta Horticulturae 399, 199–205.
+Ghanem, M.E., Albacete, A., Smigocki, A.C., Frébort, I., Pospısilova, H. et al. (2011)
+     Root-synthesized cytokinins improve shoot growth and fruit yield in salinized to-
+     mato (Solanum lycopersicum L.) plants. Journal of Experimental Botany 62(1), 125–140.
+     doi: 10.1093/jxb/erq266.
+Gijzen, H. (1995) Interaction between CO2 uptake and water loss. In: Bakker, J.C., Bot,
+     G.P.A., Challa, H. and van de Braak, N.J. (eds) Greenhouse Climate Control: An Integrated
+     Approach. Wageningen Academic, Wageningen, The Netherlands, pp.51–62.
+Gomez, C. and Mitchell, C.A. (2016) In search of an optimized supplemental lighting
+     spectrum for greenhouse tomato production with intracanopy lighting. Acta
+     Horticulturae 1134, 57–62.
+Grange, R.L. and Hand, D.W. (1987) A review of the effects of atmospheric humidity
+     on the growth of horticultural crops. Journal of Horticultural Science 62, 125–134.
+Guo, H., Sun, Y., Ren, Q., Zhu-Salzman, K., Kang, L. et al. (2012) Elevated CO2 reduces the
+     resistance and tolerance of tomato plants to Helicoverpa armigera by suppressing the
+     JA signaling pathway. PLoS ONE 7(7), e41426. doi:10.1371/journal.pone.0041426.
+Guo, X., Hao, X., Zheng, J.M., Little, C. and Khosla, S. (2016) Response of greenhouse
+     mini-cucumber to different vertical spectra of LED lighting under overhead high
+     pressure sodium and plasma lighting. Acta Horticulturae 1134, 87–94.
+130                                  E. Heuvelink et al.
+
+
+Havaux, M. (1987) Effects of chilling on the redox state of the primary electron
+    ­acceptor q a of photosystem ii in chilling sensitive and resistant plant species. Plant
+     Physiology & Biochemistry 25, 735–744.
+Hemming, S., Mohammadkhani, V. and van Ruijven, J. (2014) Material technology
+     of diffuse greenhouse covering materials – influence on light transmission, light
+     scattering and light spectrum. Acta Horticulturae 1037, 883–896.
+Herbers, K. and Sonnewald, U. (1998) Molecular determinants of sink strength. Current
+     Opinion in Plant Biology 1, 207–216.
+Heuvelink, E. (1995a) Effect of temperature on biomass allocation in tomato
+     (Lycopersicon esculentum). Physiologia Plantarum 94, 447–452.
+Heuvelink, E. (1995b) Effect of plant density on biomass allocation to the fruits in to-
+     mato (Lycopersicon esculentum Mill.). Scientia Horticulturae 64, 193–201. doi:
+     10.1016/0304-4238(95)00839-X.
+Heuvelink, E. (1999) Evaluation of a dynamic simulation model for tomato crop growth
+     and development. Annals of Botany 83, 413–422.
+Heuvelink, E. and Bakker, M.J. (2003) A photosynthesis-driven tomato model: two case
+     studies. In: Hu, B.G. and Jaeger, M. (eds) Plant Growth Modeling and Applications.
+     Tsinghua University Press and Springer, Beijing, pp. 229–235.
+Heuvelink, E. and Buiskool, R.P.M. (1995) Influence of sink-source interaction on dry
+     matter production in tomato. Annals of Botany 75, 381–389.
+Heuvelink, E., Bakker, M.J. and Stanghellini, C. (2003) Salinity effects on fruit yield
+     in vegetable crops: a simulation study. Acta Horticulturae 609, 133–140. doi:
+     10.17660/ActaHortic.2003.609.17.
+Heuvelink, E., Bakker, M.J., Elings, A., Kaarsemaker, R. and Marcelis, L.F.M. (2005)
+     Effect of leaf area on tomato yield. Acta Horticulturae 691, 43–50. doi: 10.17660/
+     ActaHortic.2005.691.2.
+Heuvelink, E., Bakker, M.J., Marcelis, L.F.M. and Raaphorst, M. (2008) Climate and
+     yield in a closed greenhouse. Acta Horticulturae 801, 1083–1092. doi: 10.17660/
+     ActaHortic.2008.801.130.
+Hewitt, J.D. and Marrush, M. (1986) Remobilization of nonstructural carbohydrates
+     from vegetative tissues to fruits in tomato. Journal of the American Society of
+     Horticulture Science 111, 142–145.
+Higashide, T. and Heuvelink, E. (2009) Physiological and morphological changes over
+     the past 50 years in yield components in tomato. Journal of the American Society for
+     Horticultural Science 134, 460–465.
+Higashide, T., Yasuba, K., Suzuki, K., Nakano, A. and Ohmori, H. (2012) Yield of
+     Japanese tomato cultivars has been hampered by a breeding focus on flavor.
+     HortScience 47, 1408–1411.
+Hlavinka, J., Naus, J. and Fellner, M. (2013) Spontaneous mutation 7B-1 in tomato im-
+     pairs blue light-induced stomatal opening. Plant Science 209, 75–80.
+Ho, L.C. (1996) Tomato. In: Zamski, E. and Schaffer, A.A. (eds) Photoassimilate
+     Distribution in Plants and Crops: Source-Sink Relationships. Marcel Dekker Inc., New
+     York, pp. 709–728.
+Hoffman, G.J. (1979) Humidity. In: Tibbits, T.W. and Kozlowski, T.T. (eds)
+     Controlled Environment Guidelines for Plant Research. Academic Press, London,
+     pp. 141–172.
+Holder, R. and Cockshull, K.E. (1988) The effect of humidity and nutrition on the devel-
+     opment of calcium deficiency symptoms in tomato leaves. In: Cockshull, K.E. (ed.)
+                                   Crop Growth and Yield                                 131
+
+
+     The Effects of High Humidity on Plant Growth in Energy Saving Greenhouses. Office
+     for Official Publications of the European Communities, Luxembourg, pp. 53–60.
+Hunt, R. (1982) Plant Growth Curves: The Functional Approach to Plant Growth Analysis.
+     Edward Arnold, London.
+Jan, N.E. and Kawabata, S. (2011) Relationship between fruit soluble solid content
+     and the sucrose concentration of the phloem sap at different leaf to fruit ratios in
+     tomato. Journal of the Japanese Society for Horticultural Science 80, 314–321. doi:
+     10.2503/jjshs1.80.314.
+Jones, T.L., Tucker, D.E. and Ort, D.R. (1998) Chilling delays circadian pattern of sucrose
+     phosphate synthase and nitrate reductase activity in tomato. Plant Physiology 118,
+     149–158.
+Kaiser, E. (2016) Environmental and physiological control of dynamic photosynthesis.
+     PhD thesis, Wageningen University, Wageningen, The Netherlands. Available at:
+     http://edepot.wur.nl/370233 (accessed 19 January 2018).
+Kang, M.Z., Yang, L.L., Zhang, B.G. and De Reffye, P. (2011) Correlation between dy-
+     namic tomato fruit-set and source–sink ratio: a common relationship for different
+     plant densities and seasons? Annals of Botany 107, 805–815. doi:10.1093/aob/
+     mcq244.
+Kasperbauer, M.J. and Kaul, K. (1996) Light quantity and quality effects on source-
+     sink relationships during plant growth and development. In: Zamski, E. and
+     Schaffer, A.A. (eds) Photoassimilate Distribution in Plants and Crops: Source-Sink
+     Relationships. Marcel Dekker Inc., New York, pp. 421–440.
+Katerji, N., Campi, P. and Mastrorilli, M. (2013) Productivity, evapotranspiration, and
+     water use efficiency of corn and tomato crops simulated by AquaCrop under con-
+     trasting water stress conditions in the Mediterranean region. Agricultural Water
+     Management 130, 14–26.
+Khan, A. and Sagar, G.R. (1969) Alteration of the pattern of distribution of photosynthetic
+     products in the tomato by manipulation of the plant. Annals of Botany 33, 753–762.
+Khan, I., Azam, A. and Mahmood, A. (2013) The impact of enhanced atmospheric
+     carbon dioxide on yield, proximate composition, elemental concentration, fatty
+     acid and vitamin C contents of tomato (Lycopersicon esculentum). Environmental
+     Monitoring and Assessment 185, 205–214. doi: 10.1007/s10661-012-2544-x.
+Kissoudis, C., Seifi, A., Yan, Z., Islam, A.T.M.T., van der Schoot, H. et al. (2017) Ethylene
+     and abscisic acid signaling pathways differentially influence tomato resistance to
+     combined powdery mildew and salt stress. Frontiers in Plant Science 7, 2009. doi:
+     10.3389/fpls.2016.02009.
+Kleinhenz, V., Katroschan, K., Schütt, F. and Stützel, H. (2006) Biomass accumula-
+     tion and partitioning of tomato under protected cultivation in the humid tropics.
+     European Journal of Horticultural Science 71, 173–182.
+Körner, O., Heuvelink, E. and Niu, Q. (2009) Quantification of temperature, CO2, and
+     light effects on crop photosynthesis as a basis for model-based greenhouse cli-
+     mate control. Journal of Horticultural Science and Biotechnology 84, 233–239. doi:
+     10.1080/14620316.2009.11512510.
+Kotiranta, S., Siipola, S., Robson, T.M., Aphalo, P.J. and Kotilainen, T. (2015) LED lights
+     can be used to improve the water deficit tolerance of tomato seedlings grown in
+     greenhouses. Acta Horticulturae 1107, 107–113.
+Leakey, A.D.B., Ainsworth, E.A., Bernacchi, C.J., Rogers, A., Long, S.P. and Ort, D.R.
+     (2009) Elevated CO2 effects on plant carbon, nitrogen, and water relations: six
+132                                 E. Heuvelink et al.
+
+
+       ­important lessons from FACE. Journal of Experimental Botany 60, 2859–2876. doi:
+        10.1093/jxb/erp096.
+Li, J., Zhou, J.-M., Duan, Z.-Q., Du, C.-W. and Wang, H.-Y. (2007) Effect of CO2 enrichment
+       on the growth and nutrient uptake of tomato seedlings. Pedosphere 17, 343–351.
+       doi: 10.1016/s1002-0160(07)60041-1.
+Li, T., Heuvelink, E. and Marcelis, L.F.M. (2015) Quantifying the source-sink balance
+       and carbohydrate content in three tomato cultivars. Frontiers in Plant Science 6,
+       416. doi: 10.3389/fpls.2015.00416.
+Li, T., Heuvelink, E., Dueck, T.A., Janse, J., Gort, G. and Marcelis, L.F.M. (2014)
+       Enhancement of crop photosynthesis by diffuse light: quantifying the contributing
+       factors. Annals of Botany 114, 145–156.
+Li, Y.L. and Stanghellini, C. (2001) Analysis of the effect of EC and potential transpir-
+       ation on vegetative growth of tomato. Scientia Horticulturae 89, 9–21.
+Liu, Y.F., Qia, M.F. and Li, T.L. (2012) Photosynthesis, photoinhibition, and antioxidant
+       system in tomato leaves stressed by low night temperature and their subsequent
+       recovery. Plant Science 196, 8–17. doi: 10.1016/j.plantsci.2012.07.005.
+Lovelli, S., Scopa, A., Perniola, M., Di Tommaso, T. and Sofo, A. (2012) Abscisic
+       acid root and leaf concentration in relation to biomass partitioning in salin-
+       ized tomato plants. Journal of Plant Physiology 169, 226–233. doi: 10.1016/j.
+       jplph.2011.09.009.
+Lu, N. and Mitchell, C.A. (2016) Supplementary lighting for greenhouse-grown
+       fruit vegetables. In: Kozai, T., Fujiwara, K. and Runkle, E.S. (eds) LED Lighting
+       for Urban Agriculture. Springer, Singapore, pp. 219–232. doi: 10.1007/978-981-
+       10-1848-0.
+Luengwilai, K. and Beckles, D.M. (2009) Starch granules in tomato fruit show a com-
+       plex pattern of degradation. Journal of Agricultural and Food Chemistry 57, 8480–
+       8487. doi: 10.1021/jf901593m.
+Luengwilai, K., Fiehn, O.E. and Beckles, D.M. (2010) Comparison of leaf and fruit me-
+       tabolism in two tomato (Solanum lycopersicum L.) genotypes varying in total soluble
+       solids. Journal of Agricultural and Food Chemistry 58, 11790–11800. doi: 10.1021/
+       jf102562n.
+Lytovchenko, A., Eickmeier, I., Pons, C., Osorio, S., Szecowka, M. et al. (2011) Tomato
+       fruit photosynthesis is seemingly unimportant in primary metabolism and
+       ripening but plays a considerable role in seed development. Plant Physiology 157,
+       1650–1663. doi: 10.1104/pp.111.186874.
+Maggio, A., Dalton, F.N. and Piccinni, G. (2002) The effects of elevated carbon di-
+       oxide on static and dynamic indices for tomato salt tolerance. European Journal of
+       Agronomy 16, 197–206. doi: 10.1016/s1161-0301(01)00128-9.
+Mamatha, H., Srinivasa Rao, N.K., Laxman, R.H., Shivashankara, K.S., Bhatt, R.M. and
+       Pavithra, K.C. (2014) Impact of elevated CO2 on growth, physiology, yield, and
+        quality of tomato (Lycopersicon esculentum Mill) cv. Arka Ashish. Photosynthetica
+        52, 519–528. doi: 10.1007/s11099-014-0059-0.
+Marcelis, L.F.M., Heuvelink, E. and Goudriaan, J. (1998) Modelling biomass pro-
+        duction and yield of horticultural crops: a review. Scientia Horticulturae 74,
+        83–111.
+Marcelis, L.F.M., Broekhuijsen, A.G.M., Meinen, E., Nijs, E.M.F.M. and Raaphorst,
+        M.G.M. (2006) Quantification of the growth response to light quantity of green-
+        house grown crops. Acta Horticulturae 711, 97–103.
+                                  Crop Growth and Yield                                 133
+
+
+Marcelis, L.F.M., Elings, A., de Visser, P.H.B. and Heuvelink, E. (2009) Simulating
+     growth and development of tomato crop. Acta Horticulturae 821, 101–110.
+Matsuda, R., Suzuki, K., Nakano, A., Higashide, T. and Takaichi, M. (2011) Responses
+     of leaf photosynthesis and plant growth to altered source–sink balance in a
+     Japanese and a Dutch tomato cultivar. Scientia Horticulturae 127, 520–527. doi:
+     org/10.1016/j.scienta.2010.12.008.
+McCree, K.J. (1972) Action spectrum, absorptance and quantum yield of photosyn-
+     thesis in crop plants. Agricultural Meteorology 9, 191–216.
+Mercado, L.M., Bellouin, N., Sitch, S., Boucher, O., Huntingford, C., Wild, M. and Cox, P.M.
+     (2009) Impact of changes in diffuse radiation on the global land carbon sink.
+     Nature 458, 1014–1017.
+Moerkens, R., Vanlommel, W., Vanderbruggen, R. and Van Delm, T. (2016) The added
+     value of LED assimilation light in combination with high pressure sodium lamps in
+     protected tomato crops in Belgium. Acta Horticulturae 1134, 119–124.
+Morrow, R.C. (2008) LED lighting in horticulture. HortScience 43, 1947–1950.
+Nagel, O.W., Konings, H. and Lambers, H. (2001) Growth rate and biomass parti-
+     tioning of wildtype and low-gibberellin tomato (Solanum lycopersicum) plants
+     growing at a high and low nitrogen supply. Physiologia Plantarum 111, 33–39. doi:
+     10.1034/j.1399-3054.2001.1110105.x.
+Najla, S., Vercambre, G., Pagès, L., Grasselly, D., Gautier, H. and Génard, M. (2009)
+     Tomato plant architecture as affected by salinity: descriptive analysis and integra-
+     tion in a 3-D simulation model. Botany 87, 893–904. doi: 10.1139/B09-061.
+Nebauer, S.G., Sánchez, M., Martínez, L., Lluch, Y., Renau-Morata, B. and Molina R.V.
+     (2013) Differences in photosynthetic performance and its correlation with growth
+     among tomato cultivars in response to different salts. Plant Physiology and
+     Biochemistry 63, 61–69. doi: 10.1016/j.plaphy.2012.11.006.
+Nederhoff, E.M. (1994) Effects of CO2 concentration on photosynthesis, transpiration
+     and production of greenhouse fruit vegetable crops. Dissertation, Wageningen
+     Agricultural University, Wageningen, The Netherlands.
+Nelson, J.A. and Bugbee, B. (2014) Economic analysis of greenhouse lighting: light
+     emitting diodes vs. high intensity discharge fixtures. PLoS ONE 9(6), e99010. doi:
+     10.1371/journal.pone.0099010.
+Novitskaya, G.V. and Trunova, T.I.D. (2000) Relationship between cold resistance of plants
+     and the lipid content of their chloroplast membranes. Biochemistry 371, 50–52.
+Ntatsi, G., Savvas, D., Druege, U. and Schwarz, D. (2013) Contribution of phytohor-
+     mones in alleviating the impact of sub-optimal temperature stress on grafted to-
+     mato. Scientia Horticulturae 149, 28–38.
+Ogweno, J.O., Song, X.S., Shi, K., Hu, W.H., Mao, W.H. et al. (2008) Brassinosteroids
+     alleviate heat-induced inhibition of photosynthesis by increasing carboxylation ef-
+     ficiency and enhancing antioxidant systems in Lycopersicon esculentum. Journal of
+     Plant Growth Regulation 27, 49–57. doi: 10.1007/s00344-007-9030-7.
+Okello, R.C., Heuvelink, E., de Visser, P.H.B., Lammers, M., de Maagd, R.A.,
+     Marcelis, L.F.M. and Struik, P.C. (2015) Fruit illumination stimulates cell div-
+     ision but has no detectable effect on fruit size in tomato (Solanum lycopersicum).
+     Physiologia Plantarum 154(1), 114–127.
+Panthee, D.R. and Gardner, R.G. (2011) Genetic improvement of fresh market tomatoes
+     for yield and fruit quality over 35 years in North Carolina. International Journal of
+     Vegetable Science 17, 259–273. doi: 10.1080/19315260.2010.545867.
+134                                   E. Heuvelink et al.
+
+
+Pérez-Alfocea, F., Albacete, A., Ghanem, M.E. and Dodd, I.C. (2010 ) Hormonal regu-
+     lation of source-sink relations to maintain crop productivity under salinity: a case
+     study of root-to-shoot signalling in tomato. Functional Plant Biology 37, 592–603.
+Persoon, S. and Hogewoning, S.W. (2014) Onderzoek naar de fundamenten van energiebe-
+     sparing in de belichte teelt. Productschap Tuinbouw, consultancy report. Available
+     at: https://www.tuinbouwnl.nl/content/Onderzoeken/14764.04_Fundamenten_
+     energiebesparing_belichte_teelt.pdf (accessed 18 May 2018).
+Picken, A.J.F. (1984) A review of pollination and fruit set in the tomato (Lycopersicon
+     esculentum Mill.). Journal of Horticultural Science 59, 1–13.
+Poorter, H. and Garnier, E. (1996) Plant growth analysis: an evaluation of experimental
+     design and computational methods. Journal of Experimental Botany 47(302),
+     1343–1351. [Erratum: Dec 1996, v. 47 (305), p. 1969.]
+Prudent, M., Bertin, N., Génard, M., Muños, S., Rolland, S. et al. (2010) Genotype-
+     dependent response to carbon availability in growing tomato fruit. Plant, Cell and
+     Environment 33, 1186–1204. doi: 10.1111/j.1365-3040.2010.02139.x.
+Qi, H., Hua, L., Zhao, L. and Zhou, L. (2011) Carbohydrate metabolism in tomato
+     (Lycopersicon esculentum Mill.) seedlings and yield and fruit quality as affected by
+     low night temperature and subsequent recovery. African Journal of Biotechnology
+     10, 5743–5749. doi: 10.5897/AJB10.1475.
+Qian, T., Dieleman, J.A., Elings, A. and Marcelis, L.F.M. (2012) Leaf photosynthetic and
+     morphological responses to elevated CO2 concentration and altered fruit number
+     in the semi-closed greenhouse. Scientia Horticulturae 145, 1–9. doi: 10.1016/j.
+     scienta.2012.07.015.
+Romero-Aranda, R., Soria, T. and Cuartero, J. (2001) Tomato plant-water uptake and
+     plant-water relationships under saline growth conditions. Plant Science 160, 265–
+     272. doi: 10.1016/s0168-9452(00)00388-5.
+Saito, T., Fukuda, N., Matsukura, C. and Nishimura, S. (2009) Effects of salinity on dis-
+     tribution of photosynthates and carbohydrate metabolism in tomato grown using
+     nutrient film technique. Journal of the Japanese Society for Horticultural Science 78,
+     90–96. 2009. doi: 10.2503/jjshs1.78.90.
+Sarlikioti, V. (2011) Modelling and remote sensing of canopy light interception and
+     plant stress in greenhouses. PhD thesis, Wageningen University, Wageningen, The
+     Netherlands. Available at: http://edepot.wur.nl/183133 (accessed 19 January 2018).
+Scholberg, J., McNeal, B.L., Jones, J.W., Boote, K.J., Stanley, C.D. and Obreza, T.A. (2000)
+     Field-grown tomato – growth and canopy characteristics of field-grown tomato.
+     Agronomy Journal 92, 152–159.
+Schwarz, D., Rouphael, Y., Colla, G. and Venema, J.H. (2010) Grafting as a tool to improve
+     tolerance of vegetables to abiotic stresses: thermal stress, water stress and organic pol-
+     lutants. Scientia Horticulturae 127, 162–171. doi: 10.1016/j.scienta.2010.09.016.
+Schwarz, D., Thompson, A.J. and Kläring, H.-P. (2014) Guidelines to use tomato in ex-
+     periments with a controlled environment. Frontiers in Plant Science 5, 625. doi:
+     10.3389/fpls.2014.00625.
+Shi, K., Fu, L.-J., Zhang, S., Li, X., Liao, Y.-W.-K. et al. (2013) Flexible change and co-
+     operation between mitochondrial electron transport and cytosolic glycolysis as the
+     basis for chilling tolerance in tomato plants. Planta 237, 589–601. doi: 10.1007/
+     s00425-012-1799-3.
+Slack, G. and Calvert, A. (1977) The effect of truss removal on the yield of early sown
+     tomatoes. Journal of Horticultural Science 52, 309–315.
+                                  Crop Growth and Yield                                 135
+
+
+Somerville, C. (1995) Direct tests of the role of membrane lipid composition in low-tem-
+     perature-induced photoinhibition and chilling sensitivity in plants and cyanobac-
+     teria. Proceedings of the National Academy of Sciences 92, 6215–6218.
+Stanghellini, C., Van Meurs, W.Th.M., Corver, F., Van Dullemen, E. and Simonse, L. (1998)
+     Combined effect of climate and concentration of the nutrient solution on a green-
+     house tomato crop. II. Yield quantity and quality. Acta Horticulturae 458, 231–237.
+Takagi, M., El-Shemy, H.A., Sasaki, S., Toyama, S., Kanai, S., Saneoka, H. and Fujita, K.
+     (2009) Elevated CO2 concentration alleviates salinity stress in tomato plant.
+     Acta Agriculturae Scandinavica Section B: Soil and Plant Science 59, 87–96. doi:
+     10.1080/09064710801932425.
+Tanaka, A., Fujita, K. and Kikuchi, K. (1974) Nutrio-physiological studies on the to-
+     mato plant. III. Photosynthetic rate of individual leaves in relation to the dry
+     matter production of plants. Soil Science and Plant Nutrition 20, 173–183. doi:
+     10.1080/00380768.1974.10433240.
+Trouwborst, G., Hogewoning, S.W., Harbinson, J. and Van Ieperen, W. (2011) The influ-
+     ence of light intensity and leaf age on the photosynthetic capacity of leaves within
+     a tomato canopy. Journal of Horticultural Science and Biotechnology 86, 403–407.
+     doi: 10.1080/14620316.2011.11512781.
+Valerio, M., Tomecek, M., Lovelli, S. and Ziska, L. (2013) Assessing the impact of in-
+     creasing carbon dioxide and temperature on crop-weed interactions for tomato
+     and a C3 and C4 weed species. European Journal of Agronomy 50, 60–65. doi:
+     10.1016/j.eja.2013.05.006.
+Van de Dijk, S.J. and Maris, J.A. (1985) Differences between tomato genotypes in net
+     photosynthesis and dark respiration under low light intensity and low night tem-
+     peratures. Euphytica 34, 709–716. doi: 10.1007/bf00035408.
+Vélez-Ramírez, A.I. (2014) Continuous light on tomato: from gene to yield. PhD thesis,
+     Wageningen University, Wageningen, The Netherlands. Available at: http://
+     edepot.wur.nl/312846 (accessed 18 May 2018).
+Venema, J.H., Posthumus, F. and Van Hasselt, P.R. (1999a) Impact of suboptimal
+     temperature on growth, photosynthesis, leaf pigments and carbohydrates of
+     domestic and high-altitude wild Lycopersicon species. Journal of Plant Physiology
+     155, 711–718.
+Venema, J.H., Posthumus, F., De Vries, M. and Van Hasselt, P.R. (1999b) Differential
+     response of domestic and wild Lycopersicon species to chilling under low light:
+     growth, carbohydrate content, photosynthesis and the xanthophyll cycle.
+     Physiologia Plantarum 105, 81–88. doi: 10.1034/j.1399-3054.1999.105113.x.
+Venema, J.H, Linger, P., Van Heusden, A.W., Van Hasselt, P.R. and Brüggemann, W.
+     (2005) The inheritance of chilling tolerance in tomato (Lycopersicon spp.). Plant
+     Biology 7, 118–130. doi: 1055/s-2005-837495.
+Verheul, M.J., Maessen, H.F.R. and Grimstad, S.O. (2012) Optimizing a year-round cul-
+     tivation system of tomato under artificial light. Acta Horticulturae 956, 389–394.
+     doi: 10.17660/ActaHortic.2012.956.45.
+Wahid, A., Gelani, S., Ashraf, M. and Foola, M.R. (2007) Heat tolerance in plants: an
+     overview. Environmental and Experimental Botany 61, 199–223. doi: 10.1016/j.
+     envexpbot.2007.05.011.
+Wang, Y., Du, S.T., Li, L.L., Huang, L.D., Fang, P. et al. (2009) Effect of CO2 elevation on
+     root growth and its relationship with indole acetic acid and ethylene in tomato
+     seedlings. Pedosphere 19, 570–576. doi: 10.1016/s1002-0160(09)60151-x.
+136                                 E. Heuvelink et al.
+
+
+Wang, J., Gao, S., Yuan, J. and Ma, F. (2012) Simulation of dry matter accumulation,
+    partitioning and yield prediction in processing tomato (Lycopersicon esculentum
+    Mill.). Australian Journal of Crop Science 6, 93–100. Available at: http://www.cropj.
+    com/wang_6_1_2012_93_100.pdf (accessed 19 January 2017).
+Xiao, S.G., Van der Ploeg, A., Bakker, M. and Heuvelink, E. (2004) Two instead of three
+    leaves between tomato trusses: measured and simulated effects on partitioning and
+    yield. Acta Horticulturae 654, 303–308. doi: 10.17660/ActaHortic.2004.654.35.
+Xu, H.L., Gauthier, L., Desjardins, Y. and Gosselin, A. (1997) Photosynthesis in leaves,
+    stem and petioles of greenhouse-grown tomato plants. Photosynthetica 33, 113–123.
+    doi: 10.1023/A:1022135507700.
+Zhang, J., Jiang, X., Li, T. and Chang, T. (2012) Effect of elevated temperature stress on
+    the production and metabolism of photosynthate in tomato (Lycopersicon esculen-
+    tum L.) leaves. Journal of Horticultural Science & Biotechnology 87, 293–298. doi:
+    10.1080/14620316.2012.11512867.

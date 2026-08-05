@@ -1,0 +1,2232 @@
+                                         7
+          Crop Protection: Pest and Disease
+                    Management
+             Gary E. Vallad, Gerben Messelink and Hugh A. Smith
+
+
+
+
+ECONOMIC AND CULTURAL IMPORTANCE OF TOMATO
+
+According to the Food and Agriculture Organization (FAO) of the United
+Nations (FAOSTAT database), nearly 177 million metric tons (t) of tomatoes
+were produced globally from 4.8 million hectares in 2016, an average yield of
+37 t of tomatoes for every hectare of land in production throughout the world.
+The level of tomato production throughout the world demonstrates the cultural
+importance of this New World vegetable (see also Chapter 1). The efficiency of
+tomato production, represented here as the average yield of fruit per hectare
+of land, varies greatly throughout the world, ranging from 1.5 t/ha for Somalia to
+650 t/ha for greenhouses in The Netherlands. This vast discrepancy is further
+illustrated by the fact that Somalia produces tomatoes on an estimated 11,200 ha
+of open field production, compared with only 1750 ha of mostly greenhouse
+production in The Netherlands (FAOSTAT database). It is logical to assume that
+much of the discrepancy in production efficiency observed globally is directly
+related to the level of key inputs that have become standard for modern agri-
+culture, including infrastructure (irrigation systems and protected structures),
+machinery, fertilizer and the assorted pesticides utilized for the management of
+weeds, pests and diseases. It is paramount that food production keeps up with
+global population growth; and an expanding middle-class population in many
+developing areas of the world is likely to increase the demand for tomatoes.
+In a society that is becoming more globally aware of limited environmental
+resources, there is a need not only to improve production through increased
+inputs in developing countries, but also to ensure that these inputs are properly
+managed to maximize yields and quality while minimizing unwanted environ-
+mental impacts.
+     The goal of this chapter is to review pests and diseases important to global
+tomato production, giving an update of basic and applied research on the man-
+agement of some pests and diseases with some considerations for greenhouse
+and open field production. Special emphasis is also placed on integrated pest
+management and the biological control of key pests in greenhouse production.
+
+© CAB International 2018. Tomatoes 2nd edition (E. Heuvelink)                207
+208                              G.E. Vallad et al.
+
+
+
+IPM AND BIOLOGICAL CONTROL CONCEPTS
+
+To meet both the worldwide demand for food security and environmental safety,
+agriculture must increase food production and quality while decreasing its eco-
+logical footprint. Ensuring sustainability and competitiveness with reduced
+pesticide inputs is a major challenge but this can be achieved by integrated pest
+management (IPM). IPM is a sustainable approach to managing pests that com-
+bines available biological, cultural, physical and chemical tactics to minimize
+the economic, health and environmental risks associated with crop production.
+Biological control of pests and diseases through the use of natural enemies such
+as predators, parasitoids, pathogens and other antagonists to reduce pest dens-
+ities and reduce disease can be an important component to any IPM system.
+
+
+BIOLOGICAL CONTROL OF PESTS
+
+Several types of biological control can be distinguished. Classical biological
+control refers to the introduction of natural enemies to a new area where they
+did not originate or do not occur naturally. This is usually done by government
+authorities. Augmentation biological control is the release of mass-reared nat-
+ural enemies to obtain an immediate control of pests. This type of biological
+control is a commercialized method, with natural enemies sold by professional
+companies. Finally, biological control can be achieved through actions that
+protect and stimulate the performance of naturally occurring natural enemies,
+which is referred to as conservation biological control.
+     IPM practices between field and greenhouse tomato crops are fundamen-
+tally different. Augmentation biological control in greenhouse crops is much
+better developed than in field crops for several reasons. Firstly, greenhouse
+crops have a higher economic value with higher production levels, which
+means that more money can be spent on control measures. Releases of natural
+enemies in field crops are often considered to be too expensive. Secondly, the
+number of pest species and diseases is often lower in greenhouse than in field
+crops. Particularly in modern greenhouses in northern Europe, problems with
+nematodes and several soil diseases are solved by growing plants on hydro-
+ponics. Thirdly, natural enemies released in greenhouses are confined largely
+to the crop under production, whereas those released in the field may disperse
+to surrounding weeds or fields, thereby reducing or eliminating their effective-
+ness. Fourthly, airborne diseases, such as Botrytis, can be minimized by climate
+management in modern greenhouses. This reduces the need for spraying fun-
+gicides and thereby interference of fungicides with natural enemies. Finally,
+a major drive for switching to biological control in greenhouse tomatoes has
+been the introduction of bumblebees for pollination. Using bumblebees is not
+compatible with many insecticides, thus forcing growers to use non-chemical
+pest control measures.
+                   Crop Protection: Pest and Disease Management             209
+
+
+     Field-grown tomatoes benefit more from conservation biological control
+than from augmentation biological control. Various techniques of habitat
+modifications, such as flowering strips or mulching, can be applied to stimulate
+natural enemies (Barbosa, 1998). Although augmentation biological control
+is well developed in greenhouse crops, it might be enhanced by similar con-
+servation tools that are applied in field crops for both released and naturally
+occurring natural enemies. One example is the use of so-called ‘banker plants’
+in greenhouses that support the reproduction of natural enemies by supplying
+alternative prey or food (Huang et al., 2011). The system of biological control
+strongly depends on the type of natural enemies used. These will be discussed
+below.
+
+
+Biological control with generalist predators in greenhouse crops
+
+Biological control of pests can be achieved using specialist and generalist
+natural enemies. For a long time, biological control was mainly focused on
+specialist natural enemies, because they are well adapted to their prey (van
+Lenteren and Woets, 1988). However, they often cannot persist in a crop when
+prey are scarce or absent. Repeated introductions are usually needed to control
+pests, which may involve problems with timing, costs and quality of the natural
+enemies. In general, generalist predators establish better in crops by feeding
+on alternative food sources and they can potentially control several pest spe-
+cies. Inoculating crops with generalist predators allows them to quickly ­detect
+and control pests that invade a crop, which benefits the resilience of cropping
+systems against pests. A drawback of generalist predators can be their inter-
+ference with other natural enemies. Yet, biological control programmes in
+greenhouse crops are increasingly based on releases of generalist predators
+and they ­appear to be successful (Messelink et al., 2012).
+     Tomato plants are particularly suitable for generalist predatory bugs of
+the family Miridae, mostly species of the genera Nesidiocoris, Dicyphus and
+Macrolophus. These predators are zoophytophagous, which means that they
+feed and survive both on plant sap and on prey. They feed on multiple pest spe-
+cies such as whiteflies (Gerling et al., 2001), aphids (Alvarado et al., 1997),
+thrips (Riudavets and Castañé, 1998), spider mites (Hansen et al., 1999)
+(Fig. 7.1), leaf miners (Arnó et al., 2003) and lepidopteran species, including
+Tuta absoluta (Urbeja et al., 2009) (Table 7.1). Moreover, they are well adapted
+to the hairy tomato surfaces both morphologically (slim body, long slender legs,
+elongated curved claws) and behaviourally (locomotion) (Voigt et al., 2007).
+In the Mediterranean area, several species spontaneously invade tomato crops
+and these invasions can be supported by offering suitable host plants in green-
+house surroundings (Perdikis et al., 2011). Some of these species are mass
+produced on a commercial scale. The most important species are currently
+Nesidiocoris tenuis and Macrolophus pygmaeus (Rambur) (formerly identified
+210                               G.E. Vallad et al.
+
+
+
+
+                                                       Fig. 7.1. Two-spotted spider
+                                                       mite adult and eggs on tomato.
+                                                       (Photograph courtesy Hugh Smith.)
+
+
+as Macrolophus caliginosus Wagner) (Fig. 7.2) (van Lenteren, 2012), and in
+Canada Dicyphus hesperus has been released (Sanchez et al., 2003). These pred-
+ators are usually released at the start of a cropping cycle and can even be intro-
+duced on seedlings at plant nurseries (crop inoculation). Population ­increases
+can be supported by applying alternative food sources, such as pollen or steril-
+ized eggs of the flour moth Ephestia kuehniella (Vandekerkhove and De Clercq,
+2010). One of the risks in using zoophytophagous predators is that high
+densities in absence of prey may cause crop damage (Castañé et al., 2011).
+However, such risks may be managed by supplying supplemental food sources
+in the crop, such as sugars (Urbaneja-Bernat et al., 2012). By inoculating crops
+with generalist mirid predators, supporting their development and managing
+their behaviour, crops will increase in resilience against pests. This approach
+appears to be more effective than releasing natural enemies as ‘biopesticides’ in
+response to pest infestations. Nevertheless, additional releases of specialist nat-
+ural enemies ­remain indispensable for effective biological control programmes.
+The most important specialist natural enemies will be discussed below.
+
+
+Biological control with specialist natural enemies in greenhouse crops
+
+Plant-feeding mites
+Spider mites (Tetranychus urticae Koch and T. evansi Baker and Pritchard), tomato
+russet mite (Aculops lycopersici (Massee)) and broad mite (Polyphagotarsonemus
+latus (Banks)) are pests of tomatoes. Spider mites are larger (0.3–0.5 mm) than
+russet mites (0.15–0.2 mm) and broad mites (females 0.2–0.3, males half as
+large), which can only be seen with at least 14× magnification. Mites have
+piercing–sucking mouthparts and puncture plant cells to extract sap. They es-
+tablish on the undersides of leaves but can be found on all plant surfaces when
+infestations are high. Spider mites produce webbing and chlorotic abraded
+patches on leaves where they feed in high numbers. Russet mite feeding pro-
+duces a silvery chlorotic appearance to the upper surface of tomato leaves.
+Table 7.1.   Pests and their commercially available natural enemies in greenhouse tomatoes.
+
+Pest group           Pest species                  Natural enemy
+
+Plant-feeding mites Two-spotted spider mite        Specialist predatory mite Phytoseiulus persimilis, predatory midge Feltiella acarisuga
+                    Tetranychus urticae            Generalist predators Macrolophus pygmaeus and Nesidiocoris tenuis
+                    Red spider mite                Phytoseiulus longipes
+                    Tetranychus evansi
+                    Tomato russet mite             Limited effect of generalist phytoseiid mites
+
+
+
+
+                                                                                                                                            Crop Protection: Pest and Disease Management
+                    Aculops lycopersici
+                    Broadmite                      Limited effect of generalist phytoseiid mites
+                    Polyphagotarsonemus latus
+Aphids              Potato aphid                   Parasitoids Aphidius ervi and Aphelinus abdominalis
+                    Macrosiphum euphorbiae
+                    Foxglove aphid                 Parasitoids A. ervi and A. abdominalis
+                    Aulacorthum solani
+                    Peach aphid                    Parasitoid Aphidius matricariae, Aphidius colemani and A. ervi
+                    Myzus persicae
+                    All species                    Predatory midge Aphidoletes aphidimyza, generalist predators M. pygmaeus and
+                                                     N. tenuis
+Psyllids             Tomato/potato psyllid         Predatory beetle Delphastus catalinae
+                     Bactericera cockerelli
+Whiteflies           Tobacco or silverleaf whitefly Parasitoids Eretmocerus eremicus and Eretmocerus mundus, generalist predators
+                     Bemisia tabaci                   M. pygmaeus and N. tenuis
+                     Greenhouse whitefly            Parasitoids Encarsia formosa and E. eremicus, generalist predators M. pygmaeus and
+                     Trialeurodes vaporariorum        N. tenuis
+Mealybugs            Greenhouse mealy bug           No effective natural enemies available, limited use of predatory beetle
+                     Pseudococcus viburni             Cryptolaemus montrouzieri
+                                                                                                                             Continued
+                                                                                                                                            211
+                                                                                                                      212
+
+
+Table 7.1.     Continued.
+
+Pest group            Pest species                 Natural enemy
+
+                      Other species:               No effective natural enemies available
+                      Phenacoccus madeirensis,
+                         Phenacoccus solenopsis,
+                         Phenacoccus solani
+Leaf miners           Tomato leaf miner            Parasitoids Diglyphus isae and
+                      Liriomyza bryoniae           Dacnusa sibirica, generalist predators M. pygmaeus and N. tenuis
+
+
+
+
+                                                                                                                      G.E. Vallad et al.
+Caterpillars          Tomato leaf miner moth       Egg parasitoid Trichogramma achaeae (limited use)
+                      Tuta absoluta
+                      Tomato hawk moth             Egg parasitoid Trichogramma evanescens (limited use)
+                      Lacanobia oleracea
+                      Tomato looper                Egg parasitoid T. evanescens (limited use)
+                      Chrysodeixis chalcites
+                      Cabbage looper               Larval parasitoids are effective, but not mass-produced
+                      Trichoplusia ni
+                      All                          Generalist predators M. pygmaeus and N. tenuis
+Thrips                Several species but mainly   Generalist predators M. pygmaeus and N. tenuis
+                         western flower thrips
+                      Frankliniella occidentalis
+Plant damaging        Southern green stink bug     No natural enemies available
+  bugs                Nezara viridula
+                    Crop Protection: Pest and Disease Management              213
+
+
+
+
+                                                  Fig. 7.2. Macrolophus pygmgeus,
+                                                  whitefly predator. (Photograph:
+                                                  Gerben Messelink.)
+
+Broad mite causes bronzing of the underside of tomato leaves and terminal
+shoots. Tomato russet mite feeds primarily on solanaceous plants but spider
+mites and broad mite have a broad host range. Under favourable conditions
+(24–27°C), tomato russet mite and broad mite can complete their life cycle in
+about 1 week. The life cycle of spider mites is longer, though they can complete
+their development in about 1 week at 30°C.
+      Biological control of spider mites with the specialist predatory mite
+Phytoseiulus persimilis is one of the cornerstones of biological control in green-
+house crops (Hussey and Bravenboer, 1971). Spider mites in tomato can also
+be controlled effectively by this predator but it does not perform as well as in
+other crops. The reason is that it is hampered not only by entrapment in the
+sticky exudates of glandular trichomes, but also indirectly by the secondary
+plant metabolites in its prey (Koller et al., 2007). Predators that are reared on
+tomato get better adapted to these plant traits and perform better than pred-
+ators reared on bean (Drukker et al., 1997). Commercial producers of natural
+enemies have adopted this knowledge and nowadays sell special tomato strains
+of P. persimilis.
+      A related species of T. urticae damaging tomato is Tetranychus evansi. This
+mite is common in Africa and South America but crop infestations have been
+observed in southern Europe and North America as well. This species seemed
+to be a real threat, because P. persimilis is not able to deal with the dense web-
+bing this spider mite produces and therefore is not able to control this pest. The
+related predatory mite Phytoseiulus longipes seems to be more adapted to this
+prey and is able to control this mite on tomato plants (Furtado et al., 2007).
+      Biological control of the much smaller tomato russet mite Aculops lycoper-
+sici and the broad mite Polyphagotarsonemus latus is not well developed. Several
+species of phytoseiid mites are excellent predators of broad mites in other crops
+(e.g. sweet pepper) (van Maanen et al., 2010) and leaf disc experiments show
+that several predatory mites can prey on russet mites (Brodeur et al., 1997).
+However, none of these mites so far performs well on tomato plants, probably
+because they are strongly hampered by the glandular trichomes. An inter-
+esting plant response to russet mites is the local degradation of these glandular
+hairs. Once these trichomes are shrivelled, it appears that predatory mites are
+214                                G.E. Vallad et al.
+
+
+able to control the russet mite (van Houten et al., 2013). This indicates that a
+locally applied ‘overkill’ of predatory mites may suppress russet mite densities
+but they may not be able to prevent plant infestations as they do not establish
+on tomato plants.
+
+Whiteflies
+The primary whitefly pests of tomato are Bemisia tabaci, Gennadius biotype B
+(also known as the silverleaf, sweetpotato or tobacco whitefly, and sometimes
+referred to in the literature as Bemisia argentifolii Bellows and Perring) and
+Trialeurodes vaporariorum Westwood, the greenhouse or glasshouse whitefly.
+       Whitefly adults are small (1.0–1.3 mm) insects with waxy white wings, a
+yellow body and red eyes. Whitefly females typically lay eggs on the underside
+of the leaf and usually lay between 100 and 300 eggs during the 3–6 weeks
+that they are alive (Thompson, 2011). Eggs are oblong and attached to the
+leaf surface on the basal end. Eggs are pearly or greenish white when first ovi-
+posited and darken to a coffee colour. Whiteflies pass through four nymphal
+­instars prior to becoming an adult. The first instar crawler possesses six legs and
+ searches for a feeding site after emerging from the egg. Subsequent nymphal in-
+ stars lack legs and are immobile. Whitefly nymphs are oval in shape, yellowish
+ and translucent. The red eyes of the pharate adult are visible in the latter stage
+ of the fourth instar. This is referred to as the red-eyed nymph or pupa, although
+ technically, as hemimetabolous insects, whiteflies do not possess a pupal stage.
+       B. tabaci and T. vaporariorum can be distinguished from each other in the
+ adult stage by the manner in which they hold their wings. B. tabaci holds the
+ wings ‘roof-like’ over the body, and with sufficient magnification the yellow
+ abdomen can be seen between the wings from above. T. vaporariorum holds the
+ wings ‘fan-like’ over the body, and the abdomen is not visible from above. The
+ fourth instar nymph is also easily distinguished between the two species and
+ is the stage commonly used to identify whitefly species. The fourth instar of
+ T. vaporariorum has a marginal fringe of waxy rods where the dorsal and lateral
+ surfaces meet. By contrast, the fourth instar of B. tabaci is largely flush with the
+ surface of the leaf and has few marginal setae.
+       The developmental time for egg to adult on tomato at 25°C is 20.5 days
+ for B. tabaci (Yang and Chi, 2006) and 21 days for T. vaporariorum (Dorsman
+ and van de Vrie, 1987). B. tabaci is a pest of field-grown tomato in warmer
+ regions. T. vaporariorum is a problem in protected agriculture in temperate
+ regions, in field and protected production under Mediterranean conditions,
+ and in the tropics at higher elevations. In the tropics, B. tabaci is common up
+ to about 1000 m above sea level and T. vaporariorum predominates at 800 m
+ above sea level and in growing areas at greater elevations (Caballero, 1996).
+ In some regions, both species are present on tomato (Dovas et al., 2002; Arnó
+ et al., 2006).
+       Whiteflies have a piercing–sucking stylet and are phloem feeders. When
+ high numbers of whitefly feed on a plant, loss of phloem sap can debilitate
+                    Crop Protection: Pest and Disease Management                   215
+
+
+the plant. Whiteflies produce honeydew, a sugar-rich excretion that accumu-
+lates on the surface of leaves and provides a substrate for sooty moulds. Sooty
+moulds are Ascomycete fungi that contaminate crops, reducing photosyn-
+thesis and quality. Whiteflies primarily reduce yield in tomato by transmitting
+viruses. B. tabaci can transmit several types of viruses but the most damaging
+viruses transmitted by B. tabaci to tomato are in the genus Begomovirus (Family
+Geminiviridae) (Lapidot and Polston, 2010). There are over 80 recognized
+whitefly-transmitted geminiviruses of tomato (Varma et al., 2011). Tomato
+yellow leaf curl disease is associated with several viruses that produce indistin-
+guishable symptoms: stunting, small distorted yellow leaves, upward curling.
+Globally, Tomato yellow leaf curl virus (TYLCV) is the most important. The virus
+can be acquired by both immature and adult whiteflies and is transmitted
+in a persistent circulative manner. That is, the whitefly acquires the virus by
+feeding, can transmit the virus after a latent period of 8–24 hours and may
+retain the virus for life (Cohen and Nitzany, 1966). Whiteflies also induce the
+systemic disorder known as irregular ripening, which is caused by feeding of
+nymphal B. tabaci (Schuster, 2001).
+     Resistant varieties are available for management of TYLCV (Fig. 7.3).
+Producers of field tomatoes rely primarily on chemical control, applying both
+systemic and contact materials to manage adults and nymphs. T. vaporario-
+rum is a vector of Tomato infectious chlorosis virus (Closteroviridae) but is less
+­important as a virus vector in tomato than B. tabaci. Reflective plastic mulches
+
+
+
+
+Fig. 7.3. TYLCV-susceptible tomato variety (left) next to TYLCV-tolerant variety
+under high virus conditions. (Photograph courtesy Hugh Smith.)
+216                              G.E. Vallad et al.
+
+
+are used to reduce whitefly infestations early in the season (Csizinsky et al.
+1997, 1999). Important sources of TYLCV and other whitefly-transmitted
+­viruses include crop residues, asymptomic hosts such as pepper and resistant
+ varieties, and certain weeds. Crop hygiene, particularly the destruction of old
+ crop residues, is an important control measure for reducing viral inoculum.
+       Biological control of the greenhouse whitefly T. vaporariorum in green-
+ houses started in the UK with the parasitoid Encarsia formosa Gahan (Speyer,
+ 1927) and this wasp is still of major importance in biological control pro-
+ grammes in greenhouse crops (van Lenteren, 2012). Females prefer to lay
+ eggs in the third and fourth instar larvae of whiteflies. Parasitized greenhouse
+ whiteflies can easily be recognized by pupae that have turned black. The related
+ parasitoid Eretmocerus mundus is more effective in the control of B. tabaci and
+ Eretmocerus eremicus can be used against both whitefly species (Greenberg et al.,
+ 2002) (Table 7.1). Low greenhouse temperatures (driven by energy saving)
+ can restrict the efficacy of these wasps. Trimming of older leaves before adult
+ wasps have emerged from parasitized whitefly pupae may hamper their popu-
+ lation increases. To promote the survival of parasitoid populations, an adapted
+ leaf trimming strategy is now advised. Biological control of whiteflies has been
+ very successful in other crops such as cucumber and sweet pepper (Messelink
+ et al., 2008; Calvo et al., 2009). However, as mentioned before, predatory mites
+ so far do not perform well on tomato, because they can get trapped in the sticky
+ hairs on the stems on tomato. Thus in practice, whitefly control is mainly based
+ on a combination of mirid bugs and parasitoids.
+
+Aphids
+Aphids are small soft-bodied, pear-shaped insects with piercing–sucking
+mouthparts. They are phloem feeders. They possess two small tube-like struc-
+tures, called cornicles, on the fifth or sixth abdominal segments. In temperate
+regions, aphids pass through an egg stage and four to five nymphal stages be-
+fore becoming an adult. In warm regions and in protected structures, aphids
+tend to be parthenogenetic and viviparous, that is, they reproduce without
+mating and give birth to nymphs rather than eggs. These adaptations enable
+aphid populations to grow rapidly. Aphid adults may be winged or wingless,
+depending on environmental conditions. The most important species in both
+field and greenhouse production are the potato aphid Macrosiphum euphorbiae
+(Thomas), the foxglove aphid Aulacorthum solani (Kaltenbach), the green peach
+aphid Myzus persicae (Sulzer) and the cotton or melon aphid Aphis gossypii
+Glover. Each of these pests has a broad host range. M. persicae and A. gossypii
+adults tend to be smaller (1.8 mm) than M. euphorbiae and A. solani (3.0 mm).
+M. euphorbiae has both green and pink biotypes attacking tomato, but colour
+can be variable within aphid species. Other characteristics are more useful for
+identification, which requires magnification (Blackman and Eastop, 2000).
+Aphids in greenhouses are more problematic in temperate climates than in
+subtropical climates where temperatures are probably too high for many
+                    Crop Protection: Pest and Disease Management                217
+
+
+ ­species. Aphid infestations tend to initiate on the underside of upper canopy
+  tomato leaves, but under favourable conditions aphids can be found on most
+  plant parts. They debilitate the plant by extracting sap in high amounts, produ-
+  cing honeydew and sooty mould. Aphid feeding can produce wilting, necrotic
+  spots on leaves and leaf distortion. Aphids vector damaging viruses to tomato,
+  including Tobacco etch virus, Potato Y virus and Cucumber mosaic virus. Control
+ of aphids in the field involves the use of insecticides, reflective plastic mulches
+ and crop hygiene. There are presently few options for managing aphid-­vectored
+viruses with resistant tomato varieties.
+      In greenhouses, aphids can be controlled by specialist parasitoids of the
+genera Aphidius and Aphelinus (Table 7.1). The most important parasitoid that
+is able to parasitize all aphid species in tomato is Aphidius ervi. However, the
+efficacy of parasitoids can by strongly disrupted by hyperparasitoids, which
+are secondary parasitoids that can develop on primary parasitoids. Aphids can
+additionally be controlled by the specialist gall midge Aphidoletes aphidimyza.
+The larvae of this midge are impressive predators of all kinds of aphids. It is
+quite common for natural enemies of aphids to enter greenhouses during
+summer. Naturally occurring enemies such as parasitoids, chrysopids and
+­syrphids can contribute significantly to the control of aphids.
+
+Thrips
+Species of thrips attacking tomato around the world are primarily in the
+family Thripidae and include the western flower thrips Frankliniella occidentalis
+(Pergande), tobacco thrips F. fusca (Hinds), flower thrips F. tritici (Fitch) and
+F. schultzei (Trybom). These species are found primarily in the flower, although
+feeding damage to foliage (Fig. 7.4) and oviposition damage on fruit are common
+at high thrips densities. The onion thrips Thrips tabaci (Lindeman), the green-
+house thrips Heliothrips hemorrhoidalis (Bouché), the chilli thrips Scirtothrips
+dorsalis Hood and Echinothrips americanus Morgan also attack foliage. Thrips
+are small insects and possess fringed wings as adults. Adult western flower
+thrips measure 1.2–1.9 mm. Most thrips found on tomato range in colour
+
+
+
+
+                                                  Fig. 7.4. Thrips feeding damage
+                                                  on tomato leaf. (Photograph
+                                                  courtesy Hugh Smith.)
+218                               G.E. Vallad et al.
+
+
+from pale yellowish or orange-brown to dark brown. Thrips females insert eggs
+partially into plant tissue. Thrips attacking tomato pass through two larval
+stages, a pre-pupal stage and a pupal stage. The two pupal stages are mobile
+but do not feed. Pupation usually occurs in the soil. Thrips have asymmetrical
+mouthparts that pierce and extract plant juices from outer cells. Thrips feeding
+abrades the surface of leaves and flowers, and scarred tissue eventually turns
+brown and dry. Thrips often leave small blackish-green faecal pellets in feeding
+areas. Oviposition on tomato fruit results in stippling and haloing on the fruit
+surface. In addition to direct damage to the fruit, thrips cause crop losses in
+tomato by vectoring viruses in the Tospoviridae, including Tomato spotted wilt
+virus and Ground nut ring spot virus. Tomato spotted wilt is acquired by the lar-
+vae but is transmitted by adults feeding on foliage. Several varieties of tomato
+resistant to Tomato spotted wilt virus are available. Flower thrips, particularly
+western flower thrips, are very difficult to manage using insecticides, in part
+because of the rapid development of resistance.
+
+Tomato psyllid
+The tomato psyllid, Bactericera (Paratrioza) cockerelli (Šulc), is a pest of tomato
+and other solanaceous crops, including aubergine, potato and pepper. Adults
+are 2.5–2.75 mm in length with transparent wings held roof-like over the
+body. Newly emerged adults are amber in colour and turn dark brown or black
+with a banded appearance over time. Eggs are oval and attached by a thin stalk
+to the leaf. Eggs are oviposited on both upper and lower leaf surfaces and on
+apical leaves. Nymphs are elliptical and flat. They are usually found on lower
+leaf surfaces and tend not to move. First instar nymphs are yellowish-orange
+and subsequent instars tend to be yellowish-green. Nymphs and adults feed
+on phloem with piercing–sucking mouthparts and produce large amounts of
+whitish granular excrement containing honeydew and wax. Tomato psyllid is
+responsible for a physiological disorder known as ‘psyllid yellows’, which can
+significantly reduce yields. Psyllid yellows produces an array of symptoms in
+affected tomato plants, including reduced growth, chlorotic, reddish and purp-
+lish discoloration of leaves, upward cupping of leaves, shortened swollen inter-
+nodes and premature plant decline. The tomato psyllid vectors the bacterial
+pathogen Candidatus Liberibacter solanacearum, also known as Ca. L. psyllau-
+rous, which causes stunting and reduced yields in tomato. The tomato psyllid is
+adapted best to temperatures in the range of 21–27° C. At 23°C, tomato psyllid
+needs approximately 27 days to develop from the egg stage to the adult stage,
+passing through five nymphal instars. Egg hatch is suppressed at temperatures
+above 32°C (List, 1939). The tomato psyllid is found in North America west of
+the Mississippi, in southern parts of Canada and in Mexico, Central America
+and New Zealand.
+     Insecticides representing several modes of action are used to manage the
+tomato psyllid and suppress transmission of C. Liberibacter solanacearum
+(Butler and Trumble, 2012). Management of alternative hosts such as
+                    Crop Protection: Pest and Disease Management               219
+
+
+­solanaceous weeds aids in the suppression of the pest. Natural enemies of
+ B. cockerelli include predators of soft-bodied insects such as ladybird beetles
+ and lacewings; the parasitoids Tamarixia triozae (Burks) (Eulophidae) and
+ Metaphycus psyllidis Compere (Encyrtidae); and entomopathogens including
+ Beauvaria bassiana (Balsamo), Isaria fumosorosea (Wize), Metarhizium anisopliae
+ (Metschnikoff) and Verticillium lecanii (Zimmerman).
+
+Leafminers
+The leaf miner species attacking tomato are Liriomyza bryoniae (Kaltenbach),
+L. huidobrensis (Blanchard), L. sativae Blanchard and L. trifolii (Burgess)
+(Diptera: Agromyzidae). Leaf miner adults are small (approximately 2 mm)
+flies with black and yellow markings. Females oviposit eggs into the surface
+of the leaf. L. huidobrensis typically oviposits on the underside of the leaf, and
+larvae mine near the central or lateral leaf veins. The other species tend to ovi-
+posit on the upper surface of the leaf and larval mines do not follow a specific
+pattern. The three larval instars feed on mesophyll tissue between the upper
+and lower plant surfaces, exiting the leaf and dropping to the soil to pupate. In
+warm weather, each species needs about 2 weeks to develop from egg to adult
+on tomato. In addition to the damage caused by leaf mines, females cause ‘stip-
+pling’ damage by puncturing holes in leaves with their ovipositor to feed on
+plant juices. Selective insecticides can be used to manage leaf miners. However,
+the use of broad spectrum insecticides tends to make leaf miner infestations
+worse by suppressing the parasitic Hymenoptera that naturally keep leaf
+miners in check.
+     The tomato leaf miner L. bryoniae is the dominant leaf miner species in
+greenhouses. The parasitoids Dacnusa sibirica and Diglyphus isaea are two larval
+parasitoids applied worldwide for biological control of several species of leaf
+miners (van Lenteren, 2012). D. sibirica is most effective in the early season,
+while D. isaea provides control during the summer (Minkenberg, 1990).
+Additional control can be achieved by naturally occurring parasitoids, such
+as Opius pallipes.
+
+Caterpillars
+Tomato is attacked by many types of caterpillar from the seedling stage
+until harvest. Cutworms such as Peridroma saucia (Hübner) and Agrotis ipsi-
+lon (Hufnagel) attack seedlings at the soil level and are most active at night.
+Poisoned baits, the reduction of crop residues and weed suppression around
+the edges of the field contribute to the suppression of cutworms. Feeding
+by loopers is usually confined to foliage. Loopers attacking tomato include
+Autographa californica (Speyer), Chrysodeixis chalcites (Esper), Pseudopludia
+includens (Walker) and Trichoplusia ni (Hübner). Loopers can generally be con-
+trolled using insecticides, including Bacillus thuringiensis products that are
+compatible with biological control. Some loopers serve as alternative hosts for
+parasitoids such as Hypersoter exiguae (Viereck) that attack caterpillars ­directly
+220                               G.E. Vallad et al.
+
+
+
+
+                                                       Fig. 7.5. Spodoptera eridania
+                                                       (lower right) and damaged
+                                                       ­tomato. (Photograph courtesy
+                                                        Hugh Smith.)
+
+
+damaging fruit. Many species of Spodoptera (armyworms) attack tomato
+­foliage and will in some instances attack green or ripened fruit. These include
+ Spodoptera exigua (Hübner), S. littoralis Boisd., S. eridania (Cramer) (Fig. 7.5),
+ S. ornithogalli (Guenée) and S. frugiperda (J. E. Smith). Armyworms lay their
+ eggs in masses on the undersides of leaves, usually covered with a fuzzy layer
+ of scales. Insecticides representing several modes of action are available to sup-
+ press armyworms, which are more easily managed in early instars than in later
+ stages. Most caterpillar species are attacked by a range of predators and para-
+ sitoids in the egg, larval and pupal stages. The tomato hornworm, Manduca
+ quinquemaculata (Haworth), and the tobacco hornworm, M. sexta (Linnaeus),
+ are often suppressed by natural enemies.
+       The most threatening and damaging caterpillar is the leaf miner moth,
+ Tuta absoluta. As discussed above, biological control with generalist mirid
+ bugs has been very successful in the Mediterranean area. Specialist natural
+ ­enemies can, if necessary, be added to the control measures against this pest.
+  A commonly used species is the egg parasitoid Trichogramma achaeae (Desneux
+  et al., 2010). Other Trichogramma species can be used against noctuid moth
+  pests (Table 7.1) but they are only applied on a small scale. Most caterpillars
+  are controlled by sprayings with biopesticides based on Bacillus thuringiensis.
+  Additional control can be achieved by birds that enter greenhouses in summer.
+
+Stink bugs and leaf-footed bugs
+Stink bugs and leaf-footed bugs are hemimetabolous insects that pass through
+an egg stage and five nymphal instars before becoming an adult. These ­insects
+have piercing–sucking mouthparts. Both nymphs and adults can feed on
+­foliage, stems and blossoms of tomato but the most serious damage they ­inflict
+ is on fruit. Stink bug damage on tomato fruits produces a small point sur-
+ rounded by a lighter patch that either becomes yellow or remains green as the
+ fruit ripens. Stink bug feeding can produce white thickened tissue inside the
+ fruit. Feeding by leaf-footed bugs produces malformed, discoloured fruits. Stink
+ bugs attacking tomato include the southern green stink bug, Nezara viridula
+                     Crop Protection: Pest and Disease Management                221
+
+
+(Linnaeus), the brown stink bug, Euschistus servis (Say), and the consperse stink
+bug Chlorochroa sayi (Stål) (Hemiptera: Pentatomidae). Stink bugs have similar
+life histories (Capinera, 2001). The southern green stink bug is a cosmopol-
+itan pest with a broad host range that prefers crucifers and leguminous crops,
+including cover crops such as Sesbania and Indigofera spp. The optimal tem-
+perature for N. viridula’s development is approximately 30°C; it needs about
+35 days to develop from egg to adult during warm months. Females lay pale
+or pinkish-yellow barrel-shaped eggs in hexagonal clusters. Colour changes
+and colour patterns on nymphal N. viridula are complex (Capinera, 2001). The
+adults are green and shield-shaped.
+      Leaf-footed bugs attacking tomato include Leptoglossus phyllopus (Linnaeus)
+and Phthia picta (Drury) (Hemiptera: Coreidae). Females oviposit oval metallic
+brown eggs in rows on leaves or stems. Nymphs range in colour from orange
+to reddish brown. Adults are about 20 mm long and brown. L. phyllopus has a
+white band across the wing covers and has flattened tibia. Other hemipteran
+pests that cause sucking damage to tomato fruit include Lygus spp. and the
+­tomato bug, Cyrtopeltis modesta (Distant) (Miridae).
+      Weeds, particularly solanaceous and leguminous weeds, can serve as alterna-
+ tive hosts for stink bugs and leaf-footed bugs attacking tomato and can be important
+ sources of infestation. Stink bugs are attacked by a range of natural enemies,
+ including scelionid and eupelmid egg parasitoids and tachinids that parasitize late
+ nymphal instars and adults. Predators attacking stink bugs include Geocoris spp.
+ (big-eyed bugs), nabid damsel bugs, predatory stink bugs (Pentatomidae), green
+ lacewings (Chrysopidae), fire ants (Solenopsis invicta Buren) and birds.
+
+
+ECONOMICALLY IMPORTANT DISEASES OF TOMATO
+
+A disease can be broadly defined as any departure from normal growth.
+Tomatoes are afflicted by a broad array of diseases caused by parasitic nema-
+todes, fungi, oomycetes, bacteria, viruses and viroids. Although often referred
+to as diseases, any disorder caused by a physiological (see Chapter 5 for fruit
+physiological disorders) or genetic abnormality related to environment or
+­nutrition (see Chapter 6 for nutritional disorders) will not be covered here.
+       Disease management requires knowledge of the pathogen’s life cycle and
+ an understanding of those environmental factors that govern pathogen inter-
+ action with the host. In plant pathology, the concept of the disease triangle
+ is often used to describe the three factors necessary for disease development:
+ (i) a susceptible host plant; (ii) a virulent pathogen; and (iii) adequate environ-
+ mental conditions for infection and growth of the pathogen. Disease manage-
+ ment utilizes tactics to disrupt the interaction between the host and pathogen,
+ and the environment to prevent or slow disease development.
+       The most logical disease management tactics for tomato production are
+ those that eradicate or exclude the pathogen from the environment, avoid
+222                                G.E. Vallad et al.
+
+
+­production in those areas where the pathogen exists, or avoid production
+ when the environmental conditions are most favourable for disease develop-
+ ment. Sanitation should be the base of any integrated disease management
+ strategy. Most pathogens of tomato are able to survive in the residues of crops,
+ related weed species and on volunteer plants, creating a bridge from one pro-
+ duction cycle to the next. Cultural practices that ensure the timely destruction
+ of plant residues and sanitization of pots, tools and other production surfaces
+ and i­mplements used during tomato production will limit the carry-over of
+ pathogens from one crop to the next. A number of tomato pathogens are also
+ seed-borne or can lie as a latent infection without any apparent symptoms pre-
+ sent in i­nfected tissues until conditions become more favourable for growth
+ and disease development. As such, testing or screening of tomato seed, trans-
+ plants or grafted materials can greatly limit the introduction of pathogens into
+ the production environment, especially for greenhouse production.
+       Genetic resistance to a number of important pathogens is available in to-
+ mato (see Chapter 2), which provides the most efficient and economical means
+ for managing many diseases. Resistance is usually limited to a specific portion
+ of the pathogen population, referred to as a race, which can limit usefulness
+ in some production areas as the deployment of resistance often leads to the
+ s­election of virulent isolates within the pathogen population over time. In
+  addition, many resistance traits are introduced from wild tomato relatives,
+  which during the breeding process can also introduce other genetic factors
+  that can have an undesirable effect on important horticultural traits such as
+  plant architecture, yield or fruit quality – a process known as linkage drag.
+  These undesirable traits often discourage broader commercial adoption of cer-
+  tain resistance traits. While great gains have been made with the development
+  of resistant tomato varieties through traditional breeding methods, the avail-
+  ability of genome sequence for the conventional tomato (The Tomato Genome
+  Consortium, 2012) and wild Solanum species (Labate et al., 2014; The 100
+  Tomato Genome Sequencing Consortium, 2014) have given tomato breeders
+  access to a whole new arsenal of molecular tools, such as genotype by sequen-
+  cing (GBS) (Poland and Rife, 2012), that will not only accelerate the develop-
+  ment of varieties with improved resistance but will also help limit linkage drag.
+  The advent of several genome-editing strategies, such as clustered regularly
+  interspaced short palindromic repeats (CRISPR) (Brooks et al., 2014), as well
+  as classic plant transformation strategies, could potentially allow for the tar-
+  geted disruption of genes that confer susceptibility (Li et al., 2012) or the intro-
+  duction of resistance genes from other plant genera (Horvath et al., 2012).
+       Tomato is truly a global crop (see Chapter 1), playing an important role in
+  the diets of millions. With an ever increasing global demand comes an increase
+  in the movement of plant materials in the form of seed and fruit, aiding in the
+  spread of numerous tomato diseases throughout the world. In addition, increased
+  market demand and reduced availability of arable land throughout the world
+  has increased production in protected structures, such as greenhouses. This
+                     Crop Protection: Pest and Disease Management                 223
+
+
+review will cover common diseases of importance to the worldwide production
+of tomatoes. Each disease will be accompanied by a brief description of symp-
+toms, the biology of the causal agent and some reference to control measures.
+
+
+COMMON FOLIAR DISEASES OF TOMATO
+
+Anthracnose
+
+Anthracnose is a fungal disease caused by several species of the genus
+Colletotrichum, to include C. coccodes (Wallr.) Hughes, C. gloeosporioides (Penz.)
+Sacc. and C. dematium (Pers. Ex Fr.) Grove (Baxter et al., 1985). Spores of the
+fungus survive on plant debris and are easily splashed to lower tomato foliage
+by rain. Foliar symptoms are fairly inconspicuous, consisting of small round
+necrotic lesions surrounded by a faint yellow chlorotic halo, but do develop a
+target-like appearance as they expand, similar to other common foliar fungal
+diseases. Symptoms of anthracnose are most commonly associated with
+ripening tomato fruit, beginning as small water-soaked lesions that gradually
+enlarge, becoming sunken and remaining water soaked beneath the surface as
+the fruit ripens. Fruits often develop cracks within the lesions leading to sec-
+ondary infections by soft rot bacteria, such as Erwinia spp., leading to rapid
+fruit decay. Eventually, specialized fungal structures known as acervuli ­develop,
+causing the centre of the lesion to turn black. Moisture causes spores (conidia)
+to be discharged in a pink gelatinous mass from acervuli, allowing splash dis-
+persal of spores to other fruits and foliage. One species, C. coccodes, also infects
+roots, causing brown lesions and root rot in which the fungus can produce
+copious quantities of microsclerotia; this disease is known as black dot root
+rot (Dillard and Cobb, 1998). The fungus can survive in the soil as acervuli or
+microsclerotia embedded in plant tissues (Blakeman and Hornby, 1966; Farley,
+1976). Anthracnose is primarily managed through the timely destruction of
+plant debris at the end of season to prevent carry-over of inoculum, avoiding
+rotations with other solanaceous crops, with a 2–3-year rotation between so-
+lanaceous crops, avoiding fields with poor drainage, proper plant spacing to
+promote airflow in the canopy, and making preventive fungicide applications
+after fruit set when conditions are conducive for the disease. Disease develop-
+ment is favoured by temperatures above 18°C and periods of extended leaf
+­wetness of 6 h or more (Dillard, 1989).
+
+
+Bacterial spot
+
+Bacterial spot of tomato is caused by a diverse genetic group of pathogenic
+bacteria representing four distinct species, Xanthomonas vesicatoria, X. euvesica-
+toria, X. perforans and X. gardneri (Jones et al., 2004; Potnis et al. 2015), that are
+224                                 G.E. Vallad et al.
+
+
+a major problem wherever tomatoes are grown. The distribution of these bac-
+teria varies throughout the world. However, outbreaks of exotic xanthomonads
+have been identified in recent years in several major tomato/pepper-producing
+regions in the western hemisphere (Jones et al., 2005). X. gardneri has become
+a significant problem in Brazil (Quezado-Duval et al., 2004) and Canada, and
+more recently throughout Midwestern production areas of the USA (Ma et al.,
+2011). Several physiological races of bacterial spot have been identified, mostly
+associated with the various species, with race 1 corresponding to X. euvesicato-
+ria, race 2 to X. vesicatoria, and races 3, 4 and 5 to X. perforans (Stall et al., 2009).
+       Bacterial spot is most problematic during warm, humid weather and is
+often initiated by episodes of wind-driven rain. On the leaf, infection begins
+when the bacterium enters the plant through natural openings and wounds,
+where it multiplies within plant tissues. Within 3–4 days, initial symptoms
+of water-soaked lesions are typically observed on lower leaf surfaces. If ideal
+­environmental conditions persist, lesions enlarge and coalesce, causing exten-
+ sive leaf chlorosis and defoliation. Once established, the disease can still cause
+ significant losses even in the absence of rain. Under conditions of high rela-
+ tive humidity such as a heavy dew or fog, the disease can spread around the
+ leaf margin (presumably by the infection of hydathodes) and cause a general
+ blighting that can again lead to premature leaf drop even when only moderate
+ disease pressure exists. All above-ground plant tissues are susceptible to the
+ disease. Fruit lesions are particularly problematic for growers, since they not
+ only detract from the appearance of the fruit but also offer a site for other mi-
+ crobes to enter the fruit; both scenarios impact the marketability of the fruit.
+ Fruit lesions begin as small raised blisters on the fruit surface that are a lighter
+ green than the rest of the fruit. As the lesions enlarge, they turn brown to black
+ and develop a layer of scab-like tissue.
+       Disease is managed by avoiding successive crops in the same field, using
+ clean seed, producing disease-free transplants and keeping fields free of weeds
+ and volunteer tomatoes. Disease management in transplant and field produc-
+ tion has relied heavily on the use of copper-based fungicides, which has led
+ to the establishment of copper-tolerant strains in many areas of the world
+ (Ritchie and Dittapongpitch, 1991; Martin et al., 2004). The use of bacterio-
+ phages, certain rhizobacteria and chemical elicitors of systemic acquired
+ ­resistance have shown efficacy in managing bacterial spot (Louws et al., 2001;
+  Obradovic et al., 2004; Byrne et al., 2005; Huang et al., 2012).
+
+
+Bacterial speck
+
+Caused by Pseudomonas syringae pv. tomato (Okabe) Young, Dye, & Wilkie, this
+gram-negative aerobic bacterium occurs in nearly every region of the world
+where tomato is produced. It is considered a cool season pathogen that is
+easily dispersed by rain and in water. Disease development is favoured by low
+                    Crop Protection: Pest and Disease Management                225
+
+
+­temperatures (18–24°C) and high humidity. Initial symptoms consist of small
+ water-soaked lesions that become brown and necrotic with a prominent yellow
+ halo surrounding the lesion, typically less than 1 mm in diameter. Under high
+ disease pressure, lesions can coalesce and lead to blighting of foliar tissues.
+ All above-ground tissues are susceptible to the pathogen, including stems,
+ petioles, peduncles, sepals and fruit. Developing fruit lesions become sunken,
+ with tissues surrounding the lesion exhibiting a darker green coloration, and
+ ­typically less than 1 mm in diameter, though larger lesions can develop under
+  favourable conditions.
+        Pseudomonas syringae pv. tomato is a successful epiphyte of many common
+  weed species and capable of surviving on crop residue for extended periods of
+  time. Two races (race 0 and race 1) have been identified. Disease is managed
+  by avoiding successive crops in the same field, using clean seed, producing
+  disease-free transplants and keeping fields free of weeds and volunteer tomatoes
+  (McCarter et al., 1983). Disease management in transplant and field production
+  has relied heavily on the use of copper-based fungicides, which has led to the
+  establishment of copper-tolerant strains in many areas of the world. Similar to
+  bacterial spot, the use of chemical elicitors of systemic acquired ­resistance and
+  rhizobacteria have demonstrated efficacy in managing bacterial speck (Louws
+  et al., 2001; Graves and Alexander, 2002; Ji et al., 2006).
+
+
+Bacterial canker
+
+Caused by the gram-positive, non-spore-forming and aerobic bacterium
+Clavibacter michiganensis ssp. michiganensis (Smith) Davis et al., bacterial canker
+is a devastating disease of tomato production throughout the world, especially
+in commercial greenhouse settings (Gleason et al., 1993). Early symptoms
+consist of an upward curling and necrosis of leaflet margins, and a wilting of
+leaflets that is often unilateral; leaf petioles initially remain turgid (Fig. 7.6).
+Although symptoms typically begin in the lower leaves and progress acrop-
+etally, the pathogen is easily introduced through wounds or pruning cuts and
+can then spread downwards through the plant. Eventually the wilt progresses,
+leading to plant death. Vascular tissues within the stems, and especially within
+nodes, display a yellow to reddish brown discoloration. The pith tissues of
+wilting plants also become discoloured and break down. These symptoms of
+wilt and vascular discoloration of stem and pith tissues are easily confused with
+bacterial wilt. However, bacterial streaming from the cut stems of bacterial
+canker-infected plants is limited and consists of yellow ooze when squeezed.
+     Occasionally, leaves can develop off-white blister-like spots that are sur-
+rounded by a dark ring of necrotic tissue. The veins of these infected leaves typ-
+ically darken, with the leaflets turning yellow as the bacterium spreads. Fruit
+symptoms do not always occur but consist of a raised brown centre surrounded
+by an opaque white halo, usually 3–6 mm in diameter. The fruit lesions, often
+226                              G.E. Vallad et al.
+
+
+
+
+Fig. 7.6. Foliar symptoms of bacterial canker on tomato. (Photograph courtesy
+Gary Vallad.)
+
+referred to as bird’s-eye spot, tend to give the fruit a scabby appearance and are
+very characteristic of the disease.
+     Infected seed and transplants are the most important sources of ­inoculum.
+Other sources include plant debris, weed hosts, volunteer plants and ­contaminated
+                    Crop Protection: Pest and Disease Management              227
+
+
+stakes and tools. Like many pathogenic bacteria, the disease is easily
+spread through contaminated water via rain splash, equipment, or various
+hand operations such as staking, tying, pruning and grafting. Plants from
+infected seed may die, or show few to no symptoms, and infected trans-
+plants may take 3–6 weeks to display symptoms – all factors that increase
+the difficulty of management and emphasize the need for strict sanita-
+tion practices to limit spread in greenhouse production environments
+(Chang et al., 1991, 1992; Hausbeck et al., 2000; Xu et al., 2010; Tancos
+et al., 2013).
+
+
+Candidatus Liberibacter solanacearum
+
+This phloem-limited unculturable bacterium is primarily transmitted by the to-
+mato/potato psyllid Bactericera cockerelli (Homoptera: Psyllidae) or indirectly
+through grafting. The bacterium is closely related to Candidatus L. asiaticus,
+Candidatus L. africanum and Candidatus L. americanus, the reported causal
+agents of huanglongbing (commonly referred to as citrus greening) of citrus
+and other members of the family Rutaceae (Secor et al., 2009; Levy et al.,
+2011; Lin et al., 2011). Candidatus L. solanacearum has been found in several
+members of the Solanaceae, causing zebra chip in potato (Solanum tuberosum).
+Symptoms on tomato consist of a spiky chlorotic apical growth, a general mot-
+tling of leaves, plant stunting and fruit deformation. Because of its uncultur-
+able state, detection requires the use of PCR primers specific to the16s rRNA
+gene, which has also led to the detection of Candidatus L. solanacearum in
+several other Solanaceae to include tamarillo (Solanum betaceum), cape goose-
+berry (Physalis peruviana) and peppers (Capsicum spp.) (Liefting et al., 2009).
+Management of the psyllid vector is the only means currently available for
+managing Liberibacter.
+
+
+Early blight
+
+Traditionally this disease was attributed primarily to the fungus Alternaria
+solani (Ell. & Mart.) L.R. Jones & Gout, but recent work has identified additional
+Alternaria spp. capable of causing early blight symptoms on tomato, including
+A. tomatophila (Weir et al., 1998; Simmons, 2000; Rodrigues et al., 2010) and
+A. grandis (Rodrigues et al., 2010). Symptoms of early blight consist of light to
+dark brown circular lesions that develop characteristic alternating light and
+dark concentric rings as the lesion expands over time (Fig. 7.7). Yellow chlor-
+otic tissue may surround the lesions and the entire leaf may turn yellow as
+lesions expand and coalesce. The disease typically starts on older leaves but
+may also develop on stems and fruit. Severe stem lesions can girdle and kill
+plants. Fruit infections usually begin near the top of the fruit at the calyx, or
+where the stem attaches to the fruit, and will also develop concentric rings
+228                              G.E. Vallad et al.
+
+
+
+
+                                                      Fig. 7.7. Foliar symptoms of early
+                                                      blight. (Photograph courtesy Gary
+                                                      Vallad.)
+
+as they ­enlarge. Infection of seedlings and transplants often leads to a collar
+rot that can quickly spread and kill young plants. Disease development is fa-
+voured by conditions with mild temperatures (24–29 °C) and frequent rains or
+heavy dews that promote spore germination. Under ideal conditions with free
+moisture, spores germinate within 2 h, with developing visible lesions within
+2–3 days. The fungus produces spores that are dispersed with air currents to
+other susceptible plants. In addition, A. solani can produce specialized struc-
+tures called chlamydospores that can survive in soil for up to a year (Patterson,
+1991). The fungus survives between seasons on seed, infected plant debris, on
+volunteer tomatoes and other solanaceous weeds, stressing the importance
+of sanitation and crop rotations for managing the disease. Proper fertilization
+is also critical to maintain vigorous growth, since older senescent tissues are
+most susceptible to the fungus. Varieties with resistance or tolerance to the
+disease are commercially available (Gardner and Panthee, 2012). Finally, the
+timely application of protective fungicides is often necessary for effective man-
+agement, especially when environmental conditions favour disease.
+                     Crop Protection: Pest and Disease Management                229
+
+
+Grey leafspot
+
+Caused by three species of the fungus Stemphylium (S. botryosum f.sp. lycopersici,
+S. solani Weber and S. floridanum Hannon and Weber), grey leafspot is a devas-
+tating foliar disease of tomato wherever susceptible varieties are grown under
+warm humid environments (Weber, 1930; Hannon and Weber, 1955; Rotem
+and Bashi, 1977; Camara et al., 2002; Nasehi et al., 2014). Foliar symptoms
+consist of small random brownish-black lesions that can be round to oblong in
+shape. The lesion centres are grey with dark brown to black margins and the
+lesion centres may crack. Infected leaves with numerous or larger lesions will
+yellow and drop. Grey leafspot primarily affects the foliage; only rarely will it af-
+fect stems or petioles when optimum conditions for disease exists. Infection of
+seedlings can also lead to defoliation without any obvious yellowing. Although
+this disease does not affect fruit directly, premature defoliation can expose fruit
+to sunlight and rain, leading to sunscald and raincheck. Stemphylium species
+affect a broad range of weed and plant species and will overseason on residues.
+Ensuring the timely destruction of plant residues in the field, and disinfecting
+pots, tools and production surfaces in the greenhouse, will limit the carry-over
+of pathogens from one crop to the next. Effective commercial resistance ex-
+ists and is the primary means of managing grey leafspot (Andrus et al., 1942;
+Hendrix and Frazier, 1949; Bashi et al., 1973; Blancard and Laterrot, 1986).
+
+
+Grey mould
+
+Caused by the fungus Botrytis cinerea Fr., grey mould is typically a minor dis-
+ease that can affect all above-ground tomato tissues in field and greenhouse
+production. Botrytis is considered an opportunistic pathogen of tomato, col-
+onizing tissues wounded during production activities or injured by insect ac-
+tivity. The disease is typically associated with mature plants that have a dense
+canopy and often begins during cooler weather, not requiring prolonged
+periods of moisture beyond what is available within the canopy (Wilson, 1963;
+Verhoeff, 1968; Yunis et al., 1990a,b; Elad and Yunis, 1993; O’Neil et al.,
+1997). Symptoms typically begin on older senescent tissues and consist of nec-
+rotic tissue that is covered with a grey to brown velvety mass of fungal sporo-
+phores. After periods of high humidity these sporophores can produce copious
+amounts of spores that are easily liberated as a cloud of spores when the in-
+fected tissue is moved. The fungus may also produce irregularly shaped dark
+brown to black sclerotia within infected tissues. The fungus can start on sen-
+escing leaf tissues that can progress into younger leaf tissues, leaf petioles and
+finally stem infections. Stem infections can also be initiated through pruning
+wounds, at graft union wounds, or wounds created from rubbing against string
+or stakes used to keep plants upright. Stem infections can girdle the plant and
+cause wilting of upper foliage. The fungus can also infect senescent flower
+230                               G.E. Vallad et al.
+
+
+petals, which can lead to the infection of the developing fruit, a direct fruit
+infection if the petals remain attached to the fruit; as such resulting infections
+occur at either the stem or blossom end of fruit (Fig. 7.8). Infected petals can
+even lead to stem infections if the petals get lodged within stem–petiole junc-
+tions. Direct infection of young fruit from spores can cause the appearance of
+a necrotic fleck accompanied by a characteristic white halo referred to as a
+ghost spot as fruit ripen. These ghost spots are sites where the fungus had pene-
+trated the epidermis of the young fruit and then died. Successful infections of
+green mature or ripening fruits leads to a typical soft rot with watery, sunken,
+whitish lesions that rupture in the centre and eventually affects the entire fruit.
+Infected fruits, if not rogued, can lead to large postharvest losses during ship-
+ments. B. cinerea is a weak pathogen of numerous plants and a common sapro-
+phyte of decaying plant tissues, making sanitation through the removal or
+destruction of senescent and dead plant tissues the primary means of reducing
+the threat of the disease. Regardless, spores are windborne and easily dissem-
+inated over long distances. The fungus can be controlled with the preventive
+
+
+
+
+                                                       Fig. 7.8. Botrytis fruit rot of
+                                                       ­tomato. (Photograph courtesy
+                                                        Gary Vallad.)
+                     Crop Protection: Pest and Disease Management               231
+
+
+application of fungicides prior to the formation of dense canopies. In addition,
+the liming of acidic soil can limit disease by improving calcium levels in plants
+(Stall et al., 1965). In addition to proper pruning and plant nutrition, the ability
+to manipulate environmental variables can greatly aid control of grey mould
+in protected structures, by minimizing the microclimatic conditions necessary
+for the fungus to infect and spread (Elad et al., 1988; Yunis et al., 1990a,b; Elad
+and Yunis, 1993).
+
+
+Hairy root disease
+
+Hairy root disease, also referred to as ‘crazy root’ or ‘root mat’, is mostly as-
+sociated with the hydroponic production of tomato, aubergine and cucurbits,
+though the disease can occur in soil as well. The disease consists of an extreme
+proliferation of roots that promotes strong vegetative growth at the expense of
+fruit yield (reduced fruit set and fruit size) (Bosmans et al., 2017). In addition,
+plants with hairy root disease are more prone to other diseases caused by weak
+secondary pathogens, such as Pythium and Pseudomonas species (Weller et al.,
+2006). The disease is caused by several members of the genus Agrobacterium
+that carry a root-inducing (Ri) plasmid, which is the sole pathogenicity factor
+for the agrobacterium. Similar to the transfer of tumour-inducing (Ti) plas-
+mids associated with members of A. tumefaciens that cause crown gall disease,
+symptoms of hairy root are the result of the natural transformation of root
+cells by a portion of the Ri plasmid (the T-DNA), which encodes genes for the
+production of specific opines and increased sensitivity to plant auxins. The
+opines are a specialized class of carbohydrates that can only be utilized by
+the specific agrobacterium (Dessaux et al., 1998; Wetzel et al., 2014), while the
+increased sensitivity to auxins leads to the prolific root growth. Incidentally,
+since the Ri plasmid confers pathogenicity, it has been associated with several
+members of what is also referred to as rhizogenic Agrobacterium biovar 1 and
+biovar 2. Members of rhizogenic Agrobacterium biovar 1 are most commonly
+associated with hairy root disease in hydroponic production, while biovar 2 are
+most commonly associated with the disease in soil (Bosmans et al., 2015). Both
+Agrobacterium biovars are heterogenic groups that contain tumorogenic strains
+of A. tumefaciens, rhizogenic strains of A. rhizogenes and avirulent strains of
+A. radiobacter. Recent changes in classification (Lindström and Young, 2011)
+led to the redesignation of Agrobacterium biovar 2 to Rhizobium rhizogenes, and
+Agrobacterium biovar 1 to Agrobacterium tumefaciens species complex until add-
+itional genomic information is provided to further delineate this heterogeneous
+complex.
+     There are no treatment options once plants are transformed with the
+T-DNA from the Ri plasmid, and the causal rhizogenic Agrobacterium biovar
+1 strains agents easily persist within irrigation systems. Therefore, management
+relies on tactics to eliminate the pathogen from the system or through changes
+232                              G.E. Vallad et al.
+
+
+in cultural practices to reduce the effect of the disease (Bosmans et al., 2017).
+Various cultural practices, including changes in substrate (Aghdak et al.,
+2016), nutrient solution, water cycles, and other practices to increase light
+and oxygen, may help to manage hairy root disease but still require further
+investigation (Bosmans et al., 2017). Chemical disinfection of water sources,
+irrigation systems and the recirculated nutrient solutions has utilized a variety
+of techniques to include the application of ultraviolet light (Pozos et al., 2004)
+and biocidal compounds, such as benzalkonium chloride, cetyltrimethylam-
+monium bromide, quaternary ammonium, sodium hypochlorite and hydrogen
+peroxide. The latter is most preferred, as it degrades into benign secondary
+products, eliminating any residue concerns, and does not corrode infrastruc-
+ture. Effective reduction of rhizogenic Agrobacterium populations requires high
+levels of hydrogen peroxide, since many of the strains are catalase-positive and
+can tolerate hydrogen peroxide (Bosmans et al., 2015). This requires growers
+to monitor levels throughout irrigation systems to maintain effective hydrogen
+peroxide concentrations of 50 ppm for catalase-negative strains to as high as
+100 ppm for catalase-positive strains (Bosmans et al., 2016).
+
+
+Late blight
+
+Caused by the fungal-like oomycete Phytophthora infestans (Mont.) de Bary, late
+blight is one of the most destructive foliar pathogens of tomato and potato.
+On tomato, the disease affects foliage, stems and fruit. Foliar infection begins
+as a water-soaked lesion that becomes brown and necrotic as the lesion ex-
+pands. Under cool, humid conditions, white mycelium and sporulation can
+often be seen on the underside of the lesion and along the lesion margin. Often
+the healthy leaf tissue surrounding the lesion has a light green appearance.
+Rapidly expanding lesions can have a zonate appearance. Tissues rapidly blight
+under favourable conditions as leaf lesions coalesce or the fungus progresses
+to the leaf petiole. The rapid necrosis gives the blighted tissues a distinctive
+light brown, shrivelled appearance as if they were burned or exposed to frost,
+especially if tissues do not become colonized by other saprophytic organisms.
+Stems and petioles can also be directly infected with lesions progressing in a
+manner similar to foliar infections but can be girdled by the fungus, leading to
+wilting of associated foliage. Fruit infections begin as dark green greasy spots
+on the fruit that eventually turn light brown or greyish as the fruit begins to
+ripen. Fruit lesions can also have a zonate appearance as the lesions expand,
+and white mycelium and sporulation appear on the lesion surfaces when cool,
+humid conditions exist.
+     The pathogen typically survives from season to season on infected fruit
+(cull piles) and infected volunteer plants of tomato and potato, requiring living
+tissue to overwinter in most temperate climates. However, in some areas of the
+world, strains of both mating types of the fungus are present, allowing the
+                    Crop Protection: Pest and Disease Management             233
+
+
+fungus to produce a specialized thick-walled structure called an oospore that
+can survive in the soil or plant debris. Disease development can be rapid, espe-
+cially when conditions favour sporulation; optimum conditions are 91–100%
+relative humidity and temperatures of 18–22°C, though sporulation can still
+occur to as low as 3°C and as high as 26°C. Sanitation in the form of destroying
+cull piles and volunteers is critical for management, in addition to using clean
+transplants and timely applications of preventive fungicides when conditions
+are favourable for disease (Becktell et al., 2005; Kamoun and Smart, 2005;
+Cooke et al., 2011; Nowicki et al., 2012; Fry et al., 2013; Arora et al., 2014).
+
+
+Leaf mould
+
+The fungus Passalora fulva (Cooke) U. Braun & Crous (syn. Cladosporium fulvum
+Cooke and Fulvia fulva (Cooke) Ciferri) is responsible for leaf mould (Crous and
+Braun, 2003). Foliar symptoms of leaf mould typically begin on older leaves,
+consisting of pale green or yellow patches on the upper leaf surfaces that even-
+tually turn a bright yellow. The underside of the affected leaves will be covered
+with patches of an olive-green mould; often the tissue surrounding the mould
+will be a pale green or white compared with unaffected tissue. Affected leaves
+will eventually curl and drop. The disease is usually limited to older leaves but
+can also develop on younger leaves and can even affect petioles, peduncles,
+stems, blossoms and fruit under favourable conditions. Affected fruit will have
+a black dry rot on the stem end of the fruit.
+     The disease is more common in greenhouse production but can occur in
+the field as well and is favoured by relative humidity above 85% and temper-
+atures of 22–24°C, though symptoms can develop at 4–32°C. Sanitation and
+limiting humidity are key to controlling the disease in greenhouse production.
+Spores are easily dispersed in the air and the fungus can survive as a saprophyte
+in the soil on leaf tissue. Therefore, removing and destroying diseased plant
+debris, in addition to keeping the relative humidity below 85% (see Chapter 9),
+can limit the disease in greenhouse production. Staking and pruning plants
+can also help to reduce relative humidity by improving air movement through
+the canopy. Several genes conferring host resistance are known and widely de-
+ployed (Rivas and Thomas, 2002, see Chapter 2).
+
+
+Powdery mildew
+
+Several fungi are known to cause powdery mildew on tomato: Leveillula taurica
+(Lev.) G. Arnaud (asexual stage = Oidiopsis taurica) and two species of Oidium
+(O. neolycopersici and O. lycopersici) for which the sexual stage remains un-
+known (Kiss et al., 2001). The two Oidium species cause the more classic form
+of powdery mildew consisting of white patches of mycelium and spores on
+234                               G.E. Vallad et al.
+
+
+upper and lower surfaces of foliar tissue, including stems, petioles, peduncles
+and blooms, and even on fruit. Infected tissue may initially darken, taking on a
+purple hue before turning yellow, and eventually develop into a necrotic lesion.
+With older infections, the mycelium will usually turn greyish as well. Most im-
+portantly, since Oidium grows epiphytically on the leaf surface, the mycelium,
+conidiophores and conidia are easily observed. Conidia of O. neolycopersici are
+ellipsoid–ovoid in shape and form singly or occasionally in small chains of two
+to three spores from simple conidiophores, whereas O. lycopersici produces
+chains of three to five elliptical to doliform-shaped spores (Jones et al., 2001;
+Kiss et al., 2001).
+      In contrast, mycelium of O. taurica (the asexual stage of L. taurica) grows
+endophytically beneath the leaf epidermis, with conidiophores and conidia de-
+veloping through the stomata in the lower leaf surface. Symptoms are typic-
+ally confined to mature leaves, starting as pale green irregularly shaped spots
+on the upper leaf surface. Lesions become yellow and necrotic and have an
+angular, vein delimited appearance as they expand. Since the fungus grows
+within the leaf tissue, mycelium and conidia are limited to the oldest portions
+of the lesions on the underside of the leaf and only present when conditions
+are favourable (relative humidity > 95%). O. taurica is dimorphic, producing
+pointed or lanceolate primary conidia and cylindrical secondary conidia with
+rounded ends. The sexual stage, L. taurica, produces globose structures with
+spiked appendages called cleistothecia that bear specialized ascospores that are
+the products of sexual reproduction. L. taurica has a broad host range but ap-
+pears to be more associated with tomato production in drier climates (Correll
+et al., 1987). Regardless of the causal pathogen, powdery mildew is managed
+through the repeated application of foliar fungicides.
+
+
+Septoria leaf spot
+
+Caused by Septoria lycopersici Speg., Septoria leaf spot is a destructive disease of
+tomatoes throughout the world. Although the disease affects all above-ground
+tissues, symptoms usually start on the lower leaves after fruit set as small cir-
+cular lesions with dark brown margins and tan to greyish centres. Foliar le-
+sions are often surrounded by a narrow band of chlorosis and the lesion
+centres are dotted with small black fungal structures called pycnidia. Fruit in-
+fections are rare but stem, petiole and calyx infections produce smaller lesions
+that may not produce pycnidia. Each pycnidium exudes massive amounts of
+spores within a gelatinous mass in the presence of moisture. These spores are
+readily splash-disseminated by rain or overhead irrigation. Symptoms typically
+progress up the plant over the season.
+     The disease is most problematic in temperate production areas, where long
+periods of leaf wetness, high relative humidity and temperatures of 20–25°C
+occur (Pritchard and Porte, 1924). The fungus can be seed-borne and also can
+                    Crop Protection: Pest and Disease Management                235
+
+
+survive between production seasons on infected tomato debris, or susceptible
+weeds, and on stakes and cages used to support tomatoes during production.
+Control is based on crop rotation and field sanitation, acquiring clean seed,
+limiting leaf wetness or the handling of wet plants, improving air flow within
+the canopy and the timely application of protective fungicides.
+
+
+Target spot
+
+Target spot is caused by the fungus Corynespora cassiicola (Burk & Curt.) Wei., a
+common foliar pathogen and saprophyte of diverse plants in tropical and sub-
+tropical environments. Initial foliar symptoms of target spot on tomato consist
+of small pinpoint water-soaked lesions that appear on the upper leaf surface.
+Lesions eventually turn dark to tan brown and can easily be mistaken for symp-
+toms of bacterial spot or speck. However, as the lesions increase in size, the dis-
+tinctive tan centre surrounded with darkened circular bands ­develops within
+the lesion (Fig. 7.9). These lesions are often surrounded by a narrow band of
+chlorosis. Expanding lesions can coalesce, leading to the rapid collapse of leaf-
+lets. Similarly, these expanding lesions can girdle petioles and stems, leading to
+a rapid blight of affected foliar tissues. Tomato fruits are also quite ­susceptible
+
+
+
+
+                                         Fig. 7.9. Foliar symptoms of target spot
+                                         caused by Corynespora cassiicola.
+                                         (Photograph courtesy Gary Vallad.)
+236                                G.E. Vallad et al.
+
+
+to the disease. On ripe fruits, large brown circular lesions develop with pale
+brown centres that often crack. Lesions on green immature fruits begin as
+small, dark brown, sunken lesions that can quickly develop into craters as
+they expand, especially as the fruit ripens. Lesions also render fruits prone to
+secondary infections by soft rot organisms. Resistance to target spot has been
+identified and reportedly conferred by a single recessive gene (Bliss et al., 1973)
+but little progress has been made to further incorporate this resistance into
+commercial cultivars.
+      C. cassiicola is a diverse pathogen with a broad host range that includes
+more than 280 plant hosts documented in over 70 countries (Farr et al., 2007).
+In addition, studies have revealed that more diversity exists among global iso-
+lates of C. cassiicola than previously recognized, including isolates recovered
+from hosts in Florida (Dixon et al., 2009). Of the 50 isolates from American
+Samoa, Brazil, Malaysia, Micronesia and the USA tested for pathogenicity on
+eight known hosts of C. cassiicola, 23 were rated as moderately to highly viru-
+lent on tomato. Of these 23 isolates, 14 were originally isolated from tomato
+and the remaining nine from diverse hosts such as basil, bean, cucumber,
+lantana, papaya, pumpkin and sweet potato. Most of the isolates were patho-
+genic on several of the hosts tested, but one isolate, GU28 from Guam, was
+only pathogenic on tomato. More importantly, these 23 isolates clustered into
+four of the five phylogentic clades based on variation from ribosomal DNA
+­internal transcribed spacer (rDNA ITS), ga4, caa5 and act1 sequences (Dixon
+ et al., 2009). This agrees with an earlier study showing that diversity exists
+ among isolates of C. cassiicola regarding host range, with some isolates exhib-
+ iting some level of host specificity (Onesirosan et al., 1974).
+
+
+COMMON CROWN AND ROOT DISEASES OF TOMATO
+
+Bacterial wilt
+
+Bacertial wilt is a serious soilborne disease caused by the gram-negative bac-
+terium Ralstonia solanacearum that affects many solanaceous crops, including
+tomato. The disease begins as the pathogen enters roots through wounds and
+natural openings, colonizing plant xylem vessels. As the pathogen progresses
+acropetally, it produces copious amounts of polysaccharides that plug vas-
+cular tissues and lead to a wilt of foliar tissues. Initial wilting symptoms can be
+subtle, beginning with the upper apical tissues that will often recover at night.
+However, as symptoms progress the entire plant will develop an irreversible wilt
+that eventually leads to death. Bacterial wilt is often referred to as a ‘green wilt’
+as symptoms often progress rapidly with little or no chlorosis of foliar tissues,
+unlike vascular wilts caused by species of Fusarium or Verticillium. Infected
+plants also develop adventitious roots on the lower stem. Vascular tissues of
+infected plants develop a yellow to light brown discoloration that becomes dark
+                    Crop Protection: Pest and Disease Management              237
+
+
+brown as the disease progresses and spreads upwards through crown and stem
+tissues. Pith tissues within the crown and stems also develop the brown discol-
+oration and begin to break down, making the stems soft and easy to squeeze.
+Submerging the cut stem of an infected plant in water allows the bacterium to
+stream with a milky white appearance and can serve as a quick diagnostic to
+distinguish this disease from those caused by other vascular pathogens. Strains
+of R. solanacearum are quite variable and have historically been divided into
+several races and biovars based loosely on host range and ability to utilize cer-
+tain carbohydrates, respectively (Denny and Hayward, 2001; Denny, 2006).
+The pathogen was reclassified into four phylotypes and sequevars, based on
+the phylogenetic analysis of several loci among global strains, which has cor-
+responded with ancestral relationships and geographical origins of strains
+(Alvarez, 2005; Fegan and Prior, 2005; Prior and Fegan, 2005). Unlike most
+bacterial plant pathogens, R. solanacearum can survive in the soil in the absence
+of a host plant; and it has a broad host range of over 200 species of cultivated
+plants and weeds in 33 plant families, making disease management through
+crop rotation and fallow programmes impractical. In addition, R. solanacearum
+is easily disseminated through contaminated water, soil, machinery and plant
+material, including transplants. Chemical fumigation (see Chapter 8) can reduce
+disease development but typically fails to give season-long control. Conventional
+and biologically based pesticides offer little practical control of the disease.
+Breeding efforts throughout the world have led to the development of tomato
+varieties with partial resistance to bacterial wilt, though the performance of
+these varieties has varied when trialled at different locations. Grafting sus-
+ceptible tomato varieties to resistant rootstocks has gained global interest and
+offers a viable option for production in problematic areas (Rivard et al., 2012).
+
+
+Fusarium wilt and Fusarium crown and root rot
+
+Fusarium wilt caused by Fusarium oxysporum f.sp. lycopersici (FOL) and
+Fusarium crown and root rot caused by Fusarium oxysporum f.sp. radicis-lycopersici
+(FORL) are both serious soilborne diseases of tomato throughout the world. In
+older plants, the initial symptoms of Fusarium wilt consist of a characteristic
+yellowing and wilting of lower leaves (Fig. 7.10). This yellowing and wilting
+quickly spreads further up the plant, often limited to only one side of the plant,
+and eventually leads to plant death. A distinct yellow to dark brown vascular
+discoloration extending from roots and crown up through the stems of symp-
+tomatic tissues is a key characteristic of the disease.
+     Fusarium crown and root rot occurs in both field and greenhouse ­tomatoes.
+Initial symptoms consist of a yellowing of lower leaves, which eventually be-
+come necrotic and wither. These symptoms move up the plant and, depending
+on the age of the plant, can result in stunting or even a sudden collapse of the
+plant. A yellow to brown discoloration can be found in the vascular tissues of
+238                               G.E. Vallad et al.
+
+
+
+
+Fig. 7.10. Initial foliar symptoms of Fusarium wilt of tomato. (Photograph
+courtesy Gary Vallad.)
+
+
+infected plants but, unlike Fusarium wilt, is typically only found in the roots,
+crown and lower stem of the plant. Fusarium crown and root rot can be intro-
+duced to new production fields by means of infected seeds, transplants, soil
+and compost (Jarvis, 1988; Hartman and Fletcher, 1991; Menzies and Jarvis,
+1994). Once introduced, this polycyclic pathogen can be disseminated via root-
+to-root contact, dispersal of airborne conidia, water flow and fungus gnats of
+the genus Bradisya (Rowe et al., 1977; Jarvis, 1988; Hartman and Fletcher,
+1991; Gillespie and Menzies, 1993; Rekah et al., 1999), making control of this
+disease more difficult.
+     Fusarium crown and root rot is favoured by cool weather (below 20°C) in
+both field and greenhouse tomatoes, and is commonly associated with winter
+and spring tomato plantings. The host range of FORL consists of at least 36
+other plant species (Menzies et al., 1990). In contrast, FOL thrives in warm
+                    Crop Protection: Pest and Disease Management              239
+
+
+weather (Jones et al., 1991) and consists of three races that are host-specific to
+tomato. Of these three races, race 3 was shown to have a better over-seasoning
+ability than races 1 and 2. A major vegetative compatibility group (VCG) was
+previously identified in Florida (VCG 0033), which belongs to race 3 (Gale et al.,
+2003). Epidemiologically, as with FORL, the sporulation on tomato stems and
+aerial dissemination of conidia of FOL have been reported to cause serious out-
+breaks (Katan et al., 1997); although the relative importance of aerial dissem-
+ination compared with soilborne inoculum in field epidemics has never been
+fully substantiated, it may be more important in greenhouse operations where
+constant plant pruning (see Chapter 9) creates wounds for the fungus to poten-
+tially colonize. Other dissemination methods include contaminated seeds,
+tomato stakes, soils and transplants (Jones et al., 1991).
+     Although FOL and FORL may be differentiated in the field based on symp-
+tomology and disease development, morphologically the two causal pathogens
+are indistinguishable from each other and from non-pathogenic isolates of
+F. oxysporum. Most modern field tomato varieties carry genetic resistance to
+races 1 and 2 of FOL but only a few varieties have resistance to FOL race 3 and
+to FORL. Long rotations with non-susceptible crops, deep tillage practices to
+bury inoculum and infested debris, and pre-treating soils with effective chem-
+ical fumigants are all practices that can help reduce inoculum levels in subse-
+quent crops. When possible, removing and destroying infected plants can help
+to reduce the amount of inoculum released into the soil.
+
+
+Nematodes
+
+Nematodes are microscopic roundworms that live in water or the films of mois-
+ture that coat soil particles. Several genera of nematodes are reported parasites
+of tomato, each varying in its below-ground life cycle and the symptoms associ-
+ated with infected root tissues. Foliar symptoms typical of nematode infections
+include chlorosis, stunting, wilting, premature senescence and reduced fruit
+yields; these symptoms are most severe with early plant infections. Nematode
+infections can also increase plant vulnerability to soilborne plant pathogens,
+such as Verticillium and Fusarium spp. (Back et al., 2002). Economically, the
+most important group of parasitic nematodes on tomato are various species of
+Meloidogyne that cause swelling of roots at the sites of infection known as galls
+or knots. These knots are the result of nematode feeding and cannot be rubbed
+off. As such, Meloidogyne spp. are commonly referred to as ‘root-knot nema-
+todes’ based on the resulting root symptoms. Genetic resistance to Meloidogyne
+spp. is conferred by the Mi gene (Williamson, 1998; Jacquet et al., 2005).
+Other nematode species reported to parasitize tomato include Belonolaimus
+longicaudatus (sting nematode), Rotylenchus reniformis (reniform nematode),
+Pratylenchus spp. (root lesion nematodes), Nacobbus spp. (false root-knot nema-
+todes), Globodera spp. (potato cyst nematodes), Tylenchorhynchus spp. (stunt
+240                              G.E. Vallad et al.
+
+
+nematodes), Xiphinema spp. (dagger nematodes) and Trichodorus spp. (stubby
+root nematodes). These nematode species vary in their life cycles and can in-
+fect a broad range of plants, making field management extremely difficult. In
+addition, they are easily moved throughout production areas with soil on farm
+machinery, infested plant materials, animals, farmyard manure and in surface
+runoff water (Noling and Ferris, 2012).
+
+
+Southern blight
+
+Southern blight is caused by the basidiomycete fungus Sclerotium rolfsii Sacc.
+(Athelia rolfsii (Curzi) Tu & Kimbrough) (Aycock, 1966). Besides tomato, the
+fungus has a broad host range that includes hundreds of plant species and is
+most problematic in subtropical and tropical regions of the world. Southern
+blight can develop at any stage of plant growth, favoured by moist and aer-
+obic soil conditions and high temperatures of 30–35°C. Symptoms begin as
+a water-soaked lesion on the stem at or just below the soil line that turns
+into a brown to black open lesion. The lesion can expand rapidly, girdling
+the stem at the crown and leading to a rapid green wilt of all upper foliage.
+Under humid conditions, a mat of robust white mycelium is often visible on
+top of the soil surrounding the plant, extending to the stem lesion and some-
+times even several centimetres up the stem. Sometimes this mycelial mat may
+not develop until the plant is dead and it can often extend to neighbouring
+plants, allowing the fungus to infect multiple plants in a patch or down a
+plant row. After a few days, numerous tan to black sclerotia, 1–2 mm in
+diameter, will develop on the mycelial mat. Any fruits exposed to infested soil
+or contacting the lower stem near an infection point are also prone to infec-
+tion by S. rolfsii. Fruit infection begins as a yellowish, sunken, water-soaked
+lesion that expands, leading to fruit collapse within 3–4 days with white my-
+celium and developing sclerotia filling the cavity. In addition, the fungus is
+a good saprophyte capable of colonizing and producing sclerotia on various
+host substrates. Sclerotia are the primary inoculum; they can survive in the
+soil and on plant debris for years and are easily disseminated through the
+movement of soil or plant debris. Although the perfect basidial stage of this
+fungus (A. rolfsii) has been induced in vitro, its role in disease remains unclear
+(Punja, 1985).
+     Because of the longevity of sclerotia in the soil and the broad host range
+of the fungus, control of southern blight in problematic fields can be difficult,
+especially when conditions favour rapid disease development. Long rotations
+with non-susceptible grass crops, deep tillage practices to bury inoculum
+and infested debris, and pre-treating soils with effective chemical fumigants
+are all practices that can help to reduce inoculum levels in subsequent crops.
+When possible, removing and destroying infected plants can help to reduce the
+amount of inoculum released into the soil.
+                     Crop Protection: Pest and Disease Management                  241
+
+
+Verticillium wilt
+
+Caused by the soilborne fungi Verticillium albo-atrum Reinke & Berthold
+and V. dahliae Kleb., Verticillium wilt is a vascular wilt disease affecting over
+200 plant species and is quite common to most tomato production regions
+throughout the world. Symptoms commence as a wilting of plants, begin-
+ning with the lower leaves. The affected lower leaves develop a marginal and
+interveinal chlorosis. Often, the interveinal chlorosis will form characteristic
+angular V-shaped ­lesions on affected leaflets. These symptoms progress acrop-
+etally, sometimes only affecting one side of the plant, but gradually lead to
+wilting of the entire plant and death. A light brown to yellow vascular discolor-
+ation is evident in the stems of infected plants, especially in the lower stems, but
+does not extend into the pith of stem tissues or into petioles. These symptoms
+are easily confused with other vascular wilt diseases, such as Fusarium wilt.
+However, the progression of wilt symptoms, chlorosis and vascular discolor-
+ation is slower and less pronounced compared with Fusarium wilt. Sometimes
+symptoms of Verticillium wilt are subtle enough to be mistaken for inadequate
+irrigation (Klosterman et al., 2009; Nunez, 2012).
+      Both Verticillium species are widely distributed, though V. dahliae is the most
+prevalent pathogen. Each is capable of surviving in the soil in infested plant
+material, or freely as dark resting mycelium in the case of V. albo-atrum, or as
+microsclerotia in the case of V. dahliae. Both structures are melanized ­allowing
+both Verticillium species to persist in soil for years, which in addition to their
+broad host range makes these fungi difficult to manage. Long rotations with
+non-susceptible grass crops, deep tillage practices to bury inoculum and infested
+debris, and pre-treating soils with effective chemical fumigants are all prac-
+tices that can help to reduce inoculum levels in subsequent crops. When pos-
+sible, removing and destroying infected plants can help to reduce the amount
+­inoculum released into the soil. Tomato varieties with the Ve gene are resistant
+ to race 1 isolates of V. dahliae and V. albo-atrum, though race 2 isolates of V. dahl-
+ iae are widely distributed throughout the world (Bender and Shoemaker, 1984;
+ Dobinson et al., 1996; Klosterman et al., 2009; Nunez, 2012).
+
+
+COMMON TOMATO DISEASES CAUSED BY VIRUSES
+AND VIROIDS
+Tomatoes are susceptible to numerous viruses and viroids that cause a myriad
+of symptoms, including stunted or distorted growth, mottling of leaves, chlor-
+osis, necrosis and plant death, depending on the exact virus/viroid. Viruses
+are stretches of nucleic acid (RNA or DNA) with a protein coat (Zaitlin and
+Hull, 1987). Viroids, on the other hand, consist solely of a small stretch (a few
+hundred nucleobases) of circular, single-stranded, non-coding RNA. While the
+genomes of viruses can encode numerous proteins necessary for pathogenesis
+242                                G.E. Vallad et al.
+
+
+and viral replication, viroids do not encode any proteins; but some viroids have
+catalytic activity functioning as ribozymes. Evidence suggests that viroids dis-
+rupt plant host processes through a process known as RNA interference (Itaya
+et al., 2001; Di Serio et al., 2014).
+      Diseases caused by viruses and viroids can be extremely difficult to control
+and have the potential to cause extensive crop losses. Most viruses of tomato are
+transmitted by insect or arthropod pests and are typically managed by control-
+ling these pest populations and by eliminating potential viral reservoirs such
+as infected tomatoes and other susceptible host plants from the production en-
+vironment. Other viruses and all viroids are transmitted through mechanical
+means, such as physical handling of the plant during production by humans
+or machinery, or through plant-to-plant contact, and are typically seed-borne.
+These mechanically transmitted viruses and viroids pose a significant threat
+to greenhouse tomato production since plants are handled on almost a daily
+basis (see Chapter 9), facilitating rapid spread of the virus or viroid. In addition,
+these mechanically transmitted viruses and viroids are capable of surviving
+on contaminated work surfaces, tools and machinery for extended periods of
+time, emphasizing the importance of strict sanitary measures to exclude these
+viruses and viroids from the production environment and to limit their spread
+upon introduction. Proper identification is crucial for controlling virus or
+viroid outbreaks, as knowledge of the disseminating vector(s) and potential
+viral/viroid reservoir(s) is critical for directing management tactics (Verhoeven
+et al., 2004; Pearson et al., 2006; Adkins et al., 2012). The following section is
+not intended to be an exhaustive review of the numerous viruses/viroids that
+afflict tomatoes, but rather serves to give a brief overview of the most important
+viruses in each virus family related to specific vectors and finally viroids.
+
+
+Whitefly-transmitted begomoviruses – Tomato yellow leaf curl viruses
+(TYLCV)
+
+Begomovirus is the largest genus belonging to the viral family Geminiviridae, and
+like other members of this family consists of single-stranded circular DNA gen-
+omes encapsidated within quasi-isomeric virion particles. Begomoviruses can
+be further divided into monopartite or bipartite forms, depending on whether
+their genomes consist of one or two circular ssDNA molecules. Tomato produc-
+tion throughout the tropical and subtropical regions of the world is besieged
+by numerous begomoviruses coincidental with the spread of the whitefly,
+Bemisia tabaci. Begomoviruses, once acquired, are transmitted by whiteflies in
+a persistent circulative non-propagative manner (Czosnek and Laterrot, 1997;
+Abhary et al., 2007; Lefeuvre et al., 2010).
+     One of the most important and severe begomoviruses afflicting tomato is
+Tomato yellow leaf curl virus (TYLCV) (Navot et al., 1991; Pico et al., 1996).
+Typical symptoms of TYLCV consist of severe stunting of infected plants
+                    Crop Protection: Pest and Disease Management               243
+
+
+with shortened internodes, and erect terminal and axillary shoots (Fig. 7.3).
+Developing leaves fail to expand and they develop leaflets that are reduced in
+size and abnormally shaped, with the leaf margins being extremely chlorotic
+and cupping upwards. Those plants infected early as seedlings are severely
+stunted and fail to bear any fruit. Fruits set on older plants after infection will
+ripen regularly, but subsequent fruits will be undersized, with the plant grad-
+ually stopping fruit set altogether (Fig. 7.3). Flowers are unaffected by TYLCV
+but abort and drop as the severity of symptoms progresses.
+     Perhaps one of the most alarming features of begomoviruses is their ability
+to develop variants through mutations, recombinations and pseudorecombina-
+tions, which has resulted in rapid global diversification. This diversification has
+led to a number of variants capable of causing symptoms of ‘leaf curl’ or ‘yellow
+leaf curl’ throughout the world. Similar events are unfolding for another im-
+portant bipartite begomovirus known as Tomato mottle virus, which is also
+transmitted by whitefly but unlike TYLCV can be mechanically transmitted as
+well. Several genes conferring resistance to TYLCV have been identified and one
+gene, Ty-1, has been deployed in commercial tomato production (Lapidot et al.,
+1997; Lapidot and Friedmann, 2002). Unfortunately, tomato varieties with re-
+sistance to TYLCV can still be infected and propagate the virus (though symp-
+toms are greatly reduced), serving as reservoirs for other susceptible plants.
+
+
+Thrip-transmitted tospoviruses – Tomato spotted wilt virus (TSWV)
+
+Tomato spotted wilt virus belongs to the genus Tospovirus, the only plant-­
+infecting genus within the Bunyaviridae family of viruses. The genomes of
+tospoviruses consist of a single-stranded RNA with negative polarity that is
+divided into three segments termed small ‘S’ (2.9 kb), medium ‘M’ (5.4 kb)
+and large ‘L’ (8.9 kb). Altogether, the three linear segments are 17.2 kb in size.
+Tospoviruses are quite complex compared with other plant viruses, as each of
+the three ssRNA segments is individually encapsidated and enveloped together
+in a membrane derived from the host plant. All tospovirus members, including
+TSWV, are transmitted by thrips in a persistent propagative manner. Although
+at least ten species of thrips can transmit tospoviruses, Frankliniella occiden-
+talis, the western flower thrips, is considered to be the most important, due to
+its global distribution and ability to transmit most tospoviruses (Roselló et al.,
+1996; Pappu et al., 2009; Webster et al., 2015).
+     Symptoms of TSWV can vary considerably depending on the strain of the
+virus and the age of the tomato plant at the time of infection. Young leaves of
+infected tomato plants develop a bronze discoloration and develop numerous
+small dark purple to black spots that can coalesce into streaks that can extend
+down to petioles and even the terminal ends of stems. Early on, these spots
+can look somewhat similar to fresh lesions of bacterial spot. However, the
+spots associated with TSWV are typically located along leaf veins and do not
+244                               G.E. Vallad et al.
+
+
+show through both sides of the leaf. Infected plants may also develop a lop-
+sided growth habit or even exhibit symptoms of wilt. Some new growing tips
+in severely infected plants may die back and the terminal end of stems can de-
+velop streaks. Tomato plants infected early may not develop any fruit, but those
+infected after fruit set develop fruits with chlorotic ring spots. On green fruits
+these ring spots are often subtle, with the centre of the spots being slightly
+­upraised, but as the fruits ripen these ring spots become more pronounced in
+ coloration with multiple concentric rings (Adkins et al., 2012).
+      TSWV is unique compared with other tospoviruses, having a broad host
+ range that includes over 1000 plant species and causing significant economic
+ damage to many agronomic and horticultural crops. TSWV may be ubiquitous
+ in some areas where it is able to infect many weeds, landscape plants and even
+ native plants, allowing it to bridge tomato production seasons easily. For these
+ reasons, most management strategies for TSWV rely on limiting or excluding
+ the thrips vector and the use of resistant varieties (Saidi and Warade, 2008;
+ Adkins et al., 2012; Gao et al., 2012).
+
+
+Aphid-transmitted Alfalfa mosaic virus, Cucumber mosaic virus
+and potyviruses
+
+Cucumber mosaic virus (CMV) is a positive-sense, single-stranded, tripartite
+RNA virus that is vectored by several aphids in a non-persistent manner and
+can also be transmitted mechanically. CMV is the type member of the genus
+Cucumovirus in the family Bromoviridae, with worldwide distribution and a
+host range that includes over 800 other crop and weed species (Roossinck,
+1999). Symptoms vary but typically consist of severely stunted plants with
+pronounced distortion of leaves, which become elongated but never expand
+and are often referred to as ‘shoe-string’ or ‘strapped’. Many different strains of
+CMV have been documented on tomato and other hosts (Adkins et al., 2012).
+    The aphid-transmitted potyviruses Potato virus Y (PVY) and Tobacco etch
+virus (TEV) belong to the family Potyviridae and consist of flexous filamentous
+rod-shaped viral particles containing a linear positive-sense, single-stranded
+monopartite RNA genome. Both PVY and TEV are vectored by aphids in a
+non-persistent, non-circulative manner and can also be mechanically trans-
+mitted through sap. Symptoms of PVY can vary greatly, depending on envir-
+onmental conditions, tomato variety and virus strain, but typically consist of
+a dark green banding of veins along the leaf, with mild mottling, mosaic and
+some distortion of the leaves. As symptoms progress, interveinal necrosis can
+develop on leaves and leaflets often curl downwards, giving the plant a droopy
+appearance. PVY typically does not affect fruit, but plants infected early are
+stunted, with reduced yield (Adkins et al., 2012).
+    Symptoms of TEV consist of mottling and wrinkling of the leaves, vein
+clearing and the characteristic necrotic lines or etching of the leaves. Fruits
+                    Crop Protection: Pest and Disease Management             245
+
+
+from TEV-infected plants are mottled and often undersized. TEV affects peppers
+and other members of the Solanaceae family, and many common weeds can
+serve as a reservoir for this virus (Adkins et al., 2012).
+
+
+Mechanically transmitted tobamoviruses – Tobacco mosaic virus (TMV)
+and Tomato mosaic virus (ToMV)
+
+Both TMV and ToMV are members of the genus Tobamovirus within the family
+Virgaviridae, consisting of positive-sense RNA viruses with coat protein forming
+straight rod viral particles. TMV and ToMV are typically grouped together be-
+cause of their high similarity in host range and serological attributes. The
+most common symptom of disease by either virus is leaves with mottled areas
+of light and dark green. These affected leaves are typically curled, reduced in
+size and somewhat malformed; the entire plant may be somewhat stunted
+in growth. Fruit symptoms typically consist of uneven ripening and reductions
+in size and number, though fruits can develop yellow rings at high temperat-
+ures or develop an internal browning (similar to greywall) in mature green
+fruit; other forms of fruit disfiguration can occur occasionally. Overall, plant
+symptoms are greatly influenced by the viral strain, tomato cultivar, time of in-
+fection relative to plant growth stage, temperature and light quality. Symptoms
+can be exacerbated by high temperatures and low light intensity (Adkins et al.,
+2012). However, tomato varieties with the Tm-2 and Tm-22 resistance genes
+can express a severe necrotic reaction if exposed to TMV or ToMV at high tem-
+peratures (Hall, 1980; Fraser and Loughlin, 1982).
+     Due to their coat protein structure, TMV and ToMV are probably the most
+persistent and infectious viruses in the plant world. Both viruses are mechanic-
+ally transmitted and are spread by human activities. Those activities common
+to tomato production such as grafting, transplanting, staking, tying, pruning
+and harvesting disseminate the virus with ease (Broadbent and Fletcher, 1963;
+Lanter et al., 1982). Since TMV can survive in tobacco products, the use of to-
+bacco products near tomato production should be discouraged and personnel
+should wash hands to inactivate the virus before and during plant-handling
+procedures. Both viruses can also be seed-borne and so treating seeds with spe-
+cialized disinfectants or heat is encouraged (Broadbent, 1965). Problematic
+fields should be avoided, as TMV and ToMV can survive in plant debris,
+­including roots, for prolonged periods of time (Adkins et al., 2012).
+
+
+Mechanically transmitted Pepino mosaic virus
+
+Pepino mosaic virus (PepMV) is a positive-sense, single-stranded, monopar-
+tite virus that is a member of the family Alphaflexiviridae. PepMV was first
+­described in Peru in 1974 on pepino (Solanum muricatum). PepMV was not
+246                                G.E. Vallad et al.
+
+
+­reported until it was rediscovered in tomato crops in Europe in 1998/1999.
+ Ever since, PepMV has spread rapidly in greenhouse tomato production and
+ is currently found throughout Europe and North America (Ling, 2008), likely
+ introduced through contaminated seed (Hanssen et al., 2010). PepMV induces
+ a wide range of symptoms on tomato, such as mosaic, leaf distortion, nettle-
+ like heads, single yellow spots, interveinal chlorosis and fruit discoloration.
+ Schenk et al. (2010) showed that tomato plants can be protected against PepMV
+ by a preceding infection with an attenuated isolate of this virus. Infection with
+ the attenuated isolates alone affected neither bulk yield nor quality of the har-
+ vested tomato fruits.
+
+
+
+Mechanically transmitted viroids – Potato spindle tuber viroid (PSTvd)
+
+Viroids are unique to the plant kingdom consisting of only a highly complemen-
+tary, circular, single-stranded RNA molecule ranging from 246 to 467 nucleo-
+tides in length. These infectious RNA particles replicate through a process called
+rolling circle synthesis using the host plant RNA polymerase II enzyme, which
+is normally associated with messenger RNA synthesis in the host. Although
+viroids do not code for any proteins, many act as ribozymes, having catalytic
+properties to cleave and ligate replication intermediates of themselves. Due to
+their lack of any proteins, viroids cannot be detected using serological methods
+and therefore require molecular-based methods for detection and identification.
+Viroids are divided into the Avsunviroidae and Pospiviroidae families. The first
+identified and best characterized viroid of tomato and potato, Potato spindle tuber
+viroid (PSTvd), is the type member of the Pospiviroid genus that includes sev-
+eral other tomato-infecting viroids: Tomato chlorotic dwarf viroid, Mexican papita
+viroid, Tomato planta macho viroid, Citrus exocortis viroid, Tomato apical stunt viroid
+and Columnea latent viroid (Hammond and Owens, 2006).
+     Initial symptoms of PSTvd in tomato consist of reduced growth and chlor-
+osis of the terminal branches of the plant. As the symptoms progress, terminals
+become more stunted with a loss of flower and fruit initiation and a severe
+chlorosis that is often associated with a pronounced reddening or purpling of
+the affected foliage. Leaf tissues often become brittle and some plants will die,
+while others may partially recover (Owens and Verhoeven, 2009).
+     Many viroids, like PSTvd, are seed-transmitted, but all are easily spread
+mechanically through tools and handling of plant materials, which makes them
+quite problematic in greenhouse production systems. Seed treatments are inef-
+fective at eliminating viroids and no plant resistance or chemical treatments are
+available for controlling viroids once a plant is infected. In addition, many viroid
+outbreaks have been linked to contaminated, non-symptomatic ornamental spe-
+cies (Verhoeven et al., 2010). Therefore, strict sanitary ­measures must be in place
+to exclude viroid-contaminated materials from greenhouse production facilities
+and to eradicate viroid-infected vegetative materials during an outbreak.
+                       Crop Protection: Pest and Disease Management                       247
+
+
+
+REFERENCES
+
+Abhary, M., Patil, B. and Fauquet, C. (2007) Molecular biodiversity, taxonomy, and
+    nomenclature of tomato yellow leaf curl-like viruses. In: Czosnek, H. (ed.)
+    Tomato Yellow Leaf Curl Virus Disease. Management, Molecular Biology, Breeding for
+    Resistance. Springer, Dordrecht, The Netherlands, pp. 85–118.
+Adkins, S., Wintermantel, W.M., Momol, T. and Polston, J.E. (2012) Management of
+    ­important viral diseases. In: Davis, R.M., Pernezny, K. and Broome, J.C. (eds) Tomato
+     Health Management. APS Press, St Paul, Minnesota, pp. 113–125.
+Aghdak, P., Mobli, M. and Khoshgoftarmanesh, A.H. (2016) Effects of different
+     growing media on vegetative and reproductive growth of bell pepper. Journal of
+     Plant Nutrients 39, 967–973.
+Alvarado, P., Balta, O. and Alomar, O. (1997) Efficiency of four heteroptera as predators
+     of Aphis gossypii and Macrosiphum euphorbiae (Hom.: Aphididae). Entomophaga 42,
+     215–226.
+Alvarez, A. (2005) Diversity and diagnosis of Ralstonia solanacearum. In: Allen, C., Prior, P.
+     and Hayward, A.C. (eds) Bacterial Wilt Disease and the Ralstonia solanacearum Species
+     Complex. APS Press, St Paul, Minnesota, pp. 437–447.
+Andrus, C.F., Reynard, G.B. and Wade, B.L. (1942) Relative resistance of tomato var-
+     ieties, selections and crosses to defoliation by Alternaria and Stemphylium. US
+     Department of Agriculture (USDA) Circular 652.
+Arnó, J., Alonso, E. and Gabarra, R. (2003) Role of the parasitoid Diglyphus isaea
+     (Walker) and the predator Macrolophus caliginosus Wagner in the control of leaf-
+     miners. IOBC/wprs 26, 79–84.
+Arnó, J., Albajes, R. and Gabarra, R. (2006) Within-plant distribution and sampling
+     of single and mixed infestations of Bemisia tabaci and Trialeurodes vaporariorum
+     (Homoptera: Aleyrodidae) in winter tomato crops. Journal of Economic Entomology
+     99, 331–340.
+Arora, R.K., Sharma, S. and Singh, B.P. (2014) Late blight disease of potato and its
+     management. Potato Journal 41, 16–40.
+Aycock, R. (1966) Stem Rot and Other Diseases Caused by Sclerotium rolfsii or the Status
+     of Rolfs’ Fungus after 70 Years. Technical Bulletin 174. North Carolina Agriculture
+     Experiment Station, Raleigh, North Carolina.
+Back, M.A., Haydock, P.P.J. and Jenkinson, P. (2002) Disease complexes involving plant
+     parasitic nematodes and soilborne pathogens. Plant Pathology 51, 683–697.
+Barbosa, P. (1998) Conservation Biological Control. Academic Press, San Diego, California.
+Bashi, E., Pilowski ,M. and Rogem, J. (1973) Resistance in tomatoes to Stemphylium floi-
+     danum and S. botryosum f.sp. lycopersici. Phytopathology 63, 1542–1544.
+Baxter, A.P., Van der Westhuizen, G.C.A. and Eicker, A. (1985) A review of literature
+     on the taxonomy, morphology and biology of the fungal genus Colletotrichum.
+     Phytophylactica 17, 15–18.
+Becktell, M.C., Daughtrey, M.L. and Fry, W.E. (2005) Epidemiology and management of
+     petunia and tomato late blight in the greenhouse. Plant Disease 89, 1000–1008.
+Bender, C.G. and Shoemaker, P.B. (1984) Prevalence of Verticillium wilt of tomato
+     and virulence of Verticillium dahliae race 1 and race 2 isolates in western North
+     Carolina. Plant Disease 68, 305–309.
+Blackman, R.L. and Eastop, V.F. (2000) Aphids on the World’s Crops. An Identification and
+     Information Guide. John Wiley and Sons, Chichester, UK.
+248                                   G.E. Vallad et al.
+
+
+Blakeman, J.P. and Hornby, D. (1966) The persistence of Colletotrichum coccodes and
+     Mycosphaerella ligulicola in soil, with special reference to sclerotia and conidia.
+     Transactions of the British Mycological Society 49, 227–240.
+Blancard, D. and Laterrot, H. (1986) Les Stemphylia rencontres sur tomate.
+     Phytopathologia Mediterranea 25, 140–144.
+Bliss, F.A., Onesirosan, P.T. and Arny, D.C. (1973) Inheritance of resistance in tomato to
+     target leaf spot. Phytopathology 63, 837–840.
+Bosmans, L., Alvarez-Perez, S., Moerkens, R., Wittemans, L., Van Calenberg, B. et al.
+     (2015) Assessment of the genetic and phenotypic diversity among rhizogenic
+     Agrobacterium biovar 1 strains infecting solanaceous and cucurbit crops. FEMS
+     Microbiology Ecology 91, fiv081.
+Bosmans, L., Van Calenberge, B., Paeleman, A., Moerkens, R., Wittemans, L. et al.
+     (2016) Efficacy of hydrogen peroxide treatment for control of hairy roots disease
+     caused by rhizogenic agrobacteria. Journal of Applied Microbiology 121, 519–527.
+Bosmans, L., Moerkens, R., Wittemans, L., De Mot, R., Rediers, H. and Lievens, B. (2017)
+     Rhizogenic agrobacteria in hydroponic crops: epidemics, diagnostics and control.
+     Plant Pathology 66(7), 1043–1053. doi: 10.1111/ppa.12687.
+Broadbent, L. (1965) The epidemiology of tomato mosaic. XI. Seed transmission of
+     TMV. Annals of Applied Biology 56, 177–205.
+Broadbent, L. and Fletcher, J.T. (1963) The epidemiology of tomato mosaic. IV. Persistence
+     of virus on clothing and greenhouse structures. Annals of Applied Biology 52,
+     233–241.
+Brodeur, J., Bouchard, A. and Turcotte, G. (1997) Potential of four species of preda-
+     tory mites as biological control agents of the tomato russet mite, Aculops lycopersici
+     (Massee) (Eriophyidae). Canadian Entomologist 129, 1–6.
+Brooks, C., Nekrasov, N., Lippman, Z.B. and Van Eck, J. (2014) Efficient gene editing in
+     tomato in the first generation using the clustered regularly interspaced short pal-
+     indromic repeats/CRISPR-associated9 system. Plant Physiology 166, 1292–1297.
+Butler, C.D. and Trumble, J.T. (2012) The potato psyllid: life history, relationship to plant
+     diseases, and management strategies. Terrestrial Arthropod Reviews 5, 87–111.
+Byrne, J.M., Dianese, A.C., Ji, P., Campbell, H.L., Cuppels, D.A. et al. (2005) Biological
+     control of bacterial spot of tomato under field conditions at several locations in
+     North America. Biological Control 32(3), 408–418.
+Caballero, R. (1996) Identificación de moscas blancas. In: Hilje, L. (ed.) Metodologías
+     para el Estudio y Manejo de Moscas Blancas y Geminivirus. Centro Agronómico
+     Tropical de Investigación y Enseñanza, Turrialba, Costa Rica, pp. 1–2.
+Calvo, F.J., Bolckmans, K. and Belda, J.E. (2009) Development of a biological control-
+     based Integrated Pest Management method for Bemisia tabaci for protected sweet
+     pepper crops. Entomologia Experimentalis et Applicata 133, 9–18.
+Camara, M.P.S., O’Neill, N.R. and van Berkum, P. (2002) Phylogeny of Stemphylium
+     spp. based on ITS and glyceraldehyde-3-phosphate dehydrogenase gene sequences.
+     Mycologia 94, 660–672.
+Capinera, J.C. (2001) Handbook of Vegetable Pests. Academic Press, San Diego, California.
+Castañé, C., Arno, J., Gabarra, R. and Alomar, O. (2011) Plant damage to vegetable
+     crops by zoophytophagous mirid predators. Biological Control 59, 22–29.
+Chang, R.J., Ries, S.M. and Pataky, J.K. (1991) Dissermination of Clavibacter mich-
+     iganensis ssp. Michiganensis by practices used to produce tomato transplants.
+     Phytopathology 81, 1276–1281.
+                        Crop Protection: Pest and Disease Management                         249
+
+
+Chang, R.J., Ries, S.M. and Pataky, J.K. (1992) Local sources of Clavibacter michigan-
+     ensis ssp. Michiganensis in the development of bacterial canker on tomatoes.
+     Phytopathology 82, 553–560.
+Cohen, S. and Nitzany, F.E. (1966) Transmission and host range of the tomato yellow
+     leaf curl virus. Phytopathology 56, 1127–1131.
+Cooke, L., Schepers, H., Hermansen, A., Bain, R., Bradshaw, N. et al. (2011) Epidemiology
+     and integrated control of potato late blight in Europe. Potato Research 54, 183–222.
+Correll, J.C., Gordon, T.R. and Elliott, V.J. (1987) Host range, specificity, and biometrical
+     measurements of Leveillula taurica in California. Plant Disease 71, 248–251.
+Crous, P.W. and Braun, U. (2003) Mycosphaerella and its anamorphs: 1. Names
+     published in Cercospora and Passalora. CBS Biodiversity Series 1, 1–571.
+     Centraalbureau voor Schimmelcultures, Utrecht, The Netherlands.
+Csizinsky, A.A., Schuster, D.J. and Kring, J.B. (1997) Evaluation of color mulches and
+     oil sprays for yield and for the control of silverleaf whitefly, Bemisia argentifolii
+     (Bellows and Perring) on tomatoes. Crop Protection 16, 475–481.
+Csizinsky, A.A., Schuster, D.J. and Polston, J.E. (1999) Effect of ultraviolet-reflective
+     mulches on tomato yields and on the silverleaf whitefly. HortScience 34, 911–914.
+Czosnek, H. and Laterrot, H. (1997) A worldwide survey of tomato yellow leaf curl vir-
+     uses. Archives of Virology 142, 1391.
+Denny, T.P. (2006) Plant pathogenic Ralstonia species. In: Gnanamanickam, S.S. (ed.)
+     Plant-Associated Bacteria. Springer, Dordrecht, The Netherlands, pp. 573–644.
+Denny, T.P. and Hayward, A.C. (2001) Ralstonia. In: Schaad, N., Jones, J.B. and Chun,
+     W. (eds) Laboratory Guide for Identification of Plant Pathogenic Bacteria, 3rd edn. APS
+     Press, St Paul, Minnesota, pp. 165–189.
+Desneux, N., Wajnberg, E., Wyckhuys, K.A.G., Burgio, G., Arpaia, S. et al. (2010)
+     Biological invasion of European tomato crops by Tuta absoluta: ecology, geographic
+     expansion and prospects for biological control. Journal of Pest Science 83, 197–215.
+Dessaux, Y., Petit, A., Farrand, S.K. and Murphy, P.J. (1998) Opines and opine-like mol-
+     ecules involved in plant-Rhizobiaceae interactions. In: Spaink, H.P., Kondorosi, A.
+     and Hooykaas, P.J.J. (eds) The Rhizobiaceae. Springer, Dordrecht, The Netherlands,
+     pp. 173–197.
+Dillard, H.R. (1989) Effect of temperature, wetness duration, and inoculum density
+     on infection and lesion development of Colletotrichum coccodes on tomato fruit.
+     Phytopathology 79, 1063–1066.
+Dillard, H.R. and Cobb, A.C. (1998) Survival of Colletotrichum coccodes in infected to-
+     mato tissue and in soil. Plant Disease 82, 235–238.
+Di Serio, F., Flores, R., Verhoeven, J.T.J., Li, S.-F., Pallás, V. et al. (2014) Current status of
+     viroid taxonomy. Archives of Virology 159, 3467.
+Dixon, L.J., Schlub, R.L., Pernezny, K. and Datnoff, L.E. (2009) Host specialization and
+     phylogenetic diversity of Corynespora cassiicola. Phytopathology 99, 1015–1027.
+Dobinson, K.F., Tenuta, G.K. and Lazarovits, G. (1996) Occurrence of race 2 of
+     Verticillium dahliae in processing tomato fields in southwestern Ontario. Canadian
+     Journal of Plant Pathology – Revue Canadienne de Phytopathologie 18, 55–58.
+Dorsman, R. and van de Vrie, M. (1987) Population dynamics of the greenhouse
+     whitefly on gerbera. Bulletin IOBC/WPRS 10, 46–51.
+Dovas, C.I., Katis, N.I. and Avgelis, A.D. (2002) Multiplex detection of criniviruses as-
+     sociated with epidemics of a yellowing disease of tomato in Greece. Plant Disease
+     86, 1345–1349.
+250                                  G.E. Vallad et al.
+
+
+Drukker, B., Janssen, A., Ravensberg, W. and Sabelis, M.W. (1997) Improved control
+     capacity of the mite predator Phytoseiulus persimilis (Acari: Phytoseiidae) on to-
+     mato. Experimental and Applied Acarology 21, 507–518.
+Elad, Y. and Yunis, H. (1993) Effect of microclimate and nutrients on development of
+     cucumber gray mold (Botrytis cinerea). Phytoparasitica 21, 257–268.
+Elad, Y., Yunis, H. and Mahrer, Y. (1988) The effect of climatic condition in polyethylene
+     covered structures on gray mold disease of winter cucumbers. Applied Agricultural
+     Research 3, 243–247.
+Farley, J.D. (1976) Survival of Colletotrichum coccodes in soil. Phytopathology 66, 640–641.
+Farr, D.F., Rossman, A.Y., Palm, M.E. and McCray, E.B. (2007) Fungal Databases.
+     Systematic Botany and Mycology Laboratory, ARS, USDA. Available at: https://
+     nt.ars-grin.gov/fungaldatabases/ (accessed 13 December 2016).
+Fegan, M. and Prior, P. (2005) How complex is the Ralstonia solanacearum species com-
+     plex? In: Allen, C., Prior, P. and Hayward, A.C. (eds) Bacterial Wilt Disease and the
+     Ralstonia solanacearum Species Complex. APS Press, St Paul, Minnesota, pp. 449–461.
+Fraser, R.S.S. and Loughlin, S.A.R. (1982) Effects of temperature on the Tm-1 gene
+     for resistance to Tobacco mosaic virus in tomato. Physiological Plant Pathology 20,
+     109–117.
+Fry, W.E., Myers, K., Roberts, P., McGrath, M.T., Everts, K. et al. (2013) The 2009 late
+     blight pandemic in the eastern United States – causes and results. Plant Disease 97,
+     296–306.
+Furtado, I.P., de Moraes, G.J., Kreiter, S., Tixier, M.S. and Knapp, M. (2007) Potential of
+     a Brazilian population of the predatory mite Phytoseiulus longipes as a biological
+     control agent of Tetranychus evansi (Acari: Phytoselidae: Tetranychidae). Biological
+     Control 42, 139–147.
+Gale, L.R., Katan, T. and Kistler, H.C. (2003) The probable center of origin of Fusarium
+     oxysporum f. sp. lycopersici VCG 0033. Plant Disease 87, 1433–1438.
+Gao, Y., Lei, Z. and Reitz, S.R. (2012) Western flower thrips resistance to insecticides:
+     detection, mechanisms and management strategies. Pest Management Science 68,
+     1111–1121.
+Gardner, R.G. and Panthee, D.R. (2012) ‘Mountain Magic’: an early blight and late
+     blight-resistant specialty type F1 hybrid tomato. HortScience 47, 299–300.
+Gerling, D., Alomar, O. and Arno, J. (2001) Biological control of Bemisia tabaci using
+     predators and parasitoids. Crop Protection 20, 779–799.
+Gillespie, D.R. and Menzies, J.G. (1993) Fungus gnats vector Fusarium oxysporum f. sp.
+     radicis-lycopersici. Annals of Applied Biology 123, 539–544.
+Gleason, M.L., Gitaitis, R.D. and Ricker, M.D. (1993) Recent progress in understanding
+     and controlling bacterial canker of tomato in Eastern North America. Plant Disease
+     77, 1069–1076.
+Graves, A.S., and Alexander, S.A. (2002) Managing bacterial speck and spot of to-
+     mato with acibenzolar-S-methyl in Virginia. Online. Plant Health Progress. doi:
+     10.1094/PHP-2002-0220-01-RS. Available at: https://www.plantmanagement-
+     network.org/pub/php/research/speckspot (accessed 20 January 2018).
+Greenberg, S.M., Jones, W.A. and Liu, T.X. (2002) Interactions among two species of
+     Eretmocerus (Hymenoptera: Aphelinidae), two species of whiteflies (Homoptera:
+     Aleyrodidae), and tomato. Environmental Entomology 31, 397–402.
+Hall, T.J. (1980) Resistance at the TM-2 locus in the tomato to Tomato mosaic virus.
+     Euphytica 29, 189.
+                       Crop Protection: Pest and Disease Management                        251
+
+
+Hammond, R.W. and Owens, R.A. (2006) Viroids: New and Continuing Risks for
+      Horticultural and Agricultural Crops. Online. APSnet Features. doi: 10.1094/
+      APSnetFeature-2006-1106.
+Hannon, C.I. and Weber, G.F. (1955) A leaf spot of tomato caused by Stemphylium flor-
+      idanum sp. nov. Phytopathology 45, 11–16.
+Hansen, D.L., Brødsgaard, H.F. and Enkegaard, A. (1999) Life table characteris-
+      tics of Macrolophus caliginosus preying upon Tetranychus urticae. Entomologia
+      Experimentalis et Applicata 93, 269–275.
+Hanssen, I.M., Mumford, R., Blystad, D.R., Cortez, I., Hasiow-Jaroszewska, B., et al.
+      (2010) Seed transmission of Pepino mosaic virus in tomato. European Journal of
+      Plant Pathology 126, 145–152.
+Hartman, J.R. and Fletcher, J.T. (1991) Fusarium crown and root rot of tomatoes in the
+      UK. Plant Pathology 40, 85–92.
+Hausbeck, M.K., Bell, J., Medina-Mora, C., Podolsky, R. and Fulbright, D.W. (2000)
+      Effect of bactericides on population sizes and spread of Clavibacter michiganensis
+      subsp. michiganensis on tomatoes in the greenhouse and on disease development
+      and crop yield in the field. Phytopathology 90, 38–44.
+Hendrix, J.W. and Frazier, W.A. (1949) Studies on the Inheritance of Stemphylium
+      Resistance in Tomatoes. Technical Bulletin 8. Hawaii Agricultural Experiment
+      Station, University of Hawaii, Honolulu.
+Horvath, D.M., Stall, R.E., Jones, J.B., Pauly, M.H., Vallad, G.E. et al. (2012) Transgenic
+      resistance confers effective field level control of bacterial spot disease in tomato.
+      PLoS One 7(8), e42036.
+Huang, C.-H., Vallad, G.E., Zhang, S., Wen, A., Balogh, B. et al. (2012) Effect of appli-
+      cation frequency and reduced rates of acibenzolar-S-methyl on the field efficacy of
+      induced resistance against bacterial spot on tomato. Plant Disease 96, 221–227.
+Huang, N.X., Enkegaard, A., Osborne, L.S., Ramakers, P.M.J., Messelink, G.J., Pijnakker, J. and
+      Murphy, G. (2011) The banker plant method in biological control. Critical Reviews
+      in Plant Sciences 30, 259–278.
+Hussey, N.W. and Bravenboer, L. (1971) Control of pests in glasshouse culture by the
+      introduction of natural enemies. In: Huffaker, C.B. (ed.) Biological Control. Plenum
+      Press, New York, pp. 195–216.
+Itaya, A., Folimonov, A., Matsuda, Y., Nelson, R.S. and Ding, B. (2001) Potato spindle
+      tuber viroid as inducer of RNA silencing in infected tomato. Molecular Plant–Microbe
+      Interactions 14, 1332–1334.
+Jacquet, M., Bongiovanni, M., Martinez, M., Verschave, P., Wajnberg, E. and Castagnone-
+      Sereno, P. (2005) Variation in resistance to the root-knot nematode Meloidogyne in-
+      cognita in tomato genotypes bearing the Mi gene. Plant Pathology 54, 93–99.
+Jarvis, W.R. (1988) Fusarium crown and root rot of tomatoes. Phytoprotection 69,
+      49–64.
+Ji, P., Campbell, H.L., Kloepper, J.W., Jones, J.B., Suslow, T.V. and Wilson, M. (2006)
+      Integrated biological control of bacterial speck and spot of tomato under field con-
+      ditions using foliar biological control agents and plant growth-promoting rhizo-
+      bacteria. Biological Control 36(3), 358–367.
+Jones, H., Whipps, J.M. and Gurr, S.J. (2001) The tomato powdery mildew fungus
+      Oidium neolycopersici. Molecular Plant Pathology 2, 303–309.
+Jones, J.B., Jones, J.P., Stall, J.P. and Zitter, T.A. (1991) Compendium of Tomato Diseases.
+      American Phytopathological Society, St Paul, Minnesota.
+252                                     G.E. Vallad et al.
+
+
+Jones, J.B., Lacy, G.H., Bouzar, H., Stall, R.E. and Schaad, N.W. (2004) Reclassification
+      of the xanthomonads associated with bacterial spot disease of tomato and pepper.
+      Systematic and Applied Microbiology 27(6), 755–762.
+Jones, J.B., Lacy, G.H., Bouzar, H., Minsavage, G.V., Stall, R.E. and Schaad, N.W. (2005)
+      Bacterial spot – worldwide distribution, importance and review. Acta Horticulturae
+      695, 27–34.
+Kamoun, S. and Smart, C.D. (2005) Late blight of potato and tomato in the genomics
+      era. Plant Disease 89, 692–699.
+Katan, T., Shlevin, E. and Katan, J. (1997) Sporulation of Fusarium oxysporum f. sp. lyco-
+      persici on stem surfaces of tomato plants and aerial dissemination of inoculum.
+      Phytopathology 87, 712–719.
+Kiss, L., Cook, R.T.A., Saenz, G.S., Cunnington, J.H., Takamatsu, S. et al. (2001) Identification
+      of two powdery mildew fungi, Oidium neolycopersici sp. nov. and O. lycopersici, infecting
+      tomato in different parts of the world. Mycological Research 105, 684–697.
+Klosterman, S.J., Atallah, Z.K., Vallad, G.E. and Subbarao, K.V. (2009) Diversity, patho-
+      genicity, and management of Verticillium species. Annual Review of Phytopathology
+      47, 39–62.
+Koller, M., Knapp, M. and Schausberger, P. (2007) Direct and indirect adverse effects of
+      tomato on the predatory mite Neoseiulus californicus feeding on the spider mite
+      Tetranychus evansi. Entomologia Experimentalis et Applicata 125, 297–305.
+Labate, J.A., Robertson, L.D., Strickler, S.R. and Mueller, L.A. (2014). Genetic structure
+      of the four wild tomato species in the Solanum peruvianum s.l. species complex.
+      Genome 57, 169–180.
+Lanter, J.M., McGuire, J.M. and Goode, M.J. (1982) Persistence of Tomato mosaic virus in
+      tomato debris and soil under field conditions. Plant Disease 66, 552–555.
+Lapidot, M. and Friedmann, M. (2002) Breeding for resistance to whitefly-transmitted
+      geminiviruses. Annals of Applied Biology 140, 109–127.
+Lapidot, M. and Polston, J.E. (2010) Biology and epidemiology of Bemisia-vectored viruses.
+      In: Stansly, P.A. and Naranjo, S.E. (eds) Bemisia: Bionomics and Management of a Global
+      Pest. Springer Science and Business Media, Dordrecht, The Netherlands, pp.227–231.
+Lapidot, M., Friedmann, M., Lachman, O., Yehezkel, A., Nahon, S., Cohen, S. and
+      Pilowsky, M. (1997) Comparison of resistance level to tomato yellow leaf curl virus
+      among commercial cultivars and breeding lines. Plant Disease 81, 1425–1428.
+Lefeuvre, P., Martin, D.P., Harkins, G., Lemey, P., Gray, A.J.A. et al. (2010) The spread
+      of tomato yellow leaf curl virus from the Middle East to the World. PLoS Pathogens
+      6(10), e1001164.
+Levy, J., Ravindran, A., Gross, D., Tambrindeguy, C. and Pierson, E. (2011) Translocation
+      of ‘Candidatus Liberibacter solanacearum’, the Zebra Chip pathogen, in potato
+      and tomato. Phytopathology 101, 1285–1291.
+Li, T., Liu, B., Spalding, M.H., Weeks, D.P. and Yang, B. (2012) High-efficiency TALEN-
+      based gene editing produces disease-resistant rice. Nature Biotechnology 30,
+      390–392.
+Liefting, L., Weir, B., Pennycook, S. and Clover, G. (2009) ‘Candidatus Liberibacter sola-
+      nacearum’, associated with plants in the family Solanaceae. International Journal of
+      Systemic and Evolutionary Microbiology 59(9), 2274–2276.
+Lin, H., Lou, B., Glynn, J.M., Doddapaneni, H., Civerolo, E.L. et al. (2011) The complete
+      genome sequence of ‘Candidatus liberibacter solanacearum’, the bacterium asso-
+      ciated with potato zebra chip disease. PLoS One 6(4), e19135.
+                      Crop Protection: Pest and Disease Management                      253
+
+
+Lindström, K. and Young, J.P.W. (2011) International Committee on Systematics of
+      Prokaryotes. Subcommittee on the taxonomy of Agrobacterium and Rhizobium:
+      minutes of the meeting, 7 September 2010, Geneva, Switzerland. International
+      Journal of Systemic and Evolutionary Microbiology 61, 3089–3093.
+Ling, K.S. (2008) Pepino mosaic virus on tomato seed: virus location and mechanical
+      transmission. Plant Disease 92, 1701–1705.
+List, G.M. (1939) The effect of temperature upon egg deposition, egg hatch and nymphal
+      development of Paratrioza cockerelli. Journal of Economic Entomology 32, 30–36.
+Louws, F.J., Wilson, M., Campbell, H.L., Cuppels, D.A., Jones, J.B. et al. (2001) Field con-
+      trol of bacterial spot and bacterial speck of tomato using a plant activator. Plant
+      Disease 85, 481–488.
+Ma, X., Lewis Ivey, M.L. and Miller, S.A. (2011) First report of Xanthomonas gard-
+      neri causing bacterial spot of tomato in Ohio and Michigan. Plant Disease 95,
+      1584.
+Martin, H.L., Hamilton, V.A. and Kopittke, R.A. (2004) Copper tolerance in Australian
+      populations of Xanthomonas campestris pv. vesicatoria contributes to poor field con-
+      trol of bacterial spot of pepper. Plant Disease 88, 921–924.
+McCarter, S.M., Jones, J.B., Gitaitis, R.D. and Smitley, D.R. (1983) Survival of
+      Pseudomonas syringae pv. tomato in association with tomato seed, soil, host tissue,
+      and epiphytic weed hosts in Georgia. Phytopathology 73, 1393–1398.
+Menzies, J.G. and Jarvis, W.R. (1994) The infestation of tomato seed by Fusarium
+      oxysporum f. sp. radicis-lycopersici. Plant Pathology 43, 378–386.
+Menzies, J.G., Koch, C. and Seywerd, F. (1990) Additions to the host ranges of Fusarium
+      oxysporum f. sp. radicis-lycopersici. Plant Disease 74, 569–572.
+Messelink, G.J., van Maanen, R., van Steenpaal, S.E.F. and Janssen, A. (2008) Biological
+      control of thrips and whiteflies by a shared predator: two pests are better than one.
+      Biological Control 44, 372–379.
+Messelink, G.J., Sabelis, M.W. and Janssen, A. (2012) Generalist predators, food web
+      complexities and biological pest control in greenhouse crops. In: Larramendy, M.L.
+      and Soloneski, S. (eds) Integrated Pest Management and Pest Control – Current and
+      Future Tactics. InTech, Rijeka, pp. 191–214.
+Minkenberg, O.P.J.M. (1990) Reproduction of Dacnusa sibirica (Hymenoptera,
+      Braconidae), an endoparasitoid of leafminer Liriomyza bryoniae (Diptera,
+      Agromyzidae) on tomatoes, at constant temperatures. Environmental Entomology
+      19, 625–629.
+Nasehi, A., Kadir, J.B., Esfahani, M.N., Mahmodi, F., Golkhandan, E., Akter, S. and
+      Ghadirian, H. (2014) Cultural and physiological characteristics of Stemphylium
+      lycopersici causing leaf blight disease on vegetable crops. Archives of Phytopathology
+      and Plant Protection 47, 1658–1665.
+Navot, N., Pichersky, E., Zeidan, M., Zamir, D. and Czosnek, H. (1991) Tomato yellow leaf
+      curl virus: a whitefly-transmitted geminivirus with a single genomic component.
+      Virology 185, 151–161.
+Noling, J. and Ferris, H. (2012) Management of parasitic nematodes. In: Davis, R.M.,
+      Pernezny, K. and Broome, J.C. (eds) Tomato Health Management. APS Press, St Paul,
+      Minnesota, pp. 65–76.
+Nowicki, M., Foolad, M.R., Nowakowska, M. and Kozik, E.U. (2012) Potato and tomato
+      late blight caused by Phytophthora infestans: an overview of pathology and resist-
+      ance breeding. Plant Disease 96, 4–17.
+254                                  G.E. Vallad et al.
+
+
+Nunez, J. (2012) Management of important soilborne diseases. In: Davis, R.M.,
+     Pernezny, K. and Broome, J.C. (eds) Tomato Health Management. APS Press, St Paul,
+     Minnesota, pp. 95–101.
+Obradovic, A., Jones, J.B., Momol, M.T., Balogh, B. and Olson, S.M. (2004) Management
+     of tomato bacterial spot in the field by foliar applications of bacteriophages and
+     SAR inducers. Plant Disease 88, 736–740.
+Onesirosan, P.T., Arny, D.C. and Durbin, R.D. (1974) Host specificity of Nigerian and
+     North American isolates of Corynespora cassiicola. Phytopathology 64, 1364–1367.
+Owens, R.A. and Verhoeven, J.T.J. (2009) Potato spindle tuber. The Plant Health
+     Instructor (American Phytopathology Society, St Paul, Minnesota). doi: 10.1094/
+     PHI-I-l-2009-0804-01. Available at: https://www.apsnet.org/edcenter/intropp/
+     lessons/viruses/Pages/PotatoSpindleTuber.aspx (accessed 22 April 2018).
+Pappu, H.R., Jones, R.A.C. and Jain, R.K. (2009) Global status of tospovirus epidemics
+     in diverse cropping systems: successes achieved and challenges ahead. Virus
+     Research 141, 219–236.
+Patterson, C.L. (1991) Importance of chlamydospores as primary inoculum for
+     Alternaria solani, incitant of collar rot and early blight on tomato. Plant Disease 75,
+     274–278.
+Pearson, M.N., Clover, G.R.G., Guy, P.L., Fletcher, J.D. and Beever, R.E. (2006) A review
+     of the plant virus, viroid and mollicute records for New Zealand. Australasian Plant
+     Pathology 35, 217–252.
+Perdikis, D., Fantinou, A. and Lykouressis, D. (2011) Enhancing pest control in annual
+     crops by conservation of predatory Heteroptera. Biological Control 59, 13–21.
+Pico, B., Diez, M. and Nuez, F. (1996) Viral diseases causing the greatest economic
+     losses to the tomato crop. 2. The Tomato yellow leaf curl virus – a review. Scientia
+     Horticulturae 67, 151–196.
+Poland, J.A. and Rife, T.W. (2012) Genotyping-by-sequencing for plant breeding and
+     genetics. Plant Genome 5, 92–102.
+Potnis, N., Timilsina, S., Strayer, A., Shantharaj, D., Barak, J.D. et al. (2015) Bacterial
+     spot of tomato and pepper: diverse Xanthomonas species with a wide variety of viru-
+     lence factors posing a worldwide challenge. Molecular Plant Pathology 16, 907–920.
+Pozos, N., Scow, K., Wuertz, S. and Darby, J. (2004) UV disinfection in a model distri-
+     bution system: biofilm growth and microbial community. Water Research 38,
+     3083–3091.
+Prior, P. and Fegan, M. (2005) Recent developments in the phylogeny and classification
+     of Ralstonia solanacearum. Acta Horticulturae 695, 127–136.
+Pritchard, F.J. and Porte, W.S. (1924) The relation of temperature and humidity to to-
+     mato leaf spot (Septoria lycopersici Speg.). Phytopathology 14, 156–165.
+Punja, Z.K. (1985) The biology, ecology, and control of Sclerotium rolfsii. Annual Review
+     of Phytopathology 23, 97–127.
+Quezado-Duval, A.M., Leite Júnior, R.P., Truffi, D. and Camargo, L.E.A. (2004)
+     Outbreaks of bacterial spot caused by Xanthomonas gardneri on processing tomato
+     in Central-West Brasil. Plant Disease 88, 157–161.
+Rekah, Y., Shtienberg, D. and Katan, J. (1999) Spatial distribution and temporal devel-
+     opment of Fusarium crown and root rot of tomato and pathogen dissemination in
+     field soil. Phytopathology 89, 831–839.
+Ritchie, D.R. and Dittapongpitch, V. (1991) Copper- and streptomycin-resistant strains
+     and host differentiated races of Xanthomonas campestris pv. vesicatoria in North
+     Carolina. Plant Disease 75, 733–736.
+                      Crop Protection: Pest and Disease Management                      255
+
+
+Riudavets, J. and Castañé, C. (1998) Identification and evaluation of native pred-
+      ators of Frankliniella occidentalis (Thysanoptera : Thripidae) in the Mediterranean.
+      Environmental Entomology 27, 86–93.
+Rivard, C.L., O’Connell, S., Peet, M.M., Welker, R.M. and Louws, F.J. (2012) Grafting
+      tomato to manage bacterial wilt caused by Ralstonia solanacearum in the southeast-
+      ern United States. Plant Disease 96, 973–978.
+Rivas, S. and Thomas, C.M. (2002) Recent advances in the study of tomato Cf resistance
+      genes. Molecular Plant Pathology 3, 277–282.
+Rodrigues, T., Berbee, M., Simmons, E., Cardoso, C., Reis, A., Maffia, L. and Mizubuti, E.
+      (2010) First report of Alternaria tomatophila and A. grandis causing early blight on
+      tomato and potato in Brazil. New Disease Reports 22, 28.
+Roossinck, M.J. (1999) Cucumoviruses (Bromoviridae). In: Granoff, A. and Webster, R.G.
+      (eds) Encyclopedia of Virology. Academic Press, San Diego, California, pp. 315–324.
+Roselló, S., José Díez, M. and Nuez, F. (1996) Viral diseases causing the greatest eco-
+      nomic losses to the tomato crop. I. The Tomato spotted wilt virus – a review. Scientia
+      Horticulturae 67, 117–150.
+Rotem, J. and Bashi, E. (1977) A review of the present status of the Stemphylium com-
+      plex in tomato foliage. Phytoparasitica 5, 45–58.
+Rowe, R.C., Farley, J.D. and Coplin, D.L. (1977) Airborne spore dispersal and recoloniza-
+      tion of steamed soil by Fusarium oxysporum in tomato greenhouses. Phytopathology
+      67, 1513–1517.
+Saidi, M. and Warade, S.D. (2008) Tomato breeding for resistance to Tomato spotted
+      wilt virus (TSWV): an overview of conventional and molecular approaches. Czech
+      Journal of Genetics and Plant Breeding 44, 83–92.
+Sanchez, J.A., Gillespie, D.R. and McGregor, R.R. (2003) The effects of mullein plants
+      (Verbascum thapsus) on the population dynamics of Dicyphus hesperus (Heteroptera:
+      Miridae) in tomato greenhouses. Biological Control 28, 313–319.
+Schenk, M.F., Hamelink, R., van der Vlugt, R.A.A., Vermunt, A.M.W., Kaarsenmaker, R.C.
+      and Stijger, I. (2010) The use of attenuated isolates of Pepino mosaic virus for
+      cross-protection. European Journal of Plant Pathology 127, 249–261.
+Schuster, D.J. (2001) Relationship of silverleaf whitefly population density to severity of
+      irregular ripening of tomato. HortScience 36, 1089–1090.
+Secor, G.A., Rivera, V.V., Abad, J.A., Lee, I.-M., Clover, G.R.G. et al. (2009) Association
+      of ‘Candidatus Liberibacter solanacearum’ with zebra chip disease of potato es-
+      tablished by graft and psyllid transmission, electron microscopy, and PCR. Plant
+      Disease 93, 574–583.
+Simmons, E.G. (2000) Alternaria themes and variations (244-286) species on
+      Solanaceae. Mycotaxon 75, 1–115.
+Speyer, E.R. (1927) An important parasite of the greenhouse whitefly (Trialeurodes
+      vaporariorum, Westwood). Bulletin of Entomological Research 17, 301–308.
+Stall, R.E., Hortenstine, C.C. and Iley, J.R. (1965) Incidence of botrytis gray mold of to-
+      mato in relation to a calcium–phosphorus balance. Phytopathology 55, 447–449.
+Stall, R.E., Jones, J.B. and Minsavage, G.V. (2009) Durability of resistance in tomato and
+      pepper to xanthomonads causing bacterial spot. Annual Review of Phytopathology
+      47, 265–284.
+Tancos, M.A., Chalupowicz, L., Barash, I., Manulis-Sasson, S. and Smart, C.D. (2013)
+      Tomato fruit and seed colonization by Clavibacter michiganensis subsp. michiganen-
+      sis through external and internal routes. Applied and Environmental Microbiology
+      79, 6948–6957.
+256                                   G.E. Vallad et al.
+
+
+The 100 Tomato Genome Sequencing Consortium (2014) Exploring genetic variation
+     in the tomato (Solanum section Lycopersicum) clade by whole-genome sequencing.
+     The Plant Journal 80, 136–168.
+The Tomato Genome Consortium (TGC) (2012) The tomato genome sequence provides in-
+     sights into fleshy fruit evolution. Nature 485, 635–641. doi: 10.1038/nature11119.
+Thompson, W.M.O. (2011) Introduction: Whiteflies, geminiviruses and recent events.
+     In: Thompson, W.M.O. (ed.) The Whitefly, Bemisia tabaci (Homoptera: Aleyrodidae)
+     Interaction with GeminiVirus-Infected Host Plants. Springer, Berlin, pp. 1–13.
+Urbaneja-Bernat, P., Alonso, M., Tena, A., Bolckmans, K. and Urbaneja, A. (2012)
+     Sugar as nutritional supplement for the zoophytophagous predator Nesidiocoris
+     tenuis. BioControl 58, 57–64. doi: 10.1007/s10526-012-9466-y.
+Vandekerkhove, B. and De Clercq, P. (2010) Pollen as an alternative or supplementary
+     food for the mirid predator Macrolophus pygmaeus. Biological Control 53, 238–242.
+van Houten, Y.M., Glas, J.J., Hoogerbrugge, H., Rothe, J., Bolckmans, K.J. et al. (2013)
+     Herbivory-associated degradation of tomato trichomes and its impact on biological
+     control of Aculops lycopersici. Experimental and Applied Acarology 60(2), 127–138.
+van Lenteren, J.C. (2012) The state of commercial augmentative biological control:
+     plenty of natural enemies, but a frustrating lack of uptake. BioControl 57, 1–20.
+van Lenteren, J.C. and Woets, J. (1988) Biological and integrated pest control in green-
+     houses. Annual Review of Entomology 33, 239–269.
+van Maanen, R., Vila, E., Sabelis, M.W. and Janssen, A. (2010) Biological control of
+     broad mites (Polyphagotarsonemus latus) with the generalist predator Amblyseius
+     swirskii. Experimental and Applied Acarology 52, 29–34.
+Varma, A., Mandal, B. and Singh, M.K. (2011) Global emergence and spread of whitefly
+     transmitted geminiviruses. In: Thompson, W.M.O. (ed.) The Whitefly, Bemisia
+     tabaci (Homoptera: Aleyrodidae) Interaction with Geminivirus-Infected Host Plants.
+     Springer Science and Business Media, Dordrecht, The Netherlands, pp. 205–292.
+Verhoeff, K. (1968) Effect of soil nitrogen level and methods of deleafing upon the oc-
+     currence of Botrytis cinerea under commercial conditions. Netherlands Journal of
+     Plant Pathology 74, 184–194.
+Verhoeven, J., Jansen, C., Willemen, T., Kox, L.F.F., Owens, R.A. and Roenhorst J.W.
+     (2004) Natural infections of tomato by Citrus exocortis viroid, Columnea latent
+     viroid, Potato spindle tuber viroid and Tomato chlorotic dwarf viroid. European Journal
+     of Plant Pathology 110, 823.
+Verhoeven, J.T.J., Hüner, L., Marn, M.V., Mavric Plesko, I. and Roenhorst, J.W. (2010)
+     Mechanical transmission of Potato spindle tuber viroid between plants of Brugmansia
+     suaveoles, Solanum jasminoides and potatoes and tomatoes. European Journal of Plant
+     Pathology 128, 417.
+Voigt, D., Gorb, E. and Gorb, S. (2007) Plant surface–bug interactions: Dicyphus errans
+     stalking along trichomes. Arthropod–Plant Interactions 1, 221–243.
+Weber, G.F. (1930) Gray leaf spot of tomato caused by Stemphylium solani, sp. nov.
+     Phytopathology 20, 513–518.
+Webster, C.G., Frantz, G., Reitz, S.R., Funderburk, J.E., Mellinger, H.C. et al. (2015)
+     Emergence of Groundnut ringspot virus and Tomato chlorotic spot virus in vegetables
+     in Florida and the southeastern United States. Phytopathology 105, 388–398.
+Weir, T.L., Huff, D.R., Christ, B.J. and Romaine, C.P. (1998) RAPD-PCR analysis of gen-
+     etic variation among isolates of Alternaria solani and Alternaria alternata from po-
+     tato and tomato. Mycologia 90, 813–821.
+                      Crop Protection: Pest and Disease Management                      257
+
+
+Weller, S.A., Stead, D.E. and Young, J.P.W. (2006) Recurrent outbreaks of root mat
+      in cucumber and tomato are associated with a monomorphic, cucumopine,
+      Ri-plasmid harboured by various Alphaproteobacteria. FEMS Microbiology Letters
+      258, 136–143.
+Wetzel, M.E., Kim, K.S., Miller, M., Olsen, G.J. and Farrand, S.K. (2014) Quorum-
+      dependent mannopine-inducible conjugative transfer of an Agrobacterium
+      opine-catabolic plasmid. Journal of Bacteriology 196,1031–1044.
+Williamson, V.M. (1998) Root-knot nematode resistance genes in tomato and their po-
+      tential for future use. Annual Review of Phytopathology 36, 277–293.
+Wilson, A.R. (1963) Some observations on the infection of tomato stems by Botrytis
+      cinerea Fr. Annals of Applied Biology 51, 171.
+Xu, X., Miller, S.A., Baysal-Gurel, F., Gartemann, K.-H., Eichenlaub, R. and Rajashekara, G.
+      (2010) Bioluminescence imaging of Clavibacter michiganensis subsp. michiganensis
+      infection of tomato seeds and plants. Applied and Environmental Microbiology 76,
+      3978–3988.
+Yang, T.-C. and Chi, H. (2006) Life tables and development of Bemisia argentifolii at dif-
+      ferent temperatures. Journal of Economic Entomology 99, 691–698.
+Yunis, H., Elad, Y. and Mahrer, Y. (1990a) Effects of air temperature, relative hu-
+      midity and canopy wetness on gray mold of cucumbers in unheated greenhouses.
+      Phytoparasitica 18, 203–215.
+Yunis, H., Elad, Y. and Mahrer, Y. (1990b) Influence of fungicide control of cucumber
+      and tomato grey mold (Botrytis cinerea) on fruit yield. Pesticide Science 31,
+      325–335.
+Zaitlin, M. and Hull, R. (1987) Plant virus–host interactions. Annual Review of Plant
+      Physiology 38, 291–315.

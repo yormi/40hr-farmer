@@ -1,0 +1,968 @@
+                                  10
+       Postharvest Biology and Handling
+                  of Tomatoes
+
+                                 Mikal E. Saltveit
+
+
+
+
+INTRODUCTION
+
+Originally, the tomato (Solanum lycopersicum L.) had an indeterminate growth
+habit; continuously producing flowers and fruit during the entire growing
+season. Cultivars (i.e. cultivated varieties) with this indeterminate growth habit
+are grown where multiple harvests are economically justified, e.g. in the green-
+house, or in the field when plants are supported by a pole or trellis. These in-
+determinate fresh market cultivars have fruit at various stages of maturity on
+the plant, and hand harvesting is often necessary to maximize yield through
+multiple harvests. While this labour-intensive practice is economically justified
+for some fresh market field and glasshouse-grown fruit, processing tomatoes
+must be culturally managed to produce maximum yields with once-over mech-
+anical harvests.
+     Breeding and cultural practices have modified the growth habit of pro-
+cessing cultivars and most field-grown fresh market tomatoes into a deter-
+minate growth habit in which the bush-like form produces side shoots that
+terminate in inflorescences. Determinate cultivars lend themselves to once-over
+mechanical harvesting and are therefore well suited for processing, since the
+plants are destroyed during harvest and the mechanical injuries the fruit sus-
+tain during harvest precludes their marketing as fresh fruit. Foliar sprays of
+ethylene-releasing chemicals are used before harvest to hasten the maturity of
+processing tomatoes and reduce the variability among the ripening fruit.
+     Processing tomatoes are harvested when fully ripe and quickly transported
+from the field to processing plants. The minimal postharvest care they receive
+during the hours between harvest and processing is often limited to shading the
+fruit from the sun or removing field heat by pre-cooling. In contrast, fresh market
+tomatoes are often harvested when mature, but less than fully ripe, and their
+ripening is carefully managed before, during and after transport to distant markets.
+     The protected greenhouse environment allows manipulation of many en-
+vironmental parameters to maximize yield and quality. Greenhouse tomatoes
+
+
+314                       © CAB International 2018. Tomatoes 2nd edition (E. Heuvelink)
+                    Postharvest Biology and Handling of Tomatoes             315
+
+
+can be grown in soil, peat moss, sawdust, stone wool, or other soilless and/or
+inert media, or by using a nutrient film technique or other hydroponic system.
+Fruit growth and development can be controlled by regulating pollination, ad-
+justing nutrient availability to the stage of development (minerals as well as
+carbon dioxide), and modulating temperature and humidity.
+     Incorporation of naturally occurring ripening mutations into commercial
+lines has produced cultivars with significantly longer shelf-life but may have
+reduced the levels of valued indicators of quality. Traditional breeding with the
+incorporation of genes that convey chilling tolerance from related species has
+proved difficult and only resulted in cultivars with slightly increased chilling
+tolerance.
+
+
+HARVESTING
+
+Methods employed to harvest fresh market and processing tomatoes differ be-
+cause their respective markets emphasize different measures of quality. Field-
+grown fresh market tomatoes are harvested at the mature-green through ripe
+stages of maturity, depending on the market demand and location. Mature-
+green fruit are firm enough and have sufficient shelf-life to survive the stress
+of being shipped considerable distances and still arrive at the market with
+enough shelf-life to be marketed at the wholesale and retail level. More mature
+fruit can be harvested for regional markets where transportation to the retail
+market is faster and less damaging to the softer, riper fruit. Ethylene is used
+to ripen mature-green fruit to red-ripe while in transit or at regional markets.
+Consumers value fruit with deep red and uniform colour, a lack of external
+blemishes and injuries, and characteristic aroma and flavour.
+     Processing tomatoes are once-over mechanically harvested when fully
+ripe and immediately transported to a processing plant. Pre-harvest applica-
+tions of ethylene-releasing chemicals hasten and concentrate ripening and so
+a larger percentage of the fruit are at the proper stage of ripeness. Uniform
+deep red colour and characteristic aroma and flavour are also valued in pro-
+cessing tomatoes but surface blemishes and injuries are unimportant since the
+fruit are processed within a few hours of harvest and processing reduces the
+fruit to a peeled product or homogeneous paste.
+     Greenhouse tomatoes are usually harvested riper than fresh market field-
+grown fruit and are therefore more prone to mechanical injuries, because
+they are softer and have a shorter shelf-life than fruit harvested at the mature-
+green stage. Greenhouse-grown fruit are picked twice or three times a week as
+they reach the proper stage of development. More harvests are needed during
+warmer weather when the fruit develop faster. Fruit picked before fully devel-
+oped (i.e. before reaching the mature-green stage) are more prone to mechan-
+ical injuries because of poorly developed epidermis and waxy cuticle than are
+more developed fruit. The thin skins and locular walls of greenhouse ­cultivars
+316                                  M.E. Saltveit
+
+
+are valued by consumers, but these traits make them more susceptible to mech-
+anical injury. Some greenhouse-grown fruit are harvested ‘on the vine’ at the
+breaker stage and marketed in clusters of three to six fruit.
+     Fruit that quickly reach the pink stage soon after harvest are called
+‘vine-ripened’ tomatoes. Fewer mature-green and more vine-ripe fruit will
+probably be marketed in the future because of the development of non-toxic,
+gaseous inhibitors of ethylene action (e.g. 1-methylcyclopropene (1-MCP))
+(Sisler et al., 1996) and the incorporation of mutant genes that delay ripening
+through traditional plant breeding or genetic engineering to retain firmness
+during the later stages of ripening. However, maturity at harvest will still
+need to be uniform to minimize handling during grading and packing, and to
+ensure the consistent response of the fruit to the application of postharvest
+treatments.
+     Processing tomatoes are machine harvested in most industrialized coun-
+tries (Fig. 10.1). The once-over, destructive harvest starts when at least 90%
+of the fruit are ripe. This determination is done by periodic visual inspections
+of fruit in the field. Application of chemicals to stimulate ripening (e.g. ethyl-
+ene-releasing compounds) can be done a few weeks prior to harvest to maxi-
+mize the percentage of coloured fruit. Harvest begins with the entire plant
+being lifted from the soil on to a mobile platform where the fruit are mech-
+anically removed from the plant, which is discarded back into the field. The
+separated fruit are passed across an inspection platform where people manu-
+ally discard defective (e.g. unripe, misshapen, diseased, etc.) fruit. The selected
+
+
+
+
+Fig. 10.1.   Fully ripe processing tomato fruit being mechanically harvested.
+                     Postharvest Biology and Handling of Tomatoes               317
+
+
+fruit are dumped into large gondolas or field bins being pulled alongside the
+harvester.
+      The mechanical injuries inflicted on the fruit as a result of machine har-
+vesting are not severe enough, given the rapidity of processing, to significantly
+reduce the quality of the processed product. In comparison, the often extended
+duration of time between harvest and the consumption of fresh market toma-
+toes would allow excessive water loss and pathogenic infections to occur as
+a consequence of injuries to the surface of the fruit during mechanical har-
+vesting, and thereby render the fruit unacceptable for the fresh market. Also,
+small bruises and skin injuries that do not affect internal quality are visually
+apparent and render the fruit unacceptable to many consumers. Processed
+tomato products include peeled whole, quartered and diced fruit, and
+­concentrates for ketchup, juice, pulp, paste and soup. The market for ­tomato
+ concentrate is larger than that for fresh fruit.
+      While appearance, texture and flavour are the important quality attri-
+ butes of fresh market tomato, soluble solids, pH, titratible acidity, viscosity and
+ colour are the major quality components of processing tomatoes. Other quality
+ characteristics of processing tomatoes include uniform colour throughout the
+ fruit (i.e. high lycopene and low chlorophyll content), freedom from decay, and
+ firmness. Soluble solids include sugars, organic acids and other dry matter
+ constituents such as pectic fragments that remain in solution. The produc-
+ tion of tomato concentrates and paste requires removal of water, which is an
+ energy-intensive process. Therefore it is less expensive to produce concentrates
+ from fruit with high soluble solids and dry matter content. Viscosity or con-
+ sistency is a complex physical property that is influenced by the amount and
+ suspension of tomato solids, the size and linkage of pectins, and the solution
+ of salts, proteins, sugars and organic acids in the processed product. Colour in
+ tomato products is predominantly the result of the two lipid soluble pigments:
+ lycopene and β-carotene.
+      Over the years, a great deal of work has been done by traditional plant
+ breeding and recently by genetic engineering to increase the soluble solids,
+ viscosity and colour of processing tomato cultivars. Significantly im-
+ proving soluble solids content is difficult, because the trait is polygenetic,
+ the environment exerts a large effect on expression of the trait, and there
+ is a negative relation between soluble solids and other desirable character-
+ istics such as high yield and concentrated ripening. For these reasons, the
+ product of yield times soluble solids content (often expressed as °Brix) is
+ more useful in estimating the productivity of processing tomatoes. In gen-
+ eral, yields have been significantly increased, but the soluble solids content
+ of the fruit has at most increased only slightly (Stevens, 1994; Zamir et al.,
+ 1999). The main reason for this relatively slow progress in increasing solids
+ is the lack of genetic variability for high soluble solids in processing tomato
+ germplasm. Attempts to increase soluble solids by introducing high solids
+ potential from wild species of Lycopersicon chmielewskii and L. cheesemanii
+318                                M.E. Saltveit
+
+
+have been unsuccessful. This is because most of the high solids potential
+has disappeared by the time the appropriate genes have been introgressed
+into an acceptable horticultural type (Stevens, 1994). Modern genetic en-
+gineering may be able to introduce specific genes or clusters of genes that
+will increase soluble solids, but it will require a better understanding of
+the relationship among the partitioning of photosynthate within the plant,
+the mechanisms of soluble solids accumulation within the fruit, and the
+various other components of yield.
+      For the fresh market, multiple hand harvests are often needed to produce
+an economic yield when indeterminate cultivars are grown. Development of
+determinate, bush-type plants almost eliminated the growth of field-grown
+indeterminate tomatoes that were grown on plants supported by a pole or
+trellis. Plant decline is rapid after harvest of the major set from determinate
+plants, and few additional harvests are economical. However, the demand for
+high quality and heirloom fruit in regional up-scale markets has made cultural
+practices that favour multiple hand harvesting of riper fruit economically jus-
+tifiable in some instances.
+      Harvested greenhouse-grown fruit are commonly hand carried to packing
+stations within the greenhouse and then moved on small carts to collection
+centres. In some large greenhouse operations, transportation systems are in-
+corporated into the structures to protect the fruit from damage and reduce
+labour costs during harvest. Canals have been built under main greenhouse
+floors to float the fruit from areas of production to the packing area. The
+pickers empty their baskets into the troughs. The flowing water carries the
+fruit to a roller elevator where the fruit passes over a dryer prior to grading
+and packing. This can be an efficient system but cracking of the skin can be a
+problem and shelf-life can be decreased if the fruit remain in the water for more
+than 6 hours.
+      A number of rail systems have been developed that are economical and
+efficient for use within a greenhouse. The rail system can be temporarily
+­installed during harvest or permanently installed so it can be utilized during
+ the rest of the production cycle. A cart or trolley can run on heating pipes or
+ specially made rails positioned among the rows. In the over-the-crop system,
+ the heating pipes or rails are suspended between the rows and the suspended
+ trolley runs along them. In both rail systems, the baskets of harvested fruit
+ are transferred to a motorized cart that is hauled to the packing area. In the
+ suspended system, the rails often continue to the packing area. Overhead
+ wire cables can also be installed in a continuous loop to bring picking carts
+ or baskets from the picking areas to the packing area. Some systems use
+ self-propelled ‘robotic’ carts that follow sensing strips embedded in the green-
+ house floor and can be programmed to go from one specific location within
+ the greenhouse to another without manual intervention. When properly de-
+ signed, such systems reduce labour and fruit damage and shorten the time
+ from harvest to packing.
+                    Postharvest Biology and Handling of Tomatoes              319
+
+
+     Most field-grown fresh market tomatoes are hand harvested at the
+mature-green stage of maturity. Fruit grown on indeterminate plants, sup-
+ported by a pole or trellis in the field or greenhouse, are usually harvested at
+more ­advanced stages of maturity. Mechanical harvesters are being developed
+to assist in harvesting fresh market fruit, but none are yet commonly used in
+a commercial setting. Pickers put the fruit into buckets, bins or on to conveyer
+belts that move the fruit into large field bins or gondola trailers (Fig. 10.2).
+Fruit should be shielded from the sun during transport to the packing fa-
+cility to prevent excessive heating of exposed fruit. Without the plant canopy
+to shade the fruit, direct sunlight can heat the surface of the fruit to a high
+enough temperature to damage the exposed tissue and adversely affect sub-
+sequent ripening.
+     In most commercial cultivars, ripe fruit abscise at the stem scar, but
+mature-green fruit may retain part of the pedicle in jointed fruit. Joints or
+knuckles form when a zone of abscission develops in the pedicle. Care should
+be taken with fruit harvested in clusters, or with a portion of the stem or ped-
+icle attached, so that the protruding tissue does not puncture adjacent fruit
+during harvesting, handling, packing and transport. However, retention of the
+pedicle is seen as a positive quality aspect in some markets (Fig. 10.3). For ex-
+ample, in cluster tomatoes, the entire cluster is cut off at the main stem and
+kept together either by placing them in a single layer in boxes or by putting
+them into mesh bags.
+
+
+
+
+Fig. 10.2. Fresh market mature-green tomato fruit being hand harvested into
+buckets and field bins.
+320                                    M.E. Saltveit
+
+
+
+
+Fig. 10.3.   Breaker fruit in small plastic field trays with pedicle attached.
+
+
+PACKAGING
+
+Upon reaching the packing shed, the fruit can be flushed out of the trailer
+with chlorinated water. Smaller field bins or boxes can be unloaded by hand or
+gently dumped into water or on to a padded table. Although it would seem ad-
+vantageous to start to remove field heat as soon as possible by using cold water
+in the dump tank, in reality the water should be a few degrees warmer than the
+fruit. Cold water will cool gases within the fruit and facilitate water intrusion
+through the stem scar. However, this cause of water intrusion is minor in com-
+parison with that caused by hydrostatic pressure resulting from immersing
+the fruit too deeply in water. Water entering the fruit carries with it chemical
+and biological contaminants that accumulate in the dump water and for this
+reason water intrusion into harvested fruit should be avoided.
+     An inclined mesh conveyer belt is often used to remove the fruit from the
+dump tank and at the same time eliminate trash and undersized fruit. A spray
+of clean chlorinated water on the fruit as they are removed from the dump
+tank on the inclined conveyer belt facilitates removal of dirt and other field
+debris. The fruit are then dried with jets of air or sponge rollers. A visual in-
+spection is often used to eliminate cull, over-mature, misshapen and otherwise
+                     Postharvest Biology and Handling of Tomatoes                321
+
+
+­unmarketable fruit. If regulations allow, the fruit may then be sprayed with an
+ edible food-grade wax that may contain a fungicide. However, consumers in
+ many markets object to the application of fungicide and waxes for purely cos-
+ metic purposes.
+      After sorting for defects and colour differences, the fruit are segregated
+ into several size categories by weight or diameter. Moving belts with increasing
+ diameter holes (Fig. 10.4) or diverging rollers can sort by size, while spring-
+ loaded pans can sort by weight. Other belts running underneath and perpen-
+ dicular to the sorting belts convey the sized fruit to an area for one additional
+ quality inspection where any remaining unmarketable fruit are eliminated
+ (Fig. 10.5).
+      These sorting and grading steps can be injurious to softer fruit and they are
+ therefore done primarily by hand when more mature fruit are being packed. In
+ small packing sheds, breaker and turning fruit can be unloaded from small field
+ bins onto sorting lines where the fruit are segregated into ripeness classes and
+ hand packed (Fig. 10.6). The minimal handling that the fruit receive in this
+ type of packing house permits riper fruit to be picked, packed and marketed.
+      The design of the many inspection lines in a packing shed requires serious
+ attention by people trained in ergonomics. Inspection to remove unmarketable
+ fruit from a mass of fruit rapidly moving past someone on a conveyer belt can
+ quickly induce visual fatigue and degrade the inspector’s effectiveness. The
+ position of the inspector in relation to the conveyer belt, the speed of the belt,
+ its width, the source, quality and direction of lighting, the arm movements
+ necessary to remove the unwanted fruit and the placement of the receptacle
+
+
+
+
+Fig. 10.4. A series of wide belts with holes of increasing diameter are used to sort
+fruit by size.
+322                                M.E. Saltveit
+
+
+
+
+                                                    Fig. 10.5. Part of a packing
+                                                    line for mature-green tomato
+                                                    fruit where fruit are inspected
+                                                    for external quality defects.
+
+
+for the eliminated fruit are all important factors that must be considered in
+the design of the inspection line. A simple movement to identify and remove a
+single fruit may be extremely easily and rapidly accomplished the first time but
+delayed and neglected the thousandth time. The incorporation of various ana-
+lytical instruments can assist and/or eliminate human inspectors.
+     Mature-green fruit that appear the same externally can be at different stages
+of maturity as shown by differences in respiration, ethylene production, firm-
+ness of locular tissue and incipient lycopene synthesis in the columella tissue.
+Instruments that measure colour (e.g. the appearance of the red-coloured
+lycopene pigment) have been developed for the commercial sorting of fruit ma-
+turity by the development of external colour. However, these instruments are
+not effective at determining the ripening stage of mature-green fruit, because
+they cannot detect the lycopene that first accumulates in the inner columella
+tissue of mature-green fruit as they start to ripen. The highly variable content
+of chlorophyll in mature-green fruit makes it an inaccurate measure of their
+maturity. Internal development of lycopene, evolution of ethylene and lique-
+faction of the locular contents have all been shown to be reliable indicators of
+                     Postharvest Biology and Handling of Tomatoes              323
+
+
+
+
+Fig. 10.6. Small packing house where breaker and turning fruit are inspected for
+external quality defects and packed with minimal handling.
+
+
+fruit maturity. Non-destructive methods to ascertain internal defects and the
+level of fruit maturity include acoustic, near-infra-red (NIR), NMR, MRI and
+many other technologies that use either penetrating radiation or resonance
+properties of the fruit to disclose the fruit’s internal properties (Abbott et al.,
+1997; Milczarek et al., 2009). However, instruments employing these methods
+in a commercial packing shed have not yet been extensively adopted.
+     Mature-green and breaker fruit can be packed loose by weight or volume,
+while riper fruit should be placed on trays in cardboard boxes. Since mature-
+green fruit are usually treated with ethylene and ripened while in these boxes,
+the boxes must be resistant to moisture produced by the fruit during ripening.
+The boxes must also have a sufficient number of properly spaced holes to pro-
+vide adequate ventilation. When placed on a pallet, the boxes must either be
+arranged with air channels between them, or aligned so that the holes in ad-
+jacent boxes line up to permit easy air movement through all the boxes on the
+pallet. Improper placing of the boxes can occlude holes in adjacent boxes and
+effectively isolate interior boxes from the movement of air providing ethylene
+and carrying away the products of respiration (i.e. heat, carbon dioxide, water
+vapour).
+     The enhanced production of heat, moisture and carbon dioxide by
+ripening fruit must be carried away from the fruit by fresh air containing the
+low concentration of ethylene used to stimulate the natural ripening of the
+fruit. Airflow and exchange should keep carbon dioxide levels in the boxes
+324                                                                           M.E. Saltveit
+
+
+below 0.2%, because high levels of carbon dioxide can inhibit the ripening
+­action of ethylene (Saltveit, 1997). Forced air is used for cooling after packing
+ and for maintaining the proper temperature and atmosphere during the appli-
+ cation of ethylene.
+      The superior appearance and flavour of greenhouse tomatoes can be used
+ to justify a higher selling price that is needed to offset the higher production
+ costs. This may be difficult in the USA, where supermarket mark-up is higher
+ than in European countries and where greenhouse fruit must compete with
+ low-cost field-grown tomatoes for much of the year, and with imported fruit
+ during the off-season.
+
+
+RIPENING
+
+Tomatoes are climacteric fruit that are characterized by the onset of a climac-
+teric rise in respiration and ethylene production coincident with ripening; i.e.,
+softening and the first appearance of red colour (Fig. 10.7). Treatment with
+propylene, a biological analogue of ethylene, can also stimulate ripening.
+     The manifold changes accompanying ripening are presented in de-
+tail in Chapter 5. This section will concentrate on the postharvest initiation
+of ripening with ethylene and how this step fits into the general postharvest
+handling of tomato fruit.
+
+
+                                                               Ethylene                                         Ripeness
+                                                                                   Ripeness
+                                        1.0                                                                                 6
+
+
+
+
+Ethylene (μl/l) or carbon dioxide (%)
+                                                   Fruit treated                                           Carbon dioxide
+                                                  with propylene
+                                        0.8                                                                                 5
+
+
+
+
+                                                                                                                                Ripeness score
+                                                                          Carbon dioxide
+                                                                                                            Ethylene
+                                        0.6                                                                                 4
+
+
+
+                                        0.4                                                                                 3
+                                                                                                Fruit kept in air
+                                              Treatment with
+                                        0.2     propylene                                                                   2
+                                                 (150 ml/l)
+
+                                        0.0                                                                                 1
+                                              0        2           4      6        8       10       12        14       16
+                                                                              Days at 20°C
+
+Fig. 10.7. Climacteric rise in respiration and ethylene production with the onset of
+ripening with or without treatment with 150 μl/l propylene in air for 4 days at 20°C.
+                      Postharvest Biology and Handling of Tomatoes                 325
+
+
+      Tomato fruit ripening requires the coordination of thousands of genes in-
+volved in softening, pigment destruction and/or synthesis, and accumulation of
+characteristic levels of sugars, acids and volatiles. In climacteric fruit like tomato,
+many of these changes are coordinated by ethylene. As the tomato fruit reaches
+physiological maturity, the response of fruit tissue to ethylene switches from a
+negative (System 1) to a positive (System 2) feedback. In immature tomato fruit
+tissue, ethylene inhibits its synthesis (System 1) thereby maintaining a low en-
+dogenous concentration that does not stimulate ripening. In physiologically ma-
+ture tissue, ethylene promotes its own synthesis and this increasing endogenous
+level induces ripening-associated genes (Klee and Giovannoni, 2011).
+      Identification and characterization of ripening mutants has helped to ex-
+plain how ethylene is critically involved in tomato fruit ripening. The ripening
+control mutants ripening-inhibitor (rin), nonripening (nor) and Colorless nonrip-
+ening (Cnr) produce modified transcription factors that affect both ethylene
+and non-ethylene activities, while the Never-ripe (Nr) mutant affects the NR
+ethylene receptor (Klee and Giovannoni, 2011). Tomatoes incorporating the
+rin or nor gene are said to have the extended shelf-life (ESL) trait and ripen more
+slowly than conventional fruit. However, the quality of ESL fruit is severely af-
+fected if they are harvested at the MG2 stage of maturity (Cantwell, 2010).
+The minimum harvest maturity for ESL fruit should be at the Pink (USDA Color
+Stage 4) stage to maximize quality of the ripened fruit.
+      Tomato fruit ripening can be controlled by genetically altering (whether by
+incorporating naturally occurring mutant genes by traditional plant breeding,
+or by genetically engineering with sense or antisense technology) ethylene
+production, perception and/or action. However, these techniques can inad-
+vertently compromise fruit quality traits. New techniques, such as RNAi silen-
+cing that can target specific genes, and has been used to reduce ACC synthesis
+activity in tomato, could be employed to alter ripening behaviour without un-
+intentionally altering fruit quality (Gupta et al., 2013). Pigment synthesis and
+accumulation can be adversely affected in some slower ripening cultivars (Klee
+and Tieman, 2013). Surprisingly, increasing the level of anthocyanin pigments
+(natural antioxidants) in harvested tomatoes not only reduced disease suscep-
+tibility but also doubled the fruit’s shelf-life (Zhang et al., 2013). Obviously,
+ripening is a complicated, multifaceted process with interrelated components
+that are still not fully integrated into an overarching system so that one aspect
+of fruit ripening can be manipulated without inadvertently ­altering other as-
+pects of fruit quality.
+      The period of growth and development from fertilization to maturity lasts
+about 45–55 days, depending on cultivar and climate. Ripening is the final
+stage of maturation when fruit develop the characteristic colour, flavour, tex-
+ture and aroma associated with optimum quality. Whether initiated naturally
+or induced by ethylene, ripening is accompanied by many changes, including
+an increased production of heat from respiration. Proper stacking of boxes
+on the pallet is important to ensure adequate air flow to remove this heat of
+326                                 M.E. Saltveit
+
+
+­respiration and the accompanying water vapour driven from the fruit because
+ of their elevated temperature (Fig. 10.8).
+      Ventilation and refrigeration capacity of the storage facility must be
+ matched with the increased production of heat during the climacteric rise
+ in respiration. The rate of respiration can increase from 20% to 50% during
+ ripening from a mature-green to red stage of development. The increased rate
+ of evaporation of water from ripening fruit due to the elevated respiratory pro-
+ duction of heat must be minimized by decreasing the vapour pressure deficit
+ between the fruit and its surrounding atmosphere. This is done by maintaining
+ high relative humidities (e.g. 85–95% RH) in the ripening rooms.
+
+
+
+
+Fig. 10.8. Properly stacked boxes of mature-green tomato fruit on a pallet being
+moved by a fork-lift to a controlled temperature room for ethylene treatment.
+                     Postharvest Biology and Handling of Tomatoes                327
+
+
+     Exposure to certain ppm (μl/l) levels of ethylene in air (e.g. 100 ppm) or
+to dips in ethylene-releasing compounds such as Ethrel promotes the ripening
+of mature-green tomato fruit to acceptable levels of quality (Table 10.1).
+Ethylene promotes the destruction of chlorophyll and the synthesis of lycopene
+in ripening fruit (see Chapter 5, this volume). However, ethylene can also in-
+duce ripening (i.e. lycopene synthesis and softening) in fruit that are so imma-
+ture that good quality is never attained. In one fresh market cultivar, fruit that
+were about 90% of final size (i.e. more than 42 days after anthesis) were able to
+go through a normal climacteric and ripened to an acceptable level of quality
+after harvest (Saltveit, unpublished data). Fruit less mature did turn red and
+soften if given enough time, but the ripened fruit were of inferior quality. Fruit
+that were older than 31 days coloured without added ethylene, while younger
+fruit required added ethylene to colour and soften. Exposure of immature fruit
+as young as 17 days after anthesis to 1000 ppm ethylene in air induced a re-
+spiratory and ethylene climacteric, colour change and softening, but the fruit
+were of inferior quality.
+     Once ripening is initiated at the transition from the mature-green to the
+breaker stage, internal levels of ethylene rise and continue to support the
+auto-catalytic production of ethylene and further ripening. In vegetative and
+immature fruit tissue, ethylene suppresses its synthesis so that a low level
+of ethylene is maintained in the tissue. Once ripening is initiated in climac-
+teric fruit like tomato, this negative feedback of ethylene on ethylene syn-
+thesis changes to a positive feedback, and the increasing levels of endogenous
+ethylene promote even more synthesis and accumulation of internal ethylene.
+The relatively impermeable cuticle of the mature tomato fruit minimizes
+ethylene loss to that which occurs through the stem scar and effectively iso-
+lates the internal tissue from depletion of ethylene resulting from diffusion to
+the external atmosphere.
+     Removal of ethylene from the external atmosphere does not signifi-
+cantly lower internal levels that are sustained by cellular synthesis, or alter
+the pattern of ripening. Introducing gaseous inhibitors of ethylene action (e.g.
+carbon dioxide, 1-MCP) into the environment of the fruit can slow ripening,
+as can lowering the temperature to near the chilling threshold. A few hours of
+
+Table 10.1. Effect of ethylene treatment, either as 10 ppm (μl/l) ethylene in air or
+2000 ppm (μg/g) ethephon dip, on the rate of ripening of mature-green tomato fruit.
+
+                     Days to     Days from breaker       Days from red-
+Days of treatment    breaker        to red-ripe          ripe to discard   Total days
+
+0                      10.9              6.9                  15.9           33.7
+1                       7.8              6.3                  17.1           31.2
+2                       8.1              7.2                  16.4           31.7
+4                       5.9              5.8                  22.2           33.9
+Continuous              4.4              6.3                  15.2           25.9
+328                                                    M.E. Saltveit
+
+
+­exposure to ethanol vapour can inhibit ripening of tomato fruit harvested at
+ various degrees of ripeness without affecting subsequent quality (Saltveit and
+ Sharaf, 1992).
+      An ethylene concentration of 100–150 ppm is commonly used to ini-
+ tiate and hasten the ripening of harvested mature-green fruit at 18–22°C
+ (Fig. 10.9). Advanced mature-green fruit treated in this way will reach the
+ breaker stage in 24–36 h, depending on temperature. This atmosphere can be
+ produced by a number of methods. The ‘shot’ method introduces a relatively
+ large volume of ethylene into the ripening room by metering ethylene from
+ compressed gas cylinders. Care should be taken when using this method, since
+ ethylene in air mixtures between 3.1% and 32% (31,000–320,000 ppm) are
+ explosive. While these explosive concentrations are more than 200-fold higher
+ than the recommended levels for ripening, in rare instances they have been
+ reached when metering equipment has malfunctioned. Using compressed
+ gas mixtures containing around 3.1% ethylene in nitrogen (i.e. banana gas)
+ to inject ethylene into a ripening room eliminates this problem. The concen-
+ tration of ethylene in the ripening room is diluted as the gas is injected and
+ the ethylene concentration can never reach the explosive limit. Catalytic con-
+ verters are devices that employ heat and a metal catalyst to convert propri-
+ etary ethanol mixtures into ethylene. They deliver a continuous flow of a low
+ concentration of ethylene gas into the storage room, thereby eliminating any
+ possibility of reaching an explosive mixture of ethylene in air. This method also
+ eliminates the storage and exchange of high pressure gas cylinders in favour of
+ plastic bottles containing mixtures of denatured ethanol.
+      Sprays of aqueous solutions or applications of viscous paste containing
+ ethylene-releasing compound are used to hasten the ripening of fruit still
+
+
+                  14
+
+                  12
+
+                  10
+
+
+
+
+Days to breaker
+                  8
+
+                  6
+
+                  4
+                                                                       Fig. 10.9. Relation between
+                  2                                                    externally applied ethylene
+                                                                       concentration and the days it
+                                                                       takes mature-green tomato fruit
+                  0
+                       0.001   0.01     1.0    10       100    1000    to reach the breaker stage of
+                               Ethylene concentration (μl/l)           ripeness.
+                     Postharvest Biology and Handling of Tomatoes                329
+
+
+­attached to the plants. Ethephon (2-chloroethylphosphonic acid, CAS Number:
+ 82375-49-3; also known as Ethrel, Bromeflor, Arvest, CEPA) decomposes to
+ innocuous products and ethylene in plant tissue. While stable at acidic pH,
+ ethephon quickly breaks down to ethylene as the temperature and pH values
+ increase (Table 10.2). Between 10°C and 20°C the Q10 is 6, while between 30°C
+and 40°C the Q10 is 5. Decomposition follows first-order kinetics; in any given
+ unit of time the same fraction will decompose. The half-times for decompos-
+ ition at different temperatures and pH values are given in Table 10.2. A spray
+ or dip in a 2000 ppm aqueous Ethrel solution produced the same effect as gas-
+ sing the fruit with 10 ppm (μl/l) ethylene in air (Saltveit, unpublished data).
+ Although ethephon has very low toxicity and can be used on processing to-
+ matoes and fresh market tomatoes before harvest, many governments strictly
+ limit its residual levels in ripened fruit to such an extent that it is not approved
+ for commercial use in the USA as a postharvest treatment.
+      Because multiple picks are usual for fresh market tomatoes, pre-harvest
+ ethephon application is not practical since the ethylene produced can accelerate
+ flower abscission, leaf drop and general senescence of the whole plant. Localized
+ application of pastes containing ethylene-releasing compounds to a single truss
+ (e.g. on greenhouse-grown indeterminate varieties) eliminates this problem.
+      Almost all fruit harvested at the mature-green stage are gassed with
+ ethylene either at the packing warehouse or upon receipt at the terminal whole-
+ sale market. Fruit can be exposed to ethylene either before or after packing, but
+ most are treated after packing. Treating before packing has some advantages.
+ Fruit that develop decay while ripening in the warm, humid ripening room at-
+ mosphere can be eliminated before packing. After ripening, uniformly ripe fruit
+ can be selected from those that are less ripe to produce a more uniform pack.
+ Although ripening is accelerated and made more uniform by gassing with
+ ethylene, the inherent variability in maturity of mature-green fruit can result
+ in uneven ripening within a lot of fruit. Packed mature-green fruit may there-
+ fore produce a ‘checkerboard’ of fruit with different maturities after ripening.
+ This may require removal of fruit from the boxes and their re-sorting and
+ ­repacking to produce boxes containing fruit of uniform maturity that many
+
+         Table 10.2. Kinetics of Ethrel decomposition to ethylene at
+         various pH values and temperatures.
+
+                                           Half-time for ethephon
+                                          decomposition to ethylene
+
+         Temperature (°C)           pH6               pH7             pH8
+
+         10                       70 days          14 days          7 days
+         20                       10 days           2 days          1 day
+         30                       30 hours         10 hours         5 hours
+         40                       10 hours          2 hours         1 hour
+330                                 M.E. Saltveit
+
+
+
+
+                                             Fig. 10.10. Variable ripening of
+                                             mature-green tomato fruit produces
+                                             a ‘checkerboard’ pattern of ripe and
+                                             green fruit within a box.
+
+
+retailers demand (Fig. 10.10). Repacking is both expensive and damaging to
+the riper, softer fruit and should be avoided.
+
+
+TEMPERATURE MANAGEMENT
+
+The optimum storage temperature that both slows ripening and also retains
+the quality of fruit ripened after storage varies with cultivar and stage of ma-
+turity. Mature-green fruit can be stored for 2 weeks at 12.5–15°C, ripening
+fruit at 10–12.5°C for a week, and fully ripe fruit at 7–10°C for 3–5 days.
+Mature-green fruit ripens best at 15–20°C, with ripening above 25°C produ-
+cing soft, poorly coloured fruit.
+     Both the tomato plant and the harvested tomato fruit are chilling sensi-
+tive, incurring physiological damage if stored below about 12°C for durations
+dependent on the cultivar, stage of maturity and prior environmental exposure
+(Fig. 10.11). This sensitivity to non-freezing but chilling temperatures delin-
+eates the growing season and the geographical location where tomatoes can
+be grown under field conditions, and imposes a storage temperature well above
+the recommended 0°C for crops that are not chilling sensitive. The rate of
+many biological activities, e.g. ripening, can more than double for every 10°C
+rise in temperature, and this rise in metabolic activity can halve the storage life
+of chilling-sensitive crops in comparison with chilling-tolerant crops.
+                         Postharvest Biology and Handling of Tomatoes                  331
+
+
+
+
+                  40 –
+  Heat stress       –
+
+                  30 –
+                                Ideal range for ripening
+      Optimum       –           mature-green fruit
+ripening range
+                  20 –
+                                Ideal range for storage of
+                    –           mature-green fruit,
+                                ripening fruit and
+                  10 –
+                                fully ripe fruit
+     Chilling       –
+
+                   0–
+
+     Freezing       –
+
+                 –10 –                                       Fig. 10.11. Temperature
+                             Temperatures in °C              limitations for the proper
+                                                             ripening and storage of fresh
+                                                             market tomato fruit.
+
+      Chilling injury is characterized by slow and abnormal ripening, increased
+disease susceptibility (often to specific decay organisms), reduced acidity, accel-
+erated water loss and surface pitting. As with other crops, the degree of chilling
+sensitivity is related to the temperature the fruit were previously exposed to in
+the field. Chilling can occur in the field before harvest and contribute to the
+sensitivity of the fruit to chilling after harvest. Fruit grown in a hot climate
+are more sensitive to chilling than are fruit grown in a cooler climate. Also,
+the temperature at harvest appears to influence the level of chilling sensitivity.
+Fruit harvested hot are more chilling sensitive than fruit harvested when cool.
+Pre-conditioning at low, non-chilling or high heat-shock temperatures have
+been used to increase tolerance of mature-green fruit to subsequent chilling.
+Holding fruit at elevated temperatures may induce the heat-shock response that
+is protective against subsequent chilling injury. However, the shortened shelf-
+life resulting from holding the fruit at 35°C must be offset by a greater exten-
+sion of storage life at what would have previously been chilling temperatures.
+      Attempts to increase chilling tolerance through conventional breeding
+have only slightly increased the chilling tolerance of commercial tomato cul-
+tivars (Venema et al., 2005; Rugkong et al., 2010). Chilling tolerance appears
+to be a multi-gene trait. The germplasm of resistant genotypes could be used to
+increase chilling tolerance of commercial cultivars. However, it has proved re-
+fractory to major improvements using traditional breeding to amplify existing
+genes related to chilling tolerance or to the introgression of genes from related
+species with greater chilling tolerance (e.g. Solanum peruvianum, S. hirsutum
+and S. chilense) (Venema et al., 2005). Over the past few decades, the main focus
+332                                 M.E. Saltveit
+
+
+of research has been on chilling-induced wilting and impaired photosynthetic
+efficiency of tomato plants; neither of which is of concern with harvested to-
+mato fruit. Genetic engineering has produced lines with significantly increased
+chilling tolerance, but their lack of consumer acceptance makes their commer-
+cial adaptation doubtful.
+      Attempts to dissect the physiological basis of chilling sensitivity has elim-
+inated some possibilities (e.g. membrane phase transition) but has failed to
+identify a critical physiological parameter that could be genetically manipu-
+lated to produce truly chilling-resistant tomato plants and fruit (Luengwilai
+et al., 2012a). Chilling does not uniformly affect genes associated with tomato
+fruit ripening; some are promoted, some repressed, and some are unaffected
+(Rugkong et al., 2011). Using postharvest treatments (e.g. heat-shock) that
+significantly alter the chilling sensitivity of genetically identical tissue could
+provide a means to dissect, through either genetic or metabolic profiling, the
+genetic and physiological events responsible for chilling sensitivity. When prop-
+erly done (Saltveit, 2002), the rate of ion leakage from aged excised tomato
+pericarp tissue into an isotonic aqueous solution (e.g. 0.2 M mannitol) is an
+excellent indicator of chilling-induced changes in membrane permeability
+(Saltveit, 2005). Other indicators of chilling-induced injury (e.g. enhanced
+respiration and ethylene production upon removal to warm temperatures; ab-
+normal colour development and softening; increased disease susceptibility)
+can be more variable and often require weeks to become obvious.
+      There is a diurnal variation in chilling tolerance that appears to be gov-
+erned by carbohydrate levels in tomato plants and by temperature-induced
+alteration in membrane composition in fruit (Saltveit and Cabrera, 1987).
+Exposure to elevated or near-chilling temperatures, i.e. temperature condi-
+tioning, can increase the chilling tolerance of harvested mature-green toma-
+toes (Saltveit, 2005). Since the onset of chilling injury symptoms appears to
+occur only after a certain duration of chilling (the duration being dependent
+on the chilling temperature, the cultivar, the growing conditions and any
+prior exposure to environmental stress), interrupting long-term storage at
+chilling temperatures with periods of warm non-chilling temperatures, so
+that each chilling interval never exceeds that required to induce chilling in-
+jury, will ameliorate the development of chilling injury symptoms (Biswas
+et al., 2012). This practice of intermittent warming suffers from two major
+drawbacks: increased energy costs to repeatedly warm and cool the fruit; and
+increased microbial growth if condensation occurs on the cool fruit as it is
+warmed by moist air.
+      Heat treatments can significantly increase chilling tolerance of harvested
+tomato fruit (Luengwilai et al., 2012b) but, since the effect is localized to the
+heated tissue and not systemic throughout the whole fruit (Lu et al., 2010),
+care must be taken to ensure that the heat treatment is uniformly applied to
+all fruit and to all portions of each fruit. While the exact optimal temperature
+and duration of exposure varies among cultivars and previous environmental
+                    Postharvest Biology and Handling of Tomatoes               333
+
+
+Table 10.3. Effect of temperature on quality and ripening of mature-green tomato
+fruit. (Kader, 1986.)
+
+                                     Days to table ripeness (stage 5)
+
+Ripeness stage    12.5°C     15.0°C        17.5°C      20.0°C      22.5°C   25.0°C
+
+Mature-green        18          15           12          10             8     7
+Breaker             16          13           10           8             6     5
+Turning             13          10            8           6             4     3
+Pink                10           8            6           4             3     2
+
+
+exposure, the heat-shock response is broad enough so that regional recom-
+mendations may be applicable to large production areas.
+     After ethylene treatment, the optimum transport and storage temperature
+is 12.5–15°C. Within these limits, ripening will be faster at higher temperat-
+ures (Table 10.3). Ripening of mature-green fruit will be uneven and abnormal
+below 10°C, while ripening may be too fast and decay more extensive above
+25°C. Since chilling injury of mature-green fruit primarily affects subsequent
+ripening, riper pink fruit are almost by definition more chilling resistant than
+mature-green fruit and can be stored at lower, near-chilling temperatures. The
+shipping temperature for pink tomatoes will depend largely on the number of
+days in transit and the degree of ripeness which the person receiving the fruit
+may desire.
+     High temperatures (e.g. 25–30°C) inhibit ripening. Fruit stored at these
+high temperatures turn orange instead of red, because lycopene synthesis is in-
+hibited above 30°C. Brief exposures of fruit on the plant to high temperatures,
+as during a hot day when shaded fruit may reach 30°C, are reversible with
+normal ripening proceeding at cool temperatures. A brief exposure to higher
+temperatures (e.g. exposure to the full sun) can cause permanent damage, cell
+death and sunscald. Exposure of harvested fruit to direct sunlight after harvest
+should be avoided by coverings and shading.
+
+
+CONTROLLED ATMOSPHERE
+
+Controlled and modified atmospheres are slightly beneficial during both transit
+and short-term storage but only as a supplement to proper temperature con-
+trol. Atmospheres containing 3–5% oxygen and 0–3% carbon dioxide extend
+storage by a few days at 12°C (Leshuk and Saltveit, 1990; Saltveit, 1997).
+Reduced oxygen levels reduce the respiration rate, the production of and sen-
+sitivity to ethylene, and ripening. Injury occurs at oxygen levels below 2% and
+carbon dioxide concentrations above 5%. However, these values must be ap-
+proached very cautiously. For example, elevated carbon dioxide atmospheres
+are problematic because atmospheres containing 2% or more carbon dioxide
+334                               M.E. Saltveit
+
+
+have caused increased softening and uneven ripening under some conditions.
+A controlled or modified atmosphere may be beneficial but only when used in
+conjunction with established postharvest management practices that have es-
+tablished and will maintain optimal temperature and humidity.
+     Unlike many other fruit in which gas diffusion takes places over the en-
+tire surface, gas diffusion in a tomato fruit occurs primarily through the stem
+scar. Any impediment to gas diffusion, such as the development of unusual
+amounts of corking on the stem scar or the application of excessive wax, can
+significantly alter the internal gas concentrations even in a constant ambient
+environment. The variable results reported for the storage of tomatoes under
+modified atmospheres may have resulted from the disparity between the im-
+posed ambient atmosphere and the internal atmosphere that developed as the
+result of diffusion, respiration and metabolism.
+     Modified atmosphere packaging can be used to produce atmospheres low
+in oxygen and high in carbon dioxide which slow ripening and extend the
+market life of tomato fruit. A semi-permeable plastic film is usually incorpor-
+ated into a more rigid package. The combination of gas diffusion through the
+film and the respiration of the tomato fruit produces and maintains a modified
+atmosphere. Changes in respiration resulting from ripening (i.e. the climac-
+teric) or changes in temperature can significantly alter the atmosphere in the
+package. Selecting fruit of the desired maturity and maintaining the package
+at the proper temperature are crucial. The semi-permeable films also allow
+ethylene to accumulate and the relative humidity to reach saturation. Elevated
+levels of ethylene can stimulate ripening and nullify the inhibitory effects of
+the modified atmosphere on ripening. While the high relative humidity within
+the package lessens water loss from the fruit, it also fosters microbial growth
+since fluctuations in the storage temperature can result in water condensation
+on the fruit within the package. Packets of absorbents that reduce ethylene and
+water vapour in the package are useful but they add cost to an already costly
+package.
+     Although an atmosphere containing 5–10% carbon monoxide will re-
+duce disease, its extreme toxicity has severely limited commercial application.
+Carbon monoxide has slight ethylene-like activity and will promote ripening of
+mature-green fruit held in air.
+
+
+SUMMARY
+
+Harvesting fruit at the proper maturity and careful handling during harvest,
+transport, packing and marketing will ensure that high-quality fruit reach the
+consumer. External colour changes are good indicators of the physiological
+maturity of the fruit of almost all tomato cultivars. Multiple picks by hand are
+common for fresh market fruit, while once-over mechanical harvesting is cus-
+tomary for processing tomatoes. Cultivars with genetically modified ripening
+                       Postharvest Biology and Handling of Tomatoes                     335
+
+
+behaviour have extended shelf-life but additional care may be needed to ensure
+that other quality attributes are also maintained after harvest. Application of
+about 100 ppm (μl/l) levels of ethylene can hasten and coordinate the ripening
+of mature-green fruit. Once fruit have reached the breaker stage, internally
+synthesized ethylene promotes its own synthesis and sustains ripening even
+when external ethylene levels are reduced to zero. Temperature management is
+crucial since temperatures below about 12°C cause chilling injury and temper-
+atures above about 25°C inhibit lycopene synthesis. Controlled atmospheres
+have some benefit in maintaining quality, but they are usually minimal com-
+pared with the benefits of avoiding physical injuries, and proper management
+of temperature, relative humidity and sanitation.
+
+
+
+REFERENCES
+
+Abbott, J.A., Lu, R., Upchurch, B.L. and Stroshine, R.L. (1997) Technologies for non-
+     destructive quality evaluation of fruits and vegetables. Horticultural Reviews 20,
+     1–120. doi: 10.1002/9780470650646.ch1.
+Biswas, P., East, A.R., Brecht, J.K., Hewett, E.W. and Heyes, J.A. (2012) Intermittent
+     warming during low temperature storage reduces tomato chilling injury. Postharvest
+     Biology and Technology 74, 71–78. doi: 10.1016/j.postharvbio.2012.07.002.
+Gupta, A., Pal, R.K. and Rajam, M.V. (2013) Delayed ripening and improved fruit
+     processing quality in tomato by RNAi-mediated silencing of three homologs of
+     1-aminopropane-1-carboxylate synthase gene. Journal of Plant Physiology 170,
+     987–995. doi: 10.1016/j.jplph.2013.02.003.
+Kader, A.A. (1986) Effect of postharvest handling procedures on tomato quality. Acta
+     Horticulturae 190, 209–221. doi: 10.17660/ActaHortic.1986.190.21.
+Klee, H.J. and Giovannoni, J.J. (2011) Genetics and control of tomato fruit ripening
+     and quality attributes. Annual Review of Genetics 45, 41–59. doi: 10.1146/
+     annurev-genet-110410-132507.
+Klee, H.J. and Tieman, D.M. (2013) Genetic challenges of flavor improvement in to-
+     mato. Trends in Genetics 29, 257–262. doi: 10.1016/j.tig.2012.12.003.
+Leshuk, J.A. and Saltveit, M.E. (1990) Controlled atmospheres and modified atmospheres
+     for the preservation of vegetables. In: Calderon, M. and Barkai-Golan, R. (eds) Food
+     Preservation by Modified Atmospheres. CRC Press, Boca Raton, Florida, pp. 315–352.
+Lu, J., Charles, M.T., Vigneault, C., Goyette, B. and Raghavan, G.S.V. (2010) Effect of
+     heat treatment uniformity on tomato ripening and chilling injury. Postharvest
+     Biology and Technology 56, 155–162. doi: 10.1016/j.postharvbio.2010.01.005.
+Luengwilai, K., Saltveit, M.E. and Beckles, D.M. (2012a) Metabolite content of harvested
+     Micro-Tom tomato (Solanum lycopersicum L.) fruit is altered by chilling and ­protective
+     heat-shock treatments as shown by GC–MS metabolic profiling. Postharvest Biology
+     and Technology 63, 116–122. doi: 10.1016/j.postharvbio.2011.05.014.
+Luengwilai, K., Beckles, D.M. and Saltveit, M.E. (2012b) Chilling-injury of harvested
+     tomato (Solanum lycopersicum L.) cv. Micro-Tom fruit is reduced by temperature
+     pre-treatment. Postharvest Biology and Technology 63, 123–128. doi: 10.1016/j.
+     postharvbio.2011.06.017.
+336                                    M.E. Saltveit
+
+
+Milczarek, R.R., Saltveit, M.E., Garvey, T.C. and McCarthy, M.J. (2009) Assessment of
+     tomato pericarp mechanical damage using multivariate analysis of magnetic res-
+     onance images. Postharvest Biology and Technology 52, 189–195. doi: 10.1016/j.
+     postharvbio.2009.01.002.
+Rugkong, A., Rose, J.K.C., Lee, S.J., Giovannoni, J.J., O’Neill, M.A. and Watkins, C.B.
+     (2010) Cell wall metabolism in cold-stored tomato fruit. Postharvest Biology and
+     Technology 57, 106–113. doi: 10.1016/j.postharvbio.2010.03.004.
+Rugkong, A., McQuinn, R., Giovannoni, J.J., Rose, J.K.C. and Watkins, C.B. (2011)
+     Expression of ripening-related genes in cold-stored tomato fruit. Postharvest Biology
+     and Technology 61, 1–14. doi: 10.1016/j.postharvbio.2011.02.009.
+Saltveit, M.E. (1997) A summary of CA and MA requirements and recommendations
+     for harvested vegetables. In: Seventh International Controlled Atmosphere Research
+     Conference. Volume 4: Vegetables and Ornamentals. Postharvest Horticulture Series 18.
+     University of California, Davis, pp. 98–117.
+Saltveit, M.E. (2002) The rate of ion leakage from chilling-sensitive tissue does not im-
+     mediately increase upon exposure to chilling temperatures. Postharvest Biology and
+     Technology 26, 295–304. doi: 10.1016/S0925-5214(02)00049-2.
+Saltveit, M.E. (2005) Influence of heat shocks on the kinetics of chilling-induced ion
+     leakage from tomato pericarp discs. Postharvest Biology and Technology 36, 87–92.
+     doi: 10.1016/j.postharvbio.2004.10.007.
+Saltveit, M.E. and Cabrera, R.M. (1987) Tomato fruit temperature before chilling influ-
+     ences ripening after chilling. HortScience 22, 452–454.
+Saltveit, M.E. and Sharaf, A.R. (1992) Ethanol inhibits ripening of tomato fruit har-
+     vested at various degrees of ripeness without affecting subsequent quality. Journal
+     of the American Society for Horticultural Science 117, 793–798.
+Sisler, E.C., Serek, M. and Dupille, E. (1996) Comparison of cyclopropene, 1-methylcy-
+     clopropene, and 3,3-dimethylcyclopropene as ethylene antagonists in plants. Plant
+     Growth Regulation 18, 169–174. doi: 10.1007/BF00024378.
+Stevens, M.A. (1994) Processing tomato breeding in the 90’s: a union of traditional
+     and molecular techniques. Acta Horticulturae 376, 23–34. doi: 10.17660/
+     ActaHortic.1994.376.1.
+Suslow, T.V. and Cantwell, M. (1997) Tomato: Recommendations for Maintaining
+     Postharvest Quality. Postharvest Technology Center. University of California, Davis,
+     California. Available at: http://postharvest.ucdavis.edu/Commodity_Resources/
+     Fact_Sheets/Datastores/Vegetables_English/?uid=36&ds=799 (accessed 23 March
+     2018).
+Venema, J.H., Linger, P., van Heusden, A.W., van Hasselt, P.R. and Bruggemann, W.
+     (2005) The inheritance of chilling tolerance in tomato (Lycopersicon spp.). Plant
+     Biology 7, 118–130. doi: 20.2055/s-2005-837495.
+Zamir, D., Grandillo, S. and Tanksley, S.D. (1999) Genes from wild species for the im-
+     provement of yield and quality of processing tomatoes. Acta Horticulturae 487,
+     285–288. doi: 10.17660/ActaHortic.1999.487.43.
+Zhang, Y., Butelli, E., De Stefano, R., Schoonbeek, H-j, Magusin, A. et al. (2013)
+     Anthocyanins double the shelf life of tomatoes by delaying overripening and redu-
+     cing susceptibility to gray mold. Current Biology 23, 1094–1100. doi: 10.1016/j.
+     cub.2013.04.072.

@@ -22,8 +22,6 @@
 - Time from flower to ripe fruit is set by temperature, not by fruit load, light, CO2, humidity, plant age or density. The countback is a temperature countback. (Ch3, p77-78)
 - Rule of thumb for one cultivar: about 940 degree-days above a 4°C base from anthesis to harvest-ripe. Fruit development rate rises linearly with temperature from 14°C to 26°C. (Ch3, p77)
 - Temperature sensitivity is highest in the first weeks after anthesis and drops later, but close to maturity extra warmth still speeds ripening. (Ch3, p77-78)
-- Severe water stress shortens the fruit growth period; fruit with blossom-end rot ripens 1 to 2 weeks early. (Ch3, p78)
-- Interplanting practice for the finishing crop: pinch the shoot tips, then strip leaves progressively, keeping only the top four leaves. (Ch9, p293)
 
 
 ## Fall light and what it can pay for

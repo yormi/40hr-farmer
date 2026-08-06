@@ -1,4 +1,4 @@
-# Domain — Plant Vigor (Month 2)
+# Vigor — the plant's energy pool and how it splits
 
 
 ## Model
@@ -66,4 +66,4 @@ Caliper is the stem Ø just below the youngest truss with an open flower (equiva
 ## Boundaries
 
 
-- Covers reading vigor off the head and the per-class caliper reference. The climate, irrigation, feeding, and pruning levers that move the split live in the Month 2 brainstorm source (`andrew-book-vigor-tips.md`), not here.
+- Covers reading vigor off the head and the per-class caliper reference. A single leaf's own carbon budget lives in [`leaf-energy.md`](leaf-energy.md). The climate, irrigation, feeding, and pruning levers that move the split live in the Month 2 brainstorm source (`andrew-book-vigor-tips.md`), not here.

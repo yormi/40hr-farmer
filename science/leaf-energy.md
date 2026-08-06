@@ -1,4 +1,4 @@
-# Domain — Greenhouse-tomato Playbook
+# Leaf energy — carbon balance of a single leaf
 
 
 ## Model
@@ -138,7 +138,7 @@
 
 - Covers one leaf's carbon budget: what it earns, what it costs, and its sign.
 
-- Where the exported sugar **goes** — the vegetative / generative split — lives in [`outline/2- July - Vigor/domain.md`](../outline/2-%20July%20-%20Vigor/domain.md).
+- Where the exported sugar **goes** — the vegetative / generative split — lives in [`vigor.md`](vigor.md).
 
 - Non-carbon reasons to remove a leaf (airflow, disease spread, nitrogen remobilization, access, transpiration load) are protocol matters, not part of this balance.
 

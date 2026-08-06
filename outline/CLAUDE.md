@@ -5,7 +5,7 @@ Outlines for 40hr Farmer program videos. 3 min ideal, 5 min max.
 ## Locations
 
 - Process (procedure, spec, scaffold, sources): `outline/process/`
-- Per-month outlines: `outline/<N>- <Month> - <Topic>/` — staged files (`01-brainstorm.md`, `02-video-cuts.md`, …) plus that month's source docs (`domain.md`, `andrew-*.md`).
+- Per-month outlines: `outline/<N>- <Month> - <Topic>/` — staged files (`01-brainstorm.md`, `02-video-cuts.md`, …) plus that month's source docs (`andrew-*.md`). Domain models live in `science/`, not in the month folder.
 - Template: `outline/process/template.md`
 
 Each stage file carries its own `Status:`. Flip it in place (`draft` → `locked`); files stay in the month folder.

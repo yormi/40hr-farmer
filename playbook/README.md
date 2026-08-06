@@ -20,8 +20,8 @@ name the core problem → **protocols** (the cards below) to fix it.
 Start here → [`method.md`](method.md). It's the spine; the cards
 below are what it calls.
 
-The shared model the cards reason against →
-[`domain.md`](domain.md).
+The cards say what to DO. Why it works — the model of the
+plant — lives in [`science/`](../science/README.md).
 
 
 ## Scouting — read the plant

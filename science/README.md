@@ -10,8 +10,12 @@ tells you to act, it belongs in a playbook card.
 
 | File | Covers |
 |---|---|
-| [vigor.md](vigor.md) | The plant's energy pool, the vegetative / generative split, reading it off the head, caliper bands by fruit class. |
-| [leaf-energy.md](leaf-energy.md) | One leaf's carbon budget: light interception, age, respiration, construction cost, net importer vs exporter, compensation depth. |
+| [vigor.md](vigor.md) | The energy pool, the vegetative / generative split, reading it off the head, caliper bands by fruit class. |
+| [leaf-energy.md](leaf-energy.md) | One leaf's carbon budget, canopy LAI optimum, net importer vs exporter, whether the sugar has a destination. |
+| [water.md](water.md) | Transpiration, VPD and air dryness, the stress ladder, irrigation drivers, root-zone salts. |
+| [climate.md](climate.md) | Temperature as the rate dial, the 24 h average, day/night split, cold limits, heat, air movement. |
+| [fruit.md](fruit.md) | Set and pollination, the two-week pollen lag, development stages, thermal time, fruit as sink, physical load. |
+| [disease.md](disease.md) | Leaf wetness and genetics as the two drivers, entry points, spread rates, realistic control ceilings. |
 
 
 ## Layout of a file

@@ -1,54 +1,40 @@
 # Leaf-quality check
 
-Greenhouse tomatoes. A naked-eye + forearm read of whether the
-leaves are a strong enough **engine.** More green leaf area →
-more sugar made.
+Hold a leaf along your forearm. Reads whether the leaf engine is
+big enough.
 
-Small leaves = weak engine: it takes ~**10 small leaves** to
-build the sugar of one normal 18-in leaf, and you'll never fit
-180 leaves on a plant — so foliar area falls short.
+Why → [`science/leaf-energy.md`](../../science/leaf-energy.md)
 
 
 ## When
 
-- Weekly, alongside the stem-vigor read.
-- Same sample plants.
+- Weekly, with the stem read. Same plants.
 
 
-## What a quality leaf looks like
+## A quality leaf
 
 - ~**18 in** long.
-- Extends **past the elbow** when held along your forearm.
+- Extends **past the elbow**.
 - **Deep green.**
 
 
-## Read the leaf
+## Read
 
 | Feel | Reads |
 |---|---|
-| 18 in, past the elbow, deep green | strong engine — hold |
-| Half the elbow-length | weak; need ~3x more leaves to compensate |
-| Short / small overall | weak engine → diagnose vigor |
-
-Short leaves are both a **symptom** of a weak plant and a
-**cause** of more weakness — they throw off sugar production,
-irrigation, and greenhouse temperature, all feeding back into
-vigor.
+| Past the elbow, deep green | strong — hold |
+| Half elbow-length | weak; need ~3× the count |
+| Short overall | weak engine → diagnose vigor |
 
 
-## Prune the dead weight
+## Count
 
-Leaves age like people: babies take more than they give, adults
-give more than they take, old ones flip back to taking.
-
-- Leaf **≥ 1/3 covered** by disease / damage → mostly dead
-  weight the plant still carries → **prune it.**
+- Target ~**18 quality leaves** per leader.
+- Short leaves don't count toward it.
+- `leaves = LAI / (stems_per_m² × 0.06)` if you steer by LAI.
 
 
-## To act on too-few / too-small leaves
+## To act
 
-This card is the READ — what a healthy leaf looks like and when
-quality has dropped. The FIX (the flag-leaf technique) lives in
-the pruning card:
-
-- `playbook/pruning/flag-leaves.md`
+- Too few or too small → [`pruning/flag-leaves.md`](../pruning/flag-leaves.md)
+- Short leaves as a symptom → diagnose vigor

@@ -1,47 +1,50 @@
 # Weekly disease scout
 
-Greenhouse tomatoes. The batched cull + spray session that
-runs the disease engine. Pairs with
-[`disease/disease-control.md`](../disease/disease-control.md).
+Batched cull + spray planning session. Runs the engine in
+[`disease-control.md`](disease-control.md).
 
-Late blight never waits for this session. See it → whole plant
-out on sight.
+Why → [`science/disease.md`](../../science/disease.md)
+
+Late blight never waits for this session.
 
 
 ## Cadence
 
-- **Continuous** — Pruning team flags on sight. Red for suspected late blight + radio grenhouse manager. Blue for all the others.
-- **Weekly** — scout + cull + plan spray.
+- **Continuous** — pruning team flags on sight. Red = suspected
+  late blight, radio the manager. Blue = everything else.
+- **Weekly** — scout, cull, plan spray.
 
 
 ## When
 
-- Once a week, fixed day, fixed hours. Make it a routine.
-- In the morning to help culling wound to dry before the night
-- Do it just before the weekly check-in.
+- Once a week, fixed day, fixed hours.
+- Morning, so culling wounds dry before night.
+- Just before the weekly check-in.
 
 
 ## Who
 
 - Greenhouse manager. Trained eye.
-- Pruners feed flags all week → detect, don't diagnose.
+- Pruners feed flags all week. Detect, don't diagnose.
 
 
-## The pass
+## The pass — per flag
 
-For each flag 
+1. Diagnose → [`identify-disease.md`](identify-disease.md)
 
-1. Diagnose disease
+2. Cull:
 
-2. Cull according to disease
-    - Late blight, sclerotinia: Whole plant
-    - Early blight, botrytis, leaf mold: Infected leaves, fruits and carve stem
-    - Powdery mildew, bacterial spot: Leave it there
+| Disease | Remove |
+|---|---|
+| Late blight, sclerotinia | whole plant |
+| Early blight, botrytis, leaf mold | infected leaves, fruit; carve stem |
+| Powdery mildew, bacterial spot | leave it |
 
-3. If needed, plan spray for the next available morning
-    - Before 10am
-    - When the greenhouse will be below 85'F -> Toxic under heat
-    - With no condensation on leaves -> Reduces spray efficiency
-    - Plan that you can't enter the greenhouse for a 24h -> Health reason (okay to skip pollination for a day)
+3. If needed, plan spray for the next available morning:
+   - Before 10am
+   - House below 85 °F
+   - No condensation on leaves
+   - House closed 24 h afterwards (skipping pollination one day
+     is fine)
 
-4. Remove flag
+4. Remove the flag.

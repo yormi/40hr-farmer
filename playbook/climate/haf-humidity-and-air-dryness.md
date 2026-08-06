@@ -1,52 +1,45 @@
 # HAF fans and air dryness
 
-Greenhouse tomatoes. Managing air that gets too dry, using
-horizontal air-flow (HAF) fans.
+When to stop and start horizontal air-flow fans.
 
-The heat problem is really an **air-dryness** problem: air too
-dry → plant transpires hard → roots can't keep up → growth
-stops → stem thins → yield drops.
+Why → [`science/climate.md`](../../science/climate.md) ·
+[`science/water.md`](../../science/water.md)
 
 
-## "Too dry" moves with temperature
-
-Warmer air holds more water, so the same RH is drier when it's
-hot. This is VPD — a "feels-like" for the plant.
+## Too dry — the threshold moves with temperature
 
 | Air temp | Too dry at about |
 |---|---|
-| 65°F | 55% RH |
-| 90°F | 75% RH |
+| 65 °F | 55 % RH |
+| 90 °F | 75 % RH |
+
+Working band: 3 to 7 g/m³ (0.4 to 0.95 kPa VPD).
 
 
-## The HAF rule
+## The rule
 
-HAF fans dry the canopy. Ideal rule — **only stop HAF when
-both**:
+Stop HAF only when **both**:
 
 - It's too dry, **and**
 - Vents are open.
 
-Vents shut + HAF stopped → CO2 stalls in the canopy → growth
-stops. So keep HAF running whenever vents are closed.
+Vents shut → keep HAF running, always.
 
 
-## Manual rule — no automation
+## Manual fallback — no automation
 
-- Stop HAF **above 80°F**.
-- Restart at **night** → keeps the canopy from sitting wet
-  (disease).
+- Stop HAF above **80 °F**.
+- Restart at **night**.
 
 
-## Where to catch it early
+## Catch it early
 
-- Train staff to check leaves for **cupping / rolling** right
-  before lunch, on the pollination pass.
-- Cupping = early warning that air demand is winning.
-- See `playbook/scouting/midday-leaf-cupping.md`.
+- Staff check leaves for cupping / rolling before lunch, on the
+  pollination pass.
+- → [`scouting/midday-leaf-cupping.md`](../scouting/midday-leaf-cupping.md)
 
 
 ## Orisha shortcut
 
 Plug the HAFs into Orisha → stop/start on dryness plus vent
-state happens automatically.
+state runs automatically.

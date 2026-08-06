@@ -1,18 +1,13 @@
 # Identify late blight
 
-Name it at scouting, fast enough to act on sight.
+Name it fast enough to act on sight.
 
-Late blight moves 1 day plant-to-plant, ahead of its own
-symptoms. 
-
-## Why
-
-- Missing late blight can costs the house.
+Why → [`science/disease.md`](../../science/disease.md)
 
 
 ## Who
 
-- Everyone working in the tomatoes
+- Everyone working in the tomatoes.
 
 
 ## When
@@ -21,22 +16,22 @@ symptoms.
 - Act **on sight**, not at the next session.
 
 
-## What to do
+## The call
 
-You see a *greasy blotch?*
+See a **greasy blotch**?
 
-- Is there a *target/rings pattern inside it?*
-    - No rings → **late blight** → Flag it with red + Radio greenhouse manager
-    - Rings → early blight (lower leaves) → flag it with blue
+| Target rings inside it? | Then |
+|---|---|
+| No rings | **late blight** → red flag + radio the manager |
+| Rings, lower leaves | early blight → blue flag |
+| Unsure | treat as late blight |
 
-- Unsure → treat as late blight.
 
-
-## What a late-blight blotch looks like
+## What it looks like
 
 | Where | Sign |
 |---|---|
-| Leaf | Water-soaked grey-brown patch, **blurry** edge, no rings. |
-| Leaf underside | White fuzzy fringe in humid air. |
-| Stem | Dark brown-black streaks. |
-| Green fruit | Firm greasy brown patches. |
+| Leaf | water-soaked grey-brown patch, **blurry** edge, no rings |
+| Leaf underside | white fuzzy fringe in humid air |
+| Stem | dark brown-black streaks |
+| Green fruit | firm greasy brown patches |

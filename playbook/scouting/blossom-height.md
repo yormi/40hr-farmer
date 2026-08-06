@@ -1,56 +1,46 @@
 # Blossom-height read
 
-Greenhouse tomatoes. A naked-eye read of how far the highest
-open flower sits below the growing tip. Tells you the plant's
-**generative vs vegetative** balance.
+Distance from the highest open flower up to the growing tip.
+Reads the vegetative / generative balance.
 
-This is a **lever for vigor, not vigor itself.** It confirms a
-trend — blossom height **lags 1-2 weeks** behind today's changes.
+Why → [`science/vigor.md`](../../science/vigor.md)
 
 
 ## When
 
-- Weekly, alongside the stem-vigor read.
-- Same sample plants.
+- Weekly, with the stem read. Same plants.
+- Lags 1 to 2 weeks behind any change you make.
 
 
-## What to measure
+## Measure
 
-- Highest **open** flower cluster.
-- Distance from it **up to the growing tip.**
+- Highest **open** flower cluster → up to the growing tip.
 
 
-## Read the height
+## Read
 
-| Open flower sits… | Reads |
+| Distance | Reads |
 |---|---|
-| 5-7 in below tip | balanced |
-| at the tip / under ~5 in | generative or too dry |
-| over 7 in below tip | too vegetative or too wet |
+| 5 to 7 in | balanced |
+| under ~5 in, or at the tip | generative, or too dry |
+| over 7 in | too vegetative, or too wet |
 
 
-## Read the look — cross-check the number
+## Cross-check the look
 
 | Sign | Reads |
 |---|---|
-| Long dark leaves, trusses point straight up, fat head | vegetative |
-| Thinner head, short arching trusses, flowers near tip | generative |
+| Long dark leaves, trusses straight up, fat head | vegetative |
+| Thin head, short arching trusses, flowers near tip | generative |
 
 
-## Stop — extreme generative warning
+## Stop
 
-- **Mature / large fruit sitting only 2-3 in from the head** →
-  plant is micro-tiny and starving itself. Severe. Stack
-  vegetative levers now.
+- **Mature fruit within 2 to 3 in of the head** → severe
+  generative. Stack vegetative levers now.
 
 
-## To act on this read
+## To act
 
-Blossom height is the READ. Move the balance with the levers,
-then re-read next week (it lags 1–2 weeks):
-
-- Climate
-- Irrigation
-- Pruning
-- Feeding
-- Fruit load
+Move the balance with climate, irrigation, pruning, feeding, or
+fruit load. Re-read next week.

@@ -9,6 +9,8 @@ How to think about running the crop. Three layers:
 A mindset tells you *why* you're at the plant. Diagnostics find
 *what's* wrong. Protocols say *what to do.*
 
+Why any of it works → [`science/`](../science/README.md).
+
 
 ---
 
@@ -97,7 +99,7 @@ Let the plant point at the bottleneck.
 |---|---|
 | Low fruit load | blossom-height |
 | Vigor | stem-vigor-weekly, blossom-height, leaf-quality-check, midday-leaf-cupping, slurry-ec-test |
-| Disease | *cards not yet built (month 3)* |
+| Disease | weekly-scout, identify-disease |
 | Uniformity | *cards not yet built* |
 
 
@@ -127,7 +129,7 @@ before adjusting anything; then you adjust one lever at a time.
 |---|---|
 | Low fruit load | fruit-thinning, pollen-and-heat, trellis-wire-strength |
 | Vigor | average-temperature-steering, heatwave-water-bump, flag-leaves, heat-last-resort |
-| Disease | *cards not yet built (month 3)* |
+| Disease | weekly-scout, identify-disease |
 | Uniformity | *cards not yet built* |
 
 

@@ -1,100 +1,79 @@
-# Midday leaf-cupping scouting
+# Midday leaf-cupping scout
 
-Greenhouse tomatoes. A daily naked-eye check that uses upward
-leaf cupping as an early tripwire for water-balance stress.
+Daily naked-eye check for water-balance stress.
 
-Cupping is an **early, reversible** signal: caught at first
-appearance, the stress is mild and no damage has happened.
+Why → [`science/water.md`](../../science/water.md)
 
 
 ## When
 
-- Once a day, at the **midday sun peak** (strongest light, hottest hour).
-- Same time each day → comparison only works against a baseline.
+- Once a day at the **midday sun peak**. Same time each day.
 
 
-## What to look at
+## Where
 
-- **Upper / younger leaves near the head.** React first, cleanest signal.
-- Same plants each day.
-- Scan whether it's **house-wide and even** vs **patchy**.
+- Upper / younger leaves near the head. Same plants.
+- Note whether it's house-wide or patchy.
 
 
-## The signal — confirmed cup
+## The signal
 
 ![Confirmed abiotic leaf cup](midday-leaf-cupping-example.jpg)
 
-Leaf margins roll **upward** into a trough. Leaf stays **deep
-green, turgid, undistorted.**
+Margins roll **upward**. Leaf stays deep green, turgid,
+undistorted.
 
 | See | Read |
 |---|---|
-| Margins cup up, green, normal shape | Water-balance roll. Proceed. |
-| Eases by evening | Confirmed midday demand stress. |
-| House-wide, even | Environment (heat / VPD / irrigation / EC). |
-| Patchy by bed or input batch | Check that bed's water / feed. |
-
-
-## Severity ladder
-
-Where cupping sits, and what's next if the stress holds.
-
-| Rung | Sign | State |
-|---|---|---|
-| 1. Stomata shut | leaf not cooler than air (touch test) | invisible |
-| 2a. Cupping | margins cup upward, green, normal shape | mild, reversible |
-| 2b. Rolling | leaflets roll lengthwise into tubes toward midvein | moderate, reversible |
-| 3. Wilting | turgor gone, canopy droops | severe |
-| 4. Scorch | dead leaf margins | damage done |
-
-Touch test catches rung 1 before the eye sees anything.
-Cupping (2a) and rolling (2b) are one response worsening, not
-two diagnoses. Caught at either, leaves recover once the lever
-is fixed; prolonged rolling may not unroll but new growth comes
-clean.
-
-Roll-up reference — rung 2b, leaflets curled into tubes:
+| Cupped, green, normal shape | water-balance roll |
+| Eases by evening | confirmed midday demand stress |
+| House-wide, even | environment |
+| Patchy by bed or batch | that bed's water or feed |
 
 ![Leaflets rolled into tubes, rung 2b](midday-leaf-cupping-rollup.webp)
 
 
-## Stop — not this protocol
+## Ladder
 
-- **Twisted / fern-shaped / distorted tip** → herbicide, mites, or boron.
-- **Mottled / yellow / shoestring** → virus.
-- **Bronzed brittle cupped tip** → broad / russet mites.
+| Rung | Sign |
+|---|---|
+| 1 | leaf not cooler than air (touch test) |
+| 2a | margins cup upward |
+| 2b | leaflets roll into tubes |
+| 3 | canopy droops |
+| 4 | dead leaf margins |
 
-These are not water balance. Different diagnosis.
+
+## Not this protocol
+
+| See | Cause |
+|---|---|
+| Twisted, fern-shaped, distorted tip | herbicide, mites, boron |
+| Mottled, yellow, shoestring | virus |
+| Bronzed brittle cupped tip | broad / russet mites |
+| Hard roll at **dawn**, leaf hydrated | carbohydrate buildup |
 
 
 ## On a confirmed cup — check cheapest first
 
-1. **Leaf / head warmth** at midday → hot = stomata already shut.
-2. **House temp + vents** → spiking past ~28-30°C? vents opening on time?
-3. **Irrigation rhythm** → even and frequent, or dry spell then flood?
-4. **Runoff EC** → above target / rising = salts at the root.
+1. Leaf / head warmth at midday (touch test).
+2. House temp + vent timing. Spiking past 28 to 30 °C?
+3. Irrigation rhythm. Even, or dry spell then flood?
+4. Runoff EC. Above target or rising?
 
 
 ## Act on the lever that's off
 
-- **Heat** → shade / vent / cool earlier. Don't over-prune in hot weeks.
-- **Irrigation** → smaller, more frequent shots; kill dry spells.
-- **EC** → lower feed EC, flush until runoff EC drops.
+| Off | Do |
+|---|---|
+| Heat | shade / vent / cool earlier; don't over-prune |
+| Irrigation | smaller, more frequent shots; kill dry spells |
+| EC | lower feed EC, flush until runoff EC drops |
 
 
 ## Escalate
 
-Cupping itself = mild. The alarm signs are different:
-
-- Wilt that does **not** recover overnight.
+- Wilt that does not recover overnight.
 - Blossom-end rot.
-- Flower / small-fruit abortion.
+- Flower or small-fruit abortion.
 - Growing-point damage.
-
-
-## Note — the dawn exception
-
-Hard leaf roll at **dawn**, leaf otherwise fully hydrated,
-following a heavy prune or cold night = **carbohydrate
-buildup**, not water. Not this protocol. This card is the
-midday water-balance check only.

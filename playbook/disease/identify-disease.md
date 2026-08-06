@@ -1,50 +1,45 @@
 # Identify the disease
 
-Greenhouse tomatoes. The manager's naked-eye key to name any
-disease.
+The manager's naked-eye key. Everything except late blight waits
+for the weekly walk.
 
-Late blight is the crew's on-sight call — see
-`identify-late-blight.md`. Everything else waits for the weekly
-walk and this key.
+Why → [`science/disease.md`](../../science/disease.md)
+
+Crew-level late-blight call → [`identify-late-blight.md`](identify-late-blight.md)
 
 
-## The key
+## 1. Greasy, no target rings?
 
-**1. Greasy, no target/ring pattern?**
-
-It's late blight. **Treat right away!**
+**Late blight. Act now.**
 
 | Where | Sign |
 |---|---|
-| Leaf | Water-soaked grey-brown patch, **blurry** edge, no rings. |
-| Leaf underside | White fuzzy fringe in humid air. |
-| Stem | Dark brown-black streaks. |
-| Green fruit | Firm greasy brown patches. |
+| Leaf | water-soaked grey-brown patch, **blurry** edge, no rings |
+| Leaf underside | white fuzzy fringe in humid air |
+| Stem | dark brown-black streaks |
+| Green fruit | firm greasy brown patches |
+
+Unsure → treat as late blight.
 
 
-*Unsure*? Treat it as late blight anyway. We can't allow to miss it.
-
-
-**2. Not Late Blight — Fuzz or powder?**
-
-| See | Where | Disease |
-|---|---|---|
-| White powder, dusty, rubs off | Top of leaf | Powdery mildew |
-| Olive-brown fuzz, yellow blotch on top | Leaf underside | Leaf mold |
-| Grey fuzz on rotting tissue, ghost rings on fruit | Dying leaf, fruit, stem | Botrytis |
-| White cotton, hard black bits in stem, plant wilts | Stem, whole plant | Sclerotinia |
-
-
-
-**3. No fuzz — just spots?**
+## 2. Fuzz or powder?
 
 | See | Where | Disease |
 |---|---|---|
-| Dark spots, target rings, yellow halo | Lower / older leaves | Early blight |
-| Small dark scabby raised spots | Fruit + leaves | Bacterial spot |
+| White powder, rubs off | top of leaf | powdery mildew |
+| Olive-brown fuzz, yellow blotch on top | leaf underside | leaf mold |
+| Grey fuzz on rotting tissue, ghost rings on fruit | dying leaf, fruit, stem | botrytis |
+| White cotton, hard black bits in stem, plant wilts | stem, whole plant | sclerotinia |
+
+
+## 3. Just spots?
+
+| See | Where | Disease |
+|---|---|---|
+| Dark spots, target rings, yellow halo | lower / older leaves | early blight |
+| Small dark scabby raised spots | fruit + leaves | bacterial spot |
 
 
 ## To act
 
-- Named it → run its block in
-  `playbook/disease/disease-control.md`.
+- Named it → run its block in [`disease-control.md`](disease-control.md).

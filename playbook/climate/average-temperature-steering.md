@@ -1,75 +1,61 @@
 # Average-temperature steering
 
-Greenhouse tomatoes. Temperature is the crop's speed dial: it
-sets how fast the plant grows. Also the first-aid move when the
-weekly stem read comes up thin.
+Set the 24-hour weighted average. The crop's speed dial, and
+first aid for a thin stem.
 
-What matters is the **24-hour weighted average**, not instant
-spikes. Spikes stress the plant; they don't tank vigor. The
-average is the number to steer by.
+Why → [`science/climate.md`](../../science/climate.md)
 
 
-## Set the sensor right first
+## Set the sensor first
 
-- One badly placed sensor overstates temperature and throws
-  every decision after it.
-- Put it in a **representative canopy** spot.
-- Away from heaters, vents, and sun-hit surfaces.
+- Representative canopy spot.
+- Away from heaters, vents, sun-hit surfaces.
 
 
-## What sets the target average
+## Set the target average
 
-- **Fruit load** — more clusters → run **cooler**.
-- **Light** — more light the plants get → run warmer.
-- Drifts daily: cloud cover, daylight length, season sun
-  strength, dirty plastic all move it.
-- **Cloudy day** → drop toward **63°F**. Warmth without light
-  grows weak, leggy stems.
+| Input | Move target |
+|---|---|
+| More clusters carried | cooler |
+| More light | warmer |
+| Cloudy day | toward **63 °F** |
+
+Re-check daily: cloud cover, day length, seasonal sun, plastic
+cleanliness all move it.
 
 
-## Day vs night split
+## Day / night split
 
 | Profile | Pushes |
 |---|---|
-| Flat day-to-night | vegetative growth |
-| Wide day-to-night gap | energy into fruit |
+| Flat | vegetative |
+| Wide gap | fruit |
 
 
-## First aid — thin stem on the weekly read
+## First aid — thin stem
 
-Trigger: `playbook/scouting/stem-vigor-weekly.md` comes up
-thinner than an AA battery.
+Trigger: [`scouting/stem-vigor-weekly.md`](../scouting/stem-vigor-weekly.md)
+reads thinner than an AA battery.
 
-- **Lower the average** → slows growth, stabilizes the plant
-  while you diagnose the real bottleneck.
-- This is a **patch, not a fix**. You trade some yield to keep
-  the plant productive long-term.
-- Fix the root cause. Once the stem is back past AA-thick,
-  raise temperature again.
+1. Lower the average. Night and day, no more than **5 °F** at a
+   time. Colder nights are often the fix.
+2. Diagnose and fix the real bottleneck.
+3. Stem back past AA → raise the average again.
 
-How to lower:
-
-- Drop **night and day**, no more than **5°F** at a time.
-- Colder nights are often the fix.
-- Stem gets fatter than AA → move it back up.
+Holding action. You trade yield for stability.
 
 
-## Floor — do not correct below this
+## Floor
 
-- **55°F** is the floor for average correction. Below it,
-  pollen and fruit-quality problems start (abortion,
-  catfacing).
-
-Reference floors worth knowing:
+- **55 °F** — do not correct below this.
 
 | Below | Risk |
 |---|---|
-| 60°F | abnormal flowers, pollen failure, blossom drop |
-| 50°F | serious setbacks: catfacing, fused fruit, zippering |
+| 60 °F | abnormal flowers, pollen failure, blossom drop |
+| 50 °F | catfacing, fused fruit, zippering |
 
 
 ## Orisha shortcut
 
-The Consultant gives 6 target temps (Sunny / Partly / Cloudy ×
-day / night) from your cluster count plus a vigor slider. Start
-there, adjust.
+The Consultant returns 6 target temps (Sunny / Partly / Cloudy ×
+day / night) from cluster count plus a vigor slider.

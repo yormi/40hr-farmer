@@ -1,73 +1,59 @@
 # Weekly leaf-and-sucker prune
 
-Greenhouse tomatoes. The once-a-week routine per leader: hold
-~18 quality leaves, snap suckers on time, pull dead leaves.
+Per leader, once a week: hold ~18 quality leaves, snap suckers,
+pull dead leaves.
 
-A skipped week is **invisible** — no visible damage, so it's the
-first job dropped when busy. It quietly caps sales. Consistency
-beats intensity here.
+Why → [`science/leaf-energy.md`](../../science/leaf-energy.md)
+
+After topping, use
+[`post-topping-drawdown.md`](post-topping-drawdown.md) instead.
 
 
 ## When
 
 - Once a week, every leader. Don't skip.
-- **Prune in the morning** — plants snappy, breaks clean.
-- **Start after the plants are transpiring**, not at first light.
-- **Stop early enough that wounds dry before dark.**
-- **Never on a wet, non-transpiring plant** — root pressure pushes a
-  droplet out of the wound, the droplet catches botrytis spores, the
-  plant pulls it back in.
-- Trellis / lower in the **afternoon** — plants floppy.
-- Tomatoes first. Nothing else on the farm before they're done.
+- **Morning**, after plants are transpiring, not at first light.
+- Stop early enough that wounds dry before dark.
+- **Never on a wet, non-transpiring plant.**
+- Trellis / lower in the **afternoon**.
+- Tomatoes before anything else on the farm.
 
 
-## Alway
+## Always
 
-- If you see a disease, flag location on the plant + the stem with a long tail visible in the alley.
-
-## The target — ~18 quality leaves per leader
-
-- **Quality leaf** — ~18 in long, extends past the elbow along
-  your forearm, deep green. Only these count toward 18.
-- Small / short leaves don't count → see the flag-leaf card.
+- See a disease → flag the location on the plant and the stem,
+  long tail visible in the alley. Red for suspected late blight
+  → radio the manager. Blue for everything else.
 
 
-## Suckers — snap by hand, on time
+## Leaves — hold ~18 quality
 
-- Snap by hand, once a week.
-- **Late sucker** — grows as big as the main stem, steals its
-  energy. Never let one run.
+- **Quality leaf** — ~18 in, past the elbow, deep green. Only
+  these count.
+- Short leaves don't count → [`flag-leaves.md`](flag-leaves.md).
+- Pull leaves **≥ 1/3 covered** by disease or damage.
 
 
-## Dead and damaged leaves — pull them
+## Suckers
 
-- **~1/3 covered or more** — dead weight the plant still carries
-  → prune it.
-- Disease, deficiency, pests each cut a leaf's efficiency. More
-  green = more sugar.
+- Snap by hand, weekly.
+- Never let one run to main-stem size.
 
 
 ## Leaf count as a steering lever
 
-| Keep… | Energy goes | Use when |
+| Keep… | Balance | Use when |
 |---|---|---|
-| more leaves | to leaves (vegetative) | plant needs vigor |
+| more leaves | vegetative | plant needs vigor |
 | ~18 | balanced | on target |
-| harder prune | to fruit (generative) | crop started too vegetative |
+| harder prune | generative | crop started too vegetative |
 
 - **Generative trick** — pull the leaf directly opposite a young
-  flower cluster → pushes energy to that cluster.
+  flower cluster.
 
 
-## Why late pruning compounds
+## Stop
 
-- Older leaves respire more → worse the hotter it is.
-- Foliar area drives water need → late prune throws off
-  irrigation.
-- Every late week feeds energy into growth you don't want.
-
-
-## Ceiling — more isn't always better
-
-- Too many leaves → wilting (seen on Antoine's cucumbers).
-- Hold the count; don't bank leaves past target.
+- Don't bank leaves past target. Too many → wilting.
+- Don't skip a week. A late prune throws off irrigation and
+  feeds growth you don't want.

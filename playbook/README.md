@@ -7,6 +7,10 @@ Every card is **manual-first**: runnable with no sensors and no
 app (hand-feel, naked eye, an AA battery, an $80 EC pen). Orisha
 / the Consultant app appears only as the automated shortcut.
 
+Cards hold **actions only** — when, who, steps, thresholds,
+stop rules. The model behind them lives in
+[`science/`](../science/README.md); each card links to its file.
+
 First-draft status: distilled from the June (Fruit Load) and
 July (Vigor) program outlines. Not yet field-reviewed.
 
@@ -33,7 +37,7 @@ plant — lives in [`science/`](../science/README.md).
 | [leaf-quality-check](scouting/leaf-quality-check.md) | Is the leaf engine strong enough. |
 | [midday-leaf-cupping](scouting/midday-leaf-cupping.md) | Early water-balance stress tripwire. |
 | [slurry-ec-test](scouting/slurry-ec-test.md) | Root-zone salts, 1:1 slurry EC. |
-| [weekly-disease-scout](scouting/weekly-disease-scout.md) | Batched cull + spray session that runs the disease engine. |
+| [weekly-scout](disease/weekly-scout.md) | Batched cull + spray session that runs the disease engine. |
 
 
 ## Climate

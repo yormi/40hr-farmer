@@ -1,82 +1,60 @@
-# Irrigation baseline plan — how much, how often
+# Irrigation baseline plan
 
-Greenhouse tomatoes. Sets the day's base water amount and
-frequency. This is the **silent yield killer**: both errors
-run invisible until the damage is done.
+Set the day's base water amount and frequency.
 
-Water is about **performance, not survival.** Transpiration
-is the plant's internal AC — it must run all day. The moment
-it stops, internal temp climbs, pollen takes a hit, and
-photosynthesis stops → stem diameter visibly thins within a
-week.
+Why → [`science/water.md`](../../science/water.md)
 
 
-## Both errors are invisible
+## Set it
 
-| Error | Chain | Cost |
-|---|---|---|
-| Too much | roots suffocate → root disease | stunted, pale; weeks lost, unseen |
-| Too little | photosynthesis stops → wilt | hours of growth lost; stem thins in a week |
-
-
-## Water need is a moving target
-
-Most people only adjust sunny vs cloudy. It also moves with:
-
-- **Daylight length** — longer day, more water.
-- **Sun strength** — summer sun stronger than winter.
-- **Plant maturity** — July fruiting plant drinks like an
-  athlete; May seedling sips.
-- **Foliar area** — leaf count + size. 6-in leaves need
-  ~90% less water than 18-in ones.
-- **Soil type.**
-- **System flow rate.**
-- **Emitter size + pressure** — wrong emitter → irrigate 4×
-  too much.
+1. Start from a calculator for base amount + frequency.
+2. As the crop matures, update **leaf count**.
+3. Hand-feel the soil to confirm you're not over-watering.
+4. Tweak duration **10 to 30 %** at a time. Lean dry.
 
 
-## Pattern lever — where the energy goes
+## Inputs that move the number
 
-| Pattern | Energy → | Balance |
-|---|---|---|
-| Many small, even waterings | leaf | vegetative |
-| Fewer, larger, longer overnight dry-down | fruit | generative |
+- Daylight length
+- Sun strength
+- Plant maturity
+- Foliar area (leaf count × leaf length)
+- Soil type
+- System flow rate
+- Emitter size + pressure
+
+
+## Pattern lever
+
+| Pattern | Balance |
+|---|---|
+| Many small, even waterings | vegetative |
+| Fewer, larger, overnight dry-down | generative |
 
 
 ## Rules that hold
 
-- Last irrigation finishes **hours before sunset.**
-- A shot under **~2 min** only fills the drip tape — useless
-  below that.
-- **Match water to foliar area** — consistent pruning and
-  leaf length matter.
-- **Two leaders** need stronger roots than one.
+- Last irrigation finishes **hours before sunset**.
+- A shot under **~2 min** only fills the drip tape.
+- Match water to foliar area.
+- Two leaders need stronger roots than one.
 
 
 ## Field checks — no sensors
 
-- **Touch test** — in the sun, a working leaf feels *cooler*
-  than the air. If it doesn't, the plant has stopped
-  transpiring and growth has stalled.
-- **Mid-bed vs bed-ends** — plants mid-bed growing worse than
-  plants at the ends (ends drain better) → you're
-  over-watering.
+| Check | Reads |
+|---|---|
+| Leaf cooler than air in the sun (touch) | transpiring; if not, growth has stalled |
+| Mid-bed plants worse than bed-end plants | over-watering |
 
 
-## Set it, then adjust
+## Delegate
 
-1. Start from a calculator for the base amount + frequency.
-2. As the crop matures, mostly just update leaf count.
-3. Read the soil by hand-feel to confirm you're not
-   over-watering.
-4. Tweak duration **10–30%** at a time. Lean dry — we tend
-   to keep it too humid.
-
-Delegating the daily run to greenhouse staff is fine once the
-base plan and leaf-count rule are set.
+Daily run goes to greenhouse staff once the base plan and the
+leaf-count rule are set.
 
 
 ## Orisha shortcut
 
-The calculator/automation encodes daylight, maturity, soil,
-and heat-wave math — you only select leaf count.
+The calculator encodes daylight, maturity, soil, and heat-wave
+math. You select leaf count.

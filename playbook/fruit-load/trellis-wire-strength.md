@@ -1,28 +1,27 @@
-# Trellis wire strength — hold the full load
+# Trellis wire strength
 
-Greenhouse tomatoes. The trellis prerequisite before you dial in
-fruit load. A full load is **heavy**: at perfect fruit load one
-wire supports over **2,500 lb**, and a bed can hold ~**4,600 lb**
-of fruit at once.
+Prerequisite before dialling in fruit load.
+
+Why → [`science/fruit.md`](../../science/fruit.md)
 
 
-## Use wire strong enough
+## Spec
 
-- **~1/8 in wire (about gauge 9).**
-- Drew's tie-wrap-attached wires broke under full load.
+- **~1/8 in wire, about gauge 9.**
+
+At perfect fruit load: one wire carries over **2,500 lb**; a bed
+holds ~**4,600 lb** at once.
 
 
 ## Not strong enough for peak load
 
-Treat these as failing under a real fruit load:
+- Qlipr-type systems
+- Wrap-around / roll systems
+- Jute twine
+- Compostable clips and twine
+- Tie-wrap-attached wires (broke on Drew's under full load)
 
-- Qlipr-type systems.
-- Wrap-around / roll systems.
-- Jute twine.
-- Compostable clips / twine.
 
+## Stop
 
-## Prerequisite
-
-Dial in fruit load **only after** the trellis can actually hold
-it → or it comes down mid-season.
+- Dial in fruit load **only after** the trellis holds it.

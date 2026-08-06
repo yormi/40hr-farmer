@@ -1,31 +1,26 @@
-# Heat-wave water bump — +30%, then revert
+# Heat-wave water bump
 
-Greenhouse tomatoes. A temporary override on the baseline
-plan for peak heat. Under strong sun, **lack of water is the
-most common reason plants go weak — and it's invisible.**
+Temporary override on the baseline plan for peak heat.
 
-The bump keeps transpiration (the plant's cooling + sugar
-factory) running through the peak.
+Why → [`science/water.md`](../../science/water.md)
 
 
-## When
+## Trigger
 
-- Greenhouse temp climbs above **~85°F** (e.g. a 95°F day).
+- Greenhouse above **~85 °F**.
 
 
 ## The rule
 
 | State | Water |
 |---|---|
-| House > ~85°F | baseline **+30%** |
+| House > ~85 °F | baseline **+30 %** |
 | Heat breaks | revert to baseline immediately |
 
 
-## Revert warning
+## Stop
 
-Revert the moment the heat breaks. Leaving the +30% on →
-fruit splitting and feeds disease.
-
-This **stacks on** the baseline plan
-(`playbook/irrigation/irrigation-baseline-plan.md`). It's a
-temporary override, not a new baseline.
+- Revert the moment the heat breaks. Leaving +30 % on causes
+  fruit splitting and feeds disease.
+- Stacks on [`irrigation-baseline-plan.md`](irrigation-baseline-plan.md).
+  Not a new baseline.

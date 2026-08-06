@@ -125,6 +125,73 @@
 | Sept, bottom, 90 % blighted | 3.5 | 0.007 | 0.020 | 0 | −0.01 |
 
 
+### Whether the sugar can be used
+
+
+- exported sugar → **fruit** only while the fruit is expanding   (the **swelling gate**)
+
+- **fruit cell number** ← first ~14 days after set   (fixed then; no later input changes it)
+
+- **fruit cell expansion** ← assimilate supply   (the only window where more leaf means bigger fruit)
+
+- full-size green fruit → no further enlargement   (expansion over; extra sugar has no destination)
+
+- **breaker** → phloem connection closes   (nothing more arrives from the vine; ripening runs on the fruit's own reserves)
+
+- sinks full → **feedback inhibition** → gross photosynthesis down-regulates   (an oversized canopy over a finished fruit load idles, it does not bank)
+
+- **topping** → guarantees the swelling gate will close; it does not close it   (the youngest truss reaching full size does)
+
+
+### Ripening as thermal time
+
+
+- **accumulated degree-days** (base 10 °C) → fruit development stage   (`days = DD_required / (T_avg − 10)`)
+
+- anthesis → red ripe ≈ **600 DD** ; breaker → red ripe ≈ **130 DD**
+
+- **fruit load** → the average temperature the plant tolerates before vigor breaks   (~2 °F of headroom per fruit removed)
+
+- fruit load → ripening speed **only** via that headroom, and via the expansion window if the plant was source-limited
+
+| T_avg | Breaker → red |
+|---|---|
+| 24 °C | 9 days |
+| 22 °C | 11 days |
+| 20 °C | 13 days |
+| 18 °C | 16 days |
+| 16 °C | 22 days |
+| 14 °C | 33 days |
+
+
+### Ideal LAI
+
+
+- canopy gross photosynthesis ← light **captured**, saturating in LAI   (`PAR_top × (1 − exp(−k·L)) × ε × 30`)
+
+- canopy respiration ← LAI, **linear**, never saturating   (`L × 33 × 0.02 × Q10factor`)
+
+- `L_opt` = `ln(PAR_top × ε × 30 × k / (0.66 × Q10factor)) / k`
+
+- `L_opt` sits ~0.5 LAI **shallower** than compensation depth   (the marginal leaf is shaded by everything above it)
+
+| Month | `L_opt` | Net at `L_opt` | Net at LAI 3 |
+|---|---|---|---|
+| June | 5.6 | 36.9 | 34.4 |
+| July | 5.2 | 34.4 | 32.1 |
+| August | 5.0 | 26.4 | 24.7 |
+| September | 4.8 | 17.3 | 16.4 |
+| October | 4.5 | 10.7 | 10.2 |
+
+- LAI 3 captures 93 to 96 % of the LAI-5 return → the optimum is a **plateau**, not a peak
+
+- above LAI ~3 the binding constraint is disease, fruit light, and labour, not carbon
+
+- `leaves_per_stem` = `LAI / (stems_per_m² × 0.06)`   (mature 18-in leaf ≈ 0.06 m²)
+
+- 18 leaves at 2.5 stems/m² → LAI 2.7
+
+
 ## Invariants
 
 
@@ -132,11 +199,15 @@
 
 - Ripening rate is set by average temperature, not by leaf count.
 
+- Sugar becomes larger fruit only inside the expansion window. Outside it, more leaf changes nothing.
+
+- A fruit at or past breaker gains nothing from remaining on the vine.
+
 
 ## Boundaries
 
 
-- Covers one leaf's carbon budget: what it earns, what it costs, and its sign.
+- Covers one leaf's carbon budget, the canopy optimum, and whether the sugar has a destination.
 
 - Where the exported sugar **goes** — the vegetative / generative split — lives in [`vigor.md`](vigor.md).
 
@@ -161,3 +232,9 @@
 **net exporter / net importer** — a leaf whose daily carbon balance is positive (feeds the plant) or negative (is fed by it).
 
 **compensation depth** — the canopy depth, in LAI above, where a leaf's daily production exactly equals its respiration.
+
+**breaker** — the first 10 % of colour break on a green fruit, usually a blush at the blossom end; the point the fruit disconnects from the vine. _Avoid_: turning, first blush
+
+**swelling gate** — whether any fruit on the plant is still expanding; open means sugar has a destination, closed means it does not.
+
+**feedback inhibition** — a leaf reducing its own photosynthesis when sugar backs up because downstream sinks are full.

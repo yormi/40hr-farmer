@@ -59,6 +59,7 @@ plant — lives in [`science/`](../science/README.md).
 |---|---|
 | [weekly-leaf-and-sucker-prune](pruning/weekly-leaf-and-sucker-prune.md) | The weekly routine: ~18 quality leaves, suckers on time. |
 | [flag-leaves](pruning/flag-leaves.md) | Recover foliar area when the plant is weak. |
+| [post-topping-drawdown](pruning/post-topping-drawdown.md) | Topping cut, then suckers hard + leaves on the swelling gate. |
 
 
 ## Fruit load

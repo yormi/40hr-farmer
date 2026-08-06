@@ -1,0 +1,12 @@
+# Large reference imagery (1.2 GB) — do not commit media to git.
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.m4v
+*.mov
+*.mp4
+!README.md
+!manifest.csv

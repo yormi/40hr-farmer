@@ -12,9 +12,18 @@ beats intensity here.
 
 - Once a week, every leader. Don't skip.
 - **Prune in the morning** — plants snappy, breaks clean.
+- **Start after the plants are transpiring**, not at first light.
+- **Stop early enough that wounds dry before dark.**
+- **Never on a wet, non-transpiring plant** — root pressure pushes a
+  droplet out of the wound, the droplet catches botrytis spores, the
+  plant pulls it back in.
 - Trellis / lower in the **afternoon** — plants floppy.
 - Tomatoes first. Nothing else on the farm before they're done.
 
+
+## Alway
+
+- If you see a disease, flag location on the plant + the stem with a long tail visible in the alley.
 
 ## The target — ~18 quality leaves per leader
 

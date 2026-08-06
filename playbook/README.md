@@ -11,16 +11,17 @@ First-draft status: distilled from the June (Fruit Load) and
 July (Vigor) program outlines. Not yet field-reviewed.
 
 
-## The weekly loop
+## The method
 
-1. **Read** the plant (scouting) → is the stem AA-battery thick?
-2. **Diagnose** the bottleneck when it's thin → walk the levers.
-3. **Steer** the lever that's off (climate, irrigation, pruning,
-   fruit load, feeding).
-4. Re-read next week. One-week feedback loop.
+Three layers: the **mindset** you're in (improvement project,
+planning, weekly check-in, troubleshoot) → **diagnostics** to
+name the core problem → **protocols** (the cards below) to fix it.
 
-Start here → [`scouting/stem-vigor-weekly.md`](scouting/stem-vigor-weekly.md).
-It's the root indicator the rest hangs off.
+Start here → [`method.md`](method.md). It's the spine; the cards
+below are what it calls.
+
+The shared model the cards reason against →
+[`domain.md`](domain.md).
 
 
 ## Scouting — read the plant
@@ -32,6 +33,7 @@ It's the root indicator the rest hangs off.
 | [leaf-quality-check](scouting/leaf-quality-check.md) | Is the leaf engine strong enough. |
 | [midday-leaf-cupping](scouting/midday-leaf-cupping.md) | Early water-balance stress tripwire. |
 | [slurry-ec-test](scouting/slurry-ec-test.md) | Root-zone salts, 1:1 slurry EC. |
+| [weekly-disease-scout](scouting/weekly-disease-scout.md) | Batched cull + spray session that runs the disease engine. |
 
 
 ## Climate
@@ -74,6 +76,14 @@ It's the root indicator the rest hangs off.
 | Card | Does |
 |---|---|
 | [feed-cadence](fertility/feed-cadence.md) | Hold N back, feed gradually, correct off-band EC. |
+
+
+## Disease
+
+| Card | Does |
+|---|---|
+| [disease-control](disease/disease-control.md) | One engine for all 7 diseases: dry-baseline + scout + fixed cadence. |
+| [spray-protocol](disease/spray-protocol.md) | The how of spraying: good-morning conditions, weather gate, re-entry, pollinators. |
 
 
 ## Open items for review

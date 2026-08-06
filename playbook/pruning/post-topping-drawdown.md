@@ -2,7 +2,7 @@
 
 Greenhouse tomatoes. Pruning from the topping cut to pull-out.
 Two jobs on different clocks: suckers hard every week, leaves
-gated on whether fruit is still swelling.
+only for disease, airflow, and access.
 
 Why → [`science/leaf-energy.md`](../../science/leaf-energy.md)
 
@@ -36,32 +36,38 @@ Why → [`science/leaf-energy.md`](../../science/leaf-energy.md)
 Squeeze the biggest green fruit on the top truss. Compare to
 last week.
 
-| Reads | Leaves |
+| Reads | Cost of removing a healthy leaf |
 |---|---|
-| Still swelling | **Gate shut** — hold the canopy |
-| Rock hard, not growing | **Gate open** — deleaf freely |
+| Still swelling | **real** — smaller fruit |
+| Rock hard, not growing | **none** |
+
+The gate does not tell you to prune. It tells you what pruning
+costs.
 
 
-### Gate shut
+## Weekly — leaves
 
-- Pull leaves **≥ 1/3 covered** by disease or damage.
-- Pull the bottom rank only if the canopy sat wet.
-- Nothing else.
+Leaf removal is driven by disease, airflow, and access. Never by
+a leaf count.
+
+Pull, in this order:
+
+1. Leaves **≥ 1/3 covered** by disease or damage.
+2. Whatever blocks reaching the fruit.
+3. Bottom rank, if the airflow trigger below fires.
+
+Keep everything else. There is no target number to prune down
+to.
 
 
-### Gate open
+## Floor — a guard, not a target
 
-- Strip up to **3 leaves below the lowest truss still carrying
-  fruit**.
-- Each truss cleared → drop **3 more leaves**.
-- End state: bare stem below, green cap over the last trusses.
-
-
-## Floor — never go below
+If disease forces a hard strip, do not go below:
 
 - **3 leaves per truss still filling**, plus the **2 above the
   top truss**.
-- Holds while any green fruit remains.
+
+Holds while any green fruit remains.
 
 
 ## Airflow override
@@ -73,14 +79,16 @@ Runs ahead of the gate. Trigger on any:
   → [`disease/weekly-scout.md`](../disease/weekly-scout.md)
 - Night RH above ~90%.
 
-Then: open the bottom rank regardless of the gate.
+Then: open the bottom rank even with the gate shut. Strip to the
+floor if pressure is severe.
 
 
 ## Harvest at breaker
 
 - Pick at first colour break. Ripen off-vine, 20 to 22 °C, out
   of sun, never below 12 °C.
-- Clears trusses faster → gate opens sooner.
+- Clears trusses faster → healthy leaves become free to remove
+  sooner, if airflow calls for it.
 
 
 ## Timing and hygiene
@@ -92,8 +100,9 @@ wet non-transpiring plant.
 
 ## Stop
 
-- No calendar-driven deleafing. Trigger is the gate and trusses
-  cleared.
+- No calendar-driven deleafing.
+- No pruning to a leaf count. Topping does not create surplus
+  leaves; it only removes the reason to grow more.
 - No deleafing to speed ripening → raise average temperature
   instead ([`climate/average-temperature-steering.md`](../climate/average-temperature-steering.md)).
 - No full strip in one pass → sunscald, and irrigation goes off.

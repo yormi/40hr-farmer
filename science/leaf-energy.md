@@ -35,7 +35,7 @@
 
 - **VPD** above ~1.2 kPa → stomata close → gross photosynthesis drops, respiration unchanged   (the one climate state that pushes a healthy leaf toward net importer)
 
-- `30` g CH₂O per mol CO₂ ; mature 18-in leaf area ≈ 0.04 m²
+- `30` g CH₂O per mol CO₂ ; mature 18-in leaf area ≈ 0.06 m²
 
 
 ### Leaf age
@@ -60,7 +60,7 @@
 
 - **24-hour average temperature** → maintenance respiration   (Q10 = 2: doubles per 10 °C)
 
-- mature 18-in leaf ≈ **1.5 g dry weight** → ~0.028 g CH₂O/day at 25 °C
+- mature 18-in leaf ≈ **2.0 g dry weight** → ~0.040 g CH₂O/day at 25 °C
 
 - daytime temperature alone does NOT set respiration; the 24 h average does
 
@@ -72,26 +72,33 @@
 
 - construction cost → zero once the leaf reaches full size
 
-- a 1.5 g leaf costs ~2.1 g CH₂O to build, drawn over ~18 days, peaking ~0.15 g/day
+- a 2.0 g leaf costs ~2.8 g CH₂O to build, drawn over ~18 days, peaking ~0.16 g/day
 
-- **sucker** → construction cost with little offsetting area   (several small leaves, all building, in mid-canopy shade)
+- **sucker** → construction cost **plus** its own export, spent on vegetative tissue   (a sucker is net positive on carbon; it competes by *where its output goes*, not by consuming the pool)
+
+- **sucker** → flower cluster if left   (a sink that will not finish, on a topped plant)
 
 
 ### Who imports and who exports
 
 
-| Leaf state | Balance |
+Sign is the wrong lens for most pruning calls — see the allocation note at the foot of this cluster.
+
+
+| Organ state | Balance |
 |---|---|
-| Leaf under ~10 days old | **importer** — building faster than it earns |
-| Sucker (few small leaves, shaded) | **importer** |
-| Flower cluster | **importer** — pure sink, no photosynthesis |
-| Healthy leaf, any canopy depth to LAI ~4 | **exporter** |
-| Leaf ~70 %+ damaged, in deep shade | **importer** |
+| Flower cluster, fruit | **importer** — pure sink, no photosynthesis |
+| Leaf ~85 %+ damaged, in deep shade | **importer** |
 | Any leaf, dark hours | **importer** |
+| Leaf in its first ~4 days | ~break-even — tiny area, but top-of-canopy light |
+| Sucker with 2-3 small leaves | **exporter**, ~+0.3 g/day in summer light |
+| Healthy leaf, any canopy depth to LAI ~5 | **exporter** |
 
 - shade reduces a healthy leaf's *magnitude*, not its *sign*   (a bottom leaf earns ~1/10 of a top leaf, and still exports)
 
 - `Health`, not shade, is what flips a leaf's sign inside a real canopy
+
+- **net balance does not decide pruning; allocation does**   (a sucker exports, and still spends most of its output building tissue that carries no fruit)
 
 
 ### Compensation depth
@@ -101,11 +108,11 @@
 
 | Month | PAR_top (mol/m²/day) | T_avg (°C) | Compensation depth (LAI) |
 |---|---|---|---|
-| June | 28 | 22 | 6.0 |
-| July | 26 | 24 | 5.7 |
-| August | 20 | 23 | 5.5 |
-| September | 13 | 19 | 5.2 |
-| October | 8 | 16 | 4.9 |
+| June | 28 | 22 | 6.2 |
+| July | 26 | 24 | 5.9 |
+| August | 20 | 23 | 5.6 |
+| September | 13 | 19 | 5.4 |
+| October | 8 | 16 | 5.0 |
 
 - a tomato canopy runs LAI 3 to 4 → compensation depth sits **below** the canopy floor in every month
 
@@ -113,16 +120,16 @@
 ### Worked balances (g CH₂O per leaf per day)
 
 
-| Leaf | LAI above | Gross | Resp | Growth | Net |
+| Organ | LAI above | Gross | Resp | Growth | Net |
 |---|---|---|---|---|---|
-| July, top, mature | 0 | 1.09 | 0.028 | 0 | +1.06 |
-| July, mid canopy | 1.5 | 0.53 | 0.028 | 0 | +0.50 |
-| July, bottom | 3.5 | 0.14 | 0.028 | 0 | +0.11 |
-| July, day-4 leaf | 0.1 | 0.09 | 0.004 | 0.15 | −0.06 |
-| July, sucker (3 leaves) | 0.5 | 0.09 | 0.010 | 0.12 | −0.04 |
-| Sept, bottom, healthy | 3.5 | 0.067 | 0.020 | 0 | +0.05 |
-| Sept, bottom, 60 % blighted | 3.5 | 0.027 | 0.020 | 0 | +0.01 |
-| Sept, bottom, 90 % blighted | 3.5 | 0.007 | 0.020 | 0 | −0.01 |
+| July, top, mature leaf | 0 | 1.64 | 0.037 | 0 | +1.60 |
+| July, mid-canopy leaf | 1.5 | 0.82 | 0.037 | 0 | +0.78 |
+| July, bottom leaf | 3.5 | 0.20 | 0.037 | 0 | +0.16 |
+| July, day-4 leaf (10 % area) | 0.1 | 0.16 | 0.003 | 0.16 | ~0.00 |
+| July, sucker, 3 small leaves | 0.5 | 0.74 | 0.019 | 0.42 | **+0.30** |
+| Sept, bottom leaf, healthy | 3.5 | 0.10 | 0.026 | 0 | +0.07 |
+| Sept, bottom leaf, 60 % blighted | 3.5 | 0.040 | 0.026 | 0 | +0.01 |
+| Sept, bottom leaf, 90 % blighted | 3.5 | 0.010 | 0.026 | 0 | −0.02 |
 
 
 ### Whether the sugar can be used
@@ -177,10 +184,10 @@
 
 | Month | `L_opt` | Net at `L_opt` | Net at LAI 3 |
 |---|---|---|---|
-| June | 5.6 | 36.9 | 34.4 |
-| July | 5.2 | 34.4 | 32.1 |
-| August | 5.0 | 26.4 | 24.7 |
-| September | 4.8 | 17.3 | 16.4 |
+| June | 5.7 | 37.0 | 34.4 |
+| July | 5.4 | 34.7 | 32.4 |
+| August | 5.1 | 26.5 | 24.8 |
+| September | 4.9 | 17.4 | 16.4 |
 | October | 4.5 | 10.7 | 10.2 |
 
 - LAI 3 captures 93 to 96 % of the LAI-5 return → the optimum is a **plateau**, not a peak
@@ -196,6 +203,8 @@
 
 
 - Removing a healthy leaf removes sugar from the plant. Leaf removal is never a way to add assimilate to fruit.
+
+- A sucker is a net carbon exporter. It is removed for where its output goes, not for what it costs.
 
 - Ripening rate is set by average temperature, not by leaf count.
 

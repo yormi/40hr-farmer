@@ -11,6 +11,7 @@ tells you to act, it belongs in a playbook card.
 | File | Covers |
 |---|---|
 | [vigor.md](vigor.md) | The energy pool, the vegetative / generative split, reading it off the head, caliper bands by fruit class. |
+| [veg-gen-balance.md](veg-gen-balance.md) | Sink competition: phloem pull, growth vs storage sinks, why cool nights shift sugar to fruit. |
 | [leaf-energy.md](leaf-energy.md) | One leaf's carbon budget, canopy LAI optimum, net importer vs exporter, whether the sugar has a destination. |
 | [water.md](water.md) | Transpiration, VPD and air dryness, the stress ladder, irrigation drivers, root-zone salts. |
 | [climate.md](climate.md) | Temperature as the rate dial, the 24 h average, day/night split, cold limits, heat, air movement. |

@@ -57,6 +57,18 @@
 
 - anthesis → red ripe ≈ **600 DD** ; breaker → red ripe ≈ **130 DD**
 
+- °F degree-days: base **50 °F**, 1 °C-day = 1.8 °F-days
+
+| Metric | °C | °F |
+|---|---|---|
+| Degree-day base | 10 °C | 50 °F |
+| Anthesis → red ripe | ~600 DD | ~1,080 DD |
+| Anthesis → breaker | ~470 DD | ~845 DD |
+| Breaker → red | ~130 DD | ~235 DD |
+| Unheated finish line (24 h avg where accumulation ~stalls) | ~12 °C | ~54 °F |
+| Unheated house offset vs outside (24 h avg) | 1–3 °C | 2–5 °F |
+| Ripening floor with 5–6 trusses on | 17 °C | 63 °F |
+
 | T_avg | Breaker → red |
 |---|---|
 | 24 °C | 9 days |

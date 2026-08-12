@@ -30,9 +30,9 @@
 
 | Read | Beefsteak anchor | Detail |
 |---|---|---|
-| Strong | loonie to toonie span (26–28 mm) | petals recurve past the sepals |
-| Boundary | quarter (24 mm) | watch, don't act |
-| Weak | dime (18 mm) | pinched star, petals ≈ sepal length |
+| Strong | beer-bottle cap or wider (26–28 mm) | petals recurve past the sepals |
+| Boundary | quarter (24 mm, US or CA) | watch, don't act |
+| Weak | dime (18 mm, US or CA) | pinched star, petals ≈ sepal length |
 
 - **variety class → its own size baseline**   (cherry and cocktail flowers run small by design; compare within variety, never across)
 

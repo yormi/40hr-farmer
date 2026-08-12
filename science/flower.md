@@ -46,6 +46,12 @@
 
 - thin, long, straight truss pointing up → starved; will carry small fruit or abort
 
+- the truss-stem signals travel together → one read covers them: **candy cane or car antenna?** A strong truss arcs its flowers at the ground before any fruit weight exists; a weak one points up or level. Readable from the alley at walking pace.
+
+- tie-break when the curve is ambiguous: thickness at the base — **pencil** strong, **matchstick** weak
+
+- judge at or just after flowering   (fruit weight later bends every truss down and fakes the read)
+
 - set completeness and fruitlet uniformity → [`fruit.md`](fruit.md) (pollination and set)
 
 

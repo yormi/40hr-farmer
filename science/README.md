@@ -15,6 +15,7 @@ tells you to act, it belongs in a playbook card.
 | [leaf-energy.md](leaf-energy.md) | One leaf's carbon budget, canopy LAI optimum, net importer vs exporter, whether the sugar has a destination. |
 | [water.md](water.md) | Transpiration, VPD and air dryness, the stress ladder, irrigation drivers, root-zone salts. |
 | [climate.md](climate.md) | Temperature as the rate dial, the 24 h average, day/night split, cold limits, heat, air movement. |
+| [flower.md](flower.md) | Reading the energy pool off flower size, color, and truss shape; felt anchors; the two-week report lag. |
 | [fruit.md](fruit.md) | Set and pollination, the two-week pollen lag, development stages, thermal time, fruit as sink, physical load. |
 | [disease.md](disease.md) | Leaf wetness and genetics as the two drivers, entry points, spread rates, realistic control ceilings. |
 

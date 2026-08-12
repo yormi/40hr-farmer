@@ -17,6 +17,10 @@
 
 - **flower** 1—1 **fruit** ; **cluster** 1—* **fruit** ; **leader** 1—* **cluster**
 
+- well-pollinated truss → **uniform, fast swelling**: fruitlets at pea size within ~a week of flowering, all siblings within a size step of each other
+
+- one fat fruitlet + stragglers → the truss set over too long a window (pollination trouble); the stragglers stay small
+
 
 ### Pollen and heat — the two-week lag
 

@@ -22,8 +22,9 @@ After topping, use
 ## Always
 
 - See a disease → flag the location on the plant and the stem,
-  long tail visible in the alley. Red for suspected late blight
-  → radio the manager. Blue for everything else.
+  long tail visible in the alley.
+    - Red for suspected late blight → radio the manager
+    - Blue for everything else.
 
 
 ## Leaves — hold ~18 quality

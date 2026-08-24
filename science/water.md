@@ -42,6 +42,17 @@
 
 - "too dry" thresholds in RH terms: ~55 % at 65 °F, ~75 % at 90 °F
 
+- RH to target (3 g/m³ deficit — top of the working band's wet side) by air temperature:
+
+| °F | RH target | °F | RH target |
+|---|---|---|---|
+| 55 | 73 % | 85 | 90 % |
+| 60 | 77 % | 90 | 91 % |
+| 65 | 81 % | 95 | 92 % |
+| 70 | 84 % | 100 | 93 % |
+| 75 | 86 % | 105 | 94 % |
+| 80 | 88 % | 110 | 95 % |
+
 
 ### The stress ladder
 

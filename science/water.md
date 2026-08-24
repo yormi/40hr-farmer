@@ -53,6 +53,8 @@
 | 75 | 86 % | 105 | 94 % |
 | 80 | 88 % | 110 | 95 % |
 
+- dropping below the RH ceiling every 90 min is enough; the average between drops does not need to stay below it
+
 
 ### The stress ladder
 

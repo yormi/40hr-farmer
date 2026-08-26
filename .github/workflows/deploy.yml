@@ -24,12 +24,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
       - name: Assemble site
         run: |
           mkdir -p _site
           cp -r landing/. _site/
           cp -r assets _site/assets
+      # The HTML uses root-absolute paths (/assets/..., /drew-season/..., href="/"),
+      # which are correct on the production custom domain (served at /) but 404 on a
+      # project page like yormi.github.io/40hr-farmer-staging/. Prefix them with the
+      # Pages base path when there is one, so staging renders identically to production.
+      - name: Prefix absolute paths with Pages base path
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: |
+          BASE="${BASE_PATH%/}"
+          if [ -z "$BASE" ]; then
+            echo "Served at site root, no rewrite needed."
+            exit 0
+          fi
+          echo "Rewriting absolute paths to be prefixed with '$BASE'"
+          find _site -name '*.html' -print0 | xargs -0 sed -i \
+            -e "s|\"/assets/|\"$BASE/assets/|g" \
+            -e "s|'/assets/|'$BASE/assets/|g" \
+            -e "s|(/assets/|($BASE/assets/|g" \
+            -e "s|\"/drew-season/|\"$BASE/drew-season/|g" \
+            -e "s|'/drew-season/|'$BASE/drew-season/|g" \
+            -e "s|href=\"/\"|href=\"$BASE/\"|g"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

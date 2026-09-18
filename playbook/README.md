@@ -81,6 +81,7 @@ plant — lives in [`science/`](../science/README.md).
 | Card | Does |
 |---|---|
 | [feed-cadence](fertility/feed-cadence.md) | Hold N back, feed gradually, correct off-band EC. |
+| [fall-soil-balance](fertility/fall-soil-balance.md) | Post-season: water test, sample, broadfork, leach, pH, amend; spring N budget + June SME. |
 
 
 ## Disease

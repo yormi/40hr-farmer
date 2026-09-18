@@ -117,9 +117,11 @@ with nutrients over target while yield losses DEFINITELY HAPPEN! Also,
 undershoot is fixed with routine fertilizer top off while
 overshoot on Cu, Mn, B, Mg takes years to fix.
 
+```
 increase needed = target ppm − current ppm
 lb/ft² ≈ increase needed × 0.046 ÷ label % ÷ oxide factor ÷ 1000
 lb/bed = lb/ft² × bed top width (center to center without alley) × bed length
+```
 
 Label % as a decimal: 50% K₂O → 0.50, not 50.
 
@@ -132,8 +134,11 @@ Label % as a decimal: 50% K₂O → 0.50, not 50.
 
 Example: K at 100 ppm, target 190. Sulfate of potash, label
 50% K₂O → 0.50, oxide factor 0.83.
+
+```
 lb/ft² = 90 × 0.046 ÷ 0.50 ÷ 0.83 ÷ 1000 = 0.010
-Bed top 5 ft × 100 ft = 500 ft² → 5 lb.
+bed top 5 ft × 100 ft = 500 ft² → 5 lb
+```
 
 **Incorporate knuckle deep**
 

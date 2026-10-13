@@ -129,24 +129,46 @@ def iter_posts(session, account, since_ts, until_ts):
             return
 
 
-def iter_comments(session, media_id):
-    """Yield (username, text, is_reply) for every comment on a post."""
-    min_id = None
+COMMENTS_QUERY_HASH = "bc3296d1ce80a24b1b6e40b1e72903f5"
+
+
+def iter_comments(session, post_code):
+    """Yield (username, text, is_reply) for every comment on a post.
+
+    Uses the public GraphQL query; the /api/v1/media/.../comments/ endpoint
+    started returning HTML (bot check) in 2026-08.
+    """
+    import json as _json
+
+    cursor = None
     pages = 0
     while pages < 20:
-        url = f"{API_ROOT}/media/{media_id}/comments/?can_support_threading=true"
-        if min_id:
-            url += f"&min_id={quote(str(min_id))}"
+        variables = {"shortcode": post_code, "first": 50}
+        if cursor:
+            variables["after"] = cursor
+        url = (
+            "https://www.instagram.com/graphql/query/"
+            f"?query_hash={COMMENTS_QUERY_HASH}"
+            f"&variables={quote(_json.dumps(variables))}"
+        )
         payload = get(session, url)
         if not payload:
             return
-        for comment in payload.get("comments") or []:
-            yield comment.get("user", {}).get("username"), comment.get("text", ""), False
-            for reply in comment.get("preview_child_comments") or []:
-                yield reply.get("user", {}).get("username"), reply.get("text", ""), True
-        min_id = payload.get("next_min_id")
+        block = (payload.get("data") or {}).get("shortcode_media") or {}
+        parent = block.get("edge_media_to_parent_comment") or {}
+        for edge in parent.get("edges") or []:
+            node = edge["node"]
+            yield node.get("owner", {}).get("username"), node.get("text", ""), False
+            threaded = node.get("edge_threaded_comments") or {}
+            for reply_edge in threaded.get("edges") or []:
+                reply = reply_edge["node"]
+                yield reply.get("owner", {}).get("username"), reply.get("text", ""), True
+        page_info = parent.get("page_info") or {}
         pages += 1
-        if not min_id:
+        if not page_info.get("has_next_page"):
+            return
+        cursor = page_info.get("end_cursor")
+        if not cursor:
             return
 
 
@@ -192,7 +214,7 @@ def main():
     for index, post in enumerate(with_comments, start=1):
         date = datetime.fromtimestamp(post["taken_at"], timezone.utc).date().isoformat()
         found = 0
-        for username, text, is_reply in iter_comments(session, post["pk"]):
+        for username, text, is_reply in iter_comments(session, post["code"]):
             if username and username not in OWN_ACCOUNTS and pattern.search(text):
                 rows.append(
                     {

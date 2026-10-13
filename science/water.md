@@ -23,10 +23,6 @@
 ### Air dryness
 
 
-- **air temperature** + **relative humidity** → **VPD**   (how hard the air pulls water out of the leaf)
-
-- warmer air holds more water → the same RH is drier when hot
-
 - VPD → transpiration **demand**; water supply → transpiration **capacity**
 
 - demand > capacity → stomata close → growth stops → stem thins   (the air-dryness failure chain)

@@ -57,6 +57,14 @@ plant — lives in [`science/`](../science/README.md).
 | [heatwave-water-bump](irrigation/heatwave-water-bump.md) | +30% above ~85°F, revert when heat breaks. |
 
 
+## Propagation
+
+| Card | Does |
+|---|---|
+| [seedling-transplant-calendar](propagation/seedling-transplant-calendar.md) | Seed, graft, pinch, pot-up, transplant dates back-engineered from first sale week. |
+| [substrate](propagation/substrate.md) | Fort Vee straight from the bag, all stages, 2 fish drenches before transplant. |
+
+
 ## Pruning
 
 | Card | Does |

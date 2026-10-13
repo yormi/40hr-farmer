@@ -4,24 +4,15 @@ Organic greenhouse tomatoes, in-ground beds. Run right after
 pull-out so amendments react over winter. All inputs
 organic-compliant.
 
-Flow: sample → broadfork → leach? → pH → amend.
+Flow: slurry EC → broadfork → leach? → sample → pH → amend.
 
 
-## Step 1 — Fall soil sample (within 2 weeks of pull-out)
+## Step 1 — Slurry EC
 
-- Before first irrigation of the day
-- Wash trowel and plastic bucket first
-- 12–15 cores per greenhouse
-- Dug knuckle deep, between emitters, skip bed edges
-- Mix in and submit ~1lb
-
-**Lab order**:
-- Mehlich-3 test
-- Buffer pH add-on
-- SME test (saturated media extract test) only if no EC meter
-
-Same day: [`scouting/slurry-ec-test.md`](../scouting/slurry-ec-test.md)
+[`scouting/slurry-ec-test.md`](../scouting/slurry-ec-test.md)
 per greenhouse. Record. That's the leach read.
+
+No EC meter → SME test and leach on SME EC > 4.5 dS/m.
 
 
 ## Step 2 — Broadfork
@@ -39,19 +30,19 @@ down, not sideways. Replaces the percolation test.
 ## Step 3 — Leach decision
 
 **Read the slurry EC from Step 1** against the salt-buildup
-band on the slurry card. No EC meter → SME EC > 4.5 dS/m.
+band on the slurry card.
 
 | Read | Do |
 |---|---|
 | Below salt buildup | Skip to Step 4 |
 | Salt buildup | Leach |
-| Salt buildup and M3 Na > 50 ppm | Gypsum first, then leach. Ca displaces Na off exchange sites |
+| Salt buildup and last M3 Na > 50 ppm, or softened / brackish water | Gypsum first, then leach. Ca displaces Na off exchange sites |
 
 - Salty water (softener, brackish well) can't leach. Use rain
   through vents, rain barrel, trucked water.
 
 1. Run the Leach cycle.
-2. 2 days after the last pulse: slurry EC again.
+2. 2 days after the last pulse: slurry EC again (SME Test if no EC meter)
 3. In band → done. Still salt buildup → another Leach cycle.
 
 One cycle halves salts; that's not always enough.
@@ -66,7 +57,24 @@ Fix drainage or drip coverage before more water.
     - 4 Drip tapes per bed
 
 
-## Step 4 — pH correction
+## Step 4 — Fall soil sample
+
+After the last leach cycle, or right after broadfork if no
+leach. Leaching strips K, Mg, B; sampling after it makes the
+Step 6 doses right.
+
+- Before first irrigation of the day
+- Wash trowel and plastic bucket first
+- 12–15 cores per greenhouse
+- Dug knuckle deep, between emitters, skip bed edges
+- Mix in and submit ~1lb
+
+**Lab order**:
+- Mehlich-3 test
+- Buffer pH add-on
+
+
+## Step 5 — pH correction
 
 Aim **6.2**. Leaves a season of upward drift before 6.5.
 
@@ -96,14 +104,14 @@ test water alkalinity (as CaCO₃). Above 200 ppm → acidify
 fertigation to pH 5.5–5.8 with citric acid.
 
 
-## Step 5 — Fall amendments (immobile nutrients)
+## Step 6 — Fall amendments (immobile nutrients)
 
 | Nutrient | Target (M3) | When low |
 | --- | --- | --- |
 | P | 75 ppm | Bone meal |
 | K | 190 ppm, ≥ Ca ÷ 8, ≥ Mg ÷ 1.4 | Sulfate of potash |
 | Ca | 800 ppm | Gypsum |
-| Mg | 125 ppm, ≥ Ca ÷ 11 | Sul-Po-Mag |
+| Mg | 125 ppm, ≥ Ca ÷ 11 | Epsom salt |
 | Zn | 4 ppm | Zinc sulfate |
 | Mn | 25 ppm | Manganese sulfate |
 | Cu | 1.5 ppm | Copper sulfate |
@@ -148,7 +156,7 @@ bed top 5 ft × 100 ft = 500 ft² → 5 lb
 ### No compost
 
 Blind compost brings salts, P overload, K you didn't budget; it
-undoes Steps 3 and 5. Skipping it costs nothing for years: OM
+undoes Steps 3 and 6. Skipping it costs nothing for years: OM
 drops ~0.1–0.2%/year, a 5% soil is 4% in a decade, fertigation
 supplies the nutrients. Worst case is more frequent irrigation
 and a yearly broadfork.

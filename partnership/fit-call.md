@@ -56,6 +56,7 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
 
 ## 6. Decision · slide 7 · 10 min
 
+- Ask: "If we work together, what's most likely to hold you back?"
 - Check qualifiers: labor, method, market, infrastructure
 - Yes → shake hands → planning starts November 1
 - No → they keep goal + strategy

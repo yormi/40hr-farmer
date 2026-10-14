@@ -34,6 +34,8 @@ const U_VALUES = { single: 6.2, double: 4.2 }; // W/m²·°C
 const TRANSMITTANCE = { single: 0.85, double: 0.75 }; // solar gain fraction
 const PROPANE_KWH_PER_LITRE = 6.9;
 const LITRES_PER_US_GALLON = 3.785;
+const MISSING = -999;
+const WATTS_PER_MEGAJOULE_HOUR = 1e6 / 3600; // MJ/m²/hr → W/m²
 
 /** Mean kWh per floor m² for each month-day, averaged over HISTORY_YEARS. Cached 6 h. */
 function dailyHeatDemandByDayOfYear(postalCode, covering) {
@@ -48,13 +50,14 @@ function dailyHeatDemandByDayOfYear(postalCode, covering) {
   const hourly = hourlyWeather(location.latitude, location.longitude);
   const totals = {};
   const yearsSeen = {};
-  hourly.time.forEach((stamp, index) => {
-    const temperature = hourly.temperature_2m[index];
-    if (temperature === null) return;
-    const setpoint = hourly.is_day[index] ? DAY_SETPOINT : NIGHT_SETPOINT;
+  Object.keys(hourly.T2M).forEach((stamp) => {
+    const temperature = hourly.T2M[stamp];
+    const radiation = Math.max(0, hourly.ALLSKY_SFC_SW_DWN[stamp]) * WATTS_PER_MEGAJOULE_HOUR;
+    if (temperature === MISSING) return;
+    const setpoint = radiation > 0 ? DAY_SETPOINT : NIGHT_SETPOINT;
     const loss = U_VALUES[coveringKey] * ENVELOPE_PER_FLOOR * (setpoint - temperature);
-    const gain = TRANSMITTANCE[coveringKey] * (hourly.shortwave_radiation[index] || 0);
-    const key = stamp.slice(5, 10);
+    const gain = TRANSMITTANCE[coveringKey] * radiation;
+    const key = `${stamp.slice(4, 6)}-${stamp.slice(6, 8)}`;
     totals[key] = (totals[key] || 0) + Math.max(0, loss - gain) / 1000;
     (yearsSeen[key] = yearsSeen[key] || {})[stamp.slice(0, 4)] = true;
   });
@@ -73,17 +76,14 @@ function geocode(postalCode) {
   return { latitude: location.lat, longitude: location.lng };
 }
 
+/** NASA POWER hourly, last HISTORY_YEARS full calendar years, local solar time. */
 function hourlyWeather(latitude, longitude) {
-  const end = new Date();
-  end.setDate(end.getDate() - 7);
-  const start = new Date(end);
-  start.setFullYear(end.getFullYear() - HISTORY_YEARS);
-  const isoDate = (date) => Utilities.formatDate(date, 'UTC', 'yyyy-MM-dd');
-  const url = 'https://archive-api.open-meteo.com/v1/archive' +
-    `?latitude=${latitude}&longitude=${longitude}` +
-    `&start_date=${isoDate(start)}&end_date=${isoDate(end)}` +
-    '&hourly=temperature_2m,is_day,shortwave_radiation&timezone=auto';
-  return JSON.parse(UrlFetchApp.fetch(url).getContentText()).hourly;
+  const lastYear = new Date().getFullYear() - 1;
+  const url = 'https://power.larc.nasa.gov/api/temporal/hourly/point' +
+    '?parameters=T2M,ALLSKY_SFC_SW_DWN&community=AG&format=JSON&time-standard=LST' +
+    `&latitude=${latitude}&longitude=${longitude}` +
+    `&start=${lastYear - HISTORY_YEARS + 1}0101&end=${lastYear}1231`;
+  return JSON.parse(UrlFetchApp.fetch(url).getContentText()).properties.parameter;
 }
 
 function monthDayKey(date) {

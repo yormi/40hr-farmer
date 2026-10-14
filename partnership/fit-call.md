@@ -23,6 +23,8 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
 - Ask last season
   - harvest
   - what went wrong
+- Ask: "What do you want for your farm next year?"
+- Ask: "What don't you want again next year?"
 - Ask: "If we work together, what's most likely to hold you back?"
 
 

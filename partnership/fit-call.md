@@ -27,23 +27,17 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
 - Ask last season
   - harvest
   - what went wrong
+- Ask: "If we work together, what's most likely to hold you back?"
 
 
-## 3. Best move? · slide 4
-
-- Ask what else competes for cash and hours
-  - implement, new crop, wash station, more from tunnel
-- Say it if tomatoes aren't their best move
-
-
-## 4. Goal for 2027 · slide 5
+## 3. Goal for 2027 · slide 4
 
 - Fill table: tomatoes harvested per week, lb
   - today
   - 2027 goal
 
 
-## 5. Strategy · slide 6
+## 4. Strategy · slide 5
 
 - Pick 2 or 3 levers
   - more fruit per week
@@ -54,9 +48,16 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
   - saving propane
 
 
+## 5. Best move? · slide 6
+
+- Ask what other strategy they have to reach that goal
+- Ask what else competes for cash and hours
+  - implement, new crop, wash station, more from tunnel
+- Say it if tomatoes aren't their best move
+
+
 ## 6. Decision · slide 7 · 10 min
 
-- Ask: "If we work together, what's most likely to hold you back?"
 - Check qualifiers: labor, method, market, infrastructure
 - Yes → shake hands → planning starts November 1
 - No → they keep goal + strategy

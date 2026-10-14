@@ -2,7 +2,7 @@
  * Fit call sheet: estimated propane cost to heat a greenhouse between two dates.
  * Same model as playbook/propagation/propane_weekly_cost.py, 3 years of history.
  *
- * =PROPANE_COST("G1S 2P1", DATE(2027,2,1), DATE(2027,11,1), 100, 30, "double", 0.85)
+ * =PROPANE_COST("G1S 2P1", DATE(2027,2,1), DATE(2027,11,1), 100, 30, "double", 3.20)
  *
  * @param {string} postalCode Postal code, zip code or address.
  * @param {Date} heatingStart First day of heating (transplant).
@@ -10,19 +10,19 @@
  * @param {number} lengthFeet Greenhouse floor length, ft.
  * @param {number} widthFeet Greenhouse floor width, ft.
  * @param {string} covering "single" or "double" poly.
- * @param {number} pricePerLitre Propane price, $/L.
+ * @param {number} pricePerGallon Propane price, $/US gal.
  * @return Estimated propane cost, $.
  * @customfunction
  */
-function PROPANE_COST(postalCode, heatingStart, heatingEnd, lengthFeet, widthFeet, covering, pricePerLitre) {
+function PROPANE_COST(postalCode, heatingStart, heatingEnd, lengthFeet, widthFeet, covering, pricePerGallon) {
   const floorSquareMetres = lengthFeet * widthFeet * 0.0929;
   const dailyKwhPerSquareMetre = dailyHeatDemandByDayOfYear(postalCode, covering);
   let totalKwh = 0;
   for (let day = new Date(heatingStart); day <= heatingEnd; day.setDate(day.getDate() + 1)) {
     totalKwh += dailyKwhPerSquareMetre[monthDayKey(day)] * floorSquareMetres;
   }
-  const litres = totalKwh / (PROPANE_KWH_PER_LITRE * HEATER_EFFICIENCY);
-  return Math.round(litres * pricePerLitre);
+  const gallons = totalKwh / (PROPANE_KWH_PER_LITRE * HEATER_EFFICIENCY) / LITRES_PER_US_GALLON;
+  return Math.round(gallons * pricePerGallon);
 }
 
 const DAY_SETPOINT = 24;
@@ -33,6 +33,7 @@ const ENVELOPE_PER_FLOOR = 1.5;
 const U_VALUES = { single: 6.2, double: 4.2 }; // W/m²·°C
 const TRANSMITTANCE = { single: 0.85, double: 0.75 }; // solar gain fraction
 const PROPANE_KWH_PER_LITRE = 6.9;
+const LITRES_PER_US_GALLON = 3.785;
 
 /** Mean kWh per floor m² for each month-day, averaged over HISTORY_YEARS. Cached 6 h. */
 function dailyHeatDemandByDayOfYear(postalCode, covering) {

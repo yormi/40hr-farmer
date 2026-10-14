@@ -14,6 +14,8 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
 
 ## 2. Your farm today · slide 3 · 15 min
 
+- Ask where they grow tomatoes
+  - field, tunnel, greenhouse
 - Ask tunnel
   - size, beds
   - heater, 2 wires, irrigation
@@ -21,8 +23,13 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
   - hours per week
   - who does the work
 - Ask last season
+  - tomato sales, $
   - harvest
   - what went wrong
+- Review basic requirements, quickly
+  - labor: up to 3 h/week/bed, weekly check-in
+  - method: indeterminate beefsteak, lower and lean, transplant Feb 1 to Apr 30, heat + dehumidify
+  - infrastructure: 2 wires, heater, automatable frost-proof drip, installed before Jan 1
 - Ask: "If we work together, what's most likely to hold you back?"
 
 
@@ -58,7 +65,6 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
 
 ## 6. Decision · slide 7 · 10 min
 
-- Check qualifiers: labor, method, market, infrastructure
 - Yes → shake hands → planning starts November 1
 - No → they keep goal + strategy
 

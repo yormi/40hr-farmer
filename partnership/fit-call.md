@@ -14,10 +14,6 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
 
 ## 2. Your farm today · slide 3 · 15 min
 
-- Ask market
-  - where they sell
-  - weeks of tomato sales
-  - sell earlier, more, later?
 - Ask tunnel
   - size, beds
   - heater, 2 wires, irrigation
@@ -30,15 +26,12 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
 - Ask: "If we work together, what's most likely to hold you back?"
 
 
-## 3. Goal for 2027 · slide 4
+## 3. Strategy · slide 4
 
-- Fill table: tomatoes harvested per week, lb
-  - today
-  - 2027 goal
-
-
-## 4. Strategy · slide 5
-
+- Ask market
+  - where they sell
+  - weeks of tomato sales
+  - sell earlier, more, later?
 - Pick 2 or 3 levers
   - more fruit per week
   - earlier harvest
@@ -46,6 +39,13 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
   - plant health
   - later harvest
   - saving propane
+
+
+## 4. Goal for 2027 · slide 5
+
+- Fill table: tomatoes harvested per week, lb
+  - today
+  - 2027 goal
 
 
 ## 5. Best move? · slide 6

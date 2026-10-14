@@ -1,6 +1,6 @@
 # Fit call
 
-45 min · video · share [Fit Call deck](https://docs.google.com/presentation/d/1_Hi7YRd3PJNBny4r1THe3UOuS19BEh1PS7O2f6Ktn24/edit) slides 2 to 7.
+45 min · video · share [Fit Call deck](https://docs.google.com/presentation/d/1_Hi7YRd3PJNBny4r1THe3UOuS19BEh1PS7O2f6Ktn24/edit) slides 2 to 8.
 
 Farmer leaves with: yield goal · strategy · honest yes or no.
 
@@ -14,8 +14,6 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
 
 ## 2. Your farm today · slide 3 · 15 min
 
-- Ask where they grow tomatoes
-  - field, tunnel, greenhouse
 - Ask tunnel
   - size, beds
   - heater, 2 wires, irrigation
@@ -23,13 +21,8 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
   - hours per week
   - who does the work
 - Ask last season
-  - tomato sales, $
   - harvest
   - what went wrong
-- Review basic requirements, quickly
-  - labor: up to 3 h/week/bed, weekly check-in
-  - method: indeterminate beefsteak, lower and lean, transplant Feb 1 to Apr 30, heat + dehumidify
-  - infrastructure: 2 wires, heater, automatable frost-proof drip, installed before Jan 1
 - Ask: "If we work together, what's most likely to hold you back?"
 
 
@@ -55,18 +48,24 @@ Farmer leaves with: yield goal · strategy · honest yes or no.
   - 2027 goal
 
 
-## 5. Best move? · slide 6
+## 5. What could hold you back · slide 6
 
-- Ask what other strategy they have to reach that goal
+- Review what they said is most likely to hold them back
 - Ask what else competes for cash and hours
   - implement, new crop, wash station, more from tunnel
+
+
+## 6. Best move? · slide 7
+
+- Ask what other strategy they have to reach that goal
 - Say it if tomatoes aren't their best move
 
 
-## 6. Decision · slide 7 · 10 min
+## 7. Decision · slide 8 · 10 min
 
+- Check qualifiers: labor, method, market, infrastructure
 - Yes → shake hands → planning starts November 1
 - No → they keep goal + strategy
 
 
-## 7. Questions · 5 min
+## 8. Questions · 5 min

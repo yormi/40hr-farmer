@@ -14,6 +14,18 @@
 - density (stems/m²) = average inside DLI ÷ 7, clamped to **2.0–4.0**
 
 
+### Fruit size
+
+
+- **beefsteaks** (e.g. Contessa, Kardinata) → ~8–9 mol per stem instead of 7 → ~10–15% fewer stems   (big fruit needs more light per stem)
+
+
+### Heat
+
+
+- **hot summers** → lower density   (better air movement, less plant stress)
+
+
 ### Rising light
 
 

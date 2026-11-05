@@ -63,6 +63,7 @@ plant — lives in [`science/`](../science/README.md).
 |---|---|
 | [seedling-transplant-calendar](propagation/seedling-transplant-calendar.md) | Seed, graft, pinch, pot-up, transplant dates back-engineered from first sale week. |
 | [substrate](propagation/substrate.md) | Fort Vee straight from the bag, all stages, 2 fish drenches before transplant. |
+| [planting-density](propagation/planting-density.md) | Stems/m² from inside DLI; add side shoots as light rises. |
 
 
 ## Pruning

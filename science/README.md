@@ -19,6 +19,7 @@ tells you to act, it belongs in a playbook card.
 | [fruit.md](fruit.md) | Set and pollination, the two-week pollen lag, development stages, thermal time, fruit as sink, physical load. |
 | [disease.md](disease.md) | Leaf wetness and genetics as the two drivers, entry points, spread rates, realistic control ceilings. |
 | [soil.md](soil.md) | Cation exchange, base saturation from M3 ppm, pH drift from carbonate water, salts and leaching. |
+| [density.md](density.md) | Stem density from inside DLI over the fruit-setting window; adding side shoots as light rises. |
 
 
 ## Layout of a file

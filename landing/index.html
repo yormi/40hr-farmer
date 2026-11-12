@@ -1335,7 +1335,7 @@
                    Airtable intake webhook on submit. -->
               <div class="mt-8">
                 <label for="join-email" class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs block mb-4">
-                  Your email
+                  Your email<span class="text-red-600" aria-hidden="true">*</span>
                 </label>
                 <input type="email" id="join-email" name="email" required autocomplete="email"
                        placeholder="you@yourfarm.com"
@@ -1348,7 +1348,7 @@
               <!-- Farm name: required, posted to the intake webhook as farm_name. -->
               <div class="mt-8">
                 <label for="join-farm" class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs block mb-4">
-                  Your farm's name
+                  Your farm's name<span class="text-red-600" aria-hidden="true">*</span>
                 </label>
                 <input type="text" id="join-farm" name="farm_name" required autocomplete="organization"
                        class="w-full px-5 py-4 text-base md:text-lg text-farm-text bg-white border border-farm-mid/30 rounded-2xl placeholder:text-farm-muted focus:outline-none focus:border-farm-green focus:ring-2 focus:ring-farm-green/30">
@@ -1363,7 +1363,7 @@
                    posted to the intake webhook as country + country_code. -->
               <div class="mt-8">
                 <label for="join-country" class="font-accent text-farm-mid font-semibold uppercase tracking-wider text-xs block mb-4">
-                  Your country
+                  Your country<span class="text-red-600" aria-hidden="true">*</span>
                 </label>
                 <div class="relative">
                   <input type="text" id="join-country" name="country" required autocomplete="off"

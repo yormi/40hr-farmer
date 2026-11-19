@@ -6,33 +6,24 @@ Grafted (2 heads) and non-grafted (1 head) transplant the same day.
 Why → [`science/fruit.md`](../../science/fruit.md)
 
 
-## Rule
+## Timeline
 
-- Anchor = first sale week → first ripe fruit 1 week earlier.
-- Transplant 8 weeks before first ripe, first cluster in flower.
-- Heat on + warm beds 1 week before transplant.
-- Grafted: seed 7 weeks (49 days) before transplant.
-- Non-grafted: seed 1 week after grafted, single head.
-- Both pot up the same day, 4 weeks before transplant.
-- Shift the sale date → every row moves by the same offset.
+Pick first sale date → day 0 (grafted seeding) = sale − 112 days.
 
-
-## Example: first sale week of May 3, 2027
-
-| Week of | ISO wk | Grafted (2 heads) | Non-grafted (1 head) |
-|---|---|---|---|
-| Nov 16, 2026 | 47 | Order seeds, rootstock, clips, trays, mix, lights, heat mats | same |
-| Jan 8, 2027 | 1 | Prepare nursery: lights on, heat mats on, propagation room to 24 °C | same |
-| Jan 11 | 2 | Seed rootstock + scion | |
-| Jan 18 | 3 | | Seed non-grafted |
-| Jan 25 | 4 | Graft, stems pencil-lead size, ~14 days. Heal 7 days | |
-| Feb 1 | 5 | Pot up to 4 in | same |
-| Feb 5 | 5 | Pinch scion above 2nd true leaf, keep 2 suckers as heads | |
-| Feb 15 | 7 | Space pots so leaves don't touch. Fish drench 1 | same |
-| Feb 22 | 8 | Fish drench 2. Heat on, house to 18 °C min, warm beds to 15 °C at root depth | same |
-| Mar 1 | 9 | Transplant, first cluster flowering | Transplant, same day |
-| Apr 26 | 17 | First ripe fruit | same |
-| May 3 | 18 | First sale | same |
+| Day | Grafted (2 heads) | Non-grafted (1 head) |
+|---|---|---|
+| −56 | Order seeds, rootstock, clips, trays, mix, lights, heat mats | same |
+| −3 | Prepare nursery: lights on, heat mats on, propagation room to 24 °C | same |
+| 0 | Seed rootstock + scion | |
+| 7 | | Seed non-grafted |
+| 14 | Graft, stems pencil-lead size. Heal 7 days | |
+| 21 | Pot up to 4 in | same |
+| 25 | Pinch scion above 2nd true leaf, keep 2 suckers as heads | |
+| 35 | Space pots so leaves don't touch. Fish drench 1 | same |
+| 42 | Fish drench 2. Heat on, house to 18 °C min, warm beds to 15 °C at root depth | same |
+| 49 | Transplant, first cluster flowering | Transplant, same day |
+| 105 | First ripe fruit | same |
+| 112 | First sale | same |
 
 
 ## Durations

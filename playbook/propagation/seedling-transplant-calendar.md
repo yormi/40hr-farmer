@@ -16,8 +16,9 @@ Pick first sale date → day 0 (grafted seeding) = sale − 112 days.
 | −3 | Prepare nursery: lights on, heat mats on, propagation room to 24 °C | same |
 | 0 | Seed rootstock + scion | |
 | 14 | Graft, stems pencil-lead size. Heal 7 days | Seed non-grafted |
-| 21 | Pot up to 4 in | same |
+| 21 | Pot up to 4 in | |
 | 25 | Pinch scion above 2nd true leaf, keep 2 suckers as heads | |
+| 28 | | Pot up to 4 in |
 | 35 | Space pots so leaves don't touch. Fish drench 1 | same |
 | 42 | Fish drench 2. Heat on, house to 18 °C min, warm beds to 15 °C at root depth | same |
 | 49 | Transplant, first cluster flowering | Transplant, same day |
@@ -34,7 +35,8 @@ Pick first sale date → day 0 (grafted seeding) = sale − 112 days.
 | Non-grafted seed → transplant | 5 |
 | Seed → graft | 2 |
 | Healing chamber | 1 |
-| Pot up → transplant | 4 |
+| Pot up → transplant, grafted | 4 |
+| Pot up → transplant, non-grafted | 3 |
 | Graft + 2-head pinch growth cost | ~1 each |
 
 

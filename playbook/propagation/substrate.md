@@ -7,8 +7,9 @@ Dates → [`seedling-transplant-calendar.md`](seedling-transplant-calendar.md)
 
 ## Rule
 
-- Buy [**Pro-Mix MPO**](https://www.pthorticulture.com/en-us/products/pro-mix-mp-mycorrhizae-organik), OMRI. Use straight from the bag.
-  - Starter charge lasts 2–3 weeks → drenches take over.
+- Buy one, use straight from the bag:
+  - [**Pro-Mix MPO**](https://www.pthorticulture.com/en-us/products/pro-mix-mp-mycorrhizae-organik), OMRI. US + Canada. Starter charge lasts 2–3 weeks
+  - [**Vermont Compost Fort Vee**](https://www.7springsfarm.com/products/vermont-compost-fort-vee-potting-mix-45-qt). US only
 - 128-cell 1020 trays: seed rootstock, scion, non-grafted.
 - Pot up to 4 in: same mix.
 - Add nothing to the mix.
@@ -25,16 +26,12 @@ Dates → [`seedling-transplant-calendar.md`](seedling-transplant-calendar.md)
 ## Buying
 
 - Pro-Mix MPO: greenhouse suppliers, US + Canada.
+- Fort Vee: cheapest at Seven Springs. Also Johnny's, High Mowing,
+  Fedco, Wood Prairie, Amazon, Walmart. Ships contiguous US.
+  - 45 qt bag ≈ 80 × 4 in pots
+  - ~$0.53/pot retail bag, ~$0.29 pallet (36 bags)
 - Alaska 5-1-1: OMRI US + Canada lists. Garden centres, Home Depot.
 - 128-cell tray ≈ 1.5 L mix → pennies.
-
-
-## Possible upgrade
-
-[Neptune's Harvest Fish & Seaweed 2-3-1](https://www.neptunesharvest.com/fs-150.html), OMRI → adds trace elements from seaweed.
-
-- Same N as Alaska: ~5 tbsp/gal.
-- Any brand: 2 tbsp/gal × 5 ÷ label N.
 
 
 ## Fixed rules

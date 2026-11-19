@@ -12,7 +12,7 @@ Dates → [`seedling-transplant-calendar.md`](seedling-transplant-calendar.md)
 - Pot up to 4 in: same mix.
 - Add nothing to the mix.
 - Fish drench 2×, grafted + non-grafted together:
-  - Transplant − 14 days
+  - Transplant − 14 days, space-out day
   - Transplant − 7 days
   - [Alaska Fish Fertilizer 5-1-1](https://www.homedepot.com/p/Alaska-128-oz-1-gal-Organic-Gardening-Liquid-Fish-Emulsion-Plant-Food-Fertilizer-Concentrate-5-1-1-100099249/100211859), OMRI
   - 2 tbsp/gal
@@ -55,7 +55,7 @@ Estimates, not measured. Transplant N shifts early yield; season total mostly re
 
 | Nutrient | Signs | Likely cause here | Cost | Fix |
 |---|---|---|---|---|
-| **N** | Older leaves pale, then yellow. Thin, hard stems | Front-load used up in weeks 7 to 9 of the grafted pot hold | Fewer flowers on clusters 1 to 3, −10 to −40% early yield | Fish drench |
+| **N** | Older leaves pale, then yellow. Thin, hard stems | Mix charge used up 2 to 3 weeks after pot-up | Fewer flowers on clusters 1 to 3, −10 to −40% early yield | Fish drench |
 | **P** | Purple leaf undersides and stems, dark dull foliage, stalled growth | **Cold root zone** (under ~16 °C) blocking uptake. Rarely a real shortage | Weaker roots and fewer flowers on the first clusters. Stalls add days | Warm the roots to 20–22 °C. Adding P won't help while roots are cold |
 | **Fe** (+ Mn) | Young leaves yellow between the veins, veins stay green | Mix pH over ~7. Compost mixes run higher than peat | Slower head growth, which can delay the pinch and transplant | Test pH first. If deficiency is confirmed, use an OMRI iron product |
 

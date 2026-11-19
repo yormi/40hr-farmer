@@ -11,8 +11,9 @@ Why → [`science/fruit.md`](../../science/fruit.md)
 - Anchor = first sale week → first ripe fruit 1 week earlier.
 - Transplant 8 weeks before first ripe, first cluster in flower.
 - Heat on + warm beds 1 week before transplant.
-- Grafted: seed 9 weeks before transplant.
-- Non-grafted: seed 6 weeks before transplant, single head.
+- Grafted: seed 7 weeks (49 days) before transplant.
+- Non-grafted: seed 1 week after grafted, single head.
+- Both pot up the same day, 4 weeks before transplant.
 - Shift the sale date → every row moves by the same offset.
 
 
@@ -21,17 +22,15 @@ Why → [`science/fruit.md`](../../science/fruit.md)
 | Week of | ISO wk | Grafted (2 heads) | Non-grafted (1 head) |
 |---|---|---|---|
 | Nov 16, 2026 | 47 | Order seeds, rootstock, clips, trays, mix, lights, heat mats | same |
-| Dec 28 | 53 | Lights on, heat mats on, propagation room to 24 °C | |
-| Jan 4, 2027 | 1 | Seed rootstock | |
-| Jan 7 | 1 | Seed scion, 3 days after rootstock | |
-| Jan 18 | 3 | Graft, stems pencil-lead size, ~14 days | |
-| Jan 25 | 4 | Out of healing chamber after 7 days, harden 3 days | Seed non-grafted |
-| Feb 1 | 5 | Pot up to 4 in | |
-| Feb 8 | 6 | Pinch scion above 2nd true leaf, keep 2 suckers as heads | |
-| Feb 15 | 7 | | Pot up to 4 in |
-| Feb 22 | 8 | Space pots so leaves don't touch | same |
-| Mar 1 | 9 | Heat on, house to 18 °C min, warm beds to 15 °C at root depth | same |
-| Mar 8 | 10 | Transplant, first cluster flowering | Transplant, same day |
+| Jan 8, 2027 | 1 | Prepare nursery: lights on, heat mats on, propagation room to 24 °C | same |
+| Jan 11 | 2 | Seed rootstock + scion | |
+| Jan 18 | 3 | | Seed non-grafted |
+| Jan 25 | 4 | Graft, stems pencil-lead size, ~14 days. Heal 7 days | |
+| Feb 1 | 5 | Pot up to 4 in | same |
+| Feb 5 | 5 | Pinch scion above 2nd true leaf, keep 2 suckers as heads | |
+| Feb 15 | 7 | Space pots so leaves don't touch. Fish drench 1 | same |
+| Feb 22 | 8 | Fish drench 2. Heat on, house to 18 °C min, warm beds to 15 °C at root depth | same |
+| Mar 1 | 9 | Transplant, first cluster flowering | Transplant, same day |
 | Apr 26 | 17 | First ripe fruit | same |
 | May 3 | 18 | First sale | same |
 
@@ -41,11 +40,11 @@ Why → [`science/fruit.md`](../../science/fruit.md)
 | Step | Weeks |
 |---|---|
 | Transplant → first ripe (21 °C avg, ~600 DD base 10 °C) | 8 |
-| Grafted seed → transplant | 9 |
+| Grafted seed → transplant | 7 |
 | Non-grafted seed → transplant | 6 |
-| Rootstock seeded before scion | 3 days |
 | Seed → graft | 2 |
 | Healing chamber | 1 |
+| Pot up → transplant | 4 |
 | Graft + 2-head pinch growth cost | ~1 each |
 
 
@@ -61,16 +60,15 @@ rack width.
 |---|---|---|---|---|---|---|---|---|
 | Germination to graft | 0–2 | 250 | 14 | 22 | 25 | - | 12 in | Rack |
 | Healing chamber | 3 | ~0 then 50 | 3 | 4 | 5 | - | 12 in, dome | Rack |
-| Post-heal to pot-up | 4–5 | 250 | 14 | 22 | 25 | - | 18 in | Rack |
-| Potted, 2 heads, to transplant | 6–9 | 250 | 14 | 22 | 25 | 24 | 24 in | Bench in greenhouse |
+| Potted, 2 heads, to transplant | 4–7 | 250 | 14 | 22 | 25 | 24 | 24 in | Bench in greenhouse |
 
 - Size fixtures for the final spaced bench area; early on run
   only tubes over occupied trays.
 - Heat mats only if room air <24 °C in weeks 0–1; skip otherwise.
 - Set rack shelves at 18 in from day 1 → no reshelving live trays.
-- Week 6 exit is about area, not height: pinch spreads 2 heads,
+- Week 4 exit is about area, not height: pinch spreads 2 heads,
   pots go to 3–4× spacing.
-- After week 7 sun carries most of it; lights top up mornings and
+- After week 5 sun carries most of it; lights top up mornings and
   grey days.
 - Air after healing: 20–22 °C day, 17–18 °C night. Heat mats off.
 

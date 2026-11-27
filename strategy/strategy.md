@@ -1,153 +1,137 @@
 ## Diagnosis
+A small diversified grower juggles too many crops. He can't dig deep enough to find the opportunity greenhouse tomatoes are. Nothing prompt him to dig.
 
-Orisha doesn't sell because growers have never heard a peer say it made their yields 5x.
+Even if something did, he wouldn't see the opportunity since he doesn't know it's possible to get consistent harvest through the season.
 
-First, because they didn't 5x. We sold a tool to improve a greenhouse production but left the yield increase in grower's hands.
+Because of that, he assumes his market is saturated. Even if he could sell more tomatoes, he wouldn't know how to increase his yields.
 
-Second, early adopters are scattered. A direct result of survival-driven wide selling, which buys revenue but no proof density.
-
-Third, without focussing on it, early adopters wouldn't see the improvements in 1 crop among 70.
-
-The crux to Orisha's adoption is to get one community flooded by
-stories of growers like them that drastically increase their greenhouse
-yields.
+When they jump on a 90min call with Guillaume, growers get excited and 70% partner up with us. Few growers book that call, because they don't see the opportunity before they talk to us.
 
 
-## Guiding policy
-
-We're a very small team for changing how the world grows in greenhouses on small farms. Since we have limited capacity, we'll focus aggressively.
-
-Traditional marketing knowledge would recommend to focus on a single town but it doesn't work for us:
-    - Early-adopters are too spread out to reach a critical mass
-    - Word of mouth is slow. Once a year at conferences
-    - We need more than a regional impact to fund our operations
-
-Even at the state size, we'll still have these problems.
-
-First, we'll focus only on growing tomatoes. We'll sell the tomato yield outcome, not the tool.
-To removes the belief gap we'll ensure every existing and new customer has a success story with visible weekly yields numbers.
-
-Second, we'll leverage those stories by flooding only ONE community :
-    - One community big enough to have enough early-adopters
-    - One community big enough to have thousands of potential customers
-    - One community in which news move fast
-    - One community loud enough to reach people no matter the season.
-
-GFM is that community. It act as a village where we can both flood
-with wins and reach the volume of farmers we need to fund our operations.
-
-The flood runs on two cadences:
-
-- **Base load, weekly.** Shows many farms succeeds.
-    - Yield feedback loop — grower reports in weekly check-in
-    - Tracker board — updates the week the numbers land
-    - Instagram — weekly yields report + testimonials
-
-- **Deep layer, monthly.** Make wins credible and human.
-    - Magazine — the season's stories, told fully
-    - Podcast — one grower's arc, in their voice
-
-Sales, content, and product decisions are judged by one test:
-**Does this add a visible successful farm to the village flood ?**
-
-If it doesn't, sell to them, support them, never spend a marketing or product hour on them.
-We just don't build for their use case.
+## Policy
+Build a predictable flow of qualified growers booking calls from the GFM audience. Keep Guillaume's call as the conversion step for now, and don't spend effort on automating it until the flow holds at 3 booked calls per week for 3 weeks in a row.
 
 
-## Coherent Action
+## Coherent action
+- Book 3 calls per week
 
-Identify winnable customers → ensure the win → flood the
-village with it. The initiatives below run that loop.
+- Free Guillaume to do 5 calls per week
 
-- Identify which of our customers wins in getting higher tomato yields
-    - in qualification call.
-    - in Operation Wingman
-    - Send them to program
+- Book 5 calls per week
 
-- Ensure successful yield increase
-    - Program
-    - Consultant
-    - Operation Wingman
-    - Take responsibility to lower risks (Charge for it ?)
-        - Refund what they didn't get
-        - Ask to report yields in weekly check-in to keep guarantee valid (more people to show off)
-    - Testimonials collection
+- Free Guillaume to do 8 calls per week
 
-- Flood the GFM audience with these results
-    - Season tracker board
-    - Instagram testimonials
-    - Podcast success stories
-    - Weekly yields (low, high, average) on Instagram --> Martin
+- Book 8 calls per week
 
-- Test: Done-with-you offer
-    - For growers who can sell more tomatoes than they grow
-    - Promise: $15k tomato sales per bed at ≤ 4 hrs/bed/week
-    - Price: $4,000/year including Chief Grower
-    - Guarantee: if gain < cost, we refund the difference
-    - Gain measured from weekly check-in using price given at signup — check-in required to keep guarantee
-    - Test on 5-10 farms this signup season; success = refunds ≈ 0
-      and every farm becomes a tracker row
+- Repeat
 
 
-Density is what makes initiatives earn their keep.
-
-- GFM (Instagram, Newsletter, Magazine, Podcast)
-    - Turn growers into students
-    - Re-engage students with the program
-    - Notoriété
-
-- The 40-Hour Farmer Program
-    - Guide growers to success
-    - Promote consultant
-    - Turns a student into a visible tracker row
-
-
-- Consultant App
-    - Simplify method
-    - Guide growers to success
-
-- Check-in
-    - Gather research data
-    - Build tracker rows
-    - Supply content for weekly yield report
-    - Trigger rescue for guarantee
-    - Trigger upsell — every check-in compares their number to
-      Chief Grower farms on the tracker; the gap does the selling
-
-- Season Tracker - Leaderboard
-    - Show what's possible
-    - Show how many people are following the method
-    - Trigger upsell — every check-in compares their number to
-      Chief Grower farms on the tracker; the gap does the selling
-
-- Operation Wingman
-    - Turns a tracker row into a success story
-    - Turns a success story into a Chief Grower User
-
-- Chief Grower
-    - Simplify method
-    - Free their time
-    - Free their Mind
+### Book more calls
+- EM + GUI - Instagram
+- Antoine - Turn the masterclass sign-up into a booking sequence - KPI Call booking from onboarding email
+    - Frame it as a free call to help size their tomato opportunity
+    - Reuse best opportunity video
+    - Growers essentials (Like to be reminded what to do? --> We can help you be on top of things even when you have too much on your mind)
+- Antoine - Reduce Ask -> DMs
+    - DM -> Call
+    - DM -> Sign Ups
+- Em - Andrew
+- Em - Track the funnel every week
+    - Coaches, sign-ups, bookings from instagram & onboarding, partners
+    - Antoine Lambert
 
 
-## Andrew diagnosis
+#### Reduce Friction Strategy
 
-Andrew would like to grow revenue to hire help to free up his time.
+**Diagnosis:** Your funnel goes from a scroll straight to a masterclass or a 90-minute call. Busy growers who don't yet believe there's an opportunity won't make a jump that big, even when they trust you.
 
-GFM magazine, its cash cow has saturated its market though. Most likely a declining market since magazines face a lot of competition from other media.
+**Policy:** Each step asks for a few seconds or minutes more than the last one, and gives back something useful about their own farm before asking for the next step.
 
-Podcasts and Instagram hasn't succeeded in increasing subscribership.
+**The steps, from smallest ask to biggest:**
 
-GFM is the trusted distribution to make the Farm 2.0 a movement — giving
-Andrew the 21st-century product his saturated magazine needs.
+1. **Notice it** (about 2 seconds): a hook with a number from a farm like theirs.
+2. **React** (about 5 seconds): comment a keyword or reply to a story poll, like "Do you sell out of tomatoes in July?"
+3. **Share one fact** (about 1 minute): in DMs, ask one question, like how many tomatoes they sold last season or how big their tunnel is.
+4. **Get a quick estimate** (2 minutes to read): send back a rough number for their farm, like "with season-long harvest, that could mean $X more."
+    - Check the estimate's wording carefully so it reads as a rough range, not a promise.
+5. **Short fit call** (15 to 20 minutes): "want to check if that number holds for your farm?"
+6. **Full session** (90 minutes): only for good fits who are already excited.
+7. **Partnership.**
+
+**What to remove at every step:** forms with more than one or two fields, links that open outside Instagram when a DM would do, and any step where they give something without getting something back.
+
+**What to track:** how many growers move from each step to the next. The biggest drop shows you which step to fix first.
+
+The key step is 4. A quick, personal estimate is what makes booking a call feel worth it.
 
 
-## Farmers diagnosis
+#### Instagram Content plan
 
-The small-farm world runs on one dominant model — Fortier's
-The Market Gardener, "Farm 1.0". Start with little capital on
-little land. It delivered access, but in practice it demands
-punishing labor, so people burn out.
+0 - Andrew Geeking                      LB          PATH + GUIDE
+0 - Program sneak peak (Recycling)      LB          PATH + GUIDE
 
-No one has defined the successor: a farm that needs little capital,
-little land and runs profitably on a sane work week: The "Farm 2.0".
+! 1 - Testimonials Yields               LB          DESTINATION + PATH
+! 1 - Guillaume profit                  GUI         PATH + GUIDE
+! 1 - Build in public                   GUI         GUIDE
+
+2 - Recycling Build in public           LB          PATH + GUIDE
+2 - Testimonials Profit                 LB          DESTINATION + PATH
+2 - Explain cool development            Martin      PATH + GUIDE
+    - Asks "what is cool for growers about what you worked on" to Antoine, Charles et Marc after each Design d'expérience
+
+3 - Antoine & Profit
+
+
+##### CTA
+- "Want help to increase your tomato yields ? It's free!"  --> Automated DM/Phil follow-up
+- "Want help to adapt numbers to your farm ? It's free!" --> Automated DM/Phil follow-up
+
+
+##### Testimonials
+- Training plan
+- Do with them
+- 5 per week
+- Gotta learn something
+- Focus on their story. NOT Orisha
+- Smooth CTA
+
+
+### Free Guillaume --> Push up and down the journey
+- Shorten the 90min call
+    - Get to the numbers ASAP
+    - Add a best growers line on the chart
+    - Explain the yield efficiency difference
+    - Explain that we use default numbers & ask them what's different for them
+
+- Push into Instagram DMs - What about when coming from elsewhere ?
+
+- Systematize Call so that Phil can do it
+
+
+## Questions
+- What would be Phil's place in all this?
+    - Discovery call
+        - Make'em talk about themselves
+            - Life-level goals
+            - Business-level goals
+            - Basics requirements
+        - Answer questions
+        - Reassure
+        - Book next call with them
+    - Kick off calls
+        - Reminders kick-off calls
+
+
+## Later
+- Next funnels
+    - Email (Process as asset ?)
+    - Youtube SEO (Asset building)
+    - Potential in consultant free demo to convert free users (Product-Led)
+    - Site web
+
+
+## Meeting
+* LB
+* Em
+    * Phil
+* Martin

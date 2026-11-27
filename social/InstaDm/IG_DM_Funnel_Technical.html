@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram DM Funnel — Technical · Orisha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <style>
+    :root{
+      --green:#21b14b; --green-s:#e8f8ee; --green-d:#167a33;
+      --blue:#00a2e7; --blue-s:#e6f6fc; --blue-d:#0077aa;
+      --amber:#e7a108; --amber-s:#fff6e0; --amber-d:#8a5a00;
+      --ink:#1a1f24; --muted:#5b6570; --line:#e6eaee; --bg:#f4f7f5; --card:#fff;
+      --radius:18px; --shadow:0 8px 28px rgba(16,36,24,.07);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:"Plus Jakarta Sans",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+    a{color:var(--blue-d)}
+    code,kbd,.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.92em}
+    header.hero{background:linear-gradient(135deg,#00a2e7 0%,#1788c4 40%,#21b14b 100%);color:#fff;padding:48px 24px 40px}
+    header.hero .wrap{max-width:1120px;margin:0 auto}
+    .eyebrow{letter-spacing:.14em;text-transform:uppercase;font-size:12px;font-weight:700;opacity:.9}
+    header.hero h1{margin:8px 0 6px;font-size:clamp(28px,4vw,44px);letter-spacing:-.03em}
+    header.hero .lede{margin:0 0 18px;max-width:680px;font-size:17px;opacity:.95}
+    .switch{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--blue-d);font-weight:700;text-decoration:none;padding:10px 16px;border-radius:999px;box-shadow:var(--shadow)}
+    nav.toc{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}
+    nav.toc .wrap{max-width:1120px;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 16px;padding:10px 24px;font-size:13px;font-weight:600}
+    nav.toc a{color:var(--muted);text-decoration:none}
+    nav.toc a:hover{color:var(--blue-d)}
+    main{max-width:1120px;margin:0 auto;padding:36px 24px 80px}
+    section{margin:0 0 56px;scroll-margin-top:58px}
+    h2{margin:0 0 8px;font-size:26px;letter-spacing:-.02em}
+    h2 .n{color:var(--blue);margin-right:8px}
+    .section-lede{margin:0 0 22px;color:var(--muted);max-width:760px}
+    .grid{display:grid;gap:16px}
+    .g-3{grid-template-columns:repeat(3,1fr)}
+    .g-2{grid-template-columns:repeat(2,1fr)}
+    .g-4{grid-template-columns:repeat(4,1fr)}
+    @media(max-width:900px){.g-4,.g-3{grid-template-columns:1fr 1fr}.g-2{grid-template-columns:1fr}}
+    @media(max-width:620px){.g-4,.g-3{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 20px 18px;box-shadow:var(--shadow)}
+    .card h3{margin:8px 0 6px;font-size:16px}
+    .card p,.card li{margin:0;color:var(--muted);font-size:14px}
+    .card ol,.card ul{margin:8px 0 0;padding-left:18px}
+    .card li{margin:0 0 6px}
+    .icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-size:20px;font-weight:800}
+    .icon.g{background:var(--green-s);color:var(--green-d)}
+    .icon.b{background:var(--blue-s);color:var(--blue-d)}
+    .icon.a{background:var(--amber-s);color:var(--amber-d)}
+    .pill{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px}
+    .pill.g{background:var(--green-s);color:var(--green-d)}
+    .pill.b{background:var(--blue-s);color:var(--blue-d)}
+    .pill.a{background:var(--amber-s);color:var(--amber-d)}
+    .diagram{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px 10px 8px;box-shadow:var(--shadow);overflow:auto;margin:0 0 16px}
+    .caption{font-size:13px;color:var(--muted);margin:0 0 28px}
+    table{width:100%;border-collapse:collapse;background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);font-size:14px}
+    th,td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+    th{background:var(--green-s);color:var(--green-d);font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+    tr:last-child td{border-bottom:0}
+    .files{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .files a{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 12px;font-size:13px;font-weight:650;text-decoration:none;color:var(--ink)}
+    .files a:hover{border-color:var(--blue);color:var(--blue-d)}
+    .legend{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+    .node{border-radius:10px;padding:8px 12px;font-size:13px;font-weight:650;border:1.5px solid}
+    .node small{display:block;font-weight:500;color:var(--muted)}
+    .node.wait{background:var(--blue-s);border-color:var(--blue);color:var(--blue-d)}
+    .node.pass{background:var(--green-s);border-color:var(--green);color:var(--green-d)}
+    .node.stop{background:var(--amber-s);border-color:var(--amber);color:var(--amber-d)}
+    .kv{display:grid;grid-template-columns:180px 1fr;gap:0;font-size:14px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+    .kv div{padding:8px 14px;border-bottom:1px solid var(--line)}
+    .kv div:nth-child(odd){background:#f7faf8;font-weight:650}
+    .kv div:nth-last-child(-n+2){border-bottom:0}
+    footer{border-top:1px solid var(--line);padding:24px;text-align:center;color:var(--muted);font-size:14px}
+    footer a{font-weight:700;text-decoration:none}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Orisha · 40 Hour Farmer</div>
+      <h1>Instagram DM funnel — technical</h1>
+      <p class="lede">Server-heavy: ManyChat is a thin pipe with no business logic. Orisha’s server on Linode owns copy, state, Claude, tags, and handoff alerts to Phil on Slack.</p>
+      <a class="switch" href="IG_DM_Funnel_UX.html">← User experience</a>
+    </div>
+  </header>
+  <nav class="toc">
+    <div class="wrap">
+      <a href="#architecture">Architecture</a>
+      <a href="#sequences">Sequences</a>
+      <a href="#pacing">Pacing</a>
+      <a href="#manychat">ManyChat</a>
+      <a href="#hosting">Hosting</a>
+      <a href="#api">API</a>
+      <a href="#state">State</a>
+      <a href="#dsl">Decision tree</a>
+      <a href="#constraints">Constraints</a>
+      <a href="#open">Open items</a>
+      <a href="#later">Out of scope / Later</a>
+    </div>
+  </nav>
+  <main>
+    <section id="architecture">
+      <h2><span class="n">01</span>Architecture</h2>
+      <p class="section-lede">No Orisha Meta app and no App Review. Instagram access stays through ManyChat’s official connection. The server is the brain.</p>
+      <div class="diagram">
+        <pre class="mermaid">
+flowchart LR
+  Lead[Lead] --> IG[Instagram]
+  IG --> MC["ManyChat<br/>thin pipe · 3 pieces"]
+  MC -->|"POST /ig-inbound"| SRV["Orisha server<br/>Linode"]
+  SRV --> DB[(Server DB)]
+  SRV --> Claude[Claude]
+  SRV -->|"sendContent"| MC
+  MC --> IG
+  SRV -->|"handoff alert"| Slack[Slack]
+  Slack --> Phil[Phil]
+  classDef pipe fill:#e6f6fc,stroke:#00a2e7,color:#0a5a7a
+  classDef brain fill:#e8f8ee,stroke:#21b14b,color:#145c2a
+  classDef people fill:#fff6e0,stroke:#e7a108,color:#8a5a00
+  class MC pipe
+  class SRV,DB,Claude brain
+  class Lead,Phil,Slack people
+        </pre>
+      </div>
+    </section>
+
+    <section id="sequences">
+      <h2><span class="n">02</span>Sequences</h2>
+      <p class="section-lede">Every ManyChat External Request must get an HTTP 200 with an empty body immediately. Slow work happens after that.</p>
+
+      <h3 style="margin:0 0 8px;font-size:16px">Inbound message</h3>
+      <div class="diagram">
+        <pre class="mermaid">
+sequenceDiagram
+  participant Lead
+  participant IG as Instagram
+  participant MC as ManyChat
+  participant S as Server
+  participant C as Claude
+  Lead->>IG: types a DM
+  IG->>MC: Default Reply
+  MC->>S: POST /ig-inbound
+  S-->>MC: 200 empty immediately
+  alt handle on the test list and a conversation exists
+    S->>S: load state and walk the tree
+    opt current step needs parsing
+      S->>C: extract or classify
+      C-->>S: JSON status
+    end
+    Note over S: paced send starts in the background
+    S->>MC: sendContent message 1
+    S->>MC: sendContent later messages, buttons on the last
+    MC->>IG: deliver each DM in turn
+    IG->>Lead: messages spaced apart
+  else not on the list or no conversation
+    Note over S: ignore the DM, save nothing
+  end
+        </pre>
+      </div>
+      <p class="caption">The first event is slightly different: commenting <strong>PROFIT</strong> runs the comment flow, which POSTs <code>trigger: profit_comment</code>. ManyChat sends no message. The server starts the conversation and sends the welcome. A conversation existing on the server is what makes a lead active.</p>
+
+      <h3 style="margin:0 0 8px;font-size:16px">Quick-reply tap</h3>
+      <div class="diagram">
+        <pre class="mermaid">
+sequenceDiagram
+  participant Lead
+  participant IG as Instagram
+  participant MC as ManyChat
+  participant S as Server
+  Lead->>IG: taps a quick reply
+  Note over MC,S: dynamic_block_callback POSTs directly to /ig-inbound
+  MC->>S: POST contact_id and text caption
+  S-->>MC: 200 empty immediately
+  S->>S: treated exactly like typed text
+  S->>MC: paced sendContent, buttons on the last
+  MC->>Lead: next message
+        </pre>
+      </div>
+      <p class="caption">Including “Talk to Guillaume.” It is a callback, not a ManyChat node jump. We do not rely on Default Reply to catch bare taps.</p>
+
+      <h3 style="margin:0 0 8px;font-size:16px">Handoff</h3>
+      <div class="diagram">
+        <pre class="mermaid">
+sequenceDiagram
+  participant Lead
+  participant S as Server
+  participant MC as ManyChat
+  participant Slack
+  participant Phil
+  Lead->>S: Talk to Guillaume or human intent
+  S->>MC: sendContent holding message
+  MC->>Lead: holding DM
+  S->>MC: addTag human_handoff
+  S->>S: human_handoff true in the DB
+  S->>Slack: incoming webhook alert
+  Slack->>Phil: mention Phil, reply swiftly
+  Phil->>Lead: replies in the Instagram app
+        </pre>
+      </div>
+      <p class="caption">The server never sends again while <code>human_handoff</code> is true. Phil or Guillaume clears it with an admin endpoint (or the mirrored ManyChat field). Native Instagram-app replies have no 24-hour limit; the 24-hour window applies only to API sends.</p>
+    </section>
+
+    <section id="pacing">
+      <h2><span class="n">03</span>Pacing</h2>
+      <p class="section-lede">Messages are never batched into one <code>sendContent</code>. Each line is its own call, spaced to match reading time. All of this runs <strong>after</strong> the 200 response, so delays do not count against ManyChat’s 10-second timeout. If the lead writes again mid-sequence, remaining queued messages for that contact are cancelled.</p>
+      <div class="diagram">
+        <pre class="mermaid">
+sequenceDiagram
+  participant Lead
+  participant S as Server
+  participant MC as ManyChat
+  Note over S: 200 already returned
+  Note over S: thinking delay about 1 to 2 seconds
+  S->>MC: sendContent message 1
+  Note over S: delay from length of message 1, 1.2 to 4 seconds
+  S->>MC: sendContent message 2 plus quick replies
+        </pre>
+      </div>
+      <div class="card">
+        <h3>Default delay rule</h3>
+        <p><code>delay_ms = clamp(800 + 40 ms × characters in the previous message, 1200, 4000)</code>. The first reply after the lead speaks uses a short thinking delay (<code>thinking_ms</code>, default 1500). A say item may set <code>delay_ms</code> to override. Tree-level <code>config.pacing</code> sets <code>base_ms</code>, <code>per_char_ms</code>, <code>min_ms</code>, <code>max_ms</code>, and <code>thinking_ms</code>. Quick replies attach to the last message only. A typing indicator between messages should be sent if the ManyChat API supports it for Instagram — <strong>verify</strong>, do not assume it works.</p>
+      </div>
+    </section>
+
+    <section id="manychat">
+      <h2><span class="n">04</span>ManyChat — three thin pieces</h2>
+      <p class="section-lede">No copy, no branching, no handoff flow, and no <code>sendFlow</code>. Live Chat is history only.</p>
+      <div class="grid g-3">
+        <div class="card">
+          <div class="icon g">1</div>
+          <h3>PROFIT comment trigger</h3>
+          <p>POSTs the first event to <code>/ig-inbound</code> with <code>trigger: profit_comment</code>, plus contact id and Instagram handle. Sends <strong>no message</strong> itself.</p>
+        </div>
+        <div class="card">
+          <div class="icon b">2</div>
+          <h3>Default Reply</h3>
+          <p>No condition. Forwards <code>{contact_id, ig_username, text}</code> from every DM to <code>/ig-inbound</code>. The server ignores contacts with no conversation and saves nothing for them. Settings: trigger <strong>every time</strong> (not once per 24 hours, which would drop later replies) and <strong>skip story replies</strong> on.</p>
+        </div>
+        <div class="card">
+          <div class="icon a">3</div>
+          <h3>Live Chat</h3>
+          <p>Conversation history only. It does not trigger handoff and is not driven by a ManyChat flow. Phil replies in the Instagram app.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="hosting">
+      <h2><span class="n">05</span>Hosting</h2>
+      <p class="section-lede">Decided: Guillaume’s existing Linode. Cloudflare Workers stay a possible later fallback, not the v1 plan.</p>
+      <div class="card">
+        <div class="icon g">🖥️</div>
+        <h3>Linode</h3>
+        <ul>
+          <li><strong>HTTPS</strong> via Caddy with Let’s Encrypt, on the Linode hostname <code>172-105-6-173.ip.linodeusercontent.com</code>. Caddy proxies only <code>/ig-inbound</code>; everything else returns 404.</li>
+          <li><strong>Test allowlist:</strong> <code>ALLOWED_USERNAMES</code> lists the Instagram handles the server answers. Anyone else is ignored. An empty list blocks everyone.</li>
+          <li><strong>Deploy:</strong> <code>chat-test/deploy.sh</code> installs Node and Caddy once, then syncs code, secrets and the plan and restarts the service.</li>
+          <li><strong>Process manager:</strong> systemd or pm2, so the app restarts if it dies.</li>
+          <li><strong>Uptime monitor</strong> (for example UptimeRobot) on the inbound endpoint.</li>
+          <li><strong>10-second ManyChat timeout:</strong> reply <code>200</code> immediately, then run Claude and the paced <code>sendContent</code> sequence in the background (delays do not count against the timeout).</li>
+          <li><strong>Database backups</strong> on a schedule.</li>
+          <li><strong>Secrets</strong> (API keys, Slack webhook, request secret) live in environment variables, not in the repo.</li>
+          <li><strong>Verify ManyChat requests</strong> with a shared secret header, so strangers cannot POST to <code>/ig-inbound</code>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="api">
+      <h2><span class="n">06</span>API calls</h2>
+      <p class="section-lede">ManyChat Pro is required. API key from Settings → API. Header: <code>Authorization: Bearer &lt;MANYCHAT_API_KEY&gt;</code>.</p>
+      <table>
+        <thead>
+          <tr><th>Endpoint</th><th>When</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>POST https://api.manychat.com/fb/sending/sendContent</code></td>
+            <td>One message per call — including welcome and the handoff holding line. Dynamic Block v2, <code>type: instagram</code>. Quick replies (as <code>dynamic_block_callback</code>) go only on the last message of a turn. Optional typing indicator between messages: verify Instagram support, do not assume it.</td>
+          </tr>
+          <tr>
+            <td><code>POST https://api.manychat.com/fb/subscriber/addTagByName</code></td>
+            <td>Add a tag, e.g. <code>ig_qualified</code>, <code>human_handoff</code>.</td>
+          </tr>
+          <tr>
+            <td><code>POST https://api.manychat.com/fb/subscriber/removeTagByName</code></td>
+            <td>Remove a tag when it no longer applies, e.g. <code>human_handoff</code> after Phil clears it.</td>
+          </tr>
+          <tr>
+            <td><code>POST https://api.manychat.com/fb/subscriber/setCustomFieldByName</code></td>
+            <td>Optional mirror of server-DB state, for visibility only.</td>
+          </tr>
+          <tr>
+            <td>Slack incoming webhook</td>
+            <td>On handoff: <code>SLACK_HANDOFF_WEBHOOK_URL</code>, mention <code>&lt;@SLACK_PHIL_USER_ID&gt;</code>, stress a swift reply, include lead, reason, key vars, recent messages, and a Live Chat link if configured.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="state">
+      <h2><span class="n">07</span>Data and state</h2>
+      <p class="section-lede">Source of truth is the server database. ManyChat custom fields are an optional visibility mirror.</p>
+      <div class="kv">
+        <div>node</div><div>Current waiting node id</div>
+        <div>vars</div><div>crop, country, region, english_speaker, season_sales, greenhouse_sqft, profit_opportunity, qualified, disqualify_reason, next_step</div>
+        <div>tries</div><div>Failed attempts on the current node (reset on each transition)</div>
+        <div>human_handoff</div><div>true = a human owns the chat; the server stays silent until a manual admin reset</div>
+        <div>last_inbound_at</div><div>Used for the 24-hour API send window</div>
+        <div>transcript</div><div>Recent messages, included in the Slack alert</div>
+        <div>tree_version</div><div>Tree version this contact is on</div>
+        <div>ig_handle / name</div><div>If ManyChat provides them, used in Slack alerts</div>
+      </div>
+    </section>
+
+    <section id="dsl">
+      <h2><span class="n">08</span>Decision-tree language</h2>
+      <p class="section-lede">One JSON file is the conversation. The editor draws edges from <code>next</code> / <code>on_fail</code> / <code>else</code> / <code>branches</code> / <code>options</code>, so the picture cannot disagree with the logic. Claude returns JSON only: <code>ok</code> + value, <code>retry</code> + followup, or <code>intent: human</code>. The server re-validates type and range.</p>
+      <div class="legend">
+        <div class="node wait"><code>ask</code>, <code>choice</code><small>Wait — send a prompt, stop until the lead answers</small></div>
+        <div class="node pass"><code>message</code>, <code>condition</code>, <code>set</code>, <code>action</code><small>Auto-advance — run and continue immediately</small></div>
+        <div class="node stop"><code>handoff</code>, <code>end</code><small>Stop — holding message + Slack, or a recorded outcome. Both end the conversation on the server.</small></div>
+      </div>
+      <div class="card">
+        <h3>Also in the language</h3>
+        <p>Templates use <code>{{var}}</code>. Conditions are a small safe expression subset, e.g. <code>country in ["US","CA"] and english_speaker == true</code>. Global intents: <code>human</code> and <code>stop</code>, from any node. Versioning via <code>dsl_version</code>, <code>tree.version</code>, and <code>redirects</code>. A <code>null</code> constant that the tree references blocks publish.</p>
+      </div>
+      <div class="files">
+        <a href="decision-tree/SPEC.md">SPEC.md</a>
+        <a href="decision-tree/decision-tree.schema.json">decision-tree.schema.json</a>
+        <a href="decision-tree/profit-funnel.json">profit-funnel.json</a>
+        <a href="decision-tree/interpreter.py">interpreter.py</a>
+        <a href="decision-tree/validate.py">validate.py</a>
+      </div>
+    </section>
+
+    <section id="constraints">
+      <h2><span class="n">09</span>Constraints</h2>
+      <table>
+        <thead><tr><th>Constraint</th><th>Handling</th></tr></thead>
+        <tbody>
+          <tr><td>24-hour window (API only)</td><td>Server sends via the API only within 24 hours of the lead’s last message. Native Instagram-app replies have no 24h limit. Live Chat after 24h would need the 7-day Human Agent tag; the intended human path is the Instagram app.</td></tr>
+          <tr><td>Duplicate or out-of-order events</td><td>v1 processes events as they arrive (no dedup, no per-contact queue). A duplicate can repeat a step; an out-of-order reply can hit the wrong question. Design for this is later.</td></tr>
+          <tr><td>Quick replies</td><td>Max 13 per message, captions about 20 characters. They disappear once the lead types or taps. Typed text still arrives via Default Reply; the server ignores contacts with no conversation.</td></tr>
+          <tr><td>External Request timeout</td><td>10 seconds. Return 200 immediately; work in the background.</td></tr>
+          <tr><td>ManyChat Pro</td><td>Required for the API key.</td></tr>
+          <tr><td>Handoff stuck on</td><td><code>human_handoff</code> stays true until Phil or Guillaume clears it via the admin endpoint or the mirrored field.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="open">
+      <h2><span class="n">10</span>Open items</h2>
+      <div class="grid g-2">
+        <div class="card"><span class="pill a">Guillaume</span><h3><code>BENCHMARK_PER_SQFT</code> and formula</h3><p>Placeholder: <code>max(0, sqft × benchmark − season_sales)</code>. Confirm the benchmark and whether “profit opportunity” is a sales gap (or gap × margin). Needed for the $8k bar.</p></div>
+        <div class="card"><span class="pill a">Guillaume / Phil</span><h3><code>SLACK_HANDOFF_WEBHOOK_URL</code></h3><p>Slack incoming webhook for handoff alerts. Publishing is blocked while this is null.</p></div>
+        <div class="card"><span class="pill a">Guillaume / Phil</span><h3><code>SLACK_PHIL_USER_ID</code></h3><p>Phil’s Slack member id, used as <code>&lt;@id&gt;</code> in the alert. Publishing is blocked while this is null.</p></div>
+        <div class="card"><span class="pill b">Developer</span><h3>Live Chat URL template</h3><p>Optional <code>config.livechat_url_template</code> with <code>{{contact.id}}</code>, so the Slack alert can link to the contact. If unset, the alert tells Phil to reply in the Instagram app.</p></div>
+        <div class="card"><span class="pill b">Developer</span><h3>Instagram quick replies and typing in <code>sendContent</code></h3><p>Verify Instagram support for <code>quick_replies</code> / <code>dynamic_block_callback</code>, and whether a typing indicator can be shown between paced messages. Do not assume a typing indicator works until confirmed.</p></div>
+        <div class="card"><span class="pill b">Developer</span><h3>Claude model id</h3><p>Tree config currently uses <code>claude-haiku-4-5</code>. Confirm the exact id at build time.</p></div>
+      </div>
+    </section>
+
+    <section id="later">
+      <h2><span class="n">11</span>Out of scope / Later</h2>
+      <p class="section-lede">Deferred past v1 — not in the first launch.</p>
+      <div class="grid g-2">
+        <div class="card"><h3>PDF guide lead magnet</h3><p>v1 sends no guide. Later: add <code>GUIDE_URL</code>, mention it in the welcome, and send the PDF to every lead.</p></div>
+        <div class="card"><h3>Dedup and out-of-order handling</h3><p>v1 processes events as they arrive. Later: dedupe (hash of contact + text, or a message id) and a per-contact queue.</p></div>
+        <div class="card"><h3>Failure alerts to Guillaume on Slack</h3><p>v1 only logs failures. Later: when a send to ManyChat fails or Claude errors, post to a Slack incoming webhook that mentions Guillaume. Include the lead, the step, the error and the last messages.</p></div>
+        <div class="card"><h3>Charts and images in DMs</h3><p>On hold. The conversation is text and quick-reply buttons only.</p></div>
+        <div class="card"><h3>Orisha’s own Meta app</h3><p>No App Review. Instagram access stays through ManyChat’s official connection.</p></div>
+        <div class="card"><h3>Cloudflare Workers</h3><p>Not the v1 host. A possible later fallback if the Linode setup ever needs to move. Would still need a queue and a database for async work and state.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Orisha · 40 Hour Farmer · Technical
+    · <a href="IG_DM_Funnel_UX.html">← User experience</a>
+  </footer>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "base",
+      securityLevel: "loose",
+      themeVariables: {
+        primaryColor: "#e6f6fc",
+        primaryTextColor: "#1a1f24",
+        primaryBorderColor: "#00a2e7",
+        lineColor: "#21b14b",
+        secondaryColor: "#e8f8ee",
+        tertiaryColor: "#f4f7f5",
+        actorBkg: "#e8f8ee",
+        actorBorder: "#21b14b",
+        actorTextColor: "#1a1f24",
+        signalColor: "#00a2e7",
+        signalTextColor: "#1a1f24",
+        noteBkgColor: "#fff6e0",
+        noteBorderColor: "#e7a108",
+        fontFamily: "Plus Jakarta Sans, system-ui, sans-serif",
+        fontSize: "15px"
+      },
+      flowchart: { curve: "basis", htmlLabels: true, padding: 12 },
+      sequence: { actorMargin: 24, messageMargin: 28 }
+    });
+  </script>
+</body>
+</html>

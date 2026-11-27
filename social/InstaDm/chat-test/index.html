@@ -1,0 +1,1238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tomato chat test</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍅</text></svg>">
+<style>
+  * { box-sizing: border-box; }
+  * { scrollbar-width: thin; scrollbar-color: #dde2e6 transparent; }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #dde2e6; border: 3px solid transparent; border-radius: 999px; background-clip: content-box; }
+  ::-webkit-scrollbar-thumb:hover { background: #c4cbd1; background-clip: content-box; }
+  body { font-family: system-ui, -apple-system, "Inter", sans-serif; font-size: 15px; line-height: 1.5; background: #f7f9f8; margin: 0; color: #1a1f24; }
+  .app { display: grid; grid-template-columns: 2fr 1fr 1fr; height: 100vh; }
+  .pane { display: flex; flex-direction: column; min-height: 0; overflow-y: auto; padding: 32px 28px; }
+  .plan-pane { border-right: 1px solid #eef1f3; overflow: hidden; }
+  .detail-pane, .chat-pane { background: #fff; }
+  .chat-pane { border-left: 1px solid #eef1f3; }
+  .pane-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+  .plan-head { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 20px; flex: none; }
+  h2 { margin: 0; font-size: 20px; font-weight: 650; }
+  .detail-panel { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+  .detail-panel[hidden] { display: none; }
+  .detail-head { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+  .detail-head h2 { flex: 1; }
+  .badge { font-size: 12px; font-weight: 700; padding: 3px 12px; border-radius: 999px; background: #f1f2f4; color: #5b6570; }
+  .badge.current { background: #e6f6fc; color: #0077aa; }
+  button.icon { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; }
+  button.icon svg { width: 16px; height: 16px; }
+  button.icon:not(:disabled):hover { background: #e8f8ee; }
+  #deleteBlock:not(:disabled):hover { color: #c0392b; border-color: #f1c9c4; background: #fdf3f2; }
+  .save-status { align-self: center; font-size: 12px; color: #8a949e; }
+  .save-status.failed { color: #b3261e; }
+  .field { display: flex; flex-direction: column; flex: 1; min-height: 140px; }
+  .field + .field { margin-top: 24px; }
+  .field > label:first-child { margin-top: 0; }
+  label { display: block; font-size: 12px; font-weight: 600; letter-spacing: .02em; color: #5b6570; margin: 24px 0 8px; }
+  textarea { width: 100%; font: inherit; font-size: 14px; line-height: 1.5; padding: 14px 16px; border: 1px solid #e3e8eb; border-radius: 12px; resize: vertical; }
+  textarea.fill { flex: 1; resize: none; }
+  textarea:focus, input:focus, select:focus { outline: none; border-color: #21b14b; box-shadow: 0 0 0 4px #e8f8ee; }
+  button { padding: 10px 18px; border: 0; border-radius: 999px; background: #21b14b; color: #fff; font: inherit; font-size: 14px; cursor: pointer; }
+  button.secondary { background: #fff; color: #167a33; border: 1px solid #cfeedb; }
+  button.secondary.selected { background: #e8f8ee; border-color: #21b14b; }
+  button:disabled { opacity: .5; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 12px; }
+  .emoji-button { background: none; border: none; padding: 0 6px; cursor: pointer; font-size: 16px; }
+  .emoji-popup { position: absolute; z-index: 20; }
+  .field-error { color: #c0392b; font-size: 13px; white-space: pre-line; }
+  textarea.invalid { border-color: #c0392b; }
+  .quick-replies { display: flex; flex-wrap: wrap; gap: 10px; align-self: flex-start; margin-top: 4px; }
+  .link-buttons { display: flex; flex-direction: column; gap: 6px; align-self: flex-start; }
+  .link-buttons a { background: #f3f5f6; color: #0077aa; border-radius: 12px; padding: 8px 16px; text-align: center; text-decoration: none; font-weight: 600; }
+  .quick-replies button { background: #fff; color: #0077aa; border: 1px solid #bfe6f6; padding: 8px 16px; }
+  #thread { flex: 1; display: flex; flex-direction: column; gap: 14px; overflow-y: auto; }
+  .bubble { padding: 12px 18px; border-radius: 20px; max-width: 80%; line-height: 1.45; white-space: pre-wrap; }
+  .bot { background: #f4f7f5; align-self: flex-start; }
+  .lead { background: #21b14b; color: #fff; align-self: flex-end; }
+  .error { background: #fff6e0; color: #8a5a00; align-self: center; }
+  #form { display: flex; gap: 12px; margin-top: 24px; }
+  #input { flex: 1; padding: 14px 20px; border: 1px solid #e3e8eb; border-radius: 999px; font: inherit; }
+  .graph { position: relative; flex: 1; min-height: 0; overflow: hidden; }
+  .canvas { position: relative; transform-origin: 0 0; }
+  .graph svg { position: absolute; left: 0; top: 0; pointer-events: none; }
+  .edge { fill: none; stroke: #c9d0d6; stroke-width: 1.5; }
+  .edge.taken { stroke: #21b14b; }
+  .edge.draft { stroke: #00a2e7; stroke-dasharray: 5 4; }
+  .edge-control { position: absolute; transform: translate(-50%, -50%); display: flex; align-items: center; gap: 4px; background: #f7f9f8; border-radius: 999px; padding: 2px; }
+  .edge-control input { width: 110px; padding: 4px 10px; border: 1px solid #f3dca4; border-radius: 999px; background: #fffaee; color: #8a5a00; font: inherit; font-size: 12px; }
+  .edge-remove { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; padding: 0; border-radius: 50%; background: #fff; color: #5b6570; border: 1px solid #e3e8eb; opacity: .4; }
+  .edge-remove svg { width: 12px; height: 12px; }
+  .edge-control:hover .edge-remove { opacity: 1; }
+  .node { position: absolute; width: 170px; display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; background: #fff; color: #1a1f24; border: 1px solid #e3e8eb; border-radius: 16px; font-size: 13px; text-align: left; cursor: pointer; box-shadow: 0 1px 2px rgba(16, 36, 24, .04), 0 6px 16px rgba(16, 36, 24, .05); }
+  .node-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .node-title { font-weight: 650; font-size: 14px; line-height: 1.35; }
+  .node-kind { font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #8a5a00; }
+  .node-info { font-size: 12px; line-height: 1.4; font-weight: 400; color: #5b6570; }
+  .node-info.done { color: #167a33; font-weight: 600; }
+  .node-info.dummy { font-style: italic; }
+  .node.done { background: #f1fbf4; border-color: #bfe8cd; }
+  .node.condition { background: #fffaee; border-color: #f3dca4; }
+  .node.condition.done { border-color: #bfe8cd; }
+  .node.current { border: 2px solid #00a2e7; padding: 11px 13px; box-shadow: 0 0 0 4px #e6f6fc; }
+  .node.selected { outline: 2px solid #c9d0d6; outline-offset: 3px; }
+  .node.orphan { border-style: dashed; }
+  .node.drop-target { outline: 2px solid #21b14b; outline-offset: 3px; }
+  .node { user-select: none; touch-action: none; }
+  .port-in { position: absolute; left: 50%; top: -7px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: #fff; border: 2px solid #dfe4e8; }
+  .handle { position: absolute; left: 50%; bottom: -9px; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; background: #fff; border: 2px solid #c9d0d6; cursor: crosshair; touch-action: none; }
+  .handle:hover { border-color: #21b14b; background: #e8f8ee; }
+  select { font: inherit; font-size: 14px; padding: 8px 12px; border: 1px solid #e3e8eb; border-radius: 10px; background: #fff; }
+  .app[hidden] { display: none; }
+  .conversations-app { grid-template-columns: 1fr 2fr; }
+  .grower-list { display: flex; flex-direction: column; gap: 8px; }
+  .grower { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 16px; background: #fff; color: #1a1f24; border: 1px solid #e3e8eb; border-radius: 14px; text-align: left; }
+  .grower.selected { border-color: #21b14b; background: #e8f8ee; }
+  .grower-name { font-weight: 650; }
+  .muted { font-size: 12px; color: #8a949e; }
+  .badge.completed { background: #e8f8ee; color: #167a33; }
+  .badge.progress { background: #fffaee; color: #8a5a00; }
+  .conversation { border: 1px solid #eef1f3; border-radius: 16px; padding: 20px; margin-bottom: 24px; }
+  .conversation-head { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .collected { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; font-size: 13px; margin-bottom: 16px; padding: 12px 16px; background: #f7f9f8; border-radius: 12px; }
+  .collected dt { color: #5b6570; }
+  .collected dd { margin: 0; font-weight: 600; }
+  .transcript { display: flex; flex-direction: column; gap: 10px; }
+  .transcript .bubble { display: flex; flex-direction: column; gap: 4px; }
+  .transcript .lead .muted { color: #dff5e6; }
+  .marker { align-self: center; }
+  @media (max-width: 1000px) {
+    .app { grid-template-columns: 1fr; height: auto; }
+    .pane { min-height: 60vh; padding: 24px 20px; }
+    .plan-pane { min-height: 0; border-right: 0; border-bottom: 1px solid #eef1f3; }
+    .chat-pane { border-left: 0; border-top: 1px solid #eef1f3; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <nav class="pane plan-pane">
+    <div class="plan-head">
+      <h2>Conversation plan</h2>
+      <div class="toolbar">
+        <button class="secondary" id="instructionsItem">Instructions</button>
+        <button class="secondary icon" id="addBlock" title="Add block" aria-label="Add block"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+        <button class="secondary" id="autoArrange">Auto-arrange</button>
+        <button class="secondary icon" id="undo" title="Undo" aria-label="Undo" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></svg></button>
+        <button class="secondary icon" id="redo" title="Redo" aria-label="Redo" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 14 5-5-5-5"/><path d="M20 9H9.5a5.5 5.5 0 0 0 0 11H13"/></svg></button>
+        <button class="secondary icon" id="testFromHere" title="Test from here" aria-label="Test from here"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l14 9-14 9z"/></svg></button>
+        <button class="secondary icon" id="deleteBlock" title="Delete block" aria-label="Delete block"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M10 11v6M14 11v6"/></svg></button>
+        <button class="secondary" id="testOnInstagram">Test on IG</button>
+        <button class="secondary icon" id="showConversations" title="Conversations" aria-label="Conversations"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></button>
+        <span class="save-status" id="testOnInstagramStatus" aria-live="polite"></span>
+        <span class="save-status" id="saveStatus" aria-live="polite"></span>
+      </div>
+    </div>
+    <div class="graph" id="graph"></div>
+  </nav>
+  <section class="pane detail-pane">
+    <div class="detail-panel" id="blockPanel"></div>
+    <div class="detail-panel" id="instructionsPanel">
+      <div class="field">
+        <label for="instructionsInput">Instructions for Claude</label>
+        <textarea class="fill" id="instructionsInput" placeholder="General instructions that apply to the whole conversation"></textarea>
+      </div>
+      <div class="field">
+        <label for="toneInput">Tone of voice</label>
+        <textarea class="fill" id="toneInput"></textarea>
+      </div>
+    </div>
+  </section>
+  <section class="pane chat-pane">
+    <div class="pane-head">
+      <h2>Chat</h2>
+      <button class="secondary icon" id="restart" title="Restart chat" aria-label="Restart chat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg></button>
+    </div>
+    <div id="thread"></div>
+    <form id="form">
+      <input id="input" autocomplete="off" placeholder="Type a message">
+      <button id="send">Send</button>
+    </form>
+  </section>
+</div>
+<div class="app conversations-app" id="conversationsView" hidden>
+  <nav class="pane plan-pane">
+    <div class="pane-head">
+      <h2>Growers</h2>
+      <button class="secondary" id="showPlan">Plan</button>
+    </div>
+    <div class="grower-list" id="growerList"></div>
+  </nav>
+  <section class="pane detail-pane" id="conversationList"></section>
+</div>
+<script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@1.21.3/index.js"></script>
+<script>
+const START = "(The farmer just commented PROFIT on our post. Send your opening message.)";
+const TEST_START = "(Test mode: the farmer already answered the earlier steps.)";
+const DEFAULT_PLAN = [
+  {
+    title: "Yearly tomato sales",
+    prompt: "Open with a warm hello, then ask roughly how much they sell in tomatoes in a typical year. If the currency is unclear, ask whether it is USD or CAD.",
+    info: ["Annual tomato sales and currency"],
+  },
+  {
+    title: "Tomato growing space",
+    prompt: "Ask how much greenhouse or high tunnel space their tomatoes take. Convert to square feet (1 acre = 43,560 sq ft, 1 m2 = 10.76 sq ft) and confirm the converted number.",
+    info: ["Tomato space in square feet"],
+  },
+];
+const DEFAULT_TONE = "English, friendly, brief. One or two short sentences. DM style. No markdown. No dashes.";
+const NODE_WIDTH = 170;
+const MARGIN = 24;
+const MIN_ROW_GAP = 60;
+const MAX_ROW_GAP = 100;
+const MIN_NODE_GAP = 100;
+const SCALES = [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4];
+const MAX_NODE_GAP = 120;
+const SVG_NAMESPACE = "http://www.w3.org/2000/svg";
+
+const instructionsItem = document.getElementById("instructionsItem");
+const graph = document.getElementById("graph");
+const blockPanel = document.getElementById("blockPanel");
+const instructionsPanel = document.getElementById("instructionsPanel");
+const instructionsInput = document.getElementById("instructionsInput");
+const toneInput = document.getElementById("toneInput");
+const thread = document.getElementById("thread");
+const form = document.getElementById("form");
+const input = document.getElementById("input");
+const sendButton = document.getElementById("send");
+const saveStatus = document.getElementById("saveStatus");
+
+function readStored(key) {
+  try { return localStorage.getItem(key); } catch { return null; }
+}
+
+function writeStored(key, value) {
+  try { localStorage.setItem(key, value); } catch {}
+}
+
+function persistHistory() {
+  while (true) {
+    try {
+      localStorage.setItem("history", JSON.stringify({ undoStack, redoStack, committedState }));
+      return;
+    } catch {
+      if (!undoStack.length && !redoStack.length) return;
+      if (undoStack.length) undoStack.shift(); else redoStack.shift();
+    }
+  }
+}
+
+function restoreHistory() {
+  let saved = null;
+  try { saved = JSON.parse(readStored("history")); } catch {}
+  const loadedState = currentState();
+  if (!saved || !Array.isArray(saved.undoStack) || !Array.isArray(saved.redoStack)) {
+    committedState = loadedState;
+    return;
+  }
+  undoStack = saved.undoStack;
+  redoStack = saved.redoStack;
+  if (typeof saved.committedState === "string" && saved.committedState !== loadedState) {
+    undoStack.push(saved.committedState);
+    if (undoStack.length > 100) undoStack.shift();
+    redoStack = [];
+  }
+  committedState = loadedState;
+  persistHistory();
+  updateHistoryButtons();
+}
+
+function normalizePlan(blocks) {
+  const isLinear = blocks.every((block) => !block.next);
+  for (const block of blocks) {
+    block.id ??= crypto.randomUUID();
+    block.quickReplies ??= [];
+    block.linkButtons ??= [];
+  }
+  blocks.forEach((block, index) => {
+    block.next ??= isLinear && blocks[index + 1] ? [blocks[index + 1].id] : [];
+    block.next = block.next.map((edge) => (typeof edge === "string" ? { target: edge, condition: "" } : edge));
+    block.type ??= block.next.length > 1 ? "condition" : "step";
+  });
+  return blocks;
+}
+
+function loadPlan() {
+  try {
+    const saved = JSON.parse(readStored("plan"));
+    if (Array.isArray(saved)) return normalizePlan(saved);
+  } catch {}
+  return normalizePlan(structuredClone(DEFAULT_PLAN));
+}
+
+function savePlan() {
+  writeStored("plan", JSON.stringify(plan));
+  recordHistory();
+}
+
+let plan = loadPlan();
+let tone = readStored("tone") ?? DEFAULT_TONE;
+let instructions = readStored("instructions") ?? "";
+let undoStack = [];
+let redoStack = [];
+let committedState = currentState();
+let typingElement = null;
+let selectedIndex = loadSelectedIndex();
+let collected = {};
+let messages = [{ role: "user", content: START }];
+let currentId = getStartId();
+let visited = new Set();
+let canvasScale = 1;
+let shownPositions = new Map();
+let shownEdges = [];
+let testStartId = null;
+let lastTestStart = null;
+let dummyLabels = new Set();
+let serverPlanLoaded = false;
+let serverSaveTimer = null;
+
+function setSaveStatus(text, failed = false) {
+  saveStatus.textContent = text;
+  saveStatus.classList.toggle("failed", failed);
+}
+
+function scheduleServerSave() {
+  if (!serverPlanLoaded) return;
+  clearTimeout(serverSaveTimer);
+  setSaveStatus("Saving…");
+  serverSaveTimer = setTimeout(async () => {
+    try {
+      const { ok } = await post("/config", { plan, tone, instructions });
+      setSaveStatus(ok ? "Saved" : "Save failed", !ok);
+    } catch {
+      setSaveStatus("Save failed", true);
+    }
+  }, 800);
+}
+
+function currentState() {
+  return JSON.stringify({ plan, tone, instructions });
+}
+
+function isTextField(node) {
+  return node instanceof HTMLInputElement || node instanceof HTMLTextAreaElement || node?.isContentEditable;
+}
+
+function recordHistory() {
+  const state = currentState();
+  if (state === committedState) return;
+  const active = document.activeElement;
+  const typing = isTextField(active);
+  if (!typing || active !== typingElement) {
+    undoStack.push(committedState);
+    if (undoStack.length > 100) undoStack.shift();
+    redoStack = [];
+  }
+  typingElement = typing ? active : null;
+  committedState = state;
+  persistHistory();
+  updateHistoryButtons();
+  scheduleServerSave();
+}
+
+function restoreState(fromStack, toStack) {
+  if (!fromStack.length) return;
+  toStack.push(committedState);
+  committedState = fromStack.pop();
+  typingElement = null;
+  ({ plan, tone, instructions } = JSON.parse(committedState));
+  persistHistory();
+  writeStored("plan", JSON.stringify(plan));
+  writeStored("tone", tone);
+  writeStored("instructions", instructions);
+  toneInput.value = tone;
+  instructionsInput.value = instructions;
+  updateHistoryButtons();
+  scheduleServerSave();
+  selectBlock(Math.min(selectedIndex, plan.length - 1));
+}
+
+function updateHistoryButtons() {
+  document.getElementById("undo").disabled = !undoStack.length;
+  document.getElementById("redo").disabled = !redoStack.length;
+}
+
+function loadSelectedIndex() {
+  const saved = Number(readStored("selected"));
+  if (Number.isInteger(saved) && saved >= -1 && saved < plan.length) return saved;
+  return plan.length ? 0 : -1;
+}
+
+function element(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined) node.textContent = text;
+  return node;
+}
+
+function svgElement(tag, attributes) {
+  const node = document.createElementNS(SVG_NAMESPACE, tag);
+  for (const [name, value] of Object.entries(attributes)) node.setAttribute(name, value);
+  return node;
+}
+
+function iconButton(text, onClick) {
+  const control = element("button", "", text);
+  control.type = "button";
+  control.addEventListener("click", onClick);
+  return control;
+}
+
+async function post(path, payload) {
+  const response = await fetch(path, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+  return { ok: response.ok, data: await response.json() };
+}
+
+function findBlock(id) {
+  return plan.find((block) => block.id === id);
+}
+
+function hasIncoming(block) {
+  return plan.some((other) => other.next.some((edge) => edge.target === block.id));
+}
+
+function getStartId() {
+  return (plan.find((block) => !hasIncoming(block)) ?? plan[0])?.id ?? null;
+}
+
+function statusOf(block) {
+  return block.id === currentId ? "current" : visited.has(block.id) ? "done" : "next";
+}
+
+function reaches(from, to, seen = new Set()) {
+  if (from.id === to.id) return true;
+  if (seen.has(from.id)) return false;
+  seen.add(from.id);
+  return from.next.some((edge) => {
+    const block = findBlock(edge.target);
+    return block && reaches(block, to, seen);
+  });
+}
+
+function markPathVisited(fromId, toId) {
+  const walk = (block, trail) => {
+    if (block.id === toId) return trail;
+    if (trail.includes(block.id)) return null;
+    for (const edge of block.next) {
+      const target = findBlock(edge.target);
+      const found = target && walk(target, [...trail, block.id]);
+      if (found) return found;
+    }
+    return null;
+  };
+  const from = findBlock(fromId);
+  for (const id of (from && walk(from, [])) ?? [fromId]) visited.add(id);
+}
+
+function arrowMarker(id, color) {
+  const marker = svgElement("marker", {
+    id, viewBox: "0 0 10 10", refX: "9", refY: "5", markerWidth: "7", markerHeight: "7", orient: "auto-start-reverse",
+  });
+  marker.appendChild(svgElement("path", { d: "M 0 0 L 10 5 L 0 10 z", fill: color }));
+  return marker;
+}
+
+function buildNode(block, index, startId) {
+  const status = statusOf(block);
+  const isCondition = block.type === "condition";
+  const isOrphan = block.id !== startId && !hasIncoming(block);
+  const classes = ["node", status, isCondition && "condition", index === selectedIndex && "selected", isOrphan && "orphan"];
+  const node = element("div", classes.filter(Boolean).join(" "));
+  node.dataset.id = block.id;
+  node.title = isOrphan ? "No arrow leads here" : block.title;
+  const head = element("div", "node-head");
+  head.append(element("span", "node-title", block.title || "Untitled block"));
+  if (status === "current") head.append(element("span", "badge current", "Now"));
+  if (isCondition) node.append(element("div", "node-kind", "Condition"));
+  node.append(head);
+  if (!isCondition) {
+    for (const label of block.info) {
+      const value = collected[label];
+      const name = label.replace(/\s*\bEx\.?\s*:.*$/i, "").replace(/[.\s]+$/, ""); // drop the "Ex. : ..." hint
+      const info = element("div", "node-info" + (value ? " done" : "") + (dummyLabels.has(label) ? " dummy" : ""), value ? `✓ ${name}: ${value}` : `○ ${name}`);
+      if (dummyLabels.has(label)) info.title = "Dummy value for testing";
+      node.append(info);
+    }
+  }
+  node.append(element("span", "port-in"));
+  const handle = element("span", "handle");
+  handle.title = "Drag to another block to connect";
+  handle.addEventListener("pointerdown", (event) => startConnect(event, block));
+  handle.addEventListener("click", (event) => event.stopPropagation());
+  node.append(handle);
+  node.addEventListener("click", () => selectBlock(index));
+  node.addEventListener("pointerdown", (event) => startDrag(event, block, node));
+  return node;
+}
+
+function startDrag(event, block, node) {
+  if (event.button !== 0) return;
+  const originX = node.offsetLeft;
+  const originY = node.offsetTop;
+  let dragging = false;
+  const move = (moveEvent) => {
+    const deltaX = (moveEvent.clientX - event.clientX) / canvasScale;
+    const deltaY = (moveEvent.clientY - event.clientY) / canvasScale;
+    if (!dragging && Math.hypot(deltaX, deltaY) < 5) return;
+    dragging = true;
+    block.x = Math.max(0, originX + deltaX);
+    block.y = Math.max(0, originY + deltaY);
+    renderGraph();
+  };
+  const release = () => {
+    window.removeEventListener("pointermove", move);
+    if (!dragging) return;
+    // renderGraph replaced the dragged node, so measure the one now shown.
+    insertOnEdge(block, graph.querySelector(`.node[data-id="${block.id}"]`).offsetHeight);
+    savePlan();
+    updateProgress();
+  };
+  window.addEventListener("pointermove", move);
+  window.addEventListener("pointerup", release, { once: true });
+}
+
+// An unlinked block dropped over a link goes between that link's two blocks.
+function insertOnEdge(block, height) {
+  const isLinked = block.next.length || plan.some((other) => other.next.some((edge) => edge.target === block.id));
+  if (isLinked) return;
+  const covers = (point) => point.x >= block.x && point.x <= block.x + NODE_WIDTH && point.y >= block.y && point.y <= block.y + height;
+  const hit = shownEdges.find(({ points }) => [0.2, 0.35, 0.5, 0.65, 0.8].some((t) => covers(bezierPoint(points, t))));
+  if (!hit) return;
+  block.next = [{ target: hit.edge.target, condition: "" }];
+  hit.edge.target = block.id;
+}
+
+function curvePath(startX, startY, endX, endY) {
+  const reach = Math.max(40, (endY - startY) / 2);
+  return `M ${startX} ${startY} C ${startX} ${startY + reach} ${endX} ${endY - reach} ${endX} ${endY}`;
+}
+
+function bezierPoint([p0, p1, p2, p3], t) {
+  const u = 1 - t;
+  const mix = (axis) => u ** 3 * p0[axis] + 3 * u * u * t * p1[axis] + 3 * u * t * t * p2[axis] + t ** 3 * p3[axis];
+  return { x: mix("x"), y: mix("y") };
+}
+
+function edgeGeometry(from, fromHeight, to, toHeight, isBlocked) {
+  const sameRow = Math.abs(to.y - from.y) < 4;
+  if (sameRow && !isBlocked) {
+    const forward = to.x > from.x;
+    const start = { x: forward ? from.x + NODE_WIDTH : from.x, y: from.y + fromHeight / 2 };
+    const end = { x: forward ? to.x : to.x + NODE_WIDTH, y: to.y + toHeight / 2 };
+    const reach = Math.max(30, Math.abs(end.x - start.x) / 2) * (forward ? 1 : -1);
+    return { points: [start, { x: start.x + reach, y: start.y }, { x: end.x - reach, y: end.y }, end], t: 0.5 };
+  }
+  if (sameRow) {
+    const start = { x: from.x + NODE_WIDTH / 2, y: from.y + fromHeight };
+    const end = { x: to.x + NODE_WIDTH / 2, y: to.y + toHeight };
+    return { points: [start, { x: start.x, y: start.y + 50 }, { x: end.x, y: end.y + 50 }, end], t: 0.5 };
+  }
+  const start = { x: from.x + NODE_WIDTH / 2, y: from.y + fromHeight };
+  const end = { x: to.x + NODE_WIDTH / 2, y: to.y };
+  const reach = Math.max(40, (end.y - start.y) / 2);
+  return { points: [start, { x: start.x, y: start.y + reach }, { x: end.x, y: end.y - reach }, end], t: 0.62 };
+}
+
+function arrange(sequence, heights, layoutWidth, layoutHeight) {
+  const columns = Math.max(1, Math.min(sequence.length, Math.floor((layoutWidth - 2 * MARGIN + MIN_NODE_GAP) / (NODE_WIDTH + MIN_NODE_GAP))));
+  const rows = [];
+  for (let index = 0; index < sequence.length; index += columns) rows.push(sequence.slice(index, index + columns));
+  const rowHeights = rows.map((row) => Math.max(...row.map((block) => heights.get(block.id))));
+  const totalHeight = rowHeights.reduce((sum, rowHeight) => sum + rowHeight, 0);
+  const clamp = (value, low, high) => Math.min(high, Math.max(low, value));
+  const rowGap = rows.length > 1 ? clamp((layoutHeight - 2 * MARGIN - totalHeight) / (rows.length - 1), MIN_ROW_GAP, MAX_ROW_GAP) : 0;
+  const gap = columns > 1 ? clamp((layoutWidth - 2 * MARGIN - columns * NODE_WIDTH) / (columns - 1), MIN_NODE_GAP, MAX_NODE_GAP) : 0;
+  const left = Math.max(MARGIN, (layoutWidth - (columns * NODE_WIDTH + (columns - 1) * gap)) / 2);
+  const positions = new Map();
+  let top = rows.length > 1 ? MARGIN : Math.max(MARGIN, (layoutHeight - (rowHeights[0] ?? 0)) / 2);
+  rows.forEach((row, rowIndex) => {
+    row.forEach((block, column) => {
+      const slot = rowIndex % 2 ? columns - 1 - column : column;
+      positions.set(block.id, { x: left + slot * (NODE_WIDTH + gap), y: top });
+    });
+    top += rowHeights[rowIndex] + rowGap;
+  });
+  const neededHeight = 2 * MARGIN + totalHeight + Math.max(0, rows.length - 1) * MIN_ROW_GAP;
+  return { positions, neededHeight };
+}
+
+function canConnect(source, target) {
+  return Boolean(target) && source !== target && !reaches(target, source) && !source.next.some((edge) => edge.target === target.id);
+}
+
+function connect(source, target) {
+  if (!canConnect(source, target)) return;
+  const edge = { target: target.id, condition: "" };
+  source.next = source.type === "condition" ? [...source.next, edge] : [edge];
+  savePlan();
+  updateProgress();
+}
+
+function createBlockAt(source, x, y) {
+  const block = { id: crypto.randomUUID(), type: "step", title: "", prompt: "", info: [], quickReplies: [], next: [], x: Math.max(0, x), y: Math.max(0, y) };
+  const edge = { target: block.id, condition: "" };
+  for (const other of plan) Object.assign(other, shownPositions.get(other.id));
+  // A step keeps its old link by passing it on: A → B becomes A → new → B.
+  if (source.type !== "condition") block.next = source.next;
+  source.next = source.type === "condition" ? [...source.next, edge] : [edge];
+  plan.push(block);
+  savePlan();
+  selectBlock(plan.length - 1);
+}
+
+function startConnect(event, source) {
+  event.preventDefault();
+  event.stopPropagation();
+  const canvas = graph.querySelector(".canvas");
+  const canvasBox = canvas.getBoundingClientRect();
+  const handleBox = event.currentTarget.getBoundingClientRect();
+  const startX = (handleBox.left + handleBox.width / 2 - canvasBox.left) / canvasScale;
+  const startY = (handleBox.top + handleBox.height / 2 - canvasBox.top) / canvasScale;
+  const draft = svgElement("path", { class: "edge draft" });
+  canvas.querySelector("svg").appendChild(draft);
+  const nodeAt = (x, y) => document.elementFromPoint(x, y)?.closest(".node");
+  const move = (moveEvent) => {
+    draft.setAttribute("d", curvePath(startX, startY, (moveEvent.clientX - canvasBox.left) / canvasScale, (moveEvent.clientY - canvasBox.top) / canvasScale));
+    const hovered = nodeAt(moveEvent.clientX, moveEvent.clientY);
+    for (const node of canvas.querySelectorAll(".node")) {
+      node.classList.toggle("drop-target", node === hovered && canConnect(source, findBlock(node.dataset.id)));
+    }
+  };
+  const release = (upEvent) => {
+    window.removeEventListener("pointermove", move);
+    const hit = document.elementFromPoint(upEvent.clientX, upEvent.clientY);
+    const target = hit?.closest(".node");
+    draft.remove();
+    for (const node of canvas.querySelectorAll(".node")) node.classList.remove("drop-target");
+    if (target) return connect(source, findBlock(target.dataset.id));
+    if (hit && graph.contains(hit) && !hit.closest(".edge-control")) {
+      createBlockAt(
+        source,
+        (upEvent.clientX - canvasBox.left) / canvasScale - NODE_WIDTH / 2,
+        (upEvent.clientY - canvasBox.top) / canvasScale - 20,
+      );
+    }
+  };
+  window.addEventListener("pointermove", move);
+  window.addEventListener("pointerup", release, { once: true });
+}
+
+function buildEdgeControl(block, edge, x, y) {
+  const control = element("div", "edge-control");
+  control.style.left = x + "px";
+  control.style.top = y + "px";
+  if (block.type === "condition") {
+    const condition = element("input");
+    condition.type = "text";
+    condition.placeholder = "condition";
+    condition.value = edge.condition;
+    condition.addEventListener("change", () => {
+      edge.condition = condition.value.trim();
+      savePlan();
+      updateProgress();
+      refreshConditionTitle(block);
+    });
+    control.appendChild(condition);
+  }
+  const remove = iconButton("", () => {
+    // Pin every block where it is, or the auto layout reshuffles them.
+    for (const other of plan) Object.assign(other, shownPositions.get(other.id));
+    block.next = block.next.filter((candidate) => candidate !== edge);
+    savePlan();
+    updateProgress();
+    if (block.type === "condition") refreshConditionTitle(block);
+  });
+  remove.className = "edge-remove";
+  remove.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>';
+  remove.title = "Remove connection";
+  remove.setAttribute("aria-label", "Remove connection");
+  control.appendChild(remove);
+  return control;
+}
+
+function renderGraph() {
+  instructionsItem.classList.toggle("selected", selectedIndex === -1);
+  const startId = getStartId();
+
+  const sequence = [];
+  const placed = new Set();
+  const visit = (block) => {
+    if (placed.has(block.id)) return;
+    placed.add(block.id);
+    for (const edge of [...block.next].reverse()) {
+      const target = findBlock(edge.target);
+      if (target) visit(target);
+    }
+    sequence.unshift(block);
+  };
+  for (const block of plan.filter((candidate) => !hasIncoming(candidate)).reverse()) visit(block);
+  for (const block of plan) visit(block);
+
+  const canvas = element("div", "canvas");
+  const nodes = new Map(plan.map((block, index) => [block.id, buildNode(block, index, startId)]));
+  canvas.append(...nodes.values());
+  graph.replaceChildren(canvas);
+  graph.style.overflow = "hidden";
+  const availableWidth = graph.clientWidth;
+  const availableHeight = graph.clientHeight;
+  const heights = new Map(plan.map((block) => [block.id, nodes.get(block.id).offsetHeight]));
+  const heightOf = (block) => heights.get(block.id);
+
+  let scale = SCALES[SCALES.length - 1];
+  let layout;
+  for (const candidate of SCALES) {
+    layout = arrange(sequence, heights, availableWidth / candidate, availableHeight / candidate);
+    scale = candidate;
+    if (layout.neededHeight <= availableHeight / candidate) break;
+  }
+  const positions = layout.positions;
+  shownPositions = positions;
+  for (const block of plan) {
+    if (Number.isFinite(block.x) && Number.isFinite(block.y)) positions.set(block.id, { x: block.x, y: block.y });
+  }
+  const contentWidth = Math.max(availableWidth / scale, ...plan.map((block) => positions.get(block.id).x + NODE_WIDTH + MARGIN));
+  const contentHeight = Math.max(availableHeight / scale, ...plan.map((block) => positions.get(block.id).y + heightOf(block) + MARGIN));
+  canvasScale = Math.max(SCALES[SCALES.length - 1], Math.min(scale, availableWidth / contentWidth, availableHeight / contentHeight));
+  if (canvasScale <= SCALES[SCALES.length - 1] + 0.001) graph.style.overflow = "auto";
+
+  const svg = svgElement("svg", { width: contentWidth, height: contentHeight });
+  const defs = svgElement("defs", {});
+  defs.append(arrowMarker("arrow", "#c9d0d6"), arrowMarker("arrowTaken", "#21b14b"));
+  svg.appendChild(defs);
+  const controls = [];
+  shownEdges = [];
+  for (const block of plan) {
+    for (const edge of block.next) {
+      const target = findBlock(edge.target);
+      if (!target) continue;
+      const from = positions.get(block.id);
+      const to = positions.get(target.id);
+      const isBlocked = plan.some((other) => {
+        const spot = positions.get(other.id);
+        return other !== block && other !== target && Math.abs(spot.y - from.y) < 4 && spot.x > Math.min(from.x, to.x) && spot.x < Math.max(from.x, to.x);
+      });
+      const { points, t } = edgeGeometry(from, heightOf(block), to, heightOf(target), isBlocked);
+      const taken = visited.has(block.id) && (visited.has(edge.target) || edge.target === currentId);
+      const [p0, p1, p2, p3] = points;
+      svg.appendChild(svgElement("path", {
+        d: `M ${p0.x} ${p0.y} C ${p1.x} ${p1.y} ${p2.x} ${p2.y} ${p3.x} ${p3.y}`,
+        class: "edge" + (taken ? " taken" : ""),
+        "marker-end": `url(#${taken ? "arrowTaken" : "arrow"})`,
+      }));
+      const point = bezierPoint(points, t);
+      shownEdges.push({ block, edge, points });
+      controls.push(buildEdgeControl(block, edge, point.x, point.y));
+    }
+  }
+  for (const block of plan) {
+    const position = positions.get(block.id);
+    nodes.get(block.id).style.left = position.x + "px";
+    nodes.get(block.id).style.top = position.y + "px";
+  }
+  canvas.style.width = contentWidth + "px";
+  canvas.style.height = contentHeight + "px";
+  canvas.style.transform = `scale(${canvasScale})`;
+  canvas.append(...controls);
+  canvas.prepend(svg);
+}
+
+function updateProgress() {
+  renderGraph();
+}
+
+async function refreshTitle(block, titleElement) {
+  if (!block.prompt.trim()) {
+    block.title = "";
+    titleElement.textContent = "Untitled block";
+  } else {
+    titleElement.textContent = "Writing title…";
+    const { ok, data } = await post("/title", { prompt: block.prompt });
+    if (ok) block.title = data.title;
+    titleElement.textContent = block.title || "Untitled block";
+  }
+  savePlan();
+  updateProgress();
+}
+
+async function refreshConditionTitle(block) {
+  const conditions = block.next.map((edge) => edge.condition).filter(Boolean);
+  if (!conditions.length) return;
+  const { ok, data } = await post("/title", { text: conditions.join(" / "), kind: "condition" });
+  if (ok) block.title = data.title;
+  savePlan();
+  updateProgress();
+  if (plan[selectedIndex] === block) renderDetail();
+}
+
+function textareaField(labelText, value, rows, placeholder, onChange) {
+  const field = element("textarea");
+  field.rows = rows;
+  field.value = value;
+  field.placeholder = placeholder;
+  field.addEventListener("change", () => onChange(field));
+  return [element("label", "", labelText), field];
+}
+
+// Instagram cuts quick replies at 20 characters; unsaved until every line fits.
+function quickRepliesField(block) {
+  const [label, field] = textareaField("Quick replies (20 characters max each)", block.quickReplies.join("\n"), 2, "One per line", () => {
+    if (!showTooLong()) return;
+    block.quickReplies = field.value.split("\n").map((line) => line.trim()).filter(Boolean);
+    savePlan();
+  });
+  const error = element("div", "field-error");
+  const showTooLong = () => {
+    const tooLong = field.value.split("\n").map((line) => line.trim()).filter((line) => line.length > 20);
+    error.textContent = tooLong.map((line) => `"${line}" is ${line.length} characters, 20 max`).join("\n");
+    field.classList.toggle("invalid", tooLong.length > 0);
+    return tooLong.length === 0;
+  };
+  field.addEventListener("input", showTooLong);
+  showTooLong();
+  return [label, field, error];
+}
+
+// One per line: "Caption | https://url".
+function linkButtonsField(block) {
+  const [label, field] = textareaField("Link buttons (3 max)", block.linkButtons.map((button) => `${button.caption} | ${button.url}`).join("\n"), 2, "Caption | https://...", () => {
+    if (!showProblems()) return;
+    block.linkButtons = parse();
+    savePlan();
+  });
+  const error = element("div", "field-error");
+  const parse = () =>
+    field.value.split("\n").map((line) => line.trim()).filter(Boolean).map((line) => {
+      const [caption, ...rest] = line.split("|");
+      return { caption: caption.trim(), url: rest.join("|").trim() };
+    });
+  const showProblems = () => {
+    const buttons = parse();
+    const problems = buttons.flatMap((button) => [
+      ...(button.caption.length > 20 ? [`"${button.caption}" is ${button.caption.length} characters, 20 max`] : []),
+      ...(/^https?:\/\//.test(button.url) ? [] : [`"${button.caption}" needs " | https://..." after it`]),
+    ]);
+    if (buttons.length > 3) problems.push(`${buttons.length} buttons, 3 max`);
+    error.textContent = problems.join("\n");
+    field.classList.toggle("invalid", problems.length > 0);
+    return problems.length === 0;
+  };
+  field.addEventListener("input", showProblems);
+  showProblems();
+  return [label, field, error];
+}
+
+function renderDetail() {
+  instructionsPanel.hidden = selectedIndex !== -1;
+  blockPanel.hidden = selectedIndex === -1;
+  if (selectedIndex === -1) return;
+
+  const block = plan[selectedIndex];
+  const isCondition = block.type === "condition";
+  const title = element("h2", "", block.title || "Untitled block");
+  const typeSelect = element("select");
+  for (const [value, label] of [["step", "Step"], ["condition", "Condition"]]) {
+    const option = element("option", "", label);
+    option.value = value;
+    typeSelect.appendChild(option);
+  }
+  typeSelect.value = block.type;
+  typeSelect.addEventListener("change", () => {
+    block.type = typeSelect.value;
+    if (block.type === "step") block.next = block.next.slice(0, 1).map((edge) => ({ ...edge, condition: "" }));
+    savePlan();
+    renderDetail();
+    updateProgress();
+  });
+  const head = element("div", "detail-head");
+  head.append(title, typeSelect);
+
+  const promptField = element("div", "field");
+  const promptInput = element("textarea", "fill");
+  promptInput.value = block.prompt;
+  promptInput.addEventListener("change", () => {
+    block.prompt = promptInput.value;
+    savePlan();
+    if (!isCondition) refreshTitle(block, title);
+  });
+  const promptLabel = element("label", "", isCondition ? "Precisions" : "Prompt for Claude");
+  if (!isCondition) {
+    const emojiButton = element("button", "emoji-button", "😀");
+    emojiButton.type = "button";
+    emojiButton.title = "Insert emoji";
+    const picker = document.createElement("emoji-picker");
+    picker.className = "emoji-popup";
+    picker.hidden = true;
+    emojiButton.addEventListener("click", () => (picker.hidden = !picker.hidden));
+    picker.addEventListener("emoji-click", (event) => {
+      const emoji = event.detail.unicode;
+      const { selectionStart, selectionEnd, value } = promptInput;
+      promptInput.value = value.slice(0, selectionStart) + emoji + value.slice(selectionEnd);
+      promptInput.selectionStart = promptInput.selectionEnd = selectionStart + emoji.length;
+      picker.hidden = true;
+      promptInput.focus();
+      promptInput.dispatchEvent(new Event("change"));
+    });
+    promptLabel.append(emojiButton);
+    promptField.append(promptLabel, picker, promptInput);
+  } else promptField.append(promptLabel, promptInput);
+
+  const sections = [head, promptField];
+  if (!isCondition) {
+    sections.push(
+      ...textareaField("Info to get from the farmer", block.info.join("\n"), 3, "One item per line", (field) => {
+        block.info = field.value.split("\n").map((line) => line.trim()).filter(Boolean);
+        savePlan();
+        updateProgress();
+      }),
+      ...quickRepliesField(block),
+      ...linkButtonsField(block),
+    );
+  }
+  blockPanel.replaceChildren(...sections);
+}
+
+function selectBlock(index) {
+  selectedIndex = index;
+  writeStored("selected", String(index));
+  document.getElementById("testFromHere").disabled = index === -1;
+  document.getElementById("deleteBlock").disabled = index === -1;
+  renderDetail();
+  updateProgress();
+}
+
+function addBlock() {
+  const block = { id: crypto.randomUUID(), type: "step", title: "", prompt: "", info: [], quickReplies: [], next: [] };
+  plan.push(block);
+  savePlan();
+  selectBlock(plan.length - 1);
+}
+
+function removePlanBlock(index) {
+  const [removed] = plan.splice(index, 1);
+  for (const block of plan) {
+    const edge = block.next.find((candidate) => candidate.target === removed.id);
+    if (!edge) continue;
+    const rest = block.next.filter((candidate) => candidate !== edge);
+    const forward = removed.next[0];
+    const alreadyLinked = forward && rest.some((candidate) => candidate.target === forward.target);
+    block.next = forward && !alreadyLinked ? [...rest, { target: forward.target, condition: edge.condition }] : rest;
+  }
+  visited.delete(removed.id);
+  if (currentId === removed.id) currentId = getStartId();
+  savePlan();
+  selectBlock(Math.min(index, plan.length - 1));
+}
+
+function addBubble(kind, text) {
+  const bubble = element("div", "bubble " + kind, text);
+  thread.appendChild(bubble);
+  bubble.scrollIntoView();
+  return bubble;
+}
+
+async function askClaude() {
+  sendButton.disabled = true;
+  const typing = addBubble("bot", "…");
+  const { ok, data } = await post("/chat", { plan, tone, instructions, messages, collected, startId: testStartId });
+  typing.remove();
+  if (!ok) {
+    sendButton.disabled = false;
+    addBubble("error", data.error);
+    return false;
+  }
+  messages.push({ role: "assistant", content: data.replies.join("\n\n") });
+  for (const [label, value] of Object.entries(data.collected)) {
+    if (collected[label] !== value) dummyLabels.delete(label);
+  }
+  collected = data.collected;
+  if (data.step !== null) {
+    const nextId = plan[data.step - 1]?.id ?? null;
+    if (currentId && currentId !== nextId) markPathVisited(currentId, nextId);
+    currentId = nextId;
+  }
+  for (const [index, text] of data.replies.entries()) {
+    if (index > 0) {
+      const pause = addBubble("bot", "…");
+      await new Promise((resolve) => setTimeout(resolve, Math.min(2000, 500 + text.length * 25)));
+      pause.remove();
+    }
+    addBubble("bot", text);
+  }
+  showLinkButtons(data.linkButtons ?? []);
+  sendButton.disabled = false;
+  updateProgress();
+  showQuickReplies(data.quickReplies);
+  return true;
+}
+
+function showLinkButtons(buttons) {
+  if (!buttons.length) return;
+  const row = element("div", "link-buttons");
+  for (const button of buttons) {
+    const link = element("a", "", button.caption);
+    link.href = button.url;
+    link.target = "_blank";
+    link.rel = "noopener";
+    row.append(link);
+  }
+  thread.appendChild(row);
+}
+
+function showQuickReplies(captions) {
+  if (!captions.length) return;
+  const row = element("div", "quick-replies");
+  for (const caption of captions) row.appendChild(iconButton(caption, () => {
+    sendFarmerMessage(caption);
+    input.focus();
+  }));
+  thread.appendChild(row);
+  row.scrollIntoView();
+}
+
+async function sendFarmerMessage(text) {
+  if (sendButton.disabled) return;
+  for (const row of thread.querySelectorAll(".quick-replies")) row.remove();
+  addBubble("lead", text);
+  messages.push({ role: "user", content: text });
+  if (!(await askClaude())) messages.pop();
+}
+
+function restart(from) {
+  if (from) lastTestStart = from;
+  thread.replaceChildren();
+  collected = from?.collected ?? {};
+  dummyLabels = new Set(Object.keys(collected));
+  visited = new Set(from?.visitedIds ?? []);
+  currentId = from?.startId ?? getStartId();
+  testStartId = from?.startId ?? null;
+  messages = [{ role: "user", content: from ? TEST_START : START }];
+  updateProgress();
+  askClaude();
+}
+
+async function startTestAt(block) {
+  const ancestors = plan.filter((other) => other !== block && reaches(other, block));
+  const labels = ancestors.flatMap((other) => other.info);
+  let values = {};
+  if (labels.length) {
+    const { ok, data } = await post("/dummy", { labels });
+    values = ok ? data.values : Object.fromEntries(labels.map((label) => [label, "sample"]));
+  }
+  restart({ startId: block.id, visitedIds: ancestors.map((other) => other.id), collected: values });
+}
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const text = input.value.trim();
+  if (!text || sendButton.disabled) return;
+  input.value = "";
+  sendFarmerMessage(text);
+});
+
+instructionsItem.addEventListener("click", () => selectBlock(-1));
+document.getElementById("addBlock").addEventListener("click", addBlock);
+document.getElementById("testFromHere").addEventListener("click", () => startTestAt(plan[selectedIndex]));
+blockPanel.addEventListener("keydown", (event) => {
+  if (!(event.ctrlKey || event.metaKey) || event.key !== "Enter" || selectedIndex === -1) return;
+  event.preventDefault();
+  document.activeElement?.blur(); // saves the field being edited first
+  startTestAt(plan[selectedIndex]);
+});
+document.getElementById("deleteBlock").addEventListener("click", () => removePlanBlock(selectedIndex));
+
+document.getElementById("autoArrange").addEventListener("click", () => {
+  for (const block of plan) {
+    delete block.x;
+    delete block.y;
+  }
+  savePlan();
+  updateProgress();
+});
+document.getElementById("testOnInstagram").addEventListener("click", async (event) => {
+  const button = event.currentTarget;
+  const status = document.getElementById("testOnInstagramStatus");
+  button.disabled = true;
+  status.classList.remove("failed");
+  status.textContent = "Sending…";
+  try {
+    const result = (await (await fetch("/test-ig", { method: "POST" })).json()).status ?? "";
+    const windowClosed = /3031|24 ?hours?/i.test(result);
+    status.textContent = result.startsWith("SUCCEEDED")
+      ? "Sent, check your DMs"
+      : windowClosed
+        ? "Over 24h since your last DM to Orisha. DM orisha_auto on Instagram, then try again."
+        : result;
+    status.classList.toggle("failed", !result.startsWith("SUCCEEDED"));
+  } catch (error) {
+    status.textContent = `Failed: ${error.message}`;
+    status.classList.add("failed");
+  }
+  button.disabled = false;
+});
+document.getElementById("undo").addEventListener("click", () => restoreState(undoStack, redoStack));
+document.getElementById("redo").addEventListener("click", () => restoreState(redoStack, undoStack));
+document.addEventListener("keydown", (event) => {
+  if (!(event.ctrlKey || event.metaKey) || isTextField(document.activeElement)) return;
+  const key = event.key.toLowerCase();
+  if (key === "z" && !event.shiftKey) restoreState(undoStack, redoStack);
+  else if ((key === "z" && event.shiftKey) || key === "y") restoreState(redoStack, undoStack);
+  else return;
+  event.preventDefault();
+});
+document.getElementById("restart").addEventListener("click", () => restart(lastTestStart && findBlock(lastTestStart.startId) ? lastTestStart : undefined));
+window.addEventListener("resize", renderGraph);
+
+instructionsInput.value = instructions;
+instructionsInput.addEventListener("input", () => {
+  instructions = instructionsInput.value;
+  writeStored("instructions", instructions);
+  recordHistory();
+});
+toneInput.value = tone;
+toneInput.addEventListener("input", () => {
+  tone = toneInput.value;
+  writeStored("tone", tone);
+  recordHistory();
+});
+
+selectBlock(selectedIndex);
+fetch("/config").then(async (response) => {
+  if (response.ok) {
+    const config = await response.json();
+    if (Array.isArray(config.plan)) {
+      plan = normalizePlan(config.plan);
+      tone = config.tone ?? DEFAULT_TONE;
+      instructions = config.instructions ?? "";
+      writeStored("plan", JSON.stringify(plan));
+      writeStored("tone", tone);
+      writeStored("instructions", instructions);
+      toneInput.value = tone;
+      instructionsInput.value = instructions;
+    }
+  }
+  if (response.ok || response.status === 404) {
+    serverPlanLoaded = true;
+    setSaveStatus("Saved");
+  } else {
+    setSaveStatus("Save failed", true);
+  }
+}).catch(() => setSaveStatus("Save failed", true)).finally(() => {
+  restoreHistory();
+  selectBlock(Math.min(selectedIndex, plan.length - 1));
+  restart();
+});
+
+const conversationsView = document.getElementById("conversationsView");
+const planView = document.querySelector(".app");
+let growers = [];
+let selectedGrowerId = null;
+
+function formatTime(at) {
+  return at ? new Date(at).toLocaleString([], { dateStyle: "medium", timeStyle: "short" }) : "Unknown time";
+}
+
+function renderGrowers() {
+  const list = document.getElementById("growerList");
+  list.replaceChildren();
+  if (!growers.length) list.append(element("p", "muted", "No conversations yet"));
+  for (const grower of growers) {
+    const row = element("button", "grower" + (grower.contactId === selectedGrowerId ? " selected" : ""));
+    row.type = "button";
+    const name = element("div");
+    const fullName = [grower.firstName, grower.lastName].filter(Boolean).join(" ");
+    const handle = grower.username ? "@" + grower.username : "Contact " + grower.contactId;
+    name.append(element("div", "grower-name", fullName || handle));
+    if (fullName) name.append(element("div", "muted", handle));
+    name.append(element("div", "muted", formatTime(grower.lastActivity)));
+    row.append(name, element("span", "badge", String(grower.conversations.length)));
+    row.addEventListener("click", () => {
+      selectedGrowerId = grower.contactId;
+      renderGrowers();
+      renderConversations();
+    });
+    list.append(row);
+  }
+}
+
+function renderConversations() {
+  const container = document.getElementById("conversationList");
+  container.replaceChildren();
+  const grower = growers.find((candidate) => candidate.contactId === selectedGrowerId);
+  if (!grower) return container.append(element("p", "muted", "Pick a grower"));
+  const header = element("div", "conversation-head");
+  header.append(element("h2", "", [grower.firstName, grower.lastName].filter(Boolean).join(" ") || "Unknown name"), element("span", "muted", grower.username ? "@" + grower.username : "Contact " + grower.contactId));
+  container.append(header);
+  for (const conversation of grower.conversations) {
+    const card = element("article", "conversation");
+    const head = element("div", "conversation-head");
+    const completed = conversation.status === "completed";
+    head.append(element("h2", "", formatTime(conversation.startedAt)), element("span", "badge " + (completed ? "completed" : "progress"), completed ? "Completed" : "In progress"));
+    card.append(head);
+    const entries = Object.entries(conversation.collected);
+    if (entries.length) {
+      const table = element("dl", "collected");
+      for (const [field, value] of entries) table.append(element("dt", "", field), element("dd", "", value));
+      card.append(table);
+    }
+    const transcript = element("div", "transcript");
+    for (const message of conversation.messages) {
+      if (message.role === "profit") {
+        transcript.append(element("span", "badge current marker", "PROFIT comment" + (message.at ? " · " + formatTime(message.at) : "")));
+        continue;
+      }
+      const bubble = element("div", "bubble " + (message.role === "user" ? "lead" : "bot"));
+      bubble.append(element("span", "", message.content));
+      if (message.at) bubble.append(element("span", "muted", formatTime(message.at)));
+      transcript.append(bubble);
+    }
+    card.append(transcript);
+    container.append(card);
+  }
+}
+
+document.getElementById("showConversations").addEventListener("click", async () => {
+  planView.hidden = true;
+  conversationsView.hidden = false;
+  try {
+    growers = await (await fetch("/conversations", { cache: "no-store" })).json();
+  } catch {
+    growers = [];
+  }
+  if (!growers.some((grower) => grower.contactId === selectedGrowerId)) selectedGrowerId = growers[0]?.contactId ?? null;
+  renderGrowers();
+  renderConversations();
+});
+document.getElementById("showPlan").addEventListener("click", () => {
+  conversationsView.hidden = true;
+  planView.hidden = false;
+  renderGraph();
+});
+
+const loadedVersion = "__APP_VERSION__";
+setInterval(async () => {
+  if (document.hidden || saveStatus.textContent === "Saving…") return;
+  try {
+    const { version } = await (await fetch("/version", { cache: "no-store" })).json();
+    if (version !== loadedVersion) location.reload();
+  } catch {}
+}, 3000);
+</script>
+</body>
+</html>

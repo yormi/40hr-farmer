@@ -1,0 +1,1258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orisha.example/instadm/decision-tree/1.0/schema.json",
+  "title": "InstaDM Decision Tree (DSL v1)",
+  "description": "Declarative decision tree for the Instagram DM agent. Read by the visual editor and interpreted by the server that answers ManyChat.",
+  "type": "object",
+  "required": [
+    "dsl_version",
+    "tree",
+    "start",
+    "nodes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "dsl_version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+$",
+      "description": "Spec version (major.minor). Server accepts any 1.x."
+    },
+    "tree": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "version"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Incremented on every publish."
+        },
+        "language": {
+          "type": "string",
+          "default": "en"
+        },
+        "description": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "string"
+        },
+        "redirects": {
+          "type": "object",
+          "description": "Old node id -> new node id, for contacts parked on a node that was removed or renamed.",
+          "propertyNames": {
+            "$ref": "#/$defs/id"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "ui": {
+          "type": "object",
+          "description": "Editor-only metadata (viewport, zoom...). Ignored by the server."
+        }
+      }
+    },
+    "config": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "inbound_url": {
+          "type": "string",
+          "description": "URL used for dynamic_block_callback quick replies (usually /ig-inbound)."
+        },
+        "ai": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "provider": {
+              "enum": [
+                "anthropic"
+              ]
+            },
+            "model": {
+              "type": "string"
+            },
+            "max_tokens": {
+              "type": "integer",
+              "minimum": 16
+            },
+            "temperature": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "system_preamble": {
+              "type": "string",
+              "description": "Prepended to every AI prompt (persona, tone, language)."
+            }
+          }
+        },
+        "window_hours": {
+          "type": "number",
+          "default": 24,
+          "description": "Messaging window: no automated send after this many hours since the lead's last inbound message."
+        },
+        "dedupe_seconds": {
+          "type": "integer",
+          "default": 15
+        },
+        "max_messages_per_send": {
+          "type": "integer",
+          "default": 10,
+          "minimum": 1,
+          "description": "Safety cap on bot messages queued for one inbound event (each is still its own paced sendContent)."
+        },
+        "on_inbound_after_end": {
+          "enum": [
+            "ignore",
+            "restart",
+            "handoff"
+          ],
+          "default": "ignore"
+        },
+        "default_max_tries": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 2
+        },
+        "livechat_url_template": {
+          "$ref": "#/$defs/template",
+          "description": "Link to the contact's conversation for Slack alerts, e.g. ManyChat Live Chat URL with {{contact.id}}. Optional."
+        },
+        "transcript_size": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 20,
+          "description": "Messages kept per contact for handoff alerts."
+        },
+        "pacing": {
+          "type": "object",
+          "description": "Human-paced delays between consecutive bot messages. delay_ms = clamp(base_ms + per_char_ms * len(previous), min_ms, max_ms). First message after the lead uses thinking_ms.",
+          "additionalProperties": false,
+          "properties": {
+            "base_ms": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 800
+            },
+            "per_char_ms": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 40
+            },
+            "min_ms": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 1200
+            },
+            "max_ms": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 4000
+            },
+            "thinking_ms": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 1500,
+              "description": "Delay before the first bot message after the lead speaks (~1–2s)."
+            }
+          }
+        }
+      }
+    },
+    "constants": {
+      "type": "object",
+      "description": "UPPER_SNAKE values usable in templates and expressions. null = not set yet (lint blocks publishing if referenced).",
+      "propertyNames": {
+        "pattern": "^[A-Z][A-Z0-9_]*$"
+      },
+      "additionalProperties": {
+        "type": [
+          "string",
+          "number",
+          "boolean",
+          "null"
+        ]
+      }
+    },
+    "variables": {
+      "type": "object",
+      "description": "Per-contact variables (lower_snake).",
+      "propertyNames": {
+        "$ref": "#/$defs/varName"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/variable"
+      }
+    },
+    "triggers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/trigger"
+      }
+    },
+    "global_intents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/globalIntent"
+      }
+    },
+    "persistent_quick_replies": {
+      "type": "array",
+      "maxItems": 3,
+      "description": "Appended to the quick replies of every waiting node unless it sets hide_persistent.",
+      "items": {
+        "$ref": "#/$defs/quickReply"
+      }
+    },
+    "start": {
+      "$ref": "#/$defs/id"
+    },
+    "nodes": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "$ref": "#/$defs/id"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/node"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]{0,47}$"
+    },
+    "varName": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]{0,47}$"
+    },
+    "expr": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Expression in the DSL expression language (see SPEC section 6)."
+    },
+    "template": {
+      "type": "string",
+      "description": "Text with {{name}} / {{name | filter}} placeholders."
+    },
+    "ui": {
+      "type": "object",
+      "description": "Editor-only metadata. Ignored by the server.",
+      "properties": {
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "label": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "collapsed": {
+          "type": "boolean"
+        }
+      }
+    },
+    "variable": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "enum",
+            "list"
+          ]
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Allowed values when type = enum."
+        },
+        "default": {},
+        "manychat_field": {
+          "type": "string",
+          "description": "ManyChat custom field name; synced with setCustomFieldByName whenever the variable changes."
+        },
+        "description": {
+          "type": "string"
+        },
+        "pii": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "if": {
+        "properties": {
+          "type": {
+            "const": "enum"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "values"
+        ]
+      }
+    },
+    "trigger": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "start"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id",
+          "description": "Matches the optional 'trigger' field in the inbound payload."
+        },
+        "type": {
+          "enum": [
+            "comment_keyword",
+            "dm_keyword",
+            "new_contact"
+          ]
+        },
+        "keyword": {
+          "type": "string"
+        },
+        "start": {
+          "$ref": "#/$defs/id"
+        },
+        "reset_variables": {
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "if": {
+        "properties": {
+          "type": {
+            "enum": [
+              "comment_keyword",
+              "dm_keyword"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "keyword"
+        ]
+      }
+    },
+    "globalIntent": {
+      "type": "object",
+      "required": [
+        "id",
+        "goto"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "match": {
+          "enum": [
+            "exact",
+            "phrase"
+          ],
+          "default": "phrase",
+          "description": "exact = whole message equals a keyword; phrase = keyword appears as whole word(s)."
+        },
+        "ai_description": {
+          "type": "string",
+          "description": "If set, AI calls made while waiting may also report this intent."
+        },
+        "when": {
+          "$ref": "#/$defs/expr"
+        },
+        "goto": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "say": {
+      "type": "array",
+      "description": "Messages sent in order, each as its own sendContent, paced. A string is shorthand for {\"text\": ...}. Optional delay_ms overrides the wait before that message.",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/template"
+          },
+          {
+            "type": "object",
+            "required": [
+              "text"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "$ref": "#/$defs/template"
+              },
+              "delay_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Override wait in ms before this message. Default is thinking_ms (first after the lead) or the pacing formula (after a previous bot message)."
+              }
+            }
+          },
+          {
+            "type": "object",
+            "required": [
+              "image_url"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "image_url": {
+                "$ref": "#/$defs/template"
+              },
+              "delay_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Override wait in ms before this message. Default is thinking_ms (first after the lead) or the pacing formula (after a previous bot message)."
+              }
+            }
+          }
+        ]
+      }
+    },
+    "quickReply": {
+      "type": "object",
+      "required": [
+        "caption"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "caption": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20
+        },
+        "type": {
+          "enum": [
+            "callback"
+          ],
+          "default": "callback",
+          "description": "callback = dynamic_block_callback POSTing {contact_id, text: caption} to inbound_url."
+        },
+        "when": {
+          "$ref": "#/$defs/expr",
+          "description": "Only shown if true."
+        }
+      }
+    },
+    "reminder": {
+      "type": "object",
+      "required": [
+        "after_minutes",
+        "say"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "after_minutes": {
+          "type": "integer",
+          "minimum": 5,
+          "maximum": 1380
+        },
+        "say": {
+          "$ref": "#/$defs/say"
+        },
+        "max": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3,
+          "default": 1
+        }
+      }
+    },
+    "extract": {
+      "type": "object",
+      "required": [
+        "method",
+        "output"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "method": {
+          "enum": [
+            "ai",
+            "number",
+            "text",
+            "regex"
+          ]
+        },
+        "prompt": {
+          "$ref": "#/$defs/template",
+          "description": "Instructions for the AI (method = ai). Templates allowed."
+        },
+        "pattern": {
+          "type": "string",
+          "description": "Regex (method = regex)."
+        },
+        "output": {
+          "$ref": "#/$defs/outputType"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "method": {
+                "const": "ai"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "prompt"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "method": {
+                "const": "regex"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "pattern"
+            ]
+          }
+        }
+      ]
+    },
+    "outputType": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "enum",
+            "object"
+          ]
+        },
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fields": {
+          "type": "object",
+          "description": "type = object: field name -> output type.",
+          "additionalProperties": {
+            "$ref": "#/$defs/outputType"
+          }
+        },
+        "required": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "retry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "enum": [
+            "ai_followup",
+            "fixed"
+          ],
+          "default": "ai_followup",
+          "description": "ai_followup = send the AI's clarifying question; fixed = send 'say'."
+        },
+        "say": {
+          "$ref": "#/$defs/say",
+          "description": "Fixed retry text, also the fallback when the AI gives no follow-up."
+        }
+      }
+    },
+    "option": {
+      "type": "object",
+      "required": [
+        "id",
+        "caption",
+        "next"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "caption": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20
+        },
+        "synonyms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ai_hint": {
+          "type": "string",
+          "description": "Meaning of this option for AI intent classification."
+        },
+        "show": {
+          "type": "boolean",
+          "default": true,
+          "description": "false = not shown as a button, matched from typed text only."
+        },
+        "when": {
+          "$ref": "#/$defs/expr"
+        },
+        "next": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "action": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "oneOf": [
+        {
+          "properties": {
+            "type": {
+              "const": "set_field"
+            },
+            "field": {
+              "type": "string"
+            },
+            "value": {
+              "$ref": "#/$defs/template"
+            },
+            "expr": {
+              "$ref": "#/$defs/expr"
+            }
+          },
+          "required": [
+            "field"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": {
+              "enum": [
+                "add_tag",
+                "remove_tag"
+              ]
+            },
+            "tag": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "tag"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "webhook"
+            },
+            "url": {
+              "$ref": "#/$defs/template"
+            },
+            "method": {
+              "enum": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+              ],
+              "default": "POST"
+            },
+            "headers": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "body": {
+              "description": "Any JSON; string leaves are templates."
+            },
+            "timeout_ms": {
+              "type": "integer",
+              "default": 5000
+            },
+            "save": {
+              "type": "object",
+              "description": "variable -> JSONPath into the response, e.g. $.data.score",
+              "propertyNames": {
+                "$ref": "#/$defs/varName"
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "url"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "log"
+            },
+            "event": {
+              "type": "string"
+            },
+            "data": {}
+          },
+          "required": [
+            "event"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "$ref": "#/$defs/notifySlack"
+        }
+      ]
+    },
+    "node": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "message",
+            "ask",
+            "choice",
+            "condition",
+            "set",
+            "action",
+            "handoff",
+            "end"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "message"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/messageNode"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "ask"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/askNode"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "choice"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/choiceNode"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "condition"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/conditionNode"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "set"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/setNode"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "action"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/actionNode"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "handoff"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/handoffNode"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "end"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/endNode"
+          }
+        }
+      ]
+    },
+    "messageNode": {
+      "required": [
+        "say",
+        "next"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "notes": true,
+        "ui": {
+          "$ref": "#/$defs/ui"
+        },
+        "say": {
+          "$ref": "#/$defs/say"
+        },
+        "next": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "askNode": {
+      "required": [
+        "say",
+        "extract",
+        "next",
+        "on_fail"
+      ],
+      "anyOf": [
+        {
+          "required": [
+            "var"
+          ]
+        },
+        {
+          "required": [
+            "save"
+          ]
+        }
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "notes": true,
+        "ui": {
+          "$ref": "#/$defs/ui"
+        },
+        "say": {
+          "$ref": "#/$defs/say"
+        },
+        "var": {
+          "$ref": "#/$defs/varName",
+          "description": "Variable receiving the extracted value (scalar outputs)."
+        },
+        "save": {
+          "type": "object",
+          "description": "Object outputs: output field -> variable.",
+          "additionalProperties": {
+            "$ref": "#/$defs/varName"
+          }
+        },
+        "extract": {
+          "$ref": "#/$defs/extract"
+        },
+        "quick_replies": {
+          "type": "array",
+          "maxItems": 13,
+          "items": {
+            "$ref": "#/$defs/quickReply"
+          },
+          "description": "Suggestions; a tap sends its caption as text, processed like typed input."
+        },
+        "hide_persistent": {
+          "type": "boolean",
+          "default": false
+        },
+        "max_tries": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "retry": {
+          "$ref": "#/$defs/retry"
+        },
+        "reminder": {
+          "$ref": "#/$defs/reminder"
+        },
+        "next": {
+          "$ref": "#/$defs/id"
+        },
+        "on_fail": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "choiceNode": {
+      "required": [
+        "say",
+        "options"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "notes": true,
+        "ui": {
+          "$ref": "#/$defs/ui"
+        },
+        "say": {
+          "$ref": "#/$defs/say"
+        },
+        "var": {
+          "$ref": "#/$defs/varName",
+          "description": "Optional: stores the chosen option id."
+        },
+        "options": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 13,
+          "items": {
+            "$ref": "#/$defs/option"
+          }
+        },
+        "ai_match": {
+          "description": "Classify free text into an option with the AI when no caption/synonym matches.",
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "prompt": {
+                  "$ref": "#/$defs/template"
+                }
+              }
+            }
+          ]
+        },
+        "hide_persistent": {
+          "type": "boolean",
+          "default": false
+        },
+        "no_match": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "say": {
+              "$ref": "#/$defs/say"
+            },
+            "max_tries": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "on_fail": {
+              "$ref": "#/$defs/id"
+            }
+          }
+        },
+        "reminder": {
+          "$ref": "#/$defs/reminder"
+        }
+      }
+    },
+    "conditionNode": {
+      "required": [
+        "branches",
+        "else"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "notes": true,
+        "ui": {
+          "$ref": "#/$defs/ui"
+        },
+        "branches": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "when",
+              "next"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "when": {
+                "$ref": "#/$defs/expr"
+              },
+              "next": {
+                "$ref": "#/$defs/id"
+              }
+            }
+          }
+        },
+        "else": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "setNode": {
+      "required": [
+        "assign",
+        "next"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "notes": true,
+        "ui": {
+          "$ref": "#/$defs/ui"
+        },
+        "assign": {
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": {
+            "$ref": "#/$defs/varName"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/expr"
+          }
+        },
+        "next": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "actionNode": {
+      "required": [
+        "actions",
+        "next"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "notes": true,
+        "ui": {
+          "$ref": "#/$defs/ui"
+        },
+        "actions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/action"
+          }
+        },
+        "next": {
+          "$ref": "#/$defs/id"
+        },
+        "on_error": {
+          "$ref": "#/$defs/id",
+          "description": "Default: log and continue to next."
+        }
+      }
+    },
+    "handoffNode": {
+      "required": [
+        "reason",
+        "notify"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "notes": true,
+        "ui": {
+          "$ref": "#/$defs/ui"
+        },
+        "say": {
+          "$ref": "#/$defs/say",
+          "description": "Short holding message sent to the lead before the bot goes silent."
+        },
+        "reason": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notify": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/notifySlack"
+          }
+        }
+      }
+    },
+    "endNode": {
+      "required": [
+        "outcome"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": true,
+        "notes": true,
+        "ui": {
+          "$ref": "#/$defs/ui"
+        },
+        "say": {
+          "$ref": "#/$defs/say"
+        },
+        "outcome": {
+          "$ref": "#/$defs/id"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "quick_replies": {
+          "type": "array",
+          "maxItems": 13,
+          "items": {
+            "$ref": "#/$defs/quickReply"
+          }
+        }
+      }
+    },
+    "notifySlack": {
+      "type": "object",
+      "required": [
+        "type",
+        "webhook_url"
+      ],
+      "additionalProperties": false,
+      "description": "Slack incoming-webhook alert. The server appends lead name/handle, reason, include_vars, last messages and the conversation link.",
+      "properties": {
+        "type": {
+          "const": "notify_slack"
+        },
+        "webhook_url": {
+          "$ref": "#/$defs/template"
+        },
+        "mention_user_id": {
+          "$ref": "#/$defs/template",
+          "description": "Slack member id, rendered as <@ID>."
+        },
+        "text": {
+          "$ref": "#/$defs/template",
+          "description": "Headline (template)."
+        },
+        "include_vars": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/varName"
+          }
+        },
+        "last_messages": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20,
+          "default": 6
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram DM Funnel — User experience · Orisha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <style>
+    :root{
+      --green:#21b14b; --green-s:#e8f8ee; --green-d:#167a33;
+      --blue:#00a2e7; --blue-s:#e6f6fc; --blue-d:#0077aa;
+      --amber:#e7a108; --amber-s:#fff6e0; --amber-d:#8a5a00;
+      --ink:#1a1f24; --muted:#5b6570; --line:#e6eaee; --bg:#f4f7f5; --card:#fff;
+      --radius:18px; --shadow:0 8px 28px rgba(16,36,24,.07);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:"Plus Jakarta Sans",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+    a{color:var(--blue-d)}
+    header.hero{background:linear-gradient(135deg,#21b14b 0%,#1a9e5a 45%,#00a2e7 100%);color:#fff;padding:48px 24px 40px}
+    header.hero .wrap{max-width:1120px;margin:0 auto}
+    .eyebrow{letter-spacing:.14em;text-transform:uppercase;font-size:12px;font-weight:700;opacity:.9}
+    header.hero h1{margin:8px 0 6px;font-size:clamp(28px,4vw,44px);letter-spacing:-.03em}
+    header.hero .lede{margin:0 0 18px;max-width:640px;font-size:17px;opacity:.95}
+    .switch{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--green-d);font-weight:700;text-decoration:none;padding:10px 16px;border-radius:999px;box-shadow:var(--shadow)}
+    nav.toc{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}
+    nav.toc .wrap{max-width:1120px;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 16px;padding:10px 24px;font-size:13px;font-weight:600}
+    nav.toc a{color:var(--muted);text-decoration:none}
+    nav.toc a:hover{color:var(--green-d)}
+    main{max-width:1120px;margin:0 auto;padding:36px 24px 80px}
+    section{margin:0 0 56px;scroll-margin-top:58px}
+    h2{margin:0 0 8px;font-size:26px;letter-spacing:-.02em}
+    h2 .n{color:var(--green);margin-right:8px}
+    .section-lede{margin:0 0 22px;color:var(--muted);max-width:720px}
+    .grid{display:grid;gap:16px}
+    .g-4{grid-template-columns:repeat(4,1fr)}
+    .g-3{grid-template-columns:repeat(3,1fr)}
+    .g-2{grid-template-columns:repeat(2,1fr)}
+    @media(max-width:900px){.g-4,.g-3{grid-template-columns:1fr 1fr}.g-2{grid-template-columns:1fr}}
+    @media(max-width:620px){.g-4,.g-3{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 20px 18px;box-shadow:var(--shadow)}
+    .card h3{margin:8px 0 6px;font-size:16px}
+    .card p{margin:0;color:var(--muted);font-size:14px}
+    .icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-size:20px}
+    .icon.g{background:var(--green-s)} .icon.b{background:var(--blue-s)} .icon.a{background:var(--amber-s)}
+    .pill{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px}
+    .pill.g{background:var(--green-s);color:var(--green-d)}
+    .pill.b{background:var(--blue-s);color:var(--blue-d)}
+    .pill.a{background:var(--amber-s);color:var(--amber-d)}
+    .diagram{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px 12px;box-shadow:var(--shadow);overflow:auto}
+    .outcomes{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+    .outcomes span{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600}
+    .dot{width:8px;height:8px;border-radius:50%}
+    .row{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+    .phone{width:380px;max-width:100%;background:#fff;border-radius:32px;border:1px solid #d9dee3;box-shadow:0 16px 50px rgba(16,36,24,.12);overflow:hidden;flex:0 0 380px}
+    .ig-top{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--line);background:#fafbfc}
+    .avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--blue))}
+    .ig-top strong{display:block;font-size:14px}
+    .ig-top small{color:var(--muted);font-size:11px}
+    .thread{padding:14px 0 18px;background:linear-gradient(#fff,#f7faf8)}
+    .day{text-align:center;font-size:11px;color:var(--muted);margin:4px 0 10px;font-weight:600}
+    .bubble{max-width:78%;padding:10px 14px;border-radius:18px;font-size:13.5px;line-height:1.45;white-space:pre-wrap;word-wrap:break-word}
+    .bot{background:#eef1f4;color:var(--ink);border-bottom-left-radius:5px;margin:5px auto 5px 12px}
+    .lead{background:var(--blue);color:#fff;border-bottom-right-radius:5px;margin:5px 12px 5px auto}
+    .qrs{display:flex;flex-wrap:wrap;gap:6px;margin:2px 12px 10px 12px}
+    .qr{border:1.5px solid var(--blue);color:var(--blue-d);background:#fff;border-radius:999px;padding:5px 11px;font-size:12px;font-weight:650}
+    .qr.persist{border-color:var(--green);color:var(--green-d)}
+    .pace{display:flex;align-items:center;gap:8px;margin:4px 12px 2px}
+    .typing{display:inline-flex;align-items:center;gap:5px;background:#eef1f4;padding:8px 12px;border-radius:16px;border-bottom-left-radius:5px}
+    .typing i{width:7px;height:7px;border-radius:50%;background:#8a939c;opacity:.35;animation:blink 1.2s infinite}
+    .typing i:nth-child(2){animation-delay:.2s}
+    .typing i:nth-child(3){animation-delay:.4s}
+    @keyframes blink{0%,80%,100%{opacity:.25}40%{opacity:1}}
+    .gap{font-size:11px;color:#8a939c;font-weight:650;white-space:nowrap}
+    .timeline{display:grid;grid-template-columns:1fr 28px 1fr 28px 1fr;align-items:stretch;gap:0;margin-top:8px}
+    .tl-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 14px 12px;text-align:center}
+    .tl-card strong{display:block;font-size:13px;margin:6px 0 4px}
+    .tl-card p{margin:0;font-size:12px;color:var(--muted)}
+    .tl-join{display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--muted);font-size:10px;font-weight:700;text-align:center;padding:0 2px}
+    .tl-join .line{width:100%;height:2px;background:linear-gradient(90deg,var(--green),var(--blue));margin:6px 0}
+    @media(max-width:700px){.timeline{grid-template-columns:1fr}.tl-join .line{width:2px;height:18px;margin:4px auto;background:linear-gradient(180deg,var(--green),var(--blue))}}
+    .path-label{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+    .caption{font-size:13px;color:var(--muted);margin:10px 0 0}
+    .slack{flex:1;min-width:280px;background:#1a1d21;color:#e8e9ea;border-radius:16px;overflow:hidden;box-shadow:var(--shadow);font-size:13.5px}
+    .slack-bar{background:#121417;padding:10px 14px;font-weight:700;display:flex;align-items:center;gap:8px;border-bottom:1px solid #2a2e33}
+    .hash{color:#9da3aa}
+    .slack-msg{padding:14px 16px 18px;display:flex;gap:10px}
+    .slack-av{width:36px;height:36px;border-radius:8px;background:linear-gradient(135deg,var(--green),var(--blue));flex:0 0 36px}
+    .slack-msg .who{font-weight:700;margin-right:6px}
+    .slack-msg .when{color:#9da3aa;font-size:11px}
+    .mention{background:#1d3a52;color:#7cc4e8;border-radius:4px;padding:0 4px;font-weight:700}
+    .urgent{color:#ffd166;font-weight:700}
+    .slack-kv{margin:10px 0 0;padding:10px 12px;background:#23262b;border-radius:8px;border-left:3px solid var(--green)}
+    .slack-kv div{margin:2px 0}
+    .later li{margin:0 0 8px}
+    footer{border-top:1px solid var(--line);padding:24px;text-align:center;color:var(--muted);font-size:14px}
+    footer a{font-weight:700;text-decoration:none}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Orisha · 40 Hour Farmer</div>
+      <h1>Instagram DM funnel — user experience</h1>
+      <p class="lede">A lead comments <strong>PROFIT</strong> on a post or Reel. The rest happens in English Instagram DMs: three questions, a fit check, then a call, the free masterclass, or a human from the team.</p>
+      <a class="switch" href="IG_DM_Funnel_Technical.html">Technical documentation →</a>
+    </div>
+  </header>
+  <nav class="toc">
+    <div class="wrap">
+      <a href="#criteria">Qualification</a>
+      <a href="#journey">Journey</a>
+      <a href="#pacing">Pacing</a>
+      <a href="#chat">Conversation</a>
+      <a href="#branches">Branches</a>
+      <a href="#handoff">Handoff</a>
+      <a href="#later">Out of scope / Later</a>
+    </div>
+  </nav>
+  <main>
+    <section id="criteria">
+      <h2><span class="n">01</span>Who qualifies</h2>
+      <p class="section-lede">Four bars, all required. English is judged from how the lead writes — there is no language question. v1 does not send a PDF guide.</p>
+      <div class="grid g-4">
+        <div class="card"><div class="icon g">🌎</div><h3>US or Canada</h3><p>Farm location is a US state or Canadian province.</p></div>
+        <div class="card"><div class="icon b">✍️</div><h3>English speaker</h3><p>Claude infers this from their writing. No explicit question.</p></div>
+        <div class="card"><div class="icon g">🍅</div><h3>Growing greenhouse tomatoes</h3><p>Growing them now or planning them for the coming season. Anything else is a polite close, not a call.</p></div>
+        <div class="card"><div class="icon b">💰</div><h3>Opportunity &gt; $8k</h3><p>Estimated profit opportunity must clear $8,000. The benchmark is still to be confirmed.</p></div>
+      </div>
+    </section>
+
+    <section id="journey">
+      <h2><span class="n">02</span>The journey</h2>
+      <p class="section-lede">Big picture only: how a lead enters and where they can end up. The questions and replies are in <a href="#chat">the conversation</a>. “Stop” ends it at any point.</p>
+      <div class="diagram">
+        <pre class="mermaid">
+flowchart TD
+  A["Comments PROFIT<br/>on a post or Reel"] --> B["Qualifying conversation<br/>crop, location, sales, size<br/>details in the next section"]
+  B -->|Off-script or asks for a human| H["Handoff to Phil<br/>Slack alert"]
+  B -->|Outside US and Canada| MC["Masterclass link"]
+  B -->|Not a fit for another reason| MC
+  B -->|Stops answering| N["One nudge:<br/>Have you given up on evaluating<br/>what your tomatoes can do for you?"]
+  B -->|Qualified| HS["Save their info in HubSpot"]
+  HS --> O{"Offer a call to refine their numbers<br/>and turn them into a plan together"}
+  O -->|Yes| BK["Booking link"]
+  O -->|Not now| MC
+  O -->|Not now| F["Phil follows up<br/>in a few days"]
+  S["Says stop"] --> X["Opt out, no more messages"]
+  classDef start fill:#e8f8ee,stroke:#21b14b,color:#145c2a,stroke-width:1.5px
+  classDef yes fill:#e8f8ee,stroke:#21b14b,color:#145c2a
+  classDef mc fill:#e6f6fc,stroke:#00a2e7,color:#0a5a7a
+  classDef hum fill:#fff6e0,stroke:#e7a108,color:#8a5a00
+  classDef stop fill:#f1f2f4,stroke:#88909a,color:#333
+  class A,B,HS,O,BK,N yes
+  class MC mc
+  class H,F hum
+  class X,S stop
+        </pre>
+      </div>
+      <div class="outcomes">
+        <span><i class="dot" style="background:#21b14b"></i> Book a call — primary</span>
+        <span><i class="dot" style="background:#00a2e7"></i> Masterclass — secondary, also the unqualified close</span>
+        <span><i class="dot" style="background:#e7a108"></i> Phil steps in (handoff or follow-up), alerted on Slack</span>
+        <span><i class="dot" style="background:#88909a"></i> Opt out</span>
+      </div>
+    </section>
+
+    <section id="pacing">
+      <h2><span class="n">03</span>Pacing</h2>
+      <p class="section-lede">We want a delay between messages to match the speed at which humans digest information. Sending three messages in the same second overloads the lead’s absorption and makes the conversation feel overwhelming.</p>
+      <div class="card">
+        <span class="pill g">Principle</span>
+        <h3>One beat at a time</h3>
+        <p>After the lead writes, the bot takes a short thinking pause (about 1–2 seconds). Each following message waits for a reading gap based on the length of the one before it (about 1.2 to 4 seconds). Quick-reply buttons appear only on the last message of a turn.</p>
+        <div class="timeline">
+          <div class="tl-card"><div class="icon b">💬</div><strong>Lead writes</strong><p>The bot has already returned 200 to ManyChat. Work happens in the background.</p></div>
+          <div class="tl-join"><div class="typing" aria-hidden="true"><i></i><i></i><i></i></div>≈1.5s thinking<div class="line"></div></div>
+          <div class="tl-card"><div class="icon g">1</div><strong>First bot message</strong><p>A single DM. No buttons yet if another line is coming.</p></div>
+          <div class="tl-join"><div class="typing" aria-hidden="true"><i></i><i></i><i></i></div>≈2s reading time<div class="line"></div></div>
+          <div class="tl-card"><div class="icon g">2</div><strong>Next message + buttons</strong><p>The lead has had time to absorb the first line before the question and quick replies arrive.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="chat">
+      <h2><span class="n">04</span>The conversation</h2>
+      <p class="section-lede">Actual bot copy from the funnel, shown as Instagram DMs, with thinking and reading pauses between bot lines. Green pills are the persistent “Talk to Guillaume” button. Example lead: Sam, a greenhouse tomato grower in Ontario.</p>
+      <div class="row">
+        <div>
+          <p class="path-label">Happy path · book a call</p>
+          <div class="phone">
+            <div class="ig-top">
+              <div class="avatar"></div>
+              <div><strong>40 Hour Farmer</strong><small>Instagram · replies at a human pace</small></div>
+            </div>
+            <div class="thread">
+              <div class="day">After commenting PROFIT</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈1.5s thinking</span></div>
+              <div class="bubble bot">Hey Sam! 👋 3 quick questions so I can tell you if there's money left on the table in your greenhouse.</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈2s reading time</span></div>
+              <div class="bubble bot">Are you growing greenhouse tomatoes now, or planning to next season?</div>
+              <div class="qrs">
+                <span class="qr">Greenhouse tomatoes</span>
+                <span class="qr">No</span>
+                <span class="qr persist">Talk to Guillaume</span>
+              </div>
+              <div class="bubble lead">Greenhouse tomatoes</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈1.5s thinking</span></div>
+              <div class="bubble bot">Nice! 🍅 Where's your farm located? (state or province)</div>
+              <div class="qrs"><span class="qr persist">Talk to Guillaume</span></div>
+              <div class="bubble lead">Ontario</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈1.5s thinking</span></div>
+              <div class="bubble bot">Roughly how much do you sell in tomatoes in a typical season? A ballpark is fine (e.g. $250k).</div>
+              <div class="qrs">
+                <span class="qr">Under $50k</span>
+                <span class="qr">$50k–$150k</span>
+                <span class="qr">$150k–$500k</span>
+                <span class="qr">$500k+</span>
+                <span class="qr persist">Talk to Guillaume</span>
+              </div>
+              <div class="bubble lead">about $200k</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈1.5s thinking</span></div>
+              <div class="bubble bot">Got it, thanks! And roughly how many square feet of greenhouse do you have in tomatoes?</div>
+              <div class="qrs"><span class="qr persist">Talk to Guillaume</span></div>
+              <div class="bubble lead">30,000 sq ft</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈1.5s thinking</span></div>
+              <div class="bubble bot">Based on what you shared, you could be leaving around $XX,XXX a season on the table. 💰</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈2s reading time</span></div>
+              <div class="bubble bot">Want to refine those numbers with Guillaume on a quick call, or learn on your own first?</div>
+              <div class="qrs">
+                <span class="qr">Refine my numbers</span>
+                <span class="qr">Learn on my own</span>
+                <span class="qr persist">Talk to Guillaume</span>
+              </div>
+              <div class="bubble lead">Refine my numbers</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈1.5s thinking</span></div>
+              <div class="bubble bot">Awesome! Pick a time that works for you here 👉 <a href="https://meetings.hubspot.com/guillaume177/40-hour-farmer-partnership?uuid=1dd5db9b-d7a5-447b-9f02-5355c6d74e9f" style="color:#0a5a7a">meetings.hubspot.com/guillaume177/…</a></div>
+            </div>
+          </div>
+          <p class="caption">The dollar figure is calculated from their sales and greenhouse size. The per-sq-ft benchmark is still an open item, so the chat shows a placeholder.</p>
+        </div>
+        <div style="flex:1;min-width:260px">
+          <p class="path-label">If they prefer to learn alone</p>
+          <div class="phone" style="margin-bottom:28px">
+            <div class="ig-top"><div class="avatar"></div><div><strong>40 Hour Farmer</strong><small>From the offer step</small></div></div>
+            <div class="thread">
+              <div class="bubble bot">Want to refine those numbers with Guillaume on a quick call, or learn on your own first?</div>
+              <div class="qrs">
+                <span class="qr">Refine my numbers</span>
+                <span class="qr">Learn on my own</span>
+                <span class="qr persist">Talk to Guillaume</span>
+              </div>
+              <div class="bubble lead">Learn on my own</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈1.5s thinking</span></div>
+              <div class="bubble bot">Sounds good! The free masterclass walks through it step by step 👉 <a href="https://the40hourfarmer.orisha.io/">the40hourfarmer.orisha.io</a></div>
+              <div class="qrs"><span class="qr persist">Talk to Guillaume</span></div>
+            </div>
+          </div>
+          <p class="path-label">If a number is too vague</p>
+          <div class="phone">
+            <div class="ig-top"><div class="avatar"></div><div><strong>40 Hour Farmer</strong><small>Sales question · retry</small></div></div>
+            <div class="thread">
+              <div class="bubble bot">Roughly how much do you sell in tomatoes in a typical season? A ballpark is fine (e.g. $250k).</div>
+              <div class="bubble lead">decent</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈1.5s thinking</span></div>
+              <div class="bubble bot">Just a rough number works, e.g. "about $120k" or tap a range below.</div>
+              <div class="qrs">
+                <span class="qr">Under $50k</span>
+                <span class="qr">$50k–$150k</span>
+                <span class="qr">$150k–$500k</span>
+                <span class="qr">$500k+</span>
+                <span class="qr persist">Talk to Guillaume</span>
+              </div>
+            </div>
+          </div>
+          <p class="caption">Square footage has a similar retry: “A rough estimate is fine, e.g. "10,000 sq ft" or "half an acre".” After max tries, the bot hands off to a human rather than guessing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="branches">
+      <h2><span class="n">05</span>Branches and outcomes</h2>
+      <p class="section-lede">Every path ends with a clear next step. Unqualified leads are not left hanging — they get a short close and the masterclass.</p>
+      <div class="grid g-2" style="margin-bottom:24px">
+        <div class="card">
+          <span class="pill g">Primary</span>
+          <h3>Book a call</h3>
+          <p>Qualified + “Refine my numbers.” They receive Guillaume’s HubSpot booking link.</p>
+        </div>
+        <div class="card">
+          <span class="pill b">Secondary</span>
+          <h3>Masterclass</h3>
+          <p>Qualified + “Learn on my own,” or an unqualified close. Link: the40hourfarmer.orisha.io</p>
+        </div>
+        <div class="card">
+          <span class="pill a">Human</span>
+          <h3>Talk to the team</h3>
+          <p>They tap Talk to Guillaume, ask for a person, or the bot cannot parse numbers. A holding DM, then a human replies in Instagram.</p>
+        </div>
+        <div class="card">
+          <span class="pill">Stop</span>
+          <h3>Opt out</h3>
+          <p>They say “stop,” “unsubscribe,” or “leave me alone.” Copy: “No problem, I won't message you again. Have a great season! 🍅”</p>
+        </div>
+      </div>
+      <p class="path-label">Unqualified close — same message for crop, geography/language, or low opportunity</p>
+      <div class="phone">
+        <div class="ig-top"><div class="avatar"></div><div><strong>40 Hour Farmer</strong><small>Not a fit for a call</small></div></div>
+        <div class="thread">
+          <div class="bubble bot">Thanks for sharing! This isn't the right fit for a call right now, but you're welcome to the free masterclass — it walks through the approach step by step 👉 <a href="https://the40hourfarmer.orisha.io/">the40hourfarmer.orisha.io</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="handoff">
+      <h2><span class="n">06</span>When a human takes over</h2>
+      <p class="section-lede">The bot never pretends after this point. The lead gets a short holding message. Phil gets a Slack alert and should reply swiftly — ideally in the Instagram app, which has no 24-hour limit.</p>
+      <div class="grid g-2" style="margin-bottom:24px">
+        <div>
+          <p class="path-label">Lead asked for a person</p>
+          <div class="phone">
+            <div class="ig-top"><div class="avatar"></div><div><strong>40 Hour Farmer</strong><small>Handoff</small></div></div>
+            <div class="thread">
+              <div class="qrs"><span class="qr persist">Talk to Guillaume</span></div>
+              <div class="bubble lead">Talk to Guillaume</div>
+              <div class="pace"><div class="typing" aria-label="typing"><i></i><i></i><i></i></div><span class="gap">≈1.5s thinking</span></div>
+              <div class="bubble bot">Sure! I've let the team know. Someone will reply right here in the DMs very soon.</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="path-label">Numbers could not be parsed</p>
+          <div class="phone">
+            <div class="ig-top"><div class="avatar"></div><div><strong>40 Hour Farmer</strong><small>Handoff</small></div></div>
+            <div class="thread">
+              <div class="bubble bot">Thanks for bearing with me! Numbers can be tricky over DM, so I've asked the team to jump in. Someone will reply right here soon.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="path-label">What Phil sees on Slack</p>
+      <div class="slack">
+        <div class="slack-bar"><span class="hash">#</span> ig-handoffs</div>
+        <div class="slack-msg">
+          <div class="slack-av"></div>
+          <div>
+            <span class="who">Profit funnel</span><span class="when">just now</span>
+            <div style="margin-top:6px"><span class="mention">@Phil</span></div>
+            <div class="urgent">🚨 PROFIT lead asked for a human. Please reply swiftly in Instagram, the lead is waiting.</div>
+            <div style="margin-top:6px">Please reply swiftly — the lead is waiting.</div>
+            <div class="slack-kv">
+              <div><strong>Lead:</strong> Sam (IG @samfarms)</div>
+              <div><strong>Reason:</strong> Lead asked for a human</div>
+              <div><strong>Captured:</strong> crop: greenhouse tomatoes · country: CA · region: Ontario · season_sales: $200,000 · greenhouse_sqft: 30,000 · profit_opportunity: — · qualified: —</div>
+              <div><strong>Recent messages:</strong> LEAD: Talk to Guillaume · BOT: Sure! I've let the team know…</div>
+              <div style="margin-top:8px;color:#9da3aa">If a Live Chat link is configured, it appears here. Otherwise: reply directly in the Instagram app (no 24h limit for native app replies).</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="later">
+      <h2><span class="n">07</span>Out of scope / Later</h2>
+      <p class="section-lede">Deferred past v1 — not in the first launch.</p>
+      <div class="grid g-2">
+        <div class="card"><h3>PDF guide lead magnet</h3><p>v1 sends no guide. Later: mention it in the welcome and send the PDF to every lead, qualified or not.</p></div>
+        <div class="card"><h3>Dedup and out-of-order handling</h3><p>v1 processes events as they arrive. A duplicate can repeat a step; an out-of-order reply can hit the wrong question. Later: dedupe and a per-contact queue.</p></div>
+        <div class="card"><h3>Charts and images in DMs</h3><p>On hold. The conversation is text and quick-reply buttons only.</p></div>
+        <div class="card"><h3>Orisha’s own Meta app</h3><p>No App Review. Instagram access stays through ManyChat’s official connection.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Orisha · 40 Hour Farmer · User experience
+    · <a href="IG_DM_Funnel_Technical.html">Technical documentation →</a>
+  </footer>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "base",
+      securityLevel: "loose",
+      themeVariables: {
+        primaryColor: "#e8f8ee",
+        primaryTextColor: "#1a1f24",
+        primaryBorderColor: "#21b14b",
+        lineColor: "#00a2e7",
+        secondaryColor: "#e6f6fc",
+        tertiaryColor: "#f4f7f5",
+        fontFamily: "Plus Jakarta Sans, system-ui, sans-serif",
+        fontSize: "15px"
+      },
+      flowchart: { curve: "basis", htmlLabels: true, padding: 12 }
+    });
+  </script>
+</body>
+</html>

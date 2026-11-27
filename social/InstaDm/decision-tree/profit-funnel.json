@@ -1,0 +1,596 @@
+{
+  "$schema": "./decision-tree.schema.json",
+  "dsl_version": "1.0",
+  "tree": {
+    "id": "profit_funnel",
+    "name": "PROFIT comment funnel (greenhouse tomatoes)",
+    "version": 1,
+    "language": "en",
+    "description": "Comment PROFIT -> qualify (US/CA, English, greenhouse tomatoes, profit opportunity > $8k) -> call (primary) or masterclass (secondary). v1 sends no PDF guide.",
+    "updated_at": "2026-11-22T18:30:00-05:00",
+    "updated_by": "Guillaume Lambert",
+    "redirects": {}
+  },
+  "config": {
+    "inbound_url": "https://your-server.com/ig-inbound",
+    "ai": {
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "max_tokens": 300,
+      "temperature": 0,
+      "system_preamble": "You help Guillaume from Orisha qualify greenhouse tomato growers over Instagram DM. Always write in English, friendly and brief (1-2 short sentences, DM style, no markdown)."
+    },
+    "window_hours": 24,
+    "max_messages_per_send": 10,
+    "on_inbound_after_end": "ignore",
+    "default_max_tries": 2,
+    "transcript_size": 20,
+    "pacing": {
+      "base_ms": 800,
+      "per_char_ms": 40,
+      "min_ms": 1200,
+      "max_ms": 4000,
+      "thinking_ms": 1500
+    }
+  },
+  "constants": {
+    "BOOKING_URL": "https://meetings.hubspot.com/guillaume177/40-hour-farmer-partnership?uuid=1dd5db9b-d7a5-447b-9f02-5355c6d74e9f",
+    "MASTERCLASS_URL": "https://the40hourfarmer.orisha.io/",
+    "BENCHMARK_PER_SQFT": null,
+    "PROFIT_THRESHOLD": 8000,
+    "CAD_TO_USD": 0.73,
+    "SLACK_HANDOFF_WEBHOOK_URL": null,
+    "SLACK_PHIL_USER_ID": null
+  },
+  "variables": {
+    "crop": {
+      "type": "enum",
+      "values": [
+        "greenhouse_tomatoes",
+        "other"
+      ],
+      "manychat_field": "ig_crop"
+    },
+    "country": {
+      "type": "string",
+      "manychat_field": "ig_country",
+      "description": "ISO-2 code, e.g. US, CA"
+    },
+    "region": {
+      "type": "string",
+      "manychat_field": "ig_region"
+    },
+    "english_speaker": {
+      "type": "boolean",
+      "manychat_field": "ig_english"
+    },
+    "season_sales": {
+      "type": "number",
+      "manychat_field": "season_sales",
+      "description": "Typical season tomato sales, USD"
+    },
+    "greenhouse_sqft": {
+      "type": "number",
+      "manychat_field": "ig_greenhouse_sqft"
+    },
+    "profit_opportunity": {
+      "type": "number",
+      "manychat_field": "ig_profit_opportunity"
+    },
+    "qualified": {
+      "type": "boolean",
+      "default": false,
+      "manychat_field": "ig_qualified"
+    },
+    "disqualify_reason": {
+      "type": "enum",
+      "values": [
+        "crop",
+        "geo_language",
+        "low_opportunity"
+      ],
+      "manychat_field": "ig_dq_reason"
+    },
+    "next_step": {
+      "type": "string",
+      "manychat_field": "ig_next_step"
+    }
+  },
+  "triggers": [
+    {
+      "id": "profit_comment",
+      "type": "comment_keyword",
+      "keyword": "PROFIT",
+      "start": "welcome",
+      "reset_variables": true
+    },
+    {
+      "id": "profit_dm",
+      "type": "dm_keyword",
+      "keyword": "PROFIT",
+      "start": "welcome",
+      "reset_variables": true
+    }
+  ],
+  "global_intents": [
+    {
+      "id": "human",
+      "keywords": [
+        "talk to guillaume",
+        "human",
+        "real person",
+        "speak to someone",
+        "call me"
+      ],
+      "match": "phrase",
+      "ai_description": "The lead asks to talk to a real person or to Guillaume.",
+      "goto": "handoff_request"
+    },
+    {
+      "id": "stop",
+      "keywords": [
+        "stop",
+        "unsubscribe",
+        "leave me alone"
+      ],
+      "match": "exact",
+      "goto": "opt_out"
+    }
+  ],
+  "persistent_quick_replies": [
+    {
+      "caption": "Talk to Guillaume",
+      "type": "callback"
+    }
+  ],
+  "start": "welcome",
+  "nodes": {
+    "welcome": {
+      "type": "message",
+      "say": [
+        "Hey {{contact.first_name | default:\"there\"}}! 👋 3 quick questions so I can tell you if there's money left on the table in your greenhouse."
+      ],
+      "next": "q_crop",
+      "ui": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "q_crop": {
+      "type": "choice",
+      "say": [
+        "Are you growing greenhouse tomatoes now, or planning to next season?"
+      ],
+      "var": "crop",
+      "options": [
+        {
+          "id": "greenhouse_tomatoes",
+          "caption": "Greenhouse tomatoes",
+          "synonyms": [
+            "tomatoes",
+            "tomato"
+          ],
+          "ai_hint": "Grows or will grow tomatoes in a greenhouse, high tunnel or other protected structure in the coming season",
+          "next": "q_location"
+        },
+        {
+          "id": "other",
+          "caption": "No",
+          "ai_hint": "Not growing or planning greenhouse tomatoes for the coming season (other crops, open field only, hobby)",
+          "next": "dq_crop"
+        }
+      ],
+      "ai_match": true,
+      "no_match": {
+        "say": [
+          "Sorry, I didn't catch that. Are you growing greenhouse tomatoes, or planning to next season?"
+        ],
+        "max_tries": 2,
+        "on_fail": "dq_crop"
+      },
+      "ui": {
+        "x": 0,
+        "y": 140
+      }
+    },
+    "q_location": {
+      "type": "ask",
+      "say": [
+        "Nice! 🍅 Where's your farm located? (state or province)"
+      ],
+      "save": {
+        "country": "country",
+        "region": "region",
+        "is_english": "english_speaker"
+      },
+      "extract": {
+        "method": "ai",
+        "prompt": "Extract where the lead's farm is. country = ISO-2 code (US, CA, MX...). A US state or Canadian province alone implies the country. region = state/province name. is_english = true if the lead writes in fluent English. If the location is too vague to know the country, ask a short follow-up.",
+        "output": {
+          "type": "object",
+          "fields": {
+            "country": {
+              "type": "string"
+            },
+            "region": {
+              "type": "string"
+            },
+            "is_english": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "country",
+            "is_english"
+          ]
+        }
+      },
+      "max_tries": 2,
+      "retry": {
+        "mode": "ai_followup",
+        "say": [
+          "Which state or province is your farm in?"
+        ]
+      },
+      "next": "c_geo",
+      "on_fail": "dq_geo",
+      "ui": {
+        "x": -200,
+        "y": 280
+      }
+    },
+    "c_geo": {
+      "type": "condition",
+      "branches": [
+        {
+          "label": "US/CA + English",
+          "when": "country in [\"US\", \"CA\"] and english_speaker == true",
+          "next": "q_sales"
+        }
+      ],
+      "else": "dq_geo",
+      "ui": {
+        "x": -200,
+        "y": 420
+      }
+    },
+    "q_sales": {
+      "type": "ask",
+      "say": [
+        "Roughly how much do you sell in tomatoes in a typical season? A ballpark is fine (e.g. $250k)."
+      ],
+      "var": "season_sales",
+      "quick_replies": [
+        {
+          "caption": "Under $50k"
+        },
+        {
+          "caption": "$50k–$150k"
+        },
+        {
+          "caption": "$150k–$500k"
+        },
+        {
+          "caption": "$500k+"
+        }
+      ],
+      "extract": {
+        "method": "ai",
+        "prompt": "Extract the lead's TYPICAL SEASON TOMATO SALES (gross revenue) as a number in USD.\nRules:\n- Shorthand: k = thousand, m/mil = million (250k -> 250000, 1.2M -> 1200000).\n- A range -> midpoint (200-300k -> 250000). 'Under X' -> X/2. 'X+' -> X.\n- Currency: if the lead says CAD/C$/Canadian dollars, or gives no currency and country is CA, multiply by {{CAD_TO_USD}}. Lead's country: {{country}}.\n- Volume x price: if they give a volume (lbs, kg, cases) AND a price per unit, multiply. Volume without price -> ask their average price per lb.\n- Weekly/monthly figures: convert only if they say how many weeks/months they sell; otherwise ask.\n- It must be SALES, not profit, margin or net income. If they give profit, ask for total sales.\n- Plausible range: 1000 to 5000000 USD. Outside it, ask them to double-check.\n- Vague answers ('decent', 'not much') or 'I don't know' -> ask for a rough ballpark and mention they can tap a range.",
+        "output": {
+          "type": "number",
+          "min": 1000,
+          "max": 5000000
+        }
+      },
+      "max_tries": 3,
+      "retry": {
+        "mode": "ai_followup",
+        "say": [
+          "Just a rough number works, e.g. \"about $120k\" or tap a range below."
+        ]
+      },
+      "reminder": {
+        "after_minutes": 180,
+        "say": [
+          "No rush. A rough ballpark is totally fine 🙂"
+        ],
+        "max": 1
+      },
+      "next": "q_sqft",
+      "on_fail": "handoff_numbers",
+      "ui": {
+        "x": -200,
+        "y": 560
+      }
+    },
+    "q_sqft": {
+      "type": "ask",
+      "say": [
+        "Got it, thanks! And roughly how many square feet of greenhouse do you have in tomatoes?"
+      ],
+      "var": "greenhouse_sqft",
+      "extract": {
+        "method": "ai",
+        "prompt": "Extract the tomato greenhouse growing area in square feet. Conversions: 1 acre = 43560 sq ft, 1 hectare = 107639 sq ft, 1 m2 = 10.764 sq ft. Ranges -> midpoint. Shorthand k = thousand. Plausible: 200 to 20000000 sq ft; otherwise ask to double-check. If they only give a number of greenhouses/bays, ask their approximate size.",
+        "output": {
+          "type": "number",
+          "min": 200,
+          "max": 20000000
+        }
+      },
+      "max_tries": 2,
+      "retry": {
+        "mode": "ai_followup",
+        "say": [
+          "A rough estimate is fine, e.g. \"10,000 sq ft\" or \"half an acre\"."
+        ]
+      },
+      "next": "compute_opportunity",
+      "on_fail": "handoff_numbers",
+      "notes": "OPEN ITEM: confirm this question and the benchmark with Guillaume.",
+      "ui": {
+        "x": -200,
+        "y": 700
+      }
+    },
+    "compute_opportunity": {
+      "type": "set",
+      "assign": {
+        "profit_opportunity": "max(0, round(greenhouse_sqft * BENCHMARK_PER_SQFT - season_sales))"
+      },
+      "next": "c_qualified",
+      "notes": "OPEN ITEM: placeholder formula (benchmark sales per sq ft minus actual sales). BENCHMARK_PER_SQFT must be set before publishing.",
+      "ui": {
+        "x": -200,
+        "y": 840
+      }
+    },
+    "c_qualified": {
+      "type": "condition",
+      "branches": [
+        {
+          "label": "> $8k",
+          "when": "profit_opportunity > PROFIT_THRESHOLD",
+          "next": "mark_qualified"
+        }
+      ],
+      "else": "dq_low",
+      "ui": {
+        "x": -200,
+        "y": 980
+      }
+    },
+    "mark_qualified": {
+      "type": "action",
+      "actions": [
+        {
+          "type": "add_tag",
+          "tag": "ig_qualified"
+        },
+        {
+          "type": "log",
+          "event": "lead_qualified"
+        }
+      ],
+      "next": "set_qualified",
+      "ui": {
+        "x": -400,
+        "y": 1120
+      }
+    },
+    "set_qualified": {
+      "type": "set",
+      "assign": {
+        "qualified": "true"
+      },
+      "next": "offer",
+      "ui": {
+        "x": -400,
+        "y": 1200
+      }
+    },
+    "offer": {
+      "type": "choice",
+      "say": [
+        "Based on what you shared, you could be leaving around {{profit_opportunity | money}} a season on the table. 💰",
+        "Want to refine those numbers with Guillaume on a quick call, or learn on your own first?"
+      ],
+      "var": "next_step",
+      "options": [
+        {
+          "id": "call",
+          "caption": "Refine my numbers",
+          "synonyms": [
+            "call",
+            "book",
+            "yes"
+          ],
+          "ai_hint": "Wants a call or to talk numbers with Guillaume",
+          "next": "send_booking"
+        },
+        {
+          "id": "self_learn",
+          "caption": "Learn on my own",
+          "synonyms": [
+            "masterclass",
+            "later",
+            "no"
+          ],
+          "ai_hint": "Prefers to learn alone, masterclass, or not now",
+          "next": "send_masterclass"
+        }
+      ],
+      "ai_match": true,
+      "no_match": {
+        "say": [
+          "Would you like a quick call to refine your numbers, or to learn on your own?"
+        ],
+        "max_tries": 2,
+        "on_fail": "send_masterclass"
+      },
+      "ui": {
+        "x": -400,
+        "y": 1300
+      }
+    },
+    "send_booking": {
+      "type": "end",
+      "say": [
+        "Awesome! Pick a time that works for you here 👉 {{BOOKING_URL}}"
+      ],
+      "outcome": "call_link_sent",
+      "tags": [
+        "ig_call_link_sent"
+      ],
+      "ui": {
+        "x": -600,
+        "y": 1440
+      }
+    },
+    "send_masterclass": {
+      "type": "end",
+      "say": [
+        "Sounds good! The free masterclass walks through it step by step 👉 {{MASTERCLASS_URL}}"
+      ],
+      "outcome": "masterclass_link_sent",
+      "tags": [
+        "ig_masterclass_link_sent"
+      ],
+      "quick_replies": [
+        {
+          "caption": "Talk to Guillaume"
+        }
+      ],
+      "ui": {
+        "x": -300,
+        "y": 1440
+      }
+    },
+    "dq_crop": {
+      "type": "set",
+      "assign": {
+        "disqualify_reason": "\"crop\""
+      },
+      "next": "close_unqualified",
+      "ui": {
+        "x": 300,
+        "y": 280
+      }
+    },
+    "dq_geo": {
+      "type": "set",
+      "assign": {
+        "disqualify_reason": "\"geo_language\""
+      },
+      "next": "close_unqualified",
+      "ui": {
+        "x": 300,
+        "y": 420
+      }
+    },
+    "dq_low": {
+      "type": "set",
+      "assign": {
+        "disqualify_reason": "\"low_opportunity\""
+      },
+      "next": "close_unqualified",
+      "ui": {
+        "x": 100,
+        "y": 1120
+      }
+    },
+    "handoff_numbers": {
+      "type": "handoff",
+      "say": [
+        "Thanks for bearing with me! Numbers can be tricky over DM, so I've asked the team to jump in. Someone will reply right here soon."
+      ],
+      "reason": "Could not extract sales or greenhouse size after max tries",
+      "tags": [
+        "human_handoff"
+      ],
+      "ui": {
+        "x": 100,
+        "y": 700
+      },
+      "notify": [
+        {
+          "type": "notify_slack",
+          "webhook_url": "{{SLACK_HANDOFF_WEBHOOK_URL}}",
+          "mention_user_id": "{{SLACK_PHIL_USER_ID}}",
+          "text": "🚨 PROFIT lead needs help with their numbers (bot couldn't parse them). Please reply swiftly in Instagram.",
+          "include_vars": [
+            "crop",
+            "country",
+            "region",
+            "season_sales",
+            "greenhouse_sqft",
+            "profit_opportunity",
+            "qualified"
+          ],
+          "last_messages": 6
+        }
+      ]
+    },
+    "handoff_request": {
+      "type": "handoff",
+      "say": [
+        "Sure! I've let the team know. Someone will reply right here in the DMs very soon."
+      ],
+      "reason": "Lead asked for a human",
+      "tags": [
+        "human_handoff"
+      ],
+      "ui": {
+        "x": 600,
+        "y": 0
+      },
+      "notify": [
+        {
+          "type": "notify_slack",
+          "webhook_url": "{{SLACK_HANDOFF_WEBHOOK_URL}}",
+          "mention_user_id": "{{SLACK_PHIL_USER_ID}}",
+          "text": "🚨 PROFIT lead asked for a human. Please reply swiftly in Instagram, the lead is waiting.",
+          "include_vars": [
+            "crop",
+            "country",
+            "region",
+            "season_sales",
+            "greenhouse_sqft",
+            "profit_opportunity",
+            "qualified"
+          ],
+          "last_messages": 6
+        }
+      ]
+    },
+    "opt_out": {
+      "type": "end",
+      "say": [
+        "No problem, I won't message you again. Have a great season! 🍅"
+      ],
+      "outcome": "opted_out",
+      "tags": [
+        "ig_opted_out"
+      ],
+      "ui": {
+        "x": 600,
+        "y": 140
+      }
+    },
+    "close_unqualified": {
+      "type": "end",
+      "say": [
+        "Thanks for sharing! This isn't the right fit for a call right now, but you're welcome to the free masterclass — it walks through the approach step by step 👉 {{MASTERCLASS_URL}}"
+      ],
+      "outcome": "unqualified_closed",
+      "tags": [
+        "ig_unqualified"
+      ],
+      "ui": {
+        "x": 300,
+        "y": 1300
+      }
+    }
+  }
+}
